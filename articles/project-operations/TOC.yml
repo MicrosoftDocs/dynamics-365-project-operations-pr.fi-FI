@@ -1,0 +1,954 @@
+- name: Dynamics 365 Project Operations
+  href: project-operations-home-page.md
+- name: Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+  items:
+    - name: Myyntiprosessi
+      items:
+        - name: Myynnin yleiskatsaus
+          href: sales/sales-overview.md
+        - name: Tärkeimmät erot
+          href: sales/key-differences.md
+        - name: Määritys
+          items:
+            - name: Tuotteet
+              href: sales/sales-products.md
+            - name: Yksiköt ja yksikköryhmät
+              href: sales/sales-units-unit-groups.md
+            - name: Valuutta
+              href: sales/sales-currency.md
+        - name: Liidien hallinta
+          href: sales/managing-leads.md
+        - name: Mahdollisuuksien hallinta
+          items:
+            - name: Mahdollisuuden ylätunniste
+              href: sales/opportunity-header.md
+            - name: Tuotepohjaiset rivit
+              href: sales/product-based-lines.md
+            - name: Projektipohjaiset rivit
+              href: sales/project-based-lines.md
+            - name: Tarjousten ja mahdollisuuksien linkittäminen
+              href: sales/link-quotes-opportunities.md
+            - name: Mahdollisuuden sulkeminen
+              href: sales/close-opportunity.md
+        - name: Tarjousten hallinta
+          items:
+            - name: Keskeiset käsitteet
+              href: sales/quotes-key-concepts.md
+            - name: 'Tarjouksen arvojen, asiakkaan budjettien ja ei-ylitettävien rajoitusten hallinta'
+              href: sales/quote-values-budgets-limits.md
+            - name: Useiden asiakkaiden hallinta tarjouksessa
+              href: sales/manage-multiple-customers-quote.md
+            - name: Tuotepohjaiset tarjousrivit
+              item:
+                - name: Kustannuslaskennan tuotepohjaiset tarjousrivit
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Tuotepohjaisten tarjousrivien monitasoisten yksiköiden hallinta
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Projektipohjaiset tarjousrivit
+              items:
+                - name: Projektin hinnastojen hallinta
+                  href: sales/managing-project-price-lists.md
+                - name: Useiden asiakkaiden hallinta tarjousrivillä
+                  href: sales/managing-multiple-customers-quote-line.md
+                - name: Projektien ja tehtävien yhdistäminen tarjousriville
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: Arvioiden luominen tarjousrivillä
+                  href: sales/create-estimate-quote-line.md
+                - name: Arvioiden tuonti projektista tarjousriville
+                  href: sales/import-estimate-project-quote-line.md
+                - name: 'Tarjouksen arvojen, asiakkaan budjettien ja ei-ylitettävien rajoitusten hallinta'
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: Laskutusaikataulut tarjousrivillä
+                  href: sales/invoice-schedule-quote-line
+            - name: Tarjouksen voittaminen
+              href: sales/win-quote.md
+            - name: Tarjouksen häviäminen
+              href: sales/lose-quote.md
+        - name: Palvelusopimusten hallinta
+          items:
+            - name: Keskeiset käsitteet
+              href: sales/contacts-key-concepts.md
+            - name: 'Palvelusopimuksen arvojen, asiakkaan budjettien ja ei-ylitettävien rajoitusten hallinta'
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: Useiden asiakkaiden hallinta palvelusopimuksessa
+              href: sales/manage-multiple-customers-contract.md
+            - name: Tuotepohjaiset sopimusrivit
+              items:
+                - name: Kustannuslaskennan tuotepohjaiset sopimusrivit
+                  href: sales/cost-product-based-contract-lines.md
+                - name: Tuotepohjaisten sopimusrivien monitasoisten yksiköiden hallinta
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: Projektipohjaiset sopimusrivit
+              items:
+                - name: Projektin hinnastojen hallinta
+                  href: sales/manage-project-price-lists.md
+                - name: Useiden asiakkaiden hallinta sopimusrivillä
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: Projektien ja tehtävien yhdistäminen sopimusriville
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: Arvioiden luonti projektista sopimusriville
+                  href: sales/create-estimate-project-contract-line.md
+                - name: Arvioiden tuonti projektista sopimusriville
+                  href: sales/import-estimate-project-contract-line.md
+                - name: 'Palvelusopimuksen arvojen, asiakkaan budjettien ja ei-ylitettävien rajoitusten hallinta tarjousrivillä'
+                  href: sales/manage-quoted-values-budgets-limits-quote-line.md
+                - name: Laskutusaikataulut tarjousrivillä
+                  href: sales/invoice-schedules-quote-line.md
+            - name: Palvelusopimuksen vahvistaminen
+              href: sales/confirm-contract.md
+            - name: Palvelusopimuksen sulkeminen työ suoritettuna
+              href: sales/close-contract-work-completed.md
+            - name: Palvelusopimuksen sulkeminen peruutettuna
+              href: sales/close-contract-canceled.md
+    - name: Hinnoittelu ja kustannuslaskenta
+      items:
+        - name: Tuotehinnastot
+          href: pricing-costing/product-price-list.md
+        - name: Projektihinnastot
+          items:
+            - name: Kustannushinnasto
+              items:
+                - name: Kustannushinnastojen määrittäminen
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: Hinnaston oletukset
+                  href: pricing-costing/cost-price-list-default.md
+                - name: Oletusten ohittaminen
+                  href: pricing-costing/cost-override-default.md
+            - name: Myyntihinnaston määritykset
+              items:
+                - name: Myyntihinnaston määrittäminen
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Myyntihinnaston oletukset
+                  href: pricing-costing/sales-price-list-default.md
+                - name: Oletusten ohittaminen
+                  href: pricing-costing/sales-override-default.md
+        - name: Hinnoitteludimensiot
+          items:
+            - name: Hinnoitteludimensioiden yleiskatsaus
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Aiemmin luodun kentän käyttäminen Project Operationsin hinnoitteludimensiona
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Mukautetut kentät hinnoitteludimensioina
+              items:
+                - name: Mukautettujen kenttien ja entiteettien luominen hinnoitteludimensioina
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Mukautettujen kenttien lisääminen hintamääritys- ja tapahtumaentiteetteihin
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Hinnoitteludimension poistaminen käytöstä
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: Projektinhallinta
+      items:
+        - name: Projektinhallinnan yleiskatsaus
+          href: project-management/project-management-overview.md
+        - name: Projektin vaiheet
+          href: project-management/project-stages.md
+        - name: Käyttöliittymässä siirtyminen
+          href: project-management/navigate-ui.md
+        - name: Tietoja projektin tilasta
+          href: project-management/understand-project-status.md
+        - name: Projektikalenterien määrittäminen
+          href: project-management/define-project-calendars.md
+        - name: Projektin luominen
+          items:
+            - name: Alustavien arvioiden luominen
+              href: project-management/create-initial-estimates.md
+            - name: Projektikalenterin määrittäminen
+              href: project-management/set-project-calendar.md
+            - name: Projektin valuutan määrittäminen
+              href: project-management/set-project-currency.md
+            - name: Asiakkaan määrittäminen
+              href: project-management/set-customer.md
+            - name: Ryhmän lisääminen
+              href: project-management/add-group.md
+        - name: Projektin päivittäminen
+          href: project-management/update-project.md
+        - name: Projektin kopioiminen
+          href: project-management/copy-project.md
+        - name: Työrakenteen suunnitteleminen
+          items:
+            - name: Työrakenteen luominen
+              items:
+                - name: Tehtävien luominen
+                  href: project-management/wbs-create-tasks.md
+                - name: 'Tehtävien kopioiminen, leikkaaminen ja liittäminen'
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: Tehtävien kumoaminen ja tekeminen uudelleen
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: Työrakenteen hierarkia
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: Tehtävien joukkopäivitykset
+                  href: project-management/bulk-task-updates.md
+                - name: Tehtävän tietojen muokkaaminen
+                  href: project-management/edit-task-details.md
+            - name: Delegointien luominen
+              items:
+                - name: Aiemmin luotujen resurssien lisääminen
+                  href: project-management/add-existing-resources.md
+                - name: Yleisten resurssien lisääminen
+                  href: project-management/add-generic-resources.md
+                - name: 'Tietoja delegointien vaikutuksesta tehtävän työmäärään, kestoon ja päättymispäivään'
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Delegoinnin jakautumisen tarkasteleminen
+                  href: project-management/view-assignment-contours.md
+            - name: Tehtävienhallinnassa siirtyminen
+              items:
+                - name: Sarakkeen hallinta
+                  href: project-management/column-management.md
+                - name: Näkymät
+                  href: project-management/task-management-views.md
+                - name: Säilöt
+                  href: project-management/task management-buckets.md
+        - name: Projektien arviointi
+          items:
+            - name: Projektien arvioinnin yleiskatsaus
+              href: project-management/estimating-projects-overview.md
+            - name: Resurssiarviot
+              items:
+                - name: Projektisuunnitelmaan tehtyjen muutosten tuominen näkyviin lataamalla projektiarviot uudelleen
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Projektiarvioiden hintojen ja kustannushintojen lataaminen uudelleen
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Resurssin kustannushinnan ja kustannusvaluutan oletusarvot
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: Resurssin laskutushinnan ja myyntivaluutan oletusarvot
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: Kuluarvioiden luominen
+              items:
+                - name: Kulun kustannushinnan ja kustannusvaluutan oletusarvot
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: Kulun laskutushinnan ja myyntivaluutan oletusarvot
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: Tarjousten ja palvelusopimusten muodostaminen
+          items:
+            - name: Työrakenteen tuonti tarjouksiin
+              href: project-management/import-wbs-structure-quotes.md
+            - name: Työrakenteen tuonti palvelusopimuksiin
+              href: project-management/import-wbs-structure-contracts.md
+        - name: Projektin seuranta
+          items:
+            - name: Projekti seurannan aloitussivu
+              href: project-management/project-tracking-overview.md
+            - name: Sarakkeen määritykset
+              items:
+                - name: Työmäärä
+                  href: project-management/effort.md
+                - name: Kustannus
+                  href: project-management/cost.md
+                - name: Myynti
+                  href: project-management/sales.md
+            - name: Valmistumisen kustannusarvion päivittäminen
+              href: project-management/update-completed-estimate.md
+        - name: Projektiryhmän jäsenet
+          items:
+            - name: Projektiryhmän jäsenten yleiskatsaus
+              href: project-management/project-team-members-overview.md
+            - name: Ryhmän jäsenten ylläpitäminen
+              items:
+                - name: Ryhmän jäsenten lisääminen
+                  href: project-management/add-team-members.md
+                - name: Projektiryhmän jäsenten päivittäminen
+                  href: project-management/update-project-team-members.md
+                - name: Ryhmän jäsenten poistaminen
+                  href: project-management/delete-team-members.md
+                - name: Varausten ylläpitäminen
+                  href: project-management/maintain-bookings.md
+                - name: Projektin hyväksyjät
+                  href: project-management/project-approvers.md
+        - name: Myynti
+          items:
+            - name: Myynti-välilehden yleiskatsaus
+              href: project-management/sales-tab-overview.md
+        - name: Yhteistyö
+          items:
+            - name: Ryhmät
+              href: project-management/groups.md
+        - name: Projektin suunnittelun usein kysytyt kysymykset
+          href: project-management/project-planning-faq.md
+    - name: Resurssien hallinta
+      items:
+        - name: Resurssien hallinnan yleiskatsaus
+          href: resource-management/resource-management-overview.md
+        - name: Keskeiset käsitteet
+          href: resource-management/resource-management-key-concepts.md
+        - name: Varausten ja delegointien vertailu
+          href: resource-management/booking-vs-assignment.md
+        - name: Resurssien hallintatilat
+          items:
+            - name: Resurssien hallintatilan yleiskatsaus
+              href: resource-management/resource-management-mode-overview.md
+            - name: Hybridi
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: Keskitetty
+              href: resource-management/resource-management-mode-central.md
+        - name: Keskitetty varaus
+          items:
+            - name: Keskitetyn varauksen yleiskatsaus
+              href: resource-management/centralized-booking-overview.md
+            - name: Yleisten ryhmän jäsenten lisääminen tehtäviin
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: Resurssitarpeiden määrittäminen
+              href: resource-management/define-resource-requirements.md
+            - name: Tarpeen jakautumisen määrittäminen
+              href: resource-management/define-resource-requirement-contours.md
+            - name: Resurssitarpeiden päivittäminen
+              href: resource-management/update-resource-requirements.md
+            - name: Resurssitarpeiden lähettäminen
+              href: resource-management/submit-resource-requirements.md
+            - name: Resurssipyynnöt
+              items:
+                - name: Resurssipyyntöjen yleiskatsaus
+                  href: resource-management/resource-requests-overview.md
+                - name: Kenttien ja toimintojen tarkasteleminen
+                  href: resource-management/review-fields-actions.md
+                - name: Resurssien etsiminen
+                  href: resource-management/find-resources.md
+                - name: Ehdotettujen resurssien tarkasteleminen
+                  href: resource-management/review-proposed-resources.md
+        - name: Hajautettu resurssivaraus
+          items:
+            - name: Hajautetun resurssivarauksen yleiskatsaus
+              href: resource-management/centralized-booking-overview.md
+            - name: Suorat varausvaihtoehdot
+              href: resource-management/options-book-directly.md
+            - name: Yleisten resurssitarpeiden täyttäminen
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Resurssien hallitseminen
+          items:
+            - name: Resurssien luominen
+              href: resource-management/create-resources.md
+            - name: Osaamisalueiden ja pätevyyksien määrittäminen
+              href: resource-management/define-skills-proficiencies.md
+            - name: Roolien määrittäminen
+              href: resource-management/define-roles.md
+            - name: Resurssikalenterien määrittäminen
+              href: resource-management/define-resource-calendars.md
+            - name: Resurssien liittäminen organisaatioyksiköihin
+              href: resource-management/associate-resources-organizational-units.md
+            - name: Resurssien liittäminen yrityksiin
+              href: resource-management/associate-resources-companies.md
+        - name: Varauksen kohdistusmenetelmät
+          href: resource-management/booking-allocation-methods.md
+        - name: Varauksen tila
+          href: resource-management/booking-status.md
+        - name: Osaamisalueet ja pätevyysmallit
+          href: resource-management/skills-proficiency-models.md
+        - name: Resurssin täsmäytys
+          items:
+            - name: Resurssin täsmäytyksen yleiskatsaus
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Keskeiset käsitteet
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: Siirtyminen
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: Varausten laajentaminen
+              href: resource-management/extend-bookings.md
+            - name: Useiden aikavyöhykkeiden hallinta
+              href: resource-management/manage-multiple-time-zones.md
+        - name: Resurssin käyttö
+          items:
+            - name: Resurssin käytön yleiskatsaus
+              href: resource-management/resource-utilization-overview.md
+            - name: 'Haku, asetukset ja siirtyminen'
+              href: resource-management/search-settings-navigation.md
+        - name: Aikataulutaulukko
+          items:
+            - name: Siirtyminen ja keskeiset asetukset
+              href: resource-management/navigation-key-settings-urs.md
+            - name: Mukauttaminen
+              href: resource-management/personalization-urs.md
+            - name: Haku
+              href: resource-management/search-urs.md
+            - name: Varaustoiminnot
+              href: resource-management/booking-actions-urs.md
+            - name: Varaus
+              items:
+                - name: Projektin varaaminen
+                  href: resource-management/book-project.md
+                - name: Avoimien tarpeiden varaaminen
+                  href: resource-management/book-open-requirements.md
+                - name: Resurssien korvaaminen
+                  href: resource-management/substitute-resources.md
+                - name: Aiemmin luotujen varausten muokkaaminen
+                  href: resource-management/edit-existing-bookings.md
+        - name: Resurssien hallinnan usein kysytyt kysymykset
+          href: resource-management/resource-management-faq.md
+    - name: Aika
+      items:
+        - name: Aikamerkinnän yleiskatsaus
+          href: time/time-entry-overview.md
+        - name: Aikamerkintöjen luominen
+          items:
+            - name: 'Varausten, delegointien ja kalenterimerkintöjen tuominen'
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: Käyttöliittymän toiminta
+              href: time/ui-behavior.md
+        - name: Aikamerkintöjen lähettäminen
+          href: time/submit-time-entries.md
+        - name: Aikamerkintöjen palauttaminen
+          items:
+            - name: Ennen hyväksymistä
+              href: time/recall-time-entries-before-approval.md
+            - name: Hyväksymisen jälkeen
+              href: time/recall-time-entries-after-approval.md
+        - name: Aikamerkintöjen hyväksyminen
+          href: time/approvals.md
+        - name: Kehittäjän huomautukset
+          items:
+            - name: Aikamerkintöjen laajentaminen
+              href: time/extending-time-entries.md
+            - name: Aikamerkinnän viikkoruudukon mukauttaminen
+              href: time/customize-weekly-time-entry-grid.md
+            - name: Tietoturvaan liittyviä seikkoja
+              href: time/security-considerations.md
+    - name: Kulu
+      items:
+        - name: Kulujen aloitussivu
+          href: expense/expense-overview.md
+        - name: Lite-kulun merkintä
+          href: expense/expense-lite-entry.md
+        - name: Kulumerkintöjen lähettäminen ja palauttaminen
+          href: expense/submit-recall-expense-entries.md
+        - name: Lite-kulumerkintöjen hyväksyminen
+          href: expense/approvals.md
+        - name: Projektien kulujen hallintakokemus
+          items:
+            - name: Määritys ja asetukset
+              items:
+                - name: Käytäntöjen määrittäminen
+                  href: expense/set-up-policies.md
+                - name: Työnkulkujen määritteleminen
+                  href: expense/set-up-workflows.md
+                - name: Delegoinnin hallinta
+                  href: expense/manage-delegation.md
+                - name: Kulujen hallintaparametrien määrittäminen
+                  href: expense/configure-expense-management-parameters.md
+                - name: Luottokortin integroinnin määrittäminen
+                  href: expense/set-up-credit-card-integration.md
+                - name: Kululuokkien määrittäminen
+                  href: expense/set-up-expense-categories.md
+            - name: Matkalaskujen luominen
+              items:
+                - name: Matkalaskun jakaminen
+                  href: expense/distributions-expense-report.md
+            - name: Matkalaskujen hyväksyminen
+              items:
+                - name: Matkalaskut ja monta hyväksyjää
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: Matkalaskujen kirjaaminen
+              href: expense/posting-expense-reports.md
+            - name: Matkustusehdotus
+              href: expense/travel-requisition.md
+            - name: Käteisennakko
+              href: expense/cash-advance.md
+            - name: Päivärahat
+              href: expense/per-diems.md
+            - name: Taloushallinto
+              items:
+                - name: 'ALV:n palautus'
+                  href: expense/vat-recovery.md
+            - name: Uusi kulukokemus
+              items:
+                - name: Uudistetut matkalaskut
+                  href: expense/expense-reports-reimagined.md
+                - name: Kuitin ja kulun täsmäyttäminen OCR-tunnistuksella
+                  href: expense/match-receipt-expense-ocr.md
+        - name: Kulujen ilmoittaminen mobiililaitteella
+          href: expense/expense-using-mobile.md
+    - name: Hyväksynnät
+      items:
+        - name: Yleiskatsaus
+          href: approvals/approvals-overview.md
+        - name: Aikamerkintöjen hyväksyminen
+          href: approvals/approving-time-entries.md
+        - name: Kulumerkintöjen hyväksyminen
+          items:
+            - name: Lite-kulu
+              href: approvals/approve-lite-expense.md
+            - name: Koko kulu
+              href: approvals/approve-full-expense.md
+        - name: Hyväksyttyjen aikamerkintöjen peruuttaminen
+          href: approvals/cancelling-approved-time-entries.md
+        - name: Hyväksyttyjen kulumerkintöjen peruuttaminen
+          items:
+            - name: Lite-kulu
+              href: approvals/cancel-lite-expense.md
+            - name: Koko kulu
+              href: approvals/cancel-full-expense.md
+    - name: Todelliset arvot
+      items:
+        - name: Yleiskatsaus
+          href: actuals/actuals-overview.md
+        - name: Sisäisen projektin todellisten arvojen luominen
+          href: actuals/create-actuals-internal-project.md
+        - name: Laskutettavan projektiosan todellisten arvojen luominen
+          items:
+            - name: Aika ja materiaalit
+              href: actuals/time-material.md
+            - name: Kiinteä hinta
+              href: actuals/fixed-price.md
+        - name: Ei-ylitettävän tilan ja vahvistusten hallinta
+          href: actuals/manage-not-exceed-status-validations.md
+        - name: Projektikirjauskansiot
+          items:
+            - name: Projektikirjauskansioiden luominen kirjaamaan maksut projekteihin
+              href: actuals/create-project-journals-record-fees-projects.md
+            - name: Ajan ja kulujen projektikirjauskansioiden luominen
+              href: actuals/create-project-journals-time-expense.md
+            - name: Oikaisukirjauskansioiden luominen ja vahvistaminen
+              href: actuals/create-confirm-correction-journals-md
+        - name: Keskeneräisen laskutuksen hallinta
+          href: actuals/manage-billing-backlog.md
+    - name: Proformalaskutus
+      items:
+        - name: Laskutusaikataulujen luominen
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: Manuaalisen proformalaskun luominen
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Proformalaskun hallinta
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Proformalaskun vahvistaminen
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Korjaavat laskut
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Automaattisen laskun luonnin määrittäminen
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+- name: Lite-käyttöönotto – kauppa proformalaskutukseen
+  items:
+    - name: Soveltuvat skenaariot
+      href: applicable-scenarios.md
+    - name: Uudet ominaisuudet
+      href: whats-new-mode-2-project-operations.md
+    - name: Ympäristön määrittäminen
+      href: set-up-environment-mode-2.md
+    - name: Näytetiedot
+      href: sample-data-mode-2.md
+    - name: Myyntiprosessi
+      items:
+        - name: Myyntiprosessin yleiskatsaus
+          href: sales/sales-overview.md
+        - name: Tärkeimmät erot
+          href: sales/key-differences.md
+        - name: Määritys
+          items:
+            - name: Tuotteet
+              href: sales/sales-products.md
+            - name: Yksiköt ja yksikköryhmät
+              href: sales/sales-units-unit-groups.md
+            - name: Valuutta
+              href: sales/sales-currency.md
+        - name: Liidien hallinta
+          href: sales/managing-leads.md
+        - name: Mahdollisuuksien hallinta
+          items:
+            - name: Mahdollisuuden ylätunniste
+              href: sales/opportunity-header.md
+            - name: Tuotepohjaiset rivit
+              href: sales/product-based-lines.md
+            - name: Projektipohjaiset rivit
+              href: sales/project-based-lines.md
+            - name: Tarjousten ja mahdollisuuksien linkittäminen
+              href: sales/link-quotes-opportunities.md
+            - name: Mahdollisuuden sulkeminen
+              href: sales/close-opportunity.md
+        - name: Tarjousten hallinta
+          items:
+            - name: Keskeiset käsitteet
+              href: sales/quotes-key-concepts.md
+            - name: 'Tarjouksen arvojen, asiakkaan budjettien ja ei-ylitettävien rajoitusten hallinta'
+              href: sales/quote-values-budget-limits.md
+            - name: Useiden asiakkaiden hallinta tarjouksessa
+              href: sales/manage-multiple-customers-quote.md
+            - name: Tuotepohjaiset tarjousrivit
+              items:
+                - name: Kustannuslaskennan tuotepohjaiset tarjousrivit
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Tuotepohjaisten tarjousrivien monitasoisten yksiköiden hallinta
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Projektipohjaiset tarjousrivit
+              items:
+                - name: Projektin hinnastojen hallinta
+                  href: sales/manage-project-price-lists.md
+                - name: Useiden asiakkaiden hallinta tarjousrivillä
+                  href: sales/manage-multiple-customers-quote-line.md
+                - name: Projektien ja tehtävien yhdistäminen tarjousriville
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: Arvioiden luominen tarjousrivillä
+                  href: sales/create-estimate-quote-line.md
+                - name: Arvioiden tuonti projektista tarjousriville
+                  href: sales/import-estimate-project-quote-line.md
+                - name: 'Tarjouksen arvojen, asiakkaan budjettien ja ei-ylitettävien rajoitusten hallinta'
+                  href: sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: Laskutusaikataulut tarjousrivillä
+                  href: sales/invoice-schedule-quote-line.md
+            - name: Tarjouksen voittaminen
+              href: sales/win-quote.md
+            - name: Tarjouksen häviäminen
+              href: sales/lose-quote.md
+        - name: Palvelusopimusten hallinta
+          items:
+            - name: Keskeiset käsitteet
+              href: sales/contracts-key-concepts.md
+            - name: 'Palvelusopimuksen arvojen, asiakkaan budjettien ja ei-ylitettävien rajoitusten hallinta'
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: Useiden asiakkaiden hallinta palvelusopimuksessa
+              href: sales/manage-multiple-customers-contract.md
+            - name: Tuotepohjaiset sopimusrivit
+              items:
+                - name: Kustannuslaskennan tuotepohjaiset sopimusrivit
+                  href: sales/cost-product-based-contract-lines.md
+                - name: Tuotepohjaisten sopimusrivien monitasoisten yksiköiden hallinta
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: Projektipohjaiset sopimusrivit
+              items:
+                - name: Projektin hinnastojen hallinta
+                  href: sales/manage-project-price-lists.md
+                - name: Useiden asiakkaiden hallinta sopimusrivillä
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: Projektien ja tehtävien yhdistäminen sopimusriville
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: Arvioiden luonti projektista sopimusriville
+                  href: sales/create-estimate-project-contract-line.md
+                - name: Arvioiden tuonti projektista sopimusriville
+                  href: sales/import-estimate-project-contract-line.md
+                - name: 'Palvelusopimuksen arvojen, asiakkaan budjettien ja ei-ylitettävien rajoitusten hallinta sopimusrivillä'
+                  href: sales/manage-contract-values-project-based.md
+                - name: Laskutusaikataulut tarjousrivillä
+                  href: sales/invoice-schedules-quote-line.md
+            - name: Palvelusopimuksen vahvistaminen
+              href: sales/confirm-contract.md
+            - name: Palvelusopimuksen sulkeminen työ suoritettuna
+              href: sales/close-contract-work-completed.md
+            - name: Palvelusopimuksen sulkeminen peruutettuna
+              href: sales/close-contract-canceled.md
+    - name: Hinnoittelu ja kustannuslaskenta
+      items:
+        - name: Tuotehinnastot
+          href: pricing-costing/product-price-lists.md
+        - name: Projektihinnastot
+          items:
+            - name: Kustannushinnasto
+              items:
+                - name: Kustannushinnastojen määrittäminen
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: Hinnaston oletukset
+                  href: pricing-costing/cost-price-list-default.md
+                - name: Oletusten ohittaminen
+                  href: pricing-costing/cost-override-default.md
+            - name: Myyntihinnaston määritykset
+              items:
+                - name: Myyntihinnaston määrittäminen
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: Myyntihinnaston oletukset
+                  href: pricing-costing/sales-price-list-default.md
+                - name: Oletusten ohittaminen
+                  href: pricing-costing/sales-override-default.md
+        - name: Hinnoitteludimensiot
+          items:
+            - name: Hinnoitteludimensioiden yleiskatsaus
+              href: pricing-costing/pricing-dimension-overview.md
+            - name: Aiemmin luodun kentän käyttäminen Project Operationsin hinnoitteludimensiona
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Mukautetut kentät hinnoitteludimensiona
+              items:
+                - name: Mukautettujen kenttien ja entiteettien luominen hinnoitteludimensioina
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Mukautettujen kenttien lisääminen hintamääritys- ja tapahtumaentiteetteihin
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Hinnoitteludimension poistaminen käytöstä
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: Projektinhallinta
+      items:
+        - name: Projektinhallinnan yleiskatsaus
+          href: project-management/project-management-overview.md
+        - name: Projektin vaiheet
+          href: project-management/project-stages.md
+        - name: Käyttöliittymässä siirtyminen
+          href: project-management/navigate-ui.md
+        - name: Tietoja projektin tilasta
+          href: project-management/understand-project-status.md
+        - name: Projektikalenterien määrittäminen
+          href: project-management/define-project-calendars.md
+        - name: Projektin luominen
+          items:
+            - name: Alustavien arvioiden luominen
+              href: project-management/create-initial-estimates.md
+            - name: Projektikalenterin määrittäminen
+              href: project-management/set-project-calendar.md
+            - name: Projektin valuutan määrittäminen
+              href: project-management/set-project-currency.md
+            - name: Asiakkaan määrittäminen
+              href: project-management/set-customer.md
+            - name: Ryhmän lisääminen
+              href: project-management/add-group.md
+        - name: Projektin päivittäminen
+          href: project-management/update-project.md
+        - name: Projektin kopioiminen
+          href: project-management/copy-project.md
+        - name: Työrakenteen suunnitteleminen
+          items:
+            - name: Työrakenteen luominen
+              items:
+                - name: Tehtävien luominen
+                  href: project-management/wbs-create-tasks.md
+                - name: 'Tehtävien kopioiminen, leikkaaminen ja liittäminen'
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: Tehtävien kumoaminen ja tekeminen uudelleen
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: Työrakenteen hierarkia
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: Tehtävien joukkopäivitykset
+                  href: project-management/bulk-task-updates.md
+                - name: Tehtävän tietojen muokkaaminen
+                  href: project-management/edit-task-details.md
+            - name: Delegointien luominen
+              items:
+                - name: Aiemmin luotujen resurssien lisääminen
+                  href: project-management/add-existing-resources.md
+                - name: Yleisten resurssien lisääminen
+                  href: project-management/add-generic-resources.md
+                - name: 'Tietoja delegointien vaikutuksesta tehtävän työmäärään, kestoon ja päättymispäivään'
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Delegoinnin jakautumisen tarkasteleminen
+                  href: project-management/view-assignment-contours.md
+            - name: Tehtävienhallinnassa siirtyminen
+              items:
+                - name: Sarakkeen hallinta
+                  href: project-management/column-management.md
+                - name: Näkymät
+                  href: project-management/task-management-views.md
+                - name: Säilöt
+                  href: project-management/task management-buckets.md
+        - name: Projektien arviointi
+          items:
+            - name: Projektien arvioinnin yleiskatsaus
+              href: project-management/estimate-projects-overview.md
+            - name: Resurssiarviot
+              items:
+                - name: Projektisuunnitelmaan tehtyjen muutosten tuominen näkyviin lataamalla projektiarviot uudelleen
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Projektiarvioiden hintojen ja kustannushintojen lataaminen uudelleen
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Resurssin kustannushinnan ja kustannusvaluutan oletusarvot
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: Resurssin laskutushinnan ja myyntivaluutan oletusarvot
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: Kuluarvioiden luominen
+              items:
+                - name: Kulun kustannushinnan ja kustannusvaluutan oletusarvot
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: Kulun laskutushinnan ja myyntivaluutan oletusarvot
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: Tarjousten ja palvelusopimusten muodostaminen
+          items:
+            - name: Työrakenteen tuonti tarjouksiin
+              href: project-management/import-wbs-structure-quotes.md
+            - name: Työrakenteen tuonti palvelusopimuksiin
+              href: project-management/import-wbs-structure-contracts.md
+        - name: Projektin seuranta
+          items:
+            - name: Projekti seurannan aloitussivu
+              href: project-management/cost-vs-effort-overview.md
+            - name: Sarakkeen määritykset
+              items:
+                - name: Työmäärä
+                  href: project-management/effort.md
+                - name: Kustannus
+                  href: project-management/cost.md
+                - name: Myynti
+                  href: project-management/sales.md
+            - name: Valmistumisen kustannusarvion päivittäminen
+              href: project-management/update-completed-estimate.md
+        - name: Projektiryhmän jäsenet
+          items:
+            - name: Projektiryhmän jäsenten yleiskatsaus
+              href: project-management/project-team-members-overview.md
+            - name: Ryhmän jäsenten ylläpitäminen
+              items:
+                - name: Ryhmän jäsenten lisääminen
+                  href: project-management/add-team-members.md
+                - name: Projektiryhmän jäsenten päivittäminen
+                  href: project-management/update-project-team-members.md
+                - name: Ryhmän jäsenten poistaminen
+                  href: project-management/delete-team-members.md
+                - name: Varausten ylläpitäminen
+                  href: project-management/maintain-bookings.md
+                - name: Projektin hyväksyjät
+                  href: project-management/project-approvers.md
+        - name: Myynti
+          items:
+            - name: Myynti-välilehden yleiskatsaus
+              href: project-management/sales-tab-overview.md
+        - name: Yhteistyö
+          items:
+            - name: Ryhmät
+              href: project-management/groups.md
+        - name: Projektin suunnittelun usein kysytyt kysymykset
+          href: project-management/project-planning-faq.md
+    - name: Resurssien hallinta
+      items:
+        - name: Resurssien hallinnan yleiskatsaus
+          href: resource-management/resource-management-overview.md
+        - name: Keskeiset käsitteet
+          href: resource-management/resource-management-key-concepts.md
+        - name: Varausten ja delegointien vertailu
+          href: resource-management/booking-vs-assignment.md
+        - name: Resurssien hallintatilat
+          items:
+            - name: Resurssien hallintatilan yleiskatsaus
+              href: resource-management/resource-management-mode-overview.md
+            - name: Hybridi
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: Keskitetty
+              href: resource-management/resource-management-mode-central.md
+        - name: Keskitetty varaus
+          items:
+            - name: Keskitetyn varauksen yleiskatsaus
+              href: resource-management/centralized-booking-overview.md
+            - name: Yleisten ryhmän jäsenten lisääminen tehtäviin
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: Resurssitarpeiden määrittäminen
+              href: resource-management/define-resource-requirements.md
+            - name: Tarpeen jakautumisen määrittäminen
+              href: resource-management/define-resource-requirement-contours.md
+            - name: Resurssitarpeiden päivittäminen
+              href: resource-management/update-resource-requirements.md
+            - name: Resurssitarpeiden lähettäminen
+              href: resource-management/submit-resource-requirements.md
+            - name: Resurssipyynnöt
+              items:
+                - name: Resurssipyyntöjen yleiskatsaus
+                  href: resource-management/resource-requests-overview.md
+                - name: Kenttien ja toimintojen tarkasteleminen
+                  href: resource-management/review-fields-actions.md
+                - name: Resurssien etsiminen
+                  href: resource-management/find-resources.md
+                - name: Ehdotettujen resurssien tarkasteleminen
+                  href: resource-management/review-proposed-resources.md
+        - name: Hajautettu resurssivaraus
+          items:
+            - name: Hajautetun resurssivarauksen yleiskatsaus
+              href: resource-management/decentralized-resource-booking-overview.md
+            - name: Suorat varausvaihtoehdot
+              href: resource-management/options-book-directly.md
+            - name: Yleisten resurssitarpeiden täyttäminen
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Resurssien hallitseminen
+          items:
+            - name: Resurssien luominen
+              href: resource-management/create-resources.md
+            - name: Osaamisalueiden ja pätevyyksien määrittäminen
+              href: resource-management/define-skills-proficiencies.md
+            - name: Roolien määrittäminen
+              href: resource-management/define-roles.md
+            - name: Resurssikalenterien määrittäminen
+              href: resource-management/define-resource-calendars.md
+            - name: Resurssien liittäminen organisaatioyksiköihin
+              href: resource-management/associate-resources-organizational-units.md
+            - name: Resurssien liittäminen yrityksiin
+              href: resource-management/associate-resources-companies.md
+        - name: Varauksen kohdistusmenetelmät
+          href: resource-management/booking-allocation-methods.md
+        - name: Varauksen tilat
+          href: resource-management/booking-status.md
+        - name: Osaamisalueet ja pätevyysmallit
+          href: resource-management/skills-proficiency-models.md
+        - name: Resurssin täsmäytys
+          items:
+            - name: Resurssin täsmäytyksen yleiskatsaus
+              href: resource-management/resource-reconciliation-overview.md
+            - name: Keskeiset käsitteet
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: Siirtyminen
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: Varausten laajentaminen
+              href: resource-management/extend-bookings.md
+            - name: Useiden aikavyöhykkeiden hallinta
+              href: resource-management/manage-multiple-time-zones.md
+        - name: Resurssin käyttö
+          items:
+            - name: Resurssin käytön yleiskatsaus
+              href: resource-management/resource-utilization-overview.md
+            - name: 'Haku, asetukset ja siirtyminen'
+              href: resource-management/search-settings-navigation.md
+        - name: Aikataulutaulukko
+          items:
+            - name: Siirtyminen ja keskeiset asetukset
+              href: resource-management/navigation-key-settings-urs.md
+            - name: Mukauttaminen
+              href: resource-management/personalization-urs.md
+            - name: Haku
+              href: resource-management/search-urs.md
+            - name: Varaustoiminnot
+              href: resource-management/booking-actions-urs.md
+            - name: Varaus
+              items:
+                - name: Projektin varaaminen
+                  href: resource-management/book-project.md
+                - name: Avoimien tarpeiden varaaminen
+                  href: resource-management/book-open-requirements.md
+                - name: Resurssien korvaaminen
+                  href: resource-management/substitute-resources.md
+                - name: Aiemmin luotujen varausten muokkaaminen
+                  href: resource-management/edit-existing-bookings.md
+        - name: Resurssien hallinnan usein kysytyt kysymykset
+          href: resource-management/resource-management-faq.md
+    - name: Aika
+      items:
+        - name: Aikamerkinnän yleiskatsaus
+          href: time/time-entry-overview.md
+        - name: Aikamerkintöjen luominen
+          items:
+            - name: 'Varausten, delegointien ja kalenterimerkintöjen tuominen'
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: Käyttöliittymän toiminta
+              href: time/ui-behavior.md
+        - name: Aikamerkintöjen lähettäminen
+          href: time/submit-time-entries.md
+        - name: Aikamerkintöjen palauttaminen
+          items:
+            - name: Ennen hyväksymistä
+              href: time/recall-time-entries-before-approval.md
+            - name: Hyväksymisen jälkeen
+              href: time/recall-time-entries-after-approval.md
+        - name: Aikamerkintöjen hyväksyminen
+          href: time/approvals.md
+        - name: Kehittäjän huomautukset
+          items:
+            - name: Aikamerkintöjen laajentaminen
+              href: time/extending-time-entries.md
+            - name: Aikamerkinnän viikkoruudukon mukauttaminen
+              href: time/customize-weekly-time-entry-grid.md
+            - name: Tietoturvaan liittyviä seikkoja
+              href: time/security-considerations.md
+    - name: Kulu
+      items:
+        - name: Kulujen aloitussivu
+          href: expense/expense-overview.md
+        - name: Kulun merkintä
+          href: expense-entry.md
+    - name: Hyväksynnät
+      items:
+        - name: Yleiskatsaus
+          href: approvals/approvals-overview.md
+        - name: Aikamerkintöjen hyväksyminen
+          href: approvals/approving-time-entries.md
+        - name: Kulumerkintöjen hyväksyminen
+          href: approve-expense-entries.md
+    - name: Proformalaskutus
+      items:
+        - name: Laskutusaikataulujen luominen
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: Manuaalisen proformalaskun luominen
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Proformalaskun hallinta
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Proformalaskun vahvistaminen
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: Korjaavat laskut
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Automaattisen laskun luonnin määrittäminen
+          href: proforma-invoicing/configure-automated-invoice-creation.md

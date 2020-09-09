@@ -1,0 +1,1 @@
+<span data-ttu-id="06347-101">Koskee Project Service -sovelluksen versiota 2.4.4.30 ja aiempia versioita Dynamics 365 (online) -versiossa 9.x</span><span class="sxs-lookup"><span data-stu-id="06347-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>

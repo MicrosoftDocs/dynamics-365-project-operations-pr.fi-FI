@@ -1,0 +1,1 @@
+<span data-ttu-id="f05d0-101">Koskee Project Service -sovelluksen versioita 3.x, 2.x ja 1.x</span><span class="sxs-lookup"><span data-stu-id="f05d0-101">Applies to Project Service app versions 3.x, 2.x, and 1.x</span></span>
