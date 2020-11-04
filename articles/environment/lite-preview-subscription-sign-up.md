@@ -3,17 +3,17 @@ title: Rekisteröityminen esiversion tilaajaksi
 description: Tässä aiheessa on tietoja siitä, miten voit tilata ja ottaa käyttöön Project Operationsin lite – kauppa proformalaskutukseen -käyttöönoton.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a9c1432e8971eeb7918e23e00be9989294335f49
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948839"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075211"
 ---
 # <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Rekisteröi esiversiotilaus: lite-käyttöönotto – kauppa proformalaskutukseen
 
@@ -26,84 +26,42 @@ Tässä aiheessa on tietoja siitä, miten voit tilata kumppanin esiversiotarjouk
 
 - Saat sähköpostiviestin, jossa saat kutsun osallistumaan esiversioon. Voit pyytää esiversiota [Project Operations -sivustossa](https://dynamics.microsoft.com/en-us/project-operations/overview/).
 - Esiversion käyttöön ottavalla käyttäjällä on oltava Azure-vuokraajaan yleisen järjestelmänvalvojan oikeudet.
-- Käyttäjällä, joka ottaa esikatselun käyttöön, on oltava puhelinnumero ja kelvollinen luottokortti. Rekisteröitymisen aikana kortille ei tule kuluja kuuden kuukauden ajalta. Sinun täytyy peruuttaa tilaus kuuden kuukauden kuluttua. 
 - Tarkista kaikki käyttöehdot.
 
 ## <a name="subscribe"></a>Tilaa
 
 Kun vastaanotat [esikatselupyynnön](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) hyväksynnän, saat kaksi Microsoftin tarjousta sähköpostitse. Näiden tarjousten avulla voit ottaa käyttöön Project Operationsin esikatselun:
 
-- Dynamics 365 Customer Service -esiversion kokeilu – kertakäyttökoodi
-- Dynamics 365 Project Operations – esiversion kokeilu
+- Dynamics 365 Project Operations (CRM) – esiversion kokeilu
+- Office 365 Project Operationsin esiversion kokeilu
 
-### <a name="dynamics-365-customer-service-paid-offer"></a>Dynamics 365 Customer Service – maksullinen tarjous
+> [!IMPORTANT]
+> Vain yksi henkilö, vuokraajan järjestelmänvalvoja, voi suorittaa tämän tehtävän organisaatiossa. Jos et ole tämän version tilaaja, odota, kunnes organisaatiosi on rekisteröitynyt ja olet saanut käyttäjätietosi.
 
-1. Voit lunastaa ensimmäisen Dynamics 365 Customer Service -tarjouskoodin käyttämällä InPrivate/Incognito-selainikkunaa. Jos haluat rekisteröityä Customer Serviceen, tarvitset seuraavat:
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – esiversion kokeilu 
 
-- Puhelinnumero
-- Luottokortti. Rekisteröitymisessä kortille ei tule kuluja kuuden kuukauden ajalta. Sinun täytyy peruuttaa tilaus kuuden kuukauden kuluttua.
-- Tarkista kaikki käyttöehdot.
+Ennen kuin aloitat, varmista, että olet kirjautunut selaimeen, jossa on käyttäjän työtili, siinä vuokraajan kohdassa, jossa haluat projektin toimintojen esikatselun.
 
-2. Anna yhteystietosi.
+1. Lunasta ensimmäinen tarjouskoodi, **Dynamics 365 Project Operations (CRM) - esiversion kokeilu** liittämällä se selaimen URL-osoitteeseen.
 
-![Yhteystiedot](./media/1ContactInformation.png)
+![Lunasta tarjous](./media/16RedeemFirstOfferNew.png)
 
-3. Anna uuden vuokraajan tiedot.
+2. Vahvista tilaus.
+![Vahvista tilaus](./media/17ConfirmOrderNew.png)
 
-![Luo käyttäjätunnus](./media/2CreateUserID.png)
+Näkyviin tulee vahvistus siitä, että tarjouksen lunastaminen onnistui.
 
-4. Vahvista henkilöllisyytesi, tallenna uusi käyttäjätunnuksesi ja valitse sitten **Määritä**.
+![Varmistus](./media/18OrderConfirmationNew.png)
 
-![Tallenna tiedot](./media/3SaveInfo.png)
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operationsin esiversion kokeilu
 
-5. Suorita luottokortin rekisteröinti loppuun ja tarkista kaikki käyttöehdot. 
-
-![Viimeistele luottokortti](./media/4CompleteCreditCard.png)
-
-![Luottokorttikuittaus](./media/5CreditCardCheckout.png)
-
-![Tilauksen tallentaminen](./media/6SaveOrder.png)
-
-![Luottokortin tiedot](./media/7Confirmation.png)
-
-## <a name="cancel-the-dynamics-365-customer-service-enterprise-offer"></a>Peruuta Dynamics 365 for Customer Service Enterprise -tarjous
-
-Dynamics 365 for Customer Service Enterprise -tarjous on käytettävissä maksutta kuuden kuukauden ajan. Tarjous uusitaan täydellä hinnalla kuuden kuukauden jakson lopussa. Jos haluat peruuttaa ennen uusimispäivämäärää, noudata seuraavia ohjeita. 
-
-> [!NOTE]
-> Kun olet suorittanut nämä vaiheet, et voi enää käyttää Project Operationsin julkista esikatseluympäristöä.
-
-1. Siirry [hallintaportaaliin](https://admin.microsoft.com/) ja valitse **Laskutus**-kohdassa **Omat tuotteet**.
-
-![Hallintaportaali, Omat tuotteet -sivu](./media/8AdminPortal.png)
-
-2. Valitse **Dynamics 365 Customer Service Enterprise -tarjous**.
-
-![Tilauksen peruuttaminen](./media/9CancelSubscription.png)
-
-3. Valitse **Asetukset** > **Toiminnot** > **Peruuta tilaus**.
-4. Kirjoita pakollisiin kenttiin tiedot **Tilauksen peruutus** -lomakkeessa.
-5. Valitse **Peruuta** > **Tilaus.**
-
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – esiversion kokeilu
-
-1. Lunasta toinen tarjous, Dynamics 365 Project Operations -kokeilu käyttämällä URL-osoitetta Tervetuloa-sähköpostista.
-
-![Lunasta tarjous 2](./media/10RedeemOffer2.png)
-
-2. Varmista, että olet kirjautuneena käyttäjänä, joka kuuluu samaan organisaatioon, joka tilasi ensimmäisen tarjouskoodin avulla, ja jatka sitten tarjouksen lunastamista. 
-3. Valitse **Kyllä, lisää se tiliini**.
-
-![Lisää tiliin](./media/11AddToAccount.png)
-
-![Kokeile nyt -näyttö](./media/12TryNow.png)
-
-![Tilauksen tiedot](./media/13Confirmation.png)
+Toista samat vaiheet kuin ensimmäisellä tarjouskoodilla. Muista lisätä toinen tarjouskoodi käyttämällä samaa käyttäjätiliä, jota käytettiin ensimmäisen tarjouskoodin kanssa.
 
 ## <a name="assign-licenses"></a>Käyttöoikeuksien määrittäminen
 
 > [!IMPORTANT]
-> Tarvitset järjestelmänvalvojan käyttöoikeudet organisaatiosi Office 365 -portaaliin, jotta voit suorittaa seuraavat vaiheet.
+> Tarvitset järjestelmänvalvojan käyttöoikeudet organisaatiosi Microsoft 365 -portaaliin, jotta voit suorittaa seuraavat vaiheet.
+
 
 1. Siirry [Microsoft 365 -hallintakeskukseen](https://portal.office.com/) ja määritä käyttöoikeudet käyttäjille.
 
@@ -113,11 +71,22 @@ Dynamics 365 for Customer Service Enterprise -tarjous on käytettävissä maksut
 
 ![Käyttöoikeuksien määrittäminen](./media/15AssignLicenses.png)
 
-3. Tarkista, että **Customer Service Enterprise**- ja **Project Operations** -käyttöoikeus on valittu, ja valitse sitten **Tallenna muutokset**.
+3. Tarkista, että **Dynamics 365 Project Operations (CRM) -esiversion** ja **Office 365 Project Operations -esiversion** käyttöoikeudet ovat valittuina. 
+4. Valitse **Tallenna muutokset**.
 
 ## <a name="create-a-new-cds-environment"></a>Luo uusi CDS-ympäristö
 
-Valmistele uusi Project Operations CDS-käyttööntoton ympäristö noudattamalla aiheen [CDS-käyttöönoton malli](lite-deployment.md). ohjeita
+1. Valmistele uusi Project Operations CDS-käyttööntoton ympäristö noudattamalla aiheen [CDS-käyttöönoton malli](lite-deployment.md). ohjeita Kun valitset ympäristötyypin, varmista, että käytät **kokeiluversiota (tilaukseen perustuva)**.
+![Uusi ympäristö](./media/19CreateEnvironment.png)
+
+2. Valitse **Ota käyttöön Dynamics 365 -sovellukset** -asetus ja jätä **näiden sovellusten automaattinen käyttöönotto** tyhjäksi.  
+3. Valitse **Tallenna** luodaksesi ympäristön.
+
+![Lisää tietokanta](./media/20CreateEnvironment1.png)
+
+4. Kun ympäristö on luotu, asenna **Microsoft Dynamics 365 Project Operations** -ratkaisu. 
+
+![Asenna ratkaisu](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Asenna CDS-määritys ja määritä esittelytiedot
 

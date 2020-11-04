@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948841"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075219"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Azure-tilauksen lisääminen LCS-projektiin
 
@@ -23,11 +23,11 @@ Pilvipalvelussa isännöidyt ympäristöt on otettava käyttöön aiemmin luodun
 
 ## <a name="grant-admin-consent"></a>Myönnä järjestelmänvalvojan suostumus
 
-1. Valitse LCS-projektissa **Ympäristöt**-osassa **Microsoft Azure -asetukset**.
+1. Valitse LCS-projektissa **Ympäristöt** -osassa **Microsoft Azure -asetukset**.
 
 ![Microsoft Azure -asetukset](./media/1MicrosoftAzureSettings.png)
 
-2. Valitse **Projektin asetukset**-sivun **Azure-yhdistimet** -välilehdessä **Valtuuta**. Näin ympäristöt voidaan ottaa käyttöön tässä projektissa.
+2. Valitse **Projektin asetukset** -sivun **Azure-yhdistimet** -välilehdessä **Valtuuta**. Näin ympäristöt voidaan ottaa käyttöön tässä projektissa.
 
 ![Azure-yhdistimet](./media/2AzureConnectors.png)
 
@@ -58,7 +58,7 @@ Valtuutus on nyt valmis.
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Tilausyhdistimen lisääminen LCS-projektiin
 
 1. Voit lisätä uuden yhdistimen valitsemalla LCS-projektissa **Microsoft Azure -asetukset** -sivulla **Lisää**.
-2. Anna Azure-tilaustunnuksesi. Voit etsiä Azure-tilaustunnuksen [Azure-portaalista](https://ms.portal.azure.com/) näytön vasemmassa alakulmassa olevasta **Asetukset**-kohdasta.
+2. Anna Azure-tilaustunnuksesi. Voit etsiä Azure-tilaustunnuksen [Azure-portaalista](https://ms.portal.azure.com/) näytön vasemmassa alakulmassa olevasta **Asetukset** -kohdasta.
 3. Valitse **Määritä käyttämään Azure Resource Manageria** -kentässä **Kyllä**.
 4. Varmista, että Azuren tilauksen AAD-vuokraajan toimialue vastaa käytettyä toimialueen omistavan Azure-tilausksen toimialuetta ja valitse **Seuraava**.
 5. Vahvista valitsemalla **Microsoft Azure -määritys** -näytössä **Seuraava**. Jos näyttöön tulee virhe tässä näytössä, palaa tämän aiheen osaan [Dynamics Deployment Services -käyttöoikeuksien antaminen Azure-tilaukselle](#provide) javarmista, että olet suorittanut kaikki vaiheet.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961162"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075208"
 ---
 # <a name="approvals-overview"></a>Hyväksyntöjen yleiskatsaus
 
@@ -25,9 +25,9 @@ Ajan ja kulujen lähetykset siirtyvät hyväksymisen työnkulun läpi. Kun tapah
 Kun luot ja lähetät aika- tai kulutapahtuman, järjestelmä luo hyväksymismerkinnän. Projektin hyväksyjä tai esimies tarkistaa ja hyväksyy merkinnän. Jos merkintä liittyy projektiin, todelliset arvot luodaan, kun se on hyväksytty. Tämä sallii kustannusten ja laskutuksen seurannan. 
 
 ## <a name="approve-an-entry"></a>Merkinnän hyväksyminen
-**Hyväksynnät**-lomakkeen avulla voit siirtyä eri näkymien välillä niin, että voit tarkastella eri hyväksyntöjen tyyppejä.
+**Hyväksynnät** -lomakkeen avulla voit siirtyä eri näkymien välillä niin, että voit tarkastella eri hyväksyntöjen tyyppejä.
   
-1. Siirry **Hyväksynnät**-lomakkeeseen ja valitse **Kulut**, **Aika** tai **Peruutukset**.
+1. Siirry **Hyväksynnät** -lomakkeeseen ja valitse **Kulut** , **Aika** tai **Peruutukset**.
 2. Tarkista kukin hyväksyntä ja valitse ne, jotka haluat hyväksyä.
 3. Hyväksy valitut tapahtumat valitsemalla **Hyväksy**.
 Järjestelmä käsittelee nämä merkinnät ja luo toteutuneet arvot tai varauksen.
@@ -35,7 +35,7 @@ Järjestelmä käsittelee nämä merkinnät ja luo toteutuneet arvot tai varauks
 ## <a name="reject-an-entry"></a>Tietueen hylkääminen
 Projektin hyväksyjänä sinun täytyy ehkä lähettää tapahtuma uudelleen käyttäjälle korjausta varten.
   
-1. Siirry **Hyväksynnät**-lomakkeeseen ja valitse hylättävä tapahtuma. 
+1. Siirry **Hyväksynnät** -lomakkeeseen ja valitse hylättävä tapahtuma. 
 2. Valitse **Hylkää**.
 3. Valinnainen – Voit lisätä kommentin **Hylkäyksen kommentit** -valintaikkunaan ja ilmoittaa käyttäjälle, miksi merkintä hylätään.
 4. Valitse **OK**. Tapahtuma palautetaan käyttäjälle.
@@ -46,8 +46,8 @@ Jossakin vaiheessa on ehkä peruutettava lähetetty tapahtuma. Jos tapahtumaa ei
 ## <a name="specify-project-approvers"></a>Määritä projektin hyväksyjät
 Kullakin projektilla on useita projektiryhmän jäseniä. Voit määrittää, mitkä ryhmän jäsenet ovat myös projektin hyväksyjiä.
 
-1. Siirry **Projektit**-lomakkeeseen ja avaa projekti luettelosta.
-2. Valitse **Ryhmä**-välilehdestä ryhmän jäsen, josta tulee projektin hyväksyjä, ja valitse sitten **Muokkaa**.
+1. Siirry **Projektit** -lomakkeeseen ja avaa projekti luettelosta.
+2. Valitse **Ryhmä** -välilehdestä ryhmän jäsen, josta tulee projektin hyväksyjä, ja valitse sitten **Muokkaa**.
 3. Valitse **Projektin hyväksyjä** -kentässä **Kyllä**.
 4. Valitse **Tallenna**.
 5. Lisää projektin hyväksyjiä toistamalla vaiheet 2–4.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908075"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075239"
 ---
 # <a name="project-team-members"></a>Projektiryhmän jäsenet
 
@@ -47,16 +47,16 @@ Seuraavassa taulukossa on luettelo projektiryhmän jäsenen keskeisistä määri
 
 Ryhmän jäsen -ruudukosta voidaan tehdä seuraavat toiminnot:
 
-- **Varaa**: Hybridivarausmetodologiaa käyttäville organisaatioille varaustoiminto sallii käyttäjien varata nimetyn resurssin yleisen tiimin jäsenen perusteella luotujen tarpeiden perusteella.
-- **Luo tarve**: Tämä toiminto luo tarpeen.
-- **Määritä malli**: Sallii projektipäälliköiden mukauttaa resurssitarpeen hahamotelmia rakeisella tasolla. Projektipäälliköt voivat mukauttaa projektin erityistarpeita sellaisissa tapauksissa, joissa oletusjakauma ei sovellu.
-- **Lähetä pyyntö**: Keskitetyn varauksen menetelmää käyttäville organisaatioille.
-- **Muokkaa**: Ryhmän jäsenen määritteitä voi muokata, mukaan lukien organisaatioyksikkö, rooli ja tehtävänimike.
-- **Ylläpidä varauksia**: Kun resurssien varaukset on päivitettävä, Ylläpidä varauksia -toiminnon avulla projektipäällikkö voi muuttaa seuraavia asioita:
+- **Varaa** : Hybridivarausmetodologiaa käyttäville organisaatioille varaustoiminto sallii käyttäjien varata nimetyn resurssin yleisen tiimin jäsenen perusteella luotujen tarpeiden perusteella.
+- **Luo tarve** : Tämä toiminto luo tarpeen.
+- **Määritä malli** : Sallii projektipäälliköiden mukauttaa resurssitarpeen hahamotelmia rakeisella tasolla. Projektipäälliköt voivat mukauttaa projektin erityistarpeita sellaisissa tapauksissa, joissa oletusjakauma ei sovellu.
+- **Lähetä pyyntö** : Keskitetyn varauksen menetelmää käyttäville organisaatioille.
+- **Muokkaa** : Ryhmän jäsenen määritteitä voi muokata, mukaan lukien organisaatioyksikkö, rooli ja tehtävänimike.
+- **Ylläpidä varauksia** : Kun resurssien varaukset on päivitettävä, Ylläpidä varauksia -toiminnon avulla projektipäällikkö voi muuttaa seuraavia asioita:
 
     - Käynnistä
     - End
     - Kokonaistyömäärän kohdistus
 
-- **Uusi**: Sen lisäksi, että projektipäälliköt voivat lisätä resursseja suoraan aikataulusta, he voivat lisätä uusia nimettyjä tai yleisiä ryhmän jäseniä Ryhmän jäsen -ruudukosta.
-- **Poista**: Valitsemalla yhden tai useita ryhmän jäseniä projektipäällikkö voi poistaa resursseja, jotka eivät enää osallistu projektiin. Ryhmän jäsenen poistaminen poistaa myös kaikki liittyvät resurssimääritykset ja peruuttaa kaikki aiemmin luodut varaukset.
+- **Uusi** : Sen lisäksi, että projektipäälliköt voivat lisätä resursseja suoraan aikataulusta, he voivat lisätä uusia nimettyjä tai yleisiä ryhmän jäseniä Ryhmän jäsen -ruudukosta.
+- **Poista** : Valitsemalla yhden tai useita ryhmän jäseniä projektipäällikkö voi poistaa resursseja, jotka eivät enää osallistu projektiin. Ryhmän jäsenen poistaminen poistaa myös kaikki liittyvät resurssimääritykset ja peruuttaa kaikki aiemmin luodut varaukset.

@@ -3,23 +3,23 @@ title: Projektin kopioiminen
 description: Tässä aiheessa on tietoja projektien kopioinnista Dynamics 365 Project Operationsissa.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908077"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075289"
 ---
 # <a name="copy-a-project"></a>Projektin kopioiminen
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Dynamics 365 Project Operationsissa voit luoda nopeasti uusia projekteja käyttämällä **Kopioi projekti** -toimintoa **Projektit**-lomakkeessa. Jos haluat kopioida projektin, valitse projekti ja valitse sitten **Kopioi**. Toiminto kopioi:
+Dynamics 365 Project Operationsissa voit luoda nopeasti uusia projekteja valitsemalla **Kopioi projekti** **Projektit** -lomakkeessa. Jos haluat kopioida projektin, avaa kopioitava projekti ja valitse sitten **Kopioi projekti**. Toiminto kopioi:
 
 - Projektin ominaisuudet
 - Työrakenne
@@ -58,4 +58,6 @@ Kun projektiryhmä kopioidaan lähdeprojektista, yleiset resurssit kopioidaan. Y
 
 ## <a name="estimates"></a>Arviot
 
-Kun projekti kopioidaan, sekä resurssin että kulun arviorivit kopioidaan lähdeprojektista.
+Kun projekti kopioidaan, sekä resurssin että kulun arviorivit kopioidaan lähdeprojektista. 
+
+Lisätietoja projektin kopioinnin ohjelmallisesta käyttämisestä on ohjeaiheessa [Projektimallien kehittäminen projektin kopioinnin avulla](dev-copy-project.md).

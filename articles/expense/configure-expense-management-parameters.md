@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 8ecbd0abc16d0a29eea47d6bd1653a204a83de4c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897267"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075230"
 ---
 # <a name="configure-expense-management-parameters"></a>Kulujen hallintaparametrien määrittäminen
 
@@ -34,8 +34,8 @@ Tässä aiheessa kuvataan parametreja, joilla hallitaan yleistä toimintaa kuluj
 | Kulun hallintakäytäntöjen arvioiminen                     | Valitse, milloin kulut arvioidaan, jotta voidaan määrittää, onko kulukäytäntöä rikottu. Kuluja voidaan arvioida rikkomusten varalta, kun kulutapahtuma syötetään ja tallennetaan tai kun kulu lähetetään hyväksyttäväksi. Tarvittavien kuittien käytäntösäännöt arvioidaan, kun kulurivi tallennetaan. |
 | Salli konserniyritysten väliset kulurivit                         | Valitse, voidaanko muiden yritysen kuluja syöttää kuluraporttiin. |
 | Salli luottokorttikulujen vaihtokurssin muokkaaminen | Valitse tämä vaihtoehto, jos haluat, että käyttäjä voi muokata tuotujen luottokorttikulujen vaihtokurssia. |
-| Näytettävät monitasoiset hierarkiakentät                  | Valitse, mitkä hyväksyjän kentät näytetään, kun työnkulun delegointityypiksi on määritetty hierarkia, ja **Hierarkia**-valinta on määritetty käyttämään hyväksyntähierarkiaa, kulujen monitasoista hyväksyntää. Kun monitasoista hyväksyntähierarkiaa käytetään työnkulussa, valitut kentät näkyvät kuluraportissa, ja niitä voi muokata. |
-| Anna työntekijän luottokortin numero                        | Valitse, voidaanko 15 merkin tai 16 merkin numero kirjoittaa ja tallentaa yön tekijän **Luottokortit**-sivun **Kortin tunnus** -kenttään. |
+| Näytettävät monitasoiset hierarkiakentät                  | Valitse, mitkä hyväksyjän kentät näytetään, kun työnkulun delegointityypiksi on määritetty hierarkia, ja **Hierarkia** -valinta on määritetty käyttämään hyväksyntähierarkiaa, kulujen monitasoista hyväksyntää. Kun monitasoista hyväksyntähierarkiaa käytetään työnkulussa, valitut kentät näkyvät kuluraportissa, ja niitä voi muokata. |
+| Anna työntekijän luottokortin numero                        | Valitse, voidaanko 15 merkin tai 16 merkin numero kirjoittaa ja tallentaa yön tekijän **Luottokortit** -sivun **Kortin tunnus** -kenttään. |
 | Tarkista matkaehdotuksen tarkoitus                      | Ota tämä asetus käyttöön, jos haluat rajoittaa käyttäjät aiemmin luotuun arvojoukkoon, joka on määritetty **Kuluraportin tarkoitus** -kentän avulla, kun he luovat matkaehdotuksia. |
 
 ## <a name="financial"></a>Rahoitustoiminta
@@ -57,7 +57,7 @@ Tässä aiheessa kuvataan parametreja, joilla hallitaan yleistä toimintaa kuluj
 
 | Field                                 | Kuvaus |
 |---------------------------------------|-------------|
-| Päivärahan vähimmäistunnit            | Määritä vähimmäistuntien oletusmäärä, joka työntekijän on työskenneltävä päivässä, jotta hän voi saada matkakulujen päivä rahaa. Tätä arvoa käytetään oletusarvona vain päivärahatasojen **Vähimmäistunnit**-kentässä. |
+| Päivärahan vähimmäistunnit            | Määritä vähimmäistuntien oletusmäärä, joka työntekijän on työskenneltävä päivässä, jotta hän voi saada matkakulujen päivä rahaa. Tätä arvoa käytetään oletusarvona vain päivärahatasojen **Vähimmäistunnit** -kentässä. |
 | Ateriaprosentti                          | Määritä niiden aterioiden korvauksen oletusprosenttiosuus, joita käytetään matkustamiseen liittyvän kulun ensimmäisenä ja viimeisenä päivänä silloin, kun **Laske ateriavähennys** -kentän arvoksi on määritetty joko **Ateriatyyppi päivässä** tai **Aterioiden määrä päivässä**. Ensimmäisen ja viimeisen päivän työpäivä voi olla tavallista arkipäivää lyhyempi. Tämän vuoksi päivärahasummat voivat poiketa vakiosummasta. Jos prosenttiarvoksi on määritetty **0** (nolla), ensimmäisen ja viimeisen päivän vähennykset ovat 0,00. |
 | Hotelliprosentti                         | Määritä niiden hotellien oletusprosenttiosuus, joita käytetään matkustamiseen liittyvän kulun ensimmäisinä ja viimeisinä päivinä. Ensimmäisen ja viimeisen päivän työpäivä voi olla tavallista arkipäivää lyhyempi. Tämän vuoksi päivärahasummat voivat poiketa vakiosummasta. Jos prosenttiarvoksi on määritetty **0** (nolla), ensimmäisen ja viimeisen päivän vähennykset ovat 0,00. |
 | Muu prosentti                         | Määritä niiden muiden kulujen oletusprosenttiosuus, joita käytetään matkustamiseen liittyvän kulun ensimmäisinä ja viimeisinä päivinä. Ensimmäisen ja viimeisen päivän työpäivä voi olla tavallista arkipäivää lyhyempi. Tämän vuoksi päivärahasummat voivat poiketa vakiosummasta. Jos prosenttiarvoksi on määritetty **0** (nolla), ensimmäisen ja viimeisen päivän vähennykset ovat 0,00. |

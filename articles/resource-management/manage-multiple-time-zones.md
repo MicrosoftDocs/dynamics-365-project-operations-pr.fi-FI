@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961854"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075286"
 ---
 # <a name="manage-time-zones"></a>Aikavyöhykkeiden hallinta
 
@@ -22,7 +22,7 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 ## <a name="projects"></a>Projektit
 
-Kun projekti luodaan, sen aika vyöhyke perustuu käytetyssä työtuntimallissa määritettyyn aikavyöhykkeeseen. **Projektissa** päivämäärät ovat aina suhteessa sen käyttäjän aikavyöhykkeeseen, joka on kirjautunut kuhunkin välilehteen **Tehtävä**-välilehteä lukuun ottamatta. Kun tarkastelet työrakennetta, päivämäärät näkyvät aina projektin aikavyöhykkeessä.
+Kun projekti luodaan, sen aika vyöhyke perustuu käytetyssä työtuntimallissa määritettyyn aikavyöhykkeeseen. **Projektissa** päivämäärät ovat aina suhteessa sen käyttäjän aikavyöhykkeeseen, joka on kirjautunut kuhunkin välilehteen **Tehtävä** -välilehteä lukuun ottamatta. Kun tarkastelet työrakennetta, päivämäärät näkyvät aina projektin aikavyöhykkeessä.
 
 ## <a name="tasks"></a>Tehtävät
 
@@ -57,7 +57,7 @@ Seuraavassa taulukossa näkyy:
 |Resurssi C  |  ![Resurssin C kalenteri](media/reconcile-assignments-08.png) |
 |Resurssi D  | ![Resurssin D kalenteri](media/reconcile-assignments-09.png)  |
  
-Kun siirryt **Täsmäytys**-näkymään, näkyviin tulevat resurssien delegoinnit ja niihin liittyvä varausvajeet.
+Kun siirryt **Täsmäytys** -näkymään, näkyviin tulevat resurssien delegoinnit ja niihin liittyvä varausvajeet.
 
 ![Täsmäytysnäkymä ennen laajentamista](media/reconcile-assignments-10.png)
 

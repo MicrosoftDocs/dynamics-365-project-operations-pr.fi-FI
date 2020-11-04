@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896727"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075233"
 ---
 # <a name="security-model"></a>Suojausmalli
 
@@ -36,10 +36,11 @@ Project Operationsin edustatoiminnot sisältävät seuraavat roolit:
 
 
 Microsoft Project -verkkoversio sisältää seuraavat roolit:
-| Rooli                          | Kuvaus                                                                                                          | Laajuus |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Projektikäyttäjä | Projektin yhteistyökäyttäjä, joka voi luoda omia projektejaan ja tarkastella projekteja, jotka on jaettu hänen kanssaan.| Käyttäjä|
-| Projektijärjestelmä | Sovelluskontekstissa käytettävä rooli. Asiakkaat eivät saa käyttää tätä järjestelmäroolia. | Yleiset|
+
+| Rooli           | Kuvaus                                                                                                        | Laajuus  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Projektikäyttäjä   | Projektin yhteistyökäyttäjä, joka voi luoda omia projektejaan ja tarkastella projekteja, jotka on jaettu hänen kanssaan. | Käyttäjä   |
+| Projektijärjestelmä | Sovelluskontekstissa käytettävä rooli. Asiakkaat eivät saa käyttää tätä järjestelmäroolia.                                    | Yleiset |
 
 ## <a name="security-enforcement"></a>Suojauksen pakotus
 Projektitasolla suoritettavat toiminnot suoritetaan kirjautuneen käyttäjän kontekstissa. Tämä tarkoittaa sitä, että jos haluat luoda, avata tai poistaa projektin, käyttäjällä on oltava käyttöoikeus CDS:ssä. CDS-käyttöoikeus voidaan myöntää millä tahansa ympäristöön sisältyvillä mahdollisilla mekanismeilla. Esimerkiksi, käyttäjä, jolla on suurempi vaikutusalue, voi käyttää projektia tai myös siinä tapauksessa, että on suoritettu erillinen projektin jakotoiminto, joka myöntää käyttöoikeudet käyttäjälle.
@@ -56,6 +57,8 @@ Ryhmät sallivat projektin käyttöoikeudet ja tukevat yhteistyöartefaktien kä
 Project Operations ei luo ryhmää implisiittisen toiminnon kautta, vaan se tapahtuu vain, jos painat Ryhmät-näppäintä.
 
 Ryhmän jäsenen haku **Ryhmän hallinta** -valintaikkunassa rajoittuu niihin, jotka on määritetty osana ympäristön suojausryhmää. Lisätietoja: [Ympäristön käyttöoikeuksien hallinta: käyttöoikeusroolit ja käyttöoikeudet](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Ryhmätila](./media/groupsmode.png)
 
 1. Projekti luodaan ja sen omistaa projektin luonut käyttäjä.
 2. Projektin omistaja päivitetään ryhmään.

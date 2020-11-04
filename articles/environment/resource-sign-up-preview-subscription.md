@@ -3,17 +3,17 @@ title: Rekisteröi resurssien/ei-varastoitavien skenaarioiden Project Operations
 description: Tässä aiheessa on tietoja siitä, miten tilataan ja otetaan käyttöön Project Operations resurssien/ei-varastoitavien skenaarioille.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948842"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075234"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Rekisteröi resurssien/ei-varastoitavien skenaarioiden Project Operations -esiversiotilaus
 
@@ -29,48 +29,53 @@ Tässä aiheessa kerrotaan, miten voit tilata esiversio-/kumppanitarjouksen ja o
 
 ## <a name="subscribe"></a>Tilaa
 
-Kun [esiversiopyyntösi](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) hyväksytään, saat kaksi Microsoftin tarjousta sähköpostitse. Näiden tarjousten avulla voit ottaa käyttöön Project Operationsin esikatselun:
+Kun [esiversiopyyntösi](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) hyväksytään, saat kolme Microsoftin tarjousta sähköpostitse. Näiden tarjousten avulla voit ottaa käyttöön Project Operationsin esikatselun:
 
-- Dynamics 365 Project Operations – esiversion kokeilu
-- Dynamics 365 for Finance and Operations – esiversion kokeilu
+- Dynamics 365 Project Operations (CRM) – esiversion kokeilu
+- Office 365 Project Operationsin esiversion kokeilu
+- Dynamics 365 Finance – esiversion kokeilu
 
 > [!IMPORTANT]
 > Vain yksi henkilö, vuokraajan järjestelmänvalvoja, voi suorittaa tämän tehtävän organisaatiossa. Jos et ole tämän version tilaaja, odota, kunnes organisaatiosi on rekisteröitynyt ja olet saanut käyttäjätietosi.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – esiversion kokeilu
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – esiversion kokeilu 
 
-1. Lunasta ensimmäinen tarjous, **Dynamics 365 Project Operations -kokeilu** käyttämällä URL-osoitetta Tervetuloa-sähköpostista.
+Ennen kuin aloitat, varmista, että olet kirjautunut selaimeen, jossa on käyttäjän työtili, siinä vuokraajan kohdassa, jossa haluat projektin toimintojen esikatselun.
 
-![Ensimmäinen tarjous](./media/1FirstOffer.png)
+1. Lunasta ensimmäinen tarjouskoodi, **Dynamics 365 Project Operations (CRM) - esiversion kokeilu** liittämällä se selaimen URL-osoitteeseen.
 
-2. Varmista, että olet kirjautuneena sisään käyttäjänä, joka kuuluu palvelun tilanneeseen organisaatioon.
-3. Jatka tarjouksen lunastamista. 
-4. Valitse **Kyllä, lisää se tiliini**.
+![Lunasta tarjous](./media/16RedeemFirstOfferNew.png)
 
-![Lunasta tarjous](./media/2RedeemFirstOffer.png)
+2. Vahvista tilaus.
 
-![Tarjouksen vahvistaminen](./media/3ConfirmFirstOffer.png)
+![Vahvista tilaus](./media/17ConfirmOrderNew.png)
 
-![Tarjous lunastettu](./media/4OfferSuccessfulyRedeemed.png)
+Näkyviin tulee vahvistus siitä, että tarjouksen lunastaminen onnistui.
+
+![Varmistus](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operationsin esiversion kokeilu
+
+Toista samat vaiheet kuin ensimmäisellä tarjouskoodilla. Muista lisätä toinen tarjouskoodi käyttämällä samaa käyttäjätiliä, jota käytettiin ensimmäisen tarjouskoodin kanssa.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance – esiversion kokeilu
 
-Toista samat vaiheet toiselle Tervetuloa-viestin tarjoukselle.
+Toista samat vaiheet viimeiselle Tervetuloa-viestin tarjoukselle.
 
 ## <a name="assign-licenses"></a>Käyttöoikeuksien määrittäminen
 
 > [!IMPORTANT]
-> Tarvitset järjestelmänvalvojan käyttöoikeudet organisaatiosi Office 365 -portaaliin, jotta voit suorittaa seuraavat vaiheet.
+> Tarvitset järjestelmänvalvojan käyttöoikeudet organisaatiosi Microsoft 365 -portaaliin, jotta voit suorittaa seuraavat vaiheet.
 
 1. Siirry [Microsoft 365 -hallintakeskukseen](https://portal.office.com/) ja määritä käyttöoikeudet käyttäjille.
 
-![Office-hallintaportaali](./media/5OfficeAdminPortal.png)
+![Hallintakeskuksen aloitussivu](./media/14AdminPortal.png)
 
 2. Valitse **Aktiiviset käyttäjät** -sivulla käyttäjät, joille haluat määrittää käyttöoikeuden.
 
-![Käyttöoikeuksien määrittäminen](./media/6AssignLicenses.png)
+![Käyttöoikeuksien määrittäminen](./media/15AssignLicenses.png)
 
-3. Tarkista, että Project Operations -käyttöoikeus on valittu, ja valitse sitten **Tallenna muutokset**. 
+3. Tarkista, että **Dynamics 365 Project Operations (CRM) -esiversion** ja **Office 365 Project Operations -esiversion** käyttöoikeudet ovat valittuina ja valitse sitten **Tallenna muutokset**.
 
 > [!NOTE]
 > Finance-kokeilun tarjousta ei tarvitse delegoida käyttäjälle.
@@ -85,9 +90,9 @@ Voit suorittaa tämän tehtävän noudattamalla ohjeitaaiheessa [Lisää Azure-t
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Finance-esittely-ympäristön käyttöönotto Project Operationsin resurssien/ei-varastoitavien skenaarioille
 
-Noudata ohjeita aiheessa [Uuden ympäristön valmistelu](resource-provision-new-environment.md) vimeistelläksesi käyttöönoton. Käytä [esittely-ympäristö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) -käyttöönottotyyppiä esiversiossa.
+Noudata ohjeita aiheessa [Uuden ympäristön valmistelu](resource-provision-new-environment.md) vimeistelläksesi käyttöönoton. Käytä [esittely-ympäristö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) -käyttöönottotyyppiä esiversiossa. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Asenna CDS:n määritys- ja konfiguraatiotiedot
 
 Asenna CDS:n määritys- ja konfiguraatiotiedot aiheessa [Konfiguraatiotietojen määritys ja käyttöönotto Common Data Servicessa](resource-apply-pro-setup-config-data.md) kuvatulla tavalla.
-
+Suorita tämä vaihe vasta sen jälkeen, kun Financen demoympäristö on otettu käyttöön ja esittelytiedot ovat valmiina.

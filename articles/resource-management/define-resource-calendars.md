@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961852"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075196"
 ---
 # <a name="define-resource-calendars"></a>Resurssikalenterien määrittäminen
 
@@ -26,9 +26,9 @@ Jokaisella projektiin varattavalla resurssilla on oltava työaikakalenteri, jott
 
 ## <a name="define-a-resources-working-hours"></a>Resurssin työtuntien määritys
 
-1. Valitse **Resurssit**- valikosta **Resurssit**.
+1. Valitse **Resurssit** - valikosta **Resurssit**.
 2. Valitse ruudukkonäkymästä käytettävä **Varattavissa oleva resurssi**.
-3. Valitse **Resurssin tiedot**- sivulla **Työaika**-välilehti. Varattavien resurssien kalenterin oletusarvona on organisaatiolle määritetyn oletustyötuntimallin työaika.
+3. Valitse **Resurssin tiedot** - sivulla **Työaika** -välilehti. Varattavien resurssien kalenterin oletusarvona on organisaatiolle määritetyn oletustyötuntimallin työaika.
 4. Jos haluat päivittää työtunnit, napsauta hiiren kakkospainikkeella ehdotetun kalenterisäännön alkamispäivää. Kalenterisääntö-valikon avulla voit määrittää tietyn päivän, sarjan loppuosan tai koko kalenterin kalenterisäännön.
 5. Kun vaihtoehto on valittu, voit määrittää seuraavat asiat:
 
@@ -39,7 +39,7 @@ Jokaisella projektiin varattavalla resurssilla on oltava työaikakalenteri, jott
 
 ## <a name="applying-a-calendar-template-to-a-resource"></a>Kalenterimallin käyttäminen resurssille
 
-1. Valitse **Resurssit**- valikosta **Resurssit**.
+1. Valitse **Resurssit** - valikosta **Resurssit**.
 2. Valitse ruudukkonäkymästä enintään 25 **varattavissa olevaa resurssia** päivitettäväksi.
 3. Valitse **Määritä kalenteri** ja näkyviin tulee valintaikkuna, jossa on käytettävissä olevien työtuntimallien luettelo.
 4. Valitse käytettävä malli sen avulla ja valitse sitten **Käytä**.

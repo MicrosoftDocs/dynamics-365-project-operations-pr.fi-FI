@@ -1,0 +1,59 @@
+---
+title: Ennustemallien luominen projektibudjeteille
+description: Tässä aiheessa kuvataan, miten jäljellä oleville budjeteille luodaan ennustemalli.
+author: Yowelle
+manager: AnnBe
+ms.date: 04/24/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: andchoi
+ms.dyn365.ops.version: 7
+ms.search.validFrom: 2019-01-15
+ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075484"
+---
+# <a name="create-forecast-models-for-project-budgets"></a>Ennustemallien luominen projektibudjeteille 
+
+[!include [banner](../includes/banner.md)]
+
+Tässä aiheessa kuvataan, miten jäljellä oleville budjeteille luodaan ennustemalli. Budjetinhallinnan kohteena oleva projekti käyttää kahdentyyppisiä budjetteja: alkuperäistä ja jäljellä olevaa projektia. Kun luot projektibudjetin, sinun täytyy määrittää alkuperäiset ja jäljellä olevat budjettiennustemallit, jotka on luotu **ennustemallit** -sivulla. Määritettyihin malleihin perustuvat projektibudjetit luodaan projektibudjetin toteutuksen yhteydessä.
+
+> [!NOTE]
+> Budjetinhallinnan ennustemallilla ei voi olla osamallia eikä sitä voi käyttää osamallina.
+
+1. Valitse **projektinhallinta ja kirjanpito** > **asetukset** > **ennusteet**  > **ennustemallit**.
+2. Valitse **Uusi** , jos haluat luoda uuden ennustemallin, ja kirjoita sitten mallin tunnusnumero ja nimi uudelle mallille. 
+3. Jos haluat estää ennustemallin ennusterivien muuttamisen, aseta **pysäytetty** -asetuksen arvoksi **Kyllä**. 
+4. Jos ennusteriveille, joihin malli liittyy, tulisi luoda kassavirtaennusteita pääkirjaan, aseta **Sisällytä kassavirtaennusteisiin** asetukseksi **Kyllä.** 
+5. Jos haluat käyttää projektin päivämäärää laskunpäivämääränä, aseta **ennustettu laskun päivämäärä** -kentän arvoksi **Kyllä**. 
+6. Valitse **budjetin tyyppi** -kentässä jokin seuraavista mallityypeistä:
+
+   - **Alkuperäinen budjetti** : Käytä alkuperäistä budjettisummaa, joka on sidottu, kun alkuperäinen budjetti luodaan ja hyväksytään.
+   - **Jäljellä oleva budjetti** : Käytä jäljellä olevia budjetin summia projektin käyttöiän aikana. Tämän ennustemallin saldosta vähennetään toteutuneita tapahtumia ja niitä korotetaan tai vähennetään budjetin versioissa.
+   - **Siirto eteenpäin** : Käytä projektin siirtobudjetin summia. Siirtäminen eteenpäin on valinnainen prosessi, jonka avulla voidaan siirtää käyttämättömät budjettisummat yhdestä tilikaudesta toiseen.
+
+7. Määritä seuraavat asetukset tarpeen mukaan:
+
+   - Jos haluat käyttää projektin päivämäärää laskunpäivämääränä, ota **ennustettu laskun päivämäärä** käyttöön.
+   - Ota käyttöön **ennuste, jossa KET** ennustaaksesi keskeneräisen työn (KET) perusteella, ja valitse sitten KET-tyyppi. 
+   - Voit säilyttää oletus- **budjettityypiksi** **ei mitään** tai määrittää uuden tyypin. Budjetin tyyppiä ei voi muuttaa, kun muutat tietuetta.     
+    > [!NOTE]
+    > Jos muutat oletusbudjettityyppiä, kaikki muut asetukset eivät ole käytettävissä päivityksille, etkä voi käyttää tätä ennustemallia uudelleen. 
+   
+
+
+ 
+

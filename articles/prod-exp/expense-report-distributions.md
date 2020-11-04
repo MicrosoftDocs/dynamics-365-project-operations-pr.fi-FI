@@ -1,0 +1,41 @@
+---
+title: Kuluraportin jakelut
+description: Kun kuluraporttiin syötetään kuluja, voit jakaa kulut organisaation useiden projektien, yritysten tai asiakkaiden kesken.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 09/19/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8850a8d3f2efc699bc95d4cb4fc76428badb10f1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075505"
+---
+# <a name="expense-report-distributions"></a>Kuluraportin jakelut
+
+[!include [banner](../includes/banner.md)]
+
+Kun kuluraporttiin syötetään kuluja, voit jakaa kulut organisaation useiden projektien, taloushallinnon dimensioiden tai asiakkaiden kesken.
+
+Esimerkiksi Nancy, Fabrikamin myyntiedustaja, matkusti Kööpenhaminasta Frankfurtiin. Frankfurtissa hän tapasi kaksi organisaatiota keskustellakseen eri projekteista kullekin organisaatiolle. Nancy käytti seitsemän arkipäivää organisaatiossa A projektissa A ja kolme arkipäivää organisaatiossa B työskentelemiseen projektissa B.
+
+Koska Nancy työskenteli kahdessa erillisessä projektissa Frankfurtissa ollessaan, syöttäessään kuluja kuluraporttiin Nancy jakaa kulut kunkin projektin mukaan. Seuraavassa taulukossa on esitetty, miten Nancy jakoi kulunsa.
+
+
+| Kulutyyppi | Kuljen kokonaissumma|Projektille A jaettu summa| Projektille B jaettu summa |
+|--------------|---------------------|-------------------------------|---------------------------------|
+|Junan hinta   |578 DKK              |405 DKK                        |173 DKK                          |
+|Hotelli         |725 EUR              |557 EUR                        |168 EUR                          |
+|Ateriat         |346 EUR              |284 EUR                        |62 EUR                           |
+

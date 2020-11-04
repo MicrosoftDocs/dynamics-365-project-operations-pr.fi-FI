@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907359"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075199"
 ---
 # <a name="project-tracking-overview"></a>Projektin seurannan yleiskatsaus
 
@@ -25,10 +25,10 @@ Tarve seurata aikataulun edistymistä vaihtelee toimialoittain. Joillakin toimia
 
 **Työmäärän seuranta**  -näkymä seuraa aikataulun tehtävien edistymistä vertaamalla tehtävään ajoitettua todellista työmäärää tehtävän suunniteltuun työmäärään (tunteihin). Dynamics 365 Project Operations laskee seurantamittarit seuraavien kaavojen avulla:
 
-- **Edistymisprosentti**: Tähän päivämäärään saakka käytetty työmäärä ÷ Arvio valmistumisen hetkellä (EAC) 
-- **Valmistumisarvio (ETC)**: Suunniteltu työmäärä – Tähän päivämäärään saakka käytetty työmäärä 
-- **EAC**: Jäljellä oleva työmäärä + Tähän päivämäärään saakka käytetty työmäärä 
-- **Ennustettu työmäärän varianssi**: Suunniteltu työmäärä – EAC
+- **Edistymisprosentti** : Tähän päivämäärään saakka käytetty työmäärä ÷ Arvio valmistumisen hetkellä (EAC) 
+- **Valmistumisarvio (ETC)** : Suunniteltu työmäärä – Tähän päivämäärään saakka käytetty työmäärä 
+- **EAC** : Jäljellä oleva työmäärä + Tähän päivämäärään saakka käytetty työmäärä 
+- **Ennustettu työmäärän varianssi** : Suunniteltu työmäärä – EAC
 
 Project Operations näyttää tehtävän työmäärän varianssin ennusteen. Jos valmistumisen kustannusarvio on suunniteltua työmäärää suurempi, tehtävän ennustetaan vaativan enemmän aikaa kuin alun perin oli suunniteltu, ja se on perässä aikataulusta. Jos valmistumisen kustannusarvio on suunniteltua työmäärää pienempi, tehtävän ennustetaan vaativan vähemmän aikaa kuin alun perin oli suunniteltu, ja se on edellä aikataulua.
 
@@ -60,10 +60,10 @@ Yhteenvetotehtävien tai säiliötehtävien työmäärä voidaan projisoida uude
 > [!NOTE]
 > Tämä näkymä näyttää vain työvoimakustannukset, eikä se sisällä kuluarvioiden kustannuksia. Project Operations laskee seurantamittarit seuraavien kaavojen avulla:
 
-- **Toteutuneiden kustannusten prosenttiosuus**: Toteutuneet kustannukset tähän päivämäärään asti ÷ Arvioidut kustannukset valmistuessa
+- **Toteutuneiden kustannusten prosenttiosuus** : Toteutuneet kustannukset tähän päivämäärään asti ÷ Arvioidut kustannukset valmistuessa
 - **Kustannukset valmistuessa (CTC)** = Suunnitellut kustannukset – Tähän päivämäärään saakka toteutuneet kustannukset
-- **Valmistumisen kustannusarvio**: jäljellä oleva kustannus + toteutunut kustannus kuluvaan päivään saakka
-- **Arvioitujen kustannusten varianssi**: Suunnitellut kustannukset – EAC
+- **Valmistumisen kustannusarvio** : jäljellä oleva kustannus + toteutunut kustannus kuluvaan päivään saakka
+- **Arvioitujen kustannusten varianssi** : Suunnitellut kustannukset – EAC
 
 Kustannusten varianssin ennuste näytetään tehtävässä. Jos EAC on suunniteltuja kustannuksia enemmän, tehtävän ennustetaan maksavan enemmän kuin alunperin oli suunniteltu. Siksi se on suuntautunut budjetin ylittämiseen. Jos EAC on suunniteltuja kustannuksia vähemmän, tehtävän ennustetaan maksavan vähemmän kuin alunperin oli suunniteltu. Siksi se on suuntautunut budjetin alittamiseen.
 
@@ -73,10 +73,10 @@ Kun työmäärä projisoidaan uudelleen, kustannukset valmistuessa, valmistumise
 
 ## <a name="project-status-summary"></a>Projektin tilan yhteenveto
 
-Seurantatiedot **Työmäärän seuranta**- ja **Kustannusten seuranta** -näkymissä näyttävät edistymisen ja toteutuneet kustannukset projektin juurisolmun, yhteenvetotehtävien ja lehtisolmujen tasoilla. **Tila**-osio **Projektikohde**-sivulla näyttää yhteenvedon projektitason tilasta.
+Seurantatiedot **Työmäärän seuranta** - ja **Kustannusten seuranta** -näkymissä näyttävät edistymisen ja toteutuneet kustannukset projektin juurisolmun, yhteenvetotehtävien ja lehtisolmujen tasoilla. **Tila** -osio **Projektikohde** -sivulla näyttää yhteenvedon projektitason tilasta.
 
 ## <a name="status-summary-fields"></a>Tilan yhteenvetokentät
 
 **Projektin kokonaistila** -kenttä on muokattava kenttä, joka näyttää projektin kokonaistilan. Se käyttää värikoodausta, kuten vihreää, keltaista ja punaista, osoittamaan lisääntyvää riskiä. **Kommentit** -kentän avulla projektipäällikkö voi syöttää tilaan liittyviä kommentteja. **Tila päivitetty** -kenttää ei voi muokata, ja sen arvo on aik leima, joka ilmaisee, milloin tila on viimeksi päivitetty.
 
-**Aikataulun tehokkuus** - ja **Kustannustehokkuus**-kentät määritetään seurantapäivänä. Kun aikataulun ja kustannusten varianssi juurisolmussa **Työmäärän seuranta** -näkymässä ovat positiivisia, voit asettaa näiden kenttien arvoksi **Edellä**. Kun pääsolmun aikataulun ja kustasten varianssi juurisolmussa on negatiivinen, voit määrittää niiden arvoksi **Jäljessä**.
+**Aikataulun tehokkuus** - ja **Kustannustehokkuus** -kentät määritetään seurantapäivänä. Kun aikataulun ja kustannusten varianssi juurisolmussa **Työmäärän seuranta** -näkymässä ovat positiivisia, voit asettaa näiden kenttien arvoksi **Edellä**. Kun pääsolmun aikataulun ja kustasten varianssi juurisolmussa on negatiivinen, voit määrittää niiden arvoksi **Jäljessä**.

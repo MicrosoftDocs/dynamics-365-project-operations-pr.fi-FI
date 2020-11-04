@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 74f8889022e42a7bbd37879df870401c0e103446
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897672"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075298"
 ---
 # <a name="booking-allocation-methods"></a>Varauksen kohdistusmenetelmät
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Voit käyttää muutamaa erilaista varausten kohdistustapaa, kun lisäät ryhmän jäsenen suoraan projektiin **Ryhmä**-välilehdessä tai varaat resurssin projektille tai tarpeelle aikataulutaulukossa. Tässä aiheessa kerrotaan, miten kukin tapa toimii ja mitkä tavat voivat johtaa resurssien ylivaraukseen.
+Voit käyttää muutamaa erilaista varausten kohdistustapaa, kun lisäät ryhmän jäsenen suoraan projektiin **Ryhmä** -välilehdessä tai varaat resurssin projektille tai tarpeelle aikataulutaulukossa. Tässä aiheessa kerrotaan, miten kukin tapa toimii ja mitkä tavat voivat johtaa resurssien ylivaraukseen.
 
 ## <a name="booking-allocation-methods"></a>Varauksen kohdistusmenetelmät
 
@@ -72,7 +71,7 @@ Etupainotteinen tapa ottaa huomioon aiemmin luodut varaukset ja käytettävissä
 Koska käytettävissä oleva kapasiteetti otetaan huomioon, näyttöön voi tulla virhesanoma, jos resurssilla ei ole jäljellä olevaa kapasiteettia varausta varten. Kun tämä tapa on käytössä, ylivaraus ei ole mahdollista.
 
 ### <a name="none"></a><a name="none"></a>Ei ole
-Ei ole -menetelmä on käytettävissä vain, jos projektin varaukset tehdään **Ryhmä**-välilehdessä. Tämä tapa lisää resurssin projektiin ryhmän jäsenenä, mutta ei luo varauksia, jotka käyttävät resurssin kapasiteettia. Tätä tapaa käytetään, kun projektipäällikön ryhmän oletusjäsen lisätään projektin luomisen yhteydessä. Projektin luonut projektipäällikkökäyttäjä lisätään projektiin oletusarvoisesti. Tällöin projektin entiteettitietueella on omistaja ja projektissa on yksi hyväksyjä. Nykyisellä käyttäjällä ei ole varauksia. Jos haluat varata resurssin, voit poistaa resurssin ja lisätä sen uudelleen eri kohdistustavan avulla tai lisätä resurssin tehtäviin ja luoda sitten delegoinneille varauksia **Täsmäytys**-välilehden **Laajenna varaukset** -kohdan avulla.
+Ei ole -menetelmä on käytettävissä vain, jos projektin varaukset tehdään **Ryhmä** -välilehdessä. Tämä tapa lisää resurssin projektiin ryhmän jäsenenä, mutta ei luo varauksia, jotka käyttävät resurssin kapasiteettia. Tätä tapaa käytetään, kun projektipäällikön ryhmän oletusjäsen lisätään projektin luomisen yhteydessä. Projektin luonut projektipäällikkökäyttäjä lisätään projektiin oletusarvoisesti. Tällöin projektin entiteettitietueella on omistaja ja projektissa on yksi hyväksyjä. Nykyisellä käyttäjällä ei ole varauksia. Jos haluat varata resurssin, voit poistaa resurssin ja lisätä sen uudelleen eri kohdistustavan avulla tai lisätä resurssin tehtäviin ja luoda sitten delegoinneille varauksia **Täsmäytys** -välilehden **Laajenna varaukset** -kohdan avulla.
 
 ## <a name="allocation-methods-that-lead-to-overbooking"></a>Ylivaraukseen johtavat kohdistustavat
 Seuraavat kohdistustavat johtavat ylivaraukseen, jos resurssi on jo vahvistettu muissa projekteissa (tai muissa työtilauksissa tai aikataulutettavissa entiteeteissä):

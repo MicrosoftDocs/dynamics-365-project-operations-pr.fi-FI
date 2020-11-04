@@ -3,26 +3,198 @@ title: Proformalaskun vahvistaminen
 description: Tässä aiheessa on tietoja proformalaskun vahvistamisesta.
 author: rumant
 manager: AnnBe
-ms.date: 06/21/2020
+ms.date: 10/13/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: be6b8efe7afb4d78cda6864baaa687a9c005117a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.author: rumant
+ms.openlocfilehash: 560bb68cba865a6af60504114126ae6ea73dde2d
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896052"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075193"
 ---
-# <a name="confirming-a-proforma-invoice"></a>Proformalaskun vahvistaminen
+# <a name="confirm-a-proforma-invoice"></a>Proformalaskun vahvistaminen
+
+_**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
+
+Kun proformalasku on vahvistettu, projektilaskun päivitysten tila on **Vahvistettu**. Kun lasku on vahvistettu, se on vain luku -tilassa. Jatkossa lasku voidaan oikaista vain, jos asiakkaalle on aloitettu korjauksia tai hyvityksiä tai kun se on merkitty maksetuksi.
+
+Seuraavassa taulukossa on lueteltu järjestelmän luomat toteutuneet arvot. Nämä toteutuneet arvot luodaan, kun projektilaskulle tehdään tiettyjä toimintoja ennen sen vahvistamista.
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="416" valign="top">
+                <p>
+                    <strong>Skenaario</strong>
+                </p>
+            </td>
+            <td width="608" valign="top">
+                <p>
+                    <strong>Vahvistuksen yhteydessä luodut toteutuneet arvot</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Aikatapahtuman laskuttaminen muokkaamatta laskuluonnokseen.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskuttamattoman myynnin peruutus tunnille ja summalle alkuperäisen aikahyväksynnän perusteella.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Laskutettu toteutunut myynti tunnille ja summalle alkuperäisen aikahyväksynnän perusteella.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Määrän pienentämiseen muokatun aikatapahtuman laskutus.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskuttamattoman myynnin peruutus tunnille ja summalle alkuperäisen aikahyväksynnän perusteella.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uusi laskuttamaton todellinen myynti, joka on veloitettavissa laskutettujen laskurivien tiedoille, peruutetun myynnin toteutumiselle ja laskutettavalle myynnille.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uusi laskuttamaton tosiasiallinen myynti, josta ei veloiteta jäljellä olevia tunteja ja määrää sen jälkeen, kun vähennetään korjatut luvut muokatun laskurivin yksityiskohdissa, laskutetun myynnin tosiasiallinen palautus ja vastaava laskutettu todellinen myynti.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Määrän lisäämiseen muokatun aikatapahtuman laskutus.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskuttamattoman myynnin peruutus tunnille ja summalle alkuperäisen aikahyväksynnän perusteella.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uusi laskuttamaton todellinen myynti, joka on veloitettavissa laskutettujen laskurivien tiedoille, peruutetun myynnin toteutumiselle ja laskutettavalle myynnille.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Kulutapahtuman laskuttaminen muokkaamatta laskuluonnokseen.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskuttamattoman myynnin peruutus määrälle ja summalle alkuperäisen kuluhyväksynnän perusteella.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Laskutettu toteutunut myynti määrälle ja summalle alkuperäisen kuluhyväksynnän perusteella.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Määrän pienentämiseen muokatun kulutapahtuman laskutus.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskuttamattoman myynnin peruutus määrälle ja summalle alkuperäisen kuluhyväksynnän perusteella.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uusi laskuttamaton todellinen myynti, joka on veloitettavissa muokatun laskurivin tiedoissa olevasta määrästä ja summasta, laskuttamattoman tosiasiallisen myynnin palautuksesta ja vastaavan laskutetun myynnin todellisesta arvosta. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uusi laskuttamaton tosiasiallinen myynti, josta ei veloiteta jäljellä olevaa määrää ja summaa sen jälkeen, kun vähennetään korjatut luvut muokatun laskurivin yksityiskohdissa, laskutetun myynnin tosiasiallisesta palautuksesta ja vastaavasta laskutetusta todellisesta myynnistä.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Määrän kasvattamiseen muokatun kulutapahtuman laskutus.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskuttamattoman myynnin peruutus määrälle ja summalle alkuperäisen kuluhyväksynnän perusteella.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uusi laskuttamaton todellinen myynti, joka on veloitettavissa muokatun laskurivin tiedoissa olevasta määrästä ja summasta, muokkaamattoman tosiasiallisen myynnin palautuksesta ja vastaavan laskutetun myynnin todellisesta arvosta.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Maksun laskuttaminen.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskuttamattoman myynnin peruutus maksusummalle alkuperäisellä kirjauskansion rivillä.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Laskutettu toteutunut myynti määrälle ja summalle alkuperäisen palkkion kirjauskansion riville.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+Välitavoitteen laskutus.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Välitavoitteen summaa koskeva laskutettu myynti, joka on projektisopimusrivin alkuperäisessä välitavoitteessa.
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>

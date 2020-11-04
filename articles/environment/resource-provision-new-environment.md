@@ -3,17 +3,17 @@ title: Uuden ympäristön valmisteleminen
 description: Tässä aiheessa on tietoja siitä, miten uuden Project Operations -ympäristön voi valmistella.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949358"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075235"
 ---
 # <a name="provision-a-new-environment"></a>Uuden ympäristön valmisteleminen
 
@@ -26,20 +26,20 @@ Tässä aiheessa on tietoja siitä, miten luodaan uusi Dynamics 365 Project Oper
 Käytä seuraavia vaiheita, kun haluat ottaa käyttöön Project Operationsin automatisoidun valmistelutyönkulun LCS-projektillesi.
 
 1. Siirry [LCS:sään](https://lcs.dynamics.com/v2) ja valitse **Esiversio-ominaisuuksien hallinta** -ruutu.
-2. Valitse **Esiversio-ominaisuus** -luettelosta **Project Operations** ja ota Project Operations käyttöön valitsemalla **Esiversio-ominaisuus käytössä**.
+2. Valitse **Esiversio-ominaisuus** -luettelosta **Project Operations -ominaisuus** ja ota sitten Project Operations käyttöön valitsemalla **Esiversio-ominaisuus käytössä**.
 
 > [!NOTE]
 > Tämä vaihe suoritetaan vain kerran LCS-projektia kohden.
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations -ympäristön tarjoaminen
 
-1. Avaa uusi Dynamics 365 Finance [-esittely-ympäristön](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) tai [eristys-/tuotantoympäristön](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) käyttöönotto. 
+1. Avaa uusi Dynamics 365 Finance [-esittely-ympäristön](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) tai [eristys-/tuotantoympäristön](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) käyttöönotto. 
 2. Suorita ohjatun **Ympäristön valmistelu** -toiminnon vaiheet. 
 
 > [!IMPORTANT]
 > Varmista, että valittu sovellusversio on 10.0.13 tai uudempi.
 
-3. Jos haluat valmistella Project Operationsi, valitse **Lisäasetukset**-kohdassa **Common Data Service**. 
+3. Jos haluat valmistella Project Operationsi, valitse **Lisäasetukset** -kohdassa **Common Data Service**. 
 4. Ota **Common Data Service -asetukset** käyttöön valitsemalla **Kyllä** ja kirjoitramalla tiedot pakollisiin kenttiin:
 
   - Nimi
@@ -54,7 +54,7 @@ Käytä seuraavia vaiheita, kun haluat ottaa käyttöön Project Operationsin au
 ![Käyttööntoton asetukset](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
-> Valitse **Hyväksy**, kun hyväksyt palveluehdot, ja palaa sitten käyttöönottoasetuksiin valitsemalla **Valmis**.
+> Valitse **Hyväksy** , kun hyväksyt palveluehdot, ja palaa sitten käyttöönottoasetuksiin valitsemalla **Valmis**.
 
 ![Käyttöönoton suostumus](./media/2DeploymentConsent.png)
 
@@ -80,7 +80,7 @@ Sinun täytyy ehkä ottaa käyttöön laatupäivityksiä Finance-ympäristössä
 
 ![Näytä päivitykset](./media/5ViewUpdates.png)
 
-2. Valitse **Binaaripäivitykset**-sivulla **Tallenna paketti.**
+2. Valitse **Binaaripäivitykset** -sivulla **Tallenna paketti.**
 
 ![Tallenna paketti](./media/6SavePackage.png)
 
@@ -116,11 +116,11 @@ Ympäristön huolto kestää jonkin aikaa. Kun ympäristö on valmis, se palaa k
 
 ![Linkitä CDS:ään](./media/12LinktoCDS.png)
 
-4. Valitse **Käytä ratkaisua**, kun haluat käyttää entiteettejä, jotkan yhdistetään integrointiin.
+4. Valitse **Käytä ratkaisua** , kun haluat käyttää entiteettejä, jotkan yhdistetään integrointiin.
 
 ![Ota ratkaisut käyttöön](./media/13ApplySolutions.png)
 
-5. Valitse molemmat ratkaisut,, **Dynamics 365 Finance and Operations – kaksoiskirjoituksen entiteettikartta** and **Dynamics 365 Project Operations – Kaksoiskirjoituksen entiteettikartat**, ja valitse sitten **Käytä**.
+5. Valitse molemmat ratkaisut,, **Dynamics 365 Finance and Operations – kaksoiskirjoituksen entiteettikartta** and **Dynamics 365 Project Operations – Kaksoiskirjoituksen entiteettikartat** , ja valitse sitten **Käytä**.
 
 ![Ratkaisujen vahvistaminen](./media/14ConfirmSolutions.png)
 
@@ -165,18 +165,19 @@ Päivitys kestää noin 20 minuuttia. Saat ilmoituksen, kun se on valmis.
 | **Projektitapahtuman integrointikohdesuhteet (msdyn\_transactionconnections)** | No | No | – | No | – |
 | **Project Operations -integroinnin sopimusrivin välitavoitteet (msdyn\_contractlinesscheduleofvalues)** | No | No | – | No | – |
 | **Project Operations -integrointikohde kuluarvioita varten (msdyn\_estimateslines)** | No | No | – | No | – |
-| **Project Operations -integrointikohde tuntiarvioita varten (msdyn\_resourceassignments)** | No | No | – | No | – |
+| **Project Operations -integroinnin projektikululuokkien vientientiteetti (msdyn\_expensecategories)** | No | No | – | No | – |
 | **Project Operations -integroinnin projektikulujen vientientiteetti (msdyn\_expenses)** | Kyllä | No | – | No | – |
 | **Project Operations -integrointikohde tuntiarvioita varten (msdyn\_resourceassignments)** | Kyllä | No | – | No | – |
 
+
 4. Jos haluat päivittää entiteetin, valitse yhdistämismäärityksen nimi ja valitse sitten **Päivitä entiteetit**. 
-5. Jatka suorittamalla yhdistämismääritys, kun päivitys on valmis.
+
 
 ![Päivitä yhdistämismääritys](./media/20RefreshMapping.png)
 
-Ennen kuin otat seuraavan yhdistämismäärityksen käyttöön, tarkista, että taulukon yhdistämismääritys on tilassa **Käynnissä**. Sellaisten yhdistämismääritysten suorittaminen, joissa on paljon edellytyksiä, voi kestää jonkin aikaa.
+5. Suorita yhdistämismääritys, kun päivitys on valmis. Ennen kuin otat seuraavan yhdistämismäärityksen käyttöön, tarkista, että taulukon yhdistämismääritys on tilassa **Käynnissä**. Sellaisten yhdistämismääritysten suorittaminen, joissa on paljon edellytyksiä, voi kestää jonkin aikaa.
 
-Jos haluat suorittaa yhdistämismääritys ja edellytykset, ota käyttöön **Näytä liittyvät entiteetin yhdistämismääritykset** -valintapainike. Jos taulukko osoittaa **Edellytyksen ensimmäinen synkronointi** -kohdaas arvo **Ei**, tarkista, että **Ensimmäinen synkronointi** -merkintä on **Ei käytössä** kaikissa edellytysyhdistämismäärityksissä, ennen kuin suoritat sen.
+Jos haluat suorittaa yhdistämismääritys ja edellytykset, ota käyttöön **Näytä liittyvät entiteetin yhdistämismääritykset** -valintapainike. Jos taulukko osoittaa **Edellytyksen ensimmäinen synkronointi** -kohdaas arvo **Ei** , tarkista, että **Ensimmäinen synkronointi** -merkintä on **Ei käytössä** kaikissa edellytysyhdistämismäärityksissä, ennen kuin suoritat sen.
 
 ![Suorita yhdistämismääritys](./media/21RunMap.png)
 

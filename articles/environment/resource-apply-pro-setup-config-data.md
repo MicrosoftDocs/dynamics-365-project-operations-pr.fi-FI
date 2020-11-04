@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948840"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075221"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Aseta määritystiedot ja ota ne käyttöön Common Data Service for Project Operationsissa
 
@@ -27,7 +27,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 ![Määrityksen siirto](./media/1ConfigurationMigration.png)
 
-4. Valitse ohjatun CMT-toiminnon sivulla 2 **Office 365** **asennustyypiksi**.
+4. Valitse ohjatun CMT-toiminnon sivulla 2 **Microsoft 365** **Käyttöönottotyypiksi**.
 5. Valitse **Näytä käytettävissä olevien organisaatioiden luettelo** ja **Näytä lisäasetukset** -valintaruutu.
 6. Valitse vuokraajan alue, anna tunnistetietosi ja valitse **Kirjaudu**.
 
@@ -75,19 +75,19 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 ![Avaa ympäristö](./media/7OpenEnvironment.png)
 
-2. Siirry kohtaan **Projektit** > **Resurssit** ja valitse sitten **Uusi**, jos haluat luoda käyttäjälle varattavissa olevan resurssin.
+2. Siirry kohtaan **Projektit** > **Resurssit** ja valitse sitten **Uusi** , jos haluat luoda käyttäjälle varattavissa olevan resurssin.
 
 ![Varattavissa olevat resurssit](./media/8BookableResources.png)
 
-3. Valitse **Yleiset**-välilehdessä järjestelmänvalvojakäyttäjä. Tarkista, että aikavyöhyke vastaa sitä, missä olet. 
+3. Valitse **Yleiset** -välilehdessä järjestelmänvalvojakäyttäjä. Tarkista, että aikavyöhyke vastaa sitä, missä olet. 
 
 ![Uusi varattava resurssi](./media/9NewBookableResource.png)
 
-4. Valitse **Aikataulutus**-välilehden **Yritys**-kentässä **USPM**-yritys ja valitse sitten **Tallenna**. 
+4. Valitse **Aikataulutus** -välilehden **Yritys** -kentässä **USPM** -yritys ja valitse sitten **Tallenna**. 
 
 ![Aikataulutus-välilehti](./media/10SchedulingTab.png)
 
-5. Valitse **Työtunnit**-välilehti.  
+5. Valitse **Työtunnit** -välilehti.  
 
 ![Työaika](./media/11WorkHours.png)
 
@@ -114,10 +114,10 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
  
 12. Päivitä seuraavat kentät:
 
- - **Oletusyritys**: USPM
- - **Oletusorganisaatioyksikkö**: Contoso Robotics Global
- - **Laskutustiheys**: seitsemäs ja viimeinen päivä
- - **Työtuntimalli**: Vaihda luomaasi malliin.
+ - **Oletusyritys** : USPM
+ - **Oletusorganisaatioyksikkö** : Contoso Robotics Global
+ - **Laskutustiheys** : seitsemäs ja viimeinen päivä
+ - **Työtuntimalli** : Vaihda luomaasi malliin.
 
 13. Valitse **Tallenna**. 
 

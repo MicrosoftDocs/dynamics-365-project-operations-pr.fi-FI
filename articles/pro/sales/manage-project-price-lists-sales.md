@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966768"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075271"
 ---
 # <a name="manage-project-price-lists-on-project-quotes-sales"></a>Projektihinnastojen hallinta projektitarjouksissa (myynti)
 
@@ -29,7 +29,7 @@ Jos projektitarjouksessa ei ole projektihinnastoa, näyttöön tulee varoitussan
 
 Jos haluat luoda tai valita tietyn hinnaston projektipohjaisen työn ja kulujen arviointia varten, tee seuraavat toimet.
 
-1. Valitse tarjouksessa **Projektihinta**-välilehti ja valitse aliruudukossa **+ Lisää uusi projektihinnasto**.
+1. Valitse tarjouksessa **Projektihinta** -välilehti ja valitse aliruudukossa **+ Lisää uusi projektihinnasto**.
 2. Valitse hinnasto Pikaluonti-sivulla. Avattavassa luettelossa näkyvät kaikki hinnastot, joiden kontekstiksi on määritetty **Myynti** ja joiden valuutta vastaa tarjouksen valuuttaa.
 4. Kirjoita projektihinnaston liitoksen kuvaus ja valitse **Tallenna ja sulje**.
 
@@ -49,7 +49,7 @@ Projektihinnastot voidaan määrittää oletusarvoksi projektitarjouksessa. Täm
 
 1. Siirry kohtaan **Asetukset** > **Yleiset** > **Parametrit**.
 2. Etsi **Aktiiviset parametrit** -luettelosivulla tietue ja avaa se kaksoisnapsauttamalla sitä. 
-3. Valitse **Parametrit**-sivulla **Hinnasto**-välilehti. Näkyvissä on luettelo oletushinnastoista. Tämä on luettelo vakiokustannuksista ja myyntihinnastoista. Kun myyntihinnasto on liitetty tähän kaikille myyntivaluutoille, tämä varmistaa, että tämän myyntihinnasto on oletusarvo kaikissa asiakkaille luotavissa tarjouksissa, jotka käyttävät tätä valuuttaa.
+3. Valitse **Parametrit** -sivulla **Hinnasto** -välilehti. Näkyvissä on luettelo oletushinnastoista. Tämä on luettelo vakiokustannuksista ja myyntihinnastoista. Kun myyntihinnasto on liitetty tähän kaikille myyntivaluutoille, tämä varmistaa, että tämän myyntihinnasto on oletusarvo kaikissa asiakkaille luotavissa tarjouksissa, jotka käyttävät tätä valuuttaa.
 
 ### <a name="set-up-customer-specific-project-price-lists"></a>Asiakaskohtaisten projektihinnastojen määrittäminen
 
@@ -57,13 +57,13 @@ Asiakaskohtaiset projektihinnastot voidaan määrittää myös silloin, kun olet
 
 Jos haluat määrittää asiakaskohtaisen projektihinnaston, suorita seuraavat vaiheet.
 
-1. Valitse **Myynti**-alueessa **Asiakkaat**.
+1. Valitse **Myynti** -alueessa **Asiakkaat**.
 2. Valitse ja avaa aktiivisten asiakkuuksien luettelosta asiakastietue, jolle sinulla on erikoishinnasto.
-3. **Projektihinnastot**-välilehdessä voit luoda uuden hinnastoliitoksen, joka on juuri kyseiselle asiakkaalle määritetty projektihinnasto.
+3. **Projektihinnastot** -välilehdessä voit luoda uuden hinnastoliitoksen, joka on juuri kyseiselle asiakkaalle määritetty projektihinnasto.
 
 ## <a name="create-custom-pricing-on-a-project-quote"></a>Mukautetun hinnoittelun luominen projektitarjoukseen
 
 Kun sinulla on organisaation ja asiakaskohtaiset oletusprojektihinnastot, projektitarjoukset luodaan automaattisesti käyttäen näitä projektihinnastojen liitoksia. Joissakin tapauksissa tiettyä projektitarjousta varten on kuitenkin ehkä luotava mukautettu hinnoittelu. 
 
-1. Tarkista **Projektihinnasto**-välilehden **Projektitarjous**-kohdan aliruudukossa, että mitään tiettyä hinnastotietuetta ei ole valittu.
+1. Tarkista **Projektihinnasto** -välilehden **Projektitarjous** -kohdan aliruudukossa, että mitään tiettyä hinnastotietuetta ei ole valittu.
 2. Valitse **Luo mukautettu hinnoittelu**. Tämä kopioi kaikki tarjoukseen tällä hetkellä liittyvät vakiohinnastot ja liittää nämä kopiot tarjoukseen. Olemassa olevat liitokset vakiohinnastoihin poistetaan. Tämän jälkeen myyjä voi alkaa tehdä muokkauksia näihin kopioihin. Näitä muuttuneita hintoja sovelletaan vain tähän projektitarjoukseen.

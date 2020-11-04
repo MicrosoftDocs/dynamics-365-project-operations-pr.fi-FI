@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966771"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075252"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Projektipohjaisen tarjousrivin arviointi
 
@@ -30,12 +30,12 @@ Jos haluat arvioida projektipohjaisen tarjousrivin, valitse projektipohjaisellat
 
 Jos haluat luoda arvion projektipohjaiselle tarjousriville, valitse **Tarjousrivin tiedot** -välilehti. Tässä välilehdessä luotavaan rivinimikkeeseen tulee yhteenveto tämän tarjousrivin tarjotusta arvosta. 
 
-Jos haluat luoda tarjousrivin tiedot, valitse **Tarjousrivin tiedot** -aliruudukossa **+ Uusi tarjousrivin tieto**. Pikaluonti-liukuruutu avautuu. Seuraavat kentät **Tarjousrivi**-lomakkeessa:
+Jos haluat luoda tarjousrivin tiedot, valitse **Tarjousrivin tiedot** -aliruudukossa **+ Uusi tarjousrivin tieto**. Pikaluonti-liukuruutu avautuu. Seuraavat kentät **Tarjousrivi** -lomakkeessa:
 
 | **Kenttä** | **Sijainti** | **Relevanssi, tarkoitus ja opastus** | **Loppupään vaikutus** |
 | --- | --- | --- | --- |
 | Kuvaus | Pikaluonti | Tietyn arvion kuvaus. | Tämän kentän oletusarvona on kustannukseen liittyvä tarjousrivin tieto, joka luodaan automaattisesti. |
-| Tapahtumaluokka | Pikaluonti | Tämä avattava luettelo sisältää projektipohjaisen tarjous rivin **Yleiset**-välilehteen sisältyvät tapahtumaluokat.  | Tämän kentän oletusarvona on kustannukseen liittyvä tarjousrivin tieto, joka luodaan automaattisesti. |
+| Tapahtumaluokka | Pikaluonti | Tämä avattava luettelo sisältää projektipohjaisen tarjous rivin **Yleiset** -välilehteen sisältyvät tapahtumaluokat.  | Tämän kentän oletusarvona on kustannukseen liittyvä tarjousrivin tieto, joka luodaan automaattisesti. |
 | Rooli | Pikaluonti | Henkilö, joka suorittaa tämän työn tai aiheuttaa tämän kulun. | Tämän kentän oletusarvona on kustannukseen liittyvä tarjousrivin tieto, joka luodaan automaattisesti. |
 | Luokka | Pikaluonti | Työn tai kulun luokka. | Tämän kentän oletusarvona on kustannukseen liittyvä tarjousrivin tieto, joka luodaan automaattisesti. |
 | Aloituspäivämäärä | Pikaluonti | Työn alkamispäivämäärä. | Tämän kentän oletusarvona on kustannukseen liittyvä tarjousrivin tieto, joka luodaan automaattisesti. |
@@ -46,11 +46,11 @@ Jos haluat luoda tarjousrivin tiedot, valitse **Tarjousrivin tiedot** -aliruuduk
 | Määrä | Pikaluonti | Työn tai kulun määrä | Tämän kentän oletusarvona on kustannukseen liittyvä tarjousrivin tieto, joka luodaan automaattisesti. |
 | Yksikköhinta | Pikaluonti | Työn suorittavan roolin laskutushinta tai kululuokan myyntihinta. Tämän kentän oletusarvona on aikaperusteinen roolin ja resursointiyksikön yhdistelmä projektihinnastossa, joka on voimassa alkamispäivänä. Kulujen osalta tämä kenttä on oletusarvon mukaan projektihinnaston tapahtumaluokalle määritetty hinta, joka on voimassa alkamispäivänä. Jos tapahtumaluokan hinnoittelutapa ei ole hinta yksikköä kohden, oletusarvoa ei ole, ja tämä kenttä jätetään tyhjäksi. | Työn suorittavan roolin kustannushinta tai kululuokan yksikkökohtainen kustannus. Tämän kentän oletusarvona on aikaperusteinen roolin ja resursointiyksikön yhdistelmä sopimusyksikön hinta tarjouksen hinnastossa, joka on voimassa alkamispäivänä. Kulujen osalta tämä kenttä on oletusarvon mukaan sopimusyksikön kustannushinnastossa tapahtumaluokalle määritetty hinta, joka on voimassa alkamispäivänä. Jos tapahtumaluokan hinnoittelutapa ei ole hinta yksikköä kohden, oletusarvoa ei ole, ja tämä kenttä jätetään tyhjäksi. |
 | Arvioitu vero | Pikaluonti | Voit syöttää tämän työn tai kulun arvioidun veron manuaalisesti. | Tämä kenttä ei vaikuta loppupään prosessiin. |
-| Summa | Pikaluonti | Tähän kenttään voi syöttää tietoja manuaalisesti, jos **Määrä**- ja **Hinta**-kentät jätetään tyhjiksi. Jos nämä kentät eivät ole tyhjiä, tämä kenttä muuttuu vain luku -kentäksi, ja se lasketaan seuraavasti: (määrä\*yksikköhinta) + vero. | Tämä kenttä ei vaikuta loppupään prosessiin. |
+| Summa | Pikaluonti | Tähän kenttään voi syöttää tietoja manuaalisesti, jos **Määrä** - ja **Hinta** -kentät jätetään tyhjiksi. Jos nämä kentät eivät ole tyhjiä, tämä kenttä muuttuu vain luku -kentäksi, ja se lasketaan seuraavasti: (määrä\*yksikköhinta) + vero. | Tämä kenttä ei vaikuta loppupään prosessiin. |
 
 ## <a name="update-prices-on-quote-line-details"></a>Hintojen päivittäminen tarjousrivin tiedoissa
 
-Jos olet muuttanut tarjoukseen liitetyn projektihinnaston hintoja tai sopimusyksikön kustannushinnastoa, voit valita **Tarjous**-sivulla **Laske uudelleen**, jos haluat päivittää yksittäisten tarjousrivin tietojen hinnat tämän muutoksen mukaisiksi. Kun valitset **Laske uudelleen**, näkyviin tulee varoitus, joka ilmoittaa, että tarjouksen kaikkien tarjousrivien tiedot palautetaan. Valitse **Kyllä**, jos haluat päivittää sekä myynti- että kustannustarjousrivin tietojen hinnat.
+Jos olet muuttanut tarjoukseen liitetyn projektihinnaston hintoja tai sopimusyksikön kustannushinnastoa, voit valita **Tarjous** -sivulla **Laske uudelleen** , jos haluat päivittää yksittäisten tarjousrivin tietojen hinnat tämän muutoksen mukaisiksi. Kun valitset **Laske uudelleen** , näkyviin tulee varoitus, joka ilmoittaa, että tarjouksen kaikkien tarjousrivien tiedot palautetaan. Valitse **Kyllä** , jos haluat päivittää sekä myynti- että kustannustarjousrivin tietojen hinnat.
 
 ## <a name="access-quote-line-details-for-cost"></a>Kustannuksen tarjousrivin tietojen käyttäminen
 

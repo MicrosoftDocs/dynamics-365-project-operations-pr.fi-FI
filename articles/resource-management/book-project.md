@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 19128264ed3db7efeeba948155f0ddbdc806c2a0
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908085"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075200"
 ---
 # <a name="book-to-a-project"></a>Projektin varaaminen
 
@@ -23,7 +23,7 @@ Joskus projektipäällikön tai resurssipäällikön on kohdistettava resurssi p
 
 - Varaa ryhmän jäsenen ruudukosta
 - Varaus aikataulutaulukosta
-- Varaa **Projekti**-lomakkeesta
+- Varaa **Projekti** -lomakkeesta
 
 ## <a name="book-from-the-team-member-grid"></a>Varaa ryhmän jäsenen ruudukosta
 
@@ -47,7 +47,7 @@ Jos organisaatiosi toimii resussien hybridikohdistustilassa, projektipäällikk�
 Kun resurssipäällikön pitää varata resurssi suoraan projektiin, hän voi käyttää aikataulutaulukkoa ja projektin tarvetta. Projektin tarve on resurssitarve, joka on aina käytettävissä varaamista varten. Varaa suoraan projektiin aikataulutaulukosta seuraavalla tavalla.
 
 1. Siirry aikataulutaulukkoon ja suodata vasemmanpuoleisella sivulla haluamasi resurssit, joita harkitset tarpeeseen.
-2. Valitse alaruudussa **Projekti**-välilehti, jossa voit tarkastella projektitarpeiden luetteloa.
+2. Valitse alaruudussa **Projekti** -välilehti, jossa voit tarkastella projektitarpeiden luetteloa.
 3. Vedä tarve resurssin päälle ja määritä seuraavat tiedot:
 
     - Alkamispäivä

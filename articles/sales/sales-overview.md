@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3891166"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075547"
 ---
 # <a name="sales-processes-overview"></a>Myyntiprosessien yleiskatsaus
 
@@ -57,12 +56,12 @@ Yrityksen myyntiprosessissa voi olla esimerkiksi seuraavat kuusi vaihetta:
  
 Organisaatiossasi saatetaan käyttää eri entiteettejä edustamaan samaa kauppaa sen muuttuessa. Aikaisin myyntiprosessissa kauppaa edustaa Mahdollisuus-entiteetti. Ajan myötä ja kaupan tarkentuessa saatetaan käyttää ylätason arvioita yhden tai useamman tarjouksen luomiseen. Jos sisäiset ja asiakkaan sidosryhmät tarkistavat yhden näistä tarjouksista, kauppaa edustaa Tarjous-entiteetti. Kun asiakas on hyväksynyt tarjouksen, kauppaa edustaa projektisopimus tai työnkuvaus. Näiden toimintojen tukemiseksi jokainen prosessin vaihe on liiketoimintaprosessien rakenteessa linkitetty eri tietokantataulukkoon.
 
-Myyntiprosessin **Hyväksy**-vaihetta voidaan tukea Mahdollisuus-entiteetillä. Vaiheita **Arvio** ja **Sisäinen arviointi** voidaan tukea Tarjous-entiteetillä. Vaiheita **Sopimus**, **Toimitus** ja **Sulkeminen** voidaan tukea Projektisopimus-entiteetillä.
+Myyntiprosessin **Hyväksy** -vaihetta voidaan tukea Mahdollisuus-entiteetillä. Vaiheita **Arvio** ja **Sisäinen arviointi** voidaan tukea Tarjous-entiteetillä. Vaiheita **Sopimus** , **Toimitus** ja **Sulkeminen** voidaan tukea Projektisopimus-entiteetillä.
 
-Kun siirrät kauppoja vaiheiden läpi, järjestelmä pyytää sinua luomaan asianmukaisen entiteettitietueen auttamaan ja opastamaan sinua prosessissa. Vaiheet voivat olla ehdollisia. Jos esimerkiksi tarvitset tarjoukselle sisäisen arvioinnin vain, kun tarjouksessa käytetään mukautettua hinnastoa, voit määrittää kyseisen ehdon vastaavassa liiketoimintaprosessin vaiheessa. **Sisäinen arviointi** -vaihe näkyy tällöin vain sellaisten tarjousten osalta, joissa käytetään mukautettua hinnastoa. Kaikissa muissa kaupoissa ja tarjouksissa **Arvio** -vaihetta seuraa **Sopimus**-vaihe.
+Kun siirrät kauppoja vaiheiden läpi, järjestelmä pyytää sinua luomaan asianmukaisen entiteettitietueen auttamaan ja opastamaan sinua prosessissa. Vaiheet voivat olla ehdollisia. Jos esimerkiksi tarvitset tarjoukselle sisäisen arvioinnin vain, kun tarjouksessa käytetään mukautettua hinnastoa, voit määrittää kyseisen ehdon vastaavassa liiketoimintaprosessin vaiheessa. **Sisäinen arviointi** -vaihe näkyy tällöin vain sellaisten tarjousten osalta, joissa käytetään mukautettua hinnastoa. Kaikissa muissa kaupoissa ja tarjouksissa **Arvio** -vaihetta seuraa **Sopimus** -vaihe.
 
 > [!NOTE]
-> Project Operationsissa on omat sivut mahdollisuus-, tarjous-, tilaus- ja laskuentiteettitietueille. Nämä tietueet on luotava näiden entiteettien projektitietosivujen avulla. Muussa tapauksessa et voi avata tietueita **Projektin tiedot** -sivulla. Jos haluat avata tietueen **Projektin tiedot** -sivulla, poista tietue ja luo se uudelleen käyttämällä **Projektin tiedot** -sivua, jossa näiden entiteettityyppien liiketoimintalogiikka varmistaa, että tietueen **Tyyppi**-kenttä on määritetty oikein ja että kaikki pakolliset käsitteet on alustettu oikein.
+> Project Operationsissa on omat sivut mahdollisuus-, tarjous-, tilaus- ja laskuentiteettitietueille. Nämä tietueet on luotava näiden entiteettien projektitietosivujen avulla. Muussa tapauksessa et voi avata tietueita **Projektin tiedot** -sivulla. Jos haluat avata tietueen **Projektin tiedot** -sivulla, poista tietue ja luo se uudelleen käyttämällä **Projektin tiedot** -sivua, jossa näiden entiteettityyppien liiketoimintalogiikka varmistaa, että tietueen **Tyyppi** -kenttä on määritetty oikein ja että kaikki pakolliset käsitteet on alustettu oikein.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Muutosten jäljittäminen tarjouksiin ja projektisuunnitelmiin myyntisyklin aikana
