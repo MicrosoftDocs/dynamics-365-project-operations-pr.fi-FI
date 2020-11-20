@@ -3,7 +3,7 @@ title: Miten delegoin varattavissa olevan resurssin tehtävälle verkkosovelluks
 description: Yleiskatsaus tapoihin, joilla varattavissa olevia resursseja voidaan delegoida.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075536"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125174"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Miten delegoin varattavissa olevan resurssin tehtävälle verkkosovelluksessa (Project Service -sovelluksen versio 2.x)?
 
@@ -40,7 +40,7 @@ Huomaa, että jos haluat delegoida varattavissa olevan resurssin tehtävälle, v
 Kun tämä tapa on käytössä resurssi lisätään projektiryhmään. Tämän jälkeen delegoidaan tehtävät projektiaikataulun resurssille. Tämä tehdään seuraavasti:
 1.  Lisää uusi ryhmän jäsen ryhmän jäsenen ruudukkoon valitsemalla **Uusi**.
 2.  Valitse ryhmän jäsenen pikaluontinäytössä varattavissa olevan resurssin nimi ja määritä rooli.
-3.  Valitse **alku** - ja **loppupäivämäärät**.
+3.  Valitse **alku**- ja **loppupäivämäärät**.
 
     > [!div class="mx-imgBorder"] 
     > ![Kuvakaappaus ryhmän jäsenen lisäämisestä](media/FAQ-Resources-to-Tasks2-1.png "Kuvakaappaus ryhmän jäsenen lisäämisestä")
@@ -59,7 +59,7 @@ Kun tämä tapa on käytössä resurssi lisätään projektiryhmään. Tämän j
 6.  Valitse tehtävän työrakenteessa resurssin solun avattava luettelo. Tee seuraavaksi näin: 
 
     1. Valitse **Lisää**.
-    2. Valitse **Resurssit** -kohdan alla oleva avattava luettelo ja valitse aiemmin lisäämäsi ryhmän jäsen.
+    2. Valitse **Resurssit**-kohdan alla oleva avattava luettelo ja valitse aiemmin lisäämäsi ryhmän jäsen.
     3. Valitse **OK**. Ryhmän jäsen on nyt delegoitu tehtävälle.
 
     > [!div class="mx-imgBorder"] 
@@ -88,7 +88,7 @@ Tämä tapa varmistaa sen, että resursseilla on riittävästi tehtävien varauk
 
 1. Valitse työrakenteessa tehtävä.
 2. Valitse resurssin solun avattavan **Delegoitu rooli** -luettelon kuvake.
-3. Valitse avattava **Rooli** -luettelo ja valitse yleisen resurssin rooli.
+3. Valitse avattava **Rooli**-luettelo ja valitse yleisen resurssin rooli.
 4. Valitse **OK**.
 
     > [!div class="mx-imgBorder"] 
@@ -109,7 +109,7 @@ Voit avata yleisen ryhmän jäsenen taustalla olevan resurssitarpeen valitsemall
 > [!div class="mx-imgBorder"] 
 > ![Näyttökuva taustalla olevan resurssitarpeen avaamisesta](media/FAQ-Resources-to-Tasks2-7.png "Näyttökuva taustalla olevan resurssitarpeen avaamisesta")
 
-Valitse yleisen resurssin **Varaa** -kohta. Tämän jälkeen voit etsiä todellisen resurssin ja varata sen aikataulutaulukon avulla. Voit myös lähettää tarpeen resurssipäällikön tekemälle toteutukselle valitsemalla **Lähetä pyyntö**.
+Valitse yleisen resurssin **Varaa**-kohta. Tämän jälkeen voit etsiä todellisen resurssin ja varata sen aikataulutaulukon avulla. Voit myös lähettää tarpeen resurssipäällikön tekemälle toteutukselle valitsemalla **Lähetä pyyntö**.
 
 Kun yleinen resurssi toteutetaan nimetyn resurssin kanssa, yleinen resurssi poistetaan ryhmästä ja yleisen resurssin tehtävän delegoinnit delegoidaan nimetylle resurssille, joka toteutti yleisen resurssin resurssitarpeen.
  

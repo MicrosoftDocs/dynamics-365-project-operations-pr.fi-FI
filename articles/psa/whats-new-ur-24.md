@@ -3,7 +3,7 @@ title: Uutuudet ja muutokset Project Service Automation -päivitysjulkaisussa 24
 description: Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat käytettävissä Project Service Automation -päivitysjulkaisussa 24, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075300"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126569"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation -päivitysjulkaisu 24, V3
 
@@ -67,13 +67,13 @@ Seuraavat ongelmat on korjattu:
 
 Seuraavat ongelmat on korjattu:
 
-- Kun siirrytään **projektiaikataulussa** **manuaalisesta** **automaattiseen** , automaattinen tallennus ei valmistu.
+- Kun siirrytään **projektiaikataulussa** **manuaalisesta** **automaattiseen**, automaattinen tallennus ei valmistu.
 - Kulukustannuksia ei pitäisi laskea **Projektin seuranta -ruudukon** varianssia kohti.
-- **Arvioiden tunniste** -sarakkeiden epäjohdonmukainen toiminta latauksen aikana verrattuna **aikavaihe** -tyypin vaihtamiseen.
+- **Arvioiden tunniste** -sarakkeiden epäjohdonmukainen toiminta latauksen aikana verrattuna **aikavaihe**-tyypin vaihtamiseen.
 - Projektin todelliset kustannukset eivät ehkä vastaa **toteutuneiden arvojen** summaa.
-- **Yhteenveto** -välilehden **Arvioitu päättymispäivä** ei vastaa **Työrakenne-aikataulua**.
+- **Yhteenveto**-välilehden **Arvioitu päättymispäivä** ei vastaa **Työrakenne-aikataulua**.
 - **Päivitä todelliset tunnit** ei toimi oikein, kun ulonnetaan.
-- Projektipäällikkö, joka ei ole **pääliiketoimintayksikössä** , ei voi luoda projektia.
+- Projektipäällikkö, joka ei ole **pääliiketoimintayksikössä**, ei voi luoda projektia.
 - **Kuluarvioiden** tehtävän tai luokan muutokset eivät säily.
 - **Sopimuksen kopio** kopioi laskutusaikataulut ja suoritustilan.
 - **Päivitä toteutuneet** -painike laskee yhteenvetotehtävät virheellisesti.

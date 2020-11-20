@@ -3,7 +3,7 @@ title: Nimettyjen varattavissa olevien resurssien varaaminen projektiryhmälle j
 description: Tässä aiheessa on tietoja miten nimetyt resurssit varataan projektiryhmille ja miten ne kohdennetaan tehtäville.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075467"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130169"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Nimettyjen varattavissa olevien resurssien varaaminen projektiryhmälle ja tehtävien kohdennus 
 
@@ -32,11 +32,11 @@ ms.locfileid: "4075467"
 Voit lisätä nimetyn resurssin projektiryhmään varaamalla sen suoraan ryhmään. Toimi seuraavien vaiheiden mukaisesti.
 
 1. Siirry Project Service Automationissa kohtaan **Projektit** ja avaa projekti, jota varten teet varausta.
-2. Napsauta **Projekti** -sivun **Tyhmä** -välilehdessä **Uusi**. 
+2. Napsauta **Projekti**-sivun **Tyhmä**-välilehdessä **Uusi**. 
 
 ![Ryhmän jäsenen lisääminen ryhmävälilehdestä](media/RM-how-to-1.png)
 
-3. Valitse varattavissa oleva resurssi **Projektiryhmän jäsenen pikaluonti** -valintaikkunassa. **Rooli** -kenttä täytetään resurssin oletusroolilla, jos sillä sellainen on. Voit muuttaa roolia tarvittaessa. 
+3. Valitse varattavissa oleva resurssi **Projektiryhmän jäsenen pikaluonti** -valintaikkunassa. **Rooli**-kenttä täytetään resurssin oletusroolilla, jos sillä sellainen on. Voit muuttaa roolia tarvittaessa. 
 4. Valitse alkamis- ja päättymispäivä resurssin tarpeelle ja valitse resurssin kapasiteetin kohdennustapa. 
 5. Jos haluat ryhmän jäsenen olevan projektin hyväksyjä, valitse **Projektin hyväksyjä** -kentässä **Kyllä**. Tämä tarkoittaa, että ryhmän jäsen voi tässä projektissa hyväksyä toimitettuja aika- ja kulumerkintöjä. 
 6. Valitse **Tallenna**.
@@ -44,16 +44,16 @@ Voit lisätä nimetyn resurssin projektiryhmään varaamalla sen suoraan ryhmä�
 ![Ryhmän jäsenen lisääminen pikaluontilomakkeessa](media/RM-how-to-2.png)
 
 
-Voit nyt kohdentaa varatun resurssin projektin tehtäville. Napsauta **Projekti** -sivulla **Aikataulut** -välilehteä kohdentaaksesi tehtäviä uudelle resurssille. Tehtäväruudukon **Resurssit** -kentästä käynnistettävä resurssinvalitsin näyttää ne ryhmän jäsenet, jotka voidaan valita.
+Voit nyt kohdentaa varatun resurssin projektin tehtäville. Napsauta **Projekti** -sivulla **Aikataulut**-välilehteä kohdentaaksesi tehtäviä uudelle resurssille. Tehtäväruudukon **Resurssit**-kentästä käynnistettävä resurssinvalitsin näyttää ne ryhmän jäsenet, jotka voidaan valita.
 
 ![Ryhmän jäsenen kohdentaminen aikataulutaulukossa olevalle tehtävälle.](media/RM-how-to-3.png)
 
 Project Service Automationin (PSA) versiossa 3 resurssivaraukset ja tehtäväkohdennukset eivät ole tiiviissä yhteydessä toisiinsa. Tämä tarkoittaa, että voit aikataulun resurssinvalitsinta käyttäessäsi kohdentaa ryhmän jäsenille tehtäviä, joiden tuntimäärä ylittää heidän varaustensa projektissa kattaman tuntimäärän.
-Voit tarkastella ryhmän jäsenen varausten ja kohdennusten välisiä eroja **Ryhmä** - tai **Resurssin täsmäytys** -välilehdellä. Voit myös täsmäyttää resurssien varauksia ja kohdennuksia yksityiskohtaisemmalla tasolla.
+Voit tarkastella ryhmän jäsenen varausten ja kohdennusten välisiä eroja **Ryhmä**- tai **Resurssin täsmäytys** -välilehdellä. Voit myös täsmäyttää resurssien varauksia ja kohdennuksia yksityiskohtaisemmalla tasolla.
 
 ![Resurssin täsmäytys -välilehti](media/RM-how-to-4.png)
 
-Voit myös käyttää **Aikataulut** -välilehden resurssinvalitsinta etsiäksesi ja valitaksesi varattavissa olevia resursseja, jotka eivät vielä kuulu projektiryhmään. Nämä näkyvät resurssinvalitsimessa nimellä **Muut resurssit**.
+Voit myös käyttää **Aikataulut**-välilehden resurssinvalitsinta etsiäksesi ja valitaksesi varattavissa olevia resursseja, jotka eivät vielä kuulu projektiryhmään. Nämä näkyvät resurssinvalitsimessa nimellä **Muut resurssit**.
 
 ![Ryhmään kuulumattoman resurssin kohdentaminen tehtävälle](media/RM-how-to-5.png)
 
@@ -61,7 +61,7 @@ Kun teet näin, resurssi lisätään projektiryhmään ja se kohdennetaan tehtä
 
 ![Ryhmän jäsen, jolla on kohdennuksia muttei varauksia](media/RM-how-to-6.png)
 
-Voit käyttää **Täsmäytys** -välilehden varauksenlaajennustoimintoa tai kohtaa **aikataulutaulukko** varataksesi resurssin kapasiteettia projektille.
+Voit käyttää **Täsmäytys**-välilehden varauksenlaajennustoimintoa tai kohtaa **aikataulutaulukko** varataksesi resurssin kapasiteettia projektille.
 
 ![Ryhmän jäsenen varausten laajentaminen resurssin täsmäyksen välilehdessä](media/RM-how-to-7.png)
 

@@ -3,7 +3,7 @@ title: Uutuudet ja muutokset Project Service Automation -päivitysjulkaisussa 23
 description: Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat käytettävissä Project Service Automation -päivitysjulkaisussa 23, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 08/25/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eaae9cc62c449695cb2e999be48c57075aadbb21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 07f1a274914d7e641ddf2fd42f377dce1da7f815
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075295"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131114"
 ---
 # <a name="project-service-automation-update-release-23-v3"></a>Project Service Automation -päivitysjulkaisu 23, V3
 
@@ -37,7 +37,7 @@ Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia t
 **Aika ja kulu**
 
 Seuraavat ongelmat on korjattu:
-- Käsittele reunan palvelupyyntö kohdassa **Projektiryhmän jäsenen poisto** , jotta saat mielekkään poikkeuksen.
+- Käsittele reunan palvelupyyntö kohdassa **Projektiryhmän jäsenen poisto**, jotta saat mielekkään poikkeuksen.
 - Delegoinnin tuonnin tuloksena on tyhjä poistoruutu.
 
 **Resurssienhallinta**
@@ -46,7 +46,7 @@ Seuraavat ongelmat on korjattu:
 
 - **Resurssin käyttöasteruudukon resurssikortissa** näkyy virheellisiä tietoja, kun aika-asteikko on yli viisi päivää.
 - Kun asiakkaat luovat varattavissa olevan resurssin, laajennus ei välillä lisää resurssia automaattisesti Microsoft Office 365 -ryhmään.
-- **Täsmäytys** -näkymä näyttää manuaaliset muodot virheellisesti **Viikko** - tai **Kuukausi** -näkymässä.
+- **Täsmäytys**-näkymä näyttää manuaaliset muodot virheellisesti **Viikko**- tai **Kuukausi**-näkymässä.
 
 **Projektinhallinta**
 

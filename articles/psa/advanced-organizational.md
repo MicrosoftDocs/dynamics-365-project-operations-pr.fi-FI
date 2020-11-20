@@ -3,7 +3,7 @@ title: Organisaatioyksiköt
 description: Tässä aiheessa on tietoja Dynamics 365 Project Service Automationin organisaatioyksiköistä.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075460"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130619"
 ---
 # <a name="organizational-units"></a>Organisaatioyksiköt 
 
@@ -50,7 +50,7 @@ Lisäksi resurssientiteetissä on organisaatioyksikön määrite. Kukin resurssi
 
 Organisaatioyksiköllä on PSA:ssa kaksi roolia:
 
-- **Sopimusyksikkö** – organisaatioyksikkö, joka edustaa sitä yrityksen ryhmää tai osastoa, joka on pääasiallisesti vastuussa myynnin parantamisesta ja työn ja palvelujen asiakkaalle toimittamisen hallinnasta. Sopimusyksikkö määritetään sivujen **Mahdollisuus** , **Tarjous** , **Projektisopimus** ja **Projekti** otsikko-osion kentässä **Sopimusyksikkö**.
+- **Sopimusyksikkö** – organisaatioyksikkö, joka edustaa sitä yrityksen ryhmää tai osastoa, joka on pääasiallisesti vastuussa myynnin parantamisesta ja työn ja palvelujen asiakkaalle toimittamisen hallinnasta. Sopimusyksikkö määritetään sivujen **Mahdollisuus**, **Tarjous**, **Projektisopimus** ja **Projekti** otsikko-osion kentässä **Sopimusyksikkö**.
 - **Resursointiyksikkö** – organisaatioyksikkö, johon resurssi kuuluu tai jolle se on kohdennettu. Organisaatioyksikkö voi antaa resurssejaan joihinkin rooleihin työnkuvauksissa ja projekteissa, jotka sopimusyksikkö omistaa.
 
 > ![Sopimus- ja resursointiyksiköt](media/advanced-1.png)

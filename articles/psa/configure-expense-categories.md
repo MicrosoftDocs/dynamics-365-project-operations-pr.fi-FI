@@ -3,7 +3,7 @@ title: Määritä kululuokat
 description: Kululuokkien määrittäminen Project Servicessä
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 82522c0ba8587446c5038a9cf38fcadfdcb6ba8d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1768d7bd7ab94d909e53cd71f9c39b44e7ed4b4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075320"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129269"
 ---
 # <a name="configure-expense-categories-project-service"></a>Määritä kululuokat (Project Service)
 
@@ -37,7 +37,7 @@ Jokaisella kululuokalla voi olla oma yksikköryhmä ja yksikkö. Voit määritt�
   
 2.  Valitse **Uusi**.  
   
-3.  Täytä kentät **Yleiset** -alueella tarvittaessa. Vähintään seuraavat kululuokat kannattaa aina määrittää:  
+3.  Täytä kentät **Yleiset**-alueella tarvittaessa. Vähintään seuraavat kululuokat kannattaa aina määrittää:  
   
     -   Lentoliput  
   
@@ -49,7 +49,7 @@ Jokaisella kululuokalla voi olla oma yksikköryhmä ja yksikkö. Voit määritt�
   
     -   Päiväraha  
   
-4.  Napsauta näytön oikeassa alakulmassa olevaa **Tallenna** -painiketta.  
+4.  Napsauta näytön oikeassa alakulmassa olevaa **Tallenna**-painiketta.  
   
 ### <a name="see-also"></a>Katso myös  
  [Project Service Automationin määrittäminen](../psa/configure.md)

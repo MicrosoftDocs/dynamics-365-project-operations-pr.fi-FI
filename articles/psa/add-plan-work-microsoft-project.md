@@ -3,7 +3,7 @@ title: Töiden suunnittelu Microsoft Projectissa Project Service -apuohjelmalla 
 description: Tässä aiheessa on tietoja Microsoft Project Servicen Microsoft Project -apuohjelman lisäämisestä, määrityksestä ja käytöstä.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075478"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129674"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Töiden suunnittelu Microsoft Projectissa Project Service Automation -apuohjelmalla
 
@@ -68,9 +68,9 @@ ms.locfileid: "4075478"
 
 ## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a>[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]in roolien delegointi projektin resursseille  
 
-1.  Avaa projekti ja napsauta **Tehtävä** -valintanauhaa.  
+1.  Avaa projekti ja napsauta **Tehtävä**-valintanauhaa.  
 
-2.  Valitse ensin **Gantt-kaavio** -valikko ja valitse sitten **Resurssitaulukko**.  
+2.  Valitse ensin **Gantt-kaavio**-valikko ja valitse sitten **Resurssitaulukko**.  
 
 3.  Napsauta Resurssitaulukko-kohdassa avattavaa **Project Service -resurssirooli** -valikkoa ja valitse Project Service Automation -rooli.  
 
@@ -90,7 +90,7 @@ Projekti tuodaan [!INCLUDE[pn_project_service_auto](../includes/pn-project-servi
 
 |                                                                                          |                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-|  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt-kaaviot**   | Tuo tiedot [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:n **Työrakenne** -näytölle. |
+|  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt-kaaviot**   | Tuo tiedot [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:n **Työrakenne**-näytölle. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Resurssisivu** |   Tuo tiedot [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:n **Projektiryhmän jäsenet** -näytölle.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Käytön käyttö**    |    Tuo tiedot [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:n **Projektin arviot** -näyttöön.     |
 
@@ -141,11 +141,11 @@ Projekti tuodaan [!INCLUDE[pn_project_service_auto](../includes/pn-project-servi
 
 3. Valitse **Ota Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa käyttöön** -valintaikkunassa **Kyllä** tai **Ei**.  
 
-   - Jos valitset **Kyllä** , voit valita **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painiketta Project Service Automationissa sekä käynnistää [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]in ja ladata Project-tiedoston SharePoint-tiedostokirjastosta.  
+   - Jos valitset **Kyllä**, voit valita **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painiketta Project Service Automationissa sekä käynnistää [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]in ja ladata Project-tiedoston SharePoint-tiedostokirjastosta.  
 
-   - Jos valitset **Ei** , **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painikkeen linkki ei toimi.  
+   - Jos valitset **Ei**, **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painikkeen linkki ei toimi.  
 
-4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] -tiedosto sijaitsee [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa tietyn [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -projektin **Tiedostot** -kohdassa.  
+4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] -tiedosto sijaitsee [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa tietyn [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -projektin **Tiedostot**-kohdassa.  
 
 ### <a name="upload-a-file-for-office-groups"></a>Tiedoston siirtäminen Office-ryhmiin  
 
@@ -155,11 +155,11 @@ Projekti tuodaan [!INCLUDE[pn_project_service_auto](../includes/pn-project-servi
 
 3. Valitse **Ota Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa käyttöön** -valintaikkunassa **Kyllä** tai **Ei**.  
 
-   - Jos valitset **Kyllä** , voit valita **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painiketta Project Service Automationissa sekä käynnistää [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]in ja ladata Project-tiedoston SharePoint-tiedostokirjastosta.  
+   - Jos valitset **Kyllä**, voit valita **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painiketta Project Service Automationissa sekä käynnistää [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]in ja ladata Project-tiedoston SharePoint-tiedostokirjastosta.  
 
-   - Jos valitset **Ei** , **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painikkeen linkki ei toimi.  
+   - Jos valitset **Ei**, **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painikkeen linkki ei toimi.  
 
-4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] -tiedosto sijaitsee [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa tietyn [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -projektin **Tiedostot** -kohdassa.  
+4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] -tiedosto sijaitsee [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa tietyn [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -projektin **Tiedostot**-kohdassa.  
 
 ## <a name="publish--your-project-as-a-template"></a>Projektin julkaiseminen mallina  
  Voit tallentaa projektin ja käyttää sitä uudelleen tallentamalla sen projektimallina [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa.  Projektimalleja ovat [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa uudelleenkäytettäviä projektisuunnitelmia. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Projektimallin luominen (Project Service Automation)](../psa/create-project-template.md)  

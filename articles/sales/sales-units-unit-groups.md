@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075471"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131024"
 ---
 # <a name="units-and-unit-groups"></a>Yksiköt ja yksikköryhmät
 
@@ -41,8 +41,8 @@ Jos haluat viimeistellä tämän aiheen vaiheet, varmista, että sinulle on anne
 
 ## <a name="add-units-to-a-unit-group"></a>Yksiköiden lisääminen yksikköryhmään
 
-1. Avaa yksikköryhmä ja valitse **Liittyvät** -välilehdessä **Yksiköt**. Ensisijainen yksikkö näkyy jo lisättynä.
-2. Valitse **Lisää uusi yksikkö** ja syötä **Pikaluonti: Yksikkö** -sivun **Nimi** -kenttään yksikön nimi.
-3. Syötä **Määrä** -kenttään yksikön sisältämä määrä. Jos laatikossa on esimerkiksi kaksi kappaletta, syötä 2. 
-4. Valitse **Perusyksikkö** -kentässä perusyksikkö, joka määrittää yksikön pienimmän mittayksikön. Voit valita esimerkiksi Kappale.
+1. Avaa yksikköryhmä ja valitse **Liittyvät**-välilehdessä **Yksiköt**. Ensisijainen yksikkö näkyy jo lisättynä.
+2. Valitse **Lisää uusi yksikkö** ja syötä **Pikaluonti: Yksikkö** -sivun **Nimi**-kenttään yksikön nimi.
+3. Syötä **Määrä**-kenttään yksikön sisältämä määrä. Jos laatikossa on esimerkiksi kaksi kappaletta, syötä 2. 
+4. Valitse **Perusyksikkö**-kentässä perusyksikkö, joka määrittää yksikön pienimmän mittayksikön. Voit valita esimerkiksi Kappale.
 5. Valitse **Tallenna**.

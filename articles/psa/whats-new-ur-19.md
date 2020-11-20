@@ -3,7 +3,7 @@ title: Uutuudet ja muutokset Project Service Automation -päivitysjulkaisussa 19
 description: Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat käytettävissä Project Service Automation -päivitysjulkaisussa 19, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ecc923cccfad21985025ab9d8006aaff16afc25f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e116bcbb8e9d184b7b894709c893aaf1dadefc2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075301"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126834"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation -päivitysjulkaisu 19, V3
 
@@ -54,13 +54,13 @@ Seuraavat ongelmat on korjattu:
 
 - **Laske uudelleen** -toiminto ei toimi kulusopimusrivin tai tarjousrivin tietojen kanssa.
 - Kuluarvioista puuttuu **Päivitä hinnat**.
--  Asiakkaat eivät voi valita mukautettuja palvelusopimuksen tilan syitä **Projektisopimus** -sivulla.
+-  Asiakkaat eivät voi valita mukautettuja palvelusopimuksen tilan syitä **Projektisopimus**-sivulla.
 - Asiakkaat kokevat heikentyneen suorituskyvyn luotaessa mukautettua hinnastoa tarjouksesta.
-- Asiakkaat kokevat epäjohdonmukaisuutta **Tarjousrivin tiedot** - ja **Sopimusrivin tiedot** -sivujen **yksiköiden** oletusarvojen kanssa.
-- Jos lisäät ei-laskutettavan tapahtumaluokan nimikkeitä laskutettavaan sopimusriviin, toiminta ei noudata tapahtumaluokan **Ei-laskutettava** -laskutustyyppiä.
+- Asiakkaat kokevat epäjohdonmukaisuutta **Tarjousrivin tiedot**- ja **Sopimusrivin tiedot** -sivujen **yksiköiden** oletusarvojen kanssa.
+- Jos lisäät ei-laskutettavan tapahtumaluokan nimikkeitä laskutettavaan sopimusriviin, toiminta ei noudata tapahtumaluokan **Ei-laskutettava**-laskutustyyppiä.
 - Asiakkaat eivät voi käyttää aiemmin luotujen palvelusopimusten juuri lisättyjä rooleja ja luokkia.
 - Asiakkaat kokevat heikentyneen suorituskyvyn tarpeettomasssa kohteen PreValidateProjectTeamMemberUpdate.cs noudossa
-- Jos roolit on määritetty ei-laskutettaviksi **Resurssiluokat** -luettelossa, ne on lisättävä **Laskutettavat roolit** -välilehteen projektisopimusriville arvolla **Ei-laskutettava**.
+- Jos roolit on määritetty ei-laskutettaviksi **Resurssiluokat**-luettelossa, ne on lisättävä **Laskutettavat roolit** -välilehteen projektisopimusriville arvolla **Ei-laskutettava**.
 - Asiakkaat saattavat kokea heikentyneen suorituskyvyn luodessaan projektia, koska **GetBookableResourceIdFromUser** hakee varattavissa olevien resurssien kaikki sarakkeet pelkän ensisijaisen tunnuksen sijaan.
-- **TransactionType** -entiteetistä puuttuu esivahtistuken päivityslaajennus, joka estää käyttäjiä syöttämästä **yksiköitä** ja **yksikköryhmiä** , jotka eivät ole kelvollisia tapahtumatyypeille.
-- **Poista** -vaihe ei toimi aikamerkintöjen tuonnissa.
+- **TransactionType**-entiteetistä puuttuu esivahtistuken päivityslaajennus, joka estää käyttäjiä syöttämästä **yksiköitä** ja **yksikköryhmiä**, jotka eivät ole kelvollisia tapahtumatyypeille.
+- **Poista**-vaihe ei toimi aikamerkintöjen tuonnissa.

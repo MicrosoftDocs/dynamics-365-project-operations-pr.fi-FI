@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ff624a13ec88ae64dba18715fbe9b94353b070e8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: deedfe0c6601fd09e09460034c9a0db936b6566e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075266"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127514"
 ---
 # <a name="navigating-the-user-interface"></a>Käyttöliittymässä siirtyminen
 
@@ -23,37 +23,37 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 Pääprojektilomake on erotettu useiksi välilehdiksi. Kukin välilehti edustaa projektin eritasoisia yksityiskohtia.
 
-- **Yhteenveto** : Näyttää projektin kuvauksen ja kokoaa sekä suunnitellun että toteutuneen projektin tehokkuuden.
+- **Yhteenveto**: Näyttää projektin kuvauksen ja kokoaa sekä suunnitellun että toteutuneen projektin tehokkuuden.
 
     ![Yhteenveto-välilehti ja -kentät](media/navigation7.png)
 
-- **Tehtävät** : Sisältää ruudukkonäkymän, kaavionäkymän ja Gantt-kaavion työrakennetta koskevista tiedoista.
+- **Tehtävät**: Sisältää ruudukkonäkymän, kaavionäkymän ja Gantt-kaavion työrakennetta koskevista tiedoista.
 
     ![Tehtävä-välilehti ja -kentät](media/navigation8.png)
 
-- **Ryhmä** : Sisältää projektin osallistujia koskevia tietoja. Kunkin ryhmän jäsenen delegoitu työmäärä on myös koottu tähän näkymään.
+- **Ryhmä**: Sisältää projektin osallistujia koskevia tietoja. Kunkin ryhmän jäsenen delegoitu työmäärä on myös koottu tähän näkymään.
 
     ![Ryhmä-välilehti ja -kentät](media/navigation9.png)
 
-- **Resurssien delegoinnit** : Sisältää aikajaksopohjaisen näkymän projektin kunkin resurssin työmäärästä.
+- **Resurssien delegoinnit**: Sisältää aikajaksopohjaisen näkymän projektin kunkin resurssin työmäärästä.
 
     ![Resurssien delgoinnit -välilehti ja -kentät](media/navigation10.png)
 
-- **Resurssien täsmäytys** : Sisältää aikajaksopohjaisen näkymän kunkin nimetyn resurssin delegointien ja varausten eroista.
+- **Resurssien täsmäytys**: Sisältää aikajaksopohjaisen näkymän kunkin nimetyn resurssin delegointien ja varausten eroista.
 
     ![Resurssien täsmäytys -välilehti ja -kentät](media/navigation11.png)
 
-- **Arviot** : Sisältää aikajaksopohjaisen näkymän projektin kustannus- ja myyntiarvioista.
+- **Arviot**: Sisältää aikajaksopohjaisen näkymän projektin kustannus- ja myyntiarvioista.
 
     ![Arviot-välilehti ja -kentät](media/navigation12.png)
 
-- **Seuranta** : Sisältää näkymän, joka näyttää töiden, kustannusten ja myynnin työnrakenteen tehtävien etenemisen.
+- **Seuranta**: Sisältää näkymän, joka näyttää töiden, kustannusten ja myynnin työnrakenteen tehtävien etenemisen.
 
     ![Seuranta-välilehti ja -kentät](media/navigation13.png)
 
-- **Myynti** : Sisältää syvälinkit projektiin liittyviin tarjouksiin ja sopimuksiin.
+- **Myynti**: Sisältää syvälinkit projektiin liittyviin tarjouksiin ja sopimuksiin.
 
-- **Kuluarviot** : Sisältää ruudukon, joka määrittää projektin kulut organisaation kululuokkien perusteella.
+- **Kuluarviot**: Sisältää ruudukon, joka määrittää projektin kulut organisaation kululuokkien perusteella.
 
     ![Kuluarviot-välilehti ja -kentät](media/navigation14.png)
 
@@ -63,31 +63,31 @@ Seuraavassa on lyhyt yleiskatsaus erilaisista projektisuunnittelun välilehdist�
 
 ### <a name="refresh"></a>Lataa uudelleen
 
-**Päivitä** : Noutaa uusimmat tiedot palvelimesta, jos ruudukon lataamisen jälkeen tapahtui muutoksia.
+**Päivitä**: Noutaa uusimmat tiedot palvelimesta, jos ruudukon lataamisen jälkeen tapahtui muutoksia.
 
 ![Päivitä-painike](media/navigation7.png)
 
 ### <a name="group-by"></a>Ryhmittele
 
-**Ryhmittele** : Päivittää ruudukon rivien ryhmittelyn niin, että se vastaa joko resursseja, rooleja tai luokkia käyttäjän tarpeiden mukaan.
+**Ryhmittele**: Päivittää ruudukon rivien ryhmittelyn niin, että se vastaa joko resursseja, rooleja tai luokkia käyttäjän tarpeiden mukaan.
 
 ![Ryhmittele-painike](media/navigation6.png)
 
 ### <a name="previousnext"></a>Edellinen/Seuraava
 
-**Edellinen**/**Seuraava** : Päivitä aikajaksotettujen ruudukkojen näkyvät aikajaksot.
+**Edellinen**/**Seuraava**: Päivitä aikajaksotettujen ruudukkojen näkyvät aikajaksot.
 
 ![Edellinen- ja Seuraava-painikkeet](media/navigation2.png)
 
 ### <a name="timescale"></a>Aikajakso
 
-**Aikajana** : Muuta aikajaksotettujen tietojen koosteita päivien, viikkojen, kuukausien ja vuosien välillä.
+**Aikajana**: Muuta aikajaksotettujen tietojen koosteita päivien, viikkojen, kuukausien ja vuosien välillä.
 
 ![Aikajana-painike](media/navigation3.png)
 
 ### <a name="expand"></a>Laajenna
 
-**Laajenna** : Muodosta näkyvä ruudukko koko näytön kokoiseksi, jotta näet lisää rooleja.
+**Laajenna**: Muodosta näkyvä ruudukko koko näytön kokoiseksi, jotta näet lisää rooleja.
 
 ![Laajenna-painike](media/navigation4.png)
 
@@ -99,6 +99,6 @@ Seuraavassa on lyhyt yleiskatsaus erilaisista projektisuunnittelun välilehdist�
 
 ### <a name="add-column"></a>Lisää sarake
 
-**Lisää sarake** : Sallii käyttäjän määrittää ruudukon näkyvät sarakkeet. Vain käyttövalmiit sarakkeet voidaan lisätä **Projektisuunnittelu** -lomakkeen ruudukoihin.
+**Lisää sarake**: Sallii käyttäjän määrittää ruudukon näkyvät sarakkeet. Vain käyttövalmiit sarakkeet voidaan lisätä **Projektisuunnittelu**-lomakkeen ruudukoihin.
 
 ![Lisää sarake -painike](media/navigation5.png)

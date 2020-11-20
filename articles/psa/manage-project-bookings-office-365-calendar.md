@@ -3,7 +3,7 @@ title: Projektien ja varausten hallinta Office 365 -kalenterissa
 description: Projektien ja varausten hallintatapa Office 365 -kalenterissa
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075382"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129044"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Projektien ja varausten hallinta kalenterissa (Project Service)
 
@@ -58,17 +58,17 @@ Voit tarkastella henkilökohtaisia tapaamisia, projektityön varauksia ja Field 
   
 2.  Valitse **Järjestelmäasetukset**.  
   
-3.  Valitse **Synkronointi** -välilehti.  
+3.  Valitse **Synkronointi**-välilehti.  
   
 4.  Valitse **Valitse otetaanko käyttöön resurssivarauksien synkronointi** -kohdassa **Synkronoi resurssivaraukset Outlookin kanssa**.  
   
 ## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a>Synkronoinnin ottaminen käyttöön käyttäjäprofiilissa (käyttäjätehtävä)  
   
-1.  Napsauta **Asetukset** -painiketta näytön oikeassa yläkulmassa.  
+1.  Napsauta **Asetukset**-painiketta näytön oikeassa yläkulmassa.  
   
 2.  Valitse **Asetukset**.  
   
-3.  Valitse **Synkronointi** -välilehti.  
+3.  Valitse **Synkronointi**-välilehti.  
   
 4.  Valitse **Synkronoi resurssivaraukset Outlookin kanssa** -kohdassa **Synkronoi resurssivaraukset Outlookin kanssa**.  
   
@@ -83,7 +83,7 @@ Voit tarkastella henkilökohtaisia tapaamisia, projektityön varauksia ja Field 
   
 4. Valitse Project Service Automationin aikamerkintänäkymään lisättävä tapaaminen.  
   
-5. Valitse avautuvassa **Aikamerkintä** -ruudussa sopivat asetukset tapaamisen muuntamiseksi Project Service Automationin aikamerkintänäkymään.  
+5. Valitse avautuvassa **Aikamerkintä**-ruudussa sopivat asetukset tapaamisen muuntamiseksi Project Service Automationin aikamerkintänäkymään.  
   
 6. Valitse **Tallenna**.  
   

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4075578"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128054"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Manuaalisen proformalaskun luominen
 
@@ -44,17 +44,17 @@ Projektilaskuja voidaan luoda yksi kerrallaan tai joukkoina. Voit luoda niitä m
 
 ### <a name="manually-create-project-invoices"></a>Projektilaskujen manuaalinen luominen 
 
-**Projektisopimukset** -luettelosivulla voit luoda projektilaskuja erikseen kullekin projektisopimukselle tai voit luoda laskuja joukoittain useille projektisopimuksille.
+**Projektisopimukset**-luettelosivulla voit luoda projektilaskuja erikseen kullekin projektisopimukselle tai voit luoda laskuja joukoittain useille projektisopimuksille.
 
 Tietylle projektisopimukselle luodaan lasku seuraavalla tavalla.
 
-- Avaa projektisopimus **Projektisopimukset** -luettelosivulla ja valitse sitten **Luo lasku**.
+- Avaa projektisopimus **Projektisopimukset**-luettelosivulla ja valitse sitten **Luo lasku**.
 
     Lasku luodaan kaikille valitun projektisopimuksen tapahtumille, joiden tila on **Laskutusvalmis**. Näitä tapahtumia ovat aika, kulut, välitavoitteet ja projektiperusteiset sopimusrivit.
 
 Laskuja luodaan joukoittain seuraavalla tavalla.
 
-1. Valitse **Projektisopimukset** -luettelosivulla vähintään yksi projektisopimus, jolle on luotava lasku, ja valitse sitten **Luo projektilaskuja**.
+1. Valitse **Projektisopimukset**-luettelosivulla vähintään yksi projektisopimus, jolle on luotava lasku, ja valitse sitten **Luo projektilaskuja**.
 
     Varoitusviesti ilmoittaa sinulle, että laskujen luontia voi edeltää viive. Myös prosessi on näkyvissä.
 
@@ -70,7 +70,7 @@ Automaattinen laskujen luominen määritetään seuraavalla tavalla.
 
 1. Siirry kohtaan **Asetukset** \> **Erätyöt**.
 2. Luo erätyö ja anna sille nimeksi **Project Operationsin laskujen luominen**. Eräajon nimen on sisällettävä käsite "Luo laskuja".
-3. Valitse **Työtyyppi** -kentässä **Ei mitään**. Asetusten **Päivittäin** ja **On aktiivinen** oletusarvo on **Kyllä**.
+3. Valitse **Työtyyppi**-kentässä **Ei mitään**. Asetusten **Päivittäin** ja **On aktiivinen** oletusarvo on **Kyllä**.
 4. Valitse **Suorita työnkulku**. **Valitse tietue** -valintaikkunassa näkyy kolme työnkulkua:
 
     - ProcessRunCaller
@@ -78,13 +78,13 @@ Automaattinen laskujen luominen määritetään seuraavalla tavalla.
     - UpdateRoleUtilization
 
 5. Valitse **ProcessRunCaller** ja sitten **Lisää**.
-6. Valitse seuraavassa valintaikkunassa **OK**. **Lepo** -työnkulkua seuraa **Käsittely** -työnkulku.
+6. Valitse seuraavassa valintaikkunassa **OK**. **Lepo**-työnkulkua seuraa **Käsittely**-työnkulku.
 
-    Vaiheessa 5 voit myös valita **ProcessRunner**. Kun tämän jälkeen valitset **OK** , **Käsittely** -työnkulkua seuraa **Lepo** -työnkulku.
+    Vaiheessa 5 voit myös valita **ProcessRunner**. Kun tämän jälkeen valitset **OK**, **Käsittely**-työnkulkua seuraa **Lepo**-työnkulku.
 
 Työnkulut **ProcessRunCaller** ja **ProcessRunner** luovat laskuja. Työnkulku **ProcessRunCaller** kutsuu työnkulun **ProcessRunner**. **ProcessRunner** on se työnkulku, joka tosiasiassa luo laskut. Se käy läpi kaikki sopimusrivit, joille on luotava lasku, ja luo kyseiset laskut. Työnkulku tarkistaa sopimusrivien laskujen suorituspäiviä määrittääkseen ne sopimusrivit, joille on luotava laskuja. Jos yhteen sopimukseen kuuluvilla sopimusriveillä on sama laskujen suorituspäivä, tapahtumat yhdistetään yhteen laskuun, jolla on kaksi laskutusriviä. Jos laskujen luomista edellyttäviä tapahtumia ei ole, työnkulku ohittaa laskujen luonnin.
 
-Kun **ProcessRunner** on valmis, se kutsuu työnkulun **ProcessRunCaller** , antaa päättymisajan ja sulkeutuu. **ProcessRunCaller** käynnistää sitten ajastimen, joka kestää 24 tuntia määritetystä päättymisajasta eteenpäin. Ajastimen loputtua, **ProcessRunCaller** sulkeutuu.
+Kun **ProcessRunner** on valmis, se kutsuu työnkulun **ProcessRunCaller**, antaa päättymisajan ja sulkeutuu. **ProcessRunCaller** käynnistää sitten ajastimen, joka kestää 24 tuntia määritetystä päättymisajasta eteenpäin. Ajastimen loputtua, **ProcessRunCaller** sulkeutuu.
 
 Laskujen luomisen erätyö on toistuva työ. Jos tämä erätyö suoritetaan useita kertoja, siitä luodaan useita esiintymiä, mikä voi aiheuttaa virheitä. Siksi erätyö kannatta käynnistää vain kerran ja käynnistää uudelleen vain, jos se pysähtyy.
 
@@ -99,13 +99,13 @@ Kun luot projektilaskuluonnoksen, kaikki aika- ja kulumerkintöjen hyväksymisen
 - Määrän ja laskutustyypin muokkaaminen.
 - Ajan, kulun ja maksujen lisäys tapahtumina suoraan laskuun. Voit käyttää tätä toimintoa, jos laskurivi on yhdistetty sopimusriviin, joka salli nämä tapahtumaluokat.
 
-Vahvista lasku valitsemalla **Vahvista**. Vahvistustoimintotoiminto on yksisuuntainen toiminto. Kun valitset **Vahvista** , järjestelmä muuttaa laskun vain luettavaan muotoon ja luo laskutetun myynnin todellisia arvoja kullekin laskuriville kunkin laskurivin tietojen perusteella. Jos laskurivin tiedot viittaavat laskuttamattomaan myynnin todelliseen arvoon, järjestelmä myös kumoaa laskuttamattoman myynnin todellisen arvon. (Kaikki aika- tai kulumerkinnän perusteella luodut laskutusrivin tiedot viittaavat laskuttamattoman myyniin todelliseen arvoon.) Pääkirjan integrointijärjestelmät voivat käyttää tätä kumoamista kumotakseen projektin keskeneräistä työtä kirjanpitotarkoituksia varten.
+Vahvista lasku valitsemalla **Vahvista**. Vahvistustoimintotoiminto on yksisuuntainen toiminto. Kun valitset **Vahvista**, järjestelmä muuttaa laskun vain luettavaan muotoon ja luo laskutetun myynnin todellisia arvoja kullekin laskuriville kunkin laskurivin tietojen perusteella. Jos laskurivin tiedot viittaavat laskuttamattomaan myynnin todelliseen arvoon, järjestelmä myös kumoaa laskuttamattoman myynnin todellisen arvon. (Kaikki aika- tai kulumerkinnän perusteella luodut laskutusrivin tiedot viittaavat laskuttamattoman myyniin todelliseen arvoon.) Pääkirjan integrointijärjestelmät voivat käyttää tätä kumoamista kumotakseen projektin keskeneräistä työtä kirjanpitotarkoituksia varten.
 
 ### <a name="correct-a-confirmed-invoice"></a>Vahvistetun laskun korjaaminen
 
 Vahvistettuja laskuja voidaan muokata (korjata). Kun korjaat vahvistettua laskua, luodaan uusi korjaava laskuluonnos. Koska oletuksena on, että haluat kumota kaikki alkuperäisen laskun tapahtumat ja määrät, tämä korjaava lasku sisältää kaikki alkuperäisen laskun tapahtumat ja kaikki siinä olevat määrät ovat 0 (nolla).
 
-Jos osa tapahtumista ei vaadi korjausta, voit poistaa ne korjaavasta laskuluonnoksesta. Jos haluat kumota tai palauttaa vain osamäärän, voit muokata rivin tietojen **Määrä** -kenttää. Voit tarkastella alkuperäisen laskun määrää avaamalla laskurivin tiedot. Tämän jälkeen voit muokata nykyisen laskun määrää siten, että se ylittää tai alittaa alkuperäisen laskun määrän.
+Jos osa tapahtumista ei vaadi korjausta, voit poistaa ne korjaavasta laskuluonnoksesta. Jos haluat kumota tai palauttaa vain osamäärän, voit muokata rivin tietojen **Määrä**-kenttää. Voit tarkastella alkuperäisen laskun määrää avaamalla laskurivin tiedot. Tämän jälkeen voit muokata nykyisen laskun määrää siten, että se ylittää tai alittaa alkuperäisen laskun määrän.
 
 Kun vahvistat korjaavan laskun, alkuperäinen laskutetun myynnin todellinen arvo kumotaan ja uusi laskutetun myynnin todellinen arvo luodaan. Jos määrää vähennettiin, ero aiheuttaa myös uuden laskuttamattoman myynnin todellisen arvon luomiseen. Jos alkuperäinen laskutettu myynti esimerkiksi oli kahdeksan tuntia ja korjaavien laskurivien tietojen määrä on vain kuusi tuntia, alkuperäisen laskutetun myynnin rivi peruutetaan ja seuraavat kaksi uutta todellista arvoa luodaan:
 

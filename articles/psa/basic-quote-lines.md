@@ -3,7 +3,7 @@ title: Tarjoukset ja tarjousrivit
 description: Tässä aiheessa on tietoja tarjouksista ja tarjousriveistä.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075463"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129449"
 ---
 # <a name="quotes-and-quote-lines"></a>Tarjoukset ja tarjousrivit
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automationissa on kahdenlaisia tarjouksia: projekti
 - Myyntitarjous tukee aktivointeja ja muutoksia. Projektitarjous ei tue näitä prosesseja.
 - Myyntitarjoukseen voi liittää useita tilauksia. Projektitarjoukseen voi liittää vain yhden projektisopimuksen.
 - Voit voittaa myyntitarjouksen ja pitää siihen liittyvän mahdollisuuden avoimena. Kun projektitarjous on voitettu, siihen liittyvä mahdollisuus suljetaan.
-- Myyntitarjous ei sisällä kaikkia projektitarjouksessa olevia kenttiä ja konsepteja. Kenttiä ovat esimerkiksi **Sopimusyksikkö** , **Asiakaspäällikkö** ja **Laskutusyhteyshenkilön nimi**.  
+- Myyntitarjous ei sisällä kaikkia projektitarjouksessa olevia kenttiä ja konsepteja. Kenttiä ovat esimerkiksi **Sopimusyksikkö**, **Asiakaspäällikkö** ja **Laskutusyhteyshenkilön nimi**.  
 - Myyntitarjouksille ja projektitarjouksille määritetään myös asetusjoukkoperusteinen kenttä nimeltään **Tyyppi**. Myyntitarjouksessa tällä kentällä on arvo **Nimikepohjainen**. Projektitarjouksessa sen arvo on **Työpohjainen**.
 
 Tässä aiheessa keskitytään projektitarjousten tietoihin.
@@ -76,7 +76,7 @@ PSA tukee kaikkia kolmea laskutussuunnitelmatyyppiä kiinteähintaisissa tarjous
 Asiantuntijapalveluja myyvät organisaatiot tekevät asiakkailleen tarjouksia ja laskuttavat niitä yleensä tapahtuman luokittelun perusteella. PSA:ssa kustannuksia edustavat seuraavat tapahtumaluokat:
 
 - **Aika** – Tämä luokka edustaa työn tai henkilöresurssien ajan kustannuksia projektissa.
-- **Kulu** : – Tämä luokka edustaa kaikkia muita projektin kuluja. Koska kuluja voidaan luokitella laajasti, useimmat organisaatiot luovat alaluokkia, kuten matka-, autonvuokraus-, hotelli- tai toimistotarvikekulut.
+- **Kulu**: – Tämä luokka edustaa kaikkia muita projektin kuluja. Koska kuluja voidaan luokitella laajasti, useimmat organisaatiot luovat alaluokkia, kuten matka-, autonvuokraus-, hotelli- tai toimistotarvikekulut.
 - **Maksu** – Tämä luokka edustaa erilaisia yleiskuluja, sakkoja ja muita asioita, jotka veloitetaan asiakkaalta. 
 - **Vero** – Tämä luokka edustaa veromääriä, jotka käyttäjät lisäävät syöttäessään kuluja.
 - **Materiaalitapahtuma** – Tämä luokka edustaa vahvistetun projektilaskun tuoterivien todellisia arvoja.
@@ -91,7 +91,7 @@ Tarjous voi sisältää esimerkiksi seuraavat kaksi tarjousriviä:
 - Tähän liittyvät matkakulut, joissa käytetään kiinteähintaisen laskutuksen menetelmää. Esimerkiksi kaikki esimerkkiprojektin **Dynamics AX:n käyttöönotto** matkakulut laskutetaan kiinteänä rahasummana.
 
 > [!NOTE]
-> Tarjous- tai sopimusriviin kohdennetun projektin ja tapahtumaluokkien **Aika** , **Kulu** ja **Maksu** yhdistelmän on oltava yksilöllinen. Jos sama projektin ja tapahtumaluokkien yhdistelmä kohdennetaan useammalle sopimus- tai tarjousriville, PSA ei toimi oikein.
+> Tarjous- tai sopimusriviin kohdennetun projektin ja tapahtumaluokkien **Aika**, **Kulu** ja **Maksu** yhdistelmän on oltava yksilöllinen. Jos sama projektin ja tapahtumaluokkien yhdistelmä kohdennetaan useammalle sopimus- tai tarjousriville, PSA ei toimi oikein.
 
 ## <a name="billing-types"></a>Laskutustyypit
 
@@ -124,8 +124,8 @@ Laskutustiheys on entiteetti, joka tallentaa laskujen luonnin tiheyden ilmaisemi
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Kiinteähintaisen tarjousrivin laskutusaikataulu
 
-Kiinteähintaisessa tarjousrivissä voit käyttää **Laskutusaikataulu** -ruudukkoa luodaksesi laskutuksen välitavoitteita, jotka vastaavat tarjousrivin arvoa.
+Kiinteähintaisessa tarjousrivissä voit käyttää **Laskutusaikataulu**-ruudukkoa luodaksesi laskutuksen välitavoitteita, jotka vastaavat tarjousrivin arvoa.
 
-- Voit luoda tasan jaettuja laskutuksen välitavoitteita valitsemalla laskutusvälin, antamalla laskutuksen aloituspäivän tarjousrivissä ja valitsemalla tarjoukselle arvon **Pyydetty suorituspäivä** tarjousotsikon **Yhteenveto** -osassa. Valitse sitten **Luo jaksoittaiset välitavoitteet** luodaksesi tasaisesti jaettuja välitavoitteita valitun laskutusvälin perusteella. 
+- Voit luoda tasan jaettuja laskutuksen välitavoitteita valitsemalla laskutusvälin, antamalla laskutuksen aloituspäivän tarjousrivissä ja valitsemalla tarjoukselle arvon **Pyydetty suorituspäivä** tarjousotsikon **Yhteenveto**-osassa. Valitse sitten **Luo jaksoittaiset välitavoitteet** luodaksesi tasaisesti jaettuja välitavoitteita valitun laskutusvälin perusteella. 
 - Voit luoda kertasummaisen laskutuksen välitavoitteen luomalla välitavoitteen ja määrittämällä tarjousrivin aroksi välitavoitteen summan.
 - Voit luoda tiettyihin projektisuunnitelman tehtäviin perustuvia laskutuksen välitavoitteita luomalla välitavoitteen ja yhdistämällä sen projektiaikataulun elementtiin laskutuksen välitavoitteen käyttöliittymässä.

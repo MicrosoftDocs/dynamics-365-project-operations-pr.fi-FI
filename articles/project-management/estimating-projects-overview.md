@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075237"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131564"
 ---
 # <a name="estimate-projects-overview"></a>Projektien arvioinnin yleiskatsaus
 
@@ -37,7 +37,7 @@ Materiaaliarviot eivät ole sallittuja sopimusrivin tietojen perusteella.
 
 Projektisopimuksessa tuetut prosessit ovat laskun luominen ja vahvistaminen. Laskun luonnissa luodaan luonnos projektiperusteisesta laskusta, joka sisältää kaikki laskuttamattomat myynnin todelliset arvot kulloiseenkin päivämäärään mennessä.
 
-Vahvistuksen jälkeen sopimusta voidaan vain lukea ja sen tila muuttuu arvosta **Luonnos** arvoon **Vahvistettu**. Tätä toimintoa ei voi perua. Koska toiminto on pysyvä, parhaana käytäntönä on pitää sopimus **Luonnos** -tilassa.
+Vahvistuksen jälkeen sopimusta voidaan vain lukea ja sen tila muuttuu arvosta **Luonnos** arvoon **Vahvistettu**. Tätä toimintoa ei voi perua. Koska toiminto on pysyvä, parhaana käytäntönä on pitää sopimus **Luonnos**-tilassa.
 
 Ainoa ero sopimusluonnosten ja vahvistettujen sopimusten välillä on niiden tila ja se, että sopimusluonnoksia voi muuttaa ja vahvistettuja sopimuksia ei voi muuttaa. Sekä sopimusluonnosten että vahvistettujen sopimusten perusteella voidaan luoda laskuja ja seurata todellisia arvoja.
 
@@ -74,7 +74,7 @@ Jos olet lisännyt muokatun kentän tarjousrivin tietoihin ja haluat järjestelm
 2. Valitse **Hae** ja etsi päivitettävä laajennus.
 3. Valitse laajennus ja valitse sitten pääsivulla **Valitse**.
 4. Valitse päivitettävän laajennuksen vaihe, napsauta hiiren kakkospainiketta ja valitse sitten **Päivitä**.
-5. Valitse kolme pistettä sisältävä painike **(...)** valintaikkunan **Päivitä aiemmin luotu vaihe** kentästä **Suodatusmääritteet** :
+5. Valitse kolme pistettä sisältävä painike **(...)** valintaikkunan **Päivitä aiemmin luotu vaihe** kentästä **Suodatusmääritteet**:
 6. Valitse **Valitse määritteet** -valintaikkunassa mukautettujen määritteiden valintaruudut.
 7. Sulje valintaikkuna valitsemalla **OK** ja valitse sitten **Päivitä vaihe**.
 8. Toista vaiheet 1–7 toisen laajennuksen osalta.

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e2b16a6e1c48769ed4d903e546804ba1c4e1c4fa
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 574afac3bf5d1f6e5e13d8c61aa1ace6188f4008
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075290"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125714"
 ---
 # <a name="resource-reconciliation-overview"></a>Resurssin täsmäytyksen yleiskatsaus
 
@@ -30,9 +30,9 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 Ryhmän jäsenillä varaukset ja kohdennukset ovat löyhästi sidoksissa. Toisin sanoen resursseilla voi olla kohdennuksia ilman varauksia ja varauksia ilman kohdennuksia. Ihannetapauksessa varaukset ja kohdennukset ovat samoja, jotta resurssit ovat sitoutuneet suorittamaan kohdennettuja tehtäviään. Varaukset saattavat kuitenkin perustua käytettävyyteen ja tehtävien ajoitukset saattavat muuttua projektin edetessä. Siten varausten ja kohdennusten löyhä sidoksisuus luo joustavuutta.
 
-**Täsmäytys** -välilehti **Projekti** -lomakkeella antaa projektipäälliköille mahdollisuuden täsmäyttää ryhmänsä jäsenten varaukset ja kohdennukset projektiryhmille.
+**Täsmäytys**-välilehti **Projekti**-lomakkeella antaa projektipäälliköille mahdollisuuden täsmäyttää ryhmänsä jäsenten varaukset ja kohdennukset projektiryhmille.
 
-**Täsmäytys** -välilehti näyttää myös kunkin ryhmän jäsenen varaukset ja kohdennukset yksittäisten tehtävien kohdennusten tasolle asti. Tunnit näytetään soluissa, jotka edustavat aikajaksoja kuukausista päiviin asti.
+**Täsmäytys**-välilehti näyttää myös kunkin ryhmän jäsenen varaukset ja kohdennukset yksittäisten tehtävien kohdennusten tasolle asti. Tunnit näytetään soluissa, jotka edustavat aikajaksoja kuukausista päiviin asti.
 
 Välilehdissä näkyy myös projektin kokonaissumma yhdessä **summasarakkeen** kanssa.
 
@@ -43,10 +43,10 @@ Välilehti laskee kunkin resurssin osalta koosteen erosta ryhmän jäsenen varau
 
 Kun aikaa tarkastellaan päivätasoa korkeammalla tasolla (kuten kuukausitasolla), resurssin nettoero voi olla nolla (tällöin varaukset = kohdennukset). Aikaa viikkotasolla tarkasteltaessa voi olla, että kohdennuksia on nolla tuntia, ja varauksia 40 tuntia ensimmäisellä viikolla, mutta 40 tuntia kohdennuksia ja nolla tuntia varauksia toisella viikolla. Yleisellä tasolla varaukset ja kohdennukset täsmäävät, mutta niiden välillä voi olla viikkokohtaisia eroja.
 
-Aikaa korkeilla tasoilla tarkasteltaessa **Täsmäytys** -välilehden soluissa on ilmaisin, joka ilmoittaa, että alemmilla aikatasoilla on eroja. Kaksoisnapsauttamalla solua voit lähentää näkymää nähdäksesi eron. Voit sitten loitontaa näkymää napsauttamalla hiiren kakkospainiketta. Valitsemalla resurssin ja käyttämällä sitten **Seuraava ero** -ohjausobjektia voit siirtyä seuraavaan eroon resurssin varausten ja kohdennusten välillä. Voit myös palata takaisin käyttämällä **Edellinen ero** -ohjausobjektia. Voit myös poistaa eronilmaisimen ja siirtymistoiminnon käytöstä **Asetukset** -kohdassa.
+Aikaa korkeilla tasoilla tarkasteltaessa **Täsmäytys**-välilehden soluissa on ilmaisin, joka ilmoittaa, että alemmilla aikatasoilla on eroja. Kaksoisnapsauttamalla solua voit lähentää näkymää nähdäksesi eron. Voit sitten loitontaa näkymää napsauttamalla hiiren kakkospainiketta. Valitsemalla resurssin ja käyttämällä sitten **Seuraava ero** -ohjausobjektia voit siirtyä seuraavaan eroon resurssin varausten ja kohdennusten välillä. Voit myös palata takaisin käyttämällä **Edellinen ero** -ohjausobjektia. Voit myös poistaa eronilmaisimen ja siirtymistoiminnon käytöstä **Asetukset**-kohdassa.
 
 
-Tilanteissa, joissa resurssille on kohdennuksia mutta ei varauksia, voit valita varauspuutteen **Projektit** -sivun **Täsmäytys** -välilehdessä ja valita sitten **Laajenna varausta**. Näkyviin tulee **Laajenna varausta** -valintaikkuna, jota tarvitaan resurssin puutteen käsittelemiseen. Ikkunassa näkyvät myös resurssin olemassa olevat varaukset kaikissa projekteissa tai muissa ajoitettavissa entiteeteissä. Jos valitset **OK** luodaksesi varauksen resurssille sen käytettävyydestä riippumatta, voit aiheuttaa ylivarauksen.
+Tilanteissa, joissa resurssille on kohdennuksia mutta ei varauksia, voit valita varauspuutteen **Projektit**-sivun **Täsmäytys**-välilehdessä ja valita sitten **Laajenna varausta**. Näkyviin tulee **Laajenna varausta** -valintaikkuna, jota tarvitaan resurssin puutteen käsittelemiseen. Ikkunassa näkyvät myös resurssin olemassa olevat varaukset kaikissa projekteissa tai muissa ajoitettavissa entiteeteissä. Jos valitset **OK** luodaksesi varauksen resurssille sen käytettävyydestä riippumatta, voit aiheuttaa ylivarauksen.
 
 Projektipäällikkö tai resurssipäällikkö voi sitten käyttää aikataulutustaulua hallitakseen tilanteita, joissa resurssin varaukset ylittävät kapasiteetin.
 

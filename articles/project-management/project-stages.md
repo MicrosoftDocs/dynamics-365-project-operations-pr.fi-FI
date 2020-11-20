@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 554ad63bc44cbe5a1fe91eb47fedbb74bbedd4b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa3d692a46165b01eafbd7619578cead8dd912d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075475"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127469"
 ---
 # <a name="project-stages"></a>Projektin vaiheet
 
@@ -45,11 +45,11 @@ Kun luot projektin, projektin vaiheeksi on määritetty **Uusi**. Jos projekti o
 
 ## <a name="quote"></a>Tarjous
 
-Kun liität projektin tarjoukseen tai luot sen tarjouksesta, projektivaiheeksi on määritetty **Tarjous** , ja arvioidut aloitus- ja päättymispäivät päivitetään myös. Kun projekti on **Tarjous** -vaiheessa, **Myynti** -välilehti **Projektikohde** -sivulla näyttää tarjouksen tiedot.
+Kun liität projektin tarjoukseen tai luot sen tarjouksesta, projektivaiheeksi on määritetty **Tarjous**, ja arvioidut aloitus- ja päättymispäivät päivitetään myös. Kun projekti on **Tarjous**-vaiheessa, **Myynti**-välilehti **Projektikohde**-sivulla näyttää tarjouksen tiedot.
 
 ## <a name="plan"></a>Suunnittelu
 
-Kun projektiin liittyvä tarjous voittaa ja valmistelu etenee **Sopimus** -vaiheeseen, päivitetään projektin vaiheeksi **Suunnittelu**. Kun projekti on **Suunnittelu** -vaiheessa, **Projektikohde** -sivulla näytetään sopimuksen tiedot.
+Kun projektiin liittyvä tarjous voittaa ja valmistelu etenee **Sopimus**-vaiheeseen, päivitetään projektin vaiheeksi **Suunnittelu**. Kun projekti on **Suunnittelu**-vaiheessa, **Projektikohde**-sivulla näytetään sopimuksen tiedot.
 
 ## <a name="deliver"></a>Toimitus
 
@@ -57,7 +57,7 @@ Kun projektisuunnitelma valmistuu ja olet valmis aloittamaan projektin, projekti
 
 ## <a name="complete"></a>Valmistuminen 
 
-Kun projektin työ on valmis, projektipäällikkö voi päivittää vaiheen **valmistuneeksi**. Kun projektipäällikkö päivittää projektin vaiheen **valmiiksi** , se osoittaa, että työ on 100 prosenttisesti valmiina, mutta että projekti on avoinna niin, että odottavat aika- tai kulukirjaukset voidaan kirjata.
+Kun projektin työ on valmis, projektipäällikkö voi päivittää vaiheen **valmistuneeksi**. Kun projektipäällikkö päivittää projektin vaiheen **valmiiksi**, se osoittaa, että työ on 100 prosenttisesti valmiina, mutta että projekti on avoinna niin, että odottavat aika- tai kulukirjaukset voidaan kirjata.
 
 ## <a name="close"></a>Sulje
 

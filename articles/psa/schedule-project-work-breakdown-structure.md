@@ -3,7 +3,7 @@ title: Ajoita projekti työrakenteen kanssa
 description: Projektin aikatauluttaminen työrakenteen kanssa Project Servicessä
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075530"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127874"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Ajoita projekti työrakenteen (Project Service) kanssa
 
@@ -86,14 +86,14 @@ Seuraavia tehtävätyyppejä käytetään luotaessa omaa työrakennetta:
   
 ### <a name="schedule-attributes"></a>Aikataulun määritteet
 
- - Määritä tehtävän aikataulu antamalla arvot kohtiin **Työtunnit** , **Resurssien määrä** , **Alkamispäivämäärä** , **Lopetuspäivämäärä** ja **Kesto**. 
+ - Määritä tehtävän aikataulu antamalla arvot kohtiin **Työtunnit**, **Resurssien määrä**, **Alkamispäivämäärä**, **Lopetuspäivämäärä** ja **Kesto**. 
  - **Työmäärä** on arvioitu tuntimäärä, jonka tehtävän suorittaminen kestää.
  - **Resurssien määrä** on arvio, jonka projektipäällikkö asettaa tehtävälle parhaan mahdollisen aikataulun aikaansaamiseksi. 
  - **Kesto** (päivinä) ilmaisee työpäivien määrän, jonka tehtävän suorittaminen kestää.  
   
 ### <a name="staffing-attributes"></a>Henkilöstömääritteet
 
- - **Rooli** , **Resurssin organisaatioyksikkö** , **Resurssien määrä** ja **Resurssit** kuvaavat tehtävän henkilöstötarpeita. 
+ - **Rooli**, **Resurssin organisaatioyksikkö**, **Resurssien määrä** ja **Resurssit** kuvaavat tehtävän henkilöstötarpeita. 
  - **Rooli** kuvaa tehtävän suorittamiseen tarvittavaa resurssityyppiä. 
  - **Resurssin organisaatioyksikkö** osoittaa organisaatioyksikön, josta henkilöstöresurssit tulee valita kyseiseen tehtävään. Tämä myös vaikuttaa tehtävän kustannus- ja myyntiarvioon, koska tämä kirjataan määritettäessä resurssin yksikkömyyntihintaa. 
  - **Resurssit** sisältää yleisen resurssin tai nimetyn resurssin, kun sellainen löytyy.  

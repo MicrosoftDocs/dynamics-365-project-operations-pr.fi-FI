@@ -3,7 +3,7 @@ title: Yleisten varattavissa olevien resurssien kohdentaminen tehtävälle ja pr
 description: Tässä aiheessa on tietoja yleisten resurssien varaamisesta tehtäville ja projektiryhmille.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075363"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127064"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Yleisten varattavissa olevien resurssien kohdennus tehtävälle ja resurssitarpeiden luominen 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4075363"
 
 Nimettyjen tai todellisten resurssien projektillesi varaamisen ja kohdentamisen lisäksi voit kohdentaa yleisiä resursseja projektitehtäville. Tämä resurssit voivat toimia nimettyjen resurssien paikkamerkkeinä, kunnes olet valmis täyttämään projektisi nimetyillä resursseilla. 
 
-1. Avaa Project Service Automationissa (PSA:ssa) **Projekti** -sivu ja kirjoita yleisen resurssin toimen nimi **Aikataulut** -välilehden **Resurssi** -soluun. Voit myös valita solun **Resurssi** -solun avataksesi resurssinvalitsimen ja kirjoittaa nimen yleiselle resurssille, jonka haluat luoda.
+1. Avaa Project Service Automationissa (PSA:ssa) **Projekti**-sivu ja kirjoita yleisen resurssin toimen nimi **Aikataulut**-välilehden **Resurssi**-soluun. Voit myös valita solun **Resurssi**-solun avataksesi resurssinvalitsimen ja kirjoittaa nimen yleiselle resurssille, jonka haluat luoda.
 
 ![Yleisen ryhmän jäsenen luominen ja kohdennus](media/RM-how-to-9.png)
 
@@ -51,9 +51,9 @@ Näkyviin tulee **Pikaluonti: projektiryhmän jäsen** -paneeli.
 
 Ryhmän jäsenten ruudukossa voit resurssinvalitsimen yllä mainitulla tavalla käyttämisen lisäksi lisätä suoraan yleisiä resursseja. Lisättävillä resurssilla on resurssitarve, joka perustuu **Pikaluonti: projektiryhmän jäsen** -paneelissa määritettyihin alkamis- ja päättymispäiviin ja kohdennustapaan.
 
-Voit nähdä eron, jos lisäät yleisen ryhmän jäsenen suoraan ja kohdennat yleiselle resurssille tehtävämäärän, joka ylittää niiden tarvittujen tuntien määrän, jotka sen on katettava. Valitse **Luo tarve** , jos haluat luoda tarpeen uudelleen tasapainottaaksesi tarvittavat tunnit ja kohdennukset.
+Voit nähdä eron, jos lisäät yleisen ryhmän jäsenen suoraan ja kohdennat yleiselle resurssille tehtävämäärän, joka ylittää niiden tarvittujen tuntien määrän, jotka sen on katettava. Valitse **Luo tarve**, jos haluat luoda tarpeen uudelleen tasapainottaaksesi tarvittavat tunnit ja kohdennukset.
 
-Voit myös napsauttaa ryhmäruudukon **Resurssitarve** -linkkiä avataksesi tarpeen ja lisätäksesi osaamisalueita, ensisijaisia resursseja jne.
+Voit myös napsauttaa ryhmäruudukon **Resurssitarve**-linkkiä avataksesi tarpeen ja lisätäksesi osaamisalueita, ensisijaisia resursseja jne.
 
 ![Resurssitarve](media/RM-how-to-13.png)
 

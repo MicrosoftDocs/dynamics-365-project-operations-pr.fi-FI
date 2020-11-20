@@ -3,7 +3,7 @@ title: Projektin tilan seuraaminen
 description: Projektin tilan seuraaminen Project Servicessä
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075434"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127829"
 ---
 # <a name="track-a-projects-status-project-service"></a>Seuraa projektin tilaa (Project Service)
 
@@ -37,10 +37,10 @@ Valmistelun edetessä projektin vaiheet päivitetään automaattisesti vastaamaa
 |              |                                                                                                                                                                                                                                                                                                  |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   **Uusi**    | Kun luot projektin, vaiheeksi on määritetty **uusi**. Jos projekti on luotu mallista, tässä vaiheessa projektilla voi olla aikataulu, arviot ja ryhmän tiedot. Muussa tapauksessa se on projektin jäsennys, ja sinun on syötettävä manuaalisesti muut projektin osat. |
-|  **Tarjous**   |      Kun liität projektin tarjoukseen tai luot sen tarjouksesta, projektivaiheeksi on määritetty **tarjous** , ja arvioitu aloitus- ja päättymispäivät päivitetään myös. Kun projekti on on tarjousvaiheessa, tarjouksen yksityiskohdat näkyvät **Myynti** -välilehdellä **Projekti** -sivulla.      |
-|   **Suunnitelma**   |                                     Kun projektiin liittyvä tarjous voittaa ja valmistelu etenee sopimusvaiheeseen, projektivaihe päivittää **suunnitelman**. Sopimuksen tiedot näkyvät **Myynti** -välilehdellä **Projektin** -sivulla.                                      |
+|  **Tarjous**   |      Kun liität projektin tarjoukseen tai luot sen tarjouksesta, projektivaiheeksi on määritetty **tarjous**, ja arvioitu aloitus- ja päättymispäivät päivitetään myös. Kun projekti on on tarjousvaiheessa, tarjouksen yksityiskohdat näkyvät **Myynti**-välilehdellä **Projekti**-sivulla.      |
+|   **Suunnitelma**   |                                     Kun projektiin liittyvä tarjous voittaa ja valmistelu etenee sopimusvaiheeseen, projektivaihe päivittää **suunnitelman**. Sopimuksen tiedot näkyvät **Myynti**-välilehdellä **Projektin**-sivulla.                                      |
 | **Valmis** |                    Kun projektin työ on valmis, voit vaihtaa vaiheeksi **Valmis**. Kun projektivaiheeksi on muutettu valmis, on selvää, että työ on suoritettu 100-prosenttisesti, mutta projekti pidetään avoinna, jotta odottavat aika- tai kulumerkinnät kirjataan.                     |
-|  **Sulje**   |           Kun kaikki tapahtumat on tallennettu projektiin ja et odota uusia kirjattavaksi, voit manuaalisesti määrittää vaiheeksi **Sulje**. Kun projektin tilaksi on määritetty **Sulje** , et voi kirjautua enää projektin tapahtumiin ja projektin voi vain lukea.           |
+|  **Sulje**   |           Kun kaikki tapahtumat on tallennettu projektiin ja et odota uusia kirjattavaksi, voit manuaalisesti määrittää vaiheeksi **Sulje**. Kun projektin tilaksi on määritetty **Sulje**, et voi kirjautua enää projektin tapahtumiin ja projektin voi vain lukea.           |
 
 ## <a name="to-track-a-projects-status"></a>Projektin tilan seuraaminen  
 

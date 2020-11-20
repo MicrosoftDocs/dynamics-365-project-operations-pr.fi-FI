@@ -3,7 +3,7 @@ title: Hallitse resurssipyyntöjä
 description: Resurssipyyntöjen hallinta Project Servicessä
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075347"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128999"
 ---
 # <a name="manage-resource-requests-project-service"></a>Hallitse resurssipyyntöjä (Project Service)
 
@@ -37,11 +37,11 @@ Asiakaspäälliköt ja projektipäälliköt pyytävät säännöllisesti resurss
   
     Tee jokin seuraavista etsinnän optimoimiseksi:  
   
-   -   Valitse näkymä tai lajittele tilaus näytön yläreunasta. Voit myös valita, näytetäänkö käytettävyys **päivän** , **viikon** tai **kuukauden** tarkkuudella ja nuolien avulla voit tarkastella edellistä tai seuraavaa ajanjaksoa. Etsi-ruudun avulla voit etsiä tiettyä resurssia.  
+   -   Valitse näkymä tai lajittele tilaus näytön yläreunasta. Voit myös valita, näytetäänkö käytettävyys **päivän**, **viikon** tai **kuukauden** tarkkuudella ja nuolien avulla voit tarkastella edellistä tai seuraavaa ajanjaksoa. Etsi-ruudun avulla voit etsiä tiettyä resurssia.  
   
    -   Muuta näytön sisältöä valitsemalla **Asetukset**. Voit esimerkiksi näyttää selitteen, joka sisältää erilaiset varaukset värikoodattuina, tai voit valita vain tietynlaisten varausten näyttämisen (esimerkiksi sitova tai alustava varaus).  
   
-   -   Valitsemalla **Suodatin** näyttöön tulee **Suodatin** -ruutu, jonka avulla voit suodattaa tuloksia organisaatioyksikön, roolin, osaamisalueen tai muiden määritteiden mukaan.  
+   -   Valitsemalla **Suodatin** näyttöön tulee **Suodatin**-ruutu, jonka avulla voit suodattaa tuloksia organisaatioyksikön, roolin, osaamisalueen tai muiden määritteiden mukaan.  
   
        ![Project Servicen Resurssipyynnöt-näyttö](../psa/media/project-service-resource-request-screen.png "Project Servicen Resurssipyynnöt-näyttö.").  
   

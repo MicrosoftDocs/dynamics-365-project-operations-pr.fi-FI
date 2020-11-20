@@ -3,7 +3,7 @@ title: Lisäparametrien asetusten määrittäminen
 description: Lisäparametrien asetusten määrittäminen Project Servicessä
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075348"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129359"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Lisäparametrien asetusten määrittäminen (Project Service)
 
@@ -54,11 +54,11 @@ Projektin parametriasetusten tekeminen:
   
 2. Valitse parametrien asetus, jonka haluat määrittää (sama, jonka loit [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -asennuksen yhteydessä), tai luo uusi valitsemalla **Uusi**.  
   
-3. **Yleinen** -alueessa määritä projektiparametrien asetukset.  
+3. **Yleinen**-alueessa määritä projektiparametrien asetukset.  
   
-4. **Hinnasto** -alueessa valitse **+** ja lisää hinnasto, valitse hinnasto avattavasta **Projektin parametrin hinnasto** -luettelosta ja valitse sitten **Tallenna**.  
+4. **Hinnasto**-alueessa valitse **+** ja lisää hinnasto, valitse hinnasto avattavasta **Projektin parametrin hinnasto** -luettelosta ja valitse sitten **Tallenna**.  
   
-5. Napsauta näytön oikeassa alakulmassa **Tallenna** -painiketta.  
+5. Napsauta näytön oikeassa alakulmassa **Tallenna**-painiketta.  
 
 > [!NOTE]
 > Projektiparametritietue on säilytettävä, jotta Project Service toimisi oikein. Tätä tietuetta ei pitäisi poistaa.

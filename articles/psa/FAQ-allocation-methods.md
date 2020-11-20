@@ -3,7 +3,7 @@ title: Varausmenetelmien varaaminen Project Service Automationissa
 description: Tässä aiheessa on tietoja eri tavoista kohdistaa varauksia.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,16 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 295da428ce15e7775450dfa94e96047f200bdede
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075342"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131348"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Varausmenetelmien varaaminen Project Service Automationissa
 
-Voit käyttää muutamaa erilaista varausten kohdistustapaa, kun lisäät ryhmän jäsenen suoraan projektiin **Ryhmä** -välilehdessä tai varaat resurssin projektille tai tarpeelle aikataulutaulukossa. Tässä aiheessa kerrotaan, miten kukin tapa toimii ja mitkä tavat voivat johtaa resurssien ylivaraukseen.
+Voit käyttää muutamaa erilaista varausten kohdistustapaa, kun lisäät ryhmän jäsenen suoraan projektiin **Ryhmä**-välilehdessä tai varaat resurssin projektille tai tarpeelle aikataulutaulukossa. Tässä aiheessa kerrotaan, miten kukin tapa toimii ja mitkä tavat voivat johtaa resurssien ylivaraukseen.
 
 ## <a name="full-capacity"></a>Täysi kapasiteetti 
 Täysi kapasiteetti -menetelmä varaa resurssin täyden kapasiteetin tietyn alku- ja loppupäivämäärän välille. Jos resurssin kalenteriin on määritetty esimerkiksi kahdeksan tunnin työpäivä viitenä päivänä viikossa, viisi työpäivää kattavan alku- ja loppupäivämäärän määrittäminen varaa resurssin 40 tunniksi. Varaus on tehty ilman, että resurssin jäljellä olevaa kapasiteettia otetaan huomioon. Jos resurssi on jo varattu muille projekteille tuona aikana, 40 tuntia varataan lisätunteina. Tämä voi aiheuttaa ylivarauksia.
@@ -59,7 +59,7 @@ Etupainotteinen tapa ottaa huomioon aiemmin luodut varaukset ja käytettävissä
 Koska käytettävissä oleva kapasiteetti otetaan huomioon, näyttöön voi tulla virhesanoma, jos resurssilla ei ole jäljellä olevaa kapasiteettia varausta varten. Kun tämä tapa on käytössä, ylivaraus ei ole mahdollista.
 
 ## <a name="none"></a>Ei ole
-Ei ole -menetelmä on käytettävissä vain, jos projektin varaukset tehdään **Ryhmä** -välilehdessä. Tämä tapa lisää resurssin projektiin ryhmän jäsenenä, mutta ei luo varauksia, jotka käyttävät resurssin kapasiteettia. Tätä tapaa käytetään, kun projektipäällikön ryhmän oletusjäsen lisätään projektin luomisen yhteydessä. Projektin luonut projektipäällikkökäyttäjä lisätään projektiin oletusarvoisesti. Tällöin projektin entiteettitietueella on omistaja ja projektissa on yksi hyväksyjä. Nykyisellä käyttäjällä ei ole varauksia. Jos haluat varata resurssin, voit poistaa resurssin ja lisätä sen uudelleen eri kohdistustavan avulla tai lisätä resurssin tehtäviin ja luoda sitten delegoinneille varauksia **Täsmäytys** -välilehden **Laajenna varaukset** -kohdan avulla.
+Ei ole -menetelmä on käytettävissä vain, jos projektin varaukset tehdään **Ryhmä**-välilehdessä. Tämä tapa lisää resurssin projektiin ryhmän jäsenenä, mutta ei luo varauksia, jotka käyttävät resurssin kapasiteettia. Tätä tapaa käytetään, kun projektipäällikön ryhmän oletusjäsen lisätään projektin luomisen yhteydessä. Projektin luonut projektipäällikkökäyttäjä lisätään projektiin oletusarvoisesti. Tällöin projektin entiteettitietueella on omistaja ja projektissa on yksi hyväksyjä. Nykyisellä käyttäjällä ei ole varauksia. Jos haluat varata resurssin, voit poistaa resurssin ja lisätä sen uudelleen eri kohdistustavan avulla tai lisätä resurssin tehtäviin ja luoda sitten delegoinneille varauksia **Täsmäytys**-välilehden **Laajenna varaukset** -kohdan avulla.
 
 ## <a name="allocation-methods-that-lead-to-overbooking"></a>Ylivaraukseen johtavat kohdistustavat
 Seuraavat kohdistustavat johtavat ylivaraukseen, jos resurssi on jo vahvistettu muissa projekteissa (tai muissa työtilauksissa tai aikataulutettavissa entiteeteissä):

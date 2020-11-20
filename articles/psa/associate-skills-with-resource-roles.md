@@ -3,7 +3,7 @@ title: Liitä osaamisalueita resurssirooleihin
 description: Osaamisalueiden liittäminen resurssien rooleihin Project Servicessä
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b4d5fe145fc39afc1a909e0ff274c19e9a36d7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70c4b5cfca1495cb887ad6034542c46fd4cb079c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075465"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130259"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Liitä osaamisalueita resurssirooleihin (Project Service)
 
@@ -35,9 +35,9 @@ Kun lisäsit resursseja rooleihin, todennäköisesti liitit joitakin osaamisalue
   
 2.  Valitse resurssin rooli johon haluat liittää osaamisalueita.  
   
-3.  Jos haluat lisätä osaamisalueen, valitse **Osaamisalueet** -alueella **+**.  
+3.  Jos haluat lisätä osaamisalueen, valitse **Osaamisalueet**-alueella **+**.  
   
-4.  Roolin osaamistarve -ruudussa valitse **Osaamisalue** -kenttä, paina **Etsi** ‑painiketta ja valitse sitten osaamisalue.  
+4.  Roolin osaamistarve -ruudussa valitse **Osaamisalue**-kenttä, paina **Etsi**‑painiketta ja valitse sitten osaamisalue.  
   
 5.  Valitse osaamisaluetta vastaava pätevyys ja valitse sitten **Tallenna**.  
   

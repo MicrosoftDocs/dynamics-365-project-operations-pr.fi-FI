@@ -3,7 +3,7 @@ title: Lähetä resurssipyyntöjä
 description: Resurssipyyntöjen lähetys Project Servicessä
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f66d1157b932a91224a63d91ea2aeccc2c209f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075440"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126884"
 ---
 # <a name="submit-resource-requests-project-service"></a>Lähetä resurssipyyntöjä (Project Service)
 
@@ -41,11 +41,11 @@ Kun olet voittanut projektisopimuksen, sinun on valittava projektin henkilöstö
   
 5.  Resurssin sitova varaus tehdään sen sijaan valitsemalla rooli ja sitten **Tee sitova varaus**. Tämä näyttää kalenterinäkymän kaikista resursseista ja niiden saatavuudesta värikoodattuina, mikä mahdollistaa visuaalisen näkymän resurssin varauksen tilaan. Tee jokin seuraavista etsinnän optimoimiseksi:  
   
-    -   Valitse näkymä tai lajittele tilaus näytön yläreunasta. Voit myös valita, näytetäänkö käytettävyys **päivän** , **viikon** tai **kuukauden** tarkkuudella ja nuolien avulla voit tarkastella edellistä tai seuraavaa ajanjaksoa. Etsi-ruudun avulla voit etsiä tiettyä resurssia.  
+    -   Valitse näkymä tai lajittele tilaus näytön yläreunasta. Voit myös valita, näytetäänkö käytettävyys **päivän**, **viikon** tai **kuukauden** tarkkuudella ja nuolien avulla voit tarkastella edellistä tai seuraavaa ajanjaksoa. Etsi-ruudun avulla voit etsiä tiettyä resurssia.  
   
     -   Muuta näytön sisältöä valitsemalla **Asetukset**. Voit esimerkiksi näyttää selitteen, joka sisältää erilaiset varaukset värikoodattuina, tai voit valita vain tietynlaisten varausten näyttämisen (esimerkiksi sitova tai alustava varaus).  
   
-    -   Valitsemalla **Suodatin** näyttöön tulee **Suodatin** -ruutu, jonka avulla voit suodattaa tuloksia organisaatioyksikön, roolin, osaamisalueen tai muiden määritteiden mukaan.  
+    -   Valitsemalla **Suodatin** näyttöön tulee **Suodatin**-ruutu, jonka avulla voit suodattaa tuloksia organisaatioyksikön, roolin, osaamisalueen tai muiden määritteiden mukaan.  
   
     -   Haluamasi resurssin kalenterissa valitse ajanjakso resurssin varaamista varten ja varaa resurssi valitsemalla joko **Varaa** resurssi tai ehdota varausta valitsemalla **Ehdota varausta** ja anna pyytäjän hyväksyä se.  
   

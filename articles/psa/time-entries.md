@@ -3,7 +3,7 @@ title: Luo aikamerkintöjä
 description: Tässä aiheessa on tietoja aikamerkintöjen luomisesta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075439"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131264"
 ---
 # <a name="create-time-entries"></a>Luo aikamerkintöjä
 
@@ -35,13 +35,13 @@ Aiemmissa Dynamics 365 Project Service Automation-versioissa aikamerkinnät on s
 
 Luo aikamerkintä seuraavien vaiheiden mukaisesti:
 
-1. Valitse **Aikamerkinnät** -sivulla **Uusi**.
+1. Valitse **Aikamerkinnät**-sivulla **Uusi**.
 2. Kirjoita **Pikaluonti: aikamerkintä** -valintaikkunaan aikamerkinnän kesto minuutteina, tunteina tai päivinä. Kesto on ilmoitettava seuraavassa muodossa: *x* minuuttia, *x* tuntia tai *x* päivää. Tunnit ja päivät voidaan ilmoittaa myös desimaalilukuina, kuten *x.x* tuntia tai *x.x* päivää.
 3. Valitse aikamerkinnän tyyppi ja projekti, jolle olet syöttämässä aikamerkintää.
-4. Etsi **Projektitehtävä** -kentässä tämän aikamerkinnän tehtävä.
+4. Etsi **Projektitehtävä**-kentässä tämän aikamerkinnän tehtävä.
 
     > [!NOTE]
-    > Jos olet luomassa aikamerkintää tehtävälle, jota ei ole kohdennettu käyttäjälle **Projektitehtävä** -kentässä, valitse **Etsi** -painike, valitse **Muuta näkymää** ja valitse sen jälkeen **Kaikki aktiiviset projektitehtävät** nähdäksesi listan tehtävistä.
+    > Jos olet luomassa aikamerkintää tehtävälle, jota ei ole kohdennettu käyttäjälle **Projektitehtävä**-kentässä, valitse **Etsi**-painike, valitse **Muuta näkymää** ja valitse sen jälkeen **Kaikki aktiiviset projektitehtävät** nähdäksesi listan tehtävistä.
 
 5. Kirjoita kuvaus, jos kuvaus on pakollinen, ja valitse sitten **Tallenna ja sulje**.
 
@@ -56,15 +56,15 @@ Huomaa, että tunnin murto-osat eivät ole minuutteja. 1,5 tunnin osuus on siis 
 
 Sen jälkeen, kun muutama aikamerkintä on luotu, voit kopioida niitä luodaksesi kerralla useita aikamerkintöjä.
 
-1. Valitse **Aikamerkinnät** -sivulla **Kopioi viikko**.
+1. Valitse **Aikamerkinnät**-sivulla **Kopioi viikko**.
 2. Määritä **Lähdejakso** -kenttäryhmässä **Alkamispäivä** ja **Päättymispäivä** -kentissä päivämääräväli, jolta aikamerkinnät kopioidaan.
-3. Määritä **Kohdejakso** -kenttäryhmässä **Alkamispäivä** -kentässä päivämäärä, jolle luodaan aikamerkintöjä.
-4. Valitse **Kopioi** , jos haluat luoda kopion aikakiertauksista, jotka vastaavat sitä viikonpäivää, joka on määritelty **Kohdejakso** -kenttäryhmässä. Esimerkiksi edellisen viikon maanantain aikakirjaus kopioidaan sen viikon maanantaille, joka on määritetty **Kohdejakso** -kenttäryhmässä.
+3. Määritä **Kohdejakso** -kenttäryhmässä **Alkamispäivä**-kentässä päivämäärä, jolle luodaan aikamerkintöjä.
+4. Valitse **Kopioi**, jos haluat luoda kopion aikakiertauksista, jotka vastaavat sitä viikonpäivää, joka on määritelty **Kohdejakso**-kenttäryhmässä. Esimerkiksi edellisen viikon maanantain aikakirjaus kopioidaan sen viikon maanantaille, joka on määritetty **Kohdejakso**-kenttäryhmässä.
 
 ## <a name="import-data-for-time-entries"></a>Aikamerkintöjen tuontitiedot
 
-Voit tuoda tietoja projektin varauksista ja kohdennuksista. Kun tuot tietoja, voit määrittää tuotavien varausten päivämäärävälin ja valita sitten erikseen varaukset, jotka luodaan **Luonnos** -tyyppisinä aikakirjauksina.
+Voit tuoda tietoja projektin varauksista ja kohdennuksista. Kun tuot tietoja, voit määrittää tuotavien varausten päivämäärävälin ja valita sitten erikseen varaukset, jotka luodaan **Luonnos**-tyyppisinä aikakirjauksina.
 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Ryhmittely-, lajittelu-, haku- ja suodatusominaisuudet
 
-Voit ryhmitellä ja suodattaa aikakirjauksia sarakkeissa määritettyjen dimensioiden mukaan. Valitse **Ryhmittelyperuste** -kentässä aikamerkintöjen suodatuksessa käytettävä dimensio. Voit myös lajitella aikamerkintätietueita nousevaan tai laskevaan järjestykseen käyttämällä sarakeotsikoiden lajittelunuolta. Lisäksi voit näyttää tai piilottaa kirjauksia valitsemalla sarakeotsikoista **Suodatin** -painikkeen ja kirjoittamalla sitten **Haku** -ruutuun tekstin, jota käytetään haettaessa aikamerkintöjä projektin nimen, projektitehtävän, aikakirjauksen tai resurssin perusteella.
+Voit ryhmitellä ja suodattaa aikakirjauksia sarakkeissa määritettyjen dimensioiden mukaan. Valitse **Ryhmittelyperuste**-kentässä aikamerkintöjen suodatuksessa käytettävä dimensio. Voit myös lajitella aikamerkintätietueita nousevaan tai laskevaan järjestykseen käyttämällä sarakeotsikoiden lajittelunuolta. Lisäksi voit näyttää tai piilottaa kirjauksia valitsemalla sarakeotsikoista **Suodatin**-painikkeen ja kirjoittamalla sitten **Haku**-ruutuun tekstin, jota käytetään haettaessa aikamerkintöjä projektin nimen, projektitehtävän, aikakirjauksen tai resurssin perusteella.

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075285"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128684"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Projektipohjaisen sopimusrivin veloitettavien komponenttien määrittäminen
 
@@ -23,7 +23,7 @@ Projektipohjaisella sopimusrivillä on sisällytettyjen, laskutettavien ja ei-la
 
 Sisällytettyinä oleviin komponentteihin sovelletaan laskutustapaa, asiakasjakoja, ylittämättömiä rajoja ja laskun toistumisväliasetuksia, jotka on määritetty projektipohjaisella sopimusrivillä.
 
-Sisällytettyjen komponenttien alijoukko voidaan merkitä laskutettaviksi päivittämällä **Laskutustyyppi** -kenttä.
+Sisällytettyjen komponenttien alijoukko voidaan merkitä laskutettaviksi päivittämällä **Laskutustyyppi**-kenttä.
 
 Laskutettavat komponentit voidaan määrittää rooleille ja tapahtumaluokille.
 
@@ -35,13 +35,13 @@ Projektisopimusrivin tapahtumakategorioihin määritetty maksuvalmius koskee vai
 
 Tietyn projektipohjaisen sopimusrivin rooli voi olla laskutettava tai ei-laskutettava.
 
-Päivitä roolin laskutustyyppi projektipohjaisen tarjousrivin **Laskutettavat roolit** -välilehdessä **Laskutettavat kategoriat** -aliruudukossa **Laskutustyyppi** -kentässä.
+Päivitä roolin laskutustyyppi projektipohjaisen sopimusrivin **Veloitettavat roolit** -välilehden **Veloitettavat luokat** -aliruudukon **Laskutustyyppi**-kentässä.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Päivitä tapahtumaluokka laskutettavaksi tai ei-laskutettavaksi
 
 Tietyn projektipohjaisen sopimusrivin tapahtumaluokka voi olla laskutettava tai ei-laskutettava.
 
-Päivitä tapahtuman laskutustyyppi projektipohjaisen tarjousrivin **Laskutettavat kategoriat** -välilehdessä **Laskutettavat kategoriat** -aliruudukossa **Laskutustyyppi** -kentässä.
+Päivitä tapahtuman laskutustyyppi projektipohjaisen sopimusrivin **Veloitettavat luokat** -välilehden **Veloitettavat luokat** -aliruudukon **Laskutustyyppi**-kentässä.
 
 ### <a name="resolve-chargeability"></a>Selvitä verosaatavan syntyminen
 

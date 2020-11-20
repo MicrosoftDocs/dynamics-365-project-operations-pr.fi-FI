@@ -3,7 +3,7 @@ title: Anna jonkun muun lisätä aikakirjaus tai kulu puolestasi
 description: Toisen käyttäjän tekemän aika- tai kulumerkinnän salliminen Project Servicessä
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075321"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130359"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Toisen käyttäjän tekemän aika- tai kulumerkinnän salliminen (Project Service)
 
@@ -37,13 +37,13 @@ Määritä edustaja, jotta joku muu saa tehdä puolestasi aika- tai kulumerkint�
   
 2.  Napsauta komentopalkissa **Uusi**.  
   
-3. **Nimi** : anna tietueen nimi.  
+3. **Nimi**: anna tietueen nimi.  
   
-4. **Tyyppi** : valitse, saako edustaja tehdä aika- tai kulumerkintöjä puolestasi.  
+4. **Tyyppi**: valitse, saako edustaja tehdä aika- tai kulumerkintöjä puolestasi.  
   
-5. **Edustaja** : valitse sen henkilön nimi, jonka haluat edustajaksi.  
+5. **Edustaja**: valitse sen henkilön nimi, jonka haluat edustajaksi.  
   
-6. **Alkamis- ja päättymispäivät** : valitse päivämäärät, jolloin delegointi alkaa ja päättyy.  
+6. **Alkamis- ja päättymispäivät**: valitse päivämäärät, jolloin delegointi alkaa ja päättyy.  
   
 7.  Kun olet valmis, valitse **Tallenna ja sulje**.  
   
@@ -55,13 +55,13 @@ Määritä edustaja, jotta joku muu saa tehdä puolestasi aika- tai kulumerkint�
   
 3.  Valitse komentopalkissa **Poista käytöstä**.  
   
-4.  Valitse **Vahvista aktivoinnin poisto** -valintaikkunassa **Poista aktivointi** :  
+4.  Valitse **Vahvista aktivoinnin poisto**-valintaikkunassa **Poista aktivointi**:  
   
 ## <a name="enter-time-for-someone-else"></a>Ajan merkitsemin jollekin toiselle  
   
 1.  Valitse päävalikossa **Project Service** > **Aikamerkinnät**.  
   
-2.  Valitse komentopalkissa avattavasta **RESURSSINIMI** -valikosta sen henkilön nimi, jolle teet aikamerkinnän.  
+2.  Valitse komentopalkissa avattavasta **RESURSSINIMI**-valikosta sen henkilön nimi, jolle teet aikamerkinnän.  
   
 3.  Valitse **OK**.  
   
@@ -69,7 +69,7 @@ Määritä edustaja, jotta joku muu saa tehdä puolestasi aika- tai kulumerkint�
   
 5.  Voit määrittää ajan joko valitsemalla **Uusi** tai kaksoisnapsauttamalla kalenteria kohdassa, johon haluat määrittää ajan.  
   
-6.  Täytä **Aikamerkintä** -lomakkeen kentät ja valitse **Tallenna**.  
+6.  Täytä **Aikamerkintä**-lomakkeen kentät ja valitse **Tallenna**.  
   
 7.  Jatka kirjoittamalla koko viikon ajat. Kun se on valmis ja kaikki näyttää olevan kunnossa, valitse **Lähetä**.  
   
@@ -77,7 +77,7 @@ Määritä edustaja, jotta joku muu saa tehdä puolestasi aika- tai kulumerkint�
   
 1.  Valitse päävalikossa **Project Service** > **Kulut**.  
   
-2.  Valitse komentopalkissa avattavasta **RESURSSINIMI** -valikosta sen henkilön nimi, jolle teet kulumerkinnän.  
+2.  Valitse komentopalkissa avattavasta **RESURSSINIMI**-valikosta sen henkilön nimi, jolle teet kulumerkinnän.  
   
 3.  Valitse **OK**.  
   

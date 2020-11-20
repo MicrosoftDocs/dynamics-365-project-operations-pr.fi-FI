@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 616bcd5758b434b45bd06aa1a026f32efc8b7f99
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075386"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130889"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Mukautettujen kenttien ja entiteettien luominen hinnoitteludimensioina
 
@@ -36,7 +36,7 @@ Toimi seuraavasti aina, kun haluat luoda mukautetun asetusjoukon tai entiteetin.
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Mukautetun ratkaisun luominen hinnoitteludimensioille
 1. Siirry kohtaan **Asetukset** > **Ratkaisut** ja luo uusi ratkaisu valitsemalla **Uusi**. 
-2. Anna ratkaisulle nimeksi **organisaation \<your organization name> hinnoitteludimensiot** , anna muut tarvittavat tiedot ja valitse **Tallenna**.
+2. Anna ratkaisulle nimeksi **organisaation \<your organization name> hinnoitteludimensiot**, anna muut tarvittavat tiedot ja valitse **Tallenna**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Mukautettujen kenttien ja asetusjoukkojen luominen hinnoitteludimensioratkaisussa
 
@@ -46,7 +46,7 @@ Hinnoitteludimensio voi olla asetusjoukko tai entiteetti. Molemmat on luotava hi
 
 1. Siirry kohtaan **Asetukset** > **Ratkaisut** ja kaksoisnapsauta **organisaation \<your organization name> hinnoitteludimensio** -kohtaa.
 2. Valitse vasemman siirtymisruudun Ratkaisunhallinnassa **Entiteetit**.
-3. Valitse **Uusi** , jos haluat luoda uuden entiteetin nimellä **Vakio-otsikko**. 
+3. Valitse **Uusi**, jos haluat luoda uuden entiteetin nimellä **Vakio-otsikko**. 
 4. Syötä muut tarvittavat tiedot ja valitse **Tallenna**.
 
 
@@ -62,8 +62,8 @@ Voit luoda kaksi asetusjoukkoperusteista dimensiota. Käytä asetusjoukkoa **Res
 
 Voit luoda tietoja entiteettiperusteisille dimensioille manuaalisesti tai käyttämällä Microsoft Excelin tuontia tai palvelukutsuja. Luo tämän toimintosarjan vaiheiden avulla kaksi vakionimekettä eli **Järjestelmäinsinööri** ja **Vanhempi järjestelmäinsinööri** entiteettiperusteisen dimension **Vakionimike** perusteella. Jos haluamasi tietomäärä on vähäinen, kuten seuraavassa esimerkissä, voit käyttää vakiolomaketta.
 
-1. Valitse **Erikoishaku** , valitse entiteetin **Vakio-otsikko** ja valitse sitten **Tulokset**. Näkyviin tulevat kaikki **Vakionimike** -entiteetin rivit.
-2. Valitse **Uusi** ja syötä **Nimi** -kenttään Järjestelmäinsinööri. Valitse sitten **Tallenna**.
+1. Valitse **Erikoishaku**, valitse entiteetin **Vakio-otsikko** ja valitse sitten **Tulokset**. Näkyviin tulevat kaikki **Vakionimike**-entiteetin rivit.
+2. Valitse **Uusi** ja syötä **Nimi**-kenttään Järjestelmäinsinööri. Valitse sitten **Tallenna**.
 3. Sulje lomake. 
 4. Luo toinen vakionimike Vanhemmalle järjestelmäinsinöörille toistamalla vaiheet 1–3.
 

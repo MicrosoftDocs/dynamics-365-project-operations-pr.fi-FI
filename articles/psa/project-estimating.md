@@ -3,7 +3,7 @@ title: Projektin kustannukset ja tuotto
 description: Tässä aiheessa on tietoja projektin kustannusten ja tuoton arvioinnista.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075378"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127964"
 ---
 # <a name="project-costs-and-revenue"></a>Projektin kustannukset ja tuotto
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Projektin arviot tarjoavat taloudellisen näkymän työhän, joka on arvioitu ja aikataulutettu projektin aikataulussa. **Arviot** -välilehti **Projektit** -sivulla näyttää suunnittelemasi työn kustannus- ja tuottovaikutukset. Se sisältää myös tietoja monista esimääritetyistä dimensioista. 
+Projektin arviot tarjoavat taloudellisen näkymän työhän, joka on arvioitu ja aikataulutettu projektin aikataulussa. **Arviot**-välilehti **Projektit**-sivulla näyttää suunnittelemasi työn kustannus- ja tuottovaikutukset. Se sisältää myös tietoja monista esimääritetyistä dimensioista. 
 
 > ![Arviot-välilehti](media/project-5.png)
 
@@ -50,7 +50,7 @@ Jos roolin ja organisaatioyksikön yhdistelmä ei palauta kustannushintaa, järj
 Jos järjestelmä ei löydä roolille hintaa, kustannushinta arviorivillä asetetaan oletusarvoon **0,00**. Kaikki projektin kustannusarvioriveillä olevat kustannussummat ovat hankintayksikön valuutassa.
 
 > [!NOTE]
-> Microsoft Dynamics 365 tallentaa kustannussummat oletusarvoisesti perusvaluutassasi. **Arviot** -välilehdellä näytettävät kustannussummat ovat kuitenkin hankintayksikön valuutassa.  
+> Microsoft Dynamics 365 tallentaa kustannussummat oletusarvoisesti perusvaluutassasi. **Arviot**-välilehdellä näytettävät kustannussummat ovat kuitenkin hankintayksikön valuutassa.  
 
 ### <a name="default-sales-price"></a>Oletusmyyntihinta 
 
@@ -64,13 +64,13 @@ Jos roolin, yksikön ja resurssiyksikön yhdistelmä ei palauta myyntihintaa myy
 
 Jos järjestelmä ei löydä roolille hintaa, myyntihinta arviorivillä asetetaan oletusarvoon **0,00**.
 
-**Arviot** -välilehdellä on ruudukkonäkymä, jossa näkyvät arviorivit. Ruudukossa on yksikkö-, kokonaiskustannushinta- ja kokonaismyyntihinta-sarakkeet, jotka on esitetty seuraavassa kuvassa. 
+**Arviot**-välilehdellä on ruudukkonäkymä, jossa näkyvät arviorivit. Ruudukossa on yksikkö-, kokonaiskustannushinta- ja kokonaismyyntihinta-sarakkeet, jotka on esitetty seuraavassa kuvassa. 
 
 > ![Arviot-välilehden ruudukkonäkymä](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Projektin arvioiden aikavaiheistettu näkymä
 
-Projektiarvioiden aikajaksoittain tarkasteltavaan näkymään on määritetty valitsemasi aikajanan arviotiedot, jotka näkyvät aikajanalla ruudukkonäkymässä. Oletusarvoisesti arviotiedot siirretään **Rooli** -dimensioon.
+Projektiarvioiden aikajaksoittain tarkasteltavaan näkymään on määritetty valitsemasi aikajanan arviotiedot, jotka näkyvät aikajanalla ruudukkonäkymässä. Oletusarvoisesti arviotiedot siirretään **Rooli**-dimensioon.
 
 > ![Projektin arvioiden aikavaiheistettu näkymä](media/project-7.png)
 
@@ -80,7 +80,7 @@ Aikajaksotetussa näkymässä jaat kokonaistyömäärän, joka on arvioitu teht�
 
 ### <a name="work-hours-based-allocation"></a>Työtunteihin perustuva kohdistus
  
-Automaattisesti aikatauluttavassa tehtävätilassa asetetaan päivittäiset oletustunnit tehtäväresursseille täydellä työtuntimäärällä. Tämä tominta pätee, kun työmäärä kohdennetaan jakamalla se tehtävän keston ajalle aikavaiheistetussa näkymässä. Jos esimerkiksi arvioit, että tehtävä suoritetaan loppuun yhdellä resurssilla **Päivä** -aikaskaalalla, päivää kohti kohdennettu työmäärä ei ylitä projektin kalenterissa määritettyjä päiväkohtaisia tunteja. Työmäärän kohdistus varmistaa siksi aina, että resurssit on arvioitu käytettäviksi koko päivän ajan.
+Automaattisesti aikatauluttavassa tehtävätilassa asetetaan päivittäiset oletustunnit tehtäväresursseille täydellä työtuntimäärällä. Tämä tominta pätee, kun työmäärä kohdennetaan jakamalla se tehtävän keston ajalle aikavaiheistetussa näkymässä. Jos esimerkiksi arvioit, että tehtävä suoritetaan loppuun yhdellä resurssilla **Päivä**-aikaskaalalla, päivää kohti kohdennettu työmäärä ei ylitä projektin kalenterissa määritettyjä päiväkohtaisia tunteja. Työmäärän kohdistus varmistaa siksi aina, että resurssit on arvioitu käytettäviksi koko päivän ajan.
 
 ### <a name="even-allocation"></a>Tasainen kohdistus
 
@@ -88,7 +88,7 @@ Manuaalisesti ajoitettuun tehtävätilaan ei käytetä työtunteja projektikalen
 
 ## <a name="grouping-and-time-phasing-options"></a>Ryhmittely- ja aikavaiheistusasetukset
 
-Aikavaiheistettu näkymä näyttää työmäärän, kustannusten ja myyntiarvioiden jakautumisen päivittäin, viikoittain, kuukausittain tai vuosittain. Oletusarvoisesti arviotiedot siirretään **Rooli** -dimensioon. Voit kuitenkin käyttää **Ryhmittely** -toimintoa ryhmitelläksesi kahden muun dimension avulla: **Luokka** ja **Resurssi**.
+Aikavaiheistettu näkymä näyttää työmäärän, kustannusten ja myyntiarvioiden jakautumisen päivittäin, viikoittain, kuukausittain tai vuosittain. Oletusarvoisesti arviotiedot siirretään **Rooli**-dimensioon. Voit kuitenkin käyttää **Ryhmittely**-toimintoa ryhmitelläksesi kahden muun dimension avulla: **Luokka** ja **Resurssi**.
 
 Voit valita sekä ruudukkonäkymässä että aikavaiheisessa näkymässä näytettävät kentät. Kunkin aikalohkon summat näkyvät projektin alalaidassa. Ne näyttävät arvioidun kokonaistyömäärän, kustannukset ja myynnin päivälle, viikolle, kuukaudelle tai vuodelle. Oletus kustannushinta ja myyntihinta ovat voimassa. Toisin sanoen ne muuttuvat kunkin resurssin mukaan valitsemasi aikavaiheisen näkymän perusteella.
 

@@ -3,7 +3,7 @@ title: Toteutuneiden yleiskatsaus
 description: Tässä aiheessa on tietoja projektin todellisista arvoista.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075546"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129764"
 ---
 # <a name="actuals-overview"></a>Toteutuneiden yleiskatsaus
 
@@ -45,13 +45,13 @@ Oletushintoihin vaikuttavat kentät, kuten **Rooli** ja **Organisaatioyksiköt**
 
 Kun PSA:ssa lähetetään sellaisen projektin kulumerkintä, joka on yhdistetty aika ja materiaalit -sopimusriviin, luodaan kaksi kirjauskansion riviä. Yksi rivi on kustannusta ja toinen laskuttamatonta myyntiä varten. Kun lähetetään sellaisen projektin kulumerkintä, joka on yhdistetty kiinteähintaiseen sopimusriviin, luodaan kirjauskansion rivi vain kustannusta varten.
 
-Kulujen oletushintojen antamisen logiikka perustuu kululuokkaan, joka valitaan **Kulumerkintä** -sivulla. Oikean hinnaston määrittämisessä käytetään tapahtuman päiväystä, sopimusriviin yhdistettyä projektia ja valuuttaa. Itse hinnan osalta käyttäjän antama summa asetetaan oletusarvoisesti suoraan siihen liittyvien kulujen kirjauskansion kustannus- ja myyntirivien arvoksi.
+Kulujen oletushintojen antamisen logiikka perustuu kululuokkaan, joka valitaan **Kulumerkintä**-sivulla. Oikean hinnaston määrittämisessä käytetään tapahtuman päiväystä, sopimusriviin yhdistettyä projektia ja valuuttaa. Itse hinnan osalta käyttäjän antama summa asetetaan oletusarvoisesti suoraan siihen liittyvien kulujen kirjauskansion kustannus- ja myyntirivien arvoksi.
 
 Nykyisessä PSA:n versiossa, luokkaperusteista merkintää yksikkökohtaisista kulumerkintöjen oletushinnoista ei ole käytettävissä.
 
 ## <a name="using-entry-journals-to-record-costs"></a>Kirjauskansioiden käyttö kustannusten tallentamiseen
 
-PSA:ssa kirjauskansioihin voi tallentaa kustannuksia tai tuottoja materiaali-, maksu-, aika-, kulu- ja verotapahtumaluokkiin. Kirjauskansiossa on otsikko, rivejä ja **Vahvista** -toiminto. Seuraavassa on skenaarioita, joissa saatetaan käyttää kirjauskansiota:
+PSA:ssa kirjauskansioihin voi tallentaa kustannuksia tai tuottoja materiaali-, maksu-, aika-, kulu- ja verotapahtumaluokkiin. Kirjauskansiossa on otsikko, rivejä ja **Vahvista**-toiminto. Seuraavassa on skenaarioita, joissa saatetaan käyttää kirjauskansiota:
 
 - Sinun on tallennettava projektin materiaalien todellisia kustannuksia ja myyntejä.
 - Sinun on siirrettävä tapahtumien todellisia arvoja toisesta järjestelmästä PSA:han.

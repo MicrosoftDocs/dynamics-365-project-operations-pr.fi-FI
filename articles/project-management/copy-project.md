@@ -5,21 +5,21 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075289"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131789"
 ---
 # <a name="copy-a-project"></a>Projektin kopioiminen
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Dynamics 365 Project Operationsissa voit luoda nopeasti uusia projekteja valitsemalla **Kopioi projekti** **Projektit** -lomakkeessa. Jos haluat kopioida projektin, avaa kopioitava projekti ja valitse sitten **Kopioi projekti**. Toiminto kopioi:
+Dynamics 365 Project Operationsissa voit luoda nopeasti uusia projekteja valitsemalla **Kopioi projekti** **Projektit**-lomakkeessa. Jos haluat kopioida projektin, avaa kopioitava projekti ja valitse sitten **Kopioi projekti**. Toiminto kopioi:
 
 - Projektin ominaisuudet
 - Työrakenne

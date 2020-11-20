@@ -3,7 +3,7 @@ title: Yksikköryhmät ja yksiköt
 description: Tässä aiheessa on tietoja yksikköryhmistä ja yksiköistä.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075364"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130574"
 ---
 # <a name="unit-groups-and-units"></a>Yksikköryhmät ja yksiköt
 
@@ -33,16 +33,16 @@ Yksikköryhmät ja yksiköt Microsoft Dynamics 365:n perusentiteettejä. Yksikk�
 
 Seuraavassa on esimerkkejä yksiköistä ja yksikköryhmistä:
  
-- **Yksikköryhmä** : Etäisyys 
-    - **Yksiköt** : Maili, Kilometri jne.
-- **Yksikköryhmä** : Aika
-    - **Yksiköt** : Tunti, Päivä, Viikko jne. 
+- **Yksikköryhmä**: Etäisyys 
+    - **Yksiköt**: Maili, Kilometri jne.
+- **Yksikköryhmä**: Aika
+    - **Yksiköt**: Tunti, Päivä, Viikko jne. 
 
 Kun useita yksikköjä määritetään yksikköryhmäksi, niiden välille on myös määritettävä muuntokerroin määrittämällä ensimmäinen määritettävä yksikkö yksikköryhmän oletusyksiköksi tai ensisijaiseksi yksiköksi. 
 
-Jos esimerkiksi **Aika** -yksikköryhmässä ensimmäisenä yksikkönä määritetään **Tunti** , järjestelmä määrittää yksikön **Tunti** oletusyksiköksi. Jos seuraavana yksikkönä määritetään **Päivä** , on määritettävä muuntokerroin yksikköjen **Päivä** ja **Tunti** välille. Jos sitten kolmantena yksikkönä määritetään **Viikko** , on määritettävä muuntokerroin yksikköjen **Viikko** ja joko **Päivä** tai **Tunti** välille. 
+Jos esimerkiksi **Aika**-yksikköryhmässä ensimmäisenä yksikkönä määritetään **Tunti**, järjestelmä määrittää yksikön **Tunti** oletusyksiköksi. Jos seuraavana yksikkönä määritetään **Päivä**, on määritettävä muuntokerroin yksikköjen **Päivä** ja **Tunti** välille. Jos sitten kolmantena yksikkönä määritetään **Viikko**, on määritettävä muuntokerroin yksikköjen **Viikko** ja joko **Päivä** tai **Tunti** välille. 
 
-Seuraavassa kuvassa esitetään esimerkkimääritys yksikölle **Päivä** , jossa **Määrä** -kentässä näkyy päivässä olevien tuntien määrä, ja yksikölle **Viikko** , jossa **Määrä** -kentässä näkyy viikossa olevien päivien määrä.
+Seuraavassa kuvassa esitetään esimerkkimääritys yksikölle **Päivä**, jossa **Määrä**-kentässä näkyy päivässä olevien tuntien määrä, ja yksikölle **Viikko**, jossa **Määrä**-kentässä näkyy viikossa olevien päivien määrä.
 
 > ![Yksikköryhmä: tietosivu](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation käyttää yksikköjä ja yksikköryhmi�
 
 Kulujen osalta kullakin kululuokalla on oletusarvoinen yksikköryhmänsä ja yksikkönsä. Nämä arvot otetaan oletusarvoiksi kululuokkien hinnastomerkinnöille. 
 
-Sinulla voi olla esimerkiksi **Kilometrikorvaus** -niminen kululuokka. Sillä on **Etäisyys** -niminen yksikköryhmä ja oletusyksikkö nimeltä **Maili**. Jos määrität **Etäisyys** -yksikköryhmän siten, että siinä on kaksi yksikköä ( **Maili** ja **Kilometri** ), voit määrittää yhden hinnaston **Kilometrikorvaus** -luokalle kaksi hintaa: mailikohtainen hinta ja kilometrikohtainen hinta.
+Sinulla voi olla esimerkiksi **Kilometrikorvaus**-niminen kululuokka. Sillä on **Etäisyys**-niminen yksikköryhmä ja oletusyksikkö nimeltä **Maili**. Jos määrität **Etäisyys**-yksikköryhmän siten, että siinä on kaksi yksikköä (**Maili** ja **Kilometri**), voit määrittää yhden hinnaston **Kilometrikorvaus**-luokalle kaksi hintaa: mailikohtainen hinta ja kilometrikohtainen hinta.
 
 | Kululuokka  | Yksikköryhmä  | Yksikkö      | Hinnoittelutapa  | Yksikköhinta  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -65,24 +65,24 @@ Kun lisäät projektiin kulun, järjestelmä määrittää hinnan kyseisen kulun
 |----------------------------|---------------------|-------|-----------|----------------|
 | Asiakkaan toimipaikkaan ajaminen | Kilometrikorvaus             | Maili  | 10        | 10 USD         |
 
-Aikaa varten jokaisella hinnasto-otsikolla on **Oletusaikayksikkö** -kenttä. Arvo määritetään, kun hinnasto-otsikko luodaan. Tämän jälkeen kyseistä yksikköä käytetään kaikkien hinnaston rooliperusteisten hintojen määrittämisessä.
+Aikaa varten jokaisella hinnasto-otsikolla on **Oletusaikayksikkö**-kenttä. Arvo määritetään, kun hinnasto-otsikko luodaan. Tämän jälkeen kyseistä yksikköä käytetään kaikkien hinnaston rooliperusteisten hintojen määrittämisessä.
 
-**Tarjouksen aika** -kentän arviorivit voidaan ilmaista missä tahansa aikayksikössä. Projektien arvioriveissä ja projektien merkinnöissä kuitenkin voidaan käyttää vain **Tunti** -aikayksikköä. Jos aikamerkinnän tai arviorivin yksikkö ei vastaa hinnaston yksikköä kyseistä roolia varten, järjestelmä muuntaa hinnan niiksi yksiköiksi, jotka on määritetty projektiarviossa tai projektin todellisessa tapahtumassa.
+**Tarjouksen aika** -kentän arviorivit voidaan ilmaista missä tahansa aikayksikössä. Projektien arvioriveissä ja projektien merkinnöissä kuitenkin voidaan käyttää vain **Tunti**-aikayksikköä. Jos aikamerkinnän tai arviorivin yksikkö ei vastaa hinnaston yksikköä kyseistä roolia varten, järjestelmä muuntaa hinnan niiksi yksiköiksi, jotka on määritetty projektiarviossa tai projektin todellisessa tapahtumassa.
 
 Seuraavassa esimerkissä esitetään, miten PSA käyttää yksikköryhmiä, yksikköjä ja muuntokertoimia.
 - Yksiköt
 
-   - **Yksikköryhmä** : Aika 
-   - **Yksiköt** : Tunti 
+   - **Yksikköryhmä**: Aika 
+   - **Yksiköt**: Tunti 
     
     - **Päivä** – Muuntokerroin: 8 tuntia       
     - **Viikko** – Muuntokerroin: 40 tuntia  
         
 - Projektin A hinnastomääritys:
 
-    - **Nimi** : UK:n myyntihinnat 2016 
-    - **Oletusaikayksikkö** : Päivä 
-    - **Valuutta** : GBP
+    - **Nimi**: UK:n myyntihinnat 2016 
+    - **Oletusaikayksikkö**: Päivä 
+    - **Valuutta**: GBP
 
 | Rooli      | Yksikköryhmä | Yksikkö | Organisaatioyksikkö | Hinta   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ Joissakin maissa tai tietyillä alueilla laskutushinnat on lakisääteisesti ilm
 Ei. Projektiarviot on tällä hetkellä rajoitettu tunteihin eikä tähän voi tehdä muutoksia.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Voiko yksikköjä ja yksikköryhmiä muokata, poistaa ja lisätä?
-Kyllä. **Aika** -yksikköryhmää ja **Tunti** -yksikköä lukuun ottamatta kaikkia yksikköjä voi poistaa tai muokata ja uusia yksikköjä voi lisätä. PSA:ssa **Aika** -yksikköryhmää ja **Tunti** -yksikköä ei voi poistaa. Niitä voidaan kuitenkin päivittää **Nimi** -kenttää varten käännetyllä tekstillä.
+Kyllä. **Aika**-yksikköryhmää ja **Tunti**-yksikköä lukuun ottamatta kaikkia yksikköjä voi poistaa tai muokata ja uusia yksikköjä voi lisätä. PSA:ssa **Aika**-yksikköryhmää ja **Tunti**-yksikköä ei voi poistaa. Niitä voidaan kuitenkin päivittää **Nimi**-kenttää varten käännetyllä tekstillä.

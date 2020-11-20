@@ -3,7 +3,7 @@ title: Tarkastele ja muokkaa projektien arvioita
 description: Projektien arvioiden tarkasteleminen ja muokkaaminen Project Servicessä
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34f0c1d85311dc6ec00e892ee899bc4dad0eed32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075424"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125849"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Tarkastele ja muokkaa projektien arvioita (Project Service)
 
@@ -37,7 +37,7 @@ ms.locfileid: "4075424"
   
 3.  Valitse näytön yläosassa olevassa palkissa, projektin nimen vieressä oleva alanuoli ja valitse sitten **Projektin arviot**.  
   
-4.  **Aikavaiheperuste** -kohdassa valitse **Työmäärä** , **Kustannus** tai **Myynti** ja vaihda näytettävät projektiarviot.  
+4.  **Aikavaiheperuste**-kohdassa valitse **Työmäärä**, **Kustannus** tai **Myynti** ja vaihda näytettävät projektiarviot.  
   
 5.  Jos haluat lisätä tai poistaa kuluja, valitse **Näytä ruudukkonäkymä**. Luo uusi kulu valitsemalla **Uusi kulu**. Poista kulu valitsemalla se luettelosta ja valitse sitten **Poista kulu**. Kun et enää halua lisätä tai poistaa kuluja, valitse **Tallenna**.  
   
