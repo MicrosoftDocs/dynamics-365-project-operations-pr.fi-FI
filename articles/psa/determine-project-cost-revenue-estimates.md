@@ -3,7 +3,7 @@ title: Määritä projektin kustannusten ja myyntivoiton arviot
 description: Projektin kustannus- ja tuottoarvioiden määrittäminen Project Servicessä
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1652b39b6c8a703bf198a990eb9047eff9dc9f4c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075356"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133004"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Määritä projektin kustannusten ja myyntivoiton arviot 
 
@@ -35,7 +35,7 @@ Projektien arviot tarjoavat taloudellisen näkymän arvioituun ja aikataulutettu
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -hinnastot määrittävät projektissa käytettävien roolien kustannukset ja laskutushinnan. Projektin työrakenteen tehtäviin liittyvien roolien perusteella voit määrittää projektiin liittyvän työn kustannusten ja myyntivoiton vaikutukset.  
   
 ## <a name="cost-price-defaulting"></a>Kustannushinnan oletusarvo  
-Jokainen projekti kuuluu organisaatioon (mainittu projektin kohdassa **Omistava yksikkö** ). Omistavaan organisaatioyksikköön liittyvä hinnasto määrittää yksikön kustannushinnan. [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] määrittää roolien kustannushinnat etsimällä kustannushinnastosta roolin, yksikön ja organisaatioyksikön yhdistelmän, jolla saadaan oikea kustannushinta arviorivien voimassaolopäivälle.  
+Jokainen projekti kuuluu organisaatioon (mainittu projektin kohdassa **Omistava yksikkö**). Omistavaan organisaatioyksikköön liittyvä hinnasto määrittää yksikön kustannushinnan. [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] määrittää roolien kustannushinnat etsimällä kustannushinnastosta roolin, yksikön ja organisaatioyksikön yhdistelmän, jolla saadaan oikea kustannushinta arviorivien voimassaolopäivälle.  
   
 Jos yhdistetty rooli, yksikkö ja organisaatioyksikkö eivät muodosta kustannushintaa omistavan yksikön hinnastosta, yksikön sijaan otetaan huomioon roolin ja organisaatioyksikön yhdistelmä. Jos kustannushinta on olemassa, tämä hinta muunnetaan arviorivillä valituksi yksiköksi.  
   

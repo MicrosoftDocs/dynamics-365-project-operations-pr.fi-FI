@@ -1,21 +1,21 @@
 ---
-title: Tarjousrivin laskutettavan osan määrittäminen
+title: Tarjousrivin laskutettavan komponentin määrittäminen – lite
 description: Tässä ohjeaiheessa on tietoja laskutettavan ja ei-laskutettavan komponentin määrittämisestä projektipohjaisella tarjousrivillä.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075469"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177102"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Tarjousrivin laskutettavan osan määrittäminen
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Tarjousrivin laskutettavan komponentin määrittäminen – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
@@ -27,7 +27,7 @@ Sisällytettyjä osia voivat olla seuraavat:
   - Ei-ylitettävät rajoitukset 
   - Projektipohjaisella tarjousrivillä määritetyt laskun toistumisasetukset
 
-Sisällytettyjen komponenttien alijoukko voidaan merkitä laskutettaviksi **laskutustyyppi** -kentän avulla. **Laskutustyyppi** -kenttä on asetusjoukko, joka sallii seuraavat arvot tarjousrivin kontekstissa:
+Sisällytettyjen komponenttien alijoukko voidaan merkitä laskutettaviksi **laskutustyyppi**-kentän avulla. **Laskutustyyppi**-kenttä on asetusjoukko, joka sallii seuraavat arvot tarjousrivin kontekstissa:
 
   - Veloitettava
   - Ei veloitettava
@@ -38,27 +38,27 @@ Maksukyky määritetään tarjousrivin tehtäville, ja se koskee kaikkia siihen 
 
 Laskutettavuus määritetään tarjousrivin rooleissa, ja se koskee vain **Ajan** tapahtumaluokkaa. Jos **Sisällytä aika** -kentän asetus on **Ei** projektitarjousrivillä, **Veloitettavat roolit** -välilehti ei ole käytettävissä.
 
-Veloitettavuus määritetään tarjousrivin tapahtumaluokissa ja koskee vain **Kulu** -tapahtumaluokkaa. Jos **Sisällytä kulut** -kentän asetus on **Ei** projektitarjousrivillä, **Veloitettavat luokat** -välilehti ei ole käytettävissä.
+Veloitettavuus määritetään tarjousrivin tapahtumaluokissa ja koskee vain **Kulu**-tapahtumaluokkaa. Jos **Sisällytä kulut** -kentän asetus on **Ei** projektitarjousrivillä, **Veloitettavat luokat** -välilehti ei ole käytettävissä.
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>Projektitehtävän päivittäminen laskutettavaksi tai ei-laskutettavaksi
 
 Projektitehtävä voi olla laskutettava tai ei-laskutettava tietyn projektipohjaisen tarjousrivin yhteydessä, mikä mahdollistaa seuraavan asennuksen:
 
-Jos projektiin perustuva tarjousrivi sisältää **Ajan** ja tehtävän **T1** , tehtävä liitetään tarjousriviin laskutettavana. Jos on olemassa toinen tarjousrivi, joka sisältää **Kulut** , voit liittää **T1** -tehtävän tarjousriviin ei-laskutettavana. Tuloksena on, että kaikki tehtävään kirjattu aika on laskutettavaa ja kaikki tehtävään kirjatut kulut ovat ei-laskutettavia.
+Jos projektiin perustuva tarjousrivi sisältää **Ajan** ja tehtävän **T1**, tehtävä liitetään tarjousriviin laskutettavana. Jos on olemassa toinen tarjousrivi, joka sisältää **Kulut**, voit liittää **T1**-tehtävän tarjousriviin ei-laskutettavana. Tuloksena on, että kaikki tehtävään kirjattu aika on laskutettavaa ja kaikki tehtävään kirjatut kulut ovat ei-laskutettavia.
 
-Tehtävän laskutustyyppi voidaan määrittää projektipohjaisen tarjousrivin **Laskutettavat tehtävät** -välilehdessä päivittämällä **Laskutustyyppi** -kenttä **Tarjousrivin tehtävät** -aliruudukossa. Vaihtoehtoisesti voit päivittää projektitehtävän laskutustyypin projektin tehtävälaskutusasetuksen aliruudukon **Laskutustyyppi** -kentässä, joka näyttää tehtävään liittyvät tarjousrivit.
+Tehtävän laskutustyyppi voidaan määrittää projektipohjaisen tarjousrivin **Veloitettavat tehtävät** -välilehdessä päivittämällä **Laskutustyyppi**-kenttä **Tarjousrivin tehtävät** -aliruudukossa. Vaihtoehtoisesti projektitehtävän laskutustyyppi voidaan päivittää sen aliruudukon **Laskutustyyppi**-kentässä, joka on tehtävään liitetyt tarjousrivit näyttävän projektin tehtävän laskutusasetuksissa.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Roolin päivittäminen laskutettavaksi tai ei-laskutettavaksi
 
 Rooli voi olla laskutettava tai ei-laskutettava tietyn projektipohjaisen tarjousrivin kontekstissa.
 
-Roolin laskutustyyppi voidaan määrittää projektipohjaisen tarjousrivin **Laskutettavat roolit** -välilehdessä päivittämällä **Laskutustyyppi** -kenttä **Laskutettavat roolit** -aliruudukossa.
+Roolin laskutustyyppi voidaan määrittää tarjousrivin **Veloitettavat roolit** -välilehdessä päivittämällä **Laskutustyyppi**-kenttä **Veloitettavat roolit** -aliruudukossa.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Päivitä tapahtumaluokka laskutettavaksi tai ei-laskutettavaksi
 
 Tietyn tarjousrivin tapahtumaluokka voi olla laskutettava tai ei-laskutettava.
 
-Tapahtuman laskutustyyppi voidaan määrittää projektipohjaisen tarjousrivin **Laskutettavat luokat** -välilehdessä päivittämällä **Laskutustyyppi** -kenttä **Laskutettavat luokat** -aliruudukossa.
+Tapahtuman laskutustyyppi voidaan määrittää tarjousrivin **Veloitettavat luokat** -välilehdessä päivittämällä **Laskutustyyppi**-kenttä **Veloitettavat luokat** -aliruudukossa.
 
 ### <a name="resolve-chargeability"></a>Selvitä verosaatavan syntyminen
 Arviota tai todellista luontiaikaa voidaan pitää veloitettavissa vain, jos tarjousriville on lisätty **Aika** ja jos **Tehtävä** ja **Rooli** on määritetty laskutettaviksi tarjousrivillä.

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075387"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181493"
 ---
 # <a name="copy-price-lists"></a>Hinnastojen kopioiminen
 
@@ -26,10 +26,10 @@ Jos haluat tehdä kopion hinnastosta, tee seuraavat toimet.
 1. Avaa hinnasto, josta haluat tehdä kopion, ja valitse sitten **Kopioi**.
 2. Kirjoita kaikki tarvittavat tiedot hinnaston kopioimista varten. Seuraavassa taulukossa on esitetty seikat, jotka kannattaa pitää mielessä tietoja syöttäessäsi.
 
-| Field | Relevanssi, tarkoitus ja opastus | Loppupään vaikutus |
+| Field | Kuvaus | Loppupään vaikutus |
 | --- | --- | --- |
 | Nimi | Lähdehinnaston nimi, johon on lisätty **kopio**. | Hinnasto sisältää tämän arvon kaikilla luettelosivuilla ja avattavan luettelon vaihtoehdoissa. |
-| Konteksti | Kirjoita kohdehinnastoon haluamasi konteksti. | Hinnastoa, jonka kontekstiksi on määritetty **kustannus** , käytetään kustannusarvioiden ja kustannusten todellisten arvojen hinnan etsimistä varten. Hinnastoa, jonka kontekstiksi on määritetty **myynti** , käytetään myyntiarvioiden ja myynnin todellisten arvojen hinnan etsimistä varten. Vain hinnastot, joiden kontekstiksi on määritetty **myynti** , voidaan liittää projektin hinnastoon asiakkaalle, tarjouksille tai sopimukselle. |
+| Konteksti | Kirjoita kohdehinnastoon haluamasi konteksti. | Hinnastoa, jonka kontekstiksi on määritetty **kustannus**, käytetään kustannusarvioiden ja kustannusten todellisten arvojen hinnan etsimistä varten. Hinnastoa, jonka kontekstiksi on määritetty **myynti**, käytetään myyntiarvioiden ja myynnin todellisten arvojen hinnan etsimistä varten. Vain hinnastot, joiden kontekstiksi on määritetty **myynti**, voidaan liittää projektin hinnastoon asiakkaalle, tarjouksille tai sopimukselle. |
 | Aloituspäivämäärä | Sen kauden alkamispäivä, jona hinnasto on voimassa. | Yhdessä **päättymispäivän** kanssa tämän kentän avulla määritetään, mitä hinnastoa käytetään tiettyyn arvioon tai todelliseen riviin. |
 | Päättymispäivämäärä | Sen kauden loppumispäivä, jona hinnasto on voimassa. | Yhdessä **alkamispäivän** kanssa tämän kentän avulla määritetään, mitä hinnastoa käytetään tiettyyn arvioon tai todelliseen riviin. |
 | Valuutta | Lähdehinnaston valuutta. Tämä voidaan kuitenkin muuttaa. | Kun tätä muutetaan, kaikki työn, kulun ja tuoteluettelon nimikkeiden hintarivit muunnetaan kohdehinnaston valuutaksi kopioinnin aikana. |
@@ -40,6 +40,6 @@ Jos haluat tehdä kopion hinnastosta, tee seuraavat toimet.
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Hinnaston päivittäminen käyttämällä kaikkien hintojen merkintää
 
-1. Hinnastojen **Roolit** -, **Luokat** - ja **Hinnastonimike** -välilehdissä voit valita **Päivitä hinnat** , kun haluat kohdistaa merkinnän kaikkiin aliruudukon hintoihin. 
+1. Hinnankorotuksen voi käyttöön kaikissa aliruudukon hinnoissa valitsemalla hinnaston **Rooli**-, **Luokka**- ja **Hinnaston nimike** -välilehdissä **Päivitä hinnat**. 
 2. Kirjoita avautuvaan valintaikkunaan korotus. Voit myös määrittää negatiivisen korotusprosentin, jolloin hinnat laskevat tietyllä prosenttiosuudella. 
-3. Valitse valintaikkunassa **OK** ja tarkista, että aliruudukon hinnat vastaavat tekemiäsi muutoksia.
+3. Valitse valintaruudussa **OK** ja varmista sitten, että aliruudukon hinnat vastaavat tehtyjä muutoksia.

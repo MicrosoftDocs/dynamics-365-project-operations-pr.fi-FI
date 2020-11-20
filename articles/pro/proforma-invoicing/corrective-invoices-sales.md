@@ -1,21 +1,21 @@
 ---
-title: Hyvitykset ja oikaistut laskut
+title: Korjatut laskut – lite
 description: Tämä aihe tarjoaa tietoja Project Operationsin korjattujen laskujen vahvistamisesta
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075459"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176427"
 ---
-# <a name="credits-and-corrected-invoices"></a>Hyvitykset ja oikaistut laskut
+# <a name="corrected-invoices---lite"></a>Korjatut laskut – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
@@ -35,7 +35,7 @@ Uusi laskuluonnos luodaan vahvistetusta laskusta. Kaikki aiemmin vahvistetun las
 - Pidätysmaksujen ja ennakoiden täsmäytykset voidaan oikaista, jos aiemmin vahvistetun laskun kulujen täsmäyttämiseen käytettiin virheellistä määrää.
 
 > [!IMPORTANT]
-> Laskurivin tiedot, jotka ovat korjauksia muihin jo laskutettuihin kuluihin, saavat kentän **korjauksen** arvoksi **Kyllä**. Laskuilla, joiden laskurivitiedot on korjattu on kenttä nimeltä **korjaukset** , joiden arvo on myös **Kyllä**.
+> Laskurivin tiedot, jotka ovat korjauksia muihin jo laskutettuihin kuluihin, saavat kentän **korjauksen** arvoksi **Kyllä**. Laskuilla, joiden laskurivitiedot on korjattu on kenttä nimeltä **korjaukset**, joiden arvo on myös **Kyllä**.
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Korjaavan laskun vahvistuksessa luodut todelliset arvot:
 

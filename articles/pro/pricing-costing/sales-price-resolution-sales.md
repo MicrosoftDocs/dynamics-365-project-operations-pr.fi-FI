@@ -1,21 +1,21 @@
 ---
-title: Arvioiden ja todellisten arvojen myyntihintojen selvittäminen
+title: Arvioiden ja todellisten arvojen myyntihintojen selvittäminen – lite
 description: Tässä aiheessa on tietoa myyntihintojen ratkaisemisesta arvioiden ja todellisten tietojen perusteella.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c8972bd7710735e9acdbf951079f2da24a00bd7f
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087890"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176742"
 ---
-# <a name="resolving-sales-prices-for-estimates-and-actuals"></a>Arvioiden ja todellisten arvojen myyntihintojen selvittäminen
+# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Arvioiden ja todellisten arvojen myyntihintojen selvittäminen – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
@@ -28,7 +28,7 @@ Project Operationsissa arviorivien avulla voidaan osoittaa tarjousrivin ja sopim
 Kun myyntihinnasto on ratkaistu, järjestelmä suorittaa laskun hinnan oletusarvon seuraavasti:
 
 1. Järjestelmä käyttää arviorivillä olevaa **roolin** ja **resursointiyksikön** kenttiä, jotta se vastaisi hinnaston roolien hintarivejä ratkaistuissa hinnastoissa. Tämä vastaavuus olettaa, että laskuhintojen hinnoittelun ulottuvuuksia käytetään. Jos olet määrittänyt hinnoittelun mihin tahansa muuhun kenttään **roolin** ja **resurssiyksikön** sijaan tai sen lisäksi, sitä yhdistelmää käytetään vastaavan roolihintarivin noutamiseen.
-2. Jos järjestelmä havaitsee roolien hintarivin, jolla on laskutushinta **rooli** - ja **resurssiyksikkö** -kentän yhdistelmälle, tämä laskutushinta on oletuskustannushinta.
+2. Jos järjestelmä havaitsee roolien hintarivin, jolla on laskutushinta **rooli**- ja **resurssiyksikkö**-kentän yhdistelmälle, tämä laskutushinta on oletuskustannushinta.
 3. Jos järjestelmä ei pysty vastaamaan **roolien** ja **resursointiyksikön** kenttäarvojen vastaavuutta, se hakee roolikohtaiset hintarivit, joilla on vastaava osa, mutta **resurssiyksikön** tyhjäarvo. Kun järjestelmä on löytänyt vastaavan roolien hintatietueen, se määrittää kyseisen tietueen laskun hinnan oletusarvoksi. Tämä hakutoiminto olettaa, että myyntihinnoittelu dimensiona on **roolin** vs. **resurssiyksikön** suhteellinen prioriteetti.
 
 > [!NOTE]
@@ -40,8 +40,8 @@ Project Operationsissa kustannusarvioita käytetään osoittamaan tarjous- ja so
 
 Kun myyntihinnasto on ratkaistu, järjestelmä suorittaa yksikkömyyntihinnan oletusarvon seuraavasti:
 
-1. Järjestelmä käyttää arviorivillä **Luokka** - ja **Yksikkö** -kenttäyhdistelmää kustannusten sovittamiseksi ratkaistun hinnaston luokan hintariveihin.
-2. Jos järjestelmä löytää luokan hintarivin, jonka myyntihinta on **luokka** - ja **yksikkö** -kenttäyhdistelmässä, tämä myyntihinta on oletusarvo.
+1. Järjestelmä käyttää arviorivillä **Luokka**- ja **Yksikkö**-kenttäyhdistelmää kustannusten sovittamiseksi ratkaistun hinnaston luokan hintariveihin.
+2. Jos järjestelmä löytää luokan hintarivin, jonka myyntihinta on **luokka**- ja **yksikkö**-kenttäyhdistelmässä, tämä myyntihinta on oletusarvo.
 3. Jos järjestelmä löytää vastaavan luokan hintarivin, myyntihinnan oletusarvona voidaan käyttää hinnoittelutapaa. Seuraavassa taulukossa on esitetty kuluhinnan oletuskäyttäytyminen Project Operationsissa.
 
     | Konteksti | Hinnoittelutapa | Oletushinta |

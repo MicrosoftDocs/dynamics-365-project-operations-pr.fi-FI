@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 578f5641659a5d05785781afe7055fe4449cf799
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087895"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180188"
 ---
 # <a name="set-up-price-lists"></a>Hinnastojen määrittäminen
 
@@ -23,20 +23,20 @@ Dynamics 365 Project Operationsin hinnastot edustavat hintaluetteloa. Hinnat ilm
 
 Seuraavat laajennukset koskevat projektitoimintoja ja niitä käytetään Dynamics 365 Sales -hinnastoissa.
 
-- **Konteksti** : Tässä kentässä on tuetut arvot, **kulut** ja **myynti**. Arvoa **Osto** ei tueta. Voit määrittää **Kulun** tehdäksesi kustannushinnaston tai määrittää kontekstin myyntihinnaston **myyntiä** varten. Kustannushinnastot ratkaisevat kustannustyypin hinnan arvio- ja toteutuneet-tietueissa. Myyntihinnastot ratkaisevat laskutettujen ja laskutettujen myyntityyppien arvioitujen ja todellisten tietueiden hinnan.
-- **Aikayksikkö** : Tämä on oletusaikayksikkö, jolle hinta on määritetty tähän hinnastoon liittyvässä **roolien hinta** taulukossa.
-- **Hinnastokohde** : Tämä piilotettu kenttä on Project Operationsin tehtävänä erottaa tarjous- tai sopimuskohtaiset hinnastot tavallisista ja maailmanlaajuisesti sovellettavista hinnoista.
+- **Konteksti**: Tässä kentässä on tuetut arvot, **kulut** ja **myynti**. Arvoa **Osto** ei tueta. Voit määrittää **Kulun** tehdäksesi kustannushinnaston tai määrittää kontekstin myyntihinnaston **myyntiä** varten. Kustannushinnastot ratkaisevat kustannustyypin hinnan arvio- ja toteutuneet-tietueissa. Myyntihinnastot ratkaisevat laskutettujen ja laskutettujen myyntityyppien arvioitujen ja todellisten tietueiden hinnan.
+- **Aikayksikkö**: Tämä on oletusaikayksikkö, jolle hinta on määritetty tähän hinnastoon liittyvässä **roolien hinta** taulukossa.
+- **Hinnastokohde**: Tämä piilotettu kenttä on Project Operationsin tehtävänä erottaa tarjous- tai sopimuskohtaiset hinnastot tavallisista ja maailmanlaajuisesti sovellettavista hinnoista.
 
 ## <a name="price-list-header"></a>Hinnaston otsikko
 
-Seuraavassa taulukossa on esitetty niiden hinnastojen **yleiset** -välilehden kentät, jotka ovat yksilöllisiä Project Operationsille tai joilla on merkittäviä muutoksia myyntihinnastoissa.
+Seuraavassa taulukossa on esitetty niiden hinnastojen **yleiset**-välilehden kentät, jotka ovat yksilöllisiä Project Operationsille tai joilla on merkittäviä muutoksia myyntihinnastoissa.
 
-| Field | Sijainti | Relevanssi, tarkoitus ja opastus | Loppupään vaikutus |
+| Field | Sijainti | Kuvaus | Loppupään vaikutus |
 | --- | --- | --- | --- |
-| Nimi | **Yleiset** -välilehti ja **pikaluonti** -lomakkeet | Hinnaston käyttäjätunnus. | Hinnasto näyttää tämän arvon kaikilla luettelosivuilla ja avattavan luettelon vaihtoehdoissa.|
-| Konteksti | **Yleiset** -välilehti ja **pikaluonti** -lomakkeet | Tämän kentän arvoksi voidaan määrittää **kustannus** tai **myynti**. | Hinnastoa, jonka arvoksi on määritetty **kustannus** , käytetään kustannusarvioiden ja kustannusten todellisten arvojen hinnan etsimistä varten. Hinnastoa, jonka arvoksi on määritetty **Myynti** , käytetään myyntiarvioiden ja myynnin todellisten arvojen hinnan etsimistä varten. Vain hinnastot, joiden kontekstiksi on määritetty **myynti** , voidaan liittää projektin hinnastoihin asiakkaille, projektitarjouksille tai projektisopimuksille. |
-| Aloituspäivämäärä | **Yleiset** -välilehti ja **pikaluonti** -lomakkeet | Sen kauden alkamispäivä, jona hinnasto on voimassa. | **Päättymispäivä** -kentän kanssa tämän kentän avulla määritetään, mitä hinnastoa käytetään tiettyyn arvioon tai todelliseen riviin. |
-| Päättymispäivämäärä | **Yleiset** -välilehti ja **pikaluonti** -lomakkeet | Sen kauden loppumispäivä, jona hinnasto on voimassa. | **Alkamispäivä** -kentän kanssa tämän kentän avulla määritetään, mitä hinnastoa käytetään tiettyyn arvioon tai todelliseen riviin. |
-| Valuutta | **Yleiset** -välilehti ja **pikaluonti** -lomakkeet | Tämän kentän avulla määritetään oletusvaluutta kullekin tähän hinnastoon liittyvälle roolille, luokalle tai hinnaston nimikeriville. | **Myynti** -hinnastoja, rooleja, luokkia tai hinnaston nimikerivejä ei voi luoda mihinkään muuhun valuuttaan kuin tähän valuuttaan. **Kustannus** -hinnastoissa voit luoda roolihintarivin mihin tahansa valuuttaan. Tässä määritettyä valuuttaa käytetään oletusarvona. Käyttäjäasetukset, jotka liittyvät roolien hintoihin, voivat ohittaa tämän arvon ja ottaa työvoimakustannushinnan asetukset käyttöön missä tahansa valuutassa. Luokan kustannushinnat ja hinnaston nimikekustannukset voidaan määrittää vain tässä määritetyssä valuutassa. |
-| Aikayksikkö | **Yleiset** -välilehti ja **pikaluonti** -lomakkeet | Tämän kentän avulla määritetään oletusaikayksikkö kullekin tähän hinnastoon liittyvälle roolille. | Tätä kentän arvoa käytetään vain liittyvien roolien hinta-asetuksissa. **Kustannus** - ja **Myynti** -hinnastoissa voit luoda roolihintarivin mihin tahansa aikayksikköön. Tässä määritettyä aikayksikköä käytetään oletusarvona. Käyttäjäasetuksiin liittyvät roolihinnat voivat ohittaa tämän arvon, jotta työvoimakustannukset ja laskukurssi voidaan määrittää millä tahansa aikayksiköllä. |
-| Kuvaus | **Yleiset** -välilehti ja **pikaluonti** -lomakkeet | Tämän tekstikentän avulla voit antaa hinnaston monirivisen kuvauksen. | Tämä kenttä näkyy hinnastossa **liittyvissä** näkymissä eri kohteissa, joissa on toisiinsa liittyviä hinnastoja. |
+| Nimi | **Yleiset**-välilehti ja **pikaluonti**-lomakkeet | Hinnaston käyttäjätunnus. | Hinnasto näyttää tämän arvon kaikilla luettelosivuilla ja avattavan luettelon vaihtoehdoissa.|
+| Konteksti | **Yleiset**-välilehti ja **pikaluonti**-lomakkeet | Tämän kentän arvoksi voidaan määrittää **kustannus** tai **myynti**. | Hinnastoa, jonka arvoksi on määritetty **kustannus**, käytetään kustannusarvioiden ja kustannusten todellisten arvojen hinnan etsimistä varten. Hinnastoa, jonka arvoksi on määritetty **Myynti**, käytetään myyntiarvioiden ja myynnin todellisten arvojen hinnan etsimistä varten. Vain hinnastot, joiden kontekstiksi on määritetty **myynti**, voidaan liittää projektin hinnastoihin asiakkaille, projektitarjouksille tai projektisopimuksille. |
+| Aloituspäivämäärä | **Yleiset**-välilehti ja **pikaluonti**-lomakkeet | Sen kauden alkamispäivä, jona hinnasto on voimassa. | **Päättymispäivä**-kentän kanssa tämän kentän avulla määritetään, mitä hinnastoa käytetään tiettyyn arvioon tai todelliseen riviin. |
+| Päättymispäivämäärä | **Yleiset**-välilehti ja **pikaluonti**-lomakkeet | Sen kauden loppumispäivä, jona hinnasto on voimassa. | **Alkamispäivä**-kentän kanssa tämän kentän avulla määritetään, mitä hinnastoa käytetään tiettyyn arvioon tai todelliseen riviin. |
+| Valuutta | **Yleiset**-välilehti ja **pikaluonti**-lomakkeet | Tämän kentän avulla määritetään oletusvaluutta kullekin tähän hinnastoon liittyvälle roolille, luokalle tai hinnaston nimikeriville. | **Myynti**-hinnastoja, rooleja, luokkia tai hinnaston nimikerivejä ei voi luoda mihinkään muuhun valuuttaan kuin tähän valuuttaan. **Kustannus**-hinnastoissa voit luoda roolihintarivin mihin tahansa valuuttaan. Tässä määritettyä valuuttaa käytetään oletusarvona. Käyttäjäasetukset, jotka liittyvät roolien hintoihin, voivat ohittaa tämän arvon ja ottaa työvoimakustannushinnan asetukset käyttöön missä tahansa valuutassa. Luokan kustannushinnat ja hinnaston nimikekustannukset voidaan määrittää vain tässä määritetyssä valuutassa. |
+| Aikayksikkö | **Yleiset**-välilehti ja **pikaluonti**-lomakkeet | Tämän kentän avulla määritetään oletusaikayksikkö kullekin tähän hinnastoon liittyvälle roolille. | Tätä kentän arvoa käytetään vain liittyvien roolien hinta-asetuksissa. **Kustannus**- ja **Myynti**-hinnastoissa voit luoda roolihintarivin mihin tahansa aikayksikköön. Tässä määritettyä aikayksikköä käytetään oletusarvona. Käyttäjäasetuksiin liittyvät roolihinnat voivat ohittaa tämän arvon, jotta työvoimakustannukset ja laskukurssi voidaan määrittää millä tahansa aikayksiköllä. |
+| Kuvaus | **Yleiset**-välilehti ja **pikaluonti**-lomakkeet | Tämän tekstikentän avulla voit antaa hinnaston monirivisen kuvauksen. | Tämä kenttä näkyy hinnastossa **liittyvissä** näkymissä eri kohteissa, joissa on toisiinsa liittyviä hinnastoja. |

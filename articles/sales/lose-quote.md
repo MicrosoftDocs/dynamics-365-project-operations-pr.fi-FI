@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075225"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181808"
 ---
 # <a name="copy-project-based-quotes"></a>Projektipohjaisten tarjousten kopiointi
 
@@ -21,21 +21,21 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 Voit helposti luoda uuden projektitarjouksen kopioimalla aiemmin luodun tarjouksen. 
 
-- Jos haluat kopioida projektitarjouksen valitsemalla **Projektitarjoukset** -luettelosivulla tai **Projektitarjous** -tietosivulla kopioitava projektitarjous ja valitse sitten **Kopioi**.
+- Jos haluat kopioida projektitarjouksen valitsemalla **Projektitarjoukset**-luettelosivulla tai **Projektitarjous**-tietosivulla kopioitava projektitarjous ja valitse sitten **Kopioi**.
 
 Tämä avaa valintaikkunasivun, johon voit kirjoittaa kopion parametrit. Seuraavassa taulukossa on luettelo valintaikkunasivun kentistä. Kopiointiprosessi voi muuttua valittujen arvojen mukaan.
 
-| **Kenttä** | **Relevanssi, tarkoitus ja opastus** | **Loppupään vaikutus** |
+| **Kenttä** | **Kuvaus** | **Loppupään vaikutus** |
 | --- | --- | --- |
 | Aihe | Kirjoita kohdetarjouksen asiaankuuluva aihe tai nimi. Kun valintaikkuna avautuu, järjestelmä määrittää arvoksi sen lähdetarjouksen aiheen, johon lisätty teksti **kopio**. | |
 | Mahdollinen asiakas | Viittaus asiakkaan yritykseen tai asiakastietueeseen. Kun valintaikkuna avautuu, järjestelmä määrittää arvoksi lähdetarjouksen tilin. | Tämä kenttä on tarjouksen ensisijainen asiakas. |
 | Sopimusyksikkö | Organisaatioyksikkö, joka on vastuussa tähän sopimukseen liittyvien projektien toimituksesta.
 Kun valintaikkuna avautuu, järjestelmä määrittää arvoksi lähdetarjouksen sopimusyksikön. | Sopimusyksikkö on sen yrityksen osasto, joka suorittaa projektit, kun sopimus on tehty. Jokaisella sopimusyksiköllä on valuutta. Tätä valuuttaa käytetään projektin toteutuksen aikana arvioitujen ja todellisten kustannusten raportoimiseen. |
-| Valuutta | Tämä on se valuutta, jota sovelletaan sopimuksen tapahtumiin. Kun valintaikkuna avautuu, järjestelmä määrittää arvoksi lähdetarjouksen valuutan. Tätä voidaan muokata, ja jos se on muuttunut, **Kopioi hinnoittelu** -kentän arvo on aina **Ei**. Syynä tähän on se, että lähdetarjouksen hinnastot eivät ole enää voimassa. | Valuuttaa käytetään oletushinnaston määrittämiseen, tarjouksen kustannusarvion rakentamiseen ja lopuksi asiakkaan laskutukseen, kun kauppa on voitettu. |
+| Valuutta | Tämä on se valuutta, jota sovelletaan sopimuksen tapahtumiin. Kun valintaikkuna avautuu, järjestelmä määrittää arvoksi lähdetarjouksen valuutan. Tätä voidaan muokata, ja jos se on muuttunut, **Kopioi hinnoittelu**-kentän arvo on aina **Ei**. Syynä tähän on se, että lähdetarjouksen hinnastot eivät ole enää voimassa. | Valuuttaa käytetään oletushinnaston määrittämiseen, tarjouksen kustannusarvion rakentamiseen ja lopuksi asiakkaan laskutukseen, kun kauppa on voitettu. |
 | Pyydetty toimituspäivä | Tämä on asiakkaan pyytämä toimituspäivä. | Tätä käytetään päättymispäivänä luotaessa laskutuspäivämääriä tietyllä tiheydellä. |
-| Kopioi hinnoittelu | Kyllä/Ei-arvo osoittaa, kopioidaanko tarjouksen hinnoittelu lähdetarjouksesta. | Jos **Kyllä** on valittuna, projektihinnasto- ja tuotehinnnastoviittaukset kopioidaan lähdetarjouksesta kohdetarjoukseen. Jos on valittu **Ei** , oletushinnastoiksi määritetään perustuen uusimpiin hinnastoihin, jotka on määritetty asiakas- tai projektiparametreissa. |
+| Kopioi hinnoittelu | Kyllä/Ei-arvo osoittaa, kopioidaanko tarjouksen hinnoittelu lähdetarjouksesta. | Jos **Kyllä** on valittuna, projektihinnasto- ja tuotehinnnastoviittaukset kopioidaan lähdetarjouksesta kohdetarjoukseen. Jos on valittu **Ei**, oletushinnastoiksi määritetään perustuen uusimpiin hinnastoihin, jotka on määritetty asiakas- tai projektiparametreissa. |
 
-Kun valitset dialogisivulla **OK** , järjestelmä luo projektitarjouksesta kopion, joka perustuu dialogissa valittuihin parametreihin. Uusi projektitarjous avautuu. 
+Kun valitset dialogisivulla **OK**, järjestelmä luo projektitarjouksesta kopion, joka perustuu dialogissa valittuihin parametreihin. Uusi projektitarjous avautuu. 
 
 > [!NOTE]
 > Seuraavia tietoja ei kopioida lähdetarjouksesta kohdetarjoukseen:

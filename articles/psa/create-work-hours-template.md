@@ -3,7 +3,7 @@ title: Luo uusi työtuntimalli
 description: Työtuntimallin luominen Project Servicessä
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075358"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133049"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Luo työtuntimalli (Project Service)
 
@@ -45,11 +45,11 @@ Ennen kuin voit luoda projektiaikataulun, sinun pitää määrittää projektika
   
 2.  Valitse haluamasi resurssi, jota käytetään työaikasi pohjana.  
   
-3.  Valitse **Tallenna kalenteri nimellä** , anna työtuntimallille nimi ja valitse sitten **Tallenna**.  
+3.  Valitse **Tallenna kalenteri nimellä**, anna työtuntimallille nimi ja valitse sitten **Tallenna**.  
   
 4.  Kun asetusten muutos on valmis, valitse **Tallenna ja sulje**.  
   
-5.  Napsauta näytön oikeassa alakulmassa olevaa **Tallenna** -painiketta.  
+5.  Napsauta näytön oikeassa alakulmassa olevaa **Tallenna**-painiketta.  
   
 #### <a name="to-create-a-new-work-hours-template"></a>Uuden työtuntimallin luominen  
   

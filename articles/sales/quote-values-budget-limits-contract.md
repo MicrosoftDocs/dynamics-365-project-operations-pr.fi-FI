@@ -1,21 +1,21 @@
 ---
-title: Projektitarjouksen yhteenvetotiedot
+title: Projektitarjouksen asetukset
 description: Tässä aiheessa on tietoja projektitarjouksiin vaikuttavista tiedoista ja asetuksista.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075194"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180233"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Projektitarjouksen yhteenvetotiedot
+# <a name="project-quote-settings"></a>Projektitarjouksen asetukset
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
@@ -24,7 +24,7 @@ Tässä artikkelissa selitetään projektitarjousta koskevat tiedot. Tämä sis�
 
 Seuraavassa taulukossa on esitetty projektitarjouksen yhteenvedon tietokentät, jotka löytyvät vain Dynamics 365 Project Operationsista tai joissa on merkittäviä muutoksia verrattuna Dynamics 365 Salesiin.
 
-| **Kenttä** | **Sijainti** | **Relevanssi, tarkoitus ja opastus** | **Loppupään vaikutus** |
+| **Kenttä** | **Sijainti** | **Kuvaus** | **Loppupään vaikutus** |
 | --- | --- | --- | --- |
 | Laji | Yhteenveto-välilehti (piilotettu) | Tässä asetusjoukkokentässä on seuraavat vaihtoehdot:</br>– Työperusteinen (käytettävissä vain, kun Project Operations on asennettu)</br>– Nimikepohjainen (käytettävissä vain, kun Project Operations ja Sales on asennettu)</br>– Palvelun ylläpitoon perustuva (käytettävissä, kun Dynamics 365 Field Service on asennettu) | Kun käytät Project Operations -sovellusta, tämän kentän arvoksi määritetään automaattisesti **Työperusteinen**. Tämä luokittelee tarjouksen projektipohjaksi tarjoukseksi. Tarjouksen on oltava projektipohjainen, jotta kaikki projektikohtaiset laajennukset ja toiminnot voidaan ottaa käyttöön. |
 | Omistava yritys | Yhteenveto | Oikeushenkilö, joka vastaa tähän tarjoukseen liittyvän projektin / liittyvien projektien kertyvistä kustannuksista ja tuotosta. Kun mahdollisuudesta luodaan tarjous, tämä kenttä kopioidaan mahdollisuuden vastaavasta kentästä. | Omistava yritys vastaa oikeushenkilön käsitettä Project Operationsin **Projektinhallintaja kirjanpito** -moduulissa. Kaikki tästä projektista kertyvät kustannukset ja tuotot kirjataan omistavan yrityksen kirjanpitoon. |
@@ -38,7 +38,7 @@ Seuraavassa taulukossa on esitetty projektitarjouksen yhteenvedon tietokentät, 
 
 Alla on projektitarjouksessa käytettävissä olevat välilehdet ja suorituskykyilmaisimet, jotka löytyvät vain Project Operationsista tai joissa on merkittäviä muutoksia verrattuna Salesin tarjouksiin:
 
-| **Kenttä** | **Sijainti** | **Relevanssi, tarkoitus ja opastus** |
+| **Kenttä** | **Sijainti** | **Kuvaus** |
 | --- | --- | --- |
 | Kannattavuusanalyysi | Tarjouksen välilehti | Välilehedessä näkyvät seuraavat mittarit:</br>– Veloitettavat kokonaiskustannukset</br></br>– Ei-veloitettavat kokonaiskustannukset</br>– Kokonaistuotto</br>– Kokonaistuotto (perusvaluutta)</br>– Käyttökate</br>– Muutettu käyttökate|
 | Vertailu asiakasodotuksiin | Tarjouksen välilehti | Tässä välilehedessä näkyvät seuraavat mittarit:</br>– Arvioitu valmistuminen</br>– Pyydetty valmistuminen</br>– Asiakasbudjetti</br>– Tarjouksen arvo |

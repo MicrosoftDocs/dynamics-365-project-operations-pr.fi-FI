@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075245"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180593"
 ---
 # <a name="set-up-labor-cost-rates"></a>Työn kustannushintojen määrittäminen
 
@@ -22,25 +22,25 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 Jokaisessa hinnastossa on joukko työvoimaprosentteja (roolihinnat), jotka vastaavat hinnaston sisältöä ja päivämäärän vaikuttavuutta.
 
-1. Luo hinnasto ja valitse **roolien hinnat** -välilehden aliruudukossa **Uusi rooli**.
+1. Luo hinnasto ja valitse **Roolin hinta** -välilehden aliruudukossa **Uusi rooli**.
 2. Valitse **pikaluontisivulla** roolit ja organisaatioyksiköt.
 3. Kirjoita tarvittavat tiedot kenttiin.
 
 Seuraavassa taulukossa on joitakin kenttiä, jotka ovat tärkeitä luotaessa työvoimahintoja kustannushinnastoon.
 
-| Field | Sijainti | Relevanssi, tarkoitus ja opastus | Loppupään vaikutus |
+| Field | Sijainti | Kuvaus | Loppupään vaikutus |
 | --- | --- | --- | --- |
-| Rooli | **Yleiset** -välilehti ja **pikaluonti** -sivut | Valitse rooli, jota kustannushinta koskee. | Saapuva arvio tai todellinen rooli sovitetaan tämän rivin kanssa roolin oletuskuluun. |
-| Resursoiva yritys | **Yleiset** -välilehti ja **pikaluonti** -sivut | Valitse oikeushenkilö, jolle rooli on määritetty. Kyseessä on esimerkiksi Fabrikam Intian kehittäjä tai Fabrikam USA:n kehittäjä. | Saapuvan arvion tai todellisen resurssien tarjoajayritys vertaa tätä riviä oletusarvoisesti roolin kuluprosenttiin. |
-| Resursointiyksikkö | **Yleiset** -välilehti ja **pikaluonti** -sivut | Valitse sen yrityksen organisaatioyksikkö tai osasto, jossa roolia käytetään. Kyseessä on esimerkiksi Fabrikam Intian Robotics Divisionin kehittäjä tai Fabrikam USA:n ohjelmisto-osaston kehittäjä. | Saapuvan arvion tai todellisen resurssien tarjoajayksikkö vertaa tätä riviä oletusarvoisesti roolin kuluprosenttiin. |
-| Hinta | **Yleiset** -välilehti ja **pikaluonti** -sivut | Määritä kustannukset roolille, resursseja tuottavalle yritykselle ja resurssiyksikköyhdistelmälle. Esimerkiksi Fabrikam Intian kehittäjä maksaa 1 000 INR tai Fabrikam USA:n kehittäjä maksaa 150 UDS. | Hinta on kustannusnopeus, joka oletusarvoisesti laskee saapuvan estimaatin tai todellisen rivin **Aika** -tapahtumaluokan yksikkökustannukset. |
-| Valuutta | **Yleiset** -välilehti ja **pikaluonti** -sivut | Oletusarvon mukaan tämä valuutta on kuluhinnaston otsikossa oleva valuutta, mutta se voidaan ohittaa. Esimerkiksi Fabrikam Intian sovelluskehittäjä maksaa 1 000 INR. Fabrikam USA:n kehittäjä maksaa 150 USD. | Tämä valuutta on oletuksena saapuvan todellisen kustannusrivin yksikköhinnassa **aika** -tapahtumaluokalle. Projektiarvion valuutta-arvo muunnetaan projektivaluutaksi ja näytetään arvion aika-vaiheittaisessa näkymässä. |
-| Yksikön aikataulutus | **Yleiset** -välilehti ja **pikaluonti** -sivut | Yksikön aikataulun oletusarvo on aika, eikä sitä voi muuttaa roolihintaentiteetissä, koska sitä käytetään ilmaisemaan hinnat yksiköiden mukaan. | Tämä ei vaikuta loppupään toimintaan. |
-| Yksikkö | **Yleiset** -välilehti ja **pikaluonti** -sivut | Oletusarvoisesti arvo tulee **Aikayksikkö** -kentästä kustannushintaluettelon otsikossa. Arvo voidaan ohittaa. Esimerkiksi Fabrikam Intian sovelluskehittäjällä on hinta, joka on 1000 INR per **Intian päivä**. Fabrikam USA:n kehittäjä maksaa 150 USD per **US:n päivä**. | Järjestelmä käyttää yksikkö- ja muunnosjärjestelmää perusyksiköissä yksikkökustannusten laskemiseksi laskemaan oletushintayksikköä kohti tulevassa arviossa tai todellisessa rivissä. Esimerkiksi arvio on 10 **Intian päivän** verran työtä kehittäjälle Intiasta, ja **Intian päiväyksikkö** määritetään 10 tunniksi. Kun arviorivi lasketaan, sovellus laskee yksikkökustannuksen arviosta seuraavasti: 1000 INR/10 tuntia = 100 INR tunnissa, joka muunnetaan USD:ksi ja näytetään yksikkökustannuksena **Projektiarviot** -sivulla. |
+| Rooli | **Yleiset**-välilehti ja **pikaluonti**-sivut | Valitse rooli, jota kustannushinta koskee. | Saapuva arvio tai todellinen rooli sovitetaan tämän rivin kanssa roolin oletuskuluun. |
+| Resursoiva yritys | **Yleiset**-välilehti ja **pikaluonti**-sivut | Valitse oikeushenkilö, jolle rooli on määritetty. Kyseessä on esimerkiksi Fabrikam Intian kehittäjä tai Fabrikam USA:n kehittäjä. | Saapuvan arvion tai todellisen resurssien tarjoajayritys vertaa tätä riviä oletusarvoisesti roolin kuluprosenttiin. |
+| Resursointiyksikkö | **Yleiset**-välilehti ja **pikaluonti**-sivut | Valitse sen yrityksen organisaatioyksikkö tai osasto, jossa roolia käytetään. Kyseessä on esimerkiksi Fabrikam Intian Robotics Divisionin kehittäjä tai Fabrikam USA:n ohjelmisto-osaston kehittäjä. | Saapuvan arvion tai todellisen resurssien tarjoajayksikkö vertaa tätä riviä oletusarvoisesti roolin kuluprosenttiin. |
+| Hinta | **Yleiset**-välilehti ja **pikaluonti**-sivut | Määritä kustannukset roolille, resursseja tuottavalle yritykselle ja resurssiyksikköyhdistelmälle. Esimerkiksi Fabrikam Intian kehittäjä maksaa 1 000 INR tai Fabrikam USA:n kehittäjä maksaa 150 UDS. | Hinta on kustannusnopeus, joka oletusarvoisesti laskee saapuvan estimaatin tai todellisen rivin **Aika**-tapahtumaluokan yksikkökustannukset. |
+| Valuutta | **Yleiset**-välilehti ja **pikaluonti**-sivut | Oletusarvon mukaan tämä valuutta on kuluhinnaston otsikossa oleva valuutta, mutta se voidaan ohittaa. Esimerkiksi Fabrikam Intian sovelluskehittäjä maksaa 1 000 INR. Fabrikam USA:n kehittäjä maksaa 150 USD. | Tämä valuutta on oletuksena saapuvan todellisen kustannusrivin yksikköhinnassa **aika**-tapahtumaluokalle. Projektiarvion valuutta-arvo muunnetaan projektivaluutaksi ja näytetään arvion aika-vaiheittaisessa näkymässä. |
+| Yksikön aikataulutus | **Yleiset**-välilehti ja **pikaluonti**-sivut | Yksikön aikataulun oletusarvo on aika, eikä sitä voi muuttaa roolihintaentiteetissä, koska sitä käytetään ilmaisemaan hinnat yksiköiden mukaan. | Tämä ei vaikuta loppupään toimintaan. |
+| Yksikkö | **Yleiset**-välilehti ja **pikaluonti**-sivut | Oletusarvoisesti arvo tulee **Aikayksikkö**-kentästä kustannushintaluettelon otsikossa. Arvo voidaan ohittaa. Esimerkiksi Fabrikam Intian sovelluskehittäjällä on hinta, joka on 1000 INR per **Intian päivä**. Fabrikam USA:n kehittäjä maksaa 150 USD per **US:n päivä**. | Järjestelmä käyttää yksikkö- ja muunnosjärjestelmää perusyksiköissä yksikkökustannusten laskemiseksi laskemaan oletushintayksikköä kohti tulevassa arviossa tai todellisessa rivissä. Esimerkiksi arvio on 10 **Intian päivän** verran työtä kehittäjälle Intiasta, ja **Intian päiväyksikkö** määritetään 10 tunniksi. Kun arviorivi lasketaan, sovellus laskee yksikkökustannuksen arviosta seuraavasti: 1000 INR/10 tuntia = 100 INR tunnissa, joka muunnetaan USD:ksi ja näytetään yksikkökustannuksena **Projektiarviot**-sivulla. |
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Siirrä hinnoittelu ja kustannukset resursseille, jotka eivät kuulu jaostoosi tai oikeushenkilöösi
 
-Projektipohjaisissa yrityksissä on tavallista käyttää projektiin eri oikeushenkilöiden tai osastojen työntekijöitä. Projektin voi toteuttaa yksi oikeushenkilö, mutta projektissa työskentelevät työntekijät tai konsultit voivat tulla samalta oikeushenkilöltä tai toiselta, tai molemmat voivat olla yhdistettyjä. Dynamics 365 Project Operationsissa oikeushenkilö, joka omistaa projektin toimituksen, kutsutaan **omistajayritykseksi** ja jaosta, joka omistaa toimituksen, kutsutaan **sopimusyksiköksi**. Muita resursseja toimittavien oikeushenkilöiden nimenä on **resursointiyritys** , ja resursseja tuottavia osastoja kutsutaan **resursointiyksiköiksi**. Useimmissa maissa yritysten on varmistettava, että resurssipäällikkö tai -osasto veloittaa omistettavaa yritystä ja hankintayksikköä resurssien käytöstä.
+Projektipohjaisissa yrityksissä on tavallista käyttää projektiin eri oikeushenkilöiden tai osastojen työntekijöitä. Projektin voi toteuttaa yksi oikeushenkilö, mutta projektissa työskentelevät työntekijät tai konsultit voivat tulla samalta oikeushenkilöltä tai toiselta, tai molemmat voivat olla yhdistettyjä. Dynamics 365 Project Operationsissa oikeushenkilö, joka omistaa projektin toimituksen, kutsutaan **omistajayritykseksi** ja jaosta, joka omistaa toimituksen, kutsutaan **sopimusyksiköksi**. Muita resursseja toimittavien oikeushenkilöiden nimenä on **resursointiyritys**, ja resursseja tuottavia osastoja kutsutaan **resursointiyksiköiksi**. Useimmissa maissa yritysten on varmistettava, että resurssipäällikkö tai -osasto veloittaa omistettavaa yritystä ja hankintayksikköä resurssien käytöstä.
 
 Esimerkiksi Fabrikam Corporationin on varmistettava, että Fabrikam Intia-Robotics on neuvotellut kustannushintakortin Fabrikam US-Roboticsin tai Fabrikam UK-Roboticsin kanssa.
 

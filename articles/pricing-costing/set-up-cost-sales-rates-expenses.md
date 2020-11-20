@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e5a2402a2c1059ff11dbe1a331a028da77958235
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075267"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180278"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Kulujen kustannus- ja myyntihintojen määrittäminen
 
@@ -24,20 +24,20 @@ Voit määrittää tapahtumaluokkien kustannus- ja myyntihinnat Dynamics 365 Pro
 Voit määrittää tapahtumaluokkien kustannukset ja myyntihinnat tekemällä seuraavat toimet. 
 
 1. Hinnaston otsikkoon perustuvan hinnaston luominen. 
-2. Valitse **luokan hinnat** -kohdan aliruudukon valikosta **+ Uusi luokkahinta**. 
+2. Valitse **Luokan hinnat** -kohdan aliruudukon valikossa **+ Uusi luokan hinta**. 
 3. Kirjoita **pikaluontisivulle** tapahtumaluokka ja yksikkö, jolle luot uuden hinnan.
 
-Seuraavassa taulukossa on lueteltu **yleiset** -välilehden kentät ja luokan hintarivin **pikaluontisivu** , joka kannattaa pitää mielessä, kun luot luokkahintoja myynti- tai kustannushinnastossa.
+Seuraavassa taulukossa on lueteltu **yleiset**-välilehden kentät ja luokan hintarivin **pikaluontisivu**, joka kannattaa pitää mielessä, kun luot luokkahintoja myynti- tai kustannushinnastossa.
 
-| Field | Sijainti | Relevanssi, tarkoitus ja opastus | Loppupään vaikutus |
+| Field | Sijainti | Kuvaus | Loppupään vaikutus |
 | --- | --- | --- | --- |
-| Tapahtumakategoria | **Yleiset** -välilehti ja **pikaluonti** -sivut | Valitse tapahtumaluokka, jolle olet luomassa myynti- tai kustannushintaa. | Saapuvan arvion tai todellisen kulun tapahtumaluokka kohdistetaan tähän riviin siten, että se määrittää oletusarvon mukaan tapahtumaluokan kustannuksen tai myyntihinnan. |
-| Yksikön aikataulutus | **Yleiset** -välilehti ja **pikaluonti** -sivut | Yksikkö aikatauluttaa oletukset tapahtumaluokan yksikköaikataulusta. | Tämä kenttä ei vaikuta loppupään prosessiin. |
-| Yksikkö | **Yleiset** -välilehti ja **pikaluonti** -sivut | Valitse yksikkö, jolle hinnat määritetään. | Saapuvan arvion tai todellisen yksikön yksikkö vastaa tällä rivillä olevaa yksikköä ja määrittää kuluarvion tai todellisen hinnan oletusarvoksi. |
-| Hinnoittelutapa | **Yleiset** -välilehti ja **pikaluonti** -sivut | **Hinnoittelutapa** -kentän mahdolliset arvot ovat **yksikköhinta** , **kustannus** ja **hinnankorotus**. | Hinnan määrittämisen aikana valitaan **yksikköhinta** , joka lukitsee **prosentti** -kentän luokan hintarivillä. Jos **kustannukset** valitaan, **hinta** - ja **prosentti** -kentät lukitaan myyntihinnastoon. Kun **hinnankorotus** on valittu se **lukitsee** myyntihinnaston hintakentän. Kun kyseessä on saapuvan postin todellinen rivi, **kustannus** tai **merkintäkustannusten** hinnoittelumenetelmä johtaa vastaavaan laskuttamattomaan myyntiriviin, jolle on määritetty hinta, joka on sama kuin hinnan todellinen hinta tai laskettu hinnan merkintänä. |
-| Hinta | **Yleiset** -välilehti ja **pikaluonti** -sivut | Määritä tapahtumaluokalle ja yksikköyhdistelmälle yksikkökohtainen hinta. Esimerkiksi matkahinta on 10 USD mailia kohti ja 8 USD kilometriä kohti. | Matkahinta on hinta, joka oletusarvona on yksikkökohtaisen hinnan tai kulutapahtumaluokan saapuvan tai todellisen rivin hinta.|
-| Prosentti | **Yleiset** -välilehti ja **pikaluonti** -sivut | Määritä prosenttiosuus kustannuksista tapahtumaluokalle ja yksiköiden yhdistelmälle. Esimerkiksi lentolippujen myyntihinnaksi on merkitty 10 prosenttia aiheutuneista kustannuksista. | Tämä prosenttiosuus kustannuksista on voimassa vain myyntihinnastoissa, kun valittu hinnoittelutapa on **Hinnankorotus hinnan yli**. |
-| Valuutta | **Yleiset** -välilehti ja **pikaluonti** -sivut | Oletusarvon mukaan tämä arvo on hinnaston otsikossa oleva valuutta. Tapahtumaluokan hinnoittelussa valuuttaa ei voi ohittaa. | Tämä valuutta on oletusarvoisesti saapuvan varsinaisen rivin yksikköhinta kustannustapahtumaluokalle kustannusten ja myynnin osalta. |
+| Tapahtumakategoria | **Yleiset**-välilehti ja **pikaluonti**-sivut | Valitse tapahtumaluokka, jolle olet luomassa myynti- tai kustannushintaa. | Saapuvan arvion tai todellisen kulun tapahtumaluokka kohdistetaan tähän riviin siten, että se määrittää oletusarvon mukaan tapahtumaluokan kustannuksen tai myyntihinnan. |
+| Yksikön aikataulutus | **Yleiset**-välilehti ja **pikaluonti**-sivut | Yksikkö aikatauluttaa oletukset tapahtumaluokan yksikköaikataulusta. | Tämä kenttä ei vaikuta loppupään prosessiin. |
+| Yksikkö | **Yleiset**-välilehti ja **pikaluonti**-sivut | Valitse yksikkö, jolle hinnat määritetään. | Saapuvan arvion tai todellisen yksikön yksikkö vastaa tällä rivillä olevaa yksikköä ja määrittää kuluarvion tai todellisen hinnan oletusarvoksi. |
+| Hinnoittelutapa | **Yleiset**-välilehti ja **pikaluonti**-sivut | **Hinnoittelutapa**-kentän mahdolliset arvot ovat **yksikköhinta**, **kustannus** ja **hinnankorotus**. | Hinnan määrittämisen aikana valitaan **yksikköhinta**, joka lukitsee **prosentti**-kentän luokan hintarivillä. Jos **kustannukset** valitaan, **hinta**- ja **prosentti**-kentät lukitaan myyntihinnastoon. Kun **hinnankorotus** on valittu se **lukitsee** myyntihinnaston hintakentän. Kun kyseessä on saapuvan postin todellinen rivi, **kustannus** tai **merkintäkustannusten** hinnoittelumenetelmä johtaa vastaavaan laskuttamattomaan myyntiriviin, jolle on määritetty hinta, joka on sama kuin hinnan todellinen hinta tai laskettu hinnan merkintänä. |
+| Hinta | **Yleiset**-välilehti ja **pikaluonti**-sivut | Määritä tapahtumaluokalle ja yksikköyhdistelmälle yksikkökohtainen hinta. Esimerkiksi matkahinta on 10 USD mailia kohti ja 8 USD kilometriä kohti. | Matkahinta on hinta, joka oletusarvona on yksikkökohtaisen hinnan tai kulutapahtumaluokan saapuvan tai todellisen rivin hinta.|
+| Prosentti | **Yleiset**-välilehti ja **pikaluonti**-sivut | Määritä prosenttiosuus kustannuksista tapahtumaluokalle ja yksiköiden yhdistelmälle. Esimerkiksi lentolippujen myyntihinnaksi on merkitty 10 prosenttia aiheutuneista kustannuksista. | Tämä prosenttiosuus kustannuksista on voimassa vain myyntihinnastoissa, kun valittu hinnoittelutapa on **Hinnankorotus hinnan yli**. |
+| Valuutta | **Yleiset**-välilehti ja **pikaluonti**-sivut | Oletusarvon mukaan tämä arvo on hinnaston otsikossa oleva valuutta. Tapahtumaluokan hinnoittelussa valuuttaa ei voi ohittaa. | Tämä valuutta on oletusarvoisesti saapuvan varsinaisen rivin yksikköhinta kustannustapahtumaluokalle kustannusten ja myynnin osalta. |
 
 ## <a name="pricing-methods-for-expenses"></a>Kulujen hinnoittelutavat
 

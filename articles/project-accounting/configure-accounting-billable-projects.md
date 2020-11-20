@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075262"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131969"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Laskutettavien projektien kirjanpidon määrittäminen
 
@@ -21,8 +21,8 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 Dynamics 365 Project Operations tukee erilaisia laskutusprojektien kirjanpitovaihtoehtoja, jotka sisältävät aika- ja materiaali sekä kiinteähintaisia tapahtumia.
 
-- **Aika- ja materiaalitapahtumat** : Nämä tapahtumat laskutetaan työn edetessä projektin tuntien, kulujen, nimikkeiden tai maksujen perusteella. Nämä tapahtumakustannukset voidaan täsmätä kunkin tapahtuman tuoton kanssa, ja projekti laskutetaan työn edetessä. Projektin tuottoa voidaan myös jaksottaa tapahtumahetkellä. Laskutuksen aikana tuotto kirjataan ja mahdollinen jaksotettu tuotto palautetaan.
-- **Kiinteähintaiset tapahtumat** : Nämä tapahtumat laskutetaan projektisopimukseen perustuvan laskutusaikataulun mukaan. Kiinteähintaisten tapahtumien tuotto voidaan kirjata laskutuksessa, tai se voidaan laskea ja kirjata jaksoittain **valmiin sopimuksen** tai **valmistumisprosentin** mukaan.
+- **Aika- ja materiaalitapahtumat**: Nämä tapahtumat laskutetaan työn edetessä projektin tuntien, kulujen, nimikkeiden tai maksujen perusteella. Nämä tapahtumakustannukset voidaan täsmätä kunkin tapahtuman tuoton kanssa, ja projekti laskutetaan työn edetessä. Projektin tuottoa voidaan myös jaksottaa tapahtumahetkellä. Laskutuksen aikana tuotto kirjataan ja mahdollinen jaksotettu tuotto palautetaan.
+- **Kiinteähintaiset tapahtumat**: Nämä tapahtumat laskutetaan projektisopimukseen perustuvan laskutusaikataulun mukaan. Kiinteähintaisten tapahtumien tuotto voidaan kirjata laskutuksessa, tai se voidaan laskea ja kirjata jaksoittain **valmiin sopimuksen** tai **valmistumisprosentin** mukaan.
 
 Projektia pidetään laskutettavana, kun se liittyy yhteen tai useampaan sopimusriviin. Projektin sopimusrivi määrittää itse, mitä laskutustapoja ja tapahtumatyyppejä sallitaan.
 
@@ -41,51 +41,51 @@ Projektin kustannus- ja tuottoprofiileissa määritetään projektitapahtumien k
 Luo uusi projektin kustannus- ja tuottoprofiili tekemällä seuraavat toimet. 
 
 1. Siirry kohtaan **Projektinhallinta ja kirjanpito** > **Asetukset** > **Kirjaaminen** > **Projektin kustannus- ja tuottoprofiilit**. 
-2. Valitse **Uusi** , jos haluat luoda uuden projektin kustannus- ja tuottoprofiilin.
-3. Kirjoita **Nimi** -kenttään profiilin nimi ja lyhyt kuvaus.
-4. Valitse **Laskutustapa** -kentässä **Aika ja materiaali** tai **Kiinteä hinta**.
-5. Laajenna **Kirjanpito** -pikavälilehti. Tämän välilehden kentissä määritetään kirjanpitoperiaatteet, joita käytetään, kun projektitapahtumia kirjataan käyttämällä Project Operationsin integrointikirjauskansiota ja laskutetaan sitten kohdassa Projektin laskuehdotus.
-6. Valitse asianmukaiset tiedot seuraaviin kenttiin **Kirjanpito** -pikavälilehdessä:
+2. Valitse **Uusi**, jos haluat luoda uuden projektin kustannus- ja tuottoprofiilin.
+3. Kirjoita **Nimi**-kenttään profiilin nimi ja lyhyt kuvaus.
+4. Valitse **Laskutustapa**-kentässä **Aika ja materiaali** tai **Kiinteä hinta**.
+5. Laajenna **Kirjanpito**-pikavälilehti. Tämän välilehden kentissä määritetään kirjanpitoperiaatteet, joita käytetään, kun projektitapahtumia kirjataan käyttämällä Project Operationsin integrointikirjauskansiota ja laskutetaan sitten kohdassa Projektin laskuehdotus.
+6. Valitse asianmukaiset tiedot seuraaviin kenttiin **Kirjanpito**-pikavälilehdessä:
 
-    - **Kulujen kirjaaminen – tunti** :
+    - **Kulujen kirjaaminen – tunti**:
 
-       - *Ei kirjanpitoon* : aikatapahtumien kustannusta ei kirjata kirjanpitoon, kun Project Operationsin integrointikirjauskansioon kirjataan. Kirjanpitäjä voi kuitenkin kirjata kustannukset käyttämällä Kirjaa kustannukset -toimintoa myöhemmin.
-       - **Saldo** : Aikatapahtumien kustannukset veloitetaan Kirjanpito-tilityypin, *KET – kustannusarvo* -tilille ja hyvitetään *Palkanlaskennan kohdistustilille* kirjanpidon kirjausasetuksissa. Kirjanpitäjä käyttää Kirjaa kustannukset -toimintoa, jotta tämä kustannus voidaan siirtää saldotililtä Voitto ja tappio -tilille säännöllisin väliajoin.
-       - **Voitto ja tappio** : Kun Project Operations integrointikirjauskansio kirjataan, aikatapahtuman kustannus veloitetaan kirjanpitotilityyppiin *Kustannus* ja hyvitetään *Palkanlaskennan kohdistustilille* , joka on määritetty **Kirjanpidon kirjausasetukset** -sivun ( **Projektinhallinta ja kirjanpito** \> **Asetukset** \> **Kirjaaminen** \> **Kirjanpidon kirjausasetukset** ) **Kustannukset** -välilehdessä. Tämä on yleisin aika- ja materiaalitapahtumien määritys.
-        - *Ei koskaan kirjanpitoon* : Aikatapahtumien kustannusta ei koskaan kirjata kirjanpitoon.
+       - *Ei kirjanpitoon*: aikatapahtumien kustannusta ei kirjata kirjanpitoon, kun Project Operationsin integrointikirjauskansioon kirjataan. Kirjanpitäjä voi kuitenkin kirjata kustannukset käyttämällä Kirjaa kustannukset -toimintoa myöhemmin.
+       - **Saldo**: Aikatapahtumien kustannukset veloitetaan Kirjanpito-tilityypin, *KET – kustannusarvo* -tilille ja hyvitetään *Palkanlaskennan kohdistustilille* kirjanpidon kirjausasetuksissa. Kirjanpitäjä käyttää Kirjaa kustannukset -toimintoa, jotta tämä kustannus voidaan siirtää saldotililtä Voitto ja tappio -tilille säännöllisin väliajoin.
+       - **Voitto ja tappio**: Kun Project Operations integrointikirjauskansio kirjataan, aikatapahtuman kustannus veloitetaan kirjanpitotilityyppiin *Kustannus* ja hyvitetään *Palkanlaskennan kohdistustilille*, joka on määritetty **Kirjanpidon kirjausasetukset**-sivun (**Projektinhallinta ja kirjanpito** \> **Asetukset** \> **Kirjaaminen** \> **Kirjanpidon kirjausasetukset**) **Kustannukset**-välilehdessä. Tämä on yleisin aika- ja materiaalitapahtumien määritys.
+        - *Ei koskaan kirjanpitoon*: Aikatapahtumien kustannusta ei koskaan kirjata kirjanpitoon.
 
-    - **Kirjaa kustannukset – kulu** :
+    - **Kirjaa kustannukset – kulu**:
 
-         - **Saldo** : Kun Project Operationsin integrointikirjauskansiota kirjataan, kulutapahtuman kustannus veloitetaan **Kirjanpidon kirjausasetukset** -sivun **Kustannus** -välilehdessä määritetyltä kirjanpidon tilityypistä *KET – kustannusarvo* ja hyvitetään kirjauskansiorivin vastatilille. Kulun oletusvastatilit määritetään kohdassa **Projektinhallinta ja kirjanpito** > **Asetukset** \> **Kirjaaminen** \> **Kulujen oletusvastatili**. Kirjanpitäjä käyttää **Kirjaa kustannukset** -toimintoa, jotta tämä kustannus voidaan siirtää saldotililtä Voitto ja tappio -tilille säännöllisin väliajoin.
-        - **Voitto ja tappio** : Kun Project Operationsin integrointikirjauskansiota kirjataan, kulutapahtuman kustannus veloitetaan **Kirjanpidon kirjausasetukset** -sivun **Kustannus** -välilehdessä määritetyltä kirjanpidon tilityypistä *Kustannus* ja hyvitetään kirjauskansiorivin vastatilille. Kulun oletusvastatilit määritetään kohdassa **Projektinhallinta ja kirjanpito** \> **Asetukset** \> **Kirjaaminen** \> **Kulujen oletusvastatili**.
+         - **Saldo**: Kun Project Operationsin integrointikirjauskansiota kirjataan, kulutapahtuman kustannus veloitetaan **Kirjanpidon kirjausasetukset** -sivun **Kustannus**-välilehdessä määritetyltä kirjanpidon tilityypistä *KET – kustannusarvo* ja hyvitetään kirjauskansiorivin vastatilille. Kulun oletusvastatilit määritetään kohdassa **Projektinhallinta ja kirjanpito** > **Asetukset** \> **Kirjaaminen** \> **Kulujen oletusvastatili**. Kirjanpitäjä käyttää **Kirjaa kustannukset** -toimintoa, jotta tämä kustannus voidaan siirtää saldotililtä Voitto ja tappio -tilille säännöllisin väliajoin.
+        - **Voitto ja tappio**: Kun Project Operationsin integrointikirjauskansiota kirjataan, kulutapahtuman kustannus veloitetaan **Kirjanpidon kirjausasetukset** -sivun **Kustannus**-välilehdessä määritetyltä kirjanpidon tilityypistä *Kustannus* ja hyvitetään kirjauskansiorivin vastatilille. Kulun oletusvastatilit määritetään kohdassa **Projektinhallinta ja kirjanpito** \> **Asetukset** \> **Kirjaaminen** \> **Kulujen oletusvastatili**.
        
-    - **Tilillä-laskutus** :
+    - **Tilillä-laskutus**:
 
-        - **Saldo** : Kun kirjaat projektin laskuehdotuksen, tilillä-tapahtuma (laskutuksen välitavoite) hyvitetään **Kirjanpidon kirjausasetukset** -sivun **Tuotto** -välilehdessä määritettyyn kirjanpidon tilityyppiin *Laskutettu KET – tilillä* ja veloitetaan asiakkaan saldotililtä.
-         - **Voitto ja tappio** : Kun kirjaat projektin laskuehdotuksen, tilillä-tapahtuma (laskutuksen välitavoite) hyvitetään **Kirjanpidon kirjausasetukset** -sivun **Tuotto** -välilehdessä määritettyyn kirjanpidon tilityyppiin *Laskutettu tuotto – tilillä* ja veloitetaan asiakkaan saldotililtä. Asiakkaan saldotilit määritetään kohdassa **Myyntireskontra** \> **Asetukset** \> **Asiakkaan kirjausprofiilit**.
+        - **Saldo**: Kun kirjaat projektin laskuehdotuksen, tilillä-tapahtuma (laskutuksen välitavoite) hyvitetään **Kirjanpidon kirjausasetukset** -sivun **Tuotto**-välilehdessä määritettyyn kirjanpidon tilityyppiin *Laskutettu KET – tilillä* ja veloitetaan asiakkaan saldotililtä.
+         - **Voitto ja tappio**: Kun kirjaat projektin laskuehdotuksen, tilillä-tapahtuma (laskutuksen välitavoite) hyvitetään **Kirjanpidon kirjausasetukset** -sivun **Tuotto**-välilehdessä määritettyyn kirjanpidon tilityyppiin *Laskutettu tuotto – tilillä* ja veloitetaan asiakkaan saldotililtä. Asiakkaan saldotilit määritetään kohdassa **Myyntireskontra** \> **Asetukset** \> **Asiakkaan kirjausprofiilit**.
 
-   Kun määrität aika- ja materiaalilaskutusmenetelmien kirjausprofiilit, voit jaksottaa tuoton tapahtumatyypin (tunti, kulu ja maksu) mukaan. Jos **Jaksota tuotto** -asetukseksi on määritetty **Kyllä** , laskuttamattomat myyntitapahtumat Project Operationsin integrointikirjauskansiossa kirjataan pääkirjaan. Myyntiarvo veloitetaan **KET – myyntiarvotililtä** ja hyvitetään **Kirjanpidon kirjausasetukset** - sivun **Tuotto** -välilehdessä määritetylle **Jaksotettu tuotto – myyntiarvo** -tilille. 
+   Kun määrität aika- ja materiaalilaskutusmenetelmien kirjausprofiilit, voit jaksottaa tuoton tapahtumatyypin (tunti, kulu ja maksu) mukaan. Jos **Jaksota tuotto** -asetukseksi on määritetty **Kyllä**, laskuttamattomat myyntitapahtumat Project Operationsin integrointikirjauskansiossa kirjataan pääkirjaan. Myyntiarvo veloitetaan **KET – myyntiarvotililtä** ja hyvitetään **Kirjanpidon kirjausasetukset** - sivun **Tuotto**-välilehdessä määritetylle **Jaksotettu tuotto – myyntiarvo** -tilille. 
   
   > [!NOTE]
   > Vaihtoehto **Jaksota tuotto** on käytettävissä vain silloin, kun vastaavan tapahtumatyypin **Kustannus** kirjataan tulostilille.
     
-7. Laajenna **Arvio** -pikavälilehti. Tämän välilehden kentissä määritetään kiinteähintaisten tuottojen arvioiden laskenta-asetukset. Tämän välilehden kentät koskevat vain projektin kustannus- ja tuottoprofiileita, joiden laskutusmenetelmä on **Kiinteähintainen**.
-8. Valitse asianmukaiset tiedot seuraaviin kenttiin **Arvio** -pikavälilehdessä:
+7. Laajenna **Arvio**-pikavälilehti. Tämän välilehden kentissä määritetään kiinteähintaisten tuottojen arvioiden laskenta-asetukset. Tämän välilehden kentät koskevat vain projektin kustannus- ja tuottoprofiileita, joiden laskutusmenetelmä on **Kiinteähintainen**.
+8. Valitse asianmukaiset tiedot seuraaviin kenttiin **Arvio**-pikavälilehdessä:
 
-    - **Projektin valmistumislaskelmissa käytettävä periaate** :
+    - **Projektin valmistumislaskelmissa käytettävä periaate**:
 
-        - **Valmis sopimus** : Kustannusten vastaavuutta ja tuoton kirjausta ei tapahdu ennen projektin loppua. Kustannukset kuvastavat KET-töitä saldossa, kunnes projekti on valmis.
-        - **Valmistumisprosentti** : Jaksotettu tuotto lasketaan ja kirjataan kirjanpitoon joka jaksossa projektin valmistumisprosentin perusteella. Valmistumisprosentin laskemiseksi on käytettävissä useita menetelmiä. Nämä menetelmät voidaan määrittää automaattisesti määritysten perusteella tai manuaalisesti.
-        - **Ei KET-töitä** : Tätä asetusta käytetään kiinteähintaisissa projekteissa, joiden aikaväli on lyhyt ja joissa lasku ja kustannukset tapahtuvat samana ajanjaksona. Tässä tapauksessa **Kirjanpito** -pikavälilehden **Tilillä-laskutus** -kentän arvoksi määritetään automaattisesti **Voitto ja tappio** , jotta varmistetaan tuoton kirjaaminen laskutuksessa. Tuoton arviointiprosessia ei käytetä tässä projektin kustannus- ja tuottoprofiilissa.
+        - **Valmis sopimus**: Kustannusten vastaavuutta ja tuoton kirjausta ei tapahdu ennen projektin loppua. Kustannukset kuvastavat KET-töitä saldossa, kunnes projekti on valmis.
+        - **Valmistumisprosentti**: Jaksotettu tuotto lasketaan ja kirjataan kirjanpitoon joka jaksossa projektin valmistumisprosentin perusteella. Valmistumisprosentin laskemiseksi on käytettävissä useita menetelmiä. Nämä menetelmät voidaan määrittää automaattisesti määritysten perusteella tai manuaalisesti.
+        - **Ei KET-töitä**: Tätä asetusta käytetään kiinteähintaisissa projekteissa, joiden aikaväli on lyhyt ja joissa lasku ja kustannukset tapahtuvat samana ajanjaksona. Tässä tapauksessa **Kirjanpito**-pikavälilehden **Tilillä-laskutus**-kentän arvoksi määritetään automaattisesti **Voitto ja tappio**, jotta varmistetaan tuoton kirjaaminen laskutuksessa. Tuoton arviointiprosessia ei käytetä tässä projektin kustannus- ja tuottoprofiilissa.
 
-    - **Täsmäytysperiaate** : Tässä kentässä määritetään, miten laskettu myyntiarvo (jaksotettu tuotto) kirjataan kirjanpitoon.
+    - **Täsmäytysperiaate**: Tässä kentässä määritetään, miten laskettu myyntiarvo (jaksotettu tuotto) kirjataan kirjanpitoon.
 
-        - Kun **Myyntiarvo** -periaatetta käytetään, järjestelmä laskee myyntiarvon täsmäyttämällä kustannukset ja tuoton ja kirjaamalla sen sitten yhtenä summana.
+        - Kun **Myyntiarvo**-periaatetta käytetään, järjestelmä laskee myyntiarvon täsmäyttämällä kustannukset ja tuoton ja kirjaamalla sen sitten yhtenä summana.
         - **Tuotanto ja tuotto** -periaatteen avulla järjestelmä jakaa myyntiarvon toteutuneille kustannuksille ja lasketulle tuotolle. Nämä kirjataan erikseen.
 
-    - **Kustannusmallit** : Salli projektitapahtumien ryhmittely tapahtumatyypin ja projektiluokan perusteella ja määritä näiden ryhmien valmistumisprosentin laskentasäännöt.
-    - **Jaksokoodit** : Määritä, miten usein tuottoarviot lasketaan tietylle projektin kustannus- ja tuottoprofiilille.
-    - **Arvioluokat** : Käytetään myyntiarvon (jaksotetun tuoton) kirjaamiseen projektitapahtumiin. Määritä ensin **Maksu** -tapahtumatyypille oma projektiluokka ja määritä sitten lmerkintä **Arvio** tälle projektiluokalle. Valitse seuraavaksi valitun täsmäytysperiaatteen mukaan tämä projektiluokka **Myyntiarvo** - tai **Tuotto** kentästä projektin kustannus- ja tuottoprofiilissa.
+    - **Kustannusmallit**: Salli projektitapahtumien ryhmittely tapahtumatyypin ja projektiluokan perusteella ja määritä näiden ryhmien valmistumisprosentin laskentasäännöt.
+    - **Jaksokoodit**: Määritä, miten usein tuottoarviot lasketaan tietylle projektin kustannus- ja tuottoprofiilille.
+    - **Arvioluokat**: Käytetään myyntiarvon (jaksotetun tuoton) kirjaamiseen projektitapahtumiin. Määritä ensin **Maksu**-tapahtumatyypille oma projektiluokka ja määritä sitten lmerkintä **Arvio** tälle projektiluokalle. Valitse seuraavaksi valitun täsmäytysperiaatteen mukaan tämä projektiluokka **Myyntiarvo**- tai **Tuotto** kentästä projektin kustannus- ja tuottoprofiilissa.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Projektin kustannus- ja tuottoprofiilien näytekokoonpanot
 

@@ -1,21 +1,21 @@
 ---
-title: Projektitarjouksen keskeiset käsitteet
+title: Tarjouksen keskeiset käsitteet – lite
 description: Tämä aihe tarjoaa tietoja Project Operationsin projektitarjousten käyttämisestä.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075272"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178002"
 ---
-# <a name="project-quote-key-concepts"></a>Projektitarjouksen keskeiset käsitteet
+# <a name="quotes---key-concepts---lite"></a>Tarjouksen keskeiset käsitteet – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
@@ -28,7 +28,7 @@ Sopimusyksikkö tarkoittaa divisioonaa tai käytäntöä, joka omistaa projektit
 
 ## <a name="cost-currency"></a>Kustannuksen valuutta
 
-Kustannusvaluutta Project Operationsissa on se valuutta, jossa kustannukset raportoidaan. Tämä valuutta johdetaan tarjouksen, palvelusopimuksen ja projektin **Sopimusyksikkö** -kenttään liitetystä valuutasta. Kustannukset voidaan kirjata mihin tahansa valuuttaan projektissa. Valuutan muunnon valuuttakustannukset on kuitenkin kirjattu projektin kustannusvaluuttaan.
+Kustannusvaluutta Project Operationsissa on se valuutta, jossa kustannukset raportoidaan. Tämä valuutta johdetaan tarjouksen, palvelusopimuksen ja projektin **Sopimusyksikkö**-kenttään liitetystä valuutasta. Kustannukset voidaan kirjata mihin tahansa valuuttaan projektissa. Valuutan muunnon valuuttakustannukset on kuitenkin kirjattu projektin kustannusvaluuttaan.
 
 Koska CDS-ympäristön valuuttakurssit eivät voi olla ajan tasalla, kustannusten näyttösummat voivat muuttua ajan mittaan, jos päivität valuutan vaihtokursseja. Tietokantaan kirjatut kustannukset säilyvät kuitenkin ennallaan, koska summat on tallennettu valuuttana, jossa ne ovat syntyneet.
 
@@ -78,13 +78,13 @@ Monen asiakkaan tarjouksia tapahtuu silloin, kun laskutettavana on useampi kuin 
 
 ## <a name="invoice-schedules"></a>Laskutusaikataulut
 
-Kullakin tarjousrivillä on oma laskutusaikataulu ja se on myös valinnainen. Laskutusaikatauluja luodaan tiettyjen alkamis- ja päättymispäivien sekä laskutustiheyden perusteella. Laskutusaikatauluja käytetään sopimusvaiheessa, kun automaattinen laskun luontiprosessi määritetään. Tarjousvaiheessa aikataulut ovat valinnaisia. Kun laskutussuunnitelmat luodaan **Tarjous** -vaiheessa, ne kopioidaan projektisopimukseen, joka luodaan, kun projektitarjous on voitettu.
+Kullakin tarjousrivillä on oma laskutusaikataulu ja se on myös valinnainen. Laskutusaikatauluja luodaan tiettyjen alkamis- ja päättymispäivien sekä laskutustiheyden perusteella. Laskutusaikatauluja käytetään sopimusvaiheessa, kun automaattinen laskun luontiprosessi määritetään. Tarjousvaiheessa aikataulut ovat valinnaisia. Kun laskutussuunnitelmat luodaan **Tarjous**-vaiheessa, ne kopioidaan projektisopimukseen, joka luodaan, kun projektitarjous on voitettu.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Dynamics 365 Sales -tarjouksen muutokset:
 
 Project Operationsin tarjoukset perustuvat Dynamics 365 Sales -tarjouksiin. Toiminnossa on kuitenkin joitakin tärkeitä eroja, jotka kannattaa tietää:
 
-- **Muokkaa** - tai **Aktivoi** -toimintoja ei tueta.
+- **Muokkaa**- tai **Aktivoi**-toimintoja ei tueta.
 - Project Operations -tarjouksilla on kaksi erityyppistä riviä. Yksi on projekteille ja toinen tuotteille.
 - Project Operations -tarjouksilla on omat lomake- ja käyttöliittymäelementit, liiketoimintasäännöt, laajennusten liiketoimintalogiikka ja asiakaspuolen komentosarjat, jotka tekevät niistä erilaisia kuin Sales-tarjouksista.
 

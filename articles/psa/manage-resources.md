@@ -3,7 +3,7 @@ title: Resurssien hallinta
 description: Tässä aiheessa on tietoja resurssien hallinnasta.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075549"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132329"
 ---
 # <a name="manage-resources"></a>Resurssien hallinta
 
@@ -44,7 +44,7 @@ Projektipäälliköt voivat käyttää resurssipäällikön koontinäyttöä pro
 
 ### <a name="add-a-team-member-directly-to-a-project"></a>Ryhmän jäsenen lisääminen suoraan projektiin
 
-Ryhmän jäsen lisätään suoraan projektiin valitsemalla **Projektit** -sivun **Ryhmä** -välilehdessä **Uusi**. Näkyviin tulee **Pikaluonti: projektiryhmän jäsen** -valintaikkuna. Tässä valintaikkunassa voidaan suorittaa seuraavat tehtävät:
+Ryhmän jäsen lisätään suoraan projektiin valitsemalla **Projektit**-sivun **Ryhmä**-välilehdessä **Uusi**. Näkyviin tulee **Pikaluonti: projektiryhmän jäsen** -valintaikkuna. Tässä valintaikkunassa voidaan suorittaa seuraavat tehtävät:
 
 - **Varaa nimetty resurssi** – Valitse resurssin nimi kentässä **Varattavissa oleva resurssi**. Valitse sitten rooli, määritä ajanjakso ja valitse kohdennustapa. Valittu nimetty resurssi lisätään projektiin valittua kohdennustapaa ja resurssikalenteria käyttäen.
 - **Lisää yleinen resurssi** – Jätä **Varattavissa oleva resurssi** -kenttä tyhjäksi ja valitse rooli, määritä ajanjakso ja valitse ensisijainen kohdennustapa. Ryhmään lisätään yleinen resurssi paikkamerkiksi säilyttämään kysyntämalli, jota käytetään nimettyjen resurssien varaamiseen ryhmässä. Tarve luodaan projektikalenterin mukaisesti.
@@ -56,23 +56,23 @@ PSA:ssa voit varata projektiryhmän yleisen resurssin ja määrittää roolin, t
 
 Noudata näitä vaiheita määrittääksesi kehittäjän yleisen resurssin tarvittavat osaamisalueet.
 
-1. Varaa yleinen resurssi valitsemalla **Projektit** -sivun **Ryhmä** -välilehdessä **Uusi**.
+1. Varaa yleinen resurssi valitsemalla **Projektit**-sivun **Ryhmä**-välilehdessä **Uusi**.
 
     ![Ryhmässä varattu yleinen resurssi](media/Resource-Management-image9.png)
 
-2. Valitse **Kaikki ryhmän jäsenet** -näkymän **Resurssitarve** -sarakkeessa linkki lisätäksesi yleisen resurssin tarvittavat osaamisalueet.
+2. Valitse **Kaikki ryhmän jäsenet** -näkymän **Resurssitarve**-sarakkeessa linkki lisätäksesi yleisen resurssin tarvittavat osaamisalueet.
 
     ![Tarvelinkki](media/Resource-Management-image10.png)
 
-3. Valitse näkyviin tulevan **Resurssitarve** -sivun **Osaamisalueet** -ruudukossa kolme pistettä ( **...** ) ja sitten **Lisää uusi tarveominaisuus** lisätäksesi kehittäjän tarvittavat osaamisalueet.
+3. Valitse näkyviin tulevan **Resurssitarve**-sivun **Osaamisalueet**-ruudukossa kolme pistettä (**...**) ja sitten **Lisää uusi tarveominaisuus** lisätäksesi kehittäjän tarvittavat osaamisalueet.
 
     ![Lisää uusi tarveominaisuus -komento](media/Resource-Management-image11.png)
 
-4. Valitse tarvittava osaamisalue näkyviin tulevan **Pikaluonti: tarveominaisuus** -valintaikkunan **Ominaisuus** -kentässä. Valitse sitten **Luokitusarvo** -kentässä kyseisen osaamisalueen pätevyystaso. Määritä lopuksi **Resurssitarve** -kentässä tarve hakemaan resursseja organisaatioyksiköistä tai jopa nimetyistä resursseista. Kun olet valmis, valitse **Tallenna**.
+4. Valitse tarvittava osaamisalue näkyviin tulevan **Pikaluonti: tarveominaisuus** -valintaikkunan **Ominaisuus**-kentässä. Valitse sitten **Luokitusarvo** -kentässä kyseisen osaamisalueen pätevyystaso. Määritä lopuksi **Resurssitarve**-kentässä tarve hakemaan resursseja organisaatioyksiköistä tai jopa nimetyistä resursseista. Kun olet valmis, valitse **Tallenna**.
 
     ![Pikaluonti: Tarveominaisuus-valintaikkuna](media/Resource-Management-image12.png)
 
-5. Täytä resurssitarve valitsemalla **Resurssitarve** -sivulla **Varaa**.
+5. Täytä resurssitarve valitsemalla **Resurssitarve**-sivulla **Varaa**.
 
     ![Resurssitarve-sivun varauspainike](media/Resource-Management-image13.png)
 
@@ -83,7 +83,7 @@ Noudata näitä vaiheita määrittääksesi kehittäjän yleisen resurssin tarvi
     > [!NOTE]
     > Tässä esimerkissä on 40 tarvittua tuntia, mutta ei yhtään varattuja tunteja, koska yleisillä resursseilla ei ole varauksia. Lisäksi siinä ei ole kohdennettuja tunteja, koska yleinen resurssi on lisätty suoraan ryhmään. Sitä ei siis lisätty tehtävien kohdennuksella.
 
-    **Ajoitusavustaja** -sivulla voit suodattaa käytettävissä olevia resursseja resurssitarpeessa määritettyjen tarpeiden mukaan. Resurssit lajitellaan aikataulutaulukossa määritettyjen lajitteluparametrien perusteella.
+    **Ajoitusavustaja**-sivulla voit suodattaa käytettävissä olevia resursseja resurssitarpeessa määritettyjen tarpeiden mukaan. Resurssit lajitellaan aikataulutaulukossa määritettyjen lajitteluparametrien perusteella.
 
     ![Ajoitusavustaja-sivu](media/Resource-Management-image15.png)
 
@@ -93,7 +93,7 @@ Noudata näitä vaiheita määrittääksesi kehittäjän yleisen resurssin tarvi
     - **Roolit** – Suodata varattavissa oleville resursseille määritettyjen oletusroolien perusteella.
     - **Organisaatioyksiköt** – Suodata varattavissa olevia resursseja niille määritettyjen organisaatioyksiköiden perusteella.
 
-6. Jos et ole tyytyväinen ensimmäisen tarvehaun tuloksiin, voit muuttaa suodatusperusteita. Laajenna **Suodatinnäkymä** -ruutu ja valitse **Haku** löytääksesi lisää resursseja.
+6. Jos et ole tyytyväinen ensimmäisen tarvehaun tuloksiin, voit muuttaa suodatusperusteita. Laajenna **Suodatinnäkymä**-ruutu ja valitse **Haku** löytääksesi lisää resursseja.
 
     ![Suodatinnäkymä-ruutu](media/Resource-Management-image16.png)
 
@@ -120,11 +120,11 @@ Noudata näitä vaiheita määrittääksesi kehittäjän yleisen resurssin tarvi
 
 PSA:ssa voit luoda tehtäviä ja sitten kohdentaa niille yleisiä resursseja. Tällöin paikkamerkit voivat edustaa resurssin kysyntää, kun arvioit aikatauluasi ja talouslukujasi. Tämän jälkeen voit luoda resurssitarpeita yleisille resursseille ja täyttää ne.
 
-1. Luo tehtävä valitsemalla **Projektit** -sivun **Aikataulut** -välilehdeltä **Lisää**.
+1. Luo tehtävä valitsemalla **Projektit**-sivun **Aikataulut**-välilehdeltä **Lisää**.
 
     ![Uusi tehtävä on luotu](media/Resource-Management-image21.png)
 
-2. Valitse **Resurssit** -kentässä **Resurssivalitsin** -symboli. Resurssivalitsin tulee näkyviin ja näyttää projektin olemassa olevat ryhmän jäsenet.
+2. Valitse **Resurssit**-kentässä **Resurssivalitsin**-symboli. Resurssivalitsin tulee näkyviin ja näyttää projektin olemassa olevat ryhmän jäsenet.
 
     ![Resurssivalitsin](media/Resource-Management-image22.png)
 
@@ -132,7 +132,7 @@ PSA:ssa voit luoda tehtäviä ja sitten kohdentaa niille yleisiä resursseja. T�
 
     ![Uuden yleisen resurssin nimi on annettu](media/Resource-Management-image23.png)
 
-4. Valitse yleisen resurssin rooli näkyviin tulevan **Pikaluonti: projektiryhmän jäsen** -valintaikkunan **Rooli** -kentässä. Valitse yleiselle resurssille organisaatioyksikkö **Resursointiyksikkö** -kentässä. Valitse sitten **Tallenna**.
+4. Valitse yleisen resurssin rooli näkyviin tulevan **Pikaluonti: projektiryhmän jäsen** -valintaikkunan **Rooli**-kentässä. Valitse yleiselle resurssille organisaatioyksikkö **Resursointiyksikkö**-kentässä. Valitse sitten **Tallenna**.
 
     ![Pikaluonti: projektiryhmän jäsen -valintaikkuna.](media/Resource-Management-image24.png)
 
@@ -140,7 +140,7 @@ PSA:ssa voit luoda tehtäviä ja sitten kohdentaa niille yleisiä resursseja. T�
 
     ![Yleinen ryhmän jäsen on kohdennettu tehtävälle](media/Resource-Management-image25.png)
 
-    Uusi yleinen ryhmän jäsen näkyy **Ryhmä** -välilehdessä. Huomaa, että jäsenellä on vain kohdennettuja tunteja. Nämä tunnit ovat yhteismäärä kaikista yleiselle ryhmän jäsenelle kohdennetuista tehtävistä. Yleisellä ryhmän jäsenellä ei vielä ole tarvittuja tunteja tai resurssitarvetta.
+    Uusi yleinen ryhmän jäsen näkyy **Ryhmä**-välilehdessä. Huomaa, että jäsenellä on vain kohdennettuja tunteja. Nämä tunnit ovat yhteismäärä kaikista yleiselle ryhmän jäsenelle kohdennetuista tehtävistä. Yleisellä ryhmän jäsenellä ei vielä ole tarvittuja tunteja tai resurssitarvetta.
 
     ![Yleinen ryhmän jäsen Ryhmä-välilehdessä](media/Resource-Management-image26.png)
 
@@ -150,7 +150,7 @@ PSA:ssa voit luoda tehtäviä ja sitten kohdentaa niille yleisiä resursseja. T�
 
     Kun olet kohdentanut yleisen resurssin haluamiisi tehtäviin, voit luoda resurssitarpeen yleiselle resurssille.
 
-5. Valitse yleinen resurssi **Ryhmä** -välilehdessä ja valitse sitten **Luo tarve**.
+5. Valitse yleinen resurssi **Ryhmä**-välilehdessä ja valitse sitten **Luo tarve**.
 
     ![Luo tarve -komento](media/Resource-Management-image28.png)
 
@@ -162,7 +162,7 @@ PSA:ssa voit luoda tehtäviä ja sitten kohdentaa niille yleisiä resursseja. T�
 
     ![Nimetyllä resurssilla korvattu yleinen resurssi](media/Resource-Management-image30.png)
 
-    **Aikataulut** -välilehdellä yleisen resurssin kohdennukset poistetaan ja korvataan nimetyllä resurssilla.
+    **Aikataulut**-välilehdellä yleisen resurssin kohdennukset poistetaan ja korvataan nimetyllä resurssilla.
 
     ![Yleisen resurssin kohdennukset korvataan nimetyllä resurssilla Aikataulut-välilehdessä](media/Resource-Management-image31.png)
 
@@ -181,24 +181,24 @@ PSA:ssa voit luoda tehtäviä ja sitten kohdentaa niille yleisiä resursseja. T�
 
     ![Toinen resurssi](media/Resource-Management-image35.png)
 
-    **Ryhmä** -välilehdessä näkyy nyt, että yleisellä resurssilla ei ole tarvittuja tunteja, mutta kohdennetut tunnit näkyvät yhä niiden kahden nimetyn resurssin kanssa, jotka täyttävät tarpeen.
+    **Ryhmä**-välilehdessä näkyy nyt, että yleisellä resurssilla ei ole tarvittuja tunteja, mutta kohdennetut tunnit näkyvät yhä niiden kahden nimetyn resurssin kanssa, jotka täyttävät tarpeen.
 
     ![Kaksi nimettyä resurssia Ryhmä-välilehdessä](media/Resource-Management-image36.png)
 
-    **Aikataulut** -välilehdessä yleinen resurssi on edelleen kohdennettuna tehtävälle.
+    **Aikataulut**-välilehdessä yleinen resurssi on edelleen kohdennettuna tehtävälle.
 
     ![Yleisiä resursseja Aikataulut-välilehdessä](media/Resource-Management-image37.png)
 
 PSA ei kohdenna molempia resursseja tehtävälle, koska silloin aikataulu olisi huonommin ennustettavissa. Tässä yksinkertaisessa esimerkissä tunnit on helppo jakaa tasan kahden resurssin kesken. Monimutkaisemmissa skenaarioissa, joihin liittyy useita tehtäviä ja useita resursseja, PSA:n on tehtävä oletuksia siitä, miten useille resursseille useissa tehtävissä tehdyt varaukset kohdennetaan.
 
-Siksi projektipäällikkö on näissä skenaarioissa vastuussa useiden varausten jäsentelystä ja tarpeenmukaisesta kohdennuksesta. Varausten kohdistamiseksi projektipäällikkö siirtää tehtävät yleisiltä resursseilta nimetyille resursseille ja varmistaa **Täsmäytys** -näkymän avulla, että kohdistus toimii varausten kanssa.
+Siksi projektipäällikkö on näissä skenaarioissa vastuussa useiden varausten jäsentelystä ja tarpeenmukaisesta kohdennuksesta. Varausten kohdistamiseksi projektipäällikkö siirtää tehtävät yleisiltä resursseilta nimetyille resursseille ja varmistaa **Täsmäytys**-näkymän avulla, että kohdistus toimii varausten kanssa.
 
 ### <a name="edit-a-resource-requirement"></a>Resurssitarpeen muokkaaminen
 
 Kun resurssitarve on luotu, projektipäällikkö tai resurssipäällikkö voi haluta muokata tietoja tarkentaakseen hakuehtoja, kun käytetään aikataulutaulukkoa. Resurssitarvetta muokataan seuraavasti.
 
-1. Valitse **Projektit** -sivun **Ryhmä** -välilehdestä linkki mihin tahansa yleisen resurssin tarpeeseen.
-2. Näkyviin tulevalla **Resurssitarve** -sivulla voit päivittää useita määritteitä. Seuraavassa on joitakin esimerkkejä.
+1. Valitse **Projektit**-sivun **Ryhmä**-välilehdestä linkki mihin tahansa yleisen resurssin tarpeeseen.
+2. Näkyviin tulevalla **Resurssitarve**-sivulla voit päivittää useita määritteitä. Seuraavassa on joitakin esimerkkejä.
 
     - Nimi
     - Päivämäärästä
@@ -206,7 +206,7 @@ Kun resurssitarve on luotu, projektipäällikkö tai resurssipäällikkö voi ha
     - Kesto
     - Resurssityyppi
 
-**Resurssitarve** -sivulla projektipäällikkö tai resurssipäällikkö voi määrittää myös seuraavat tiedot:
+**Resurssitarve**-sivulla projektipäällikkö tai resurssipäällikkö voi määrittää myös seuraavat tiedot:
 
 - Osaamisalueet
 - Roolit
@@ -217,13 +217,13 @@ Kun resurssitarve on luotu, projektipäällikkö tai resurssipäällikkö voi ha
 
 Kun olet lisännyt projektiryhmään yleisen tai nimetyn resurssin, voit muuttaa resurssin varauksia.
 
-1. Valitse ryhmän jäsen **Projektit** -sivun **Ryhmä** -välilehdessä ja valitse sitten **Ylläpidä varauksia**.
+1. Valitse ryhmän jäsen **Projektit**-sivun **Ryhmä**-välilehdessä ja valitse sitten **Ylläpidä varauksia**.
 
     ![Valitun ryhmän jäsenen aikataulutaulukko avattuna](media/Resource-Management-image40.png)
 
     Aikataulutaulukko tulee näkyviin, ja siinä näkyvät projektiryhmän jäsenen varaukset. Laajentamalla ryhmän jäsenen tietueen näet tunnit, jotka on varattu tälle projektille ja muille projekteille, joissa käytetään ryhmän jäsenen kapasiteettia.
 
-2. Voit pidentää tai lyhentää varausta valitsemalla sen ja vetämällä sitä. Näkyviin tulee **Luo resurssivaraus** -valintaikkuna, jossa voit muokata varausta.
+2. Voit pidentää tai lyhentää varausta valitsemalla sen ja vetämällä sitä. Näkyviin tulee **Luo resurssivaraus**-valintaikkuna, jossa voit muokata varausta.
 
     ![Luo resurssivaraus -valintaikkuna](media/Resource-Management-image41.png)
 
@@ -242,7 +242,7 @@ Voit muuttaa mitä tahansa oletusarvoista tai muokattua varauksen tilaa.
 PSA:ssa voidaan käyttää seuraavia tiloja:
 
 - **Peruttu** – Tämä tila peruu resurssin varauksen ja vapauttaa resurssin kapasiteetin.
-- **Sitova varaus** – Tämä tila käyttää resurssin kapasiteetin. Varauksella on yleensä tämä tila, kun **Ylläpidä varauksia** avataan **Kaikki ryhmän jäsenet** -ruudukossa **Projektit** -sivulla.
+- **Sitova varaus** – Tämä tila käyttää resurssin kapasiteetin. Varauksella on yleensä tämä tila, kun **Ylläpidä varauksia** avataan **Kaikki ryhmän jäsenet** -ruudukossa **Projektit**-sivulla.
 - **Alustava varaus** – Tämä tila lisää resurssin ryhmälle, mutta ei käytä resurssin kapasiteettia. Se ilmaisee, että resurssi on varattu mahdollista työtä varten ja että sillä on tästä huolimatta tarvittaessa kapasiteettia muita töitä varten. Resurssien kokonaiskäytettävyyden näkymässä alustavilla varauksilla on eri tila kuin sitovilla varauksilla.
 - **Ehdotettu** – Tämä tila ilmaisee resurssipäällikön tai projektipäällikön resurssiehdotusta. Ehdotukset eivät käytä resurssin kapasiteettia, eikä resurssia lisätä projektiryhmään. Resurssin sitovaksi varaamiseksi ryhmälle projektipäällikön on hyväksyttävä ehdotus.
 
@@ -269,11 +269,11 @@ Kun resurssipäällikkö täyttää pyynnön, yleinen ryhmän jäsen korvataan n
 
 #### <a name="use-a-resource-proposal-for-resource-requests"></a>Resurssiehdotusten käyttäminen resurssipyynnöissä
 
-Resurssin suoran resurssipyyntöä varten varaamisen sijaan resurssipäällikkö voi ehdottaa projektipäällikölle resurssia. Resurssipäällikkö voi käyttää tätä vaihtoehtoa esimerkiksi, kun tarpeille ei ole tarkkaa vastaavuutta. Kun resurssipäällikkö ehdottaa resurssia, projektipäällikkö näkee, että yleisen ryhmän jäsenen **Tila** -kentän arvoksi vaihtuu **Tarkistettava**.
+Resurssin suoran resurssipyyntöä varten varaamisen sijaan resurssipäällikkö voi ehdottaa projektipäällikölle resurssia. Resurssipäällikkö voi käyttää tätä vaihtoehtoa esimerkiksi, kun tarpeille ei ole tarkkaa vastaavuutta. Kun resurssipäällikkö ehdottaa resurssia, projektipäällikkö näkee, että yleisen ryhmän jäsenen **Tila**-kentän arvoksi vaihtuu **Tarkistettava**.
 
 ![Yleisen ryhmän jäsenen tilaksi vaihtunut Tarkistettava](media/Resource-Management-image48.png)
 
-Voit tarkastella ehdotettua resurssia yhdessä ehdotuksen varauksen vaikutuksen visualisoinnin kanssa kaksoisnapsauttamalla ryhmän jäsentä, jolla on tila **Tarkistettava**. Valitse sitten **Ehdotetut resurssit** -välilehti.
+Voit tarkastella ehdotettua resurssia yhdessä ehdotuksen varauksen vaikutuksen visualisoinnin kanssa kaksoisnapsauttamalla ryhmän jäsentä, jolla on tila **Tarkistettava**. Valitse sitten **Ehdotetut resurssit**-välilehti.
 
 ![Ehdotetut resurssit -välilehti](media/Resource-Management-image49.png)
 
@@ -286,7 +286,7 @@ Voit hyväksyä kaikki ehdotukset valitsemalla **Hyväksy kaikki ehdotukset** ja
 
 Joskus projektipäällikön on korvattava projektille varattu ryhmän jäsen.
 
-1. Valitse korvattava resurssi **Projektit** -sivun **Ryhmä** -välilehdessä ja valitse sitten **Ylläpidä varauksia**.
+1. Valitse korvattava resurssi **Projektit**-sivun **Ryhmä**-välilehdessä ja valitse sitten **Ylläpidä varauksia**.
 2. Näet projektit, joille resurssi on kohdennettu, laajentamalla resurssia.
 
     ![Laajennettu resurssi, jossa näkyvät sen projektit](media/Resource-Management-image50.png)
@@ -318,11 +318,11 @@ Joskus projektipäällikön on korvattava projektille varattu ryhmän jäsen.
 
 Ryhmän jäsenillä varaukset ja kohdennukset ovat löyhästi sidoksissa. Toisin sanoen resursseilla voi olla kohdennuksia ilman varauksia ja varauksia ilman kohdennuksia. Ihannetapauksessa varaukset ja kohdennukset ovat samoja, jotta resurssit ovat sitoutuneet suorittamaan kohdennettuja tehtäviään. Varaukset saattavat kuitenkin perustua käytettävyyteen ja tehtävien ajoitukset saattavat muuttua projektin edetessä. Siten varausten ja kohdennusten löyhä sidoksisuus luo joustavuutta.
 
-PSA:ssa on **Täsmäytys** -välilehti, jonka avulla projektipäälliköt voivat täsmäyttää ryhmänsä jäsenten varaukset ja kohdennukset projektiryhmille.
+PSA:ssa on **Täsmäytys**-välilehti, jonka avulla projektipäälliköt voivat täsmäyttää ryhmänsä jäsenten varaukset ja kohdennukset projektiryhmille.
 
 ![Täsmäytys-välilehti](media/Resource-Management-image56.png)
 
-**Täsmäytys** -välilehti näyttää kunkin ryhmän jäsenen varaukset ja kohdennukset yksittäisten tehtävien kohdennusten tasolle asti. Se näyttää tunnit soluissa, jotka edustavat aikajaksoja kuukausista päiviin asti.
+**Täsmäytys**-välilehti näyttää kunkin ryhmän jäsenen varaukset ja kohdennukset yksittäisten tehtävien kohdennusten tasolle asti. Se näyttää tunnit soluissa, jotka edustavat aikajaksoja kuukausista päiviin asti.
 
 Välilehdissä näkyy myös projektin kokonaissumma yhdessä summasarakkeen kanssa.
 
@@ -333,11 +333,11 @@ Välilehti laskee kunkin resurssin osalta koosteen erosta ryhmän jäsenen varau
 
 Kun aikaa tarkastellaan päivätasoa korkeammalla tasolla (kuten kuukausitasolla), resurssin nettoero voi olla nolla (tällöin varaukset = kohdennukset). Aikaa viikkotasolla tarkasteltaessa voi olla, että kohdennuksia on nolla tuntia, ja varauksia 40 tuntia ensimmäisellä viikolla, mutta 40 tuntia kohdennuksia ja nolla tuntia varauksia toisella viikolla. Yleisellä tasolla varaukset ja kohdennukset täsmäävät, mutta niiden välillä voi olla viikkokohtaisia eroja.
 
-Aikaa korkeilla tasoilla tarkasteltaessa **Täsmäytys** -välilehden soluissa on ilmaisin, joka ilmoittaa, että alemmilla aikatasoilla on eroja. Kaksoisnapsauttamalla solua voit lähentää näkymää nähdäksesi eron. Voit sitten loitontaa näkymää napsauttamalla hiiren kakkospainiketta. Valitsemalla resurssin ja käyttämällä sitten **Seuraava ero** -ohjausobjektia voit siirtyä seuraavaan eroon resurssin varausten ja kohdennusten välillä. Voit myös palata takaisin käyttämällä **Edellinen ero** -ohjausobjektia. Voit myös poistaa eronilmaisimen ja siirtymistoiminnon käytöstä **Asetukset** -kohdassa.
+Aikaa korkeilla tasoilla tarkasteltaessa **Täsmäytys**-välilehden soluissa on ilmaisin, joka ilmoittaa, että alemmilla aikatasoilla on eroja. Kaksoisnapsauttamalla solua voit lähentää näkymää nähdäksesi eron. Voit sitten loitontaa näkymää napsauttamalla hiiren kakkospainiketta. Valitsemalla resurssin ja käyttämällä sitten **Seuraava ero** -ohjausobjektia voit siirtyä seuraavaan eroon resurssin varausten ja kohdennusten välillä. Voit myös palata takaisin käyttämällä **Edellinen ero** -ohjausobjektia. Voit myös poistaa eronilmaisimen ja siirtymistoiminnon käytöstä **Asetukset**-kohdassa.
 
 ![Eronilmaisin](media/Resource-Management-image57.png)
 
-Tilanteissa, joissa resurssille on kohdennuksia mutta ei varauksia, voit valita varauspuutteen **Projektit** -sivun **Täsmäytys** -välilehdessä ja valita sitten **Laajenna varausta**. Näkyviin tulee **Laajenna varausta** -valintaikkuna, jota tarvitaan resurssin puutteen käsittelemiseen. Ikkunassa näkyvät myös resurssin olemassa olevat varaukset kaikissa projekteissa tai muissa ajoitettavissa entiteeteissä. Jos valitset **OK** luodaksesi varauksen resurssille sen käytettävyydestä riippumatta, voit aiheuttaa ylivarauksen.
+Tilanteissa, joissa resurssille on kohdennuksia mutta ei varauksia, voit valita varauspuutteen **Projektit**-sivun **Täsmäytys**-välilehdessä ja valita sitten **Laajenna varausta**. Näkyviin tulee **Laajenna varausta** -valintaikkuna, jota tarvitaan resurssin puutteen käsittelemiseen. Ikkunassa näkyvät myös resurssin olemassa olevat varaukset kaikissa projekteissa tai muissa ajoitettavissa entiteeteissä. Jos valitset **OK** luodaksesi varauksen resurssille sen käytettävyydestä riippumatta, voit aiheuttaa ylivarauksen.
 
 ![Varaus-valintaikkunan laajentaminen](media/Resource-Management-image58.png)
 

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075281"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180818"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Projektipohjaisten tarjousrivien laskutusaikataulu
 
@@ -28,11 +28,11 @@ Laskutusaikataulun tarkoitus on kaiken kaikkiaan sallia projektipohjaisen sopimu
 Kun projektipohjaisen tarjousrivin laskutusmenetelmä on Aika ja materiaali, järjestelmä luo päivämäärään perustuvan laskutusaikataulun. Jos haluat luoda päivämäärään perustuvan laskutusaika taulun automaattisesti, tee seuraavat toimet.
 
 1. Siirry kohtaan **Asetukset** > **Laskujen tiheys** ja määritä laskujen tiheys.
-2. Avaa **Tarjoukset** -sivulla projektitarjous ja aseta pyydetty toimituspäivä **Yhteenveto** -välilehdessä.
+2. Avaa **Tarjoukset**-sivulla projektitarjous ja aseta pyydetty toimituspäivä **Yhteenveto**-välilehdessä.
 3. Avaa aika-ja materiaalitarjousrivi, jolle haluat luoda päivämäärään perustuvan laskutusaikataulun. 
-4. Valitse **Laskutusaikataulu** -välilehdellä **laskutuksen aloitus** - ja **Laskujen tiheys** -kenttien arvot. 
+4. Valitse **Laskutusaikataulu**-välilehdellä **laskutuksen aloitus**- ja **Laskujen tiheys** -kenttien arvot. 
 5. Valitse aliruudukossa **Luo laskutusaikataulu**.
-6. Sovellus luo laskutusaikataulun, jossa on **Laskun suorituspäivä** -, **Tapahtuman katkaisupäivä** - ja **Suorituksen tila** -kentät määritetty seuraavasti:
+6. Sovellus luo laskutusaikataulun, jossa on **Laskun suorituspäivä**-, **Tapahtuman katkaisupäivä**- ja **Suorituksen tila** -kentät määritetty seuraavasti:
 
     - **Laskun suorituspäivä** määritetään päivämääräksi, joka määräytyy laskujen tiheyden perusteella.
     - **Tapahtuman katkaisupäivä** -arvoksi on määritetty päivä ennen arvoa **Laskun suorituspäivä**.
@@ -43,9 +43,9 @@ Kun projektipohjaisen tarjousrivin laskutusmenetelmä on Aika ja materiaali, jä
 Kun projektipohjaisellatarjous rivillä on **Kiinteä hinta** laskutusmenetelmä, järjestelmä luo välitavoittepohjaisen laskutusaikataulun. Suorita seuraavat vaiheet, kun haluat luoda tämän aikataulun automaattisesti tietylle kalenterikaudelle tasaisesti jaetulle kiinteiden välitavoitteiden joukolle.
 
 1. Siirry kohtaan **Asetukset** > **Laskujen tiheys** ja määritä laskujen tiheys.
-2. Avaa **Tarjoukset** -sivulla projektitarjous ja aseta pyydetty toimituspäivä **Yhteenveto** -välilehdessä.
+2. Avaa **Tarjoukset**-sivulla projektitarjous ja aseta pyydetty toimituspäivä **Yhteenveto**-välilehdessä.
 3. Avaa kiinteähintainen tarjousrivi, jolle on luotava välitavoiteaikataulu. 
-4. Valitse **Laskutusaikataulu** -välilehdellä **laskutuksen aloitus** - ja **Laskujen tiheys** -kenttien arvot. 
+4. Valitse **Laskutusaikataulu**-välilehdellä **laskutuksen aloitus**- ja **Laskujen tiheys** -kenttien arvot. 
 5. Valitse aliruudukossa **Luo jaksoittaiset välitavoitteet**.
 6. Sovellus luo laskutusaikataulun, jossa on välitavoitteen nimi, päivämäärä ja summa.
 
@@ -58,9 +58,9 @@ Kun projektipohjaisellatarjous rivillä on **Kiinteä hinta** laskutusmenetelmä
 
 Kiinteähintaisia välitavoitteita voidaan luoda myös manuaalisesti, jos niitä ei jaeta jaksoittain. Luo välitavoitteet manuaalisesti seuraavasti:
 
-Avaa kiinteähintainen tarjousrivi, jolle on luotava välitavoite. Valitse **Laskutusaikataulu** - välilehden aliruudukossa **+ Luo uusi tarjousrivin välitavoite** ja kirjoita tarvittavat tiedot seuraavan taulukon perusteella.
+Avaa kiinteähintainen tarjousrivi, jolle on luotava välitavoite. Valitse **Laskutusaikataulu**-välilehden aliruudukossa **+ Luo uusi tarjousrivin välitavoite** ja anna tarvittavat tiedot seuraavan taulukon perusteella.
 
-| **Kenttä** | **Sijainti** | **Relevanssi, tarkoitus ja opastus** | **Loppupään vaikutus** |
+| **Kenttä** | **Sijainti** | **Kuvaus** | **Loppupään vaikutus** |
 | --- | --- | --- | --- |
 | Välitavoitteen nimi | Pikaluonti | Välitavoitteen nimi. | Tämä välitetään projektisopimusrivin välitavoitteeseen ja laskuun |
 | Projektin tehtävä | Pikaluonti | Jos välitavoite on sidottu projektitehtävään, voit lisätä tämän viitteen avulla mukautetun logiikan, joka määrittää välitavoitteen tilan tehtävän tilan perusteella. | Sovelluksella ei ole tämän tehtävän viitteen suhteen vaikutusta loppupäähän. |

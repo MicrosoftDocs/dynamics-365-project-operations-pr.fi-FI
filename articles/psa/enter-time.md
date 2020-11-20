@@ -3,7 +3,7 @@ title: Ajan lisääminen
 description: Ajan määrittäminen Project Servicessä
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075551"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132869"
 ---
 # <a name="enter-time-project-service"></a>Anna aika (Project Service)
 
@@ -39,7 +39,7 @@ Anna työtunnit vähintään viikoittain (tai esimiehesi pyytämällä taajuudel
   
 3. Voit määrittää ajan joko valitsemalla **Uusi** tai kaksoisnapsauttamalla kalenteria kohdassa, johon haluat määrittää ajan.  
   
-4. Täytä **Aikamerkintä** -lomakkeen kentät ja valitse **Tallenna**.  
+4. Täytä **Aikamerkintä**-lomakkeen kentät ja valitse **Tallenna**.  
   
 5. Jatka kirjoittamalla koko viikon ajat. Kun se on valmis ja kaikki näyttää olevan kunnossa, valitse **Lähetä**. Esimies tarkistaa ja hyväksyy aikamerkinnät.  
   
@@ -51,7 +51,7 @@ Anna työtunnit vähintään viikoittain (tai esimiehesi pyytämällä taajuudel
   
    Jos käytät mobiilisovellusta:  
   
-9. Siirry valikosta kohtaan **Aikamerkinnät**.     Voit siirtyä **päivän** , **viikon** tai **kuukauden** tarkasteluun tai siirtyä edelliseen tai seuraavaan ajanjaksoon.  
+9. Siirry valikosta kohtaan **Aikamerkinnät**.     Voit siirtyä **päivän**, **viikon** tai **kuukauden** tarkasteluun tai siirtyä edelliseen tai seuraavaan ajanjaksoon.  
   
 10. Napauta **...** ja napauta **Uusi**.  
   

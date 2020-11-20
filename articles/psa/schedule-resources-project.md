@@ -3,7 +3,7 @@ title: Projektin resurssien aikatauluttaminen
 description: Projektin resurssien aikatauluttaminen Project Servicessä
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075554"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132129"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Projektin resurssien aikatauluttaminen (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4075554"
 
 Voit tarkistaa resurssien käytettävyyden, jotta saat yleisen käsityksen siitä, miten varattuja resurssit ovat, tai voit suodattaa näkymän taitojen, ryhmän, sijainnin ja muiden asetusten mukaan.  
   
-Aikataulutaulukossa on luettelo resursseista ja heidän saatavuudestaan. Valitse tila näyttämään saatavuus **tuntien** , **päivän** , **viikon** tai **kuukauden** mukaan.  
+Aikataulutaulukossa on luettelo resursseista ja heidän saatavuudestaan. Valitse tila näyttämään saatavuus **tuntien**, **päivän**, **viikon** tai **kuukauden** mukaan.  
   
 Aikataulutaulukko on määritettävä, ennen kuin sitä voi käyttää. Lisätietoja on aiheessa [Aikataulutaulukon määrittäminen (Field Service tai Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -49,7 +49,7 @@ Jos käytät vanhaa versiota, lisätietoja resurssien saatavuudesta on ohjeaihee
   
 ## <a name="find-available-resources"></a>Etsi käytettävissä olevat resurssit
 
-1.  Napsauta hiiren kakkospainikkeella **Varaustarve** -luettelossa aikatauluttamatonta varausta ja valitse jokin seuraavista:  
+1.  Napsauta hiiren kakkospainikkeella **Varaustarve**-luettelossa aikatauluttamatonta varausta ja valitse jokin seuraavista:  
   
 - Etsi käytettävissä olevat resurssit aikataulutaulukon luettelosta valitsemalla **Etsi saatavuus – nykyiset resurssit**.  
 - Etsi käytettävissä oleva resurssi järjestelmän resursseista valitsemalla **Etsi saatavuus – nykyiset resurssit**.  

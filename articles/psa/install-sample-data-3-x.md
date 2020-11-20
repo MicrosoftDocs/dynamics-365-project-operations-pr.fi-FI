@@ -3,7 +3,7 @@ title: Näytetietojen asennus
 description: Tässä aiheessa on tietoja näytetietojen asentamisesta Project Service Automationin avulla.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075413"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132419"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Näytetietojen asennus Project Service -sovelluksessa
 
@@ -43,13 +43,13 @@ Uusin **esittelytietojen** tietopaketti:
 Nämä näytetietopaketit ovat saatavana vain englanninkielisinä.
 
 > [!IMPORTANT]
-> **Näytetietojen asennusta ei voi peruuttaa.** Nämä paketit tulee asentaa vain esittely-, arviointi-, koulutus- tai testijärjestelmiin. Huomaa myös, että yksittäisen paketin asennuksen jälkeen toisen yksittäisen paketin asennusta ei tueta. (Toisin sanoen et voi asentaa **FSMasterData** -pakettia ja sen jälkeen **PSMasterData** -pakettia tai päin vastoin) Jos tarvitset jossakin vaiheessa molempien sovellusten näytetietoja, asennettavan paketin tulee olla **v902FPSMasterData**.
+> **Näytetietojen asennusta ei voi peruuttaa.** Nämä paketit tulee asentaa vain esittely-, arviointi-, koulutus- tai testijärjestelmiin. Huomaa myös, että yksittäisen paketin asennuksen jälkeen toisen yksittäisen paketin asennusta ei tueta. (Toisin sanoen et voi asentaa **FSMasterData**-pakettia ja sen jälkeen **PSMasterData**-pakettia tai päin vastoin) Jos tarvitset jossakin vaiheessa molempien sovellusten näytetietoja, asennettavan paketin tulee olla **v902FPSMasterData**.
 
 Kun asennat jonkin näytetietopaketin, asennusprosessi suorittaa seuraavat toiminnot:
 
 - Luo tai määrittää oletusparametrit, joiden avulla käytetään Project Service- tai Field Service -sovellusta tai molempia sovelluksia (jos käytettävissä).
 
-- Tuo sovellusten näytetiedot, kuten varattavat resurssit, sovelluskohtaiset roolit, myynti- ja kustannushinnastot, organisaatioyksiköt, myyntiprosessitietueet ja muut entiteetit, joiden avulla esitellään tärkeimpiä ominaisuuksia.  
+- Tuo sovellusten näytetiedot, kuten varattavat resurssit, sovelluskohtaiset roolit, myynti- ja kustannushinnastot, organisaatioyksiköt, myyntiprosessitietueet ja muut entiteetit, joiden avulla esitellään tärkeimpiä ominaisuuksia.  
 
 **Esittelytietopaketti** sisältää edellä olevat ja lisää liiketapahtumatietoja, kuten työtilauksia ja projekteja.
 
@@ -80,7 +80,7 @@ Asennustoiminnoissa edellytetään, että kohdeilmentymä (organisaatio) täytt�
 
 Asennusohjelma on suoritettava tietokoneella, jossa on käytössä Windowsin uusin versio (Windows 10 on suositeltu versio).
 
-Tietokoneessa on oltava verkkoyhteys. **Asennus- tai viitetietojen** asentaminen voi kestää **tunnin**. (Yleensä **FPSMasterData** -paketin asennus kestää noin 30 minuuttia. Paketti sisältää kummankin sovelluksen mallitiedot.) **FPSDemoData** -paketin asennus kestää noin **3 tuntia**.
+Tietokoneessa on oltava verkkoyhteys. **Asennus- tai viitetietojen** asentaminen voi kestää **tunnin**. (Yleensä **FPSMasterData**-paketin asennus kestää noin 30 minuuttia. Paketti sisältää kummankin sovelluksen mallitiedot.) **FPSDemoData**-paketin asennus kestää noin **3 tuntia**.
 
 Tietokoneen näytönsäästäjätoiminto tulee poistaa käytöstä. Muussa tapauksessa asennuksen istunnon tunnistetiedot menetetään, kun näytönsäästäjä menee päälle (ellet pidä istuntoa aktiivisena koko ajan).
 
@@ -95,7 +95,7 @@ Kun paketti on ladattu, suorita .exe-tiedosto ja hyväksy pakatun zip-tiedoston 
 
 Käyttöjärjestelmästä ja suojausasetuksista riippuen zip-tiedoston purkamisen jälkeen on suoritettava seuraavat vaiheet:
 
-1. Etsi **FPSDemoData.dll** -tiedosto **v902FPSMasterData** / **PackageDeployer_FPSDemoData** -kansiossa ja kaksoisnapsauta sitä.
+1. Etsi **FPSDemoData.dll**-tiedosto **v902FPSMasterData** / **PackageDeployer_FPSDemoData**-kansiossa ja kaksoisnapsauta sitä.
 
 2. Valitse **Poista esto**.
 
@@ -106,21 +106,21 @@ Käyttöjärjestelmästä ja suojausasetuksista riippuen zip-tiedoston purkamise
 
 ## <a name="create-or-configure-users"></a>Käyttäjien luominen tai määrittäminen
 
-**FPSDemoData** -paketti edellyttää kuutta käyttäjää, kun taas **FPSMasterData** -paketit edellyttävät yhtä käyttäjää. Viittaa oikeaan, näytetietopaketille tarkoitettuun versioon.
+**FPSDemoData**-paketti edellyttää kuutta käyttäjää, kun taas **FPSMasterData**-paketit edellyttävät yhtä käyttäjää. Viittaa oikeaan, näytetietopaketille tarkoitettuun versioon.
 
 ## <a name="create-or-configure-users---setupreference-data-packages"></a>Käyttäjien luominen tai määrittäminen – asetus- ja viitetietopaketit
 
-**FPSMasterData** -paketti on suunniteltu niin, että se asentaa yhden käyttäjän, jonka nimi on Spencer Low, sekä tässä kuvatut asetukset. Jotta paketti asentuu oikein, ympäristöösi on luotava käyttäjät (tai käyttäjät on nimettävä uudelleen tilapäisesti), jotta ne vastaavat näytetietojen määritystä.
+**FPSMasterData**-paketti on suunniteltu niin, että se asentaa yhden käyttäjän, jonka nimi on Spencer Low, sekä tässä kuvatut asetukset. Jotta paketti asentuu oikein, ympäristöösi on luotava käyttäjät (tai käyttäjät on nimettävä uudelleen tilapäisesti), jotta ne vastaavat näytetietojen määritystä.
 
 Voit luoda tai määrittää käyttäjiä siirtymällä kohtaan **Asetukset** > **Suojaus** > **Käyttäjät** ja tekemällä seuraavat toimet:
 
-1. Määritä UserFullname="Spencer Low" ja käyttäjätunnukseksi "spencerl" ( **pienet kirjaimet** ) projektipäällikön ja käytäntöpäällikön rooleihin.
+1. Määritä UserFullname="Spencer Low" ja käyttäjätunnukseksi "spencerl" (**pienet kirjaimet**) projektipäällikön ja käytäntöpäällikön rooleihin.
 
 2. Valitse käyttäjäksi **Spencer Low** ja valitse sitten **Hallitse rooleja**. Etsi **järjestelmänvalvojan** rooli ja valitse se. Myönnä Spencer Low'lle täydet järjestelmänvalvojan oikeudet valitsemalla **OK**. Tämän vaihe on välttämätön, koska siinä varmistetaan, että näytetiedot luodaan oikean käyttäjän omistuksen kanssa. Näin näkymien täyttäminen tapahtuu oikein.
 
-3. Päivitä ladatun paketin tietojen yhdistämisen tiedostoon oletuskäyttäjän sähköpostiosoitteet. Avaa **PkgFolder** , etsi **ImportUserMapFile.xml** -tiedosto ja avaa se Muistiossa (tai Visual Studiossa tai toisessa XML-editorissa). Määritä **DefaultUserToMapTo=** -kenttään käyttäjän Spencer Low sähköpostiosoite.
+3. Päivitä ladatun paketin tietojen yhdistämisen tiedostoon oletuskäyttäjän sähköpostiosoitteet. Avaa **PkgFolder**, etsi **ImportUserMapFile.xml** -tiedosto ja avaa se Muistiossa (tai Visual Studiossa tai toisessa XML-editorissa). Määritä **DefaultUserToMapTo=**-kenttään käyttäjän Spencer Low sähköpostiosoite.
 
-4. Jos et käytä Spencer Low'n käyttäjätunnusta **spencerl** , sinun on päivitettävä toinen tiedosto. Avaa **DemoDataPreImportConfig.xml** -tiedosto ja etsi **userstocreateandconfigure** -tunniste. Päivitä **\<login\>** -tunnisteeksi käyttäjän Spencer Low käyttäjätunnus. Lisätietoja on [teknisissä huomautuksissa](#technical-notes).
+4. Jos et käytä Spencer Low'n käyttäjätunnusta **spencerl**, sinun on päivitettävä toinen tiedosto. Avaa **DemoDataPreImportConfig.xml**-tiedosto ja etsi **userstocreateandconfigure**-tunniste. Päivitä **\<login\>**-tunnisteeksi käyttäjän Spencer Low käyttäjätunnus. Lisätietoja on [teknisissä huomautuksissa](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Käyttäjien luominen tai muokkaaminen – esittelytietopaketti
 
@@ -138,26 +138,26 @@ Esittelytietopakettia varten tarvitaan kuusi käyttäjää. Paketti asennetaan o
   
 2. Määritä edellä mainituille kuudelle käyttäjälle järjestelmänvalvojan rooli esittelytietojen tuontia varten, jotta näytetiedot tuodaan oikein. 
 
-3. Avaa **PkgFolder** ja etsi ja avaa sitten **ImportUserMapFile.xml**. Päivitä **New=** -kentät järjestelmän käyttäjiä vastaaviksi sähköpostiosoitteiksi.
+3. Avaa **PkgFolder** ja etsi ja avaa sitten **ImportUserMapFile.xml**. Päivitä **New=**-kentät järjestelmän käyttäjiä vastaaviksi sähköpostiosoitteiksi.
 
    > [!div class="mx-imgBorder"]
    > ![Näyttökuva UserMapFile-tiedostosta](media/sample-data-7.png)
 
-4. Jos "Spencer Low" -nimisen käyttäjän koko nimellä on eri käyttäjätunnus kuin **"spencerl"** , myös lisätiedosto on päivitettävä. Avaa **DemoDataPreImportConfig.xml** ja etsi **userstocreateandconfigure** -tunniste. Päivitä loginId (kirjainkoolla on merkitystä) **\<login\>** -tunnisteeseen. 
+4. Jos "Spencer Low" -nimisen käyttäjän koko nimellä on eri käyttäjätunnus kuin **"spencerl"**, myös lisätiedosto on päivitettävä. Avaa **DemoDataPreImportConfig.xml** ja etsi **userstocreateandconfigure**-tunniste. Päivitä loginId (kirjainkoolla on merkitystä) **\<login\>**-tunnisteeseen. 
 
-5. Ensimmäisen käyttäjän kalenterin (joka on **userstocreateandconfigure** -tunnisteessa) avulla lisätään kaikkien varattavien resurssien työtunnit esittelytietoja tuotaessa. Valitse **Asetukset** > **Suojaus** > **Käyttäjät** , etsi käyttäjä Spencer Low ja avaa Työtunnit-asetus. Muokkaa nykyisiä työtunteja valitsemalla **Koko viikoittain toistuva aikataulu alusta loppuun** -asetus. Varmista, että **työtunneiksi on määritetty 8.00–17.00 (9 tuntia) maanantaista perjantaihin ja aikavyöhykkeeksi on määritetty Tyynenmeren normaaliaika (USA ja Kanada)**. Tällä tavoin varmistaa, että projekti- ja aikataulutaulukko näkyvät odotetusti.
+5. Ensimmäisen käyttäjän kalenterin (joka on **userstocreateandconfigure**-tunnisteessa) avulla lisätään kaikkien varattavien resurssien työtunnit esittelytietoja tuotaessa. Valitse **Asetukset** > **Suojaus** > **Käyttäjät**, etsi käyttäjä Spencer Low ja avaa Työtunnit-asetus. Muokkaa nykyisiä työtunteja valitsemalla **Koko viikoittain toistuva aikataulu alusta loppuun** -asetus. Varmista, että **työtunneiksi on määritetty 8.00–17.00 (9 tuntia) maanantaista perjantaihin ja aikavyöhykkeeksi on määritetty Tyynenmeren normaaliaika (USA ja Kanada)**. Tällä tavoin varmistaa, että projekti- ja aikataulutaulukko näkyvät odotetusti.
 
 **Suositus:** Organisaatiolle kannattaa luoda varmuuskopio nyt siltä varalta, että asennuksessa on palattava aloituskohtaan. Näin saattaa käydä, jos näytetietojen asennuksen aikana tapahtuu virhe. Lisätietoja on kohdassa [Ilmentymien varmuuskopiointi ja palautus](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Suorita Package Deployer
 
-1. Etsi ja suorita **PackageDeployer.exe**. Se on **v902FPSMasterData** - TAI **PackageDeployer_FPSDemoData** -kansiossa.
+1. Etsi ja suorita **PackageDeployer.exe**. Se on **v902FPSMasterData**- TAI **PackageDeployer_FPSDemoData**-kansiossa.
 
 2. Hyväksy ehdot.
 
 3. Seuraava ikkuna:
 
-   a. Valitse **Office 365** :n käyttöönottotyyppi.
+   a. Valitse **Office 365**:n käyttöönottotyyppi.
 
    b. Käytä järjestelmänvalvojalle Käyttäjien luominen tai määrittäminen -kohdassa luotua käyttäjää ja salasanaa (Spencer Low ja käyttäjätunnus spencerl).
 
@@ -203,7 +203,7 @@ Alla on lisää näiden tietojen asennukseen liittyviä teknisiä tietoja.
 
 Jos näytetiedot on asennettava olemassa olevan Field Service- tai Project Service -kokeilu- tai esittely-ympäristöön, jossa on jo tietoja, asennusohjelman suorittamat turvallisuuteen liittyvät esitarkistukset on poistettava käytöstä tilapäisesti.
 
-Jos haluat tehdä niin, siirry **PkgFolder** -kansioon, etsi **DemoDataPreImportConfig.xml** -tiedosto ja avaa se Muistiolla (tai toisella XML-editorilla).
+Jos haluat tehdä niin, siirry **PkgFolder**-kansioon, etsi **DemoDataPreImportConfig.xml**-tiedosto ja avaa se Muistiolla (tai toisella XML-editorilla).
 
 Etsi seuraava arvo ja muuta Tosi-arvo Epätosi-arvoksi:
 
@@ -235,13 +235,13 @@ Tässä tuontia edeltävässä määritystiedostossa on useita muita määrityks
 
 - **\<EntitiesToEnableScheduling\>** määrittää, mitkä entiteetit otetaan käyttöön varaukselle Microsoft Dynamics Schedulingissa (eli Universal Resource Schedulingissa).
 
-- **\<UsersToCreateAndConfigure\>** määrittää varattavissa olevat resurssit, jotka luodaan (jos niitä ei jo ole) ennen näytetietojen tuontia. Ota huomioon, että lähdejärjestelmän näytetietojen varattavissa oleva resurssi vastaa kohdejärjestelmän varattavissa olevan resurssin tietueita FullName-kohdassa ja kunkin resurssin sisäänkirjauksessa. Tämän vuoksi esimääritystiedoston nimiä EI voi muuttaa, ennen kuin näytetiedot on tuotu kohdejärjestelmään käyttämällä näitä nimiä, varattavissa olevat resurssit ja aktivoitujen käyttäjien tietueet on nimetty uudelleen ja tiedot viety uudelleen tuontia varten lopulliseen kohdejärjestelmään (samalla päivitetään vastaavasti **ImportUserMapFile.xml** -tiedoston vanhat ja uudet merkinnät).
+- **\<UsersToCreateAndConfigure\>** määrittää varattavissa olevat resurssit, jotka luodaan (jos niitä ei jo ole) ennen näytetietojen tuontia. Ota huomioon, että lähdejärjestelmän näytetietojen varattavissa oleva resurssi vastaa kohdejärjestelmän varattavissa olevan resurssin tietueita FullName-kohdassa ja kunkin resurssin sisäänkirjauksessa. Tämän vuoksi esimääritystiedoston nimiä EI voi muuttaa, ennen kuin näytetiedot on tuotu kohdejärjestelmään käyttämällä näitä nimiä, varattavissa olevat resurssit ja aktivoitujen käyttäjien tietueet on nimetty uudelleen ja tiedot viety uudelleen tuontia varten lopulliseen kohdejärjestelmään (samalla päivitetään vastaavasti **ImportUserMapFile.xml**-tiedoston vanhat ja uudet merkinnät).
 
 - **\<PluginsToDisable\>** määrittää nimikkeen laajennukset, jotka on poistettava käytöstä näytetietojen tuonnin aikana. Tämän jälkeen ne otetaan uudelleen käyttöön.
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Fabrikam Robotics -yrityksen kuvitteellinen skenaario
 
-Field Service- ja Project Service -viitetietojen näytetietopaketit asentavat **Fabrikamin valmistuksen perustiedot (v3.0.0.0) -ratkaisun** sekä noin 4 000 tietuetta ja 40 eri entiteettiä. Field Service- ja Project Service -sovelluksen erilliset näytetietopaketit sisältävät kyseisen sovelluksen **v902FPSMasterData** -näytetietojen alijoukon. **Esittelytietopaketti** asentaa **Fabrikamin valmistuksen perustiedot (v3.0.0.7) -ratkaisun** , jossa on noin 22 000 tietuetta 148 entiteetissä.
+Field Service- ja Project Service -viitetietojen näytetietopaketit asentavat **Fabrikamin valmistuksen perustiedot (v3.0.0.0) -ratkaisun** sekä noin 4 000 tietuetta ja 40 eri entiteettiä. Field Service- ja Project Service -sovelluksen erilliset näytetietopaketit sisältävät kyseisen sovelluksen **v902FPSMasterData**-näytetietojen alijoukon. **Esittelytietopaketti** asentaa **Fabrikamin valmistuksen perustiedot (v3.0.0.7) -ratkaisun**, jossa on noin 22 000 tietuetta 148 entiteetissä.
 
 Kuvitteellinen Fabrikam Robotics -yritys valmistaa elektronisten laitteiden kokoonpanolinjan robotteja. Yritys on tunnettu tuotteiden laadusta, innovoinnista ja hyvästä asiakaspalvelusta. Siihen kuuluvat esimerkiksi asennuksen suunnittelu, käyttöönotto ja jatkuva ylläpito. Fabrikamin pääkonttori on Yhdysvalloissa (Fabrikam US). Sillä on projektikohtaisia palvelutoimintoja Ranskassa, Intiassa, Isossa-Britanniassa ja Sveitsissä.
 
@@ -291,7 +291,7 @@ Kaikilla varattavissa olevilla resursseilla on 24 työtunnin oletuskalenteri.
 
 Jos haluat muuttaa varattavissa olevien näyteresurssien työtunteja, siirry kohtaan **Universal Resource Scheduling** > **Aikataulutus** > **Resurssit**.
 
-Valitse käyttäjä (esimerkiksi Spencer Low) ja muuta käyttäjän työtunnit. Tätä asetusta käytetään useilla käyttäjillä. Siirry kohtaan **Universal Resource Scheduling** > **Asetukset** > **Työtuntimallit** ja muokkaa **Oletustyömalli** -tietuetta. Valitse **Malliresurssi** -kentässä käyttäjä, jonka työtunnit haluat ottaa käyttöön muissa resursseissa. Siirry kohtaan **Universal Resource Scheduling** > **Aikataulutus** > **Resurssit** > **Aktiiviset varattavissa olevat resurssit**. Valitse muutettavat resurssit ja valitse sitten **Määritä kalenteri**. Valitse avattavasta **Työmalli** -luettelosta **Oletustyötunti** -malli tai toinen malli, jossa on oikea malliresurssi. Nyt aikataulutaulukossa pitäisi näkyä resurssien päivitetyt työtunnit.
+Valitse käyttäjä (esimerkiksi Spencer Low) ja muuta käyttäjän työtunnit. Tätä asetusta käytetään useilla käyttäjillä. Siirry kohtaan **Universal Resource Scheduling** > **Asetukset** > **Työtuntimallit** ja muokkaa **Oletustyömalli**-tietuetta. Valitse **Malliresurssi**-kentässä käyttäjä, jonka työtunnit haluat ottaa käyttöön muissa resursseissa. Siirry kohtaan **Universal Resource Scheduling** > **Aikataulutus** > **Resurssit** > **Aktiiviset varattavissa olevat resurssit**. Valitse muutettavat resurssit ja valitse sitten **Määritä kalenteri**. Valitse avattavasta **Työmalli**-luettelosta **Oletustyötunti**-malli tai toinen malli, jossa on oikea malliresurssi. Nyt aikataulutaulukossa pitäisi näkyä resurssien päivitetyt työtunnit.
 
 > [!div class="mx-imgBorder"]
 > ![Aktiivisten varattavissa olevien resurssien näyttökuva](media/sample-data-6.png)

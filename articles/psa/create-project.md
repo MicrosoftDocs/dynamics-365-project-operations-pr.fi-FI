@@ -3,7 +3,7 @@ title: Luo projekti
 description: Luo projekti Project Servicessä
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075360"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133094"
 ---
 # <a name="create-a-project-project-service"></a>Luo projekti (Project Service)
 
@@ -42,7 +42,7 @@ Luo projekti käyttämällä [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-
 Seuraavaksi luodaan työrakenne projektin tehtävien, ajoituksen ja tarvittavien projektin resurssien roolien määrittämiseen.  
 
 > [!NOTE]
-> Aikataulutettaessa Project Service Automation noudattaa käytettävän **Työaika** -mallin aikavyöhykettä. Kun tarkastelet aikataulun tehtäviä, tehtävän alkamis- ja päättymispäivät näkyvät kuitenkin käyttäjän aikavyöhykkeellä. Tämä koskee muita aikavaiheistettuja näkymiä **Projekti** -lomakkeessa. Jos käyttäjän aikavyöhyke ei vastaa projektiin sovellettavan työaikamallin aikavyöhykettä, näkyviin tulee varoitus, jossa ero on selitetty. 
+> Aikataulutettaessa Project Service Automation noudattaa käytettävän **Työaika**-mallin aikavyöhykettä. Kun tarkastelet aikataulun tehtäviä, tehtävän alkamis- ja päättymispäivät näkyvät kuitenkin käyttäjän aikavyöhykkeellä. Tämä koskee muita aikavaiheistettuja näkymiä **Projekti**-lomakkeessa. Jos käyttäjän aikavyöhyke ei vastaa projektiin sovellettavan työaikamallin aikavyöhykettä, näkyviin tulee varoitus, jossa ero on selitetty. 
   
 ### <a name="see-also"></a>Katso myös  
  [Projektipäällikön opas](../psa/project-manager-guide.md)

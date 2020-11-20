@@ -1,74 +1,76 @@
 ---
-title: Laskutusaikataulujen luominen projektipohjaisella sopimusrivillä
-description: Tässä aiheessa on tietoja laskutusaikataulun ja välitavoitteiden luomisesta sopimusriveille.
+title: Laskutusaikataulujen luominen projektipohjaisella sopimusrivillä – lite
+description: Tässä aiheessa on tietoja laskutuksen aikataulujen ja välitavoitteiden luomisesta.
 author: rumant
 manager: Annbe
-ms.date: 10/17/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2183b915dd2f67e03964246cb0689003e48363f7
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4075582"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180323"
 ---
-# <a name="creating-invoice-schedules-on-a-project-based-contract-line"></a>Laskutusaikataulujen luominen projektipohjaisella sopimusrivillä
+# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Laskutusaikataulujen luominen projektipohjaisella sopimusrivillä – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
+Laskutusaikataulun voi liittää projektipohjaiseen sopimusriviin. Laskutus on mahdollista vasta, kun sopimus voitettu ja projektisopimus luodaan. Laskutusaikatauluissa on mahdollista luoda projektipohjaisen sopimusrivin laskuluonnos automaattisesti. Jos laskut on tarkoitus luoda aina manuaalisesti, projektipohjaisen sopimusrivin tai sopimusrivin laskuaikataulujen luominen voidaan ohittaa.
 
-Voit luoda laskutusaikataulun projektipohjaiselle sopimusriville. Laskutus on sallittu vain, kun palvelusopimus on voitettu ja olet luomassa projektisopimusta. Laskun aikataulussa voi automaattisesti luoda projektipohjaisen sopimusrivin luonnoslaskuja. Jos kuitenkin luot laskuja manuaalisesti, voit ohittaa laskuaikataulun luomisen sopimusriveille.
-
-## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Aika- ja materiaalilaskutusaikataulun luominen sopimusriville
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-contract-line"></a>Projektipohjaisen sopimusrivin ajan ja materiaalin laskutusaikataulun luominen
 
 Kun projektipohjaisella sopimusrivillä on aika- ja materiaalilaskutapa, voit luoda päivämäärään perustuvan laskuaikataulun. Jos haluat luoda päivämäärään perustuvan laskutusaika taulun automaattisesti, tee seuraavat toimet.
 
-1. Siirry kohtaan **Asetukset** > **Laskujen tiheys** ja määritä laskujen tiheys.
-2. Siirry projektisopimustietueeseen ja valitse haluamasi päivämäärä **Yhteenveto** -välilehden **pyydetty toimituspvm** -kentässä.
-3. Avaa **aika- ja materiaali** -sopimusrivi, jolle haluat luoda päivämäärään perustuvan laskutusaikataulun. 
-4. Valitse **Laskutusaikataulu** -välilehdellä laskutuksen aloitus- ja laskujen tiheys -kenttien arvot.
-5. Valitse aliruudukossa **Luo laskutusaikataulu**. Luodaan laskutusaikataulu, jossa on **Laskun suorituspäivä** -, **Tapahtuman katkaisupäivä** - ja **Suorituksen tila** -kentät määritetty seuraavasti:
+1. Määritä laskutustiheys valitsemalla **Asetukset** > **Laskutustiheys**.
+2. Avaa projektisopimus ja määritä pyydetty toimituspäivä **Yhteenveto**-välilehdessä.
+3. Avaa se ajan ja materiaalin sopimusrivi, jolle haluat luoda päivämäärään perustuvan laskutusaikataulun. 
+4. Valitse **Laskutusaikataulu**-välilehdessä laskutuksen alkamispäivä ja laskutustiheys. 
+5. Valitse aliruudukossa **Luo laskutusaikataulu**.
 
-    - **Laskun suorituspäivä** : Tämän päivämäärän määrää laskutiheys.
-    - **Tapahtuman katkaisupäivä** : Päivä ennen laskun suorituspäivää.
-    - **Suorituksen tila** : Määritetään automaattisesti **Ei suoritettu**. Kun automaattisen laskun luonnin työ suoritetaan tietylle laskun suorituspäivälle, kentän arvoksi päivitetään joko **Suoritus onnistui** tai **Suoritus epäonnistui**.
+    Järjestelmä luo laskutusaikataulun, jonka kentissä on seuraavat tiedot:
 
+    - **Laskun suorituspäivä** -arvoksi määritetään laskutustiheyteen perustuva päivämäärä.
+    - **Tapahtuman katkaisupäivä** -arvoksi määritetään **Laskun suorituspäivä** -arvoa edeltävä päivä.
+    - **Suorituksen tila** -arvoksi määritetään automaattisesti **Ei suoritettu**. Kun automaattisen laskun luontityö suoritetaan tietylle **laskun suorituspäivälle**, kentän arvoksi päivitetään joko **Suoritus onnistui** tai **Suoritus epäonnistui**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Kiinteähintaisen laskutusaikataulun luominen sopimusriville
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-contract-line"></a>Projektipohjaisen sopimusrivin kiinteähintaisen laskutusaikataulun luominen
 
-Kun sopimusrivillä on kiinteähintainen laskutusmenetelmä, voit luoda välitavoitepohjaisen laskutusaikataulun. Suorita seuraavat vaiheet, jotta voit luoda välitavoitepohjaisen laskuaikataulun kiinteälle joukolle tasaisesti jaettuja välitavoitteita kalenterijaksolle.
+Jos projektipohjaisen sopimusrivin laskutustapa on kiinteähintainen, laskutusaikataulu voidaan luoda välitavoitteiden perusteella. Seuraavilla ohjeilla luodaan automaattisesti välitavoitteeseen perustuva laskutusaikataulu sellaiselle kiinteälle välitavoitejoukolle, joka jakautuu tasaisesti kalenterijaksolle.
 
-1. Siirry kohtaan **Asetukset** > **Laskujen tiheys** ja määritä laskujen tiheys.
-2. Siirry projektisopimustietueeseen ja valitse haluamasi päivämäärä **Yhteenveto** -välilehden **pyydetty toimituspvm** -kentässä.
-3. Avaa **kiinteähintainen** sopimusrivi, jolle luot välitavoiteaikataulun. Valitse **Laskutusvälitavoitteet** -välilehdellä laskutuksen aloitus- ja laskujen tiheys -kenttien arvot. 
-4. Valitse aliruudukossa **Luo jaksoittaiset välitavoitteet**. Laskun aikataulu luodaan siten, että **välitavoitteen nimi** , **välitavoitteen päivä** ja **välitavoitteen summa** -kentät ovat seuraavat:
+1. Määritä laskutustiheys valitsemalla **Asetukset** > **Laskutustiheys**.
+2. Avaa projektisopimus ja määritä pyydetty toimituspäivä **Yhteenveto**-välilehdessä.
+3. Avaa se kiinteähintainen sopimusrivi, jolle on luotava välitavoiteaikataulu. 
+4. Valitse **Laskutusaikataulu (laskutuksen välitavoitteet)**-välilehdessä laskutuksen alkamispäivä ja laskutustiheys. 
+5. Valitse aliruudukossa **Luo jaksoittaiset välitavoitteet**.
 
-    - **Välitavoitteen nimi** : Tämän päivämäärän määrää laskutiheys.
-    - **Välitavoitteen päivämäärä** : Tämän päivämäärän määrää laskutiheys.
-    - **Välitavoitteen summa** : Tämä määrä lasketaan jakamalla sopimuksen summa sopimusrivillä välitavoitteiden määrällä, joka määräytyy laskujen tiheyden, laskutuksen alkamispäivän ja pyydettyjen toimituspäivien mukaan.
+    Järjestelmä luo laskutusaikataulun, jonka kentissä on seuraavat välitavoitetiedot:
 
-    Jos sopimusrivillä on arvo **arvioitu verosumma** -kentässä, tämä kenttä on myös suhteutettu kuhunkin välitavoitteeseen samalla tavalla, kun luodaan kausittaisia välitavoitteita.
+    - **Välitavoitteen nimi** -arvoksi on määritetty laskutustiheyteen perustuva päivämäärä.
+    - **Välitavoitteen päivämäärä** -arvoksi on määritetty laskutustiheyteen perustuva päivämäärä.
+    - **Välitavoitteen** lasketaan jakamalla projektipohjaisen sopimusrivin sopimussumma tiheyteen sekä laskutuksen alkamis- ja pyydettyyn toimituspäivään perustuvien välitavoitteiden määrällä.
+    - Jos sopimusrivin **Arvioitu verosumma** -kentässä on arvo, myös tämä kenttä jaetaan tasan kullekin välitavoitteelle kausittaisia välitavoitteita luotaessa.
 
-Laskutuksen välitavoitteiden on vastattava sopimusrivin sovittua arvoa. Jos näin ei ole, saat virheilmoituksen **sopimusrivi** -sivulla. Voit korjata virheen tarkistamalla, että laskun välitavoitteet ovat rivin sopimuksen arvon mukaisia luomalla, muokkaamalla tai poistamalla välitavoitteita. Kun muutokset on tehty, voit poistaa virheen päivittämällä sivun.
+Laskutuksen välitavoitteiden on oltava yhtä suuri kuin projektipohjaisen sopimusrivin sopimusarvo. Jos ne eivät ole yhtä suuri, tapahtuu virhe. Virheen voi korjata varmistamalla, että laskutuksen välitavoitteiden yhteissumma on sama kuin rivin sopimusarvo. Tämä voidaan tehdä luomalla, muokkaamalla tai poistamalla välitavoitteita. Kun muutokset on tehty, päivitä sivu.
 
 ### <a name="manually-create-milestones"></a>Luo välitavoitteet manuaalisesti
 
-Voit luoda kiinteähintaisia välitavoitteita myös manuaalisesti, jos niitä ei jaeta jaksoittain. Luo välitavoite manuaalisesti suorittamalla seuraavat vaiheet.
+Kiinteähintaiset välitavoitteet voidaan luoda manuaalisesti, kun niitä ei ole jaettu kausittain. Välitavoite luodaan manuaalisesti seuraavien ohjeiden mukaisesti.
 
-1. Avaa kiinteän hinnan sopimusrivi, jolle olet luomassa välitavoitetta, ja **Valitse laskun ajoitus** -välilehden aliruudukossa **+ Luo uusi sopimusrivivälitavoite**. 
-2. Kirjoita **välitavoitteen luonti** -sivulla seuraavan taulukon edellyttämät tiedot.
+1. Avaa se kiinteähintainen sopimusrivi, johon haluat luoda välitavoitteen. 
+2. Valitse **Laskutusaikataulu**-välilehden aliruudukossa **+ Luo uusi sopimusrivin välitavoite**.
+3. Anna **Välitavoitteen luonti** -lomakkeessa tarvittavat tiedot seuraavan taulukon perusteella. 
 
-| Field | Sijainti | Relevanssi, tarkoitus ja opastus | Loppupään vaikutus |
+| Field | Sijainti | Kuvaus | Loppupään vaikutus |
 | --- | --- | --- | --- |
-| Välitavoitteen nimi | Pikaluonti | Välitavoitteen nimen tekstikenttä. | Tämä siirretään projektin sopimusrivin välitavoitteeseen ja laskuun. |
-| Projektin tehtävä | Pikaluonti | Jos välitavoite on sidottu projektitehtävään, lisää tähän viitteeseen mukautettu logiikka asettaaksesi välitavoitteen tilan tehtävän tilan perusteella. | Sovelluksella ei ole tämän tehtävän viitteen suhteen vaikutusta loppupäähän. |
-| Välitavoitteen päivämäärä | Pikaluonti | Määritä päivämäärä, jolloin automaattisen laskunluontiprosessin on etsittävä tämän välitavoitteen tila, jotta se voidaan ottaa huomioon laskutusta varten. | Tämä siirretään projektin sopimusrivin välitavoitteeseen ja laskuun. |
-| Laskun tila | Pikaluonti | Kun välitavoite luodaan, tämän tilan arvoksi on aina määritetty **Ei valmis laskutettavaksi** tai **Ei aloitettu**. | Tämä siirretään projektin sopimusrivin välitavoitteeseen ja laskuun. |
-| Rivisumma | Pikaluonti | Välitavoitteen summa tai arvo, joka laskutetaan asiakkaalta. | Tämä siirretään projektin sopimusrivin välitavoitteeseen ja laskuun. |
-| Vero | Pikaluonti | Välitavoitteessa käytetty verosumma. | Tämä siirretään projektin sopimusrivin välitavoitteeseen ja laskuun. |
+| Välitavoitteen nimi | Pikaluonti | Välitavoitteen nimen tekstikenttä. | Tämä kenttä sisältyy projektisopimusrivin välitavoitteeseen ja laskuun. |
+| Projektin tehtävä | Pikaluonti | Jos välitavoite on sidottu projektitehtävään, lisää mukautettu logiikka tämän viittauksen avulla ja määritä välitavoitteen tila tehtävän tilan perusteella. | Tämä viittaus ei vaikuta myöhemmin tehtävään. |
+| Välitavoitteen päivämäärä | Pikaluonti | Päivämäärä, jolloin automaattisen luontiprosessin on etsittävä tämän välitavoitteen tilaa mahdollista laskutusta varten. | Se sisältyy projektisopimusrivin välitavoitteeseen ja laskuun. |
+| Laskun tila | Pikaluonti | Kun välitavoite on luotu, tämä tila on aina **Ei valmis laskutukseen** tai **Ei aloitettu**. | Se sisältyy projektisopimusrivin välitavoitteeseen ja laskuun. |
+| Rivisumma | Pikaluonti | Asiakkaalta laskutettavan välitavoitteen summa tai arvo. | Tämä kenttä sisältyy projektisopimusrivin välitavoitteeseen ja laskuun. |
+| Vero | Pikaluonti | Välitavoitteessa käytetty verosumma. | Se sisältyy projektisopimusrivin välitavoitteeseen ja laskuun. |
 
-3. Valitse **Tallenna ja sulje**.
-| Rivimäärä | Pikaluonti | Asiakkaalta laskutettavan välitavoitteen summa tai arvo | Tämä välitetään projektisopimusrivin välitavoitteeseen ja laskuun | | Vero | Pikaluonti | Välitavoitteessa käytettävä verosumma | Tämä välitetään projektisopimusrivin välitavoitteeseen ja laskuun |
+4. Valitse **Tallenna ja sulje**.

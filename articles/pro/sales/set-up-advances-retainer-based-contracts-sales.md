@@ -1,21 +1,21 @@
 ---
-title: Ennakkomaksut ja ennakkomaksuun perustuvat palvelusopimukset
+title: Ennakkomaksut ja ennakkomaksuun perustuvat palvelusopimukset – lite
 description: Tässä aiheessa on tietoja siitä, miten tietoa pidätyspohjaisista sopimusmalleista ja ennakoista Project Operationsissa.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087889"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180863"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Ennakkomaksut ja ennakkomaksuun perustuvat palvelusopimukset 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Ennakkomaksut ja ennakkomaksuun perustuvat palvelusopimukset – lite
 
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
@@ -33,7 +33,7 @@ Kausittaisen ajankäyttösuunnitelman lisäksi Project Operations voi kirjata as
 
 Project Operationsin pidätys ei ole käytettävissä, ennen kuin se laskutetaan asiakkaalta. Tämä ilmaistaan seuraavissa aliruudukon kentissä ennakoina ja pidätyksinä.
 
-| Field | Relevanssi, tarkoitus ja opastus | Loppupään vaikutus |
+| Field | Kuvaus | Loppupään vaikutus |
 | --- | --- | --- |
 | Käytettävissä oleva summa | Summa, joka on käytettävissä maksu- tai ennakkotietueessa. | Sitä ei voi käyttää, ennen kuin ennakko tai maksu on laskutettu, joten käytettävissä oleva summa on nolla. |
 | Käytetty summa | Summa, joka on jo käytetty pidätyksissä tai ennakoissa. | Ennakko tai pidätys voidaan täsmäyttää laskuun, jolla on todelliset kustannukset ja jonka osa on merkitty jo käytetyksi tai kulutetuksi. Muu ennakko tai maksun summa on käytettävissä, jotta tulevaan laskuun voidaan täsmäyttää todelliset kustannukset. |

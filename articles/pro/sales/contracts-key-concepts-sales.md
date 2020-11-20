@@ -1,21 +1,21 @@
 ---
-title: Projektin palvelusopimusten keskeiset käsitteet
+title: Projektin palvelusopimusten keskeiset käsitteet – lite
 description: Tässä aiheessa on tietoja projektitarjousten avainkonsepteista.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66d6b72b19a90ecc9161cd16ce9d4dd22798803b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075254"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177057"
 ---
-# <a name="key-concepts-of-project-contracts"></a>Projektin palvelusopimusten keskeiset käsitteet
+# <a name="project-contracts---key-concepts---lite"></a>Projektin palvelusopimusten keskeiset käsitteet – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
@@ -27,7 +27,7 @@ Sopimusyksikkö tarkoittaa divisioonaa tai käytäntöä, joka omistaa projektin
 
 ## <a name="cost-currency"></a>Kustannuksen valuutta
 
-Kustannusvaluutta on se valuutta, jossa kustannukset raportoidaan ruudulla. Tämä valuutta johdetaan palvelusopimuksen ja projektin **Sopimusyksikkö** -kenttään liitetystä valuutasta. Kustannukset voidaan kirjata mihin tahansa valuuttaan projektissa. Valuutan muunnon valuuttakustannukset on kuitenkin kirjattu projektin kustannusvaluuttaan, kun ne näytetään ruudulla.
+Kustannusvaluutta on se valuutta, jossa kustannukset raportoidaan ruudulla. Tämä valuutta johdetaan palvelusopimuksen ja projektin **Sopimusyksikkö**-kenttään liitetystä valuutasta. Kustannukset voidaan kirjata mihin tahansa valuuttaan projektissa. Valuutan muunnon valuuttakustannukset on kuitenkin kirjattu projektin kustannusvaluuttaan, kun ne näytetään ruudulla.
 
 Koska Common Data Service (CDS) -ympäristön valuuttakurssit eivät voi olla ajan tasalla, kustannusten näyttösummat voivat muuttua ajan mittaan, jos päivität valuutan vaihtokursseja. Tietokantaan kirjatut kustannukset säilyvät kuitenkin ennallaan, koska summat on tallennettu valuuttana, jossa ne ovat syntyneet.
 
@@ -35,7 +35,7 @@ Koska Common Data Service (CDS) -ympäristön valuuttakurssit eivät voi olla aj
 
 Project Operationsin myyntivaluutta on valuutta, jossa arvioidut ja toteutuneet myyntisummat tallennetaan ja näytetään. Se on myös myyntivaluutta, jossa asiakasta laskutetaan sopimuksesta. Projektisopimuksessa myyntivaluutan oletusarvona on asiakas- tai asiakkuustietue, ja sitä voi muuttaa, samalla kun sopimus luodaan. Kun palvelusopimus luodaan sulkemalla tarjous voitettuna, palvelusopimuksen valuutan oletusarvona on tarjouksen valuutta.
 
-Kun luot projektisopimuksen alusta alkaen, **myyntivaluutta** -kenttää ei voi muokata. Tuote- ja projektihinnastot perustuvat oletusarvon mukaan sopimuksen valuuttaan.
+Kun luot projektisopimuksen alusta alkaen, **myyntivaluutta**-kenttää ei voi muokata. Tuote- ja projektihinnastot perustuvat oletusarvon mukaan sopimuksen valuuttaan.
 
 Toisin kuin kustannukset, myyntiarvot voidaan kirjata vain myyntivaluuttana.
 

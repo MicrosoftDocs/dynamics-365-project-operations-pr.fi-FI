@@ -1,21 +1,21 @@
 ---
-title: Useiden asiakkaiden hallinta projektipohjaisilla tarjousriveillä
+title: Useiden asiakkaiden hallinta projektipohjaisilla tarjousriveillä – lite
 description: Tässä aiheessa kuvataan sitä, miten projektipohjaisilla tarjousriveillä hallitaan useita asiakkaita.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075249"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176472"
 ---
-# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Useiden asiakkaiden hallinta projektipohjaisilla tarjousriveillä
+# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Useiden asiakkaiden hallinta projektipohjaisilla tarjousriveillä – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
@@ -23,11 +23,11 @@ Projektipohjaiset tarjousrivit tukevat skenaarioita, joissa kullakin tarjousrivi
 
 Kun laskutat lopullista projektisopimusta, projektipohjaisen sopimusrivin asiakasluettelo on etusijalla projektisopimuksessa olevaan luetteloon nähden. Projektisopimuksen asiakasluetteloa käytetään vain uusien projektisopimusrivien oletusarvona.
 
-Kaikki tarjouksen asiakkaat projektitarjouksen **Asiakkaat** -välilehdessä ovat projektitarjouksen rivin oletusarvona projektitarjousta varten luoduille uusille projektipohjaisille tarjousriveille. Aiemmin luodut projektipohjaiset tarjousrivit eivät peri uusia tarjouksen asiakastietueita, jotka on luotu niiden jälkeen.
+Kaikki tarjouksen asiakkaat projektitarjouksen **Asiakkaat**-välilehdessä ovat projektitarjouksen rivin oletusarvona projektitarjousta varten luoduille uusille projektipohjaisille tarjousriveille. Aiemmin luodut projektipohjaiset tarjousrivit eivät peri uusia tarjouksen asiakastietueita, jotka on luotu niiden jälkeen.
 
 ## <a name="create-update-or-delete-a-quote-line-customer-record"></a>Tarjousrivin asiakastietueen luominen, päivittäminen tai poistaminen
 
-Voit luoda, päivittää tai poistaa tarjousrivin asiakkaan **Tarjousrivin asiakkaat** -välilehdessä, joka on **Projektipohjainen tarjousrivi** -sivulla. Kun lisäät uuden asiakkaan projektipohjaiseen tarjousriviin, asiakas lisätään myös kokonaistarjoukseen tarjouksen asiakkaana siten, että sen ja laskutuksen jaon oletusprosenttiosuus kokonaistarjouksesta on 0 %. Kokonaistarjouksen laskutuksen jaon prosentti kopioidaan uusille tarjousriveille sekä lopulliseen projektisopimukseen. Laskutettaessa sopimuksesta käytetään kuitenkin laskutuksen jakoprosenttia tarjousrivitasolla, ei laskutuksen jakoprosenttia kokonaissopimustasolla. 
+Voit luoda, päivittää tai poistaa tarjousrivin asiakkaan **Tarjousrivin asiakkaat**-välilehdessä, joka on **Projektipohjainen tarjousrivi** -sivulla. Kun lisäät uuden asiakkaan projektipohjaiseen tarjousriviin, asiakas lisätään myös kokonaistarjoukseen tarjouksen asiakkaana siten, että sen ja laskutuksen jaon oletusprosenttiosuus kokonaistarjouksesta on 0 %. Kokonaistarjouksen laskutuksen jaon prosentti kopioidaan uusille tarjousriveille sekä lopulliseen projektisopimukseen. Laskutettaessa sopimuksesta käytetään kuitenkin laskutuksen jakoprosenttia tarjousrivitasolla, ei laskutuksen jakoprosenttia kokonaissopimustasolla. 
 
 Seuraavassa taulukossa näkyy projektipohjaisen tarjousrivin Tarjousrivin asiakas -tietueen kentät.
 

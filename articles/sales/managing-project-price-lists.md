@@ -1,12 +1,12 @@
 ---
-title: Projektihinnastot
+title: Projektihinnastojen hallinta tarjouksessa
 description: Tässä aiheessa on tietoja projektin hinnastoentiteetistä.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075574"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177192"
 ---
-# <a name="project-price-lists"></a>Projektihinnastot
+# <a name="manage-project-price-lists-on-a-quote"></a>Projektihinnastojen hallinta tarjouksessa
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
@@ -34,16 +34,16 @@ Dynamics 365 Project Operations laajentaa Dynamics 365 Salesin hinnastoentiteeti
 
 Hinnasto sisältää neljästä eri entiteetistä peräisin olevia tietoja:
 
-- **Hinnasto** : Tähän entiteettiin tallennetaan tietoja kontekstista, valuutasta, päivämäärävälistä ja ajan hinnoittelun aikayksiköstä. Konteksti ilmaisee, esitetäänkö hinnasto kustannushintoina vai myyntihintoina. 
-- **Valuutta** : Tämä entiteetti sisältää hinnaston hintojen valuutan. 
-- **Päivämäärä** : Tätä entiteettiä käytetään, kun järjestelmä yrittää määrittää tapahtumalle oletushinnan. Valitaan hinnasto, jonka päivämääräväli kattaa tapahtuman päivämäärän. Jos löydetään useita hinnastoja, jotka pätevät asianomaiseen tarjoukseen, sopimukseen tai organisaatioyksikköön tapahtuman päivämääränä, oletushintaa ei määritetä. 
-- **Aika** : Tämä entiteetti sisältää hintojen aikayksikön (esim. päivä- tai tuntihinnat). 
+- **Hinnasto**: Tähän entiteettiin tallennetaan tietoja kontekstista, valuutasta, päivämäärävälistä ja ajan hinnoittelun aikayksiköstä. Konteksti ilmaisee, esitetäänkö hinnasto kustannushintoina vai myyntihintoina. 
+- **Valuutta**: Tämä entiteetti sisältää hinnaston hintojen valuutan. 
+- **Päivämäärä**: Tätä entiteettiä käytetään, kun järjestelmä yrittää määrittää tapahtumalle oletushinnan. Valitaan hinnasto, jonka päivämääräväli kattaa tapahtuman päivämäärän. Jos löydetään useita hinnastoja, jotka pätevät asianomaiseen tarjoukseen, sopimukseen tai organisaatioyksikköön tapahtuman päivämääränä, oletushintaa ei määritetä. 
+- **Aika**: Tämä entiteetti sisältää hintojen aikayksikön (esim. päivä- tai tuntihinnat). 
 
 Hinnasto-entiteetillä on kolme toisiinsa liittyvää hintoja sisältävää taulukkoa:
 
-  - **Roolin hinta** : Tämä taulukko sisältää hinnan roolin ja organisaatioyksikön arvojen yhdistelmälle, ja sitä käytetään rooliperusteisten hintojen määrittämiseen henkilöresursseille.
-  - **Tapahtumaluokan hinta** : Tämä taulukko sisältää tapahtumaluokkakohtaisia hintoja, ja sitä käytetään määrittämään kululuokkien hintoja.
-  - **Hinnaston nimikkeet** : Tämä taulukko sisältää luettelotuotteiden hintoja.
+  - **Roolin hinta**: Tämä taulukko sisältää hinnan roolin ja organisaatioyksikön arvojen yhdistelmälle, ja sitä käytetään rooliperusteisten hintojen määrittämiseen henkilöresursseille.
+  - **Tapahtumaluokan hinta**: Tämä taulukko sisältää tapahtumaluokkakohtaisia hintoja, ja sitä käytetään määrittämään kululuokkien hintoja.
+  - **Hinnaston nimikkeet**: Tämä taulukko sisältää luettelotuotteiden hintoja.
  
 Hinnasto on ilmoitushinnasto. Ilmoitushinnasto on yhdistelmä Hintaluettelo-entiteetistä ja siihen liittyvistä riveistä taulukoissa Roolin hinta, Tapahtumaluokan hinta ja Hinnaston nimikkeet.
 
@@ -51,17 +51,17 @@ Hinnasto on ilmoitushinnasto. Ilmoitushinnasto on yhdistelmä Hintaluettelo-enti
 
 Termi *resurssirooli* viittaa joukkoon taitoja, osaamista ja sertifikaatteja, jotka henkilöllä on oltava, jotta hän voisi suorittaa tietyn tehtäväjoukon projektissa.
 
-Henkilöresurssien ajan hinta perustuu siihen rooliin, joka resurssilla on tietyssä projektissa. Henkilöresurssin kustannuslaskenta ja laskutus perustuvat resurssirooliin. **Aika** -yksikköryhmässä aika voidaan hinnoitella missä tahansa yksikössä.
+Henkilöresurssien ajan hinta perustuu siihen rooliin, joka resurssilla on tietyssä projektissa. Henkilöresurssin kustannuslaskenta ja laskutus perustuvat resurssirooliin. **Aika**-yksikköryhmässä aika voidaan hinnoitella missä tahansa yksikössä.
 
-**Aika** -yksikköryhmä luodaan Project Operations -sovelluksen asentamisen yhteydessä. Sen oletusyksikkönä on **Tunti**. **Aika** -yksikköryhmän tai **Tunti** -yksikön määritteitä ei voi poistaa, nimetä uudelleen eikä muokata. **Aika** -yksikköryhmään voi kuitenkin lisätä muita yksikköjä. Jos yrität poistaa **Aika** -yksikköryhmää tai **Tunti** -yksikköä, liiketoimintalogiikassa voi aiheutua virheitä.
+**Aika**-yksikköryhmä luodaan Project Operations -sovelluksen asentamisen yhteydessä. Sen oletusyksikkönä on **Tunti**. **Aika**-yksikköryhmän tai **Tunti**-yksikön määritteitä ei voi poistaa, nimetä uudelleen eikä muokata. **Aika**-yksikköryhmään voi kuitenkin lisätä muita yksikköjä. Jos yrität poistaa **Aika**-yksikköryhmää tai **Tunti**-yksikköä, liiketoimintalogiikassa voi aiheutua virheitä.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Tapahtuma- ja kululuokat
 
 Matka- ja muut kulut, jotka aiheutuvat projektin konsulteille, laskutetaan asiakkaalta. Kululuokkien hinnoittelu viimeistellään hinnastojen avulla. Lentoliput, hotellit ja autojen vuokraukset ovat esimerkkejä kululuokista. Kukin kulujen hinnastorivi määrittää tietyn kululuokan hinnoittelun. Hinnan kululuokkissa käytetään seuraavia kolmea menetelmää:
 
-- **Kustannusten mukaan** : Kulujen kustannus veloitetaan asiakkaalta ilman hinnankorotusta.
-- **Hinnankorotusprosentti** : Asiakkaalta laskutettava todellisen kustannuksen ylittävä prosenttiosuus. 
-- **Yksikköhinta** : Kullekin kululuokan yksikölle määritetään laskutushinta. Asiakkaalta laskutettava summa lasketaan konsultin ilmoittamien kuluyksikköjen määrän perusteella. Kilometrikorvauksessa käytetään yksikkökohtaista hinnoittelutapaa. Kilometrikorvausten kululuokan hinnaksi voidaan määrittää esimerkiksi 30 Yhdysvaltojen dollaria (USD) päivää kohden tai 2 USD mailia kohden. Kun konsultti ilmoittaa projektin kilometrikorvaukset, laskutettava summa lasketaan konsultin ilmoittamien mailien perusteella.
+- **Kustannusten mukaan**: Kulujen kustannus veloitetaan asiakkaalta ilman hinnankorotusta.
+- **Hinnankorotusprosentti**: Asiakkaalta laskutettava todellisen kustannuksen ylittävä prosenttiosuus. 
+- **Yksikköhinta**: Kullekin kululuokan yksikölle määritetään laskutushinta. Asiakkaalta laskutettava summa lasketaan konsultin ilmoittamien kuluyksikköjen määrän perusteella. Kilometrikorvauksessa käytetään yksikkökohtaista hinnoittelutapaa. Kilometrikorvausten kululuokan hinnaksi voidaan määrittää esimerkiksi 30 Yhdysvaltojen dollaria (USD) päivää kohden tai 2 USD mailia kohden. Kun konsultti ilmoittaa projektin kilometrikorvaukset, laskutettava summa lasketaan konsultin ilmoittamien mailien perusteella.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projektien myyntihinnoittelu ja hintojen korvaaminen
 
@@ -93,7 +93,7 @@ Projektisopimuksen liittyvien projektihinnastojen automaattisessa määrityksess
 3. Asiakas 
 4. Yleiset asetukset 
 
-Kun projektihinnasto määritetään oletusarvoisesti, järjestelmä tarkistaa, että valuutta vastaa asiakkaan valuuttaa ja että määritetyillä oletushinnastoilla on **Myynti** -konteksti.
+Kun projektihinnasto määritetään oletusarvoisesti, järjestelmä tarkistaa, että valuutta vastaa asiakkaan valuuttaa ja että määritetyillä oletushinnastoilla on **Myynti**-konteksti.
 
 Entiteeteille Asiakas, Mahdollisuus, Tarjous ja Projektisopimus voidaan kohdentaa useita projektihinnastoja. Tämä ominaisuus tukee päivämääräkohtaisia oletushintoja pitkäaikaisessa projektisopimuksessa, joka voi edellyttää useita hinnastoja inflaatiosta johtuvien hintapäivitysten mahdollistamista varten. Jos entiteetille Asiakas, Mahdollisuus, Tarjous tai Projektisopimus kohdennetuilla hinnastoilla kuitenkin on päällekkäisiä päivämäärävälejä, oletushinnat voivat olla virheellisiä. Tämän vuoksi on varmistettava, että kyseisille entiteeteille ei kohdenneta päällekkäisiä päivämäärävälejä sisältäviä projektihinnastoja.
 
@@ -103,7 +103,7 @@ Voit luoda kauppakohtaisia korvaavuuksia tietyille projektihinnastojen hinnoille
 
 Oletusarvoisesti projektisopimukseen lisätään aina jäljennös päämyyntihinnastosta sen sijaan, että käytettäisiin linkkiä siihen. Tämä auttaa sen varmistamisessa, että asiakkaan kanssa tietyn työnkuvauksen osalta sovitut hinnat eivät muutu, jos päähinnasto muuttuu.
 
-Tarjouksessa kuitenkin voidaan käyttää päähinnastoa. Vaihtoehtoisesti voit kopioida päähintaluettelon ja muuttaa sen muokatuksi hinnastoksi, joka pätee vain kulloiseenkin tarjoukseen. Voit luoda uuden tarjouskohtaisen hinnaston valitsemalla **Tarjous** -sivulla **Luo mukautettu hinnoittelu**. Kauppakohtaista projektihinnastoa voidaan käyttää vain tarjouksesta käsin. 
+Tarjouksessa kuitenkin voidaan käyttää päähinnastoa. Vaihtoehtoisesti voit kopioida päähintaluettelon ja muuttaa sen muokatuksi hinnastoksi, joka pätee vain kulloiseenkin tarjoukseen. Voit luoda uuden tarjouskohtaisen hinnaston valitsemalla **Tarjous**-sivulla **Luo mukautettu hinnoittelu**. Kauppakohtaista projektihinnastoa voidaan käyttää vain tarjouksesta käsin. 
 
 Kun luot mukautetun projektihinnaston, ainoastaan hinnaston projektikomponentit kopioidaan. Toisin sanoen uusi hinnasto luodaan kopiona tarjoukseen liitetystä projektihinnastosta, ja tässä uudessa hinnastossa on vain liittyviä roolin hintoja ja tapahtumaluokan hintoja.
   

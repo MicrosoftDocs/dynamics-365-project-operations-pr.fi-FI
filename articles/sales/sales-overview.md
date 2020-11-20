@@ -1,29 +1,23 @@
 ---
-title: Myyntiprosessien yleiskatsaus
+title: Myyntiprosessin yleiskatsaus
 description: Tämä aihe sisältää tietoja perustason myyntiprosesseista.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075547"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177597"
 ---
-# <a name="sales-processes-overview"></a>Myyntiprosessien yleiskatsaus
+# <a name="sales-process-overview"></a>Myyntiprosessin yleiskatsaus
+
+_**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
 Projektiperusteisessa organisaatiossa käytettävät myyntiprosessit eroavat tuoteperusteisessa organisaatiossa käytettävistä myyntiprosesseista. Tämä ero johtuu siitä, että projektiperusteisten organisaatioiden myyntisyklit ovat pidempiä ja edellyttävät mukautettuja arviointimenetelmiä tarjousten analysoimiseksi ja luomiseksi kullekin kaupalle. Dynamics 365 Project Operations käyttää joitakin seuraavia samoja toimintoja kuin myyntiprosessit:
 
@@ -56,12 +50,12 @@ Yrityksen myyntiprosessissa voi olla esimerkiksi seuraavat kuusi vaihetta:
  
 Organisaatiossasi saatetaan käyttää eri entiteettejä edustamaan samaa kauppaa sen muuttuessa. Aikaisin myyntiprosessissa kauppaa edustaa Mahdollisuus-entiteetti. Ajan myötä ja kaupan tarkentuessa saatetaan käyttää ylätason arvioita yhden tai useamman tarjouksen luomiseen. Jos sisäiset ja asiakkaan sidosryhmät tarkistavat yhden näistä tarjouksista, kauppaa edustaa Tarjous-entiteetti. Kun asiakas on hyväksynyt tarjouksen, kauppaa edustaa projektisopimus tai työnkuvaus. Näiden toimintojen tukemiseksi jokainen prosessin vaihe on liiketoimintaprosessien rakenteessa linkitetty eri tietokantataulukkoon.
 
-Myyntiprosessin **Hyväksy** -vaihetta voidaan tukea Mahdollisuus-entiteetillä. Vaiheita **Arvio** ja **Sisäinen arviointi** voidaan tukea Tarjous-entiteetillä. Vaiheita **Sopimus** , **Toimitus** ja **Sulkeminen** voidaan tukea Projektisopimus-entiteetillä.
+Myyntiprosessin **Hyväksy**-vaihetta voidaan tukea Mahdollisuus-entiteetillä. Vaiheita **Arvio** ja **Sisäinen arviointi** voidaan tukea Tarjous-entiteetillä. Vaiheita **Sopimus**, **Toimitus** ja **Sulkeminen** voidaan tukea Projektisopimus-entiteetillä.
 
-Kun siirrät kauppoja vaiheiden läpi, järjestelmä pyytää sinua luomaan asianmukaisen entiteettitietueen auttamaan ja opastamaan sinua prosessissa. Vaiheet voivat olla ehdollisia. Jos esimerkiksi tarvitset tarjoukselle sisäisen arvioinnin vain, kun tarjouksessa käytetään mukautettua hinnastoa, voit määrittää kyseisen ehdon vastaavassa liiketoimintaprosessin vaiheessa. **Sisäinen arviointi** -vaihe näkyy tällöin vain sellaisten tarjousten osalta, joissa käytetään mukautettua hinnastoa. Kaikissa muissa kaupoissa ja tarjouksissa **Arvio** -vaihetta seuraa **Sopimus** -vaihe.
+Kun siirrät kauppoja vaiheiden läpi, järjestelmä pyytää sinua luomaan asianmukaisen entiteettitietueen auttamaan ja opastamaan sinua prosessissa. Vaiheet voivat olla ehdollisia. Jos esimerkiksi tarvitset tarjoukselle sisäisen arvioinnin vain, kun tarjouksessa käytetään mukautettua hinnastoa, voit määrittää kyseisen ehdon vastaavassa liiketoimintaprosessin vaiheessa. **Sisäinen arviointi** -vaihe näkyy tällöin vain sellaisten tarjousten osalta, joissa käytetään mukautettua hinnastoa. Kaikissa muissa kaupoissa ja tarjouksissa **Arvio** -vaihetta seuraa **Sopimus**-vaihe.
 
 > [!NOTE]
-> Project Operationsissa on omat sivut mahdollisuus-, tarjous-, tilaus- ja laskuentiteettitietueille. Nämä tietueet on luotava näiden entiteettien projektitietosivujen avulla. Muussa tapauksessa et voi avata tietueita **Projektin tiedot** -sivulla. Jos haluat avata tietueen **Projektin tiedot** -sivulla, poista tietue ja luo se uudelleen käyttämällä **Projektin tiedot** -sivua, jossa näiden entiteettityyppien liiketoimintalogiikka varmistaa, että tietueen **Tyyppi** -kenttä on määritetty oikein ja että kaikki pakolliset käsitteet on alustettu oikein.
+> Project Operationsissa on omat sivut mahdollisuus-, tarjous-, tilaus- ja laskuentiteettitietueille. Nämä tietueet on luotava näiden entiteettien projektitietosivujen avulla. Muussa tapauksessa et voi avata tietueita **Projektin tiedot** -sivulla. Jos haluat avata tietueen **Projektin tiedot** -sivulla, poista tietue ja luo se uudelleen käyttämällä **Projektin tiedot** -sivua, jossa näiden entiteettityyppien liiketoimintalogiikka varmistaa, että tietueen **Tyyppi**-kenttä on määritetty oikein ja että kaikki pakolliset käsitteet on alustettu oikein.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Muutosten jäljittäminen tarjouksiin ja projektisuunnitelmiin myyntisyklin aikana

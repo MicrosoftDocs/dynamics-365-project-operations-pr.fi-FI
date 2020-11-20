@@ -1,21 +1,21 @@
 ---
-title: Projektipohjaisen sopimusrivin laskutettavan osan määrittäminen
+title: Projektipohjaisen sopimusrivin veloitettavien komponenttien määrittäminen – lite
 description: Tässä ohjeaiheessa on tietoja laskutettavan osan lisäämisestä projektitoimintojen sopimusriveille.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075255"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177147"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Projektipohjaisen sopimusrivin laskutettavan osan määrittäminen
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Projektipohjaisen sopimusrivin veloitettavien komponenttien määrittäminen – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
@@ -27,38 +27,38 @@ Sisältyvät komponentit ovat komponentteja, joihin liittyy:
   - Ei-ylitettävät rajoitukset 
   - Projektipohjaisella sopimusrivillä määritetyt laskun toistumisasetukset
 
-Sisällytettyjen komponenttien alijoukko voidaan merkitä laskutettaviksi **laskutustyyppi** -kentän avulla. **Laskutustyyppi** -kenttä on asetusjoukko, joka sallii seuraavat arvot sopimusrivin kontekstissa:
+Sisällytettyjen komponenttien alijoukko voidaan merkitä laskutettaviksi **laskutustyyppi**-kentän avulla. **Laskutustyyppi**-kenttä on asetusjoukko, joka sallii seuraavat arvot sopimusrivin kontekstissa:
 
   - Veloitettava
   - Ei veloitettava
 
 Laskutettavat komponentit voidaan määrittää tehtäville, rooleille ja tapahtumaluokille.
 
-Maksukyky määritetään projektisopimusrivin tehtäville, ja se koskee kaikkia riviin sisältyviä tapahtumaluokkia. Jos sopimusrivin **Sisällytä tehtävät** -kenttä on tyhjä tai sen asetus on **koko projekti** , **veloitettavat tehtävät** -välilehti ei ole käytettävissä.
+Maksukyky määritetään projektisopimusrivin tehtäville, ja se koskee kaikkia riviin sisältyviä tapahtumaluokkia. Jos sopimusrivin **Sisällytä tehtävät** -kenttä on tyhjä tai sen asetus on **koko projekti**, **veloitettavat tehtävät** -välilehti ei ole käytettävissä.
 
-Projektisopimusrivin rooleihin määritetty maksuvalmius koskee vain **ajan** tapahtumaluokkaa. Jos sopimusrivin **Sisällytä aika** -kentän sen asetus on **Ei** , **veloitettavat roolit** -välilehti ei ole käytettävissä.
+Projektisopimusrivin rooleihin määritetty maksuvalmius koskee vain **ajan** tapahtumaluokkaa. Jos sopimusrivin **Sisällytä aika** -kentän sen asetus on **Ei**, **veloitettavat roolit** -välilehti ei ole käytettävissä.
 
-Projektisopimusrivin tapahtumakategorioihin määritetty maksuvalmius koskee vain **Kulu** tapahtumaluokkaa. Jos **Sisällytä kulut** -kentän sen asetus on **Ei** , **Veloitettavat kategoriat** -välilehti ei ole käytettävissä.
+Projektisopimusrivin tapahtumakategorioihin määritetty maksuvalmius koskee vain **Kulu** tapahtumaluokkaa. Jos **Sisällytä kulut** -kentän sen asetus on **Ei**, **Veloitettavat kategoriat** -välilehti ei ole käytettävissä.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Projektitehtävän päivittäminen laskutettavana tai ei-laskutettavana
 
 Projektitehtävä voi olla laskutettava tai ei-laskutettava tietyllä sopimusrivillä, joten seuraavat asetukset ovat mahdollisia:
 
-Jos projektiin perustuva sopimusrivi sisältää **Aikaa** ja tietyn tehtävän, **T1** liitetään siihen laskutettavana. Jos on olemassa toinen sopimusrivi, joka sisältää **Kulun** , voit liittää T1-tehtävän sopimusriviin ei-laskutettavana. Tuloksena on se, että kaikki tehtävään kirjatut ajat ovat veloitettavissa ja kaikki kulut eivät ole laskutettavia.
+Jos projektiin perustuva sopimusrivi sisältää **Aikaa** ja tietyn tehtävän, **T1** liitetään siihen laskutettavana. Jos on olemassa toinen sopimusrivi, joka sisältää **Kulun**, voit liittää T1-tehtävän sopimusriviin ei-laskutettavana. Tuloksena on se, että kaikki tehtävään kirjatut ajat ovat veloitettavissa ja kaikki kulut eivät ole laskutettavia.
 
-Tehtävän laskutustyyppi voidaan määrittää sopimusrivin **Laskutettavat tehtävät** -välilehdessä päivittämällä **laskutustyyppi** -kenttä sopimusrivin tehtävät -aliruudukossa. Vaihtoehtoisesti voit päivittää projektin tehtävien laskutusasetusten aliruudukon **laskutustyyppi** -kentän, joka näyttää tehtävään liittyvät sopimusrivit.
+Tehtävän laskutustyyppi voidaan määrittää sopimusrivin **Veloitettavat tehtävät** -välilehdessä päivittämällä **Laskutustyyppi**-kenttä sopimusrivin tehtävien aliruudukossa. Vaihtoehtoisesti **Laskutustyyppi**-kenttä voidaan päivittää sen projektin tehtävän laskutusasetusten aliruudukossa, joka näyttää tehtävään liitetyt sopimusrivit.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Roolin päivittäminen laskutettavana tai ei-laskutettavana
 
 Tietyn sopimusrivin rooli voi olla laskutettava tai ei-laskutettava.
 
-Roolin laskutustyyppi voidaan määrittää sopimusrivin **laskutettavat roolit** -välilehdessä. Päivitä **laskutettavat roolit** -aliruudukon **laskutustyyppi** -kenttä.
+Roolin laskutustyyppi voidaan määrittää sopimusrivin **laskutettavat roolit** -välilehdessä. Se tehdään päivittämällä **Laskutustyyppi**-kenttä **Veloitettavat roolit** -aliruudukossa.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Tapahtumaluokan päivittäminen laskutettavana tai ei-laskutettavana
 
 Tietyn sopimusrivin tapahtumaluokka voi olla laskutettava tai ei-laskutettava.
 
-Tapahtuman laskutustyyppi voidaan määrittää projektipohjaisen sopimusrivin **laskutettavat luokat** -välilehdessä. Päivitä **laskutettavat luokat** -aliruudukon **laskutustyyppi** -kenttä.
+Tapahtuman laskutustyyppi voidaan määrittää projektipohjaisen sopimusrivin **laskutettavat luokat** -välilehdessä. Se tehdään päivittämällä **Laskutustyyppi**-kenttä **Veloitettavat luokat** -aliruudukossa.
 
 ### <a name="resolve-chargeability"></a>Selvitä verosaatavan syntyminen
 

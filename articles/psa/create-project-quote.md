@@ -3,7 +3,7 @@ title: Projektin tarjouksen luominen
 description: Projektitarjouksen luominen Project Servicessä
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075456"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133139"
 ---
 # <a name="create-a-project-quote-project-service"></a>Luo projektitarjous (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Tarjouksen luominen vastaa mahdollisuuden luomista. Mahdollisuus on sisäistä tiedottamista varten, kun taas tarjous on tarkoitettu lähetettäväksi mahdollisille asiakkaille. Kullekin mahdollisuudelle voi luoda yhden tai useampia tarjouksia. Kun luot tarjouksen lähetettäväksi mahdolliselle asiakkaalle, olet projektin **Ehdota** -vaiheessa.  
+Tarjouksen luominen vastaa mahdollisuuden luomista. Mahdollisuus on sisäistä tiedottamista varten, kun taas tarjous on tarkoitettu lähetettäväksi mahdollisille asiakkaille. Kullekin mahdollisuudelle voi luoda yhden tai useampia tarjouksia. Kun luot tarjouksen lähetettäväksi mahdolliselle asiakkaalle, olet projektin **Ehdota**-vaiheessa.  
   
 1. Luo mahdollisuudesta tarjous siirtymällä **Project Service > Mahdollisuudet** ja valitse sitten haluamasi mahdollisuus jolle haluat luoda tarjouksen.  
   
@@ -39,17 +39,17 @@ Tarjouksen luominen vastaa mahdollisuuden luomista. Mahdollisuus on sisäistä t
   
 4. Valitse **Tallenna** ja luo tarjous, jotta voit jatkaa muokkaamista.  
   
-5. Voit lisätä tuotteen tarjoukseen valitsemalla **Uusi** kohdassa **Tuotepohjaiset rivit** **Tarjousrivit** -alueella. Valitse kohde kohdasta **Tuotteen nimi** ja määritä sitten määrä, myyntihinta ja tarjottu summa.  
+5. Voit lisätä tuotteen tarjoukseen valitsemalla **Uusi** kohdassa **Tuotepohjaiset rivit** **Tarjousrivit**-alueella. Valitse kohde kohdasta **Tuotteen nimi** ja määritä sitten määrä, myyntihinta ja tarjottu summa.  
   
-6. Voit lisätä tarjoukseen projektin arvion valitsemalla **+** kohdassa **Projektipohjaiset rivit** **Tarjousrivit** -alueella. Anna nimi, budjettisumma ja projekti, jos käytettävissä. Jos sinun on luotava projektin jossa on arviolla varustettu työrakenne, katso [Projektin luonti](../psa/create-project.md).  
+6. Voit lisätä tarjoukseen projektin arvion valitsemalla **+** kohdassa **Projektipohjaiset rivit** **Tarjousrivit**-alueella. Anna nimi, budjettisumma ja projekti, jos käytettävissä. Jos sinun on luotava projektin jossa on arviolla varustettu työrakenne, katso [Projektin luonti](../psa/create-project.md).  
   
-7. Kun muokkaus on valmis, valitse **Tallenna** -painike näytön oikeassa alakulmassa.  
+7. Kun muokkaus on valmis, valitse **Tallenna**-painike näytön oikeassa alakulmassa.  
   
 8. Kun olet valmis lähettämään tarjouksen asiakkaalle, valitse **Enemmän** (...), valitse **Suorita raportti** ja sitten **tarjous**. Tallenna raportti [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)]-tiedostona, muokkaa sitä tarpeen mukaan ja lähetä tarjous asiakkaalle.  
   
-9. Jos asiakas hyväksyy tarjouksen, valitse **Sulje voitettuna** **Tarjous** -näytön yläreunassa. Jos asiakas haluaa muuttaa joitakin kohteita, tee tämä koko prosessi uudelleen ja luo uusi tarjous. Jos asiakas päättää olla käyttämättä yrityksesi palveluita tällä kertaa, valitse **Sulje hävittynä** **Tarjous** -näytön yläreunassa.  
+9. Jos asiakas hyväksyy tarjouksen, valitse **Sulje voitettuna** **Tarjous**-näytön yläreunassa. Jos asiakas haluaa muuttaa joitakin kohteita, tee tämä koko prosessi uudelleen ja luo uusi tarjous. Jos asiakas päättää olla käyttämättä yrityksesi palveluita tällä kertaa, valitse **Sulje hävittynä** **Tarjous**-näytön yläreunassa.  
   
-   Kun suljet tarjouksen voitettu-tilassa, projektin siirtyy **Sopimus** -vaiheeseen, ja **Projektisopimus** -näytön kehote pyytää luomaan sopimuksen tälle projektille.  
+   Kun suljet tarjouksen voitettu-tilassa, projektin siirtyy **Sopimus**-vaiheeseen, ja **Projektisopimus**-näytön kehote pyytää luomaan sopimuksen tälle projektille.  
   
 ### <a name="see-also"></a>Katso myös  
  [Asiakaspäällikön opas](../psa/account-manager-guide.md)

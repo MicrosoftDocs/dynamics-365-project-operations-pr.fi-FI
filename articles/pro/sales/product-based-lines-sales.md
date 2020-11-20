@@ -1,21 +1,21 @@
 ---
-title: Tuotepohjaiset mahdollisuusrivit
+title: Tuotepohjaiset mahdollisuusrivit – lite
 description: Tässä aiheessa on tietoja tuotepohjaisista mahdollisuusrivinimikkeistä Project Operationsissa.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd32bedb94cf36f706c112a845f342d9dde19805
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075274"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176318"
 ---
-# <a name="product-based-opportunity-lines"></a>Tuotepohjaiset mahdollisuusrivit
+# <a name="product-based-opportunity-lines---lite"></a>Tuotepohjaiset mahdollisuusrivit – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
@@ -25,4 +25,4 @@ Tuotepohjaiset rivit voivat olla luettelonimikkeitä tai käsin lisättyjä tuot
 
 Yksi käsite tuotepohjaisista mahdollisuusriveissä liittyy projektipohjaisiin mahdollisuuksiin, nimittäin käsite **Asiakasbudjetti**. Tämän kentän avulla voit seurata summaa, jonka asiakas on valmis maksamaan rivinimikkeestä.
 
-Jos mahdollisuuden yhteenvedon tuottomenetelmäksi on määritetty **Järjestelmän laskema** , asiakasbudjetin arvot sekä tuote- että projektipohjaisilla riveillä on koottu yhteen arvioidun tuoton laskemiseksi.
+Jos mahdollisuuden yhteenvedon tuottomenetelmäksi on määritetty **Järjestelmän laskema**, asiakasbudjetin arvot sekä tuote- että projektipohjaisilla riveillä on koottu yhteen arvioidun tuoton laskemiseksi.
