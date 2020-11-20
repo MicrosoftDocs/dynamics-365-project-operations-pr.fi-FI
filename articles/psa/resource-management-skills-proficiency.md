@@ -3,7 +3,7 @@ title: Taidot ja pätevyysmallit
 description: Tässä aiheessa on tietoja taitojen ja pätevyysmallien käyttämisestä.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,31 +18,31 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cd243544df062e5801bbfa0a3bd75c4d9a116a6f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 92735262ebc4b48dd1143af57349d77e1fe3061c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075568"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124184"
 ---
-# <a name="skills-and-proficiency-models"></a><span data-ttu-id="5f656-103">Taidot ja pätevyysmallit</span><span class="sxs-lookup"><span data-stu-id="5f656-103">Skills and proficiency models</span></span>
+# <a name="skills-and-proficiency-models"></a><span data-ttu-id="c11f8-103">Taidot ja pätevyysmallit</span><span class="sxs-lookup"><span data-stu-id="c11f8-103">Skills and proficiency models</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="5f656-104">Taidot ovat resurssien ominaisuuksia, jotka on jaettu Dynamics 365 Project Service Automationin ja, jos käytössä, Dynamics 365 Field Servicen välillä.</span><span class="sxs-lookup"><span data-stu-id="5f656-104">Skills are resource characteristics that are shared between Dynamics 365 Project Service Automation and if present, Dynamics 365 Field Service.</span></span> 
+<span data-ttu-id="c11f8-104">Taidot ovat resurssien ominaisuuksia, jotka on jaettu Dynamics 365 Project Service Automationin ja, jos käytössä, Dynamics 365 Field Servicen välillä.</span><span class="sxs-lookup"><span data-stu-id="c11f8-104">Skills are resource characteristics that are shared between Dynamics 365 Project Service Automation and if present, Dynamics 365 Field Service.</span></span> 
 
-<span data-ttu-id="5f656-105">Ylläpitääksesi taitovarastoa sovelluksessa Project Service Automation, siirry kohtaan **Resurssit** \> **Resurssien taidot**.</span><span class="sxs-lookup"><span data-stu-id="5f656-105">To maintain the repository of skills in Project Service Automation, go to **Resources** \> **Resource Skills**.</span></span> 
+<span data-ttu-id="c11f8-105">Ylläpitääksesi taitovarastoa sovelluksessa Project Service Automation, siirry kohtaan **Resurssit** \> **Resurssien taidot**.</span><span class="sxs-lookup"><span data-stu-id="c11f8-105">To maintain the repository of skills in Project Service Automation, go to **Resources** \> **Resource Skills**.</span></span> 
 
 > ![Resurssin taidot](media/Resource-Management-image84.png)
 
-## <a name="use-proficiency-models-to-rate-resources"></a><span data-ttu-id="5f656-107">Pätevyysmallien käyttäminen resurssien tasojen määrittelyyn</span><span class="sxs-lookup"><span data-stu-id="5f656-107">Use proficiency models to rate resources</span></span>
+## <a name="use-proficiency-models-to-rate-resources"></a><span data-ttu-id="c11f8-107">Pätevyysmallien käyttäminen resurssien tasojen määrittelyyn</span><span class="sxs-lookup"><span data-stu-id="c11f8-107">Use proficiency models to rate resources</span></span>
 
-<span data-ttu-id="5f656-108">Resurssien taidot on luokiteltu pätevyysmallien mukaan.</span><span class="sxs-lookup"><span data-stu-id="5f656-108">Skills for resources are rated by proficiency models.</span></span> <span data-ttu-id="5f656-109">Yksittäiset luokitukset ovat pätevyysmallissa.</span><span class="sxs-lookup"><span data-stu-id="5f656-109">The individual ratings are in a proficiency model.</span></span> 
+<span data-ttu-id="c11f8-108">Resurssien taidot on luokiteltu pätevyysmallien mukaan.</span><span class="sxs-lookup"><span data-stu-id="c11f8-108">Skills for resources are rated by proficiency models.</span></span> <span data-ttu-id="c11f8-109">Yksittäiset luokitukset ovat pätevyysmallissa.</span><span class="sxs-lookup"><span data-stu-id="c11f8-109">The individual ratings are in a proficiency model.</span></span> 
 
-1. <span data-ttu-id="5f656-110">Luodaksesi pätevyysmallin siirry kohtaan **Resurssit** \> **Pätevyysmallit** ja valitse sitten **Uusi**.</span><span class="sxs-lookup"><span data-stu-id="5f656-110">To create a proficiency model, go to **Resources** \> **Proficiency Models** , and then select **New**.</span></span>
-2. <span data-ttu-id="5f656-111">Määritä uudessa luokitusmallissa pienin luokitusarvo, suurin luokitusarvo ja entiteetti, jota luokitellaan.</span><span class="sxs-lookup"><span data-stu-id="5f656-111">In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.</span></span>
-3. <span data-ttu-id="5f656-112">**Luokitusarvojen** aliruudukossa voit määrittää eri luokitusarvot vähimmäisarvosta suurimpaan.</span><span class="sxs-lookup"><span data-stu-id="5f656-112">In the **Rating Values** sub-grid, you can define the different rating values, from the minimum to the maximum.</span></span>
+1. <span data-ttu-id="c11f8-110">Luodaksesi pätevyysmallin siirry kohtaan **Resurssit** \> **Pätevyysmallit** ja valitse sitten **Uusi**.</span><span class="sxs-lookup"><span data-stu-id="c11f8-110">To create a proficiency model, go to **Resources** \> **Proficiency Models**, and then select **New**.</span></span>
+2. <span data-ttu-id="c11f8-111">Määritä uudessa luokitusmallissa pienin luokitusarvo, suurin luokitusarvo ja entiteetti, jota luokitellaan.</span><span class="sxs-lookup"><span data-stu-id="c11f8-111">In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.</span></span>
+3. <span data-ttu-id="c11f8-112">**Luokitusarvot**-aliruudukossa voi määrittää eri luokitusarvot vähimmäisarvosta suurimpaan arvoon.</span><span class="sxs-lookup"><span data-stu-id="c11f8-112">In the **Rating Values** subgrid, you can define the different rating values, from the minimum to the maximum.</span></span>
 
 > ![Vähimmäis-ja enimmäisluokitukset määritetty](media/Resource-Management-image85.png)
 
-<span data-ttu-id="5f656-114">Nämä luokitusarvot näytetään **Resurssivaatimukset** , **Aikataulutaulukko** ja **Aikatauluavustaja** -suodattimissa.</span><span class="sxs-lookup"><span data-stu-id="5f656-114">These rating values are shown on the **Resource Requirements** , **Schedule Board** , and **Schedule Assistant** filters.</span></span>
+<span data-ttu-id="c11f8-114">Nämä luokitusarvot näytetään **Resurssivaatimukset**, **Aikataulutaulukko** ja **Aikatauluavustaja** -suodattimissa.</span><span class="sxs-lookup"><span data-stu-id="c11f8-114">These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.</span></span>
