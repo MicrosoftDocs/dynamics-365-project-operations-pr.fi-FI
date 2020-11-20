@@ -3,7 +3,7 @@ title: Project Service Automation -tietomallin käsitteleminen
 description: Tässä aiheessa on tietoja tietomallin käyttämisestä.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075533"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120269"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Project Service Automation -tietomallin käsitteleminen
 
@@ -33,15 +33,15 @@ Dynamics 365 Project Service Automation laajentaa muita sovelluskokonaisuuksia j
 
 ## <a name="reporting-on-opportunities"></a>Mahdollisuuksista raportointi
 
-Project Service Automation laajentaa Dynamics 365 Sales **Mahdollisuus** -entiteettiä lisäämällä kenttiä, jotka mahdollistavat projektipohjaiset skenaariot. Nämä kentät on määritetty rakennenimellä, jonka etuliite on **msdyn\_**. Yksi uusi kenttä, joka on tärkeä PSA-mahdollisuuksien raportoinnissa, **Tilaustyyppi**. Tämän kentän arvo **Työperusteinen** osoittaa, että mahdollisuus on PSA-mahdollisuus. Muita entiteettiin lisättyjä kenttiä ovat **Sopimusorganisaatio** , johon tallennetaan organisaatio, jolle mahdollisuus kuuluu, ja **Asiakkuuspäällikkö** , johon tallennetaan mahdollisuudesta vastuussa olevan asiakkuuspäällikön nimi.
+Project Service Automation laajentaa Dynamics 365 Sales **Mahdollisuus** -entiteettiä lisäämällä kenttiä, jotka mahdollistavat projektipohjaiset skenaariot. Nämä kentät on määritetty rakennenimellä, jonka etuliite on **msdyn\_**. Yksi uusi kenttä, joka on tärkeä PSA-mahdollisuuksien raportoinnissa, **Tilaustyyppi**. Tämän kentän arvo **Työperusteinen** osoittaa, että mahdollisuus on PSA-mahdollisuus. Muita entiteettiin lisättyjä kenttiä ovat **Sopimusorganisaatio**, johon tallennetaan organisaatio, jolle mahdollisuus kuuluu, ja **Asiakkuuspäällikkö**, johon tallennetaan mahdollisuudesta vastuussa olevan asiakkuuspäällikön nimi.
 
 **Mahdollisuusrivi** -entiteetti sisältää myös kenttiä, jotka liittyvät Project Service -palveluun. **Laskutusmenetelmä** osoittaa, laskutetaako mahdollisuusrivi ajan ja materiaalin perusteella vai kiinteähintaisena, ja **Projekti** tallentaa sen projektin nimen, joka tukee mahdollisuutta. Muihin kenttiin, joista voidaan raportoida, tallennetaan kustannus- ja asiakkaan budjettisummat rivinimikkeittäin.
 
 ## <a name="reporting-on-quotes"></a>Tarjousten raportointi
 
-PSA laajentaa myynnin **Tarjous** -entiteettiä lisäämällä projektiin liittyviä kenttiä. **Tilaustyyppi** erottaa PSA-tarjoukset muista kuin PSA-tarjouksista. Tämän kentän arvo **Työperusteinen** osoittaa, että tarjous on PSA-tarjous. Muut kentät, joilla voi olla merkitystä PSA-tarjousten raportoinnissa sisältävät summakenttiä, kuten **Laskutettavat kustannukset** , **Ei-laskutettavat kustannukset** , **Käyttökate** , **Arviot** ja **Budjetti**. Muut hyödylliset kentät ilmaisevat, tuottaako tarjous voittoa, valmistuuko se aikataulussa, ja täyttääkö se asiakkaan odotukset budjetista.
+PSA laajentaa myynnin **Tarjous**-entiteettiä lisäämällä projektiin liittyviä kenttiä. **Tilaustyyppi** erottaa PSA-tarjoukset muista kuin PSA-tarjouksista. Tämän kentän arvo **Työperusteinen** osoittaa, että tarjous on PSA-tarjous. Muut kentät, joilla voi olla merkitystä PSA-tarjousten raportoinnissa sisältävät summakenttiä, kuten **Laskutettavat kustannukset**, **Ei-laskutettavat kustannukset**, **Käyttökate**, **Arviot** ja **Budjetti**. Muut hyödylliset kentät ilmaisevat, tuottaako tarjous voittoa, valmistuuko se aikataulussa, ja täyttääkö se asiakkaan odotukset budjetista.
 
-PSA laajentaa myös myynnin **Tarjousrivi** -entiteettiä. Eräs kenttä, jonka PSA lisää on **Laskutustapa** , joka osoittaa, kuinka tarjousrivi laskutetaan (ajan ja materiaalien perusteella vai kiinteähintaisesti). Muihin entiteettiin lisättyihin kenttiin tallennetaan tarjousrivin taustalla oleva projekti, laskutus, kustannukset ja budjetti.
+PSA laajentaa myös myynnin **Tarjousrivi**-entiteettiä. Eräs kenttä, jonka PSA lisää on **Laskutustapa**, joka osoittaa, kuinka tarjousrivi laskutetaan (ajan ja materiaalien perusteella vai kiinteähintaisesti). Muihin entiteettiin lisättyihin kenttiin tallennetaan tarjousrivin taustalla oleva projekti, laskutus, kustannukset ja budjetti.
 
 PSA lisää myös uusia tarjoukseen liittyviä entiteettiä Dynamics 365- tietomalliin. Seuraavassa on joitakin esimerkkejä.
 
@@ -50,15 +50,15 @@ PSA lisää myös uusia tarjoukseen liittyviä entiteettiä Dynamics 365- tietom
 - **Tarjousrivin välitavoite** – tämä entiteetti sisältää laskutuksen välitavoitteet kiinteähintaisille tarjousriveille.
 - **Tarjousrivin analytiikan yksityiskohdat** – tämä entiteetti sisältää tarjousrivin taloudelliset tiedot. Nämä tiedot voivat olla hyödyllisiä myyntitarjouksista ja arvioiduista kustannuksista raportointia varten useiden dimensioiden mukaan.
 
-Muita entiteettejä, joita PSA lisää tarjouksiin, ovar **Tarjousrivin projektihinnasto** , **Tarjousrivin resurssiluokka** ja **Tarjousrivin tapahtumaluokka**.
+Muita entiteettejä, joita PSA lisää tarjouksiin, ovar **Tarjousrivin projektihinnasto**, **Tarjousrivin resurssiluokka** ja **Tarjousrivin tapahtumaluokka**.
 
 ![Kaavio, jossa näkyvät tarjous, tarjousrivi ja projektisuhteet](media/PS-Reporting-image2.png "Kaavio, jossa näkyvät tarjous, tarjousrivi ja projektisuhteet")
 
 ## <a name="reporting-on-project-contracts"></a>Projektisopimuksista raportointi
 
-PSA laajentaa myynnin **Tilaus** -entiteettiä, jota käytetään, kun projektisopimuksia tallennetaan. Se lisää tärkeän uuden kentän, **Tilaustyypin** , joka osoittaa, että sopimus on PSA-projektisopimus eikä myyntitilaus. Tämän kentän arvo **Työperusteinen** osoittaa, että tilaus on PSA-projektisopimus. Muut uudet kentät, jotka on lisätty **Tilaus** -entiteettiin säilyttävät tietoja kustannuksista, PSA-sopimuksen tilasta ja organisaatiosta, jolle sopimus kuuluu.
+PSA laajentaa myynnin **Tilaus**-entiteettiä, jota käytetään, kun projektisopimuksia tallennetaan. Se lisää tärkeän uuden kentän, **Tilaustyypin**, joka osoittaa, että sopimus on PSA-projektisopimus eikä myyntitilaus. Tämän kentän arvo **Työperusteinen** osoittaa, että tilaus on PSA-projektisopimus. Muut uudet kentät, jotka on lisätty **Tilaus**-entiteettiin säilyttävät tietoja kustannuksista, PSA-sopimuksen tilasta ja organisaatiosta, jolle sopimus kuuluu.
 
-PSA laajentaa myös **Myyntitilausrivi** -entiteettiä. Niiden kenttien joukkoon, jotka se lisää, kuuluu kenttiä, joissa säilytetään laskutustapaa (ajan ja materiaalin perusteella tai kiinteähintaisesti), asiakkaan budjettisummat, ja taustaprojekti.
+PSA laajentaa myös **Myyntitilausrivi**-entiteettiä. Niiden kenttien joukkoon, jotka se lisää, kuuluu kenttiä, joissa säilytetään laskutustapaa (ajan ja materiaalin perusteella tai kiinteähintaisesti), asiakkaan budjettisummat, ja taustaprojekti.
 
 PSA lisää myös uusia entiteettejä, jotka on suunniteltu projektisopimuksia varten. Seuraavassa on joitakin esimerkkejä.
 
@@ -66,7 +66,7 @@ PSA lisää myös uusia entiteettejä, jotka on suunniteltu projektisopimuksia v
 - **Sopimusrivin laskutusaikataulu** – tämä entiteetti sisältää laskutusaikataulun, joka on luotu sen laskutusvälin perusteella, joka sopimusriville on määritetty.
 - **Sopimuksen välitavoite** – tämä entiteetti sisältää laskutuksen välitavoitteet sellaisille sopimusriveille, joilla on kiinteähintainen laskutustapa.
 
-Muita entiteettejä, joita PSA lisää sopimuksiin, ovat **Projektisopimusrivin projektihinnasto** , **Projektisopimusrivin resurssiluokka** ja **Projektisopimusrivin tapahtumaluokka**.
+Muita entiteettejä, joita PSA lisää sopimuksiin, ovat **Projektisopimusrivin projektihinnasto**, **Projektisopimusrivin resurssiluokka** ja **Projektisopimusrivin tapahtumaluokka**.
 
 ![Kaavio, jossa näkyvät tilaus, tilausrivi ja projektisuhteet](media/PS-Reporting-image3.png "Kaavio, jossa näkyvät tilaus, tilausrivi ja projektisuhteet")
 
@@ -78,7 +78,7 @@ Muita entiteettejä, joita PSA lisää sopimuksiin, ovat **Projektisopimusrivin 
 - **Projektitehtävä** – tämä kohde sisältää tehtävät, jotka muodostavat projektisuunnitelman tai -aikataulun.
 - **Resurssien kohdentaminen** – tämä kohde sisältää varattavissa olevan resurssin tehtäväkohdennuksen.
 - **Resurssitarve** – tämä kohde sisältää vaatimukset mahdollisille yleisille resurssiryhmän jäsenille.
-- **Arvio** ja **Arviorivi** – näillä entiteeteillä on otsikko/rivi-suhde, ja ne sisältävät kuluarvioita projektille. Tehtävien arviot tallennetaan **Resurssiarvio** -entiteettiin.
+- **Arvio** ja **Arviorivi** – näillä entiteeteillä on otsikko/rivi-suhde, ja ne sisältävät kuluarvioita projektille. Tehtävien arviot tallennetaan **Resurssiarvio**-entiteettiin.
 
 ![Kaavio, jossa näkyvät resurssitarve ja projektisuhteet](media/PS-Reporting-image4.png "Kaavio, jossa näkyvät resurssitarve ja projektisuhteet")
 

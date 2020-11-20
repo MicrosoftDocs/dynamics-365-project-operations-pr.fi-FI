@@ -2,7 +2,7 @@
 title: Miten voin mukauttaa Projektin vaiheet -liiketoimintaprosessin?
 description: Yleiskatsaus Projektin vaiheet -liiketoimintaprosessin mukauttamiseen.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075534"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125031"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Miten voin mukauttaa Projektin vaiheet -liiketoimintaprosessin?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Project Service -sovelluksen aiemmissa versioissa on rajoitus, jonka vuoksi Projektin vaiheet -liiketoimintaprosessin vaiheiden nimien on vastattava täsmälleen englanninkielisiä nimiä ( **Quote** , **Plan** , **Close** ). Muussa tapauksessa englanninkielisiin vaiheiden nimiin tukeutuva liiketoimintalogiikka ei toimi odotetulla tavalla. Tämän vuoksi projektilomakkeessa ei ole tuttuja toimintoja, kuten **Vaihda prosessia** tai **Muokkaa prosessia** , eikä liiketoimintaprosessin mukautusta suositella. 
+Project Service -sovelluksen aiemmissa versioissa on rajoitus, jonka vuoksi Projektin vaiheet -liiketoimintaprosessin vaiheiden nimien on vastattava täsmälleen englanninkielisiä nimiä (**Quote**, **Plan**, **Close**). Muussa tapauksessa englanninkielisiin vaiheiden nimiin tukeutuva liiketoimintalogiikka ei toimi odotetulla tavalla. Tämän vuoksi projektilomakkeessa ei ole tuttuja toimintoja, kuten **Vaihda prosessia** tai **Muokkaa prosessia**, eikä liiketoimintaprosessin mukautusta suositella. 
 
 Tämä rajoitus on otettu huomioon versiossa 2.4.5.48 ja sitä uudemmissa versioissa. Tämä artikkeli sisältää ehdotetut ratkaisut sitä varten, että aiempien versioiden oletusliiketoimintaprosessia on mukautettava.  
 
@@ -38,7 +38,7 @@ Tämä rajoitus on otettu huomioon versiossa 2.4.5.48 ja sitä uudemmissa versio
 Projektin vaiheet -liiketoimintaprosessi sisältää liiketoimintalogiikan, joka ohjaa sovelluksen seuraavaa toimintaa:
 - Kun projekti on liitetty tarjoukseen, koodi määrittää liiketoimintaprosessin vaiheeksi **Quote**.
 - Kun projekti on liitetty sopimukseen, koodi määrittää liiketoimintaprosessin vaiheeksi **Plan**.
-- Kun liiketoimintaprosessi on edennyt **Close** -vaiheeseen, projektitietueen aktivointi poistetaan. Kun projektin aktivointi poistetaan, projektilomake ja työrakenne määritetään Vain luku -tilaan, nimetyt resurssin varaukset vapautetaan ja kaikkien liittyvien hinnastojen aktivoinnit poistetaan.
+- Kun liiketoimintaprosessi on edennyt **Close**-vaiheeseen, projektitietueen aktivointi poistetaan. Kun projektin aktivointi poistetaan, projektilomake ja työrakenne määritetään Vain luku -tilaan, nimetyt resurssin varaukset vapautetaan ja kaikkien liittyvien hinnastojen aktivoinnit poistetaan.
 
 Tämä liiketoimintalogiikka edellyttää englanninkielisiä nimiä projektin vaiheissa. Riippuvuus englanninkielisistä vaiheiden nimistä on pääsyy sille, miksi Projektin vaiheet -liiketoimintaprosessin mukauttamista ei suositella. Se on syy myös siihen, miksi projektin entiteetissä ei näy yleisiä liiketoimintaprosessien toimintoja, kuten **Vaihda prosessia** tai **Muokkaa prosessia**.
 
@@ -48,7 +48,7 @@ Jos Project Service -sovelluksen versiossa 1.x ympäristössä 8.2 liiketoiminta
 
 Project Service -sovelluksen versiossa 2.4.4.30 tai aiemmassa versiossa ympäristössä 9.0 oli merkittävä arkkitehtuurimuutos liiketoimintaprosesseissa. Muutoksen vuoksi liiketoimintaprosessin liiketoimintalogiikka piti kirjoittaa uudelleen. Jos projektin vaiheiden nimet eivät vastaa odotettuja englanninkielisiä nimiä, virhesanomaa ei näytetä. 
 
-Jos siis haluat mukauttaa projektin entiteetin Projektin vaiheet -liiketoimintaprosessia, voit lisätä vain aivan uusia vaiheita projektin entiteetin oletusliiketoimintaprosessiin. **Quote** -, **Plan** - ja **Close** -vaiheita ei saa muuttaa. Rajoitus varmistaa sen, että liiketoimintaprosessi ei aiheuta virheitä. Liiketoimintaprosessi vaatii englanninkieliset vaiheiden nimet.
+Jos siis haluat mukauttaa projektin entiteetin Projektin vaiheet -liiketoimintaprosessia, voit lisätä vain aivan uusia vaiheita projektin entiteetin oletusliiketoimintaprosessiin. **Quote**-, **Plan**- ja **Close**-vaiheita ei saa muuttaa. Rajoitus varmistaa sen, että liiketoimintaprosessi ei aiheuta virheitä. Liiketoimintaprosessi vaatii englanninkieliset vaiheiden nimet.
 
 Tässä artikkelissa kuvattu liiketoimintalogiikka on poistettu versiossa 2.4.5.48 tai sitä uudemmissa versioissa projektin entiteetin oletusliiketoimintaprosessista. Kun otat käyttöön kyseisen version tai myöhemmän version, voit mukauttaa oletusliiketoimintaprosessia tai korvata sen omalla prosessilla. 
 
@@ -56,12 +56,12 @@ Tässä artikkelissa kuvattu liiketoimintalogiikka on poistettu versiossa 2.4.5.
 
 Jos version päivittäminen ei ole vaihtoehto, voit mukauttaa projektin entiteetin Projektin vaiheet -liiketoimintaprosessin jommallakummalla seuraavista tavoista:
 
-1. Lisää oletusmääritykseen vaiheita samalla, kun säilytät englanninkieliset nimet **Quote** -, **Plan** - ja **Close** -vaiheille.
+1. Lisää oletusmääritykseen vaiheita samalla, kun säilytät englanninkieliset nimet **Quote**-, **Plan**- ja **Close**-vaiheille.
 
 
 ![Oletusmäärityksen vaiheiden lisäämisen näyttökuva](media/FAQ-Customize-BPF-1.png)
  
-2. Luo oma liiketoimintaprosessi ja tee siitä projektin entiteetin ensisijainen liiketoimintaprosessi. Tällöin voit antaa vaiheille haluamasi nimet. Jos kuitenkin haluat käyttää samoja projektin vakiovaiheita eli **Quote** -, **Plan** - ja **Close** -vaiheita, sinun on tehtävä joitakin mukautuksia, jotka saadaan mukautetuista vaiheiden nimistä. Projektin sulkeminen sisältää monimutkaisempaa logiikkaa. Voit kuitenkin käynnistää sen poistamalla projektitietueen aktivoinnin.
+2. Luo oma liiketoimintaprosessi ja tee siitä projektin entiteetin ensisijainen liiketoimintaprosessi. Tällöin voit antaa vaiheille haluamasi nimet. Jos kuitenkin haluat käyttää samoja projektin vakiovaiheita eli **Quote**-, **Plan**- ja **Close**-vaiheita, sinun on tehtävä joitakin mukautuksia, jotka saadaan mukautetuista vaiheiden nimistä. Projektin sulkeminen sisältää monimutkaisempaa logiikkaa. Voit kuitenkin käynnistää sen poistamalla projektitietueen aktivoinnin.
 
 ![Liiketoimintaprosessin mukauttaminen](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ Voit luoda oman liiketoimintaprosessin projektin entiteettiä varten seuraavasti
 
   ![Luo prosessi](media/FAQ-Customize-BPF-3.png)
 
-2. Luo haluamasi vaiheiden nimet prosessin suunnitteluohjelman avulla. Jos haluat samat toiminnot kuin **Quote** -, **Plan** - ja **Close** -oletusvaiheissa on, luonnin on perustuttava mukautetun liiketoimintaprosessin vaiheiden nimiin.
+2. Luo haluamasi vaiheiden nimet prosessin suunnitteluohjelman avulla. Jos haluat samat toiminnot kuin **Quote**-, **Plan**- ja **Close**-oletusvaiheissa on, luonnin on perustuttava mukautetun liiketoimintaprosessin vaiheiden nimiin.
 
    ![Liiketoimintaprosessin mukautuksessa käytettävän prosessin suunnitteluohjelman näyttökuva](media/FAQ-Customize-BPF-4.png) 
 

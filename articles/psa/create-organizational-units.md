@@ -3,7 +3,7 @@ title: Luo organisaatioyksiköt
 description: Organisaatioyksiköiden luominen Project Servicessä
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c653f5bd066fd174c8fb0996820628c1b281519
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebb00b9838773560404a9e3f7a19cc83408d7889
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075397"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125083"
 ---
 # <a name="create-organizational-units-project-service"></a>Luo organisaatioyksiköt (Project Service)
 
@@ -38,13 +38,13 @@ Yritys järjestää todennäköisesti konsultointiliiketoiminnan maantieteellise
   
 2.  Valitse **Uusi**.  
   
-3.  Anna **Yleinen** -alueella organisaatioyksikön nimi kohdassa **Nimi** ja täytä muut kentät tarpeen mukaan.  
+3.  Anna **Yleinen**-alueella organisaatioyksikön nimi kohdassa **Nimi** ja täytä muut kentät tarpeen mukaan.  
   
 4.  Valitse **Tallenna** ja luo tietue, jotta voit jatkaa muokkaamista.  
   
-5.  **Kustannushinnastot** -kohdassa lisää hinnasto valitsemalla **+**. Voit lisätä hinnastoja **Kustannus** -kontekstissa tässä.  
+5.  **Kustannushinnastot**-kohdassa lisää hinnasto valitsemalla **+**. Voit lisätä hinnastoja **Kustannus**-kontekstissa tässä.  
   
-6.  **Nimi** -kentässä paina **Etsi** -painiketta ja valitse hinnasto, jonka haluat ottaa käyttöön tässä organisaatioyksikössä. Jatka lisäämällä hinnastot tarvittaessa.  
+6.  **Nimi**-kentässä paina **Etsi**-painiketta ja valitse hinnasto, jonka haluat ottaa käyttöön tässä organisaatioyksikössä. Jatka lisäämällä hinnastot tarvittaessa.  
   
 7.  Valitse **Tallenna** näytön oikeassa alakulmassa, kun olet valmis.  
   

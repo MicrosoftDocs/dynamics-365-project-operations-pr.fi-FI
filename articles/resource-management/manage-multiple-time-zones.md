@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075286"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119819"
 ---
 # <a name="manage-time-zones"></a>Aikavyöhykkeiden hallinta
 
@@ -22,7 +22,7 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 ## <a name="projects"></a>Projektit
 
-Kun projekti luodaan, sen aika vyöhyke perustuu käytetyssä työtuntimallissa määritettyyn aikavyöhykkeeseen. **Projektissa** päivämäärät ovat aina suhteessa sen käyttäjän aikavyöhykkeeseen, joka on kirjautunut kuhunkin välilehteen **Tehtävä** -välilehteä lukuun ottamatta. Kun tarkastelet työrakennetta, päivämäärät näkyvät aina projektin aikavyöhykkeessä.
+Kun projekti luodaan, sen aika vyöhyke perustuu käytetyssä työtuntimallissa määritettyyn aikavyöhykkeeseen. **Projektissa** päivämäärät ovat aina suhteessa sen käyttäjän aikavyöhykkeeseen, joka on kirjautunut kuhunkin välilehteen **Tehtävä**-välilehteä lukuun ottamatta. Kun tarkastelet työrakennetta, päivämäärät näkyvät aina projektin aikavyöhykkeessä.
 
 ## <a name="tasks"></a>Tehtävät
 
@@ -57,7 +57,7 @@ Seuraavassa taulukossa näkyy:
 |Resurssi C  |  ![Resurssin C kalenteri](media/reconcile-assignments-08.png) |
 |Resurssi D  | ![Resurssin D kalenteri](media/reconcile-assignments-09.png)  |
  
-Kun siirryt **Täsmäytys** -näkymään, näkyviin tulevat resurssien delegoinnit ja niihin liittyvä varausvajeet.
+Kun siirryt **Täsmäytys**-näkymään, näkyviin tulevat resurssien delegoinnit ja niihin liittyvä varausvajeet.
 
 ![Täsmäytysnäkymä ennen laajentamista](media/reconcile-assignments-10.png)
 

@@ -3,7 +3,7 @@ title: Myyntiarviot ja projektit
 description: Tässä aiheessa on tietoja siitä, miten aikataulua ja arvioita voidaan hyödyntää myyntiprosessissa.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eafe60362003198a223026526f56261de414bb4a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8bb380519759659dc1b4151b62228a626ee7a26
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075366"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120674"
 ---
 # <a name="sales-estimates-and-projects"></a>Myyntiarviot ja projektit
 
@@ -33,7 +33,7 @@ Voit luoda myyntiarvioita myyntiprosessin aikana linkittämällä projektin myyn
 
 ## <a name="linking-a-project-to-a-quote-line"></a>Projektin linkittäminen tarjouspyynnön riviin
 
-Kun luot projektipohjaisen tarjousrivin, voit luoda uuden projektin tai liittää aiemmin luodun projektin **tarjousrivi** -sivulle. 
+Kun luot projektipohjaisen tarjousrivin, voit luoda uuden projektin tai liittää aiemmin luodun projektin **tarjousrivi**-sivulle. 
 
 > ![Tarjousrivilomake](media/project-8.png)
  
@@ -47,7 +47,7 @@ Luomalla projektin tarjouksesta projekti liitetään automaattisesti tarjouksen 
 
 Aikataulun avulla voit jakaa työn tehtäviin, ylläpitää tehtävähierarkiaa, määrittää, mitkä resurssit tarvitaan tehtävän suorittamiseen, ja määrittää arvion tehtävän suorittamiseen tarvittavista toimista.
 
-Voit määrittää työmäärän ja aikataulutuksen arviot käyttämällä **Aikataulu** -välilehden kenttiä **Projekti** -sivulla. Koska projektiin liittyy hinnasto, talousarviot lasketaan käyttämällä hinnastossa määritettyjä kustannus- ja myyntihintoja.
+Voit määrittää työmäärän ja aikataulutuksen arviot käyttämällä **Aikataulu**-välilehden kenttiä **Projekti**-sivulla. Koska projektiin liittyy hinnasto, talousarviot lasketaan käyttämällä hinnastossa määritettyjä kustannus- ja myyntihintoja.
 
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Arvioiden tuominen projektista tarjoukseen
 

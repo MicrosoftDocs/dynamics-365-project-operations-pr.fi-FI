@@ -3,7 +3,7 @@ title: Projektin edistyminen ja toteutuneet kustannukset
 description: Tässä aiheessa on tietoja projektin edistymisen ja kustannusten toteutumisen seurannasta.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3b60f72b371a76a59216b0b528d8e63513b06e0d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0793ee0c75bcbdde0fd92a16634457f73f872b5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075509"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120629"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projektin edistyminen ja toteutuneet kustannukset
 
@@ -74,7 +74,7 @@ Yhteenvetotehtävien tai säiliötehtävien työmäärä voidaan projisoida uude
 
 Project Service Automation laskee seurantamittarit seuraavien kaavojen avulla:
 
-Kun tehtävä luodaan, suunnitellut kustannukset ovat samat kuin arvioidut kustannukset valmistuessa. Kun todelliset arvot on tallennettu tehtävään, **Seuranta** -näkymässä suoritetaan seuraava laskenta kustannusta varten:
+Kun tehtävä luodaan, suunnitellut kustannukset ovat samat kuin arvioidut kustannukset valmistuessa. Kun todelliset arvot on tallennettu tehtävään, **Seuranta**-näkymässä suoritetaan seuraava laskenta kustannusta varten:
 
  - Toteutuneiden kustannusten prosenttiosuus = Toteutuneet kustannukset tähän päivämäärään asti ÷ Tehtävän arvioidut kustannukset valmistuessa
  - Kustannukset valmistuessa (CTC) = Arvioidut kustannukset valmistuessa – Tähän päivämäärään saakka toteutuneet kustannukset
@@ -89,10 +89,10 @@ Kun työmäärä projektoidaan uudelleen, CTC, arvioitu kustannus valmistuessa, 
 
 ## <a name="project-status-summary"></a>Projektin tilan yhteenveto
 
-Seurantatiedot **Työmäärän seuranta** - ja **Kustannusten seuranta** -näkymissä näyttävät edistymisen ja toteutuneet kustannukset projektin juurisolmun, yhteenvetotehtävien ja lehtisolmujen tasoilla. **Tila** -osio **Projektikohde** -sivulla näyttää yhteenvedon projektitason tilasta.
+Seurantatiedot **Työmäärän seuranta**- ja **Kustannusten seuranta** -näkymissä näyttävät edistymisen ja toteutuneet kustannukset projektin juurisolmun, yhteenvetotehtävien ja lehtisolmujen tasoilla. **Tila**-osio **Projektikohde**-sivulla näyttää yhteenvedon projektitason tilasta.
 
 ## <a name="status-summary-fields"></a>Tilan yhteenvetokentät
 
 **Projektin kokonaistila** -kenttä on muokattava kenttä, joka näyttää projektin kokonaistilan. Se käyttää värikoodausta, kuten vihreää, keltaista ja punaista, osoittamaan lisääntyvää riskiä. **Kommentit** -kentän avulla projektipäällikkö voi syöttää tilaan liittyviä kommentteja. **Tila päivitetty** -kenttää ei voi muokata, ja sen arvo on aik leima, joka ilmaisee, milloin tila on viimeksi päivitetty.
 
-**Aikataulun tehokkuus** - ja **Kustannustehokkuus** -kentät määritetään seurantapäivänä. Kun aikataulun ja kustannusten varianssi juurisolmussa **Työmäärän seuranta** -näkymässä ovat positiivisia, voit asettaa näiden kenttien arvoksi **Edellä**. Kun pääsolmun aikataulun ja kustasten varianssi juurisolmussa on negatiivinen, voit määrittää niiden arvoksi **Jäljessä**.
+**Aikataulun tehokkuus** - ja **Kustannustehokkuus**-kentät määritetään seurantapäivänä. Kun aikataulun ja kustannusten varianssi juurisolmussa **Työmäärän seuranta** -näkymässä ovat positiivisia, voit asettaa näiden kenttien arvoksi **Edellä**. Kun pääsolmun aikataulun ja kustasten varianssi juurisolmussa on negatiivinen, voit määrittää niiden arvoksi **Jäljessä**.

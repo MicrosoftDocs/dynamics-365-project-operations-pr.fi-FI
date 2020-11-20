@@ -3,7 +3,7 @@ title: Tuotepohjaiset tarjousrivit
 description: Tässä aiheessa on tietoja tuotepohjaisista tarjousriveistä.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075528"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123194"
 ---
 # <a name="product-based-quote-lines"></a>Tuotepohjaiset tarjousrivit
 
@@ -41,7 +41,7 @@ Tässä esimerkissä yritys myy tilauskäyttöoikeuksia erilaisille ohjelmistoil
 - käyttäjämäärä 
 - Tilausten kesto (kuukausina)
 
-Hyvä tapa ylläpitää tällaista luetteloa on luoda tuoteperhe nimellä **Tilausohjelmisto** , jolla on määritteinä **Käyttäjämäärä** ja **Tilausten kesto**. Tämän jälkeen **Tilausohjelmisto** -tuoteperheeseen voidaan lisätä yksittäisiä tuotteita, kuten **Dynamics 365 Sales** tai **Dynamics 365 Field Service**.
+Hyvä tapa ylläpitää tällaista luetteloa on luoda tuoteperhe nimellä **Tilausohjelmisto**, jolla on määritteinä **Käyttäjämäärä** ja **Tilausten kesto**. Tämän jälkeen **Tilausohjelmisto**-tuoteperheeseen voidaan lisätä yksittäisiä tuotteita, kuten **Dynamics 365 Sales** tai **Dynamics 365 Field Service**.
 
 ## <a name="adding-product-catalog-items-to-a-project-quote"></a>Tuoteluettelon nimikkeiden lisääminen projektitarjoukseen
 
@@ -49,14 +49,14 @@ Projektitarjouksen ja projektisopimuksen sivuilla on osioita kahdenlaisille rive
 
 Lisäksi voit valita tuotteita muista hinnastoista tai voit valita tuotteita suoraan tuoteluettelosta. Kun valitset tuotteita suoraan tuoteluettelosta, kyseisen tuotteen oletushinnastoa käytetään tuotteen myyntihinnan määrittämiseen. Jos oletushinnastoa ei ole määritetty, hinnaksi määritetään 0 (nolla).
 
-Jos tarjousrivi perustuu tuoteluetteloon, voit korvata myyntihinnan suoraan tarjousrivillä. Huomaa, että Dynamics 365:n tarjousrivillä on **Hinnoittelu** -kenttä. Käytettävissä on kaksi arvoa:
+Jos tarjousrivi perustuu tuoteluetteloon, voit korvata myyntihinnan suoraan tarjousrivillä. Huomaa, että Dynamics 365:n tarjousrivillä on **Hinnoittelu**-kenttä. Käytettävissä on kaksi arvoa:
 
 - Korvaa hinnoittelu  
 - Käytä oletusta
 
-Jos määrität tämän kentän arvoksi **Korvaa hinnoittelu** , Dynamics 365 ei määritä oletushintaa. Tuotteelle on määritettävä hinta tarjousrivillä. Jos kentän arvoksi määritetään **Käytä oletusta** , Dynamics 365 käyttää oletusmyyntihintaa ja lukitsee kentän muokkaamisen estämiseksi.
+Jos määrität tämän kentän arvoksi **Korvaa hinnoittelu**, Dynamics 365 ei määritä oletushintaa. Tuotteelle on määritettävä hinta tarjousrivillä. Jos kentän arvoksi määritetään **Käytä oletusta**, Dynamics 365 käyttää oletusmyyntihintaa ja lukitsee kentän muokkaamisen estämiseksi.
 
-Kun olet asentanut PSA:n, oletusmyyntihinnat syötetään tarjouksen tuoteperusteisille riveille. **Hinnoittelu** -kentän arvoksi määritetään sitten **Korvaa hinnoittelu** , jotta voit muokata tarjousrivien oletushintaa.
+Kun olet asentanut PSA:n, oletusmyyntihinnat syötetään tarjouksen tuoteperusteisille riveille. **Hinnoittelu** -kentän arvoksi määritetään sitten **Korvaa hinnoittelu**, jotta voit muokata tarjousrivien oletushintaa.
 
 > ![Hinnoittelun korvaamisen määritys](media/basic-guide-10.png)
  

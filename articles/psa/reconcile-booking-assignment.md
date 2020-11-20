@@ -3,7 +3,7 @@ title: Täsmäytä varaukset ja tehtävät
 description: Tässä aiheessa on tietoja nykyarvoista.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075394"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120449"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Täsmäytä varaukset ja tehtävät
 
@@ -33,35 +33,35 @@ Projektiryhmän jäsenen projektivaraukset ja projektitehtävien kohdennukset on
 
 Löyhän kytkennän ansiosta projektivarausten ja tehtävien kohdennuksen välillä **Täsmäytys** -välilehti sisältyy Projekti-entiteettiin. Tämän välilehden avulla projektipäälliköt voivat täsmäyttää ryhmänsä jäsenten varaukset ja kohdennukset.
 
-Kunkin nimetyn ryhmän jäsenen **Täsmäytys** -välilehti näyttää varaukset ja kohdennukset yksittäisten tehtävien kohdennuksiin asti. Se näyttää tunnit soluissa, jotka voivat edustaa aikajaksoja kuukausista päiviin asti.
+Kunkin nimetyn ryhmän jäsenen **Täsmäytys**-välilehti näyttää varaukset ja kohdennukset yksittäisten tehtävien kohdennuksiin asti. Se näyttää tunnit soluissa, jotka voivat edustaa aikajaksoja kuukausista päiviin asti.
 
-Voit valita **Aikajana** -kentässä **Kuukauden** , **Viikon** tai **Päivän**. Oletusarvoisesti **Viikko** on valittuna. Voit kuitenkin muuttaa oletusarvoa valitsemalla **Asetukset** -painikkeen. Kun **Täsmäytys** -välilehti avautuu, se näyttää kuluvan päivän päivämäärän, mutta kalenteriohjausobjektin avulla voit siirtyä ajassa eteenpäin tai taaksepäin. Kun projektin alkamispäivä on tulevaisuudessa, välilehdellä näkyy avattaessa kyseinen päivämäärä. Kalenteriohjausobjektissa on myös vaihtoehtoja, joiden avulla voit siirtyä projektin alkamis- ja päättymispäivään.
+Voit valita **Aikajana**-kentässä **Kuukauden**, **Viikon** tai **Päivän**. Oletusarvoisesti **Viikko** on valittuna. Voit kuitenkin muuttaa oletusarvoa valitsemalla **Asetukset**-painikkeen. Kun **Täsmäytys**-välilehti avautuu, se näyttää kuluvan päivän päivämäärän, mutta kalenteriohjausobjektin avulla voit siirtyä ajassa eteenpäin tai taaksepäin. Kun projektin alkamispäivä on tulevaisuudessa, välilehdellä näkyy avattaessa kyseinen päivämäärä. Kalenteriohjausobjektissa on myös vaihtoehtoja, joiden avulla voit siirtyä projektin alkamis- ja päättymispäivään.
 
 Voit käyttää laajennusohjausobjekteja jokaisessa resurssissa näyttämään resurssin varausten tiedot. Voit myös laajentaa kunkin resurssin kohdennukset yksittäisen tehtävän tasolle.
 
-**Täsmäytys** -välilehden alaosassa näkyy projektin kokonaissumma, ja välilehdellä on myös summasarake. Välilehti näyttää eron kunkin resurssin varausten ja tämän projektiryhmän jäsenen kohdennettujen tehtävien välillä projektissa. Ihannetapauksessa eron pitäisi olla 0 (nolla). Resurssin varausten ja sen kohdennettujen tehtävien välillä ei siis pitäisi olla eroa. Mahdolliset erot ilmaistaan väreillä ja sävytyksellä, jotta voidaan osoittaa kaksi tilannetta:
+**Täsmäytys**-välilehden alaosassa näkyy projektin kokonaissumma, ja välilehdellä on myös summasarake. Välilehti näyttää eron kunkin resurssin varausten ja tämän projektiryhmän jäsenen kohdennettujen tehtävien välillä projektissa. Ihannetapauksessa eron pitäisi olla 0 (nolla). Resurssin varausten ja sen kohdennettujen tehtävien välillä ei siis pitäisi olla eroa. Mahdolliset erot ilmaistaan väreillä ja sävytyksellä, jotta voidaan osoittaa kaksi tilannetta:
 
 - **Varauspula** – varauspulaa tapahtuu, kun resurssilla on enemmän kohdennuksia kuin varauksia. Koska tätä kapasiteettia ei ole varattu, projektipäällikkö voi korjata tämän tilanteen laajentamalla resurssin varauksia kattamaan puutteen.
 - **Ylimääräiset varaukset** – ylimääräisiä varauksia tapahtuu, kun resurssi on kirjattu projektiin, mutta sitä ei ole kohdennettu tehtäviin. Tämä tilanne voi olla hyväksyttävä, jos resurssi on esimerkiksi varattu ennen tehtävän kohdennuksen tekemistä. Muissa tapauksissa resurssia ei kuitenkaan ehkä ole tarkoitus kohdentaa. Näissä tapauksissa projektipäällikön tulisi harkita resurssin varausten peruuttamista, jotta kapasiteettia voidaan käyttää toisessa projektissa.
 
 > [!NOTE]
-> Näiden tilanteiden selite on ehkä piilotettu, jotta ruudukolle jäisi enemmän tilaa. Tällöin voit tuoda selitteen näkyviin valitsemalla **Asetukset** -painikkeen.
+> Näiden tilanteiden selite on ehkä piilotettu, jotta ruudukolle jäisi enemmän tilaa. Tällöin voit tuoda selitteen näkyviin valitsemalla **Asetukset**-painikkeen.
 
-Joissakin tapauksissa, kun **Aikajana** -kenttä on asetettu korkeammalle tasolle kuin **Päivä** , erojen arvoksi voi olla laskettu 0 (nolla). Esimerkiksi **Kuukauden** tasolla resurssin nettoero voi olla 0 (nolla), joka osoittaa, että varaukset ovat yhtä suuria kuin kohdennukset. Kuintenkin **Viikko** -tason tarkastelussa voidaan nähdä, että kohdennuksia on 0 (nolla) tuntia, ja varauksia 40 tuntia kuukauden ensimmäisellä viikolla, ja 40 tuntia kohdennuksia ja 0 (nolla) tuntia varauksia kuukauden toisella viikolla. Vaikka kuukauden varaukset ja kohdennukset ovat samat, ne eroavat viikon mukaan.
+Joissakin tapauksissa, kun **Aikajana**-kenttä on asetettu korkeammalle tasolle kuin **Päivä**, erojen arvoksi voi olla laskettu 0 (nolla). Esimerkiksi **Kuukauden** tasolla resurssin nettoero voi olla 0 (nolla), joka osoittaa, että varaukset ovat yhtä suuria kuin kohdennukset. Kuintenkin **Viikko**-tason tarkastelussa voidaan nähdä, että kohdennuksia on 0 (nolla) tuntia, ja varauksia 40 tuntia kuukauden ensimmäisellä viikolla, ja 40 tuntia kohdennuksia ja 0 (nolla) tuntia varauksia kuukauden toisella viikolla. Vaikka kuukauden varaukset ja kohdennukset ovat samat, ne eroavat viikon mukaan.
 
-Korkeammilla aikatasoilla tarkasteltaessa **Tasmäytys** -välilehti näyttää soluilmaisimen, joka ilmoittaa, että alemmilla aikatasoilla on eroja. Esimerkiksi seuraavassa kuvassa solun ilmaisin näkyy 2018 lokakuun solussa resurssille nimeltä Liisa Järvinen. Siten on nähtävissä, että vaikka resurssin varaukset ja kohdennukset ovat yhtä suuria, kun ne kootaan **Kuukauden** tasolla, ne eivät täsmää alemmilla tasoilla.
+Korkeammilla aikatasoilla tarkasteltaessa **Tasmäytys**-välilehti näyttää soluilmaisimen, joka ilmoittaa, että alemmilla aikatasoilla on eroja. Esimerkiksi seuraavassa kuvassa solun ilmaisin näkyy 2018 lokakuun solussa resurssille nimeltä Liisa Järvinen. Siten on nähtävissä, että vaikka resurssin varaukset ja kohdennukset ovat yhtä suuria, kun ne kootaan **Kuukauden** tasolla, ne eivät täsmää alemmilla tasoilla.
 
 ![Varaukset ja tehtävät eivät täsmää kuukausitasolla](media/reconcile-assignments-01.JPG)
 
-Kaksoisnapsauttamalla solua voit lähentää seuraavalle alemmalle tasolle ja tarkastella eroa. Esimerkiksi jos kaksoisnapsautat lokakuun 2018 eroa Liisa Järviselle, poraudut alas **Viikko** -tasolle. Tämän jälkeen on nähtävissä, että resurssilla on 16 tuntia varauksia mutta ei kohdennuksia lokakuun kahden ensimmäisen viikon aikana ja 16 tuntia kohdennuksia, mutta ei varauksia lokakuun kolmannella viikolla.
+Kaksoisnapsauttamalla solua voit lähentää seuraavalle alemmalle tasolle ja tarkastella eroa. Esimerkiksi jos kaksoisnapsautat lokakuun 2018 eroa Liisa Järviselle, poraudut alas **Viikko**-tasolle. Tämän jälkeen on nähtävissä, että resurssilla on 16 tuntia varauksia mutta ei kohdennuksia lokakuun kahden ensimmäisen viikon aikana ja 16 tuntia kohdennuksia, mutta ei varauksia lokakuun kolmannella viikolla.
 
 ![Varaukset ja tehtävät eivät täsmää viikkotasolla](media/reconcile-assignments-02.JPG)
 
-Voit loitontaa seuraavaa ylemmälle tasolle napsauttamalla solua hiiren kakkospainikkeella. Voit myös poistaa solun ilmaisimen käytöstä valitsemalla **Asetukset** -painikkeen. 
+Voit loitontaa seuraavaa ylemmälle tasolle napsauttamalla solua hiiren kakkospainikkeella. Voit myös poistaa solun ilmaisimen käytöstä valitsemalla **Asetukset**-painikkeen. 
 
-Voit myös käyttää **Edellinen** - ja **Seuraava** -painiketta ruudukon yläpuolella selataksesi projektisi mahdollisia eroja. Jos haluat käyttää näitä painikkeita, valitse ensin resurssi. Valitse **Seuraava** siirtyäksesi seuraavaan eroon varausten ja kohdennusten välillä tälle resurssille. Valitse **Edellinen** siirtyäksesi edelliseen eroon.
+Voit myös käyttää **Edellinen**- ja **Seuraava**-painiketta ruudukon yläpuolella selataksesi projektisi mahdollisia eroja. Jos haluat käyttää näitä painikkeita, valitse ensin resurssi. Valitse **Seuraava** siirtyäksesi seuraavaan eroon varausten ja kohdennusten välillä tälle resurssille. Valitse **Edellinen** siirtyäksesi edelliseen eroon.
 
-Tilanteissa, joissa resurssille on kohdennuksia mutta ei varauksia, voit valita varauksen puutteen ja valita sitten **Laajenna varausta**. Tämän jälkeen näkyviin tulee varaus, joka tarvitaan resurssin puutteen korjaamiseksi. Voit myös tarkastella resurssin varauksia nykyisessä projektissa ja muissa projekteissa. Valitse **OK** , jos haluat luoda resurssille varauksen ottamatta huomioon sen nykyistä saatavuutta. Projektipäällikkö tai resurssipäällikkö voi sitten käyttää aikataulutustaulua hallitakseen tilanteita, joissa resurssin varaukset ylittävät kapasiteetin, koska sen varauksia on laajennettu.
+Tilanteissa, joissa resurssille on kohdennuksia mutta ei varauksia, voit valita varauksen puutteen ja valita sitten **Laajenna varausta**. Tämän jälkeen näkyviin tulee varaus, joka tarvitaan resurssin puutteen korjaamiseksi. Voit myös tarkastella resurssin varauksia nykyisessä projektissa ja muissa projekteissa. Valitse **OK**, jos haluat luoda resurssille varauksen ottamatta huomioon sen nykyistä saatavuutta. Projektipäällikkö tai resurssipäällikkö voi sitten käyttää aikataulutustaulua hallitakseen tilanteita, joissa resurssin varaukset ylittävät kapasiteetin, koska sen varauksia on laajennettu.
 
 ## <a name="managing-with-time-zones"></a>Aikavyöhykkeiden hallinta
 Jotta voidaan varmistaa tarkat ja ennakoitavat tulokset, kun käytetään Laajenna varausta -toimintoa, on kaksi tärkeää edellytystä, jotka on täytettävä:  

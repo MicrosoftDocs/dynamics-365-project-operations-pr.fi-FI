@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075313"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124319"
 ---
 # <a name="match-a-receipt-to-an-expense-using-ocr"></a>Kuitin ja kulun täsmäyttäminen OCR-tunnistuksella
 
@@ -39,18 +39,18 @@ Kulun syöttöä on parannettu kuittien optisen merkintunnistuksen (OCR) käsitt
 Jos haluat liittää kuluraportin luomisen yhteydessä automaattisesti luottokorttitapahtumia sisältävät kuitit, suorita seuraavat vaiheet.
 
   1. Avaa **Kulun hallinta** -työtila.
-  2. Tarkista **Kuitit** -välilehdessä, että liitetyt kuitit ovat olemassa. Voit myös ladata kuitit **Kuitit** -välilehteen.
-  3. Tarkista **Kulut** -välilehdessä, että liitetyt kulut ovat olemassa. Yleensä kulujen järjestelmänvalvoja tuo nämä kulut luottokortin myöntäjältä.
+  2. Tarkista **Kuitit**-välilehdessä, että liitetyt kuitit ovat olemassa. Voit myös ladata kuitit **Kuitit**-välilehteen.
+  3. Tarkista **Kulut**-välilehdessä, että liitetyt kulut ovat olemassa. Yleensä kulujen järjestelmänvalvoja tuo nämä kulut luottokortin myöntäjältä.
   4. Valitse **Uusi kuluraportti**. Huomaa, että voit lisätä kuluja ja kuitteja myös nyt, kun luot kuluraportin. Jos lisäät sekä kuluja että kuitteja, järjestelmä käynnistää kuittausten automaattisen täsmäytyksen kuluihin.
 
 ## <a name="create-or-match-receipts-to-an-expense-report"></a>Kuittien luominen tai liittäminen kuluraportteihin
 Jos haluat luoda kulun tai määrittää kuitin kulun vastaavuuden, tee seuraavat vaiheet.
 
-  1. Liitä kuluraportin **Kuitit** -välilehteen kuitti valitsemalla **Lisää kuitteja**.
-  2. Huomaa kuitin ladatun kuvan alla olevat **Luo** - ja **Määritä vastaavuus** -vaihtoehdot.
+  1. Liitä kuluraportin **Kuitit**-välilehteen kuitti valitsemalla **Lisää kuitteja**.
+  2. Huomaa kuitin ladatun kuvan alla olevat **Luo**- ja **Määritä vastaavuus** -vaihtoehdot.
 
-      - Valitse **Luo** , jos haluat luoda manuaalisesti syötetyn kulutapahtuman ja täyttää arvot, jotka on poimittu kuitista.
-      - Jos valitset **Määritä vastaavuus** , järjestelmä yrittää määrittää olemassa olevan kulun ja kuitin vastaavuuden.
+      - Valitse **Luo**, jos haluat luoda manuaalisesti syötetyn kulutapahtuman ja täyttää arvot, jotka on poimittu kuitista.
+      - Jos valitset **Määritä vastaavuus**, järjestelmä yrittää määrittää olemassa olevan kulun ja kuitin vastaavuuden.
 
 ## <a name="installation"></a>Asennus
 
@@ -73,7 +73,7 @@ Kun otat nämä ominaisuudet käyttöön, suoritetaan seuraavat toiminnot:
 
 - Aiemmin luotu **Kulun hallinta** -työtila korvataan uudella työtilalla.
 - Kulukentän näkyvyydelle lisätään uusi valikon vaihtoehto.
-- Voit yhä avata aiemman **Kuluraportit** -sivun siirtymällä kohtaan **Kulujen hallinta > Omat kulut > Kuluraportit**.
+- Voit yhä avata aiemman **Kuluraportit**-sivun siirtymällä kohtaan **Kulujen hallinta > Omat kulut > Kuluraportit**.
 - Työnkulkujen ja hyväksyntöjen avulla käyttäjä siirretään yhä olemassa olevien kuluraporttien sivulle.
 - Microsoft Azure Cognitive Services -sovellus käsittelee kuitit ja metatiedot puretaan ja lisätään.
 - Järjestelmä lisää vaihtoehdon sellaisen kuluraportin luomista varten, joka sisältää liittämättömiä kuitteja, joiden vastaavuutta ei ole määritetty.

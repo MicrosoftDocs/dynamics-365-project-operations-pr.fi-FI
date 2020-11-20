@@ -3,7 +3,7 @@ title: Peruuta hyväksytyt aika- tai kulukirjaukset
 description: Tässä aiheessa on tietoja aiemmin hyväksytyn aika- tai kulutapahtuman peruuttamisesta.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075395"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120539"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Peruuta hyväksytyt aika- tai kulukirjaukset
 
@@ -62,11 +62,11 @@ Voit hyväksyä tai hylätä peruutuspyynnön seuraavien vaiheiden mukaisesti.
 1. Siirry kohtaan **Projektit** \> **Omat työt** \> **Hyväksynnät**.
 2. Vaihda **Hyväksynnät** -luettelosivulla näkymäksi **Hyväksyttävät peruutuspyynnöt**. Näkyviin tulee luettelo lähetetyistä peruutuspyynnöistä.
 3. Valitse vähintään yksi merkintä ja valitse sitten **Hyväksy** tai **Hylkää**.
-4. Jos valitsit **Hyväksy** , näkyviin tulee varoitussanoma, jossa on selostettu hyväksynnän vaikutus. Vahvista toiminto valitsemalla **OK**. Peruutuspyyntö on hyväksytty.
+4. Jos valitsit **Hyväksy**, näkyviin tulee varoitussanoma, jossa on selostettu hyväksynnän vaikutus. Vahvista toiminto valitsemalla **OK**. Peruutuspyyntö on hyväksytty.
 
     -tai-
 
-    Jos valitsit **Hylkää** , peruutuspyyntö hylätään.
+    Jos valitsit **Hylkää**, peruutuspyyntö hylätään.
 
 > [!NOTE]
 > Kuten peruutusta pyydettäessä, ku peruutus hyväksytään, järjestelmä tarkistaa, onko aika- tai kulumerkinnöissä laskutusaktiviteetteja. Jos tapahtuma on jo laskutettu tai jos se on luonnoslaskulla, hyväksyjä saa virhesanoman, jonka mukaan ajan tai kulun peruutusta ei voi hyväksyä, koska se on jo laskutettu.
@@ -81,7 +81,7 @@ Jos peruutuspyyntö hyväksytään, hyväksyntätietue merkitään **Hylätyksi*
 
 Projektiryhmän jäsen voi tarkastella tapahtumia, muokata ja lähettää merkintöjä uudelleen tai poistaa tietueita kokonaan.
 
-Jos peruutuspyyntö hylätään, merkinnän tila säilyy ennallaan **Hyväksyttynä** , eikä projektiryhmän jäsen tai projektin hyväksyjä voi muokata merkintää.
+Jos peruutuspyyntö hylätään, merkinnän tila säilyy ennallaan **Hyväksyttynä**, eikä projektiryhmän jäsen tai projektin hyväksyjä voi muokata merkintää.
 
 ### <a name="financial-impact"></a>Taloudellinen vaikutus
 
@@ -90,7 +90,7 @@ Jos peruutuspyyntö hyväksytään, vastaavat toteutuneet kustannukset ja myynni
 - **Oikaisun tila** -kenttä päivittyy **Oikaistuksi**.
 - **Laskutuksen tila** -kenttä päivittyy **Peruutetuksi**.
 
-Seuraavaksi todellisten arvojen taulukossa luodaan palautusmerkintöjä. Peruutusmerkintöjen luomista varten järjestelmä kopioi kenttien arvot alkuperäisistä todellisista arvoista. Ainoat arvot, joita ei kopioida, ovat määräarvot. Sen sijaan kyseiset arvot kumotaan. Kumottuja todellisia arvoja luodaan sekä **Kustannus** - että **Laskuttamaton myynti** -muotoisille todellisille arvoille. **Oikaisun tila** -kentän arvoksi käänteisissä nykyarvoissa asetetaan **Oikaisukelvoton** ja **Laskutuksen tila** -kentän arvoksi **Peruutettu**. Näiden muutosten vuoksi projektin kirjatut menot ja tulot eivät enää vastaa summia, joita nämä nykyarvot edustavat.
+Seuraavaksi todellisten arvojen taulukossa luodaan palautusmerkintöjä. Peruutusmerkintöjen luomista varten järjestelmä kopioi kenttien arvot alkuperäisistä todellisista arvoista. Ainoat arvot, joita ei kopioida, ovat määräarvot. Sen sijaan kyseiset arvot kumotaan. Kumottuja todellisia arvoja luodaan sekä **Kustannus**- että **Laskuttamaton myynti** -muotoisille todellisille arvoille. **Oikaisun tila** -kentän arvoksi käänteisissä nykyarvoissa asetetaan **Oikaisukelvoton** ja **Laskutuksen tila** -kentän arvoksi **Peruutettu**. Näiden muutosten vuoksi projektin kirjatut menot ja tulot eivät enää vastaa summia, joita nämä nykyarvot edustavat.
 
 Jos peruutuspyyntö hylätään, projektiin ei liity taloudellista vaikutusta.
 

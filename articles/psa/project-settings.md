@@ -3,7 +3,7 @@ title: Projektin asetukset
 description: Tässä aiheessa on tietoja projektinhallinnan asetuksista.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075511"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123104"
 ---
 # <a name="project-settings"></a>Projektin asetukset
 
@@ -33,15 +33,15 @@ Seuraavien asetusten avulla voit käyttää projektin suunnitteluominaisuuksia.
 
 ## <a name="work-template"></a>Työmalli
 
-Määritä projektin aikataulun luomista varten projektikalenteri, joka määrittää päivittäisten työtuntien määrän ja mahdolliset yrityksen kiinnioloajat. Projektikalenterimallin luomiseksi työmalli liitetään projektin **Kalenterimalli** -kenttään. Luo työmalli seuraavien vaiheiden mukaisesti.
+Määritä projektin aikataulun luomista varten projektikalenteri, joka määrittää päivittäisten työtuntien määrän ja mahdolliset yrityksen kiinnioloajat. Projektikalenterimallin luomiseksi työmalli liitetään projektin **Kalenterimalli**-kenttään. Luo työmalli seuraavien vaiheiden mukaisesti.
 
 1. Napauta PSA:n vasemmanpuoleisessa navigointipaneelissa **Resurssit**. 
-2. Avaa **Resurssit** -listaussivulla käyttäjän tietue, ja valitse sitten **Näytä työtunnit**.
+2. Avaa **Resurssit**-listaussivulla käyttäjän tietue, ja valitse sitten **Näytä työtunnit**.
 
   > [!NOTE]
   > Varmista, että ponnahdusikkunat on sallittu selaimen sivulla. Näin näet resurssille määritetyt työtunnit.
   
-3. Napauta **Kuukausinäkymä** -välilehdellä **Määritä**. Kolme vaihtoehtoa sisältävä lista tulee näkyviin: 
+3. Napauta **Kuukausinäkymä**-välilehdellä **Määritä**. Kolme vaihtoehtoa sisältävä lista tulee näkyviin: 
 
   - Uusi viikkoaikataulu
   - Yhden päivän työaikataulu
@@ -49,17 +49,17 @@ Määritä projektin aikataulun luomista varten projektikalenteri, joka määrit
 
 > ![Määritystoiminnot](media/project-13.png)
 
-4. Valise **Uusi viikkoaikataulu** , ja määritä sen jälkeen tiedot tälle resurssiaikataululle. Voit määrittää toistuvan viikoittaisen aikataulun, päivittäiset tuntiparametrit, yrityksen kiinnioloajat ja muita seikkoja.
-5. Määritä päivämääräväli, valitse **Tallenna** , ja napauta sen jälkeen **Sulje**. 
-6. Palaa **Resurssit** -luettelosivulle ja valitse resurssi, jolle määrität työtunnit. 
+4. Valise **Uusi viikkoaikataulu**, ja määritä sen jälkeen tiedot tälle resurssiaikataululle. Voit määrittää toistuvan viikoittaisen aikataulun, päivittäiset tuntiparametrit, yrityksen kiinnioloajat ja muita seikkoja.
+5. Määritä päivämääräväli, valitse **Tallenna**, ja napauta sen jälkeen **Sulje**. 
+6. Palaa **Resurssit**-luettelosivulle ja valitse resurssi, jolle määrität työtunnit. 
 7. Valitse **Määritä kalenteri** määrittääksesi työmallin. 
-8. Syötä **Työmalli** -dialogilaatikossa työmallin nimi, ja valitse sen jälkeen **Käytä**. 
+8. Syötä **Työmalli**-dialogilaatikossa työmallin nimi, ja valitse sen jälkeen **Käytä**. 
 
 Voit nyt liittää työmallin projektin kalenterimalliin.
 
 ## <a name="resource-roles"></a>Resurssiroolit
 
-Termi *resurssirooli* viittaa joukkoon taitoja, osaamista ja sertifikaatteja, jotka henkilöllä on oltava, jotta hän voisi suorittaa tietyn tehtäväjoukon projektissa. PSA:n avulla voit laskea kustannukset ja laskuttaa resurssin ajasta perustuen siihen rooliin, johon resurssi on liitetty. Jokaisen organisaation on määritettävä nämä roolit käyttämällä **Project Service** -valikon vasemmanpuoleista siirtymispainiketta.
+Termi *resurssirooli* viittaa joukkoon taitoja, osaamista ja sertifikaatteja, jotka henkilöllä on oltava, jotta hän voisi suorittaa tietyn tehtäväjoukon projektissa. PSA:n avulla voit laskea kustannukset ja laskuttaa resurssin ajasta perustuen siihen rooliin, johon resurssi on liitetty. Jokaisen organisaation on määritettävä nämä roolit käyttämällä **Project Service**-valikon vasemmanpuoleista siirtymispainiketta.
 
 Jokaisen organisaation on määritettävä nämä roolit **Aktiiviset resurssiluokat** -sivulla. Valitse vasemmanpuoleisessa siirtymispaneelissa **Resurssiroolit** avataksesi tämän sivun.
 

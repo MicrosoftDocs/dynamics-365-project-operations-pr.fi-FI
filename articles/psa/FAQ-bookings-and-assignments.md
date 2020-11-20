@@ -3,7 +3,7 @@ title: Miten resurssivaraukset ja tehtävien delegoinnit liittyvät toisiinsa
 description: Tässä aiheessa on tietoja siitä, miten hallita nimettyjä resursseja, resurssien varauksia ja resurssien delegointeja ja siitä, miten ne liittyvät toisiinsa.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 03285d324e855ecf933b155559e5a4826420ab25
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075535"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124994"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Miten resurssivaraukset ja tehtävien delegoinnit liittyvät toisiinsa
 
@@ -62,7 +62,7 @@ Jos organisaatio on antanut projektin suunnittelutehtävän sekä projektipääl
 
 Koska varauksia ja delegointeja ei ole yhdistetty tiiviisti, on mahdollista varata tehtävien jaksottumisista poikkeavia jaksottumisia tai muuttaa delegointeja, jolloin varaukset ja delegoinnit eivät vastaa toisiaan.
 
-**Täsmäytys** -näkymän avulla projektipäällikkö voi tarkastella kunkin projektiryhmän jäsenen varauksia ja delegointeja. Ryhmän jäsenten varausten ja delegointien väliset ristiriidat esitetään näkymässä värien ja varjostusten avulla. Näiden tietojen perusteella projektipäällikkö voi laajentaa resurssin varauksia niissä palvelupyynnöissä, joissa on delegointeja mutta ei varauksia, tai peruuttaa varauksia, jos resursseja on varattu ilman delegointeja.
+**Täsmäytys**-näkymän avulla projektipäällikkö voi tarkastella kunkin projektiryhmän jäsenen varauksia ja delegointeja. Ryhmän jäsenten varausten ja delegointien väliset ristiriidat esitetään näkymässä värien ja varjostusten avulla. Näiden tietojen perusteella projektipäällikkö voi laajentaa resurssin varauksia niissä palvelupyynnöissä, joissa on delegointeja mutta ei varauksia, tai peruuttaa varauksia, jos resursseja on varattu ilman delegointeja.
 
 > [!NOTE]
 > Jos siirrät tehtävän, jolle olet määrittänyt jaksottumisen itse, jaksottumisia ei ylläpidetä. Jaksotukset luodaan projektikalenterin mukaan. Niiden avulla otetaan huomioon työajan ja lomien muutokset. Tämä on tarkoituksellista, koska järjestelmä ei tunnista alkuperäisen jaksottumisen tarkoitusta eikä pysty määrittämään sitä, kannattaako jaksottuminen säilyttää uudella ajanjaksolla. Koska varauksia ja delegointeja ei ole yhdistetty, varaukset säilytetään alkuperäisten varausten jaksottumisissa. Tällöin varaus on peruutettava ja tehtävä varaus uudelleen uuden delegoinnin jaksottumiseen.

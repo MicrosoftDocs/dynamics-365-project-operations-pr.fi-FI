@@ -3,7 +3,7 @@ title: Projektiresurssikeskuksen käyttöopas
 description: Projektiresurssikeskuksen loppukäyttäjän opas Project Servicessä
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075339"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123149"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Projektiresurssikeskuksen käyttöopas
 
@@ -75,26 +75,26 @@ Anna työtunnit vähintään viikoittain (tai esimiehesi pyytämällä taajuudel
 
 1. Valitse valikkopainike ![Valikkopainike](media/MenuButton.png "Valikkopainike") ja valitse sitten **Aikamerkinnät**. Tämä tuo näyttöön kalenterisi.
 
-2. Kalenterin edellisen tai seuraavan viikon saat näkyviin napauttamalla **Edellinen** - tai **Seuraava** -painiketta. Napauta **Tänään** -kohtaa, kun haluat palata kuluvaan viikkoon.
+2. Kalenterin edellisen tai seuraavan viikon saat näkyviin napauttamalla **Edellinen**- tai **Seuraava**-painiketta. Napauta **Tänään**-kohtaa, kun haluat palata kuluvaan viikkoon.
 
-3. Jos haluat syöttää ajan, napauta **Uusi** -kohtaa komentopalkissa. 
+3. Jos haluat syöttää ajan, napauta **Uusi**-kohtaa komentopalkissa. 
 
-4. Täytä lomakkeen kentät ja napauta **Tallenna** -kohtaa.
+4. Täytä lomakkeen kentät ja napauta **Tallenna**-kohtaa.
 
-5. Jatka kirjoittamalla koko viikon ajat. Kun se on valmis ja kaikki näyttää olevan kunnossa, napauta **Lähetä** -kohtaa. Esimies tarkistaa ja hyväksyy aikamerkinnät.
+5. Jatka kirjoittamalla koko viikon ajat. Kun se on valmis ja kaikki näyttää olevan kunnossa, napauta **Lähetä**-kohtaa. Esimies tarkistaa ja hyväksyy aikamerkinnät.
 
 ## <a name="enter-expenses"></a>Kulujen lisääminen 
 Anna kustannukset vähintään viikoittain (tai esimiehesi pyytämällä taajuudella) varmistaaksesi, että asiakkaita laskutetaan ja laskut hyvitetään oikein.
 
 1. Valitse valikko ![Valikko-painike](media/MenuButton.png "Valikkopainike") ja valitse sitten **Kulut**. Tämä tuo näyttöön kalenterisi.
 
-2. Voit siirtyä **päivän** , **viikon** tai **kuukauden** tarkasteluun tai siirtyä edelliseen tai seuraavaan ajanjaksoon. 
+2. Voit siirtyä **päivän**, **viikon** tai **kuukauden** tarkasteluun tai siirtyä edelliseen tai seuraavaan ajanjaksoon. 
 
-3. Jos haluat syöttää kulun, napauta **Uusi** -kohtaa komentopalkissa. 
+3. Jos haluat syöttää kulun, napauta **Uusi**-kohtaa komentopalkissa. 
 
-4. Täytä lomakkeen kentät ja napauta **Tallenna** -kohtaa.
+4. Täytä lomakkeen kentät ja napauta **Tallenna**-kohtaa.
 
-5. Jatka syöttämällä koko viikon kulut. Kun se on valmis ja kaikki näyttää olevan kunnossa, napauta **Lähetä** -kohtaa. Esimies tarkistaa ja hyväksyy kustannukset.
+5. Jatka syöttämällä koko viikon kulut. Kun se on valmis ja kaikki näyttää olevan kunnossa, napauta **Lähetä**-kohtaa. Esimies tarkistaa ja hyväksyy kustannukset.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Yleisiä tietoja mobiilisovelluksen käyttämisestä 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobiilisovelluksen perusopas](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).

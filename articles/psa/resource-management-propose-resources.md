@@ -3,7 +3,7 @@ title: Projektiresurssien ehdottaminen
 description: Tässä aiheessa on tietoja projektiresurssien ehdottamisesta.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,19 +18,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075567"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120179"
 ---
 # <a name="propose-project-resources"></a>Projektiresurssien ehdottaminen
 
 Resurssipäälliköt voivat ehdottaa resurssia projektipäällikölle resurssipyynnön avulla.
 
 1. Valitse pyyntöruudukosta tai itse pyynnöstä **Etsi resursseja**.
-2. Valitse resurssi **Aikatauluavustaja** -sivulta, ja valitse sen jälkeen **Luo resurssivaraus** -ruudusta **Varaustila** -kentästä **Varaa**.
+2. Valitse resurssi **Aikatauluavustaja**-sivulta, ja valitse sen jälkeen **Luo resurssivaraus** -ruudusta **Varaustila**-kentästä **Varaa**.
 
     ![Ehdotettu resurssi valittu](media/Resource-Management-image62.png)
 
@@ -44,7 +44,7 @@ Seuraavat tilapäivitykset toteutuvat:
 
     ![Resurssipyynnön tilaksi vaihtuu Tarvitsee tarkistusta.](media/Resource-Management-image64.png)
 
-- Projektin **Ryhmä** -välilehdellä yleisen ryhmän jäsenen **Pyyntötilan** arvoksi vaihtuu **Tarvitsee tarkistusta**.
+- Projektin **Ryhmä**-välilehdellä yleisen ryhmän jäsenen **Pyyntötilan** arvoksi vaihtuu **Tarvitsee tarkistusta**.
 
     ![Yleisen ryhmän jäsenen pyyntötila vaihtuu tilaksi Tarvitsee tarkistusta Ryhmä-välilehdellä.](media/Resource-Management-image48.png)
 
@@ -68,7 +68,7 @@ Käytön laskennassa käytetään seuraavia kaavoja:
 - Sisäinen = Todellinen aika ilman myyntisopimusta ÷ Resurssin kapasiteetti
 - Resurssin kapasiteetti = Resurssin työtunnit – Poissa toimistosta – Muut kuin työpäivät
 
-**Resurssien käyttöaste** -näkymä on **Resurssit** -ruudussa.
+**Resurssien käyttöaste** -näkymä on **Resurssit**-ruudussa.
 
 ![Resurssien käyttöaste -näkymä](media/Resource-Management-image65.png)
 
@@ -82,7 +82,7 @@ Koska **Resurssien käyttöaste** -näkymä perustuu aikataulutaulutaulukkoon, v
 
 Ruudukko edellyttää, että määrität kohteen käytön joko roolille tai yksittäiselle resurssille. Tämä määritetään kohteessa **Resurssit** \> **Resurssiroolit**.
 
-Lisäksi jokaiselle varattavissa olevalle resurssille on määritettävä oletusrooli. Siirry kohtaan **Resurssit** \> **Resurssit**. Varmista **Project Service** -välilehdellä, että resurssin rooli on määritetty, ja että **Onko oletus** -kentän arvo on **Kyllä**. Voit llisätä muita rooleja, joiden **Onko oletus = Ei**. Roolia, jossa **Onko oletus = Kyllä** käytetään määrittämään resurssin käyttöaste tavoitteen mukaisesti.
+Lisäksi jokaiselle varattavissa olevalle resurssille on määritettävä oletusrooli. Siirry kohtaan **Resurssit** \> **Resurssit**. Varmista **Project Service**-välilehdellä, että resurssin rooli on määritetty, ja että **Onko oletus** -kentän arvo on **Kyllä**. Voit llisätä muita rooleja, joiden **Onko oletus = Ei**. Roolia, jossa **Onko oletus = Kyllä** käytetään määrittämään resurssin käyttöaste tavoitteen mukaisesti.
 
 ![Oletusrooli asetettu](media/Resource-Management-image67.png)
 

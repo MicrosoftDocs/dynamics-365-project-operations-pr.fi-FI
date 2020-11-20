@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075350"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120899"
 ---
 # <a name="expense-using-mobile"></a>Mobiililaitteen käyttämisen kulu
 
@@ -81,7 +81,7 @@ Jos organisaatiossasi on otettu käyttöön versio 1611, jossa on Platform Updat
 <tr class="even">
 <td>Julkaise <strong>Kulujen hallinta</strong> -mobiilityötila.</td>
 <td>Järjestelmänvalvoja</td>
-<td>Katso <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilityötilan julkaiseminen </a>.</td>
+<td>Katso <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilityötilan julkaiseminen</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -130,8 +130,8 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
 8. Valitse **Ota valokuva** tai **Valitse kuva**.
 9. Valitse jokin seuraavista vaiheista:
 
-    - Jos valitsit **Ota valokuva** , mobiililaitteen kamera avautuu ja voit ottaa kuvan kuitista. Kun olet ottanut valokuvan, hyväksy se valitsemalla **OK**.
-    - Jos valitsit **Valitse kuva** , voit valita kuvan luettelosta.
+    - Jos valitsit **Ota valokuva**, mobiililaitteen kamera avautuu ja voit ottaa kuvan kuitista. Kun olet ottanut valokuvan, hyväksy se valitsemalla **OK**.
+    - Jos valitsit **Valitse kuva**, voit valita kuvan luettelosta.
 
 10. Valitse **Valmis**.
 
@@ -144,7 +144,7 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
     
 3. Valitse kuluraportti, jonka kulun tietoja haluat tarkastella.
 4. Valitse kulu, jonka tietoja haluat tarkastella. Näkyvissä olevia kulun tietoja ovat kaikki kuitin, vieraan ja erittelyn tiedot.
-5. Siirry takaisin **Kuluraportti** -sivulle ja valitse kuluraportin hyväksyntä tai hylkäys.
+5. Siirry takaisin **Kuluraportti**-sivulle ja valitse kuluraportin hyväksyntä tai hylkäys.
 6. Anna mahdolliset hyväksyntätoimintoa koskevat kommentit.
 7. Valitse **Valmis**.
 
@@ -193,14 +193,14 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
             1.  Valitse luettelosta vähintään yksi kuva.
             2.  Valitse **Valmis**.
 
-    3. Valitse **Takaisin** -painike, jos haluat palata kulun tietoihin.
+    3. Valitse **Takaisin**-painike, jos haluat palata kulun tietoihin.
 
 18. Jos yrityskäytäntö edellyttää kululle vieraat, valitse **Vieraat** ja tee seuraavat toiminnot:
 
-    1. Valitse **Vieras** , **Edelliset vieraat** tai **Työtoverit**.
+    1. Valitse **Vieras**, **Edelliset vieraat** tai **Työtoverit**.
     2. Valitse jokin seuraavista vaiheista:
 
-        - Jos valitsit **Vieras** -kohdan, toimi seuraavasti:
+        - Jos valitsit **Vieras**-kohdan, toimi seuraavasti:
 
             1. Kirjoita vieraan nimi.
             2. Valinnainen: Anna vieraalle organisaatio ja/tai maa.
@@ -212,12 +212,12 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
             1. Valitse luettelosta vähintään yksi edellinen vieras. Näkyviin tulee sovellukseen offline-tilaa varten ladattuihin edellisiin kuluraportteihin lisättyjen aiempien vieraiden luettelo. Oletusarvoisesti ladataan 50 nimikettä, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos edellinen vieras ei ole luettelossa, valitse **Hae** online-hakua varten. Hae nimen mukaan tai vaihda hakuun organisaation, maan tai nimikkeen perusteella.
             2. Valitse **Valmis**.
 
-        - Jos valitsit **Työtoverit** -kohdan, toimi seuraavasti:
+        - Jos valitsit **Työtoverit**-kohdan, toimi seuraavasti:
 
             1. Valitse luettelosta vähintään yksi työntekijä. Näkyvissä ovat työntekijät, jotka ladataan sovellukseesi offline-käyttöä varten. Oletusarvoisesti ladataan 50 nimikettä, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos työtoveri ei ole luettelossa, valitse **Hae** online-hakua varten. Hae nimen mukaan tai vaihda hakuun yrityksen tai nimikkeen perusteella.
             2. Valitse **Valmis**.
 
-    3. Valitse **Takaisin** -painike, jos haluat palata kulun tietoihin.
+    3. Valitse **Takaisin**-painike, jos haluat palata kulun tietoihin.
 
 19. Jos yrityskäytäntö edellyttää, että kulu on eriteltävä, valitse **Erittele** ja tee seuraavat toiminnot:
 
@@ -229,9 +229,9 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
     6. Valitse **Valmis**.
     7. Toista edelliset vaiheet, kunnes olet lisännyt kaikki valitun päivämäärän erittelyt.
     8. Voit kopioida erittelyitä seuraavaan päivään lisäpäiviä varten valitsemalla **Kopioi seuraavaan päivään** -kohdan. Vaihtoehtoisesti voit valita päivämäärän, joka eritellään, ja lisätä sitten erittelyn kuten ensimmäisen päivämäärän kohdalla.
-    9. Kun olet lopettanut kulun erittelyn, valitse **Takaisin** -painike ja palaa kulun tietoihin.
+    9. Kun olet lopettanut kulun erittelyn, valitse **Takaisin**-painike ja palaa kulun tietoihin.
 
-20. Valitse **Takaisin** -painike, jos haluat palata **Kuluraportti** -sivulle.
+20. Valitse **Takaisin**-painike, jos haluat palata **Kuluraportti**-sivulle.
 21. Toista edelliset vaiheet, kunnes olet lisännyt kaikki kulut.
 22. Valitse **Lähetä**.
 23. Anna mahdolliset hyväksyjää koskevat kommentit.

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075445"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121259"
 ---
 # <a name="products"></a>Tuotteet
 
@@ -33,27 +33,27 @@ Tuotteet ovat liiketoiminnan perusta. Dynamics 365 Sales Professionalin tuotelue
 ## <a name="add-a-product"></a>Tuotteen lisääminen
 
 1.  Varmista, että sinulla on Sales Professionalin esimiehen tai järjestelmänvalvojan rooli, jotta voit lisätä tuotteita Dynamics 365 Sales Professionaliin.
-2.  Valitse sivustokartan **Asetukset** -kohdassa **Tuotteet**.
+2.  Valitse sivustokartan **Asetukset**-kohdassa **Tuotteet**.
 3.  Valitse **Lisää tuote** ja anna seuraavat tiedot:
 
     -  **Nimi**
     -  **Tuotetunnus**
-    -  **Ylätaso** : Valitse tuotteen ylätason tuoteperhe. Jos olet luomassa tuoteperheessä alitason tuotetta, ylätason tuoteperheen nimi täytetään tässä. Tätä ei voi muuttaa sen jälkeen, kun tietue on tallennettu.
-    -  **Voimassa alkaen** / **Voimassa asti** : määritä tuotteen voimassaoloaika valitsemalla **Voimassa alkaen** - ja **Voimassa asti** -päivämäärä.
-    -  **Yksikköryhmä** : Valitse yksikköryhmä. Yksikköryhmä on kokoelma yksiköistä, joissa tuotetta myydään, ja se määrittää, mitkä yksittäiset kohteet ryhmitetään suuremmiksi määriksi. Jos esimerkiksi lisäät siemenet tuotteeksi, olet ehkä luonut Siemenet-nimisen yksikköryhmän ja sen ensisijaiseksi yksiköksi on määritetty paketti.
-    -  **Oletusyksikkö** : Valitse yleisin yksikkö, jossa tuotetta myydään. Yksiköt ovat määriä tai mittayksiköitä, joissa tuotteita myydään. Jos olet esimerkiksi lisännyt siemenet tuotteena, voit myydä ne paketeissa, laatikoissa tai kuormalavoilla. Kukin niistä on jatkossa tuotteen yksikkö. Jos siemenet myydään useimmiten paketeissa, valitse se yksiköksi.
-    -  **Oletushinnasto** : Jos kyseessä on uusi tuote, tätä kenttää ei voi muuttaa. Ennen oletushinnaston valitsemista pitää täyttää kaikki pakolliset kentät ja tallentaa tietue. Vaikka oletushinnasto ei ole pakollinen, tuotteelle kannattaa määrittää oletushinnasto tuotetietueen tallentamisen jälkeen. Tällöin Sales voi käyttää tarjousten, tilausten ja laskujen luonnissa oletushinnastoa, jos asiakastietueessa ei ole hinnastoa.
-    -  **Desimaaleja käytettävissä** : Anna kokonaisluku 0–5. Jos tuotetta ei voi jakaa osiin, anna 0. Tarjous-, tilaus- tai laskutustuotetietueen **Määrä** -kentän tarkkuus tarkistetaan tämän kentän arvosta, jos tuotteeseen ei ole liitetty hinnastoa.
-    -  **Aihe** : Liittää tuotteeseen aihe. Aiheiden avulla voit luokitella tuotteita ja suodattaa raportteja.
+    -  **Ylätaso**: Valitse tuotteen ylätason tuoteperhe. Jos olet luomassa tuoteperheessä alitason tuotetta, ylätason tuoteperheen nimi täytetään tässä. Tätä ei voi muuttaa sen jälkeen, kun tietue on tallennettu.
+    -  **Voimassa alkaen** / **Voimassa asti**: määritä tuotteen voimassaoloaika valitsemalla **Voimassa alkaen**- ja **Voimassa asti** -päivämäärä.
+    -  **Yksikköryhmä**: Valitse yksikköryhmä. Yksikköryhmä on kokoelma yksiköistä, joissa tuotetta myydään, ja se määrittää, mitkä yksittäiset kohteet ryhmitetään suuremmiksi määriksi. Jos esimerkiksi lisäät siemenet tuotteeksi, olet ehkä luonut Siemenet-nimisen yksikköryhmän ja sen ensisijaiseksi yksiköksi on määritetty paketti.
+    -  **Oletusyksikkö**: Valitse yleisin yksikkö, jossa tuotetta myydään. Yksiköt ovat määriä tai mittayksiköitä, joissa tuotteita myydään. Jos olet esimerkiksi lisännyt siemenet tuotteena, voit myydä ne paketeissa, laatikoissa tai kuormalavoilla. Kukin niistä on jatkossa tuotteen yksikkö. Jos siemenet myydään useimmiten paketeissa, valitse se yksiköksi.
+    -  **Oletushinnasto**: Jos kyseessä on uusi tuote, tätä kenttää ei voi muuttaa. Ennen oletushinnaston valitsemista pitää täyttää kaikki pakolliset kentät ja tallentaa tietue. Vaikka oletushinnasto ei ole pakollinen, tuotteelle kannattaa määrittää oletushinnasto tuotetietueen tallentamisen jälkeen. Tällöin Sales voi käyttää tarjousten, tilausten ja laskujen luonnissa oletushinnastoa, jos asiakastietueessa ei ole hinnastoa.
+    -  **Desimaaleja käytettävissä**: Anna kokonaisluku 0–5. Jos tuotetta ei voi jakaa osiin, anna 0. Tarjous-, tilaus- tai laskutustuotetietueen **Määrä**-kentän tarkkuus tarkistetaan tämän kentän arvosta, jos tuotteeseen ei ole liitetty hinnastoa.
+    -  **Aihe**: Liittää tuotteeseen aihe. Aiheiden avulla voit luokitella tuotteita ja suodattaa raportteja.
 
 4.  Valitse **Tallenna**.
 5.  Siirry **Muut tiedot** -välilehden **Hinnaston nimikkeet** -osaan, valitse **Lisää komentoja** ja valitse sitten **Lisää uusi hinnaston nimike**.
-7.  Valitse **Muut tiedot** -välilehden **Tuotesuhde** -osan **Lisää komentoja** -kuvake ja valitse sitten **Lisää uusi tuotesuhde.**
-8.  Anna seuraavat tiedot **Uusi tuotesuhde** -lomakkeessa ja valitse komentopalkissa **Tallenna ja sulje** :
+7.  Valitse **Muut tiedot** -välilehden **Tuotesuhde**-osan **Lisää komentoja** -kuvake ja valitse sitten **Lisää uusi tuotesuhde.**
+8.  Anna seuraavat tiedot **Uusi tuotesuhde**-lomakkeessa ja valitse komentopalkissa **Tallenna ja sulje**:
 
-    -   **Liittyvä tuote** : Valitse tuote, jonka haluat lisätä liittyvänä tuotteena käsiteltävään aiemmin luotuun tuotetietueeseen.
-    -   **Myyntisuhteen tyyppi** : Määritä, haluatko lisätä tuotteen lisämyynti-, ristiinmyynti- vai apuvälinetuotteena vai korvaavana tuotteena.
-    -   **Suunta** : Määritä, onko tuotteiden välinen suhde yksi- vai kaksisuuntainen. Jos valitset yksisuuntaisen suhteen, **Liittyvä tuote** -kohdassa valittu tuote näkyy suosituksena aiemmin luodulle tuotteelle mutta ei päinvastoin.
+    -   **Liittyvä tuote**: Valitse tuote, jonka haluat lisätä liittyvänä tuotteena käsiteltävään aiemmin luotuun tuotetietueeseen.
+    -   **Myyntisuhteen tyyppi**: Määritä, haluatko lisätä tuotteen lisämyynti-, ristiinmyynti- vai apuvälinetuotteena vai korvaavana tuotteena.
+    -   **Suunta**: Määritä, onko tuotteiden välinen suhde yksi- vai kaksisuuntainen. Jos valitset yksisuuntaisen suhteen, **Liittyvä tuote** -kohdassa valittu tuote näkyy suosituksena aiemmin luodulle tuotteelle mutta ei päinvastoin.
 
 9.  Valitse tuotelomakkeesta **Tallenna**.
 
@@ -72,7 +72,7 @@ Tuotevaraston päivittäminen onnistuu nopeasti korjaamalla tuotteiden ominaisuu
 5.  Kun olet tehnyt muutokset, valitse komentopalkissa **Julkaise**.
 
     > [!TIP]
-    > Jos haluat palauttaa muutokset ja jatkaa tuotteen viimeisellä aktiivisella versiolla, valitse **Palauta.** Tuotteen tila muuttuu takaisin **Aktiivinen** -tilaan.
+    > Jos haluat palauttaa muutokset ja jatkaa tuotteen viimeisellä aktiivisella versiolla, valitse **Palauta.** Tuotteen tila muuttuu takaisin **Aktiivinen**-tilaan.
 
 ## <a name="clone-a-product"></a>Tuotteen kloonaminen 
 
@@ -119,8 +119,8 @@ Järjestelmä varmistaa, että määräkertoimiksi valitaan vain numeerisia omin
 
 Käytettävissä voivat olla esimerkiksi seuraavat ominaisuudet: 
 
-- **Käyttäjät** : Käyttäjien määrä 
-- **Kuukaudet** : Tilauskuukausien määrä
+- **Käyttäjät**: Käyttäjien määrä 
+- **Kuukaudet**: Tilauskuukausien määrä
 - **Tuote-SKU** 
 
-**Käyttäjät** - ja **Kuukaudet** -ominaisuudet voidaan valita määräkertoimiksi muokkaamalla tuoterivin ominaisuuksia. 
+**Käyttäjät**- ja **Kuukaudet**-ominaisuudet voidaan valita määräkertoimiksi muokkaamalla tuoterivin ominaisuuksia. 

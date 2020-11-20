@@ -3,7 +3,7 @@ title: Projektivarauksen luominen aikataulutaulukosta
 description: Tässä aiheessa on tietoja projektivarauksen luomisesta aikataulutaulukosta.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,22 +18,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075365"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122294"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Projektivarauksen luominen aikataulutaulukosta
 
-Voit varata resurssin projektiin joko suoraan projektin **Ryhmä** -välilehdessä tai luomalla resurssitarpeen yleisestä ryhmän jäsenen delegoinnista ja täyttämällä luodun tarpeen projektin ryhmän jäsenellä.
+Voit varata resurssin projektiin joko suoraan projektin **Ryhmä**-välilehdessä tai luomalla resurssitarpeen yleisestä ryhmän jäsenen delegoinnista ja täyttämällä luodun tarpeen projektin ryhmän jäsenellä.
 
 Voit varata resurssin projektiin myös suoraan aikataulutaulukosta. Tähän on kolme ratkaisua:
 
 - **Varaus luodusta resurssitarpeesta:** Voit luoda resurssitarpeen, kun olet luonut yleisen resurssin ja kohdentanut tehtäviä projektin sisällä.
 
-- **Varaus ensisijaisesta tarpeesta:** Ensisijaiset tarpeet tulevat näkyviin aikataulutaulukon **Projekti** -välilehdessä. 
+- **Varaus ensisijaisesta tarpeesta:** Ensisijaiset tarpeet tulevat näkyviin aikataulutaulukon **Projekti**-välilehdessä. 
 
 - **Varaus uudesta resurssitarpeesta:** Voit luoda resurssitarpeen alusta ja yhdistää sen projektiin. Resurssitarve näkyy aikataulutaulukossa **Avoimet tarpeet** -välilehdessä.
 
@@ -51,7 +51,7 @@ Voit luoda yleisen resurssin ja kohdentaa sille projektissa yhden tehtävän tai
 
 4. Voit myös vetää ja pudottaa valitun rivin aikataulutaulukon alaosasta yllä olevan ruudukon resurssisoluun. Kun pudotat sen, **Luo resurssin varaus** -paneeli avautuu oikealle.
 
-    Kun valitset **Varaa** , resurssi varataan projektiryhmälle.
+    Kun valitset **Varaa**, resurssi varataan projektiryhmälle.
 
 ![Resurssivarauspaneelin luominen](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
@@ -60,7 +60,7 @@ Voit luoda yleisen resurssin ja kohdentaa sille projektissa yhden tehtävän tai
 
 Kun Project Service -sovelluksessa luodaan projekti, luodaan myös resurssitarve nimeltä Ensisijainen tarve. Tämä on tyhjä tarve, jonka avulla resurssi voidaan varata nopeasti aikataulutaulukon avulla ilman, että tarve on luotava alusta alkaen tai muulla tavalla. Koska tarve on tyhjä, tarvittavat päivämäärät, kohdennustapa ja tunnit on määritettävä. 
 
-1. Jos haluat varata resurssin aikataulutaulukon Ensisijainen tarve -kohdassa, valitse **Projekti** -välilehti. Jos projekteja on useita, kannattaa käyttää **Projekti** -sarakkeen sarakesuodatinta.
+1. Jos haluat varata resurssin aikataulutaulukon Ensisijainen tarve -kohdassa, valitse **Projekti**-välilehti. Jos projekteja on useita, kannattaa käyttää **Projekti**-sarakkeen sarakesuodatinta.
 
    ![Sarakesuodattimet aikataulutaulukossa](media/FAQ-Project-Booking-Schedule-Board-2.png "Varausten ja delegointien taulukon näyttökuva")
 
@@ -79,11 +79,11 @@ Kun Project Service -sovelluksessa luodaan projekti, luodaan myös resurssitarve
 ## <a name="book-from-a-new-resource-requirement"></a>Varaus uudesta resurssitarpeesta
 Resurssi voidaan varata uudesta resurssitarpeesta seuraavasti. 
 
-1. Siirry **Resurssitarpeet** -kohtaan ja valitse **Uusi** luodaksesi uuden resurssitarpeen.
+1. Siirry **Resurssitarpeet**-kohtaan ja valitse **Uusi** luodaksesi uuden resurssitarpeen.
 
 2. Valitse **Projekti** -välilehdessä projekti yhdistääksesi resurssin projektiin.
  
-    Aikataulutaulukossa tämä uusi tarve näkyy muodossa **Avoin tarve** , joka voidaan täyttää.
+    Aikataulutaulukossa tämä uusi tarve näkyy muodossa **Avoin tarve**, joka voidaan täyttää.
 
 3. Lisää resurssi projektiryhmään varaamalla se.
 

@@ -3,7 +3,7 @@ title: Määritä aikayksiköt
 description: Aikayksiköiden määrittäminen Project Servicessä
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d071549e6493258aeea187d70ee35054d2e8ea60
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c007f59f542618860af21125313abd066e17cf45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075443"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120089"
 ---
 # <a name="set-up-time-units-project-service"></a>Määritä aikayksiköt (Project Service)
 
@@ -35,9 +35,9 @@ Määritä aikayksiköt tuoteluetteloon, jota aiot käyttää projektien aikatau
   
 2. Valitse **Yksikköryhmät**.  
   
-3. Valitse **Aika** -yksikköryhmä (luotu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -asennuksen aikana).  
+3. Valitse **Aika**-yksikköryhmä (luotu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -asennuksen aikana).  
   
-4. **Yksiköt** -välilehdessä valitse **Lisää uusi yksikkö** ja muuta arvoja tarpeen mukaan. Lisää niin monta yksikköä kuin tarvitset. Haluat ehkä esimerkiksi luoda seuraavia yksiköitä:  
+4. **Yksiköt**-välilehdessä valitse **Lisää uusi yksikkö** ja muuta arvoja tarpeen mukaan. Lisää niin monta yksikköä kuin tarvitset. Haluat ehkä esimerkiksi luoda seuraavia yksiköitä:  
   
    - **Päivä** ja **Perusyksikkö** = **Tunti** ja **Määrä** = 8  
   

@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096748"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122879"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Project Operations -integroinnin määrittäminen oikeushenkilöä kohden 
 
@@ -46,8 +46,8 @@ Voit ottaa Project Operationsin käyttöön Dynamics 365 Customer Engagementissa
 
 ## <a name="configure-project-management-and-accounting-parameters"></a>Projektinhallinnan ja kirjanpidon parametrien määrittäminen
 
-Jokainen yritys, joka käyttää projektitoimintoja Dynamics 365 Customer Engagementissa tarvitsee oletusparametrien joukon. Nämä parametrit määritetään **projektinhallinta ja kirjanpidon parametrit** -sivun **projektitoiminnot** -välilehdessä. Parametrit ovat:
+Jokainen yritys, joka käyttää projektitoimintoja Dynamics 365 Customer Engagementissa tarvitsee oletusparametrien joukon. Nämä parametrit määritetään **projektinhallinta ja kirjanpidon parametrit** -sivun **projektitoiminnot**-välilehdessä. Parametrit ovat:
 
-  - **Laskutustyyppioletukset** : Project Operations käyttää kiinteää joukkoa laskutustyyppioletusarvoja, jotka on yhdistettävä rivin ominaisuuksiin Financessa. Tietueen luominen kullekin laskutustyypille: **ei määritetty** , **Laskutettava** , **Ei-laskutettava** , **maksuton** ja **ei käytettävissä**.
-  - **Projektiluokan oletusarvot** : Valitse kullekin tapahtumatyypille käytettävät oletusprojektiluokat. Näitä oletusarvoja käytetään **Projektitoimintojen integrointikirjauskansiossa** ja arvioissa, joissa projektin toteutumiselle ei ole määritetty tapahtumaluokkaa.
-  - **Ennusteet** : Valitse ennustemalli, jota käytetään aika- ja kuluarvioille.
+  - **Laskutustyyppioletukset**: Project Operations käyttää kiinteää joukkoa laskutustyyppioletusarvoja, jotka on yhdistettävä rivin ominaisuuksiin Financessa. Tietueen luominen kullekin laskutustyypille: **ei määritetty**, **Laskutettava**, **Ei-laskutettava**, **maksuton** ja **ei käytettävissä**.
+  - **Projektiluokan oletusarvot**: Valitse kullekin tapahtumatyypille käytettävät oletusprojektiluokat. Näitä oletusarvoja käytetään **Projektitoimintojen integrointikirjauskansiossa** ja arvioissa, joissa projektin toteutumiselle ei ole määritetty tapahtumaluokkaa.
+  - **Ennusteet**: Valitse ennustemalli, jota käytetään aika- ja kuluarvioille.

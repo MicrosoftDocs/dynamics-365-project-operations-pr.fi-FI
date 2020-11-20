@@ -2,7 +2,7 @@
 title: Päivitykseen liittyviä huomioita - Microsoft Dynamics 365 Project Service Automation -versiosta 2.x tai 1.x versioon 3
 description: Tässä aiheessa on tietoja asioista, jotka on otettava huomioon päivitettäessä Project Service Automation -versiosta 2.x tai 1.x versioon 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075428"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121709"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Päivitykseen liittyviä huomioita - PSA:n versio 2.x tai 1.x versioon 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "4075428"
 Sekä Dynamics 365 Project Service Automation että Dynamics 365 Field Service käyttävät Universal Resourcing Scheduling (URS) -ratkaisua resurssien aikatauluttamiseen. Jos ilmentymässäsi on sekä Project Service Automation että Field Service, sinun kannattaa suunnitella molempien ratkaisujen päivittämistä uusimpiin versioihin (Project Service Automation -versioon 3.x ja Field Service -versioon 8.x). Project Service Automationin tai Field Servicen päivittäminen asentaa uusimman URS-version, mikä tarkoittaa, että epäyhtenäinen toiminta on mahdollista, jos saman esiintymän Project Service Automation- ja Field Service -ratkaisuja ei päivitetä uusimpaan versioon.
 
 ## <a name="resource-assignments"></a>Resurssien kohdennukset
-Project Service Automation -versiossa 2 ja versiossa 1 tehtävien kohdennukset tallennettiin alitehtävinä (kutsutaan myös rivitehtäviksi) **Tehtäväentiteetissä** , ja ne liittyivät epäsuorasti **Resurssien kohdentaminen** -entiteettiin. Rivitehtävä näkyi työrakenteen (WBS) kohdennuksen ponnahdusikkunassa.
+Project Service Automation -versiossa 2 ja versiossa 1 tehtävien kohdennukset tallennettiin alitehtävinä (kutsutaan myös rivitehtäviksi) **Tehtäväentiteetissä**, ja ne liittyivät epäsuorasti **Resurssien kohdentaminen** -entiteettiin. Rivitehtävä näkyi työrakenteen (WBS) kohdennuksen ponnahdusikkunassa.
 
 ![Työrakenteen rivitehtävät Project Service Automation -versiossa 2 ja 1](media/upgrade-line-task-01.png)
 

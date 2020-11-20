@@ -3,7 +3,7 @@ title: Uutuudet ja muutokset Project Service Automation -päivitysjulkaisussa 18
 description: Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat käytettävissä Project Service Automation -päivitysjulkaisussa 18, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075302"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119864"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Project Service Automation -päivitysjulkaisu 18, V3
 
@@ -36,17 +36,17 @@ Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia t
 
 **Aika ja kulu**
 
-- Korjattu: **Palautus** -, **Pyyntö** - ja **Peruuta hyväksyntä** -työnkulut aiheuttavat poikkeuksen, joiden virhesanoma on epäselvä.
+- Korjattu: **Palautus**-, **Pyyntö**- ja **Peruuta hyväksyntä** -työnkulut aiheuttavat poikkeuksen, joiden virhesanoma on epäselvä.
 - Korjattu: kun **Peruuta hyväksyntä** epäonnistuu kulun osalta, se ei aiheuta siihen liittyvää poikkeusta.
 - Korjattu: Aikamerkintä-ruudukko käsittelee Australian muut kuin työpäivät virheellisesti lokakuussa tapahtuvan talviaikaan siirtymisen jälkeen.
 - Korjattu: virheellinen oletuslogiikka estää kulujen lähettämisen.
-- Korjattu: kun aikamerkinnän hyväksyntä epäonnistuu, hyväksyntä pysyy **Odottaa** -tilana.
+- Korjattu: kun aikamerkinnän hyväksyntä epäonnistuu, hyväksyntä pysyy **Odottaa**-tilana.
 - Korjattu: joukkohyväksymisten SQL-virheet (lukkiutuminen/aikakatkaisu).
 - Korjattu: ryhmän jäsenten päivittäminen aikamerkintöjä hyväksyttäessä aiheuttaa merkittäviä käyttökokemuksen suorituskykyongelmia.
 
 **Projektinhallinta**
 
-- Korjattu: aikavyöhykeilmoitus siirrettiin **Täsmäytys** -näkymästä **Projekti** -päälomakkeeseen.
+- Korjattu: aikavyöhykeilmoitus siirrettiin **Täsmäytys**-näkymästä **Projekti**-päälomakkeeseen.
 - Korjattu: kalenterimallissa ei käytetä oikeita oletusarvoja, kun uusi projektilomake avautuu.
 - Korjattu: chromium-pohjaisten selainten käyttäjillä ei ole helppoa tapaa valita poistettavia edeltäjän tehtäviä.
 - Korjattu: kun **projektin tyhjää mallia** käytetään luontiin tai kopiointiin, noudettavat tehtävät eivät liity siihen.
@@ -55,9 +55,9 @@ Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia t
 
 **Resurssienhallinta**
 
-- Korjattu: **Täsmäytys** -näkymän välisummarivi laskee varausten eron virheellisesti varausten laajennusten jälkeen.
-- Korjattu: **Täsmäytys** -näkymä näyttää resurssimääritykset virheellisesti, kun varattavissa olevalla resurssilla on kalenteri, joka ei vastaa projektikalenteria.
+- Korjattu: **Täsmäytys**-näkymän välisummarivi laskee varausten eron virheellisesti varausten laajennusten jälkeen.
+- Korjattu: **Täsmäytys**-näkymä näyttää resurssimääritykset virheellisesti, kun varattavissa olevalla resurssilla on kalenteri, joka ei vastaa projektikalenteria.
 
 **Sales**
 
-- Korjattu: kun aikamerkinnät hyväksytään uudelleen ( **Hyväksy > Peruuta >** hyväksyntä uudelleen), todellisen ei-veloitettavan kaksoiskappale luodaan.
+- Korjattu: kun aikamerkinnät hyväksytään uudelleen (**Hyväksy > Peruuta >** hyväksyntä uudelleen), todellisen ei-veloitettavan kaksoiskappale luodaan.

@@ -2,7 +2,7 @@
 title: Uutuudet ja muutokset Project Service Automation -versiossa 3
 description: Tässä aiheessa on tietoja Project Service Automation -version 3 uusista ja muuttuneista ominaisuuksista.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075310"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119999"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Uutuudet ja muutokset Project Service Automation -versiossa 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -40,7 +40,7 @@ Aikataulussa on nyt uusi käyttöliittymä, joka on sekä moderni että helppok�
 - **Gantt-kaavio** - Gantt-kaavio ei ole enää käytettävissä. Uusi Gantt-visualisointi palaa tulevaan päivitykseen.
 - **Sarakeotsikot** – voit piilottaa sarakkeiden otsikot ruudukossa napsauttamalla sarakkeen otsikon vieressä olevaa alanuolta. 
 - **Sarakkeet** – voit näyttää piilotetut sarakkeet valitsemalla **Lisää sarake.** 
-- **Tapahtumaluokka** – **Tapahtumaluokka** -haku on lisätty aikataulutaulukkoon, ja se näytetään oletuksena. 
+- **Tapahtumaluokka** – **Tapahtumaluokka**-haku on lisätty aikataulutaulukkoon, ja se näytetään oletuksena. 
  
 ## <a name="project-templates"></a>Projektimallit
 Seuraavat muutokset on tehty projektimallin toimintoihin.
@@ -94,7 +94,7 @@ Arviot on jaettu kahdelle välilehdelle, **Resurssikohdennukset** ja **Arviot**.
 
 ![Resurssien kohdennukset -välilehti näyttää työmääräarviot ja resurssien kohdennukset tehtäviin](media/resource-assignments-tab-02.png)
 
-**Arviot** -välilehdellä näkyvät resurssien kohdennusten kustannus- ja myyntisummat. Summat ovat vain luku-tilassa. Kustannuslaskenta ja myyntihinnoittelu perustuvat nyt aikataulun ryhmän jäsenten varauksiin. Tämä tarkoittaa sitä, että kohdentamaton tehtävä näkyy kohdentamattoman segmentin alla. Tämä tarkoittaa myös sitä, että ilman **Roolia** , joka on oletushinnoitteludimensio, ei ole arvioitua kustannusta tai myyntiä, jos olemassa on projektiin liittyvä asiakas tai sopimus/tarjous. 
+**Arviot** -välilehdellä näkyvät resurssien kohdennusten kustannus- ja myyntisummat. Summat ovat vain luku-tilassa. Kustannuslaskenta ja myyntihinnoittelu perustuvat nyt aikataulun ryhmän jäsenten varauksiin. Tämä tarkoittaa sitä, että kohdentamaton tehtävä näkyy kohdentamattoman segmentin alla. Tämä tarkoittaa myös sitä, että ilman **Roolia**, joka on oletushinnoitteludimensio, ei ole arvioitua kustannusta tai myyntiä, jos olemassa on projektiin liittyvä asiakas tai sopimus/tarjous. 
 
 ![Arviot-välilehti, jolla näkyvät kustannus- ja myyntisummat](media/estimates-tab-03.png)
   
@@ -112,9 +112,9 @@ Project Service Automation -versiossa 3, jossa on uusi Unified Client -käyttöl
 ### <a name="assign-a-real-bookable-resource"></a>Todellisen varattavissa olevan resurssin kohdentaminen 
 Project Service Automation -versiossa 3 varaukset ja tehtävämääritykset eivät ole yhtä tiiviisti sidoksissa toisiinsa kuin Project Service Automationin aiemmissa versioissa. Ryhmänruudukon avulla voit varata **todellisen** ryhmän jäsenen, joka on samanlainen kuin in-market.
 
-Kun käytät resurssin valitsinta aikataulussa, voit valita ryhmä-näkymästä luodun ryhmän jäsenen ja kohdentaa hänet sitten tehtäviin. Voit jatkaa tehtävien kohdentamista heille, myös heidän varaustensa ohi. **Täsmäytys** -välilehden avulla voit täsmäyttää ryhmän jäseniä, joilla on eroja varausten ja kohdennusten välillä.
+Kun käytät resurssin valitsinta aikataulussa, voit valita ryhmä-näkymästä luodun ryhmän jäsenen ja kohdentaa hänet sitten tehtäviin. Voit jatkaa tehtävien kohdentamista heille, myös heidän varaustensa ohi. **Täsmäytys**-välilehden avulla voit täsmäyttää ryhmän jäseniä, joilla on eroja varausten ja kohdennusten välillä.
 
-Resurssivalitsin näyttää projektin ryhmän jäsenet. Resurssi valitsimen avulla voit myös etsiä ja tarkastella muita varattavia resursseja, jotka eivät kuulu projektiryhmään. Voit kohdentaa ne tehtävään, ja niistä tulee osa projektiryhmää. Sinun täytyy varata ne käyttämällä **Aikataulutaulukkoa** tai **Täsmäytys** -välilehteä.
+Resurssivalitsin näyttää projektin ryhmän jäsenet. Resurssi valitsimen avulla voit myös etsiä ja tarkastella muita varattavia resursseja, jotka eivät kuulu projektiryhmään. Voit kohdentaa ne tehtävään, ja niistä tulee osa projektiryhmää. Sinun täytyy varata ne käyttämällä **Aikataulutaulukkoa** tai **Täsmäytys**-välilehteä.
 
 ### <a name="assign-a-generic-bookable-resource-on-a-task-and-project-team-and-then-fulfill-with-a-real-resource-via-schedule-board"></a>Voit kohdentaa yleisen varattavissa olevan resurssin tehtävään ja projektiryhmään ja täydentää sitten varauksen todellisella resurssilla aikataulutaulukon kautta. 
 Project Service Automation -versiossa 3 Luo ryhmä -toimintoa ei käytetä yleisiin resursseihin. Sen sijaan voit luoda ja kohdentaa yleisen resurssin suoraan aikataulusta kirjoittamalla yleisen resurssin nimen aikataulun resurssisoluun. Voit myös valita resurssikuvakkeen solusta ja kirjoittaa sitten resurssin valitsimella sen yleisen resurssin nimen, jonka haluat luoda. Tämä avaa pikaluontipaneelin, jonka avulla voit määrittää yleisen resurssiryhmän jäsenen roolin ja organisaatioyksikön. Kun olet luonut resurssin, se on kohdennettu tehtävälle ja voit edelleen määrittää kyseisen yleisen resurssin muihin aikataulun tehtäviin.    
@@ -128,10 +128,10 @@ Kun varaus on valmis ja nimetty resurssi täyttää sen kokonaan, yleinen resurs
 Tarpeita varten ehdotetut resurssit on nyt tallennettu välilehdelle erillisen osan sijaan.
 
 ### <a name="multiple-named-resources-fulfilling-a-generic-resource"></a>Useita nimettyjä resursseja, jotka täyttävät yleisen resurssin
-Kun tarve täyttyy useilla resursseilla, yleinen resurssi säilyy ryhmässä ja kohdennetaan tehtävään. Nimettyjä ryhmän jäseniä, jotka on varattu, ei määritetä osana työtä. Projektipäällikkö voi kohdentaa työn todellisille resursseille tarpeen mukaan.  **Täsmäytys** -näkymä sisältää erittelyn varauksista useille resursseille ja kohdennuksille. Tämä ei tapahdu automaattisesti, koska monimutkaisissa skenaarioissa, kuten siinä tapauksessa, jossa on joukko tehtäviä, jotka muodostavat tarpeen, on otettava huomioon, miten projektipäällikkö haluaa delegoida. Koska järjestelmä ei ymmärrä tarkoitusta, oletukset ovat todennäköisesti erilaisia kuin tarkoitus, ja tuloksena syntyy virheellinen tai arvaamaton tulos. Ennustettava tulos on se, että yleinen resurssi säilyy määritettynä, kunnes projektipäällikkö määrittää resurssit tietoisesti **Täsmäytys** -näkymän avulla.
+Kun tarve täyttyy useilla resursseilla, yleinen resurssi säilyy ryhmässä ja kohdennetaan tehtävään. Nimettyjä ryhmän jäseniä, jotka on varattu, ei määritetä osana työtä. Projektipäällikkö voi kohdentaa työn todellisille resursseille tarpeen mukaan.  **Täsmäytys**-näkymä sisältää erittelyn varauksista useille resursseille ja kohdennuksille. Tämä ei tapahdu automaattisesti, koska monimutkaisissa skenaarioissa, kuten siinä tapauksessa, jossa on joukko tehtäviä, jotka muodostavat tarpeen, on otettava huomioon, miten projektipäällikkö haluaa delegoida. Koska järjestelmä ei ymmärrä tarkoitusta, oletukset ovat todennäköisesti erilaisia kuin tarkoitus, ja tuloksena syntyy virheellinen tai arvaamaton tulos. Ennustettava tulos on se, että yleinen resurssi säilyy määritettynä, kunnes projektipäällikkö määrittää resurssit tietoisesti **Täsmäytys**-näkymän avulla.
 
 ### <a name="reconciliation"></a>Täsmäytys
-**Täsmäytys** -välilehti näyttää varaukset ja kaikki kohdennukset jokaiselle projektiryhmän jäsenelle. Näkymä näyttää tunnit soluissa, jotka voivat edustaa aikajapisteitä kuukausista päiviin asti. Tämän näkymän avulla projektipäälliköt voivat täsmäyttää ryhmänsä jäsenten varaukset ja kohdennukset. Tästä on hyötyä, koska varaukset ja tehtävien kohdennukset eivät ole tiukasti kytkettyjä, joten projektia suunniteltaessa on mahdollista saada enemmän joustavuutta. 
+**Täsmäytys**-välilehti näyttää varaukset ja kaikki kohdennukset jokaiselle projektiryhmän jäsenelle. Näkymä näyttää tunnit soluissa, jotka voivat edustaa aikajapisteitä kuukausista päiviin asti. Tämän näkymän avulla projektipäälliköt voivat täsmäyttää ryhmänsä jäsenten varaukset ja kohdennukset. Tästä on hyötyä, koska varaukset ja tehtävien kohdennukset eivät ole tiukasti kytkettyjä, joten projektia suunniteltaessa on mahdollista saada enemmän joustavuutta. 
 
 ![Täsmäytys-välilehti näyttää varaukset ja kaikki kohdennukset projektiryhmän jäsenille.](media/resource-reconciliation-tab-06.png)
 
@@ -146,7 +146,7 @@ Tilanteissa, joissa resurssille on kohdennuksia mutta ei varauksia (varauspula),
 Tässä osassa on tietoja Project Service Automationin version 3 ajan, kulun ja hyväksynnän muutoksista. Osana Dynamics 365 Project Service Automation -ratkaisua **Ajan syöttö** - toiminto on päivitetty Unified Interface -kehyksen käyttöönottoa varten. Tämä mahdollistaa yhdenmukaisen ja yhtenäisen käyttöliittymän tarjoamisen, joka noudattaa joustavia suunnitteluperiaatteita, jotka takaavat optimaalisen katselun missä tahansa näytön koossa tai laitteessa. 
 
 ### <a name="landing-page"></a>Saapumissivu
-Ei-laajennettava mukautettu ajansyöttökokemus on vanhentunut versiossa 3. Sen tilalla on nyt laajennettava ja käytettävissä oleva luonnollinen ruudukkokokemus. Voit käyttää ajan syötön toimintoja vasemmalla olevan sivustokartan avulla. Tämän muutoksen ansiosta et voi enää syöttää aikaa yhdelle viikolle kerrallaan. Sen sijaan jokaiselle ruudukon päivälle on luotava aikamerkintä. Muutaman merkinnän luomisen jälkeen käyttäjät voivat luoda useita aikamerkintöjä kerralla **Kopiointi** -toiminnon avulla, josta kerrotaan myöhemmin lisää tässä aiheessa. 
+Ei-laajennettava mukautettu ajansyöttökokemus on vanhentunut versiossa 3. Sen tilalla on nyt laajennettava ja käytettävissä oleva luonnollinen ruudukkokokemus. Voit käyttää ajan syötön toimintoja vasemmalla olevan sivustokartan avulla. Tämän muutoksen ansiosta et voi enää syöttää aikaa yhdelle viikolle kerrallaan. Sen sijaan jokaiselle ruudukon päivälle on luotava aikamerkintä. Muutaman merkinnän luomisen jälkeen käyttäjät voivat luoda useita aikamerkintöjä kerralla **Kopiointi**-toiminnon avulla, josta kerrotaan myöhemmin lisää tässä aiheessa. 
 
 ![Ajan syötön saapumissivu](media/time-entry-landing-page-07.png)
  
@@ -158,7 +158,7 @@ Napauta **Uusi** tehtäväpalkissa avataksesi aikamerkinnälle pikaluontisivun, 
 Järjestelmänäkymät tukevat valintakenttiä. Kun olet esimerkiksi kirjoittanut projektin tiedot, **Projekti tehtävä** -kenttä määritetään oletusarvoisesti **Omat avoimet projektitehtävät** -näkymään. Jos haluat luoda aikamerkintöjä tehtäville, joita ei ole kohdennettu käyttäjälle, valitse **Vaihda näkymää** valintaruudussa, ja valitse sen jälkeen **Kaikki aktiiviset projektitehtävät** -näkymä. Kun aikamerkintä on luotu ja näkyvissä ruudukossa, voit muokata rivin arvoja suoraan ruudukossa.  
 
 ### <a name="bulk-createcopy"></a>Joukkoluonti/kopiointi 
-Sen jälkeen, kun muutama aikamerkintä on luotu, voit käyttää kopiointitoimintoa luodaksesi kerralla useita aikamerkintöjä. Napauta **Kopioi** avataksesi **Kopioi** -dialogin. Aseta päivämääräväli, jolta ajan jaksoja on kopioitava kohdassa **Lähdejakso: Alkamispäivä**. Määritä päivämäärä, jolle aikamerkinnät on luotava kohdassa **Kohdejakso: alkamispäivä**. Valitse **Kopioi** , jos haluat kopioida aikamerkinnät vastaavalle viikonpäivälle **Kohdejaksossa**. Esimerkiksi edellisen viikon maanantain aikakirjaus kopioidaan sen viikon maanantaille, joka on määritetty **Kohdejaksossa**. 
+Sen jälkeen, kun muutama aikamerkintä on luotu, voit käyttää kopiointitoimintoa luodaksesi kerralla useita aikamerkintöjä. Napauta **Kopioi** avataksesi **Kopioi**-dialogin. Aseta päivämääräväli, jolta ajan jaksoja on kopioitava kohdassa **Lähdejakso: Alkamispäivä**. Määritä päivämäärä, jolle aikamerkinnät on luotava kohdassa **Kohdejakso: alkamispäivä**. Valitse **Kopioi**, jos haluat kopioida aikamerkinnät vastaavalle viikonpäivälle **Kohdejaksossa**. Esimerkiksi edellisen viikon maanantain aikakirjaus kopioidaan sen viikon maanantaille, joka on määritetty **Kohdejaksossa**. 
 
 ![Kopioi useita aikamerkintöjä](media/bulk-copy-time-entry-09.png)
  
@@ -169,7 +169,7 @@ Kohdennukset ja vaihto noudattavat samaa käyttöliittymämääritelmää, joka 
 Versiossa 3 olemme siirtyneet pois mukautetun kalenterin ohjausobjektista ja käytämme nyt UC-kalenteria viikon merkintöjen näyttämiseen. Tämän kalenterin avulla voit tarkastella päivää, viikkoa ja kuukautta. 
 
 > [!NOTE]
-> Kalenterin rajoitus on se, että tämä ohjausobjekti ei tue yksittäisten kalenterikohteiden toimintoja. Et voi esimerkiksi valita yhtä tai useampaa kalenterikohdetta ja lähettää tai poistaa niitä. Kun napsautat kalenterikohdetta, näkyviin tulee **Aikamerkintä** -entiteetin sivu, jolla voi tehdä lisätoimenpiteitä. 
+> Kalenterin rajoitus on se, että tämä ohjausobjekti ei tue yksittäisten kalenterikohteiden toimintoja. Et voi esimerkiksi valita yhtä tai useampaa kalenterikohdetta ja lähettää tai poistaa niitä. Kun napsautat kalenterikohdetta, näkyviin tulee **Aikamerkintä**-entiteetin sivu, jolla voi tehdä lisätoimenpiteitä. 
 
 ### <a name="extensibility"></a>Laajennettavuus
 **Talleta tietoja mukautetuissa kentissä ainoastaan aika- ja kulumerkintäentiteeteissä** - Aikamerkintä käyttää muokattavaa ruudukkoa, vain luku -ruudukkoa ja kalenteriohjausobjekteja alustalta. Kaikki nämä ohjausobjektit ovat alkuperäisiä, joten ne tukevat mukautuksia. Project Service Automation -versiossa 3 voit lisätä mukautettuja kenttiä, määrittää valintakenttiä ja varmuuskopioida niitä mukautettuihin näkymiin. Voit myös määrittää mukautetun liiketoimintalogiikan mukautettujen kenttien valittujen arvojen perusteella.  
@@ -192,7 +192,7 @@ Common Data Service -ympäristö ei tue yhden käyttäjän esiintymistä toisena
 Mukauttamisen avulla voit lisätä **Varattavissa olevan** resurssin luomis- ja muokkauskokemuksiin, joiden avulla käyttäjä voi toimia edustajana muuttamalla **Varausresurssi** -kentän toiseksi käyttäjäksi, jolle aika-ja kulu kirjaukset on tallennettava. Seuraavat vaiheet kattavat ajan syöttämisen delegoinnin. Samoja tietoja käytetään kulujen syöttämisen delegoinnin yhteydessä. 
  
 1.  Varmista, että delegoitu käyttäjä on saanut yleisen käyttöoikeuden projekteihin ja projektitehtäviin. 
-1.  Koska **Varattavissa oleva** resurssi, joka on **Aikamerkintä** -entiteetin kenttä, ei näy **Pikaluonti** -sivulla, se on lisättävä.
+1.  Koska **Varattavissa oleva** resurssi, joka on **Aikamerkintä**-entiteetin kenttä, ei näy **Pikaluonti**-sivulla, se on lisättävä.
 
     -tai-
 
@@ -201,7 +201,7 @@ Mukauttamisen avulla voit lisätä **Varattavissa olevan** resurssin luomis- ja 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate
  
-1. Luo uusi laajennus, jos haluat korvata **Esimies** -kentän **Varattavissa oleva resurssi** -kentässä määritetyn käyttäjän esimiehellä. Käytä samaa **Toteutusvaihetta** kuin ulkoinen (OOB) laajennos (asivarmistus), ja käytä **Suoritusjärjestystä** , joka on korkeampi kuin OOB-laajennokset (suurempi kuin 1). Näin varmistetaan, että mukautettu laajennus suoritetaan OOB-laajennusten jälkeen.  
+1. Luo uusi laajennus, jos haluat korvata **Esimies**-kentän **Varattavissa oleva resurssi** -kentässä määritetyn käyttäjän esimiehellä. Käytä samaa **Toteutusvaihetta** kuin ulkoinen (OOB) laajennos (asivarmistus), ja käytä **Suoritusjärjestystä**, joka on korkeampi kuin OOB-laajennokset (suurempi kuin 1). Näin varmistetaan, että mukautettu laajennus suoritetaan OOB-laajennusten jälkeen.  
  
 ### <a name="end-user-experience"></a>Käyttäjäkokemus
 1.  Kun luot aikamerkinnän pikaluontisivulla, syötä projektin ja projektitehtävän tiedot ja valitse sitten käyttäjä **Varattavissa oleva resurssi** -kentälle, jolle aikamerkintöjä on tarpeen kirjata. 
@@ -211,7 +211,7 @@ Mukauttamisen avulla voit lisätä **Varattavissa olevan** resurssin luomis- ja 
 5.  Vaihtoehtoisesti voit siirtyä mukautettuun näkymään ja suodattaa toisen käyttäjän luomat aikakirjaukset. 
  
 ### <a name="limitations"></a>Rajoitukset
-**Kopiointi** - ja **Tuonti** -toiminnot toimivat ainoastaan sen käyttäjän kontekstissa, joka on kirjautunut sisään. Tämä tarkoittaa, että ei ole mahdollista kopioida tai tuoda aikamerkintöjä, jotka luotiin käyttäjälle, joka kirjautui sisään varattavissa olevana resurssina.
+**Kopiointi**- ja **Tuonti**-toiminnot toimivat ainoastaan sen käyttäjän kontekstissa, joka on kirjautunut sisään. Tämä tarkoittaa, että ei ole mahdollista kopioida tai tuoda aikamerkintöjä, jotka luotiin käyttäjälle, joka kirjautui sisään varattavissa olevana resurssina.
 
 Aikakirjaukset, jotka eivät ole projektille, reititetään hyväksymistä varten varattavissa olevan resurssin esimiehelle ainoastaan, jos vaihe 4 on suoritettu yllä olevassa osiossa **Mukautustiedot**. Muussa tapauksessa toisen käyttäjän muut kuin projektiajan määritykset reititetään virheellisesti kirjautuneen käyttäjän esimiehelle. 
 
@@ -229,7 +229,7 @@ Jos Project Service Automation -asiakkaat haluavat edelleen käyttää näitä v
 Project Service Automation -versiossa 3 on muutettu tarjousten ja sopimusten määrittämisen ja hallinnan alueita. Seuraavissa osissa on tarkempia tietoja.
 
 ### <a name="set-up-chargeability-options"></a>Veloitusasetusten määrittäminen
-Versioissa 1 ja 2 roolien ja luokkien veloitusasetukset erityisille tarjouksille ja sopimuksille tehtiin käyttäen **Valoitettavuus** -näkymää, joka oli ylänavigoinnissa tarjousrivillä ja sopimusrivillä. Näin voitiin määrittää myös näiden roolien ja kululuokkien hinnat.
+Versioissa 1 ja 2 roolien ja luokkien veloitusasetukset erityisille tarjouksille ja sopimuksille tehtiin käyttäen **Valoitettavuus**-näkymää, joka oli ylänavigoinnissa tarjousrivillä ja sopimusrivillä. Näin voitiin määrittää myös näiden roolien ja kululuokkien hinnat.
 
 Versiosta 3 alkaen veloitusasetusten asettaminen roolien ja kululuokkien mukaan tehdään tarjouksen tai sopimusrivin tasolla. Hinnoitteluasetukset ovat erillään veloitusasetuksista. Voit tarkastella **Laskutettavia rooleja** ja **Laskutettavia luokkia** **Tarjousrivin** ja **Sopimusrivin** välilehtinä ilman, että sinun tarvitsee käyttää yläsiirtymistoimintoa.
 
@@ -238,7 +238,7 @@ Versiosta 3 alkaen veloitusasetusten asettaminen roolien ja kululuokkien mukaan 
 Veloitettavien roolien ja Veloitettavien luokkien asetuksissa hyödynnetään myös valmiina olevaa, muokattavaa ruudukko-ohjausobjektia. Jokaista roolia ja luokkaa varten tuettavat asetukset laskutustyypille Tarjous- ja Sopimus-vaiheen aikana säilyvät muuttumattomina edellisistä versioista, ja ovat **Veloitettava** ja **Ei-veloitettava**. **Veloitukseton** ei ole tuettu tyyppi Tarjous- tai Sopimus-vaiheen aikana **Veloituksetonta** tuetaan vain Ajan tai Kulujen hyväksynnässä.  
  
 ### <a name="create-and-edit-custom-pricing-for-a-project-service-automation-quote-and-project-contract"></a>Luo ja muokkaa mukautettua hinnoittelua Project Service Automation -tarjousta ja -projektisopimusta varten
-Versioissa 1 ja 2 mukautettujen hinnastojen käyttäminen tietyille tarjouksille ja sopimuksille tehtiin käyttäen toimintoa **Muokkaa hintoja** **Veloitettavuus** -näkymässä. **Veloitettavuus** -näkymä sijaitsi tarjousrivin tai sopimusrivin yläsiirtymisessä. Näin voitiin määrittää myös näiden roolien ja kululuokkien veloitusasetukset.
+Versioissa 1 ja 2 mukautettujen hinnastojen käyttäminen tietyille tarjouksille ja sopimuksille tehtiin käyttäen toimintoa **Muokkaa hintoja** **Veloitettavuus**-näkymässä. **Veloitettavuus**-näkymä sijaitsi tarjousrivin tai sopimusrivin yläsiirtymisessä. Näin voitiin määrittää myös näiden roolien ja kululuokkien veloitusasetukset.
 
 Versiosta 3 alkaen mukautetun projektihinnaston luominen ja käyttäminen Project Service Automation -tarjouksessa ja Project Service Automation -projektisopimuksessa on erotettu veloitusasetuksista. Project Service Automation -tarjouksilla ja Project Service Automation -projektisopimuksilla on uusi välilehti nimeltä **Projektihinnastot**. Tämä välilehti näyttää liitetyn näkymän kaikista projektihinnastoista, jotka on liitetty Project Service Automation -tarjoukseen tai -projektisopimukseen. Jos haluat luoda mukautetun hinnaston aiemmin luodusta hinnastosta, joka on jo liitetty projektitarjoukseen tai sopimukseen, valitse **Luo mukautettu hinnoittelu**. Tämä kopioi kaikki liittyvät hinnastot ja liittää ne tarjoukseen tai sopimukseen. Nyt voit avata hinnaston sekä muokata roolin tai kululuokan hintaa, jotta kyseiset hinnoittelumuutokset koskevat vain tätä tarjousta tai sopimusta. 
   

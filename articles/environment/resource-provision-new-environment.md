@@ -3,17 +3,17 @@ title: Uuden ympäristön valmisteleminen
 description: Tässä aiheessa on tietoja siitä, miten uuden Project Operations -ympäristön voi valmistella.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075235"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121169"
 ---
 # <a name="provision-a-new-environment"></a>Uuden ympäristön valmisteleminen
 
@@ -39,7 +39,7 @@ Käytä seuraavia vaiheita, kun haluat ottaa käyttöön Project Operationsin au
 > [!IMPORTANT]
 > Varmista, että valittu sovellusversio on 10.0.13 tai uudempi.
 
-3. Jos haluat valmistella Project Operationsi, valitse **Lisäasetukset** -kohdassa **Common Data Service**. 
+3. Jos haluat valmistella Project Operationsi, valitse **Lisäasetukset**-kohdassa **Common Data Service**. 
 4. Ota **Common Data Service -asetukset** käyttöön valitsemalla **Kyllä** ja kirjoitramalla tiedot pakollisiin kenttiin:
 
   - Nimi
@@ -54,7 +54,7 @@ Käytä seuraavia vaiheita, kun haluat ottaa käyttöön Project Operationsin au
 ![Käyttööntoton asetukset](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
-> Valitse **Hyväksy** , kun hyväksyt palveluehdot, ja palaa sitten käyttöönottoasetuksiin valitsemalla **Valmis**.
+> Valitse **Hyväksy**, kun hyväksyt palveluehdot, ja palaa sitten käyttöönottoasetuksiin valitsemalla **Valmis**.
 
 ![Käyttöönoton suostumus](./media/2DeploymentConsent.png)
 
@@ -80,7 +80,7 @@ Sinun täytyy ehkä ottaa käyttöön laatupäivityksiä Finance-ympäristössä
 
 ![Näytä päivitykset](./media/5ViewUpdates.png)
 
-2. Valitse **Binaaripäivitykset** -sivulla **Tallenna paketti.**
+2. Valitse **Binaaripäivitykset**-sivulla **Tallenna paketti.**
 
 ![Tallenna paketti](./media/6SavePackage.png)
 
@@ -116,11 +116,11 @@ Ympäristön huolto kestää jonkin aikaa. Kun ympäristö on valmis, se palaa k
 
 ![Linkitä CDS:ään](./media/12LinktoCDS.png)
 
-4. Valitse **Käytä ratkaisua** , kun haluat käyttää entiteettejä, jotkan yhdistetään integrointiin.
+4. Valitse **Käytä ratkaisua**, kun haluat käyttää entiteettejä, jotkan yhdistetään integrointiin.
 
 ![Ota ratkaisut käyttöön](./media/13ApplySolutions.png)
 
-5. Valitse molemmat ratkaisut,, **Dynamics 365 Finance and Operations – kaksoiskirjoituksen entiteettikartta** and **Dynamics 365 Project Operations – Kaksoiskirjoituksen entiteettikartat** , ja valitse sitten **Käytä**.
+5. Valitse molemmat ratkaisut,, **Dynamics 365 Finance and Operations – kaksoiskirjoituksen entiteettikartta** and **Dynamics 365 Project Operations – Kaksoiskirjoituksen entiteettikartat**, ja valitse sitten **Käytä**.
 
 ![Ratkaisujen vahvistaminen](./media/14ConfirmSolutions.png)
 
@@ -177,7 +177,7 @@ Päivitys kestää noin 20 minuuttia. Saat ilmoituksen, kun se on valmis.
 
 5. Suorita yhdistämismääritys, kun päivitys on valmis. Ennen kuin otat seuraavan yhdistämismäärityksen käyttöön, tarkista, että taulukon yhdistämismääritys on tilassa **Käynnissä**. Sellaisten yhdistämismääritysten suorittaminen, joissa on paljon edellytyksiä, voi kestää jonkin aikaa.
 
-Jos haluat suorittaa yhdistämismääritys ja edellytykset, ota käyttöön **Näytä liittyvät entiteetin yhdistämismääritykset** -valintapainike. Jos taulukko osoittaa **Edellytyksen ensimmäinen synkronointi** -kohdaas arvo **Ei** , tarkista, että **Ensimmäinen synkronointi** -merkintä on **Ei käytössä** kaikissa edellytysyhdistämismäärityksissä, ennen kuin suoritat sen.
+Jos haluat suorittaa yhdistämismääritys ja edellytykset, ota käyttöön **Näytä liittyvät entiteetin yhdistämismääritykset** -valintapainike. Jos taulukko osoittaa **Edellytyksen ensimmäinen synkronointi** -kohdaas arvo **Ei**, tarkista, että **Ensimmäinen synkronointi** -merkintä on **Ei käytössä** kaikissa edellytysyhdistämismäärityksissä, ennen kuin suoritat sen.
 
 ![Suorita yhdistämismääritys](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Jos haluat suorittaa yhdistämismääritys ja edellytykset, ota käyttöön **N�
 
 ![Kaikki yhdistämismääritykset käynnissä](./media/22AllMapsRunning.png)
 
-Project Operations -ympäristö on nyt valmisteltu ja määritetty.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Määritystietojen ottaminen käyttöön Project Operationsin CDS:ssä (valinnainen)
+
+Jos olet käyttänyt esittelytietoja Finance-ympäristössä, lisätietoja esittelytietojen käyttämisestä CDS-ympäristössä on kohdassa [Määritystietojen määrittäminen ja käyttäminen Project Operationsin Common Data Servicessa](resource-apply-pro-setup-config-data.md).
+
+
+Project Operations -ympäristö on nyt valmisteltu ja määritetty. 

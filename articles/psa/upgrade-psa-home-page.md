@@ -2,7 +2,7 @@
 title: Päivityksen kotisivu
 description: Tässä aiheessa kerrotaan, mistä löytää tärkeitä tietoja Dynamics 365 Project Service Automationin uusista ja muuttuneista ominaisuuksista, ja uuteen versioon päivittämisen prosessista.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075429"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121754"
 ---
 # <a name="upgrade-home-page"></a>Päivityksen kotisivu
 
@@ -61,4 +61,4 @@ Kun olet tarkistanut aiemmin mainitut aiheet ja olet valmis päivittämään PSA
 1. maaliskuuta 2020 alkaen Dynamics PSA:n asiakkaat eivät voi enää luoda uusia ympäristöjä PSA:n vanhemmilla versioilla, kuten PSA-versiolla 2.x tai sitä vanhemmilla. Kaikki uudet ympäristöt saavat vain PSA:n version 3.x.
 
 > [!NOTE]
-> Saadaksesi parhaan käyttökokemuksen vanhemmista Field Service - ja PSA-sovelluksista, siirry sivulle **Järjestelmäasetukset** , ja valitse kentälle **Käytä vain uutta Unified Interfacea** arvoksi **Ei** , sillä näitä versioita ei ole suunniteltu ladattavaksi oikein UCI:n. Kun olet poistanut UCI:n käytöstä, voit avata ja suorittaa nämä Field Service - ja PSA-versiot käyttämällä vanhaa www-asiakasohjelmaa. 
+> Saadaksesi parhaan käyttökokemuksen vanhemmista Field Service - ja PSA-sovelluksista, siirry sivulle **Järjestelmäasetukset**, ja valitse kentälle **Käytä vain uutta Unified Interfacea** arvoksi **Ei**, sillä näitä versioita ei ole suunniteltu ladattavaksi oikein UCI:n. Kun olet poistanut UCI:n käytöstä, voit avata ja suorittaa nämä Field Service - ja PSA-versiot käyttämällä vanhaa www-asiakasohjelmaa. 

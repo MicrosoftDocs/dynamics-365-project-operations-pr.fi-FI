@@ -3,7 +3,7 @@ title: Projektiaikataulut
 description: Tässä aiheessa on tietoja aikataulun luomisesta.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075383"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123227"
 ---
 # <a name="project-schedules"></a>Projektiaikataulut 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Projektiaikataulu ilmaisee, mikä työ on suoritettava, mitkä resurssit suorittavat työn, ja aikajakson, jonka puitteissa työ on suoritettava. Se kuvastaa kaikkea työtä, joka liittyy projektin oikea-aikaiseen toimittamiseen. Dynamics 365 Project Service Automationissa projektiaikataulu luodaan jakamalla työ hallittavissa oleviin tehtäviin, arvioimalla kunkin tehtävän edellyttämä aika, määrittämällä tehtäväriippuvuuksia ja tehtävien kestoja sekä arvioimalla yleiset resurssit, jotka suorittavat tehtävät. Projektiaikataulu luodaan projektisivun **Aikataulut** -välilehdessä.
+Projektiaikataulu ilmaisee, mikä työ on suoritettava, mitkä resurssit suorittavat työn, ja aikajakson, jonka puitteissa työ on suoritettava. Se kuvastaa kaikkea työtä, joka liittyy projektin oikea-aikaiseen toimittamiseen. Dynamics 365 Project Service Automationissa projektiaikataulu luodaan jakamalla työ hallittavissa oleviin tehtäviin, arvioimalla kunkin tehtävän edellyttämä aika, määrittämällä tehtäväriippuvuuksia ja tehtävien kestoja sekä arvioimalla yleiset resurssit, jotka suorittavat tehtävät. Projektiaikataulu luodaan projektisivun **Aikataulut**-välilehdessä.
  
 ## <a name="tasks"></a>Tehtävät
 
@@ -81,14 +81,14 @@ Painikkeet **Siirrä ylöspäin** ja **Siirrä alaspäin** muuttavat tehtävän 
 
 ### <a name="accessibility-and-keyboard-shortcuts"></a>Helppokäyttötoiminnot ja pikanäppäimet
 
-**Aikataulut** -ruudukko on täysin käytettävissä, ja siinä voidaan käyttää näytönlukijoita (esim. Narrator, JAWS tai NVDA). Voit siirtyä ruudukkoalueella nuolinäppäimillä (kuten Microsoft Excelissä), voit käyttää sarkainnäppäintä siirtyäksesi vuorovaikutteisten käyttöliittymäelementtien välillä ja voit käyttää alanuolinäppäintä, Enter-näppäintä tai välilyöntiä valitaksesi ja käyttääksesi avattavia valikkoja. Myös sarakeotsikot ovat vuorovaikutteisia. Voit piilottaa ja ottaa näkyviin sarakkeita, siirtyä sarakeotsikoiden välillä sarkainnäppäimen ja nuolinäppäinten avulla ja käyttää työkalurivin toimintopainikkeita. Lisäksi voit käyttää seuraavia pikanäppäimiä:
+**Aikataulut**-ruudukko on täysin käytettävissä, ja siinä voidaan käyttää näytönlukijoita (esim. Narrator, JAWS tai NVDA). Voit siirtyä ruudukkoalueella nuolinäppäimillä (kuten Microsoft Excelissä), voit käyttää sarkainnäppäintä siirtyäksesi vuorovaikutteisten käyttöliittymäelementtien välillä ja voit käyttää alanuolinäppäintä, Enter-näppäintä tai välilyöntiä valitaksesi ja käyttääksesi avattavia valikkoja. Myös sarakeotsikot ovat vuorovaikutteisia. Voit piilottaa ja ottaa näkyviin sarakkeita, siirtyä sarakeotsikoiden välillä sarkainnäppäimen ja nuolinäppäinten avulla ja käyttää työkalurivin toimintopainikkeita. Lisäksi voit käyttää seuraavia pikanäppäimiä:
 
-- **Päivitä** : ALT + VAIHTO + F5
-- **Lisää** : ALT + VAIHTO + INSERT
-- **Poista** : ALT + VAIHTO + DELETE
-- **Siirrä ylös/alas** : ALT + VAIHTO + ylä-/alanuoli
-- **Sisennä/ulonna** : ALT_SHIFT + vasen/oikea nuoli
-- **Laajenna/kutista hierarkiat** : ALT + VAIHTO + plus-/miinusnäppäin
+- **Päivitä**: ALT + VAIHTO + F5
+- **Lisää**: ALT + VAIHTO + INSERT
+- **Poista**: ALT + VAIHTO + DELETE
+- **Siirrä ylös/alas**: ALT + VAIHTO + ylä-/alanuoli
+- **Sisennä/ulonna**: ALT_SHIFT + vasen/oikea nuoli
+- **Laajenna/kutista hierarkiat**: ALT + VAIHTO + plus-/miinusnäppäin
 
 ## <a name="task-attributes"></a>Tehtävän määritteet
 
@@ -98,19 +98,19 @@ Tehtävän nimi kuvaa työtä, joka on suoritettava. PSA:ssa tehtävään yhdist
  
 ### <a name="schedule-attributes"></a>Aikataulun määritteet
 
-Määritteet **Työmäärä** , **Alkamispäivä** , **Päättymispäivä** ja **Kesto** määrittävät tehtävän aikataulun.
+Määritteet **Työmäärä**, **Alkamispäivä**, **Päättymispäivä** ja **Kesto** määrittävät tehtävän aikataulun.
 
 Muita aikataulumääritteitä ovat esimerkiksi:
 
-- **Työtunnit** : anna arvio tunneista, jotka tehtävän suorittaminen vaatii. 
-- **Kesto** : määritä tehtävän suorittamisen vaatima työpäivämäärä.
-- **Aikataulutunnus** : tätä automaattisesti luotavaa tunnusta käytetään tehtävien järjestämiseen hierarkiassa. Riippuvuudet tehtävien välillä hallitsevat todellista järjestystä, jossa tehtävät suoritetaan.
+- **Työtunnit**: anna arvio tunneista, jotka tehtävän suorittaminen vaatii. 
+- **Kesto**: määritä tehtävän suorittamisen vaatima työpäivämäärä.
+- **Aikataulutunnus**: tätä automaattisesti luotavaa tunnusta käytetään tehtävien järjestämiseen hierarkiassa. Riippuvuudet tehtävien välillä hallitsevat todellista järjestystä, jossa tehtävät suoritetaan.
  
 ### <a name="staffing-attributes"></a>Henkilöstömääritteet
 
-Henkilöstömääritteitä käytetään aikataulun **Resurssit** -kentän kautta. Voit joko hakea olemassa olevaa resurssia tai napsauttaa **Luo** ja lisätä projektiryhmän jäsenen uudeksi resurssiksi **Pikaluonti** -ruudussa.
+Henkilöstömääritteitä käytetään aikataulun **Resurssit**-kentän kautta. Voit joko hakea olemassa olevaa resurssia tai napsauttaa **Luo** ja lisätä projektiryhmän jäsenen uudeksi resurssiksi **Pikaluonti**-ruudussa.
 
-Kenttiä **Rooli** , **Resursointiyksikkö** ja **Toimen nimi** käytetään tehtävän henkilöstötarpeiden kuvaamiseen. Näitä henkilöstömääritteitä käytetään yhdessä tehtävän aikataulun kanssa käytettävissä olevien resurssien hakemiseen tehtävälle.
+Kenttiä **Rooli**, **Resursointiyksikkö** ja **Toimen nimi** käytetään tehtävän henkilöstötarpeiden kuvaamiseen. Näitä henkilöstömääritteitä käytetään yhdessä tehtävän aikataulun kanssa käytettävissä olevien resurssien hakemiseen tehtävälle.
 
 **Rooli** – määritä tehtävän suorittamiseen tarvittava resurssityyppi.
 
@@ -124,7 +124,7 @@ Kenttiä **Rooli** , **Resursointiyksikkö** ja **Toimen nimi** käytetään teh
 
 ### <a name="task-dependencies"></a>Tehtävän riippuvuudet 
 
-Voit käyttää PSA:n aikataulua luodaksesi edeltäjäsuhteita tehtävien välille. **Tehtävät** -arvon alla olevalla **Edeltäjä** -kentällä on vähintään yksi arvo kuvastamaan tehtäviä, joista toinen tehtävä on riippuvainen. Kun tehtävälle määritetään edeltäjäarvoja, tehtävä voi alkaa vasta, kun kaikki edeltäjätehtävät on suoritettu. Riippuvuuden vuoksi tehtävän suunniteltu alkamispäivä määritetään uudelleen siksi päiväksi, jona edeltäjätehtävät on suoritettu loppuun.
+Voit käyttää PSA:n aikataulua luodaksesi edeltäjäsuhteita tehtävien välille. **Tehtävät**-arvon alla olevalla **Edeltäjä**-kentällä on vähintään yksi arvo kuvastamaan tehtäviä, joista toinen tehtävä on riippuvainen. Kun tehtävälle määritetään edeltäjäarvoja, tehtävä voi alkaa vasta, kun kaikki edeltäjätehtävät on suoritettu. Riippuvuuden vuoksi tehtävän suunniteltu alkamispäivä määritetään uudelleen siksi päiväksi, jona edeltäjätehtävät on suoritettu loppuun.
 
 Tämä tehtävätila ei vaikuta edeltävien/riippuvaisten tehtävien alkamis- ja päättymispäiviin tehtäviin päivityksiin.
 
@@ -134,7 +134,7 @@ Tehtävätila määrittää lehtisolmutehtävien aikataulutuksen. PSA tukee kunk
 
 ### <a name="auto-scheduling"></a>Automaattinen aikataulutus 
  
-Kun tehtävätilan arvoksi määritetään **Automaattisesti aikataulutettu** , ajoitusmoduuli käyttää ajoitussääntöjä tehtävän määritteisiin määrittäessään tehtävän ajoitusta.
+Kun tehtävätilan arvoksi määritetään **Automaattisesti aikataulutettu**, ajoitusmoduuli käyttää ajoitussääntöjä tehtävän määritteisiin määrittäessään tehtävän ajoitusta.
 
 #### <a name="scheduling-rules"></a>Ajoitussäännöt
 

@@ -5,17 +5,17 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075231"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122745"
 ---
 # <a name="cash-advance"></a>Käteisennakko
 
@@ -25,7 +25,7 @@ Käteisennakko mahdollistaa sen, että työntekijät voivat lainata rahaa yrityk
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Käteisennakkopyynnön luominen ja lähettäminen
 
-1. Valitse **Omat kulut** -kohdassa **Käteisennakot** > **Uusi** , kun haluat luoda uuden käteisennakon. 
+1. Valitse **Omat kulut** -kohdassa **Käteisennakot** > **Uusi**, kun haluat luoda uuden käteisennakon. 
 2. Kirjoita **Uusi käteisennakkopyyntö** -sivulla kulun tarkoitus ja valitse sitten sijainti, josta kulu syntyy.
 3. Kirjoita pyydetty summa ja valuutta ja valitse sitten **Tallenna**. 
 4. Kun olet valmis lähettämään käteisennakkopyynnön, valitse **Käteisennakkopyyntö**  sivulla **Työnkulku** > **Lähetä**.

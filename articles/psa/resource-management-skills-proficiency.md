@@ -3,7 +3,7 @@ title: Taidot ja pätevyysmallit
 description: Tässä aiheessa on tietoja taitojen ja pätevyysmallien käyttämisestä.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cd243544df062e5801bbfa0a3bd75c4d9a116a6f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 92735262ebc4b48dd1143af57349d77e1fe3061c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075568"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124184"
 ---
 # <a name="skills-and-proficiency-models"></a>Taidot ja pätevyysmallit
 
@@ -41,8 +41,8 @@ Resurssien taidot on luokiteltu pätevyysmallien mukaan. Yksittäiset luokitukse
 
 1. Luodaksesi pätevyysmallin siirry kohtaan **Resurssit** \> **Pätevyysmallit** ja valitse sitten **Uusi**.
 2. Määritä uudessa luokitusmallissa pienin luokitusarvo, suurin luokitusarvo ja entiteetti, jota luokitellaan.
-3. **Luokitusarvojen** aliruudukossa voit määrittää eri luokitusarvot vähimmäisarvosta suurimpaan.
+3. **Luokitusarvot**-aliruudukossa voi määrittää eri luokitusarvot vähimmäisarvosta suurimpaan arvoon.
 
 > ![Vähimmäis-ja enimmäisluokitukset määritetty](media/Resource-Management-image85.png)
 
-Nämä luokitusarvot näytetään **Resurssivaatimukset** , **Aikataulutaulukko** ja **Aikatauluavustaja** -suodattimissa.
+Nämä luokitusarvot näytetään **Resurssivaatimukset**, **Aikataulutaulukko** ja **Aikatauluavustaja** -suodattimissa.

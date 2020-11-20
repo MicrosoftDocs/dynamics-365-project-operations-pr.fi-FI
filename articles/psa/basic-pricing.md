@@ -3,7 +3,7 @@ title: Projektien hinnoittelu
 description: Tässä aiheessa on tietoja hinnoittelusta Dynamics 365 Project Service Automationissa.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075545"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120764"
 ---
 # <a name="project-pricing"></a>Projektien hinnoittelu 
 
@@ -54,9 +54,9 @@ Hinnasto on ilmoitushinnasto. Ilmoitushinnasto on yhdistelmä Hintaluettelo-enti
 
 Termi *resurssirooli* viittaa joukkoon taitoja, osaamista ja sertifikaatteja, jotka henkilöllä on oltava, jotta hän voisi suorittaa tietyn tehtäväjoukon projektissa.
 
-Henkilöresurssien ajan hinta perustuu yleensä siihen rooliin, joka resurssilla on tietyssä projektissa. Henkilöresurssin ajan osalta PSA tukee resurssirooliin perustuvaa kustannuslaskentaa ja laskutusta. **Aika** -yksikköryhmässä aika voidaan hinnoitella missä tahansa yksikössä.
+Henkilöresurssien ajan hinta perustuu yleensä siihen rooliin, joka resurssilla on tietyssä projektissa. Henkilöresurssin ajan osalta PSA tukee resurssirooliin perustuvaa kustannuslaskentaa ja laskutusta. **Aika**-yksikköryhmässä aika voidaan hinnoitella missä tahansa yksikössä.
 
-**Aika** -yksikköryhmä luodaan PSA:n asennuksen yhteydessä. Sen oletusyksikkönä on **Tunti**. **Aika** -yksikköryhmän tai **Tunti** -yksikön määritteitä ei voi poistaa, nimetä uudelleen eikä muokata. **Aika** -yksikköryhmään voi kuitenkin lisätä muita yksikköjä. Jos yrität poistaa **Aika** -yksikköryhmää tai **Tunti** -yksikköä, PSA:n liiketoimintalogiikassa voi aiheutua virheitä.
+**Aika**-yksikköryhmä luodaan PSA:n asennuksen yhteydessä. Sen oletusyksikkönä on **Tunti**. **Aika**-yksikköryhmän tai **Tunti**-yksikön määritteitä ei voi poistaa, nimetä uudelleen eikä muokata. **Aika**-yksikköryhmään voi kuitenkin lisätä muita yksikköjä. Jos yrität poistaa **Aika**-yksikköryhmää tai **Tunti**-yksikköä, PSA:n liiketoimintalogiikassa voi aiheutua virheitä.
 
 > ![Hintojen määrittäminen roolien mukaan](media/basic-guide-13.png)
  
@@ -90,7 +90,7 @@ Asiakkaan tietueeseen ei lisätä oletusarvoista projektihinnastoa. Voit kuitenk
 
 Kun projektihinnasto liitetään myyntientiteettiin, PSA tarkistaa seuraavat tiedot:
 
-- Hinnasto **Myynti** -entiteetin kontekstina. 
+- Hinnasto **Myynti**-entiteetin kontekstina. 
 - Hinnaston valuutta vastaa asiakkaan hinnastoa. 
 
 PSA käyttää projektisopimukseen liittyvien projektihinnastojen automaattisessa määrityksessä seuraavaa ensisijaisuusjärjestystä:
@@ -100,7 +100,7 @@ PSA käyttää projektisopimukseen liittyvien projektihinnastojen automaattisess
 3. Asiakas 
 4. PSA:n yleiset asetukset
 
-Kun projektihinnasto määritetään oletusarvoisesti, PSA tarkistaa, että valuutta vastaa asiakkaan valuuttaa ja että määritetyillä oletushinnastoilla on **Myynti** -konteksti.
+Kun projektihinnasto määritetään oletusarvoisesti, PSA tarkistaa, että valuutta vastaa asiakkaan valuuttaa ja että määritetyillä oletushinnastoilla on **Myynti**-konteksti.
 
 Entiteeteille Asiakas, Mahdollisuus, Tarjous ja Projektisopimus voidaan kohdentaa useita projektihinnastoja. Tämä ominaisuus tukee päivämääräkohtaisia oletushintoja pitkäaikaisessa projektisopimuksessa, joka voi edellyttää useita hinnastoja inflaatiosta johtuvien hintapäivitysten mahdollistamista varten. Jos entiteetille Asiakas, Mahdollisuus, Tarjous tai Projektisopimus kohdennetuilla hinnastoilla kuitenkin on päällekkäisiä päivämäärävälejä, oletushinnat voivat olla virheellisiä. Tämän vuoksi on varmistettava, että kyseisille entiteeteille ei kohdenneta päällekkäisiä päivämäärävälejä sisältäviä projektihinnastoja.
 
@@ -110,7 +110,7 @@ PSA:ssa voidaan luoda kauppakohtaisia korvaavuuksia tietyille projektihinnastoje
 
 Oletusarvoisesti projektisopimukseen lisätään aina jäljennös päämyyntihinnastosta sen sijaan, että käytettäisiin linkkiä siihen. Tämä auttaa sen varmistamisessa, että asiakkaan kanssa tietyn työnkuvauksen osalta sovitut hinnat eivät muutu, jos päähinnasto muuttuu.
 
-Tarjouksessa kuitenkin voidaan käyttää päähinnastoa. Vaihtoehtoisesti voit kopioida päähintaluettelon ja muuttaa sen muokatuksi hinnastoksi, joka pätee vain kulloiseenkin tarjoukseen. Voit luoda uuden tarjouskohtaisen hinnaston valitsemalla **Tarjous** -sivulla **Luo mukautettu hinnoittelu**. Kauppakohtaista projektihinnastoa voidaan käyttää vain tarjouksesta käsin. 
+Tarjouksessa kuitenkin voidaan käyttää päähinnastoa. Vaihtoehtoisesti voit kopioida päähintaluettelon ja muuttaa sen muokatuksi hinnastoksi, joka pätee vain kulloiseenkin tarjoukseen. Voit luoda uuden tarjouskohtaisen hinnaston valitsemalla **Tarjous**-sivulla **Luo mukautettu hinnoittelu**. Kauppakohtaista projektihinnastoa voidaan käyttää vain tarjouksesta käsin. 
 
 Kun luot mukautetun projektihinnaston, ainoastaan hinnaston projektikomponentit kopioidaan. Toisin sanoen uusi hinnasto luodaan kopiona tarjoukseen liitetystä projektihinnastosta, ja tässä uudessa hinnastossa on vain liittyviä roolin hintoja ja tapahtumaluokan hintoja.
 

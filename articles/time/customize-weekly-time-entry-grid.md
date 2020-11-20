@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075247"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124634"
 ---
 # <a name="extending-time-entries"></a>Aikamerkintöjen laajentaminen
 
@@ -33,7 +33,7 @@ Aikamerkintöjen laajentaminen on mahdollista kahdella alueella:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Mukautettujen aikamerkintöjen lisääminen omaan käyttöön
 
-Aikamerkinnät ovat perusentiteetti, jota käytetään useissa skenaarioissa. Huhtikuussa 2020 julkaisuaalto 1:ssä TESA-ydinratkaisu otettiin käyttöön. TESAssa on **asetukset** -entiteetti ja uusi **aikamerkinnän käyttäjä** -käyttöoikeusrooli. Myös uudet kentät, **msdyn_start** ja **msdyn_end** , joilla on suora suhde kenttään **msdyn_duration** , oli sisällytetty mukaan. Uusi entiteetti, käyttöoikeusrooli ja kentät mahdollistavat yhtenäisemmän lähetysmistavan aikamerkintöihin useiden tuotteiden välillä.
+Aikamerkinnät ovat perusentiteetti, jota käytetään useissa skenaarioissa. Huhtikuussa 2020 julkaisuaalto 1:ssä TESA-ydinratkaisu otettiin käyttöön. TESAssa on **asetukset**-entiteetti ja uusi **aikamerkinnän käyttäjä** -käyttöoikeusrooli. Myös uudet kentät, **msdyn_start** ja **msdyn_end**, joilla on suora suhde kenttään **msdyn_duration**, oli sisällytetty mukaan. Uusi entiteetti, käyttöoikeusrooli ja kentät mahdollistavat yhtenäisemmän lähetysmistavan aikamerkintöihin useiden tuotteiden välillä.
 
 
 ### <a name="time-source-entity"></a>Ajan lähde -entiteetti
@@ -58,7 +58,7 @@ Logiikka päivittää aikamerkinnän tietueen automaattisesti seuraavissa tilant
     - **msdyn_duration**
 
 - Kentät **msdyn_start** ja **msdyn_end** ovat aikavyöhykeriippuvaisia.
-- Aikamerkinnät, jotka on luotu vain **msdyn_date** - ja **msdyn_duration** -määrityksillä, alkavat keskiyöllä. **msdyn_start** - ja **msdyn_end** -kentät päivittyvät vastaavasti.
+- Aikamerkinnät, jotka on luotu vain **msdyn_date**- ja **msdyn_duration**-määrityksillä, alkavat keskiyöllä. **msdyn_start**- ja **msdyn_end**-kentät päivittyvät vastaavasti.
 
 #### <a name="time-entry-types"></a>Aikamerkinnän tyypit
 
@@ -109,22 +109,22 @@ Tässä näkymässä tulisi olla kentät **Kuvaus** ja **Ulkoiset huomautukset**
 2. Määritä tämän näkymän mukautettu ohjausobjekti siten, että se on **Ajansyöttöruudukon** ohjausobjekti. 
 3. Lisää tämä ohjausobjekti näkymään ja valitse se verkolle, puhelimelle ja tabletille. 
 4. Määritä viikoittaisen ajansyöttöruudukon parametrit. 
-5. Aseta **Alkamispäivä** -kentäksi **msdyn_date** , aseta **Kesto** -kentäksi **msdyn_duration** ja aseta **Tila** -kentäksi **msdyn_entrystatus**. 
+5. Aseta **Alkamispäivä**-kentäksi **msdyn_date**, aseta **Kesto**-kentäksi **msdyn_duration** ja aseta **Tila**-kentäksi **msdyn_entrystatus**. 
 6. Oletusnäkymäksi **vain luku -tilaluettelo** -kentän arvoksi on määritetty **192350002,192350003,192350004**. **Rivin muokkauksen tehtävänkulku** -kentän arvoksi on määritetty **msdyn_timeentryrowedit**. **Solun muokkauksen tehtävänkulku** -kentän arvoksi on määritetty **msdyn_timeentryedit**. 
 7. Voit mukauttaa näitä kenttiä, jos haluat lisätä tai poistaa vain luku -tilan tai käyttää toista tehtäväpohjaista kokemusta (TBX) rivien tai solujen muokkaamiseen. Nämä kentät on nyt sidottu staattiseen arvoon.
 
 
 > [!NOTE] 
-> Molemmat vaihtoehdot poistavat joitakin valmiina olevia suodattimia entiteeteistä **Projekti** ja **Projektitehtävä** , joten kaikki valintanäkymät ovat näkyvissä näille entiteeteille. Vain merkitykselliset valintanäkymät ovat näkyvissä valmiina.
+> Molemmat vaihtoehdot poistavat joitakin valmiina olevia suodattimia entiteeteistä **Projekti** ja **Projektitehtävä**, joten kaikki valintanäkymät ovat näkyvissä näille entiteeteille. Vain merkitykselliset valintanäkymät ovat näkyvissä valmiina.
 
-Määrittää mukautetulle kentälle asianmukainen työnkulku. Jos olet lisännyt kentän ruudukkoon, sen pitäisi siirtyä siihen rivimuokkauksen työnkulkuun, jota käytetään kentissä, jotka koskevat koko aikamerkintäriviä Jos mukautetulla kentällä on ainutkertainen arvo joka päivä, kuten mukautetulla kentällä **Päättymisaika** , sen pitäisi siirtyä solunmuokkauksen työnkulkuun.
+Määrittää mukautetulle kentälle asianmukainen työnkulku. Jos olet lisännyt kentän ruudukkoon, sen pitäisi siirtyä siihen rivimuokkauksen työnkulkuun, jota käytetään kentissä, jotka koskevat koko aikamerkintäriviä Jos mukautetulla kentällä on ainutkertainen arvo joka päivä, kuten mukautetulla kentällä **Päättymisaika**, sen pitäisi siirtyä solunmuokkauksen työnkulkuun.
 
-Jos haluat lisätä mukautetun kentän työnkulkuun, vedä **Kenttä** -elementti asianmukaiseen kohtaan sivulla ja valitse sitten kentän ominaisuudet. Määritä **Lähde** -ominaisuudeksi **Aikamerkintä** ja aseta **Tietokenttä** -ominaisuus muokatulle kentälle. **Kenttä** -ominaisuus määrittää TBX-sivun näyttönimen. Valitse **Käytä** , jos haluat tallentaa muutokset kenttään, ja valitse sitten **Päivitä** , jos haluat tallentaa muutokset sivulla.
+Jos haluat lisätä mukautetun kentän työnkulkuun, vedä **Kenttä**-elementti asianmukaiseen kohtaan sivulla ja valitse sitten kentän ominaisuudet. Määritä **Lähde**-ominaisuudeksi **Aikamerkintä** ja aseta **Tietokenttä**-ominaisuus muokatulle kentälle. **Kenttä**-ominaisuus määrittää TBX-sivun näyttönimen. Valitse **Käytä**, jos haluat tallentaa muutokset kenttään, ja valitse sitten **Päivitä**, jos haluat tallentaa muutokset sivulla.
 
-Jos haluat käyttää uutta mukautettua TBX-sivua, luo uusi prosessi. Määritä luokaksi **Liiketoimintaprosessin kulku** , aseta entiteetiksi **Aikakirjaus** , ja aseta liiketoimintaprosessityypiksi **Aja prosessi työnkulkuna**. **Ominaisuuksissa** **Sivun nimi** -ominaisuuden tulisi olla asetettu sivun näyttönimeksi. Lisää kaikki tarvittavat kentät TBX-sivulle. Tallenna ja aktivoi prosessi. Päivitä sitten kyseisen tehtävänkulun mukautetun ohjausobjektin ominaisuusprosessin **Nimen** arvoksi.
+Jos haluat käyttää uutta mukautettua TBX-sivua, luo uusi prosessi. Määritä luokaksi **Liiketoimintaprosessin kulku**, aseta entiteetiksi **Aikakirjaus**, ja aseta liiketoimintaprosessityypiksi **Aja prosessi työnkulkuna**. **Ominaisuuksissa** **Sivun nimi** -ominaisuuden tulisi olla asetettu sivun näyttönimeksi. Lisää kaikki tarvittavat kentät TBX-sivulle. Tallenna ja aktivoi prosessi. Päivitä sitten kyseisen tehtävänkulun mukautetun ohjausobjektin ominaisuusprosessin **Nimen** arvoksi.
 
 ### <a name="add-new-option-set-values"></a>Lisää uusia asetusjoukkoarvoja
-Jos haluat lisätä asetusjoukkoarvoja valmiina olevaan kentään, avaa kentän muokkaussivu ja valitse sen jälkeen **Kirjoita** -kohdassa **Muokkaa** asetusjoukon vieressä. Lisää uusi asetus, jolla on mukautettu selite ja väri. Jos haluat lisätä uuden aikamerkinnän tilan, valmiin kentän nimi on  **Merkinnän tila** , ei **Tila**.
+Jos haluat lisätä asetusjoukkoarvoja valmiina olevaan kentään, avaa kentän muokkaussivu ja valitse sen jälkeen **Kirjoita**-kohdassa **Muokkaa** asetusjoukon vieressä. Lisää uusi asetus, jolla on mukautettu selite ja väri. Jos haluat lisätä uuden aikamerkinnän tilan, valmiin kentän nimi on  **Merkinnän tila**, ei **Tila**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Uuden aikakirjaustilan määrittäminen vain luku -tilaan
 Jos haluat määrittää uuden aikamerkinnän tilaksi vain luku, lisää uuden aikamerkinnän arvo **Vain luku -tilaluettelo** -ominaisuuteen. Ajansyöttöruudukon muokattava osa lukitaan riveille, joilla on uusi tila.
@@ -140,7 +140,7 @@ Voit lisätä viikoittaiseen aikamerkinnän ruudukkokokemukseen kahdentyyppisiä
 Liiketoimintasääntöjen avulla voit lukita ja vapauttaa kenttiä, kirjoittaa oletusarvoja kenttiin ja määrittää vahvistuksia, jotka edellyttävät tietoja vain nykyisestä ajansyöttötietueesta. Pääset TBX-sivun liiketoimintasääntöihin avaamalla sivun liiketoimintaprosessieditorin ja valitsemalla sitten **Liiketoimintasäännöt**. Voit sitten muokata aiemmin luotuja liiketoimintasääntöjä tai lisätä uuden liiketoimintasäännön. Voit käyttää liiketoimintasääntöä ajamaan JavaScriptiä luodaksesi vielä mukautetumpia vahvistuksia.
 
 #### <a name="plug-in-validations"></a>Laajennusvahvistukset
-Käytä laajennusvahvistuksia kaikkiin vahvistuksiin, jotka edellyttävät enemmän kontekstia kuin on käytettävissä yksittäisessä aikakirjaustietueessa, tai kaikkiin vahvistuksiin, jotka haluat suorittaa tekstisidonnaisina päivityksinä ruudukossa. Viimeistele vahvistus luomalla mukautettu laajennus **Aikakirjaus** -entiteettiin.
+Käytä laajennusvahvistuksia kaikkiin vahvistuksiin, jotka edellyttävät enemmän kontekstia kuin on käytettävissä yksittäisessä aikakirjaustietueessa, tai kaikkiin vahvistuksiin, jotka haluat suorittaa tekstisidonnaisina päivityksinä ruudukossa. Viimeistele vahvistus luomalla mukautettu laajennus **Aikakirjaus**-entiteettiin.
 
 ### <a name="copying-time-entries"></a>Aikamerkintöjen kopiointi
 Voit määrittää aikamerkinnän aikana kopioitavien kenttien luettelon käyttämällä **Näytä kopiointiajan syöttö** -sarakkeita. **Päivämäärä** ja **kesto** ovat pakollisia kenttiä, eikä niitä pitäisi poistaa näkymästä.
