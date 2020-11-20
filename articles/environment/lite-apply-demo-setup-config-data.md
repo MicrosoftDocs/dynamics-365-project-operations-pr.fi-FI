@@ -1,23 +1,30 @@
 ---
-title: Käytä esittelyn asennus- ja määritystietoja
+title: Esittelyn asennus- ja määritystietojen käyttäminen – lite
 description: Tässä aiheessa on tietoja esittelyn asennus- ja määritystietojen käyttöönotosta Project Operationsissa.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075213"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401259"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Ota esittelyn asennus- ja määritystietoja käyttöön Project Operations lite – kauppa proformalaskutukseen -käyttöönotossa
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Project Operationsin esittelyn asennus- ja määritystietojen käyttäminen – lite 
 
 _**Lite-käyttöönotto – kauppa proformalaskutukseen_
+
+## <a name="prerequisites"></a>Edellytykset
+
+Ennen määrityksen aloittamista Dynamics 365 Project Operationsin Common Data Service (CDS) -ympäristön on oltava määritettynä.
+
+
+## <a name="instructions"></a>Ohjeet
 
 1. Lataa [päätietopaketti](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Siirry kansioon *ProjOpsDemoDataSetupAndMaster - Integrated CMT* ja suorita suoritettava tiedosto *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Lite-käyttöönotto – kauppa proformalaskutukseen_
 10. Tuonti kestää noin 2-10 minuuttia verkon nopeuden mukaan. Kun tuonti on valmis, sulje ohjattu CMT-toiminto. 
 11. Tarkista organisaatiosi tiedot seuraavissa 20 entiteetissä:
 
-- Valuutta
-- Organisaatioyksikkö
-- Ota yhteyttä
-- Veroryhmä
-- Asiakasryhmä
-- Yksikkö
-- Yksikköryhmä
-- Hinnasto
-- Projektin parametrin hinnasto
-- Laskutustiheys
-- Laskutustiheyden tiedot
-- Varattavissa olevan resurssin luokka
-- Tapahtumakategoria
-- Kululuokka
-- Roolin hinta
-- Tapahtumaluokan hinta
-- Ominaisuus
-- Varattavissa oleva resurssi
-- Varattavissa olevan resurssin luokkaliitos
-- Varattavissa olevan resurssin ominaisuus
+-   Valuutta
+-   Tili
+-   Organisaatioyksikkö
+-   Ota yhteyttä
+-   Veroryhmä
+-   Asiakasryhmä
+-   Yksikkö
+-   Yksikköryhmä
+-   Hinnasto
+-   Projektin parametrin hinnasto 
+-   Laskutustiheys
+-   Varattavissa olevan resurssin luokka
+-   Tapahtumakategoria
+-   Kululuokka
+-   Roolin hinta
+-   Tapahtumaluokan hinta
+-   Ominaisuus
+-   Varattavissa oleva resurssi
+-   Varattavissa olevan resurssin luokkaliitos
+-   Varattavissa olevan resurssin ominaisuus
 
 ![Suorita tuonti](./media/6CompleteImport.png)

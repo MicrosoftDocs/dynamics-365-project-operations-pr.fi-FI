@@ -1,23 +1,33 @@
 ---
-title: Aseta määritystiedot ja ota ne käyttöön Common Data Service for Project Operationsissa
+title: Määritystietojen määrittäminen ja käyttäminen Common Data Servicessa
 description: Tässä aiheessa on tietoja määritystietojen määrittämisestä ja käyttöönotosta Project Operationsissa.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075221"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401124"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Aseta määritystiedot ja ota ne käyttöön Common Data Service for Project Operationsissa
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Määritystietojen määrittäminen ja käyttäminen Common Data Servicessa 
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
+
+## <a name="prerequisites"></a>Edellytykset
+
+Seuraavien edellytysten on täytyttävä ennen tietojen määrittämistä Common Data Servicessa (CDS):
+
+1.  Project Operationsia varten valmistellut CDS- ja Dynamics 365 Finance -ympäristöt.
+2.  CDS-ympäristöön jaetut Dynamics 365 Financen yritystiedot. Tämän vuoksi CDS:n **Yhtiö**-entiteetillä on seuraavat yhtiötietueet:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Asenna määritys- ja konfiguraatiotiedot
 
@@ -75,19 +85,19 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 ![Avaa ympäristö](./media/7OpenEnvironment.png)
 
-2. Siirry kohtaan **Projektit** > **Resurssit** ja valitse sitten **Uusi** , jos haluat luoda käyttäjälle varattavissa olevan resurssin.
+2. Siirry kohtaan **Projektit** > **Resurssit** ja valitse sitten **Uusi**, jos haluat luoda käyttäjälle varattavissa olevan resurssin.
 
 ![Varattavissa olevat resurssit](./media/8BookableResources.png)
 
-3. Valitse **Yleiset** -välilehdessä järjestelmänvalvojakäyttäjä. Tarkista, että aikavyöhyke vastaa sitä, missä olet. 
+3. Valitse **Yleiset**-välilehdessä järjestelmänvalvojakäyttäjä. Tarkista, että aikavyöhyke vastaa sitä, missä olet. 
 
 ![Uusi varattava resurssi](./media/9NewBookableResource.png)
 
-4. Valitse **Aikataulutus** -välilehden **Yritys** -kentässä **USPM** -yritys ja valitse sitten **Tallenna**. 
+4. Valitse **Aikataulutus**-välilehden **Yritys**-kentässä **USPM**-yritys ja valitse sitten **Tallenna**. 
 
 ![Aikataulutus-välilehti](./media/10SchedulingTab.png)
 
-5. Valitse **Työtunnit** -välilehti.  
+5. Valitse **Työtunnit**-välilehti.  
 
 ![Työaika](./media/11WorkHours.png)
 
@@ -114,10 +124,10 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
  
 12. Päivitä seuraavat kentät:
 
- - **Oletusyritys** : USPM
- - **Oletusorganisaatioyksikkö** : Contoso Robotics Global
- - **Laskutustiheys** : seitsemäs ja viimeinen päivä
- - **Työtuntimalli** : Vaihda luomaasi malliin.
+ - **Oletusyritys**: USPM
+ - **Oletusorganisaatioyksikkö**: Contoso Robotics Global
+ - **Laskutustiheys**: seitsemäs ja viimeinen päivä
+ - **Työtuntimalli**: Vaihda luomaasi malliin.
 
 13. Valitse **Tallenna**. 
 

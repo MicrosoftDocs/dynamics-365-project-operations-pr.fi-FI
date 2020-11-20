@@ -3,17 +3,17 @@ title: Käyttöönottotyypin määritys
 description: Tässä aiheessa on tietoja Project Operationsin oikean käyttöönottotyypin valinnasta omalle yrityksellesi.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075352"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401214"
 ---
 # <a name="determine-your-deployment-type"></a>Käyttöönottotyypin määritys
 
@@ -25,11 +25,11 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Olemassa olevat Dynamics-asiakkaat, jotka käyttvät Dynamics 365 Project Service Automationia
-Project Operations sisältää Project Service Automationin mukana toimitetut toiminnot. Näille asiakkaille julkaistaan tulevaisuudessa päivityspolku.
+Project Operations sisältää Project Service Automationin mukana toimitetut toiminnot. Näille asiakkaille julkaistaan päivityspolku vuoden 2021 1. julkaisuaallossa.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Olemassa olevat Dynamics 365 Finance-asiakkaat, jotka käyttävät Projektinhallinta ja kirjanpito -moduulia 
 
-Finance-asiakkaat, jotka käyttävät Projektinhallinta- ja kirjanpito -toimintoa, voivat jatkaa käyttöä sellaisenaan. Katso [Project Operations varastoitavien/tuotantotilausten skenaarioissa](#pma).
+Nykyiset projektin hallinta- ja kirjanpitotoimintoja käyttävät Finance-asiakkaat voivat jatkoa käyttöä entiseen tapaan. Katso [Project Operations varastoitavien/tuotantotilausten skenaarioissa](#pma).
 
 
 ## <a name="deployment-types"></a>Käyttöönottotyypit
@@ -47,12 +47,13 @@ Project Operations tukee varastoitu/tuotantotilaus-skenaarioita ja ei-varastoita
 
 Lite-käyttöönotossa on seuraavat ominaisuudet:
 
+- Dynamics 365 Sales -sovelluksen kokemuksia laajentava projektien myyntiprosessi
 - Projektin suunnittelu Microsoft Project -verkkoversion avulla
 - Moniulotteinen hinnoittelu
 - Yhdistetty resurssien hallinta
 - Aikaseuranta
 - Peruskulu
-- Laskuehdotus
+- Proformalaskutus ja asiakkaille suunnattu laskutus 
 
 #### <a name="deployment-steps"></a>Käyttöönotto-ohjeet
 Määritä paras Project Operationsin käyttöönottomalli käyttämällä [Käyttöönottokyselyä](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ Lisätietoja tälle käyttöönotolle: [Esiversiotilauksiin rekisteröityminen](
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations resurssien ja ei-varastoitavien skenaarioissa
 Project Operations tarjoaa resurssien/ei-varastoitavien skenaarioille seuraavat ominaisuudet:
-  
+ 
+- Dynamics 365 Sales -sovellusta laajentava projektien myyntiprosessi
 - Projektin suunnittelu Microsoft Project -verkkoversion avulla
 - Moniulotteinen hinnoittelu
 - Yhdistetty resurssien hallinta
@@ -70,8 +72,8 @@ Project Operations tarjoaa resurssien/ei-varastoitavien skenaarioille seuraavat 
 - Peruskulu
 - Koko kulu
 - Kuittien OCR
-- Täysi laskutus
-- Tuoton kirjaaminen
+- Proformalaskutus ja asiakkaille suunnattu laskutus 
+- Projektien tuloutus
 
 #### <a name="deployment-steps"></a>Käyttöönotto-ohjeet
 Määritä paras Project Operationsin käyttöönottomalli käyttämällä [Käyttöönottokyselyä](https://aka.ms/provisionprojectoperations).
