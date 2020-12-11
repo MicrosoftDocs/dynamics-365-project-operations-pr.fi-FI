@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Uudet ominaisuudet
       items:
+        - name: Joulukuu 2020 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: Marraskuu 2020 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Projektin myyntiprosessi
@@ -87,7 +89,7 @@
                 - name: Useiden asiakkaiden hallinta projektipohjaisilla tarjousriveillä
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Projektin tarjousrivin laskutettavan komponentin määrittäminen
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Arvioiden luominen tarjousrivillä
                   href: sales/create-estimate-quote-line.md
                 - name: Arvioiden tuominen projektista projektipohjaiselle tarjousriville
@@ -109,7 +111,7 @@
             - name: Projektihinnastojen hallinta projektisopimuksissa
               href: sales/contracts-manage-project-price-lists.md
             - name: Useiden asiakkaiden hallinta projektisopimuksissa
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Projektipohjaiset sopimusrivit
               items:
                 - name: Projektipohjaisten sopimusrivien yleiskatsaus
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Projektisopimuksen kopioiminen
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Ennakot ja ennakkomaksut
+              items:
+                - name: Ennakot ja ennakkomaksuun perustuvat palvelusopimukset – lite
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Ennakkomaksujen aikataulun määrittäminen – lite
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Tilapäisen ennakon luominen palvelusopimuksessa – lite
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Hinnoittelu ja kustannuslaskenta
       items:
         - name: Hinnaston määrittäminen
@@ -158,18 +168,28 @@
           items:
             - name: Hinnoitteludimensioiden yleiskatsaus
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Ratkaisun luominen mukautetuille hinnoitteludimensioille
+              href: sales/create-solution-custompd.md
             - name: Nykyisten kenttien käyttäminen hinnoitteludimensioina
               items:
                 - name: Project Operationsin kentät hinnoitteludimensioina
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Varattavissa olevan resurssin käyttäminen hinnoitteludimensiona
+                  href: sales/use-br-as-pd.md
+                - name: Tapahtumaluokan käyttäminen hinnoitteludimensiona
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Varattavissa oleva resurssi, jolla on useita rooleja projektissa'
+                  href: sales/br-playing-multiple-roles.md
             - name: Mukautetut kentät hinnoitteludimensioina
               items:
                 - name: Mukautettujen kenttien ja entiteettien luominen hinnoitteludimensioina
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Mukautettujen kenttien lisääminen hintamääritys- ja tapahtumaentiteetteihin
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi
+                - name: Mukautettujen kenttien määrittäminen hinnoitteludimensioina
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Laajennusmääritteiden päivittäminen sisältämään uudet hinnoitteludimensiot
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Hinnoitteludimension poistaminen käytöstä
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektinhallinta
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Resurssien hallitseminen
           items:
+            - name: Resurssien luominen
+              href: resource-management/create-resources.md
             - name: Osaamisalueiden ja pätevyyksien määrittäminen
               href: resource-management/define-skills-proficiencies.md
+            - name: Roolien määrittäminen
+              href: resource-management/define-roles.md
             - name: Resurssikalenterien määrittäminen
               href: resource-management/define-resource-calendars.md
         - name: Varauksen kohdistusmenetelmät
           href: resource-management/booking-allocation-methods.md
+        - name: Varauksen tilat
+          href: resource-management/booking-status.md
         - name: Osaamisalueet ja pätevyysmallit
           href: resource-management/skills-proficiency-models.md
         - name: Resurssin täsmäytys
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Proformamuotoisen projektilaskun hallinta
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Ennakkomaksun tai ennakon laskuttaminen
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Proformamuotoisen projektilaskun vahvistaminen
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Laskuautomaation määrittäminen
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operationsin integroinnin kirjauskansio
           href: project-accounting/project-operations-integration-journal.md
+        - name: Konsernin sisäinen laskutus
+          items:
+            - name: Konsernin sisäisen laskutuksen yleiskatsaus
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konsernin sisäisen laskutuksen määrittäminen
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Konsernin sisäisten asiakas- ja toimittajalaskujen luominen
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Konsernin sisäisten tapahtumien luominen
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Tuoton tunnistus
+      items:
+        - name: Tuoton tunnistuksen yleiskatsaus
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Tuoton tunnistuksen määrittäminen
+          items:
+            - name: Kausityyppien määrittäminen
+              href: project-accounting/period-types.md
+            - name: Kustannusmallien määrittäminen
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Myyntituottoarvioiden hallinta
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Kiinteähintaisen arvioidun myyntituoton projektit
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Kokonaiskustannusmenetelmät
+          href: revenue-recognition/cost-complete-methods.md
 - name: Lite-käyttöönotto – kauppa proformalaskutukseen
   items:
     - name: Aloittaminen
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Uudet ominaisuudet
       items:
+        - name: Joulukuun 2020 Lite-käyttöönoton uudet ominaisuudet – kauppa proformalaskutukseen
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Marraskuun 2020 Lite-käyttöönoton uudet ominaisuudet – kauppa proformalaskutukseen
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projektin myyntiprosessi
@@ -538,18 +594,28 @@
           items:
             - name: Hinnoitteludimensioiden yleiskatsaus
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Ratkaisun luominen mukautetuille hinnoitteludimensioille
+              href: sales/create-solution-custompd.md
             - name: Nykyisten kenttien käyttäminen hinnoitteludimensioina
               items:
-                - name: Nykyisen kentän käyttäminen hinnoitteludimensiona
+                - name: Project Operationsin kentät hinnoitteludimensioina
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Varattavissa olevan resurssin käyttäminen hinnoitteludimensiona
+                  href: sales/use-br-as-pd.md
+                - name: Tapahtumaluokan käyttäminen hinnoitteludimensiona
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 'Varattavissa oleva resurssi, jolla on useita rooleja projektissa'
+                  href: sales/br-playing-multiple-roles.md
             - name: Mukautetut kentät hinnoitteludimensioina
               items:
                 - name: Mukautettujen kenttien ja entiteettien luominen hinnoitteludimensioina
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Mukautettujen kenttien lisääminen hintamääritys- ja tapahtumaentiteetteihin
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi
+                - name: Mukautettujen kenttien määrittäminen hinnoitteludimensioina
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Laajennusmääritteiden päivittäminen sisältämään uudet hinnoitteludimensiot
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Hinnoitteludimension poistaminen käytöstä
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektinhallinta
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Resurssien hallitseminen
           items:
+            - name: Resurssien luominen
+              href: resource-management/create-resources.md
             - name: Osaamisalueiden ja pätevyyksien määrittäminen
               href: resource-management/define-skills-proficiencies.md
+            - name: Roolien määrittäminen
+              href: resource-management/define-roles.md
             - name: Resurssikalenterien määrittäminen
               href: resource-management/define-resource-calendars.md
         - name: Varauksen kohdistusmenetelmät
           href: resource-management/booking-allocation-methods.md
+        - name: Varauksen tilat
+          href: resource-management/booking-status.md
         - name: Osaamisalueet ja pätevyysmallit
           href: resource-management/skills-proficiency-models.md
         - name: Resurssin täsmäytys
@@ -834,6 +906,8 @@
       items:
         - name: Project Service 3.x -päivitysten julkaisuaikataulu
           href: psa/version-history-ps.md
+        - name: 'Päivitysversion 26, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-26.md
         - name: 'Päivitysversion 25, V3 uudet ominaisuudet ja muutokset'
           href: psa/whats-new-ur-25.md
         - name: 'Päivitysversion 24, V3 uudet ominaisuudet ja muutokset'
@@ -928,7 +1002,7 @@
               href: psa/create-custom-fields-entities.md
             - name: Mukautettujen kenttien lisääminen hintamääritys- ja tapahtumaentiteetteihin
               href: psa/field-references.md
-            - name: 'Mukautettujen kenttien määrittäminen hinnoitteludimensioina '
+            - name: Mukautettujen kenttien määrittäminen hinnoitteludimensioina
               href: psa/set-up-pricing-dimensions.md
             - name: Laajennusmääritteiden päivittäminen sisältämään uudet hinnoitteludimensiot
               href: psa/update-plug-in-attributes.md
