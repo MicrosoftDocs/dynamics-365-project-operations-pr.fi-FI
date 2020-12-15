@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: ryansand
+ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: ec8737d848ae5ad25219a43c68306d19b1c1fbce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2acd9eab52629b0baeb82a399993fbc6337c722
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075391"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650135"
 ---
 # <a name="redesigned-expense-reports"></a>Uudelleen suunnitellut kuluraportit
 [!include[banner](../includes/banner.md)]
@@ -35,7 +35,7 @@ Kuluraporttimerkintä on suunniteltu uudelleen yksinkertaistamaan kuluraporttien
 - Uusi sivu, joka määrittää organisaation edellyttämät kentät, mitkä kentät ovat valinnaisia ja mitä kenttiä ei pitäisi siepata. Tämä sivu auttaa vähentämään käyttäjien asettamien kenttien määrää.
 - Kuluraporttien uusi ulkoasu, jotta raportit eivät enää vaikuta siltä kuin ne olisi suunniteltu kirjanpidon ammattilaisia varten.
 
-Voit ottaa uuden käyttökokemuksen käyttöön ottamalla käyttöön **Kuluraporttien uusi suunnittelu** -ominaisuuden **Ominaisuuksien hallinta** -työtilan avulla. Kun otat tämän ominaisuuden käyttöön, suoritetaan seuraavat toiminnot:
+Voit ottaa uuden käyttökokemuksen käyttöön ottamalla käyttöön **Kuluraporttien uusi suunnittelu** -ominaisuuden **Ominaisuuksien hallinta**-työtilan avulla. Kun otat tämän ominaisuuden käyttöön, suoritetaan seuraavat toiminnot:
 
 - Aiemmin luotu Kulu-työtila korvataan uudella työtilalla.
 - Kulukentän näkyvyydelle lisätään uusi valikon vaihtoehto.
@@ -62,7 +62,7 @@ Voit ottaa uuden käyttökokemuksen käyttöön ottamalla käyttöön **Kulurapo
 | Uusi työtila näkyvyyden lisäämiseksi | Uusi työtila yhdistää ominaisuuksia ja linkkejä, joiden avulla käyttäjät voivat siirtyä eri alueisiin. |
 | Lisää aiemmin luodut kulut ja kuitit kulun luonnin aikana | Kun luot kuluraportteja, voit lisätä kaikki tai valitut kulut ja kuitit. |
 | Vaihtokurssilaskin | Lisätään valuuttakurssilaskin, jonka avulla voit laskea käteisellä maksettujen monivaluuttatapahtumien valuuttakursseja. |
-| Tallenna ja lisää uusia kulurivejä | **Tallenna** - ja **Uusi** -painikkeet ovat käytettävissä, kun uusia kuluja syötetään, joten voit nopeasti syöttää kulurivejä. |
+| Tallenna ja lisää uusia kulurivejä | **Tallenna**- ja **Uusi**-painikkeet ovat käytettävissä, kun uusia kuluja syötetään, joten voit nopeasti syöttää kulurivejä. |
 | Parempi näkyvyys jaetuille ja eritellyille riveille | Eritellyt ja jaetut rivit lisätään suoraan kululuetteloon näkyvyyden lisäämiseksi, ja niiden avulla voit helposti selvittää, onko käytäntövirheitä tai muita virheitä. |
 | Näytä kuitit erittelyn aikana | Kuitit voidaan näyttää erittelyn aikana. |
 

@@ -1,5 +1,5 @@
 ---
-title: Ennakkomaksun tai ennakkomaksuun perustuvan maksun laskuttaminen – lite
+title: Ennakkomaksun tai ennakkomaksuun perustuvan maksun laskuttaminen
 description: Tässä aiheessa on tietoja siitä, miten pidätyksiä tai ennakoita laskutetaan Project Operationsissa.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180548"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596188"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Ennakkomaksun tai ennakkomaksuun perustuvan maksun laskuttaminen – lite
+# <a name="invoice-a-retainer-or-an-advance"></a>Ennakkomaksun tai ennakon laskuttaminen
 
-_**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
+_**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Dynamics 365 Project Operations tukee pidätykseen perustuvia palvelusopimuksia ja kertaennakoita. Projektisopimuksessa voit kirjata maksuaikataulun tai kertaennakon. Projektisopimustasolla kirjaaminen ei kuitenkaan heti tee pidätystä tai ennakkoa käytettäväksi. Jos haluat käyttää pidätystä tai ennakkomaksua laskulle, joka tosiasiassa laskuttaa asiakasta, pidätyksen tai ennakon on oltava ensin laskutettuna.
+Dynamics 365 Project Operations tukee ennakkomaksuihin perustuvia sopimuksia ja kertaluonteisia ennakoita. Projektisopimuksessa voit kirjata maksuaikataulun tai kertaennakon. Projektisopimustasolla kirjaaminen ei kuitenkaan heti tee pidätystä tai ennakkoa käytettäväksi. Jos haluat käyttää pidätystä tai ennakkomaksua laskulle, joka tosiasiassa laskuttaa asiakasta, pidätyksen tai ennakon on oltava ensin laskutettuna.
 
 Pidätyksen tai ennakon laskutus tapahtuu suorittamalla seuraavat vaiheet.
 

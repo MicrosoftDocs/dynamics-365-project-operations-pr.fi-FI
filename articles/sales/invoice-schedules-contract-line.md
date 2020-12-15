@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180773"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513920"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Laskutusaikataulun luominen projektipohjaisella sopimusrivillä 
 
@@ -49,7 +49,7 @@ Suorita seuraavat vaiheet, jotta voit luoda välitavoitepohjaisen laskuaikataulu
 3. Avaa **kiinteähintainen** sopimusrivi, jolle luot välitavoiteaikataulun. Valitse **Laskutusvälitavoitteet**-välilehdellä laskutuksen aloitus- ja laskujen tiheys -kenttien arvot. 
 4. Valitse aliruudukossa **Luo jaksoittaiset välitavoitteet**. Laskun aikataulu luodaan siten, että **välitavoitteen nimi**, **välitavoitteen päivä** ja **välitavoitteen summa** -kentät ovat seuraavat:
 
-    - **Välitavoitteen nimi**: Tämän päivämäärän määrää laskutiheys.
+    - **Välitavoitteen nimi**: Tämä nimi määräytyy laskun lähettämistiheyden mukaan.
     - **Välitavoitteen päivämäärä**: Tämän päivämäärän määrää laskutiheys.
     - **Välitavoitteen summa**: Tämä määrä lasketaan jakamalla sopimuksen summa sopimusrivillä välitavoitteiden määrällä, joka määräytyy laskujen tiheyden, laskutuksen alkamispäivän ja pyydettyjen toimituspäivien mukaan.
 

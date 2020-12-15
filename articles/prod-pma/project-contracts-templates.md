@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075482"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642629"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronoi projektisopimuksia ja projekteja suoraan Project Service Automationista Finance and Operationsiin
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Tässä aiheessa kuvataan malli ja sen pohjana olevat tehtävät, joita käytetään projektisopimusten ja projektien synkronoimiseen suoraan Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
 
@@ -93,23 +95,23 @@ Projektisopimuksen rivejä hallitaan Project Service Automationissa, ja ne synkr
 
 ## <a name="project-service-automation-to-finance-integration-solution"></a>Project Service Automationista Financeen integroinnin ratkaisu
 
-**Projektisopimuksen tunnus** -kenttä on käytettävissä **Projektisopimukset** -sivulla. Tämä kenttä on tehty luonnolliseksi ja yksilölliseksi avaimeksi integroinnin tukemiseksi.
+**Projektisopimuksen tunnus** -kenttä on käytettävissä **Projektisopimukset**-sivulla. Tämä kenttä on tehty luonnolliseksi ja yksilölliseksi avaimeksi integroinnin tukemiseksi.
 
-Kun uusi projektisopimus luodaan eikä **Projektisopimuksen tunnus** -arvoa vielä ole olemassa, se luodaan automaattisesti numerosarjan avulla. Arvo alkaa kirjaimilla **ORD** , joiden perässä on kasvava numerosarja ja sitten kuuden merkin jälkiliite. Esimerkki: **ORD-01022-Z4M9Q0**.
+Kun uusi projektisopimus luodaan eikä **Projektisopimuksen tunnus** -arvoa vielä ole olemassa, se luodaan automaattisesti numerosarjan avulla. Arvo alkaa kirjaimilla **ORD**, joiden perässä on kasvava numerosarja ja sitten kuuden merkin jälkiliite. Esimerkki: **ORD-01022-Z4M9Q0**.
 
-**Projektinumero** -kenttä on käytettävissä **Projektit** -sivulla. Tämä kenttä on tehty luonnolliseksi ja yksilölliseksi avaimeksi integroinnin tukemiseksi.
+**Projektinumero**-kenttä on käytettävissä **Projektit**-sivulla. Tämä kenttä on tehty luonnolliseksi ja yksilölliseksi avaimeksi integroinnin tukemiseksi.
 
-Kun uusi projekti luodaan eikä **Projektinumero** -arvoa vielä ole olemassa, se luodaan automaattisesti numerosarjan avulla. Arvo alkaa kirjaimilla **PRJ** , joiden perässä on kasvava numerosarja ja sitten kuuden merkin jälkiliite. Esimerkki: **PRJ-01049-CCNID0**.
+Kun uusi projekti luodaan eikä **Projektinumero** -arvoa vielä ole olemassa, se luodaan automaattisesti numerosarjan avulla. Arvo alkaa kirjaimilla **PRJ**, joiden perässä on kasvava numerosarja ja sitten kuuden merkin jälkiliite. Esimerkki: **PRJ-01049-CCNID0**.
 
-Kun käytetään Project Service Automationin Finenceen integroinnin ratkaisua, päivityskomentosarja määrittää **Projektisopimuksen tunnus** -kentän olemassa oleville projektisopimuksille sekä **Projektinumero** -kentän Project Service Automationissa oleville projekteille.
+Kun käytetään Project Service Automationin Finenceen integroinnin ratkaisua, päivityskomentosarja määrittää **Projektisopimuksen tunnus** -kentän olemassa oleville projektisopimuksille sekä **Projektinumero**-kentän Project Service Automationissa oleville projekteille.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Edellytykset ja yhdistämismääritykset
 
 - Tilit on synkronoitava, ennen kuin projektisopimuksia ja projekteja voi esiintyä.
 - Lisää yhteysjoukkoosi integrointiavaimen kenttämääritys kohteelle **msdyn\_organizationalunits** to **msdyn\_name \[Nimi\]**. Sinun täytyy ehkä ensin lisätä projekti yhteysjoukkoon. Lisätietoja [Tietojen integrointi Common Data Serviceen sovelluksille](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - Lisää yhteysjoukkoosi integrointiavaimen kenttämääritys kohteelle **msdyn\_projects** to **msdynce\_projectnumber \[Projektinumero\]**. Sinun täytyy ehkä ensin lisätä projekti yhteysjoukkoon. Lisätietoja [Tietojen integrointi Common Data Serviceen sovelluksille](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- **SourceDataID** , jotta projektisopimukset ja projektit voidaan päivittää eri arvoon tai poistaa yhdistämismäärityksestä. Mallin oletusarvo on **Project Service Automation**.
-- **PaymentTerms** -yhdistämismääritys on päivitettävä vastaamaan kelvollisia maksuehtoja Financessa. Voit myös poistaa yhdistämismäärityksen projektitehtävästä. Oletusarvon yhdistämismäärityksissä on esittelytietojen oletusarvoja. Seuraavassa taulukossa esitetään arvot Project Service Automationissa.
+- **SourceDataID**, jotta projektisopimukset ja projektit voidaan päivittää eri arvoon tai poistaa yhdistämismäärityksestä. Mallin oletusarvo on **Project Service Automation**.
+- **PaymentTerms**-yhdistämismääritys on päivitettävä vastaamaan kelvollisia maksuehtoja Financessa. Voit myös poistaa yhdistämismäärityksen projektitehtävästä. Oletusarvon yhdistämismäärityksissä on esittelytietojen oletusarvoja. Seuraavassa taulukossa esitetään arvot Project Service Automationissa.
 
     | Value | Kuvaus   |
     |-------|---------------|
@@ -133,9 +135,9 @@ Jos sinun on käytettävä Power Queryä, noudata seuraavia ohjeita:
 ## <a name="template-mapping-in-data-integration"></a>Mallien yhdistämismääritys tietojen integroinnissa
 
 > [!NOTE] 
-> Kentät **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** ja **AddressZipCode** eivät ole mukana projektisopimusten oletusarvoisessa yhdistämismäärityksessä. Voit lisätä yhdistämismääritykset, jos nämä tiedot on synkronoitava projektisopimuksissa.
+> Kentät **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** ja **AddressZipCode** eivät ole mukana projektisopimusten oletusarvoisessa yhdistämismäärityksessä. Voit lisätä yhdistämismääritykset, jos nämä tiedot on synkronoitava projektisopimuksissa.
 >
-> Kentät **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** ja **ProjectType** eivät ole mukana projektisopimusten oletusarvoisessa yhdistämismäärityksessä. Voit lisätä yhdistämismääritykset, jos nämä tiedot on synkronoitava projekteissa.
+> Kentät **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** ja **ProjectType** eivät ole mukana projektisopimusten oletusarvoisessa yhdistämismäärityksessä. Voit lisätä yhdistämismääritykset, jos nämä tiedot on synkronoitava projekteissa.
 
 Seuraavissa kuvissa on esimerkkejä mallitehtävien yhdistämismäärityksestä tietojen integroinnissa. Yhdistämismäärityksessä näytetään kenttätiedot, jotka synkronoidaan Project Service Automationista Financeen.
 

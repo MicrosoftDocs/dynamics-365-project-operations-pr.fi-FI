@@ -8,20 +8,22 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401259"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642089"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Project Operationsin esittelyn asennus- ja määritystietojen käyttäminen – lite 
 
 _**Lite-käyttöönotto – kauppa proformalaskutukseen_
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 ## <a name="prerequisites"></a>Edellytykset
 
-Ennen määrityksen aloittamista Dynamics 365 Project Operationsin Common Data Service (CDS) -ympäristön on oltava määritettynä.
+Ennen määrityksen aloittamista, Common Data Service (CDS) -ympäristön on oltava valmisteltuna Dynamics 365 Project Operationsia varten.
 
 
 ## <a name="instructions"></a>Ohjeet

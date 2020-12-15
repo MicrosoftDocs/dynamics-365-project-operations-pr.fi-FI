@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121169"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642963"
 ---
 # <a name="provision-a-new-environment"></a>Uuden ympäristön valmisteleminen
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Tässä aiheessa on tietoja siitä, miten luodaan uusi Dynamics 365 Project Operations -ympäristö resurssien ja ei-varastoitavien skenaarioiden perusteella.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Tässä aiheessa on tietoja uuden Dynamics 365 Project Operations -ympäristön valmistelusta resurssi/ei-varastoitava -pohjaisille skenaarioille.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Project Operationsin automaattisen valmistelun käyttöönotto LCS-projektissa
 
@@ -120,7 +122,7 @@ Ympäristön huolto kestää jonkin aikaa. Kun ympäristö on valmis, se palaa k
 
 ![Ota ratkaisut käyttöön](./media/13ApplySolutions.png)
 
-5. Valitse molemmat ratkaisut,, **Dynamics 365 Finance and Operations – kaksoiskirjoituksen entiteettikartta** and **Dynamics 365 Project Operations – Kaksoiskirjoituksen entiteettikartat**, ja valitse sitten **Käytä**.
+5. Valitse molemmat ratkaisut, **Dynamics 365 Finance and Operations Kaksoiskirjoitusentiteetin yhdistämismääritys** ja **Dynamics 365 Project Operations Kaksoiskirjoitusentiteettien yhdistämismääritykset** ja valitse sitten **Käytä**.
 
 ![Ratkaisujen vahvistaminen](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Päivitys kestää noin 20 minuuttia. Saat ilmoituksen, kun se on valmis.
 | --- | --- | --- | --- | --- | --- |
 | **Kaikkien yritysten projektiresurssiroolit (bookableresourcecategories)** | No | Kyllä | Common Data Service | No | – |
 | **Yritykset (cdm\_companies)** | No | Kyllä | Finance and Operations -sovellukset | No | – |
+| **Tapahtumarekisteri (msdyn_ledgers)** | No | Kyllä | Finance and Operations -sovellukset | Kyllä | Kyllä, Finance and Operations -sovellukset |
 | **Project Operations -integroinnin todelliset arvot (msdyn\_actuals)** | No | No | – | Kyllä | No |
 | **Projektin sopimusrivit (salesorderdetails)** | No | No | – | No | No |
 | **Projektitapahtuman integrointikohdesuhteet (msdyn\_transactionconnections)** | No | No | – | No | – |

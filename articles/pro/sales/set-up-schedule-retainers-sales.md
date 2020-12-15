@@ -1,5 +1,5 @@
 ---
-title: Ennakkomaksuaikataulun määrittäminen – lite
+title: Ennakkomaksujen aikataulun määrittäminen
 description: Tässä aiheessa on tietoja ennakkomaksuaikataulun määrittämisestä Project Operationsissa.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181268"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596368"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Ennakkomaksuaikataulun määrittäminen – lite
+# <a name="set-up-a-retainer-schedule"></a>Ennakkomaksujen aikataulun määrittäminen
 
-_**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
+_**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Ennakkomaksuaikataulut määritetään Dynamics 365 Project Operationsin **Projektisopimus**-sivulla.
+Ennakkomaksuaikataulut määritetään **Projektisopimus**-sivulla Dynamics 365 Project Operationsissa.
 
 1. Valitse **Projektisopimus**-sivun **Ennakot ja ennakkomaksut** -välilehdessä **Määritä ennakkomaksuaikataulu**.
 2. Seuraavassa taulukossa olevat kentät näkyvät avautuvalla valintasivulla. Taulukko on esimerkki tavasta, jolla annetut arvot vaikuttavat luotavaan ennakkomaksuaikatauluun.

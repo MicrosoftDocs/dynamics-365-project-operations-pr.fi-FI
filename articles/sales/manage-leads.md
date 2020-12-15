@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181763"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513830"
 ---
 # <a name="manage-leads"></a>Liidien hallinta
 
@@ -53,7 +53,7 @@ Liidejä, joiden **Tyyppi**-arvoksi on määritetty **Työperusteinen**, kutsuta
 
 - Asiakkuus, joka käyttää liidin **Yritys**-kenttää.
 - Asiakkaaseen liittyvä yhteyshenkilötietue, joka perustuu liidin **Etunimi**- ja **Sukunimi**-kenttien arvoihin.
-- Projektipohjainen mahdollisuudessa **Tyyppi**-kentän arvoksi on määritetty **Työperusteinen**.
+- Projektipohjainen mahdollisuus, jonka **Tyyppi**-kentän arvo on **Työperusteinen**.
 
 Lisätietoja liidien hyväksymisestä on aiheessa [Liidien hyväksyminen tai muuntaminen](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

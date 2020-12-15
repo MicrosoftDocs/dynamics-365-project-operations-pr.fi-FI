@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: b881e03a2bb085c6d7cfccb7eec70442e696e62c
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177147"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513875"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Projektipohjaisen sopimusrivin veloitettavien komponenttien määrittäminen – lite
 
@@ -34,7 +34,7 @@ Sisällytettyjen komponenttien alijoukko voidaan merkitä laskutettaviksi **lask
 
 Laskutettavat komponentit voidaan määrittää tehtäville, rooleille ja tapahtumaluokille.
 
-Maksukyky määritetään projektisopimusrivin tehtäville, ja se koskee kaikkia riviin sisältyviä tapahtumaluokkia. Jos sopimusrivin **Sisällytä tehtävät** -kenttä on tyhjä tai sen asetus on **koko projekti**, **veloitettavat tehtävät** -välilehti ei ole käytettävissä.
+Maksukyky määritetään projektisopimusrivin tehtäville, ja se koskee kaikkia riviin sisältyviä tapahtumaluokkia. Jos sopimusrivin **Sisällytä tehtävät** -kenttä on tyhjä tai sen asetus on **Koko projekti**, **Veloitettavat tehtävät** -välilehti ei ole käytettävissä.
 
 Projektisopimusrivin rooleihin määritetty maksuvalmius koskee vain **ajan** tapahtumaluokkaa. Jos sopimusrivin **Sisällytä aika** -kentän sen asetus on **Ei**, **veloitettavat roolit** -välilehti ei ole käytettävissä.
 

@@ -1,28 +1,20 @@
 ---
 title: Hinnoitteludimensioiden yleiskatsaus
-description: Tämä aihe tarjoaa tietoja Dynamics 365 Project Operationsin hinnoitteludimensioista.
+description: Tässä aiheessa on tietoja hinnoitteludimensioista Dynamics 365 Project Operationsissa.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128459"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650183"
 ---
 # <a name="pricing-dimensions-overview"></a>Hinnoitteludimensioiden yleiskatsaus
 
@@ -40,9 +32,21 @@ Tämän vuoksi käytettävissä on seuraavat kaksi hinnoitteludimensioarvoa:
 
 ## <a name="pricing-dimensions"></a>Hinnoitteludimensiot
 
-Dynamics 365 Project Operations sisältää hinnoitteludimensioiden oletusjoukon. Hinnoitteludimensioita voi tarkastella siirtymällä kohtaan **Project Operations** > **Parametrit**. Varmista parametritietueen **Summaperusteiset hinnoitteludimensiot** -välilehdellä, että roolin **msdyn_resourcecategory** ja resursoivan organisaatioyksikön **msdyn_organizationalunit** kenttien **Sovelletaan myyntiin** ja **Sovelletaan kustannuksiin** arvona on **Kyllä**. Näiden käytössä olevien kenttien avulla voit määrittää jokaisen roolin ja organisaatioyksikön hinnan ja kustannuksen.
+Dynamics 365 Project Operationsin kanssa toimitetaan hinnoitteludimensioiden oletusjoukko. Hinnoitteludimensioita voi tarkastella siirtymällä kohtaan **Project Operations** > **Parametrit**. Varmista parametritietueen **Summaperusteiset hinnoitteludimensiot** -välilehdellä, että roolin **msdyn_resourcecategory** ja resursoivan organisaatioyksikön **msdyn_organizationalunit** kenttien **Sovelletaan myyntiin** ja **Sovelletaan kustannuksiin** arvona on **Kyllä**. Näiden käytössä olevien kenttien avulla voit määrittää jokaisen roolin ja organisaatioyksikön hinnan ja kustannuksen.
 
-Jos sinun on määritettävä resurssiesi hintoja tai kustannuksia lisämääritteitä käyttäen, voit luoda mukautettuja kenttiä, entiteettejä ja dimensioita.
+![Näyttökuva Project Service -parametreista, joissa Sovelletaan myyntiin on korostettu](media/PS-OOB-parameters.png)
+
+Jos sinun on määritettävä resurssiesi hintoja tai kustannuksia lisämääritteitä käyttäen, voit luoda mukautettuja kenttiä, entiteettejä ja dimensioita. Lisätietoja on seuraavissa aiheissa. 
+  
+  > [!NOTE]
+  > Toimintosarjat on suoritettava siinä järjestyksessä, jossa ne on lueteltu.
+
+1. [Ratkaisun luominen mukautetuille hinnoitteludimensioille](../sales/create-solution-custompd.md)
+2. [Mukautettujen kenttien ja entiteettien luominen](create-custom-fields-entities-pricing-dimensions.md)
+3. [Mukautettujen kenttien lisääminen hintamääritys- ja tapahtumaentiteetteihin ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi ](set-up-custom-fields-pricing-dimensions.md)
+5. [Päivitä laajennusmääritteet sisältämään uudet hinnoitteludimensiot](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Henkilöresurssin ajan hinnoitteleminen
 Organisaation tapa hinnoitella henkilöresurssien aika on usein tärkeä strateginen näkökohta, joka vaikuttaa suoraan organisaation kannattavuuteen. Tee yhteistyötä talousryhmän ja ammattialan päälliköiden kanssa, kun organisaatiosi on valmis päättämään, miten se haluaa määrittää henkilöresurssien ajan laskutus- ja kustannushinnat.

@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121214"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642269"
 ---
 # <a name="currency"></a>Valuutta
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Valuutat määrittävät tuotteiden hinnat tuoteluettelossa sekä erilaisten tapahtumien, kuten myyntitilausten, kustannukset. Jos asiakkaat ovat jakautuneet eri maantieteellisille alueille, lisää asiakkaiden valuutat, jotta voit hallita tapahtumia. Lisää valuutat, jotka sopivat parhaiten liiketoiminnan nykyisiin ja tuleviin tarpeisiin.  
 

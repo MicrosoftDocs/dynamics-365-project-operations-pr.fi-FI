@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129674"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642764"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Töiden suunnittelu Microsoft Projectissa Project Service Automation -apuohjelmalla
 
@@ -173,6 +173,59 @@ Projekti tuodaan [!INCLUDE[pn_project_service_auto](../includes/pn-project-servi
 4. Valitse **Julkaise**.  
 
 Kun Project-tiedosto linkitetään [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]iin, Project-tiedostosta tulee päätiedosto ja [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -mallin työrakenne on vain luku -muotoinen.  Jos haluat tehdä muutoksia projektisuunnitelmaan, ne on tehtävä [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa ja julkaistava päivityksinä [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa.
+
+## <a name="read-a-resource-loaded-schedule"></a>Resurssin ladatun aikataulun lukeminen
+
+Kun projektia luetaan Project Service Automationista, resurssin kalenteria ei synkronoida työasemaohjelmaan. Jos tehtävien kestoissa, työmäärissä tai lopuissa on eroja, syynä on luultavasti se, että resursseilla ja työpöytäohjelmailla ei ole samaa työtuntimallikalenteria, jota käytetään projektissa.
+
+
+## <a name="data-synchronization"></a>Tietojen synkronoiminen
+
+Seuraavassa taulukossa kuvataan, miten tiedot synkronoidaan Project Service Automationin ja Microsoft Project -työpöytäapuohjelman välillä.
+
+| **Entiteetti** | **Kenttä** | **Microsoft Project Project Service Automationiin** | **Project Service Automation Microsoft Projectiin** |
+| --- | --- | --- | --- |
+| Projektin tehtävä | Eräpäivä | ● | - |
+| Projektin tehtävä | Arvioitu työmäärä | ● | - |
+| Projektin tehtävä | MS Project -asiakastunnus | ● | - |
+| Projektin tehtävä | Ylätason tehtävä | ● | - |
+| Projektin tehtävä | Project | ● | - |
+| Projektin tehtävä | Projektitehtävä | ● | - |
+| Projektin tehtävä | Projektitehtävän nimi | ● | - |
+| Projektin tehtävä | Resursointiyksikkö (vanhentunut versiossa 3.0) | ● | - |
+| Projektin tehtävä | Suunniteltu kesto | ● | - |
+| Projektin tehtävä | Aloituspäivämäärä | ● | - |
+| Projektin tehtävä | WBS-tunnus | ● | - |
+
+| **Entiteetti** | **Kenttä** | **Microsoft Project Project Service Automationiin** | **Project Service Automation Microsoft Projectiin** |
+| --- | --- | --- | --- |
+| Ryhmän jäsen | MS Project -asiakastunnus | ● | - |
+| Ryhmän jäsen | Toimen nimi | ● | - |
+| Ryhmän jäsen | projekti | ● | ● |
+| Ryhmän jäsen | Projektiryhmä | ● | ● |
+| Ryhmän jäsen | Resursointiyksikkö | - | ● |
+| Ryhmän jäsen | Rooli | - | ● |
+| Ryhmän jäsen | Työtunnit | Ei synkronoitu | Ei synkronoitu |
+
+| **Entiteetti** | **Kenttä** | **Microsoft Project Project Service Automationiin** | **Project Service Automation Microsoft Projectiin** |
+| --- | --- | --- | --- |
+| Resurssien delegointi | Päivämäärästä | ● | - |
+| Resurssien delegointi | tuntia | ● | - |
+| Resurssien delegointi | MS Project -asiakastunnus | ● | - |
+| Resurssien delegointi | Suunniteltu työ | ● | - |
+| Resurssien delegointi | Project | ● | - |
+| Resurssien delegointi | Projektiryhmä | ● | - |
+| Resurssien delegointi | Resurssien delegointi | ● | - |
+| Resurssien delegointi | Tehtävä | ● | - |
+| Resurssien delegointi | Päivämäärään | ● | - |
+
+| **Entiteetti** | **Kenttä** | **Microsoft Project Project Service Automationiin** | **Project Service Automation Microsoft Projectiin** |
+| --- | --- | --- | --- |
+| Projektitehtävän riippuvuudet | Projektitehtävän riippuvuus | ● | - |
+| Projektitehtävän riippuvuudet | Linkkityyppi | ● | - |
+| Projektitehtävän riippuvuudet | Edeltäjän tehtävä | ● | - |
+| Projektitehtävän riippuvuudet | Project | ● | - |
+| Projektitehtävän riippuvuudet | Seuraajan tehtävä | ● | - |
 
 ### <a name="see-also"></a>Katso myös  
  [Projektipäällikön opas](../psa/project-manager-guide.md)

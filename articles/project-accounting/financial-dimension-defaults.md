@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: aa6771ba5346fd4133b82c3e670badfa7655299f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131879"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642359"
 ---
 # <a name="financial-dimension-defaults"></a>Taloushallinnon dimension oletusarvot
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Dynamics 365 Project Operations käyttää Dynamics 365 Financen [taloushallinnon dimensioiden](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) kehystä antamaan lisää merkityksellisiä tietoja alakirjanpidon ja kirjanpidon tapahtumista.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dynamics 365 Project Operations käyttää [Taloushallinnon dimensiot](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) kehystä Dynamics 365 Financessa antamaan lisää merkityksellisiä tietoja projektin alitapahtumarekisterin ja yleisen tapahtumarekisterin tapahtumista.
 
 Taloushallinnon oletusdimensiot voidaan määrittää asiakkaassa, projektin rajoituslähteessä, välitavoitteessa, projektin sopimusrivillä tai projektissa.
 

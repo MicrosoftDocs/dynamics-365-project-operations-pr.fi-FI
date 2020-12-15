@@ -3,17 +3,17 @@ title: Kulun merkintä (lite)
 description: Tässä aiheessa on tietoja siitä, miten voit käsitellä kulumerkintöjä lite-ympäristössä.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121079"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590942"
 ---
 # <a name="expense-entry-lite"></a>Kulun merkintä (lite)
 
@@ -21,7 +21,7 @@ _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
 Basic- tai Lite-kulujen hallinta on mahdollisuus tallentaa yksinkertaisia kuluja. Voit kirjata kuluja projektiin, minkä jälkeen projektin hyväksyjä tarkistaa ne ja hyväksyy ne.
 
-Lisätietoja Dynamics 365 Project Operationsin kuluominaisuuksista on ohjeaiheessa [kulujen yleiskuvaus](expense-overview.md).
+Lisätietoja kuluominaisuuksista Dynamics 365 Project Operationsissa on aiheessa [Kulujen yleiskatsaus](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Peruskulun sieppaaminen
 
@@ -36,6 +36,10 @@ Kun olet lopettanut kaikkien kulujen tallentamisen ja olet valmis siirtymään h
 
 1. Siirry kohtaan **Kulut** ja valitse kulu. Voit myös valita kaikki kulut käyttämällä otsikon valintaruutua.
 2. Valitse **Lähetä**. Järjestelmä käsittelee valitut tapahtumat ja luo sitten kulun hyväksyntäpyynnöt.
+
+## <a name="add-an-attachment"></a>Lisää liite
+
+Sinun on ehkä annettava hyväksyjälle lisäasiakirjoja kuluistasi. Voit liittää kuitin kulutapahtuman aikajanaan. Valitse **Muokkaa** ja sitten **Aikajana**-osassa paperiliitinkuvake kuittisi liittämiseksi.
 
 ## <a name="recall-a-basic-expense"></a>Peruskulun peruttaaminen
 

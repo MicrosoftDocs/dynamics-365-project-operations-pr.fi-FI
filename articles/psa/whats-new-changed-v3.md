@@ -18,15 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7c57476b250a8010daff6f609ac4dcdf1ec132cf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119999"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642584"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Uutuudet ja muutokset Project Service Automation -versiossa 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Tässä aiheessa on tietoja Project Service Automation -sovelluksen käyttöliittymän, toiminnallisuuden ja terminologian muutoksista version 2 tai version 1 ja 3 välillä.
 
