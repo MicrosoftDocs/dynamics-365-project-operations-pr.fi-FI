@@ -24,8 +24,6 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Esittelytietojen käyttäminen
           items:
-            - name: Esittelytietojen käyttäminen Finance-pilvipalveluympäristössä
-              href: environment/resource-apply-finance-demo-data.md
             - name: Määritystietojen käyttäminen Common Data Servicessa
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Ympäristöjen käyttöönottaminen
@@ -38,6 +36,10 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Uudet ominaisuudet
       items:
+        - name: Helmikuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: Tammikuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-jan-2021-resource-based.md
         - name: Joulukuu 2020 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: Marraskuu 2020 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Ennakot ja ennakkomaksut
               items:
-                - name: Ennakot ja ennakkomaksuun perustuvat palvelusopimukset – lite
+                - name: Ennakkomaksut ja ennakkomaksuun perustuvat palvelusopimukset
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Ennakkomaksujen aikataulun määrittäminen – lite
+                - name: Ennakkomaksuaikataulun määrittäminen
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Tilapäisen ennakon luominen palvelusopimuksessa – lite
+                - name: Tilapäisen ennakon luominen palvelusopimuksessa
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Hinnoittelu ja kustannuslaskenta
       items:
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: Työrakenteen suunnitteleminen
           items:
+            - name: Työrakenteen luominen
+              href: project-management/create-wbs.md
             - name: Delegointien luominen
               href: project-management/create-assignments.md
         - name: Projektien arviointi
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: Ryhmän jäsenten ylläpitäminen
               href: project-management/maintain-team-members.md
+        - name: Tehtäväruudukossa työskentelyn vianmääritys
+          href: project-management/projectplanningUIFAQ.md
         - name: Yhteistyö
           items:
             - name: Yhteistyön tekeminen Office-ryhmissä
@@ -262,6 +268,8 @@
               href: resource-management/book-project.md
             - name: Ehdotettujen resurssien tarkasteleminen
               href: resource-management/review-proposed-resources.md
+            - name: Varausten muokkaaminen
+              href: resource-management/edit-existing-bookings.md
         - name: Hajautettu resurssivaraus (hybridi)
           items:
             - name: Ryhmän jäsenien lisääminen Ryhmän jäsen -ruudukosta
@@ -326,6 +334,8 @@
                   href: expense/set-up-credit-card-integration.md
                 - name: Kululuokkien määrittäminen
                   href: expense/set-up-expense-categories.md
+            - name: Matkalaskun henkilökohtaisten kulujen käsitteleminen
+              href: expense/personal-expenses-expense-report.md
             - name: Matkalaskujen luominen
               items:
                 - name: Matkalaskun jakelut
@@ -370,22 +380,28 @@
           items:
             - name: Oikaisukirjauskansioiden luominen ja vahvistaminen
               href: actuals/create-confirm-correction-journals.md
-    - name: Proformalaskutus
+    - name: Laskutus
       items:
-        - name: Keskeneräisen projektilaskutuksen hallinta
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: Ei-ylitettävän tilan ja vahvistusten hallinta
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Proformamuotoisen projektilaskun luominen manuaalisesti
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Proformamuotoisen projektilaskun hallinta
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Ennakkomaksun tai ennakon laskuttaminen
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Proformamuotoisen projektilaskun vahvistaminen
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Laskuautomaation määrittäminen
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Laskujen käsittely (yleiskatsaus)
+          href: invoicing/post-project-invoices.md
+        - name: Projektin laskuehdotusten hallinta
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Proformalaskutus
+          items:
+            - name: Keskeneräisen projektilaskutuksen hallinta
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Ei-ylitettävän tilan ja vahvistusten hallinta
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Proformamuotoisen projektilaskun luominen manuaalisesti
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Proformamuotoisen projektilaskun hallinta
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Ennakkomaksun tai ennakon laskuttaminen
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Proformamuotoisen projektilaskun vahvistaminen
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Laskuautomaation määrittäminen
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projektin kirjanpito
       items:
         - name: Taloushallinnon dimension oletusarvot
@@ -404,10 +420,10 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: Konsernin sisäisen laskutuksen määrittäminen
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Konsernin sisäisten asiakas- ja toimittajalaskujen luominen
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: Konsernin sisäisten tapahtumien luominen
               href: project-accounting/create-intercompany-transactions.md
+            - name: Konsernin sisäisten asiakas- ja toimittajalaskujen luominen
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Tuoton tunnistus
       items:
         - name: Tuoton tunnistuksen yleiskatsaus
@@ -418,12 +434,12 @@
               href: project-accounting/period-types.md
             - name: Kustannusmallien määrittäminen
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Myyntituottoarvioiden hallinta
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: Kiinteähintaisen arvioidun myyntituoton projektit
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Kokonaiskustannusmenetelmät
           href: revenue-recognition/cost-complete-methods.md
+        - name: Myyntituottoarvioiden hallinta
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: Lite-käyttöönotto – kauppa proformalaskutukseen
   items:
     - name: Aloittaminen
@@ -440,9 +456,13 @@
           href: environment/security-model.md
     - name: Uudet ominaisuudet
       items:
-        - name: Joulukuun 2020 Lite-käyttöönoton uudet ominaisuudet – kauppa proformalaskutukseen
+        - name: Helmikuun 2021 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: Tammikuun 2021 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: Joulukuun 2020 Lite-käyttöönoton uudet ominaisuudet
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Marraskuun 2020 Lite-käyttöönoton uudet ominaisuudet – kauppa proformalaskutukseen
+        - name: Marraskuun 2020 Lite-käyttöönoton uudet ominaisuudet
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projektin myyntiprosessi
       items:
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: Työrakenteen suunnitteleminen
           items:
+            - name: Työrakenteen luominen
+              href: project-management/create-wbs.md
             - name: Delegointien luominen
               href: project-management/create-assignments.md
         - name: Projektien arviointi
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: Ryhmän jäsenten ylläpitäminen
               href: project-management/maintain-team-members.md
+        - name: Tehtäväruudukossa työskentelyn vianmääritys
+          href: project-management/projectplanningUIFAQ.md
         - name: Yhteistyö
           items:
             - name: Yhteistyön tekeminen Office-ryhmissä
               href: project-management/collaboration-groups.md
+        - name: Kehittäjän huomautukset
+          items:
+            - name: Projektimallien kehittäminen Kopioi projekti -toiminnolla
+              href: project-management/dev-copy-project.md
     - name: Resurssien hallinta
       items:
         - name: Keskeiset käsitteet
@@ -684,6 +712,8 @@
               href: resource-management/book-project.md
             - name: Ehdotettujen resurssien tarkasteleminen
               href: resource-management/review-proposed-resources.md
+            - name: Varausten muokkaaminen
+              href: resource-management/edit-existing-bookings.md
         - name: Hajautettu resurssivaraus (hybridi)
           items:
             - name: Ryhmän jäsenien lisääminen Ryhmän jäsen -ruudukosta
@@ -772,6 +802,10 @@
   items:
     - name: Uudet ominaisuudet
       items:
+        - name: Tammikuun 2021 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: Joulukuun 2020 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
         - name: Marraskuun 2020 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Project Operationsin varastoitavien ja tuotantopohjaisten skenaarioiden käyttöönoton yleiskatsaus
@@ -906,6 +940,14 @@
       items:
         - name: Project Service 3.x -päivitysten julkaisuaikataulu
           href: psa/version-history-ps.md
+        - name: 'Hotfix-korjaukset sisältävän päivitysversion 28.5, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-28-5.md
+        - name: 'Päivitysversion 28, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-28.md
+        - name: 'Hotfix-korjaukset sisältävän päivitysversion 27.5, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-27-5.md
+        - name: 'Päivitysversion 27, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-27.md
         - name: 'Päivitysversion 26, V3 uudet ominaisuudet ja muutokset'
           href: psa/whats-new-ur-26.md
         - name: 'Päivitysversion 25, V3 uudet ominaisuudet ja muutokset'
@@ -936,6 +978,8 @@
           href: psa/whats-new-ur-13.md
         - name: 'Päivitysversion 12, V3 uudet ominaisuudet ja muutokset'
           href: psa/whats-new-ur-12.md
+        - name: Project Service Automation -version 3.x vuoden 2021 1. aallon uudet tai muuttuneet ominaisuudet
+          href: psa/whats-new-2021-wave1.md
         - name: Project Service Automation -version 3.x vuoden 2020 1. aallon uudet tai muuttuneet ominaisuudet
           href: psa/whats-new-v3-2020-wave1.md
         - name: Project Service Automation -version 3 uudet tai muuttuneet ominaisuudet
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: Projektin asetukset
               href: psa/project-settings.md
+            - name: Töiden suunnittelu Microsoft Projectissa Project Service -apuohjelman avulla
+              href: psa/add-in-plan-work-projects.md
         - name: Hinnoittelu- ja kustannusdimensiot
           items:
             - name: Hinnoittelu- ja kustannusdimensioiden aloitussivu
