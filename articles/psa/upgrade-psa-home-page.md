@@ -2,6 +2,7 @@
 title: Päivityksen kotisivu
 description: Tässä aiheessa kerrotaan, mistä löytää tärkeitä tietoja Dynamics 365 Project Service Automationin uusista ja muuttuneista ominaisuuksista, ja uuteen versioon päivittämisen prosessista.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121754"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150079"
 ---
 # <a name="upgrade-home-page"></a>Päivityksen kotisivu
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Kun Project Service Automation valitaan uuden esiintymän valmistelun aikana, 17
 
 ### <a name="existing-instances"></a>Käytössä olevat esiintymät
 
-Aiemmin asiakkaiden, joilla on PSA-version 2.x, esiintymä ja joiden täytyi päivittää versioon 3.x, joka on Unified client interface -perustainen (UCI) versio PSA:sta, täytyi ottaa yhteyttä Microsoft-tukeen ja antaa tiedot esiintymästään, jotta tuki pystyi ottamaan esiintymän käyttöön versioon 3.x päivittämiseksi. 1. maaliskuuta 2020 alkaen asiakkaat, joilla on PSA-version 2.x esiintymä ja joiden täytyy päivittää versioon 3.x, voivat päivittää esiintymänsä suoraan hallintaportaalista ottamatta yhteyttä Microsoft-tukeen.  
+Aiemmin asiakkaiden, joilla on esiintymä PSA:n versiosta 2.x, ja joiden tuli päivittää versioon 3.x, joka on Unified client interface -perustainen (UCI) versio PSA:sta, oli otettava yhteyttä Microsoft-tukeen ja antaa tiedot esiintymästään, jotta tuki voi ottaa käyttöön esiintymän versioon 3.x päivittämiseksi. 1.3.2020 alkaen asiakkaat, joilla on PSA-version 2.x esiintymä ja joiden on päivitettävä versioon 3.x, voivat päivittää esiintymänsä suoraan hallintaportaalista ilman, että heidän tarvitsee ottaa yhteyttä Microsoft-tukeen.  
 
 > [!NOTE]
 > PSA-versio 3.x sisältää merkittäviä muutoksia. Se on luotu Unified Interface -kehykseen, joka auttaa parantamaan käyttökokemusta. Uudistettu sovellus tarjoaa yhdenmukaisen ja yhtenäisen käyttöliittymän, ja se noudattaa joustavia suunnitteluperiaatteita, jotka takaavat optimaalisen katselun missä tahansa näytön koossa tai laitteessa. Sovelluksessa on tehty muitakin muutoksia. Muuttuneisiin alueisiin kuuluvat hinnoittelu, varaukset ja resurssien kohdentaminen, aika, kulut ja hyväksynnät.
@@ -58,7 +61,7 @@ Kun olet tarkistanut aiemmin mainitut aiheet ja olet valmis päivittämään PSA
 
 17. toukokuuta 2019 alkaen kaikissa uusissa ilmentymissä on käytössä UCI oletusasiakasohjelmana. Jotta muutos olisi linjassa tämän muutoksen kanssa, PSA-versio 3.x ja Field Service versio 8.x tarjotaan oletusarvoisesti, koska nämä versiot on suunniteltu käytettäviksi UCI-asiakasohjelman kanssa.
 
-1. maaliskuuta 2020 alkaen Dynamics PSA:n asiakkaat eivät voi enää luoda uusia ympäristöjä PSA:n vanhemmilla versioilla, kuten PSA-versiolla 2.x tai sitä vanhemmilla. Kaikki uudet ympäristöt saavat vain PSA:n version 3.x.
+Dynamics PSA:n asiakkaat eivät enää 1.3.2020 alkaen pysty luomaan uutta ympäristöä PSA:n vanhemmilla versioilla, esimerkiksi PSA:n versiolla 2.x tai vanhemmalla. Kaikki uudet ympäristöt saavat vain PSA:n version 3.x.
 
 > [!NOTE]
 > Saadaksesi parhaan käyttökokemuksen vanhemmista Field Service - ja PSA-sovelluksista, siirry sivulle **Järjestelmäasetukset**, ja valitse kentälle **Käytä vain uutta Unified Interfacea** arvoksi **Ei**, sillä näitä versioita ei ole suunniteltu ladattavaksi oikein UCI:n. Kun olet poistanut UCI:n käytöstä, voit avata ja suorittaa nämä Field Service - ja PSA-versiot käyttämällä vanhaa www-asiakasohjelmaa. 

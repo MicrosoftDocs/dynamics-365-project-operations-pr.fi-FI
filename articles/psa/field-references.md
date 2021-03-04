@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32d0dbc3a69d713dcae8d27e52f2a0c6fc296127
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075454"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148459"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Mukautettujen kenttien lisääminen hinta- ja tapahtumaentiteetteihin 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Tässä aiheessa oletetaan, että olet suorittanut aiheen [Luo mukautettuja kenttiä ja entiteettejä](create-custom-fields-entities.md) vaiheet. Jos et ole suorittanut näitä toimintosarjoja loppuun, palaa niihin ja suorita ne, ja palaa sen jälkeen tähän aiheeseen. 
 
 Tämän aiheen vaiheet näyttävät, miten vaadittavat mukautettujen kenttien viitteet lisätään entiteetteihin ja käyttöliittymän (UI) elementteihin, kuten lomakkeisiin ja näkymiin.
@@ -39,7 +42,7 @@ Kun mukautettu hinnoitteludimensio perustuu asetusjoukkoon, lisää se kenttän�
 2. Valitse vasemman siirtymisruudun Ratkaisunhallinnassa **Entiteetit > Roolin hinta**.
 3. Laajenna entiteetti **Roolin hinta** ja valitse **Kentät**.
 4. Napsauta **Uusi** luodaksesi kentän nimellä **Resurssin työn sijainti** ja valitse kentän tyypiksi **Asetusjoukko**. 
-5. Valitse **Käytä olemassa olevaa asetusjoukkoa** , valitse asetusjoukko **Resurssin työn sijainti** ja napsauta **Tallenna**.
+5. Valitse **Käytä olemassa olevaa asetusjoukkoa**, valitse asetusjoukko **Resurssin työn sijainti** ja napsauta **Tallenna**.
 6. Toista vaiheet 1–5 lisätäksesi tämän kentän entiteettiin **Roolin hinnankorotus**. 
 7. Toista vaiheet 1–5 **Resurssin työtunnit** -asetusjoukon osalta.
 
@@ -48,27 +51,27 @@ Kun mukautettu hinnoitteludimensio perustuu asetusjoukkoon, lisää se kenttän�
 
 > ![Resurssin työn sijainnin lisääminen Roolin hintaan](media/RWL-Field.png)
 
-Projektin myynti- ja arviointivaiheissa arvioita työmäärästä, joka tarvitaan töiden **Paikallinen** ja **Asiakkaan tiloissa** suorittamiseen arvoissa **Tavalliset työtunnit** ja **Ylityötunnit** , käytetään tarjouksen/projektin arvon arviointiin. Kentät **Resurssin työn sijainti** ja **Resurssin työtunnit** lisätään arviointientiteetteihin **Tarjousrivin tiedot** , **Sopimusrivin tiedot** , **Projektitehtävä** , **Projektiryhmän jäsen** ja **Arviorivi**.
+Projektin myynti- ja arviointivaiheissa arvioita työmäärästä, joka tarvitaan töiden **Paikallinen** ja **Asiakkaan tiloissa** suorittamiseen arvoissa **Tavalliset työtunnit** ja **Ylityötunnit**, käytetään tarjouksen/projektin arvon arviointiin. Kentät **Resurssin työn sijainti** ja **Resurssin työtunnit** lisätään arviointientiteetteihin **Tarjousrivin tiedot**, **Sopimusrivin tiedot**, **Projektitehtävä**, **Projektiryhmän jäsen** ja **Arviorivi**.
 
 1. Valitse PSA:ssa **Asetukset** > **Ratkaisut** ja kaksoisnapsauta **\<your organization name> hinnoitteludimensiot**. 
 2. Valitse vasemman siirtymisruudun Ratkaisunhallinnassa **Entiteetit > Tarjousrivin tiedot**.
 3. Laajenna **Tarjousrivin tiedot** -entiteetti ja valitse **Kentät**.
 4. Napsauta **Uusi** luodaksesi kentän nimellä **Resurssin työn sijainti** ja valitse kentän tyypiksi **Asetusjoukko**. 
 5. Valitse **Käytä olemassa olevaa asetusjoukkoa** ja **Resurssin työn sijainti** ja napsauta sitten **Tallenna**.
-6. Toista vaiheet 1–5 lisätäksesi tämän kentän entiteetteihin **Projektin sopimusrivin tiedot** , **Projektitehtävä** , **Projektiryhmän jäsen** ja **Arviorivi**.
+6. Toista vaiheet 1–5 lisätäksesi tämän kentän entiteetteihin **Projektin sopimusrivin tiedot**, **Projektitehtävä**, **Projektiryhmän jäsen** ja **Arviorivi**.
 7. Toista vaiheet 1–6 **Resurssin työtunnit** -asetusjoukon osalta. 
 
 > ![Resurssin työn sijainnin lisääminen Arvioriviin](media/RWL-Default-Value.png)
 
 
-Toimitusta ja laskutusta varten suoritettu työ on hinnoiteltava oikein, jotta projektin todellisissa arvoissa voidaan valita suoritettiinko se arvolla **Paikallinen** vai **Asiakkaan tiloissa** ja arvolla **Tavalliset työtunnit** vai **Ylityötunnit**. Kentät **Resurssin työn sijainti** ja **Resurssin työtunnit** pitäisi lisätä entiteetteihin **Aikamerkintä** , **Todellinen arvo** , **Laskurivin tiedot** ja **Kirjauskansion rivi**.
+Toimitusta ja laskutusta varten suoritettu työ on hinnoiteltava oikein, jotta projektin todellisissa arvoissa voidaan valita suoritettiinko se arvolla **Paikallinen** vai **Asiakkaan tiloissa** ja arvolla **Tavalliset työtunnit** vai **Ylityötunnit**. Kentät **Resurssin työn sijainti** ja **Resurssin työtunnit** pitäisi lisätä entiteetteihin **Aikamerkintä**, **Todellinen arvo**, **Laskurivin tiedot** ja **Kirjauskansion rivi**.
 
 1. Valitse PSA:ssa **Asetukset** > **Ratkaisut** ja kaksoisnapsauta **\<your organization name> hinnoitteludimensiot**.
 2. Valitse vasemman siirtymisruudun Ratkaisunhallinnassa **Entiteetit > Aikamerkintä**.
 3. Laajenna **Tarjousrivin tiedot** -entiteetti ja valitse sitten **Kentät**.
 4. Napsauta **Uusi** luodaksesi kentän nimellä **Resurssin työn sijainti** ja valitse kentän tyypiksi **Asetusjoukko**. 
-5. Valitse **Käytä olemassa olevaa asetusjoukkoa** , valitse asetusjoukko **Resurssin työn sijainti** ja napsauta **Tallenna**.
-6. Toista vaiheet 1–5 lisätäksesi tämän kentän entiteetteihin **Todellinen arvo** , **Laskurivin tiedot** ja **Kirjauskansion rivi**.
+5. Valitse **Käytä olemassa olevaa asetusjoukkoa**, valitse asetusjoukko **Resurssin työn sijainti** ja napsauta **Tallenna**.
+6. Toista vaiheet 1–5 lisätäksesi tämän kentän entiteetteihin **Todellinen arvo**, **Laskurivin tiedot** ja **Kirjauskansion rivi**.
 7. Toista vaiheet 1–6 **Resurssin työtunnit** -asetusjoukon osalta. 
 
 > ![Resurssin työn sijainnin lisääminen Aikamerkintään](media/RWL-time-entry.png)
@@ -101,13 +104,13 @@ Projektin myynti- ja arviointivaiheissa tarjouksen/projektin hinnoittelua varten
 - **Projektiryhmän jäsen**
 - **Arviorivi**
 
-5. Toista vaiheet 1–5 luodaksesi 1:n-suhteita arvosta **Vakionimike** entiteetteihin **Tarjousrivin tiedot** , **Projektin sopimusrivin tiedot** , **Projektitehtävä** , **Projektiryhmän jäsen** ja **Arviorivi**.
+5. Toista vaiheet 1–5 luodaksesi 1:n-suhteita arvosta **Vakionimike** entiteetteihin **Tarjousrivin tiedot**, **Projektin sopimusrivin tiedot**, **Projektitehtävä**, **Projektiryhmän jäsen** ja **Arviorivi**.
 
 > ![Vakionimikkeen lisääminen viitekentäksi Arvioriviin](media/ST-Estimate-Line.png)
 
-Toimitus- ja laskutusvaiheissa kunkin vakionimikkeen suorittama työ on hinnoiteltava oikein projektin todellisissa arvoissa. Tämä tarkoittaa, että tarvitaan 1:N-suhteita arvosta **Vakionimike** entiteetteihin **Aikamerkintä** , **Todellinen arvo** , **Laskurivin tiedot** ja **Kirjauskansion rivi**.
+Toimitus- ja laskutusvaiheissa kunkin vakionimikkeen suorittama työ on hinnoiteltava oikein projektin todellisissa arvoissa. Tämä tarkoittaa, että tarvitaan 1:N-suhteita arvosta **Vakionimike** entiteetteihin **Aikamerkintä**, **Todellinen arvo**, **Laskurivin tiedot** ja **Kirjauskansion rivi**.
 
-6. Toista vaiheet 1–6 luodaksesi 1:N-suhteita arvosta **Vakionimike** entiteetteihin **Aikamerkintä** , **Todellinen arvo** , **Laskurivin tiedot** ja **Kirjauskansion rivi**.
+6. Toista vaiheet 1–6 luodaksesi 1:N-suhteita arvosta **Vakionimike** entiteetteihin **Aikamerkintä**, **Todellinen arvo**, **Laskurivin tiedot** ja **Kirjauskansion rivi**.
 
 > ![Vakionimikkeen lisääminen viitekentäksi Aikamerkintään](media/ST-Mapping.png)
 
@@ -116,8 +119,8 @@ Aikamäärityksen osalta olisi hyödyllistä, jos järjestelmä hakee aikamerkin
 
 1. Valitse vasemman siirtymisruudun Ratkaisunhallinnassa **Entiteetit > Vakionimike**.
 2. Laajenna entiteetti **Vakionimike** ja valitse **1:N-suhteet**.
-3. Kaksoisnapsauta **Varattavissa olevasta resurssista Aikamerkintään**. Napsauta **Suhde** -sivulla **Käytä kenttien yhdistämismäärityksiä**. 
-4. Napsauta **Uusi** luodaksesi uuden kenttien yhdistämismäärityksen **Varattavissa oleva resurssi** -entiteetin **Vakionimike** -kentän ja **Aikamerkintä** -entiteetin **Vakionimike** -viitekentän välille. 
+3. Kaksoisnapsauta **Varattavissa olevasta resurssista Aikamerkintään**. Napsauta **Suhde**-sivulla **Käytä kenttien yhdistämismäärityksiä**. 
+4. Napsauta **Uusi** luodaksesi uuden kenttien yhdistämismäärityksen **Varattavissa oleva resurssi** -entiteetin **Vakionimike**-kentän ja **Aikamerkintä**-entiteetin **Vakionimike**-viitekentän välille. 
 
 > ![Kenttien yhdistämismääritysten luominen sen mahdollistamiseksi, että kentän Vakionimike oletusarvoiseksi yhdistämismääritykseksi otetaan Varattavissa olevasta resurssista Aikamerkintään](media/ST-Mapping2.png)
 
@@ -129,7 +132,7 @@ Tämä täydentää entiteettiperusteisiin mukautettuihin dimensioihin vaadittav
 Kun olet tehnyt kaikki vaadittavat rakennemuutokset, seuraavana vaiheena on tehdä kentät näkyviksi käyttöliittymässä lisäämällä kentät lomakkeisiin ja näkymiin.
 
 1. Avaa lomake tai näkymä. Valitse kenttä oikeanpuoleisessa siirtymisruudussa ja vedä se lomakekaavioon. 
-2. Jos muokkaat näkymää, käytä oikeanpuoleista siirtymäruutua, napsauta **Lisää kenttiä** , valitse **Kenttäluettelo** -valintaikkunassa tarvitsemasi kentät ja napsauta **OK**.
+2. Jos muokkaat näkymää, käytä oikeanpuoleista siirtymäruutua, napsauta **Lisää kenttiä**, valitse **Kenttäluettelo**-valintaikkunassa tarvitsemasi kentät ja napsauta **OK**.
 
 Seuraavassa luettelossa esitetään kattava entiteettiperusteinen luettelo niistä valmiina olevista lomakkeista ja näkymistä, jotka on päivitettävä uusilla kentillä. Jos olet mukauttanut näitä entiteettejä uusilla näkymillä tai lomakkeilla, lisää uudet kentät myös niihin.
 

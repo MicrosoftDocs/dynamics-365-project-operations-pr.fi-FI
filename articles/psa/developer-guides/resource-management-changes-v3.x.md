@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075539"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148639"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Resurssien hallinnan muutokset (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Tämän aiheen osissa on tietoja muutoksista, joita on tehty resurssien hallinnan alueelle Dynamics 365 Project Service Automation versiossa 3. x.
 
 ## <a name="project-estimates"></a>Projektin arviot
 
-Sen sijaan, että perustuisivat **msdyn\_projecttask** -entiteettiin ( **Projektitehtävä** ), projektin arviot perustuvat **msdyn\_resourceassignment** -entiteettiin ( **Resurssin kohdentaminent** ). Resurssien kohdennuksista on tullut "totuuden lähde" tehtävien aikatauluttamista ja hinnoittelua varten.
+Sen sijaan, että perustuisivat **msdyn\_projecttask** -entiteettiin (**Projektitehtävä**), projektin arviot perustuvat **msdyn\_resourceassignment** -entiteettiin (**Resurssin kohdentaminent**). Resurssien kohdennuksista on tullut "totuuden lähde" tehtävien aikatauluttamista ja hinnoittelua varten.
 
 ## <a name="line-tasks"></a>Rivitehtävät
 
@@ -65,7 +67,7 @@ PSA 3.x:ssä kohdentamaton kohdennus on sellainen kohdennus, joka on kohdennettu
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Projekti tehtävä -entiteetin aikataulutuskentät
 
-Kentät **msdyn\_projecttask** -entiteetissä ovat vanhentuneet tai siirretty **msdyn\_resourceassignment** -entiteettiin, tai niihin viitataan nyt **msdyn\_projectteam** -entiteetissä ( **Projektiryhmän jäsen** ).
+Kentät **msdyn\_projecttask**-entiteetissä ovat vanhentuneet tai siirretty **msdyn\_resourceassignment**-entiteettiin, tai niihin viitataan nyt **msdyn\_projectteam**-entiteetissä (**Projektiryhmän jäsen**).
 
 | Vanhentunut kenttä kohteessa msdyn\_projecttask (Projektitehtävä) | Uusi kenttä kohteessa msdyn\_resourceassignment (Resurssin kohdennus) | Kommentti |
 |---|---|---|
@@ -77,7 +79,7 @@ Kentät **msdyn\_projecttask** -entiteetissä ovat vanhentuneet tai siirretty **
 
 ## <a name="schedule-contour"></a>Aikataulun muoto
 
-Aikataulun muoto on tallennettu **Suunniteltu työ** -kenttään ( **msdyn\_plannedwork** ) jokaisessa **Resurssin kohdennus** -entiteetissä ( **msdyn\_resourceassignment** ).
+Aikataulun muoto on tallennettu **Suunniteltu työ** -kenttään (**msdyn\_plannedwork**) jokaisessa **Resurssin kohdennus** -entiteetissä (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Rakenne
 
@@ -139,7 +141,7 @@ Tässä esimerkissä tehtävälle on määritetty kaksi resurssia, ja se ajoitet
 
 ## <a name="pricing-dimensions"></a>Hinnoitteludimensiot
 
-PSA 3.x:ssa resurssikohtaiset hinnoitteludimensiokentät (kuten **Rooli** ja **Organisaatioyksikkö** ) on poistettu **msdyn\_projecttask** -entiteetistä. Nämä kentät ovat nyt saatavilla vastaavassa projektiryhmän jäsenessä ( **msdyn\_projectteam** ) resurssikohdennuksessa ( **msdyn\_resourceassignment** ), kun projektin arviot on luotu. Uusi kenttä, **msdyn\_organizationalunit** , on lisätty **msdyn\_projectteam** -entiteettiin.
+PSA 3.x:ssa resurssikohtaiset hinnoitteludimensiokentät (kuten **Rooli** ja **Organisaatioyksikkö**) on poistettu **msdyn\_projecttask**-entiteetistä. Nämä kentät ovat nyt saatavilla vastaavassa projektiryhmän jäsenessä (**msdyn\_projectteam**) resurssikohdennuksessa (**msdyn\_resourceassignment**), kun projektin arviot on luotu. Uusi kenttä, **msdyn\_organizationalunit**, on lisätty **msdyn\_projectteam**-entiteettiin.
 
 | Vanhentunut kenttä kohteessa msdyn\_projecttask (Projektitehtävä) | Kenttä kohteesta msdyn\_projectteam (Projektiryhmän jäsen), jota käytetään sen tilalla |
 |---|---|
@@ -148,19 +150,19 @@ PSA 3.x:ssa resurssikohtaiset hinnoitteludimensiokentät (kuten **Rooli** ja **O
 
 ## <a name="contours"></a>Muodot
 
-Hinnoittelun ja arvioiden muotokentät ovat vanhentuneet **msdyn\_projecttask** -entiteetissä. Ne on siirretty **msdyn\_resourceassignment** -entiteettiin.
+Hinnoittelun ja arvioiden muotokentät ovat vanhentuneet **msdyn\_projecttask**-entiteetissä. Ne on siirretty **msdyn\_resourceassignment**-entiteettiin.
 
 | Vanhentunut kenttä kohteessa msdyn\_projecttask (Projektitehtävä) | Uusi kenttä kohteessa msdyn\_resourceassignment (Resurssin kohdennus) |
 |---|---|
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Seuraavat kentät on lisätty **msdyn\_resourceassignment** -entiteettiin:
+Seuraavat kentät on lisätty **msdyn\_resourceassignment**-entiteettiin:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Seuraavat suunniteltujen, toteutuneiden ja jäljellä olevien kustannusten ja myynnin kentät ovat muuttumattomina **msdyn\_projecttask** -entiteetissä:
+Seuraavat suunniteltujen, toteutuneiden ja jäljellä olevien kustannusten ja myynnin kentät ovat muuttumattomina **msdyn\_projecttask**-entiteetissä:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
