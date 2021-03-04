@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075447"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144994"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Varattavissa olevan resurssin käyttäminen hinnoitteludimensiona
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Tässä aiheessa on tietoja varattavissa olevan resurssin käyttämisestä hinnoitteludimensiona. Ennen kuin aloitat, jos et ole vielä luonut hinnoitteludimensioratkaisua, sinun on luotava uusi. Jos sinulla on jo hinnoitteludimensioratkaisu, voit tehdä siihen muutoksia. Jos et ole luonut organisaatiolle uutta hinnoitteludimensioratkaisua, suorita toimintosarjat aiheessa [Luo mukautettuja kenttiä ja entiteettejä](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Varattavissa olevan resurssin lisääminen lomakkeisiin ja näkymiin
@@ -48,18 +51,18 @@ Avaa hinnoitteludimensioratkaisun Ratkaisunhallinta ja napsauta **Julkaise kaikk
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>Varattavissa olevan resurssin määritys hinnoitteludimensiona
 
-1. Siirry verkkokäyttöliittymässä kohtaan **Project Service** > **Asetukset** > **Parametrit**. Huomaa **Parametrit** -sivun **Summaperusteiset hinnoitteludimensiot** -välilehdellä, että välilehden ruudukko näyttää Hinnoitteludimensiot-entiteetin tietueet. 
+1. Siirry verkkokäyttöliittymässä kohtaan **Project Service** > **Asetukset** > **Parametrit**. Huomaa **Parametrit**-sivun **Summaperusteiset hinnoitteludimensiot** -välilehdellä, että välilehden ruudukko näyttää Hinnoitteludimensiot-entiteetin tietueet. 
 2. Lisää **varattavissa oleva resurssi** tähän hinnoitteludimensioiden listaan muodossa **msdyn_bookableresource**. 
 3. Määritä yhteys, jossa varattavissa oleva resurssi toimii hinnoitteludimensiona, ja määritä arvot **Sovelletaan kustannuksiin** ja **Sovelletaan myyntiin**.
-4. Valitse **Dimensiotyyppi** -kentässä **Summaperusteinen**. 
+4. Valitse **Dimensiotyyppi**-kentässä **Summaperusteinen**. 
 5. Valitse varattavissa olevan resurssin kustannus- ja myyntiprioriteetti. Yleensä hinnoitteludimensioksi lisätyllä varattavissa olevalla resurssilla on korkein prioriteetti, joten prioriteetin määrittäminen arvoksi **1** (tai **0** riippuen prioriteetin laskemistavasta) varmistaa tämän toimintatavan.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Hinnoitteludimension kenttien nimien määritys
 
 Kun **Roolin hinta** -taulukossa olevan hinnoitteludimension kentän nimi eroaa sen kentän nimestä jossakin muussa entiteetissä, jossa oletushintojen määrityksen on toimittava, hinnoitteludimension tietue on päivitettävä ottamaan huomioon tämä ero nimissä.    
-Varattavissa olevan resurssin **Projektiryhmän jäsenet** -entiteetin kentän nimi ( **msdyn_bookableresourceid** ) eroaa sen nimestä **Roolin hinta** -entiteetissä ( **msdyn_bookableresource** ). **msydn_bookableresource** -kentän hinnoitteludimensiotietue on päivitettävä ottamaan tämä huomioon. 
-1. Tämä tehdään kaksoisnapsauttamalla riviä **Pricing Dimensions** -ruudukossa, jotta **msdyn_bookableresource** -kentän dimensiosivu aukeaa.
-2. Napsauta **Liittyvät** -välilehdellä **Hinnoitteludimension kenttien nimet**.
+Varattavissa olevan resurssin **Projektiryhmän jäsenet** -entiteetin kentän nimi (**msdyn_bookableresourceid**) eroaa sen nimestä **Roolin hinta** -entiteetissä (**msdyn_bookableresource**). **msydn_bookableresource**-kentän hinnoitteludimensiotietue on päivitettävä ottamaan tämä huomioon. 
+1. Tämä tehdään kaksoisnapsauttamalla riviä **Pricing Dimensions**-ruudukossa, jotta **msdyn_bookableresource**-kentän dimensiosivu aukeaa.
+2. Napsauta **Liittyvät**-välilehdellä **Hinnoitteludimension kenttien nimet**.
 
  ![Hinnoitteludimension kenttien nimet](media/PD-fieldname.png)
 
@@ -68,7 +71,7 @@ Varattavissa olevan resurssin **Projektiryhmän jäsenet** -entiteetin kentän n
  ![Uusien hinnoitteludimension kentän nimien lisääminen](media/Add-NewPD-fieldname.png)
 
 
-Näkyviin tulee **msdyn_bookableresource** -kentän **Uusi hinnoitteludimension kentän nimi** -sivu 
+Näkyviin tulee **msdyn_bookableresource**-kentän **Uusi hinnoitteludimension kentän nimi** -sivu 
 
 5. Lisää **msdyn_projectteam** kenttään **Entiteetin looginen nimi** ja **msdyn_bookableresourceid** kenttään **Kentän nimi**. Tallenna tietue.
 

@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075417"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144859"
 ---
 # <a name="create-custom-fields-and-entities"></a>Mukautettujen kenttien ja entiteettien luominen 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Toimi seuraavasti aina, kun haluat luoda mukautetun asetusjoukon tai entiteetin Power Apps-ympäristössä.  
 Tämän aiheen toimintojoukot on tarkoitus suorittaa Project Service Automationin (PSA) verkkoliittymän avulla.
@@ -41,7 +43,7 @@ Hinnoitteludimensio voi olla asetusjoukko tai entiteetti. Molemmat on luotava hi
 
 1. Valitse PSA:ssa **Asetukset** > **Ratkaisut** ja kaksoisnapsauta **\<your organization name> hinnoitteludimensiot**.
 2. Valitse vasemman siirtymisruudun Ratkaisunhallinnassa **Entiteetit**.
-3. Napsauta **Uusi** , jos haluat luoda uuden entiteetin nimellä **Vakio-otsikko**. Syötä muut tarvittavat tiedot ja napsauta **Tallenna**.
+3. Napsauta **Uusi**, jos haluat luoda uuden entiteetin nimellä **Vakio-otsikko**. Syötä muut tarvittavat tiedot ja napsauta **Tallenna**.
 
 > ![Vakio-otsikko-entiteetin määritys](media/Standard-Title-entity-definition.png)
 
@@ -63,8 +65,8 @@ Voit luoda kaksi asetusjoukkoperusteista dimensiota. Käytä asetusjoukkoa **Res
 
 Voit luoda tietoja entiteettiperusteisille dimensioille manuaalisesti tai käyttämällä Microsoft Excelin tuontia tai palvelukutsuja. Luo tämän toimintosarjan vaiheiden avulla kaksi vakionimekettä eli **Järjestelmäinsinööri** ja **Vanhempi järjestelmäinsinööri** entiteettiperusteisen dimension **Vakionimike** perusteella. Jos haluamasi tietomäärä on vähäinen, kuten seuraavassa esimerkissä, voit käyttää vakiolomaketta.
 
-1. Napsauta PSA:ssa **Erikoishaku**. Valitse entiteetti **Vakionimike** ja napsauta sitten **Tulokset**. Näkyviin tulevat kaikki **Vakionimike** -entiteetin rivit.
-2. Valitse **Uusi**. Syötä **Nimi** -kenttään "Järjestelmäinsinööri" ja napsauta **Tallenna**.
+1. Napsauta PSA:ssa **Erikoishaku**. Valitse entiteetti **Vakionimike** ja napsauta sitten **Tulokset**. Näkyviin tulevat kaikki **Vakionimike**-entiteetin rivit.
+2. Valitse **Uusi**. Syötä **Nimi**-kenttään "Järjestelmäinsinööri" ja napsauta **Tallenna**.
 3. Sulje lomake. 
 4. Luo toinen vakionimike Vanhemmalle järjestelmäinsinöörille toistamalla vaiheet 1–3.
 

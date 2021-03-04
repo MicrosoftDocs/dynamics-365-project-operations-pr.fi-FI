@@ -3,6 +3,7 @@ title: Project Finder Mobile -sovelluksen ominaisuuksien käyttöönotto
 description: Project Finder Mobile -sovelluksen ominaisuuksien käyttöönotto Project Servicessä
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132959"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144544"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Ota käyttöön Project Finder Mobile -sovelluksen ominaisuudet (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Resurssit voivat käyttää Project Finder Mobile -sovellusta puhelimessa [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -palvelun kanssa ja etsiä uusia käsiteltäviä projekteja sekä päivittää osaamisalueitaan.  
   
  Tämä sovellus on saatavilla [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)]-, [!INCLUDE[tn_android](../includes/tn-android.md)]- ja [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] -puhelimille.  
-  
- Joudut määrittämään muutamia parametreja organisaatioyksiköllesi, jotta käyttäjät voivat tarkastella projektin resurssivaatimuksia ja päivittää taitojaan.  
+    
+ Asetukset on valittava organisaatioyksikön parametriasetuksissa, jotta käyttäjät voivat tarkastella projektin resurssivaatimuksia ja päivittää taitojaan.
   
 > [!NOTE]
 >  Project Finder Mobile -sovellus toimii vain [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] -ympäristössä (ilman paikallisia asennuksia).  
@@ -57,10 +60,10 @@ Resurssit voivat käyttää Project Finder Mobile -sovellusta puhelimessa [!INCL
   
 |Vastaanottaja|Tapahtuma|  
 |---------------|-----------|  
-|Projektipäällikkö|- Kun resurssi rekisteröityy projektiin Project Finder Mobile -sovelluksella.|  
-|Resurssi|- Kun resurssin rekisteröimä projektityö on jo täytetty toisella resurssilla.<br />- Kun heidän taitojensa hyväksymispyyntö on hyväksytty tai hylätty.<br />- Kun heidän projektinsa rekisteröitymispyyntö on hyväksytty tai hylätty.|  
+|Projektipäällikkö|- Resurssi rekisteröidään projektiin Project Finder Mobile -sovelluksella.|  
+|Resurssi|- Resurssin rekisteröimä projektityö on jo täytetty toisella resurssilla.<br />- Taitojen hyväksymispyyntö on hyväksytty tai hylätty.<br />- Projektin rekisteröitymispyyntö on hyväksytty tai hylätty.|  
   
-## <a name="privacy-notice"></a>Tietosuojatiedot  
+## <a name="privacy-notice"></a>Tietosuojailmoitus  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
   
 ### <a name="see-also"></a>Katso myös  

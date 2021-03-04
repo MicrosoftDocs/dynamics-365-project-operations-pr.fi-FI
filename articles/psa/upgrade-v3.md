@@ -2,6 +2,7 @@
 title: Päivitykseen liittyviä huomioita - Microsoft Dynamics 365 Project Service Automation -versiosta 2.x tai 1.x versioon 3
 description: Tässä aiheessa on tietoja asioista, jotka on otettava huomioon päivitettäessä Project Service Automation -versiosta 2.x tai 1.x versioon 3.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,20 +18,23 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121709"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144154"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Päivitykseen liittyviä huomioita - PSA:n versio 2.x tai 1.x versioon 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation ja Field Service
-Sekä Dynamics 365 Project Service Automation että Dynamics 365 Field Service käyttävät Universal Resourcing Scheduling (URS) -ratkaisua resurssien aikatauluttamiseen. Jos ilmentymässäsi on sekä Project Service Automation että Field Service, sinun kannattaa suunnitella molempien ratkaisujen päivittämistä uusimpiin versioihin (Project Service Automation -versioon 3.x ja Field Service -versioon 8.x). Project Service Automationin tai Field Servicen päivittäminen asentaa uusimman URS-version, mikä tarkoittaa, että epäyhtenäinen toiminta on mahdollista, jos saman esiintymän Project Service Automation- ja Field Service -ratkaisuja ei päivitetä uusimpaan versioon.
+Sekä Dynamics 365 Project Service Automation että Dynamics 365 Field Service käyttävät Universal Resourcing Scheduling (URS) -ratkaisua resurssien aikatauluttamiseen. Jos esiintymässäsi on Project Service Automation ja Field Service, kumpikin ratkaisu on päivitettävä uusimpaan versioon. Project Service Automationin uusin versio on 3.x. Field Servicen uusin versio on 8.x. Project Service Automationin tai Field Servicen päivittäminen asentaa URS:n uusimman version. Jos saman esiintymän Project Service Automation- ja Field Service -ratkaisuja ei päivitetä uusimpaan versioon, toiminta saattaa olla epäyhtenäistä.
 
-## <a name="resource-assignments"></a>Resurssien kohdennukset
+## <a name="resource-assignments"></a>Resurssimääritykset
 Project Service Automation -versiossa 2 ja versiossa 1 tehtävien kohdennukset tallennettiin alitehtävinä (kutsutaan myös rivitehtäviksi) **Tehtäväentiteetissä**, ja ne liittyivät epäsuorasti **Resurssien kohdentaminen** -entiteettiin. Rivitehtävä näkyi työrakenteen (WBS) kohdennuksen ponnahdusikkunassa.
 
 ![Työrakenteen rivitehtävät Project Service Automation -versiossa 2 ja 1](media/upgrade-line-task-01.png)
@@ -40,9 +44,9 @@ Project Service Automation -versiossa 3 sen pohjana oleva rakenne varattavien re
 Nämä muutokset vaikuttavat sellaisten aiemmin luotujen projektien päivittämiseen, joilla on resurssien kohdennuksia projektiryhmän nimetyille varattaville resursseille ja yleisille resursseille. Tämä aihe sisältää seikkoja, jotka sinun on otettava huomioon projekteissasi, kun päivität versioon 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Tehtävät kohdennettuina nimetyille resursseille
-Käyttämällä pohjana olevaa tehtäväentiteettiä, tehtävät versiossa 2 ja versiossa 1 sallivat ryhmän jäsenten ottaa muun kuin oletuksena määritetyn roolinsa. Esimerkiksi Karita Repo, joka on oletusarvoisesti kohdennettu ohjelmapäällikön rooliin, voitiin kohdentaa tehtävään, jonka rooli oli Kehittäjä. Versiossa 3 nimetyn ryhmän jäsenen rooli on aina oletus, joten mikä tahansa tehtävä, johon Karita Repo on delegoitu, käyttää hänen ohjelmapäällikön oletusrooliaan.
+Käyttämällä pohjana olevaa tehtäväentiteettiä, tehtävät versiossa 2 ja versiossa 1 sallivat ryhmän jäsenten ottaa muun kuin oletuksena määritetyn roolinsa. Esimerkiksi Karita Repo, joka on oletusarvoisesti kohdennettu ohjelmapäällikön rooliin, voitiin kohdentaa tehtävään, jonka rooli oli Kehittäjä. Versiossa 3 nimetyn ryhmän jäsenen rooli on aina oletus, joten mikä tahansa tehtävä, johon Karita Repo on delegoitu, käyttää Karitan ohjelmapäällikön oletusroolia.
 
-Jos olet määrittänyt resurssin tehtävän oletusroolin ulkopuolelle versiossa 2 ja versiossa 1, ohjelman päivityksen yhteydessä, nimetylle resurssille kohdennetaan oletusrooli kaikille tehtäväkohdennuksille, riippumatta roolin kohdennuksesta versiossa2. Tämän tuloksena lasketuissa arvioissa on eroja version 2 tai version 1 ja version 3 välillä, koska arviot lasketaan resurssin roolin eikä rivitehtävän kohdennuksen perusteella. Esimerkiksi versiossa 2 kaksi tehtävää on kohdennettu Aurora Harilalle. Rooli rivitehtävälle tehtävässä 1 on Kehittäjä ja tehtävässä 2 ohjelmapäällikkö. Aurora Harilan oletusrooli on ohjelmapäällikkö.
+Jos olet määrittänyt resurssin tehtävän oletusroolin ulkopuolelle versiossa 2 ja versiossa 1, ohjelman päivityksen yhteydessä, nimetylle resurssille kohdennetaan oletusrooli kaikille tehtäväkohdennuksille, riippumatta roolin kohdennuksesta versiossa2. Tämän tehtävän tuloksena lasketuissa arvioissa on eroja version 2 tai version 1 ja version 3 välillä, koska arviot lasketaan resurssin roolin eikä rivitehtävän kohdennuksen perusteella. Esimerkiksi versiossa 2 kaksi tehtävää on kohdennettu Aurora Harilalle. Rooli rivitehtävälle tehtävässä 1 on Kehittäjä ja tehtävässä 2 ohjelmapäällikkö. Aurora Harilan oletusrooli on ohjelmapäällikkö.
 
 ![Useita rooleja yhdellä resurssilla](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Kun päivität versioon 3, rivitehtävät korvautuvat resurssikohdennuksilla var
 
 ![Resurssien kohdennukset](media/resource-assignment-v2-05.png)
 
-Koska arviot perustuvat resurssin oletusrooliin, myynti- ja kustannusarviot voivat muuttua. Huomaa, että seuraavassa grafiikassa ei enää näy **Kehittäjän** roolia, koska rooliksi on nyt otettu varattavan resurssin oletusrooli.
+Koska arviot perustuvat resurssin oletusrooliin, myynti- ja kustannusarviot voivat muuttua. Seuraavassa grafiikassa ei enää näy **Kehittäjän** roolia, koska rooliksi on nyt otettu varattavan resurssin oletusrooli.
 
 ![Oletusroolien kustannusarviot](media/resource-assignment-cost-estimate-06.png)
 ![Oletusroolien myyntiarviot](media/resource-assignment-sales-estimate-07.png)
 
-Kun päivitys on valmis, voit muokata ryhmän jäsenen roolin joksikin muuksi kuin oletusarvoksi. Jos kuitenkin muutat ryhmän jäsenen roolia, se muuttuu kaikissa hänelle kohdennetuissa tehtävissä, koska ryhmän jäsenille ei enää sallita useita rooleja versiossa 3.
+Kun päivitys on valmis, voit muokata ryhmän jäsenen roolin joksikin muuksi kuin oletusarvoksi. Jos kuitenkin muutat ryhmän jäsenen roolia, se muuttuu kaikissa hänelle kohdennetuissa tehtävissä, koska ryhmän jäsenille ei sallita useita rooleja versiossa 3.
 
 ![Resurssiroolin päivittäminen](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ Voit tarkastella organisaatioyksikköä arviot-näkymässä.
  
 Kun päivitys on valmis, se rivitehtävän organisaatioyksikkö, joka vastaa yleistä ryhmän jäsentä, lisätään yleiseen ryhmän jäseneen, ja rivitehtävä poistetaan. Tämän vuoksi on suositeltavaa, että ennen päivittämistä luot tai luot ryhmän uudelleen jokaiselle projektille, joka sisältää yleisiä resursseja.
 
-Jos tehtävä on kohdennettu roolille, jonka organisaatioyksikkö on eri kuin sopimusprojektin organisaatioyksikkö, eikä ryhmää ole luotu, päivitys luo roolille yleisen ryhmän jäsenen, mutta käyttää projektin sopimusyksikköä ryhmän jäsenen organisaatioyksikkönä. Viitaten esimerkkiin Project Z, tämä tarkoittaa sitä, että sopimusorganisaatioyksikkö Contoso US ja toteutusvaiheen projektisuunnitelman testitehtävät on kohdennettu roolille tekninen konsultti organisaatioyksiköllä Contoso India. Integrointitestaustehtävä, joka suoritetaan toteutusvaiheen jälkeen, on kohdennettu roolille tekninen konsultti. Organisaatioyksikkö on Contoso US, eikä ryhmää ole luotu. Päivitys luo yhden yleisen ryhmän jäsenen, teknisen konsultin, jolle on määritetty tunnit kaikista kolmesta tehtävästä, sekä Contoso US -organisaatioyksikön, projektin sopimusorganisaatioyksikön.   
+Jos tehtävä on kohdennettu roolille, jonka organisaatioyksikkö on eri kuin sopimusprojektin organisaatioyksikkö, eikä ryhmää ole luotu, päivitys luo roolille yleisen ryhmän jäsenen, mutta käyttää projektin sopimusyksikköä ryhmän jäsenen organisaatioyksikkönä. Viitaten esimerkkiin Project Z, sopimusorganisaatioyksikkö Contoso US ja toteutusvaiheen projektisuunnitelman testitehtävät on kohdennettu roolille tekninen konsultti organisaatioyksiköllä Contoso India. Integrointitestaustehtävä, joka suoritetaan toteutusvaiheen jälkeen, on kohdennettu roolille tekninen konsultti. Organisaatioyksikkö on Contoso US, eikä ryhmää ole luotu. Päivitys luo yhden yleisen ryhmän jäsenen, teknisen konsultin, jolle on määritetty tunnit kaikista kolmesta tehtävästä, sekä Contoso US -organisaatioyksikön, projektin sopimusorganisaatioyksikön.   
  
 Oletusarvon muuttaminen eri resurssoiville organisaatioyksiköille luomattomille ryhmän jäsenille on se syy, miksi suosittelemme, että luot tai luot uudelleen ryhmän jokaiselle projektille, joka sisältää yleisiä resursseja ennen kuin päivität, jotta organisaatioyksikköjen kohdennuksia ei menetetä.
 

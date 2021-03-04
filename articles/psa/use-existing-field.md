@@ -17,15 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 415e346f88e60cb064f3327bfb35e21bd1c89014
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8bc3a1df7669dac43b45d781448ed5c795a65be4
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075426"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144149"
 ---
 # <a name="use-an-existing-field-in-project-service-as-a-pricing-dimension"></a>Käytä aiemmin luotua kenttää Project Servicessa hinnoitteludimensiona
 
-Project Service Automation (PSA) sisältää monta kenttää **Nykyarvot** -entiteetissä, joita voidaan käyttää hinnoitteludimensioina resurssipohjaisessa hinnoittelussa projektiorganisaatioissa. Esimerkiksi yksi yhteinen kenttä on **Varattavissa oleva resurssi**. Pienemmät yritykset, joissa on alle 20-30 laskutettavaa resurssia, voivat huomata, että laskutus- ja kustannushintojen määrittely erikseen kullekin resurssille on yksinkertaisempaa. Koska laskutettava työvoima kuitenkin kasvaa, se voi muuttua epärealistiseksi ylläpitää, kun resurssien kustannukset ja laskutushinnat alkavat vaihdella, kun resursseja ylennetään, he kerryttävät lisää kokemusta, tai saavat uusia taitoja. Koska tämä lähestymi tapa toimii edelleen tietyn kokoisia yrityksiä varten, katso aihetta [Käytä varattavaa resurssia hinnoitteludimensiona](bookable-resource-pricing-dimension.md) ymmärtääksesi, kuinka olemassa olevaa Project Service -kenttää voidaan käyttää hinnoitteludimensiona.
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+Project Service Automation (PSA) sisältää monta kenttää **Nykyarvot**-entiteetissä, joita voidaan käyttää hinnoitteludimensioina resurssipohjaisessa hinnoittelussa projektiorganisaatioissa. Esimerkiksi yksi yhteinen kenttä on **Varattavissa oleva resurssi**. Pienemmät yritykset, joissa on alle 20-30 laskutettavaa resurssia, voivat huomata, että laskutus- ja kustannushintojen määrittely erikseen kullekin resurssille on yksinkertaisempaa. Koska laskutettava työvoima kuitenkin kasvaa, tietyt hinnat voivat muuttua epärealistisiksi ylläpitää, kun resurssien kustannukset ja laskutushinnat alkavat vaihdella, kun resursseja ylennetään, he kerryttävät lisää kokemusta, tai saavat uusia taitoja. Koska tämä lähestymistapa toimii edelleen tietyn kokoisia yrityksiä varten, katso [Käytä varattavaa resurssia hinnoitteludimensiona](bookable-resource-pricing-dimension.md) ymmärtääksesi, kuinka olemassa olevaa Project Service -kenttää voidaan käyttää hinnoitteludimensiona.
 
 Toinen esimerkki on tapahtumaluokka. Asiakkaat ja toteuttajat ovat käyttäneet PSA:N tapahtumaluokkaa työn luokittelemiseksi ja hinnan sekä kustannusten määrittelyä varten työn luokan perusteella. Lisätietoja on aiheessa [Tapahtumaluokan käyttäminen hinnoitteludimensiona](transaction-category-pricing-dimension.md).

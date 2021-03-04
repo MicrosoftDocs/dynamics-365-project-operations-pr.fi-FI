@@ -17,20 +17,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075357"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144635"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Mukautettujen ratkaisujen luominen hinnoitteludimensioille
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > Kaikkien mukautettujen hinnoitteludimension muutosten on oltava erillisessä ratkaisussa. Tämä tärkeä paras käytäntö varmistaa, että muutoksia voidaan myöhemmin päivittää tai poistaa tarpeen mukaan, auttaa työn uudelleenkäytössä ja helpottaa näiden muutosten siirtämistä toiseen esiintymään. Kun olet tehnyt kaikki tarvittavat muutokset, vie tämä ratkaisu muodossa **Hallittu ratkaisu** ja tuo se muihin esiintymiin, jotta voit käyttää hinnoittelumäärityksiäsi uudelleen.
 
 1. Valitse **Asetukset** > **Ratkaisut** ja valitse sitten **Uusi**. 
-2. Anna ratkaisulle nimeksi **organisaation \<your organization name> hinnoitteludimensiot** , anna muut tarvittavat tiedot ja valitse **Tallenna**.
+2. Anna ratkaisulle nimeksi **organisaation \<your organization name> hinnoitteludimensiot**, anna muut tarvittavat tiedot ja valitse **Tallenna**.
 
 > ![Mukautetun ratkaisun luominen hinnoitteludimensioille](media/Creation-of-custom-pricing-dimension-solution.PNG)
   

@@ -18,14 +18,16 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 6d6c03cc74d47ca3ae7c2bd7d0aa0720bb2f3c01
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075524"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144949"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Hyväksyttyjen aika- ja kulumerkintöjen luomien todellisten arvojen joukkokorjaukset
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Silloin tällöin aika- tai kulumerkintä saatetaan syöttää virheellisesti. Esimerkiksi konsultti voi valita väärän päivämäärän luodessaan aikamerkintää tai sekoittaa numerot keskenään syöttäessään kulumerkintää. Jos konsultti ei voi tehdä muutoksia lähetettyihin merkintöihin, järjestelmänvalvoja voi korjata projektin merkinnän suoraan.
 
@@ -35,13 +37,13 @@ Tässä aiheessa kuvattujen toimien suorittaminen edellyttää järjestelmänval
 
 Noudata seuraavia ohjeita korjataksesi projektin yksittäisen aikamerkinnän tai useita aikamerkintöjä.
 
-1. Valitse **Myynti** -alueelta **Tapahtumat** ja valitse sitten **Hyväksytty aika**. 
+1. Valitse **Myynti**-alueelta **Tapahtumat** ja valitse sitten **Hyväksytty aika**. 
 
 2. Etsi ja valitse **Hyväksytty aika** -luettelosta yksi tai useampi korjattava aikamerkintä. Voit käyttää suodinta löytääksesi asiaankuuluvat merkinnät. Voit suodattaa merkinnät esimerkiksi projektin tunnuksen mukaan ja valita sitten kaikki hyväksytyt aikamerkinnät, joilla on kyseinen projektitunnus.
 
 3. Valitse **Viennin oikaisu**. Uusi oikaisukirjauskansio luodaan automaattisesti tyypillä **Ajan korjaus**. Valitsemasi merkinnät lisätään kirjauskansioon. 
 
-4. Syötä oikaisukirjauskansiolle kuvaus **Uusi kirjauskansio** -sivun **Kuvaus** -kenttään ja valitse sitten **Aikamerkinnän korjaukset** -välilehti.  
+4. Syötä oikaisukirjauskansiolle kuvaus **Uusi kirjauskansio** -sivun **Kuvaus**-kenttään ja valitse sitten **Aikamerkinnän korjaukset** -välilehti.  
 5. Päivitä kentät oikeilla tiedoilla tarvittaessa **Aikamerkintöjen uudet arvot** -osiossa. Voit esimerkiksi muuttaa delegoitua projektia tai varattavissa olevaa resurssia.
 
 6. Valitse **Esikatselu**. Valitse valintaikkunasta **OK**. **Kirjauskansion rivit** -välilehdessä näet luettelon alkuperäisistä todellisista arvoista, jotka liittyvät valittuihin palautettuihin aikamerkintöihin, sekä vastaavat luodut korjatut rivit. Jos sinun tarvitsee tehdä lisää korjauksia, toista vaiheet 5 ja 6. 
@@ -51,9 +53,9 @@ Noudata seuraavia ohjeita korjataksesi projektin yksittäisen aikamerkinnän tai
 
 7. Jos korjaukset näkyvät odotetulla tavalla, valitse **Vahvista**. Valitse valintaikkunasta **OK**.
 
-8. Palaa **Myynti** -alueelle, valitse **Projektit** ja avaa projekti, jonka aikamerkinnät päivitit juuri. 
+8. Palaa **Myynti**-alueelle, valitse **Projektit** ja avaa projekti, jonka aikamerkinnät päivitit juuri. 
 
-9. Tarkasta tekemäsi muutokset **Projektit** -sivun **Todelliset arvot** -välilehdestä. 
+9. Tarkasta tekemäsi muutokset **Projektit**-sivun **Todelliset arvot** -välilehdestä. 
 
 > [!NOTE]
 > Jos **Todelliset arvot** -välilehti ei ole näkyvissä, valitse **Liittyvät** > **Todelliset arvot**.  
@@ -68,11 +70,11 @@ Esimerkiksi seuraavassa kuva on kaksi nimikettä, joiden määrä on 8,00 ja joi
 
 Noudata seuraavia ohjeita korjataksesi yhden tai useamman kulumerkinnän. 
 
-1. Valitse **Myynti** -alueen vasemmanpuoleisen siirtymisruudun **Tapahtumat** -osiosta **Hyväksytyt kulut**.
+1. Valitse **Myynti**-alueen vasemmanpuoleisen siirtymisruudun **Tapahtumat**-osiosta **Hyväksytyt kulut**.
 
 2. Valitse **Hyväksytyt kulut** -luettelosta projekti, jonka haluat korjata, ja valitse sitten **Viennin oikaisu**. Uusi oikaisukirjauskansio luodaan automaattisesti tyypillä **Kulun korjaus**. 
 
-3. Kirjoita korjaukselle kuvaus **Uusi kirjauskansio** -sivun **Kuvaus** -kenttään ja valitse **Kulun korjaus** -välilehden **Kulujen uudet arvot** -osiosta tietokentät, jotka haluat korjata valituille kulujen riveille. Voit esimerkiksi delegoida kulun toiseen **projektiin** tai korjata **Kululuokka** -, **Kulun päivämäärä** - tai **Varattavissa oleva resurssi** -arvot.
+3. Kirjoita korjaukselle kuvaus **Uusi kirjauskansio** -sivun **Kuvaus**-kenttään ja valitse **Kulun korjaus** -välilehden **Kulujen uudet arvot** -osiosta tietokentät, jotka haluat korjata valituille kulujen riveille. Voit esimerkiksi delegoida kulun toiseen **projektiin** tai korjata **Kululuokka**-, **Kulun päivämäärä**- tai **Varattavissa oleva resurssi** -arvot.
 
 4. Valitse **Esikatselu**. Valitse valintaikkunasta **OK**. 
 

@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075542"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144589"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Uusien mukautettujen entiteettilomakkeiden lisääminen (Project Service Automation 2. x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Tyyppikenttä 
 
-Dynamics 365 Project Service Automation käyttää entiteettien Mahdollisuus, Tarjous, Tilaus ja Lasku **Tyyppi** ( **msdyn\_ordertype** ) -kenttää erottaakseen kyseisten entiteettien **työperusteiset** versiot **nimikeperusteisista** ja **palveluperusteisista** versioista. PSA käsittelee kyseisten entiteettien työperusteiset versiot. Suuri määrä ratkaisun asiakas- ja palvelinpuolen liiketoimintalogiikasta perustuu **Tyyppi** -kenttään. Siksi on tärkeää, että kenttä valmistellaan oikealla arvolla, kun entiteetit luodaan. Virheellinen arvo voi aiheuttaa virheellistä toimintaa, ja osa liiketoimintalogiikasta saatetaan suorittaa virheellisesti.
+Dynamics 365 Project Service Automation käyttää entiteettien Mahdollisuus, Tarjous, Tilaus ja Lasku **Tyyppi** (**msdyn\_ordertype**) -kenttää erottaakseen kyseisten entiteettien **työperusteiset** versiot **nimikeperusteisista** ja **palveluperusteisista** versioista. PSA käsittelee kyseisten entiteettien työperusteiset versiot. Suuri määrä ratkaisun asiakas- ja palvelinpuolen liiketoimintalogiikasta perustuu **Tyyppi** -kenttään. Siksi on tärkeää, että kenttä valmistellaan oikealla arvolla, kun entiteetit luodaan. Virheellinen arvo voi aiheuttaa virheellistä toimintaa, ja osa liiketoimintalogiikasta saatetaan suorittaa virheellisesti.
 
 ## <a name="automatic-form-switching"></a>Automaattinen lomakkeenvaihto
 
@@ -39,27 +41,27 @@ Automaattisessa lomakkeenvaihtologiikassa käytetään arvon **formId** ja kent�
 
 Seuraavassa esimerkissä esitetään mukautetun **Omat projektitiedot** -lomakkeen lisääminen siten, että se toimii työperusteisten mahdollisuuksien kanssa. Samaa prosessia käytetään mukautettujen lomakkeiden lisäämiseen siten, että ne toimivat yhdessä tarjousten, tilausten ja laskujen kanssa.
 
-Voit luoda mukautetun version **Projektitiedot** -lomakkeesta seuraavalla tavalla.
+Voit luoda mukautetun version **Projektitiedot**-lomakkeesta seuraavalla tavalla.
 
 1. Avaa Mahdollisuus-entiteetissä lomake **Projektitiedot** ja tallenna kopio siitä nimellä **Omat projektitiedot**.
-2. Avaa uusi lomake ja varmista sitten ominaisuuksissa, että ne sisältävät **Projektitiedot** -lomakkeen lomakkeenvalmistelun komentosarjat. 
+2. Avaa uusi lomake ja varmista sitten ominaisuuksissa, että ne sisältävät **Projektitiedot**-lomakkeen lomakkeenvalmistelun komentosarjat. 
 
     > [!IMPORTANT]
     > Älä poista komentosarjoja. Muulloin osa tiedoista saatetaan valmistella virheellisesti.
 
-3. Tarkista, että lomake sisältää **Tyyppi** ( **msdyn\_ordertype** )-kentän. 
+3. Tarkista, että lomake sisältää **Tyyppi** (**msdyn\_ordertype**)-kentän. 
 
     > [!IMPORTANT]
     > Älä poista tätä kenttää. Muussa tapauksessa valmistelukomentosarjat epäonnistuvat.
 
-4. Etsi uuden lomakkeen **formId** -arvo. Voit tehdä tämän kahdella eri tavalla.
+4. Etsi uuden lomakkeen **formId**-arvo. Voit tehdä tämän kahdella eri tavalla.
 
     - Vie **Omat projektitiedot** lomake hallitsemattoman ratkaisun osana ja etsi sitten **formId** -arvo viedyn ratkaisun customization.xml-tiedostosta.
     - Avaa lomake **Omat projektitiedot** lomake-editorissa ja etsi sitten **fromid** -parametrin vieressä URL-osoitteessa oleva GUID-tunnus seuraavassa kuvassa näkyvällä tavalla.
 
     ![Uuden lomakkeen formId-arvo URL-osoitteessa](media/how-to-add-custom-forms-in-v2.0.png)
 
-5. Luo **msdyn\_ordertype** -yhdistämismääritys **formId** -arvolle muokkaamalla verkkoresurssia msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Poista koodi resurssista ja korvaa se seuraavalla koodilla.
+5. Luo **msdyn\_ordertype** -yhdistämismääritys **formId**-arvolle muokkaamalla verkkoresurssia msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Poista koodi resurssista ja korvaa se seuraavalla koodilla.
 
     ```javascript
     define(["require", "exports"], function (require, exports) {
