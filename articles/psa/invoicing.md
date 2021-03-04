@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075412"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151384"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Laskutus Project Service Automationissa
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -44,11 +46,11 @@ Projektilaskuja voidaan luoda yksi kerrallaan tai joukkoina. Voit luoda niitä m
 
 ### <a name="manually-create-project-invoices-in-psa"></a>Projektilaskujen manuaalinen luonti PSA:ssa
 
-**Projektisopimukset** -luettelosivulla voit luoda projektilaskuja erikseen kullekin projektisopimukselle tai voit luoda laskuja joukoittain useille projektisopimuksille.
+**Projektisopimukset**-luettelosivulla voit luoda projektilaskuja erikseen kullekin projektisopimukselle tai voit luoda laskuja joukoittain useille projektisopimuksille.
 
 Tietylle projektisopimukselle luodaan lasku seuraavalla tavalla.
 
-- Avaa projektisopimus **Projektisopimukset** -luettelosivulla ja valitse sitten **Luo lasku**.
+- Avaa projektisopimus **Projektisopimukset**-luettelosivulla ja valitse sitten **Luo lasku**.
 
     ![Projektilaskujen luominen tietylle projektisopimukselle](media/CreateProjectInvoicesOneByOne.png)
 
@@ -56,7 +58,7 @@ Tietylle projektisopimukselle luodaan lasku seuraavalla tavalla.
 
 Laskuja luodaan joukoittain seuraavalla tavalla.
 
-1. Valitse **Projektisopimukset** -luettelosivulla vähintään yksi projektisopimus, jolle on luotava lasku, ja valitse sitten **Luo projektilaskuja**.
+1. Valitse **Projektisopimukset**-luettelosivulla vähintään yksi projektisopimus, jolle on luotava lasku, ja valitse sitten **Luo projektilaskuja**.
 
     ![Projektilaskujen luonti joukoittain](media/CreateProjectInvoicesBulk.png)
 
@@ -74,7 +76,7 @@ Automaattinen laskujen luonti määritetään PSA:ssa seuraavalla tavalla.
 
 1. Siirry kohtaan **Project Service** \> **Asetukset** \> **Erätyöt**.
 2. Luo erätyö ja anna sille nimeksi **PSA Create Invoices**. Eräajon nimen on sisällettävä käsite "Luo laskuja".
-3. Valitse **Työtyyppi** -kentässä **Ei mitään**. Asetusten **Päivittäin** ja **On aktiivinen** oletusarvo on **Kyllä**.
+3. Valitse **Työtyyppi**-kentässä **Ei mitään**. Asetusten **Päivittäin** ja **On aktiivinen** oletusarvo on **Kyllä**.
 4. Valitse **Suorita työnkulku**. **Valitse tietue** -valintaikkunassa näkyy kolme työnkulkua:
 
     - ProcessRunCaller
@@ -82,13 +84,13 @@ Automaattinen laskujen luonti määritetään PSA:ssa seuraavalla tavalla.
     - UpdateRoleUtilization
 
 5. Valitse **ProcessRunCaller** ja sitten **Lisää**.
-6. Valitse seuraavassa valintaikkunassa **OK**. **Lepo** -työnkulkua seuraa **Käsittely** -työnkulku.
+6. Valitse seuraavassa valintaikkunassa **OK**. **Lepo**-työnkulkua seuraa **Käsittely**-työnkulku.
 
-    Vaiheessa 5 voit myös valita **ProcessRunner**. Kun tämän jälkeen valitset **OK** , **Käsittely** -työnkulkua seuraa **Lepo** -työnkulku.
+    Vaiheessa 5 voit myös valita **ProcessRunner**. Kun tämän jälkeen valitset **OK**, **Käsittely**-työnkulkua seuraa **Lepo**-työnkulku.
 
 Työnkulut **ProcessRunCaller** ja **ProcessRunner** luovat laskuja. Työnkulku **ProcessRunCaller** kutsuu työnkulun **ProcessRunner**. **ProcessRunner** on se työnkulku, joka tosiasiassa luo laskut. Se käy läpi kaikki sopimusrivit, joille on luotava lasku, ja luo kyseiset laskut. Työnkulku tarkistaa sopimusrivien laskujen suorituspäiviä määrittääkseen ne sopimusrivit, joille on luotava laskuja. Jos yhteen sopimukseen kuuluvilla sopimusriveillä on sama laskujen suorituspäivä, tapahtumat yhdistetään yhteen laskuun, jolla on kaksi laskutusriviä. Jos laskujen luomista edellyttäviä tapahtumia ei ole, työnkulku ohittaa laskujen luonnin.
 
-Kun **ProcessRunner** on valmis, se kutsuu työnkulun **ProcessRunCaller** , antaa päättymisajan ja sulkeutuu. **ProcessRunCaller** käynnistää sitten ajastimen, joka kestää 24 tuntia määritetystä päättymisajasta eteenpäin. Ajastimen loputtua, **ProcessRunCaller** sulkeutuu.
+Kun **ProcessRunner** on valmis, se kutsuu työnkulun **ProcessRunCaller**, antaa päättymisajan ja sulkeutuu. **ProcessRunCaller** käynnistää sitten ajastimen, joka kestää 24 tuntia määritetystä päättymisajasta eteenpäin. Ajastimen loputtua, **ProcessRunCaller** sulkeutuu.
 
 Laskujen luomisen erätyö on toistuva työ. Jos tämä erätyö suoritetaan useita kertoja, siitä luodaan useita esiintymiä, mikä voi aiheuttaa virheitä. Siksi erätyö kannatta käynnistää vain kerran ja käynnistää uudelleen vain, jos se pysähtyy.
 
@@ -103,13 +105,13 @@ Kun luot projektilaskuluonnoksen, kaikki aika- ja kulumerkintöjen hyväksymisen
 - Määrän ja laskutustyypin muokkaaminen.
 - Ajan, kulun ja maksujen lisäys tapahtumina suoraan laskuun. Voit käyttää tätä toimintoa, jos laskurivi on yhdistetty sopimusriviin, joka salli nämä tapahtumaluokat.
 
-Vahvista lasku valitsemalla **Vahvista**. Vahvistustoimintotoiminto on yksisuuntainen toiminto. Kun valitset **Vahvista** , järjestelmä muuttaa laskun vain luettavaan muotoon ja luo laskutetun myynnin todellisia arvoja kullekin laskuriville kunkin laskurivin tietojen perusteella. Jos laskurivin tiedot viittaavat laskuttamattomaan myynnin todelliseen arvoon, järjestelmä myös kumoaa laskuttamattoman myynnin todellisen arvon. (Kaikki aika- tai kulumerkinnän perusteella luodut laskutusrivin tiedot viittaavat laskuttamattoman myyniin todelliseen arvoon.) Pääkirjan integrointijärjestelmät voivat käyttää tätä kumoamista kumotakseen projektin keskeneräistä työtä kirjanpitotarkoituksia varten.
+Vahvista lasku valitsemalla **Vahvista**. Vahvistustoimintotoiminto on yksisuuntainen toiminto. Kun valitset **Vahvista**, järjestelmä muuttaa laskun vain luettavaan muotoon ja luo laskutetun myynnin todellisia arvoja kullekin laskuriville kunkin laskurivin tietojen perusteella. Jos laskurivin tiedot viittaavat laskuttamattomaan myynnin todelliseen arvoon, järjestelmä myös kumoaa laskuttamattoman myynnin todellisen arvon. (Kaikki aika- tai kulumerkinnän perusteella luodut laskutusrivin tiedot viittaavat laskuttamattoman myyniin todelliseen arvoon.) Pääkirjan integrointijärjestelmät voivat käyttää tätä kumoamista kumotakseen projektin keskeneräistä työtä kirjanpitotarkoituksia varten.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Vahvistetun PSA-laskun korjaus
 
 Vahvistettuja PSA-laskuja voidaan muokata (korjata). Kun korjaat vahvistettua laskua, luodaan uusi korjaava laskuluonnos. Koska oletuksena on, että haluat kumota kaikki alkuperäisen laskun tapahtumat ja määrät, tämä korjaava lasku sisältää kaikki alkuperäisen laskun tapahtumat ja kaikki siinä olevat määrät ovat 0 (nolla).
 
-Jos osa tapahtumista ei vaadi korjausta, voit poistaa ne korjaavasta laskuluonnoksesta. Jos haluat kumota tai palauttaa vain osamäärän, voit muokata rivin tietojen **Määrä** -kenttää. Voit tarkastella alkuperäisen laskun määrää avaamalla laskurivin tiedot. Tämän jälkeen voit muokata nykyisen laskun määrää siten, että se ylittää tai alittaa alkuperäisen laskun määrän.
+Jos osa tapahtumista ei vaadi korjausta, voit poistaa ne korjaavasta laskuluonnoksesta. Jos haluat kumota tai palauttaa vain osamäärän, voit muokata rivin tietojen **Määrä**-kenttää. Voit tarkastella alkuperäisen laskun määrää avaamalla laskurivin tiedot. Tämän jälkeen voit muokata nykyisen laskun määrää siten, että se ylittää tai alittaa alkuperäisen laskun määrän.
 
 Kun vahvistat korjaavan laskun, alkuperäinen laskutetun myynnin todellinen arvo kumotaan ja uusi laskutetun myynnin todellinen arvo luodaan. Jos määrää vähennettiin, ero aiheuttaa myös uuden laskuttamattoman myynnin todellisen arvon luomiseen. Jos alkuperäinen laskutettu myynti esimerkiksi oli kahdeksan tuntia ja korjaavien laskurivien tietojen määrä on vain kuusi tuntia, PSA kumoaa alkuperäisen laskutetun myynnin rivin ja luo kaksi uutta todellista arvoa:
 
