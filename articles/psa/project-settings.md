@@ -68,3 +68,6 @@ Jokaisen organisaation on määritettävä nämä roolit **Aktiiviset resurssilu
 ## <a name="price-lists"></a>hinnastot
 
 Hinnastot antavat mahdollisuuden määrittää kustannus- ja myyntihinnat resurssirooleille, kululuokille, tuotteille ja muille organisaation elementeille. Ennen kuin asetat talausarvion työlle, joka projektissa on toimitettava, sinun tulisi luoda sitä tukeva kustannus- ja myyntihinnasto. Sinun tulisi myös määrittää parametrit-osiossa oletuskustannus- ja myyntihinnasto, jota sovelletaan kaikkiin organisaatiossa luotuihin projekteihin. Varmista **Aktiiviset projektiparametrit** -sivulla, että määritit oletusarvoisen kustannus- ja myyntihinnaston.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Luo tilaa, jossa projektin jäsenet voivat tehdä yhteistyötä projektiasiakirj
   
 ### <a name="see-also"></a>Katso myös  
  [Projektipäällikön opas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

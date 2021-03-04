@@ -132,3 +132,6 @@ Käytä laajennusvahvistuksia kaikkiin vahvistuksiin, jotka edellyttävät enemm
 
 > [!IMPORTANT] 
 > Tällä hetkellä tunnettu ongelma TBX-sivuilla estää käyttäjiä korjaamasta tietoja ja uudelleenvalitsemista Valmis, kun päivitys epäonnistuu laajennuksen tarkistuksessa. Voit kiertää ongelman määrittämällä liiketoimintasäännön vahvistuksia, jotka estävät tilanteen mahdollisimman hyvin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

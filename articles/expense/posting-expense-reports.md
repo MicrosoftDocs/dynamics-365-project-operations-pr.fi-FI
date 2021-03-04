@@ -31,3 +31,6 @@ Jos kuluraportin kulut veloitetaan muulle yritykselle kuin yritykselle, joka ty�
 Voit kirjata kuluraportin valitsemalla **Hyväksytyt kuluraportit** -sivulla kuluraportin ja valitsemalla sitten toimintoruudussa **Kirjaa**.
 
 Voit myös kirjata kaikki luettelon kuluraportit samalla kertaa. Valitse kaikki kuluraportit ja valitse sitten **Kirjaa**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

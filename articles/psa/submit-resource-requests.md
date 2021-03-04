@@ -55,3 +55,6 @@ Kun olet voittanut projektisopimuksen, sinun on valittava projektin henkilöstö
   
 ### <a name="see-also"></a>Katso myös  
  [Projektipäällikön opas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

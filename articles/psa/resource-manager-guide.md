@@ -73,3 +73,6 @@ ms.locfileid: "5147334"
  [Asiakaspäällikön opas](../psa/account-manager-guide.md)   
  [Projektipäällikön opas](../psa/project-manager-guide.md)   
  [Aika-, kulu- ja yhteistyöopas](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Seuraavat ongelmat on korjattu:
 - **Myyntihinnaston ratkaisun** logiikka käsittelee aikavyöhykkeitä virheellisesti, jolloin tuloksena on hinnastojen virheellinen valinta.
 - Projektin **Todelliset kulut yhteensä** voi olla murto-osan väärässä yhden aikamerkinnän hyväksynnän jälkeen.
 - **Hinnan ratkaisun** logiikka ei anna käyttäjäystävällistä virhesanomaa, jos **Noudettu roolihinta** -arvoja ei ole **Ensisijainen yksikkö**- ja **Hinta ensisijaisessa yksikössä** -kentissä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

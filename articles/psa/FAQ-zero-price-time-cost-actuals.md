@@ -66,3 +66,6 @@ Jos toteutuneen ajan kustannuksella ei ole sallittua hintaa näiden kolmen edell
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

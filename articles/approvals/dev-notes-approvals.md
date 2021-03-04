@@ -23,3 +23,6 @@ Dynamics 365 Project Operations sisältää vahvistuslogiikan, joka varmistaa, e
 
   - Kaikki tukirivit luodaan liittyvissä taulukoissa, kuten kirjauskansioissa ja todellisissa arvoissa.
   - Hyväksyjä merkitään projektissa **projektin hyväksyjäksi** ennen jatkamista.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

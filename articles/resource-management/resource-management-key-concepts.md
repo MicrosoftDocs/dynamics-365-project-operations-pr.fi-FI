@@ -35,3 +35,6 @@ Resurssit ovat palvelupohjaisen organisaation tärkeimpiä varoja. Mahdollisuus 
 
 
 Voit miehittää projektisi ryhmällä yleisiä tai nimettyjä resursseja Project Operationsissa. Voit käyttää useita tapoja ryhmän jäsenten lisäämiseen ja kohdentamiseen ja heidän varaustensa ja kohdennustensa hallintaan. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

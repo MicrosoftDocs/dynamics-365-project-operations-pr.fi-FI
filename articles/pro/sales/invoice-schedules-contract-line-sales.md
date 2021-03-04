@@ -74,3 +74,6 @@ Kiinteähintaiset välitavoitteet voidaan luoda manuaalisesti, kun niitä ei ole
 | Vero | Pikaluonti | Välitavoitteessa käytetty verosumma. | Se sisältyy projektisopimusrivin välitavoitteeseen ja laskuun. |
 
 4. Valitse **Tallenna ja sulje**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

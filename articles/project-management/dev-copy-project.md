@@ -112,3 +112,6 @@ Seuraavassa esimerkissä näytetään, miten mukautettu toimintoa **CopyProject*
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

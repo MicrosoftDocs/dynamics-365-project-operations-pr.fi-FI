@@ -33,3 +33,6 @@ Luettelo kaikista projektisopimuksista, jotka näkyvät **Sopimukset**-luettelos
 2. Valitse muita suodatettuja näkyviä valitsemalla **Näkymävalitsin** (näkymän nimen vieressä oleva avattavan luettelon nuoli). Voit luoda omia näkymiä mukautetuilla suodatusehdoilla.
 
 Sopimuksia voidaan luoda tai poistaa tällä luettelosivulla tai tietosivuilla.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ Seuraavassa taulukossa esitetään edeltävässä työnkulussa käytettävän Ta
 | Laskuluonnoksen korjaus       | Laskurivin tapahtuman GUID | Korvaava          | msdyn_invoicelinetransaction | Laskutetun myynnin GUID            | Alkuperäinen           | msdyn_actual       |
 | Laskun korjauksen vahvistaminen     | Laskutetun myynnin palautuksen GUID    | Palauttava          | msdyn_actual                 | Laskutetun myynnin GUID            | Alkuperäinen           | msdyn_actual       |
 | Uuden laskuttamattoman myynnin todellisen arvon GUID | Korvaava                     | msdyn_actual       | Laskutetun myynnin GUID            | Alkuperäinen                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

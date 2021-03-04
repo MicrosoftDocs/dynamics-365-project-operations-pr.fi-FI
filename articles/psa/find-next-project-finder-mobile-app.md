@@ -49,3 +49,6 @@ ms.locfileid: "5149269"
   
 ### <a name="see-also"></a>Katso myös  
  [Aika-, kulu- ja yhteistyöopas](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

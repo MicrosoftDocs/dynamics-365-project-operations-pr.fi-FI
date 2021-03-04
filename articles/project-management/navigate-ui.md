@@ -102,3 +102,6 @@ Seuraavassa on lyhyt yleiskatsaus erilaisista projektisuunnittelun välilehdist�
 **Lisää sarake**: Sallii käyttäjän määrittää ruudukon näkyvät sarakkeet. Vain käyttövalmiit sarakkeet voidaan lisätä **Projektisuunnittelu**-lomakkeen ruudukoihin.
 
 ![Lisää sarake -painike](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

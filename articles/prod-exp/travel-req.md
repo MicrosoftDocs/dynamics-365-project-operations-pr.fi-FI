@@ -32,3 +32,6 @@ Organisaatiosi saattaa edellyttää, että matkustusehdotus lähetetään, ennen
 Matkapyyntöjä ja käytäntöjä voidaan käyttää budjetin hallinnan avulla. Jos organisaatiosi esimerkiksi työstää kiinteähintaista projektia, jotka edellyttää matkustamista, projektiryhmän jäsenten matkakulujen on sovittava yhteen projektibudjetin kanssa. Vaatimalla, että matkakulut hyväksytään ennen niiden syntymistä, organisaatio voi auttaa varmistamaan, että projekti säilyy budjetissa.
 
 Voit määrittää matkustusehdotusten käytännöt **Matkustusehdotus**-sivulla.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

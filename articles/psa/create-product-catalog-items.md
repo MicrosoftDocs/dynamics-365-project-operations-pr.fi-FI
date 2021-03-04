@@ -37,3 +37,6 @@ Jos haluat lisätä tuotteita, kuten ohjelmiston käyttöoikeudet, projektitarjo
   
 ### <a name="see-also"></a>Katso myös  
  [Määritä Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

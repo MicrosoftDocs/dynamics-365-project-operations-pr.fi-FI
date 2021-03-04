@@ -37,3 +37,6 @@ Project Operationsin pidätys ei ole käytettävissä, ennen kuin se laskutetaan
 | --- | --- | --- |
 | Käytettävissä oleva summa | Summa, joka on käytettävissä maksu- tai ennakkotietueessa. | Sitä ei voi käyttää, ennen kuin ennakko tai maksu on laskutettu, joten käytettävissä oleva summa on nolla. |
 | Käytetty summa | Summa, joka on jo käytetty pidätyksissä tai ennakoissa. | Ennakko tai pidätys voidaan täsmäyttää laskuun, jolla on todelliset kustannukset ja jonka osa on merkitty jo käytetyksi tai kulutetuksi. Muu ennakko tai maksun summa on käytettävissä, jotta tulevaan laskuun voidaan täsmäyttää todelliset kustannukset. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

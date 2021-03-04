@@ -48,3 +48,6 @@ Tilanteissa, joissa resurssille on kohdennuksia mutta ei varauksia, valitse vara
 **Laajenna varausta** -toiminnolla luodut varaukset liitetään ensisijaiseen projektivaatimukseen. Kun laajennus aloitetaan, sen tarkkaa laajennusvaatimusta ei voida määrittää, koska resurssiin voi liittyä useita projektia koskevia vaatimuksia.
 
 Projektipäällikkö tai resurssipäällikkö voi sitten käyttää aikataulutustaulua hallitakseen tilanteita, joissa resurssin varaukset ylittävät kapasiteetin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

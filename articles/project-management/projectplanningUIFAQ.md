@@ -106,3 +106,6 @@ Kun vähintään yksi päivitys tehdään työrakenteeseen, muutokset epäonnist
   - Project Operations -järjestelmä
   - Projektijärjestelmä
   - Project Operationsin kaksoiskirjoitusjärjestelmä (tämä rooli on pakollinen, jos otat käyttöön Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Ominaisuudet **Käyttäjät** ja **Kuukaudet** voidaan valita määräkertoimiks
 
 > ![Ominaisuuksien Käyttäjät ja Kuukaudet valinta määräkertoimiksi](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

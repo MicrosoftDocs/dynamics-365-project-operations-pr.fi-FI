@@ -88,3 +88,6 @@ Laskusuunnitelmat liittyvät kuhunkin sopimusriviin, ja ne tarvitaan, jotta auto
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Dynamics 365 Sales -tilausten muutokset
 
 Project Operationsin palvelusopimukset perustuvat Dynamics 365 Sales -tilauksiin. Toiminnoissa on kuitenkin tärkeitä poikkeamia ja eroja. Sopimuksilla on omat lomake- ja käyttöliittymäelementit, liiketoimintasäännöt, laajennusten liiketoimintalogiikka ja asiakaspuolen komentosarjat, jotka tekevät niistä erilaisia kuin tarjoukset. Näistä syistä älä käytä myyntitilausta ja Project Operationsin sopimusta samassa merkityksessä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

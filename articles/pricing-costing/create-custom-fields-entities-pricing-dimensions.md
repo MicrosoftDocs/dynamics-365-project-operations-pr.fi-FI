@@ -77,3 +77,6 @@ Voit luoda tietoja entiteettiperusteisille dimensioille manuaalisesti tai käytt
 5. Luo toinen vakionimike Vanhemmalle järjestelmäinsinöörille toistamalla vaiheet 1–3.
 
 > ![Esimerkkitietoja Vakionimike-entiteetille](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

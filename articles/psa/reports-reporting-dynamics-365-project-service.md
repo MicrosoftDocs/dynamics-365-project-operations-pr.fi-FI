@@ -52,3 +52,6 @@ Katso lisätietoja raportoinnista PSA:ssa seuraavista aiheista:
 - [Project Service -tietomallin käsitteleminen](reports-working-project-service-data-model.md)
 - [Koontinäytöt](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Koska Dynamics 365 Project Operations käyttää Universal Resource Scheduling -
 
 Jos haluat tarkastella lisätietoja yksittäisestä resurssista, avaa resurssikortti napsauttamalla sitä hiiren kakkospainikkeella.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

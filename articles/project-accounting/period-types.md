@@ -34,3 +34,6 @@ Jos haluat luoda ja käsitellä kausityyppejä, suorita seuraavat vaiheet:
 4. Valitse kausityyppitietue ja valitse sitten **Luo kaudet** luodaksesi kausityypille kaudet. Valitsemasi kausitiheyden perusteella voi olla mahdollista määrittää alkamispäivä tai kuinka monta kautta luodaan.
 5. Valitse **Kaudet** tarkastellaksesi luotuja kausia.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

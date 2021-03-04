@@ -51,3 +51,6 @@ Asiakaspäälliköt ja projektipäälliköt pyytävät säännöllisesti resurss
   
 ### <a name="see-also"></a>Katso myös  
  [Resurssipäällikön opas](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

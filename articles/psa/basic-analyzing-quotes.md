@@ -60,3 +60,6 @@ Voit analysoida tarjouksia ja luoda kaavioita asiakkaan odotuksista aikataulun j
 Asiakkaan odotukset aikataulun suhteen analysoidaan vertaamalla tarjousrivin tietojen myöhäisintä päättymispäivää pyydettyyn toimituspäivään kaikilla tarjouksen tarjousriveillä.
 
 Asiakkaan odotukset budjetin osalta analysoidaan vertaamalla asiakkaan kokonaisbudjetin summaa tarjottuun summaan kaikilla tarjousriveillä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

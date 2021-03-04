@@ -35,3 +35,6 @@ Kun kustannushinnasto on ratkaistu, järjestelmä käyttää arviorivillä oleva
 Kulun arvioidut rivit viittaavat projektin kulun ja kuluarvioiden tarjous- ja sopimusrivin tietoihin.
 
 Kun kustannushinnasto on ratkaistu, järjestelmä käyttää arviorivillä **Luokka**- ja **Yksikkö**-kenttien yhdistelmää kulujen kohdentamiseksi ratkaistun hinnaston **Luokkahinta**-riveihin. Jos järjestelmä löytää luokan hintarivin, jonka kustannushinta on **luokka**- ja **yksikkö**-kenttäyhdistelmässä, kustannushinta on oletusarvo. Jos järjestelmä ei pysty vastaamaan **luokka**- ja **yksikkö**-arvoja tai jos se löytää vastaavan luokkahintarivin, mutta hinnoittelutapa ei ole **yksikköhinta**, kustannushinta on oletusarvona nolla (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

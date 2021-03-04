@@ -36,3 +36,6 @@ Projektipäällikkö voi projisoida tehtävien työmäärää uudelleen seuraavi
 - Korvaa oletusarvoinen edistymisprosentti uudella arviolla tehtävän todellisesta edistymisestä.
 
 Kukin näistä lähestymistavoista aiheuttaa tehtävän valmistumisarvion, valmistumisen kustannusarvion ja edistymisprosentin sekä ennustetun työmäärän varianssin uudelleenlaskennan. Myös yhteenvetotehtävien valmistumisen kustannusarvio, valmistumisarvio ja edistymisprosentti lasketaan uudelleen. Näin saadaan uusi työmäärän varianssin arvio.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Kun valitset dialogisivulla **OK**, järjestelmä luo projektitarjouksesta kopio
 > - Projektiviittaus projektipohjaisilla tarjousriveillä – asiakasbudjetin tiedot
 >
 >Koska nämä tiedot ovat hyvin tarjouskohtaisia, näitä kenttiä ja tietueita ei kopioida. Projektien ja tuotteiden tarjousrivit, tarjousrivien tietojen arviot ja tarjoustason ei-ylitettävät arvot kopioidaan. Hinta- ja kustannushintaoletukset määräytyvät **Kopioi parametrit** -valintaikkunassa valitun **Kopioi hinnoittelu** -asetuksen mukaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

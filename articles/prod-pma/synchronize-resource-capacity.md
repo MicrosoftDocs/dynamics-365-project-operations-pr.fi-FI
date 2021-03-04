@@ -49,3 +49,6 @@ On suositeltavaa synkronoida erissä. Asetukset ovat käytettävissä kapasiteet
     | Päättymispäivä    | Syötä resurssikapasiteettien koontien synkronointiprosessin päättymispäivä. |
 
 [![Synkronointiprosessi](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

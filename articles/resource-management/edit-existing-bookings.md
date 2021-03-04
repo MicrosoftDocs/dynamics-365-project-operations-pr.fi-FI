@@ -33,3 +33,6 @@ Kun projektiin tehdään muutoksia, jotka edellyttävät aiemmin luotujen varaus
 ## <a name="schedule-board"></a>Aikataulutaulukko
 
 **Aikataulutaulukossa** resurssipäälliköllä on organisaation kaikkien varausten koottu näkymä. Tästä näkymästä resurssipäällikkö voi laajentaa, lyhentää tai siirtää aiemmin luotuja varauksia samalla tavoin kuin **Varausten ylläpitäminen** -näkymässä. Resurssipäällikkö voi myös korvata tiettyyn varaukseen aiemmin varatut resurssit napsauttamalla hiiren kakkospainikkeella varausta ja valitsemalla **Korvaa resurssi**. Resurssipäälliköt voivat myös muokata aiemmin luotujen varausten jaksottumisia napsauttamalla varausta hiiren kakkospainikkeella ja valitsemalla **Muokkaa**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

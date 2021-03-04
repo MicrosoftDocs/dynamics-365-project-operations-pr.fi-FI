@@ -125,3 +125,6 @@ Kiinteä hinta – valmistumisprosentti
 Projektin kustannus- ja tuottoprofiilisäännöt määrittävät projektin kustannus- ja tuottoprofiilin, jota on käytettävä käsiteltäessä mitä tahansa laskutettavia projektitapahtumia. Määritä säännöt valitsemalla siirtymällä kohtaan **Projektinhallinta ja kirjanpito** \> **Asetukset** \> **Kirjaaminen** \> **Projektin kustannus- ja tuottoprofiilisäännöt**.
 
 Säännöt voidaan määrittää projektisopimuksessa, projektiryhmässä tai tietyssä projektissa. Järjestelmä valitsee aina ensin suurimman rakeisuuden säännön.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -27,3 +27,6 @@ Projektiryhmän jäsenet luovat ja lähettävät aikamerkinnät hyväksyttäväk
 
 Lisäietoja merkintöjen luomisesta, lähettämisestä tai peruuttamisesta sekä muista työkaluista, joilla raportin voi viimeistellä, on ohjeaiheessa [Aikamerkkinnän käyttäjien toiminta](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

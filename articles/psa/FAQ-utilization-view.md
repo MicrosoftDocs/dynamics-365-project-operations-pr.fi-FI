@@ -101,3 +101,6 @@ Tarkista seuraavat kohdat, jos et löydä veloitettavaa käyttöä:
   - Projektin taustalla olevan projektisopimusrivin rooliksi on määritetty Ei-veloitettava.
   - Projektiin ei ole liitetty sopimusriviä.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

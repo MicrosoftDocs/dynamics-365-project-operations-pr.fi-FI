@@ -48,3 +48,6 @@ Alla on yhteenveto kentistä, jotka voidaan päivittää projektiin sen jälkeen
 - **Projektin yleinen tila**: Projektipäällikön määrittämä projektin kunto.
 - **Kommentit**: Projektipäällikön kirjoittama kuvaus projektin nykyisestä kunnosta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

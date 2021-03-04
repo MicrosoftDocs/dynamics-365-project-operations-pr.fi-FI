@@ -42,3 +42,6 @@ Kun luot yleisen ryhmän jäsenen tehtävän delegoinnin avulla, luot paikkamerk
 1. Siirry tehtävän ruudukkoon, taulukoon tai aikajanaan ja soluun **Vastuuhenkilö**.
 2. Ala kirjoittaa nimeä hakuruutuun. Nimen hakutulokset näkyvät **Muut resurssit**-kohdan kohdassa **Resurssinvalitsin**.
 3. Valitse resurssi, jonka haluat delegoida tehtävälle, tai valitse resurssin nimi kohdassa **Muut ryhmän resurssit**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

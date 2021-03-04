@@ -142,3 +142,6 @@ Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja 
 ## <a name="regulatory-updates"></a>Säännöstenmukaisuuspäivitykset
 
 Lisätietoja Dynamics 365 Financen säännöstenmukaisuuspäivityksistä on kohdassa [Säännöstenmukaisuuspäivitykset](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Saat lisätietoa säännöstenmukaisuuspäivityksistä myös kirjautumalla sisään Lifecycle Servicesiin (LCS) ja tarkastelemalla suunniteltuja säännöstenmukaisuuspäivityksiä versiohakutyökalulla. Versiohaussa voit käyttää hakuehtona maata, ominaisuustyyppiä ja versiota.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

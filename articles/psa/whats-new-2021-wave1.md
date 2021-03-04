@@ -43,3 +43,6 @@ Seuraavat ongelmat on korjattu:
 
 - Päättymispäiväpäivät täytetään automaattisesti, kun aikamerkintä luodaan, jos kesto on tyhjäarvo.
 - Käyttäjät voivat muuttaa tehtävää hyväksytyssä tai lähetetyssä aikamerkinnässä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

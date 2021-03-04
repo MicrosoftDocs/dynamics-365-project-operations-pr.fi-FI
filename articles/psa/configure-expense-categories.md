@@ -55,3 +55,6 @@ Jokaisella kululuokalla voi olla oma yksikköryhmä ja yksikkö. Voit määritt�
   
 ### <a name="see-also"></a>Katso myös  
  [Project Service Automationin määrittäminen](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

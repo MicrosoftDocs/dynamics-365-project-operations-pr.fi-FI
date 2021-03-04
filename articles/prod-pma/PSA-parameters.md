@@ -47,3 +47,6 @@ Avaa **Project Service Automationin integrointiparametrit** -sivu kohdasta **Pro
 | Laskutustyypin oletusravot  | Laskutustyyppi         | Valitse **Uusi** , kun haluat lisätä rivin, jolla voit valita laskutustyypin, jolle määritetään oletusarvoinen riviominaisuus. Tietty laskutustyyppi voidaan valita vain kerran määrityksessä. |
 |                        | Riviominaisuus        | Valitse valitulle laskutustyypille oletusarvoinen riviominaisuus. Kun uusia työaika-arvioita, uusia kuluarvioita tai uusia toteutuneita arvoja synkronoidaan Project Service Automationista, **Riviominaisuus** -kentän arvoksi määritetään laskutustyypin oletusarvo. |
 | Toimintojen lukitus  | Ei käytettävissä       | Valitse Financen toiminta, joka poistetaan käytöstä projekteilla ja sopimuksilla, jotka ovat peräisin Project Service Automationista. Voit esimerkiksi poistaa käytöstä mahdollisuuden muokata sopimuksia ja projekteja, luoda työrakenteita ja kirjata aikaraportteja Financessa. Kirjan pitoon liittyvät kentät ovat edelleen käytössä, vaikka ne eivät parametriasetuksen mukaan olisi käytettävissä. Kaikki toiminnot ovat oletusarvoisesti käytössä. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

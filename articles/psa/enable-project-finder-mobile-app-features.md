@@ -68,3 +68,6 @@ Resurssit voivat käyttää Project Finder Mobile -sovellusta puhelimessa [!INCL
   
 ### <a name="see-also"></a>Katso myös  
  [Resurssien määrittäminen](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

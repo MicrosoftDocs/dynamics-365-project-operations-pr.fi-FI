@@ -41,3 +41,6 @@ Resurssit ovat palvelupohjaisen organisaation tärkeimpiä varoja. Mahdollisuus 
 - [Alustavat varaustarpeet](resource-management-softbook-requirements.md)
 - [Taidot ja pätevyysmallit](resource-management-skills-proficiency.md)
 - [Resurssienhallinta UKK](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

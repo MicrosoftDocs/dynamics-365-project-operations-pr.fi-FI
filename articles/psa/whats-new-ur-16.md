@@ -64,3 +64,6 @@ Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia t
 
     -   Korjattu: Kun käyttäjät päivittävät versiosta 2.X versioon 3.X, projektit, joiden nimi on NULL, ovat sallittuja.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

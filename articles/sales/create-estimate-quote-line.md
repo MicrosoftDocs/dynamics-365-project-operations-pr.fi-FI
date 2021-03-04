@@ -88,3 +88,6 @@ Jos olet lisännyt muokatun kentän tarjousrivin tietoihin ja haluat järjestelm
 7. Sulje valintaikkuna valitsemalla **OK** ja valitse sitten **Päivitä vaihe**.
 8. Toista vaiheet 1–7 toisen laajennuksen osalta.
 9. Sulje PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -257,3 +257,6 @@ Seuraavassa kuvassa on tilanne sen jälkeen kun mukautetut hinnastot on luotu.
 
 > [!NOTE]
 > Lyhyt viive on mahdollinen **Luo mukautettu hinnoittelu** -painikkeen napauttamisen ja hinnaston luomisen välillä. Suosittelemme, että päivität ruudukon sen sijaan, että napauttaisit useita kertoja. Mukautettu hinnasto on luotu, jos siihen liitetyssä hinnaston nimessä on tarjouksen nimi tai siihen on liitetty projektisopimuksen nimi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

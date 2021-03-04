@@ -103,3 +103,6 @@ Budjettiluokkia käytetään laskettaessa laskusummat kullekin luokalle valmistu
 8. Valinnainen: voit delegoida laskutussäännön lisäprojekteille. Valitse **projekti** -pikavälilehden **käytettävissä olevat projektit** -osasta ja valitse sitten oikea nuolipainike, kun haluat lisätä projektin **Valitut projektit** -osaan.
 9. Valinnainen: Laske sen prosenttimäärän summa, jonka asiakas pidättää maksuista laskulla. Valitse **maksun pidätysehdot** -pikavälilehdessä rahoituslähde ja kirjoita sitten **pidätysprosentti** -kenttään pidätysprosentti.
 10. Toista nämä vaiheet, kun haluat luoda projektisopimukselle lisää laskutussääntöjä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

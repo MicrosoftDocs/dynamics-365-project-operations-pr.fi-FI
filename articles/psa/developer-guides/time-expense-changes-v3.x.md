@@ -32,3 +32,6 @@ Dynamics 365 Project Service Automationin versiossa 3.0 aika -ja kulunäkymiä o
 Aiemmin ajan ja kulujen kalenteri- ja ruudukkonäkymät oli toteutettu DHTMLX-ohjausobjekteina. Kalenteri- ja ruudukko näkymien toteuttamiseen liittyvät artefaktit ovat nyt vanhentuneet (vanhentunut).
 
 Täydellinen luettelo vanhentuneista resursseista on aiheessa [Vanhentuneet verkkoresurssit Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

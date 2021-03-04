@@ -116,3 +116,6 @@ Valitse yleisen resurssin **Varaa**-kohta. Tämän jälkeen voit etsiä todellis
 Kun yleinen resurssi toteutetaan nimetyn resurssin kanssa, yleinen resurssi poistetaan ryhmästä ja yleisen resurssin tehtävän delegoinnit delegoidaan nimetylle resurssille, joka toteutti yleisen resurssin resurssitarpeen.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

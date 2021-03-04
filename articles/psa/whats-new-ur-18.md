@@ -63,3 +63,6 @@ Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia t
 **Sales**
 
 - Korjattu: kun aikamerkinnät hyväksytään uudelleen (**Hyväksy > Peruuta >** hyväksyntä uudelleen), todellisen ei-veloitettavan kaksoiskappale luodaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Seuraavassa kaaviossa on kuvattu yritysten välinen laskutus siltä osin, kun se
 - [Yritysten välisen laskutuksen määrittäminen](configure-intercompany-invoicing.md)
 - [Yritysten välisten tapahtumien tallentaminen](create-intercompany-transactions.md)
 - [Yritysten välisten asiakas- ja toimittajalaskujen luominen](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

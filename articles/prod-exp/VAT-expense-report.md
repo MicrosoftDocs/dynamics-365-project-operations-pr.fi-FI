@@ -72,3 +72,6 @@ Kun Arnie on valmis lähettämään kuluraportin tiedot kolmannelle osapuolelle,
 Arnien on tarkistettava, että kuluraportin tapahtumat ovat oikeutettuja ALV-palautukseen ja että digitaaliset kuitit on liitetty raportteihin. Aloittaakseen kotimaisen palautuksen kelpoisten kulujen käsittelemisen, Arnie Avaa **Kulun veronpalautus** -sivun ja valitsee kuluraportin, joka edellyttää vahvistusta. Hän tarkistaa, että kuitit ovat yrityksen nimissä sen sijaan että ne olisivat työntekijän nimissä. Jos kyseessä on ALV-palautus, kuittien on oltava yrityksen nimissä. Tämän jälkeen Arnie vahvistaa, että oikeat arvonlisäveroryhmän ja nimikkeen arvonlisäverokoodit on otettu käyttöön.
 
 Kun Arnie vastaanottaa paperikuitit, hän muuttaa kuluraportin tilaksi **Valmis palautettavaksi**. Hän voi sitten määrittää palautuksen asianmukaisen veroviranomaisen kanssa. Tässä tapauksessa asianmukainen veroviranomainen Yhdysvalloissa on Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

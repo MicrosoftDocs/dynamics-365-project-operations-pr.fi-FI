@@ -78,3 +78,6 @@ Hinnoitteludimensiotietueelle koskien kohdetta **msydn_bookableresource** on ilm
 5. Lisää **msdyn_bookableresourceid** **Kentän nimeen**.
 
  ![Uuden hinnoitteludimension kentän nimen lomake](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

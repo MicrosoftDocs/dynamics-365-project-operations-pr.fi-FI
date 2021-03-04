@@ -53,3 +53,6 @@ Voit miehittää projektisi ryhmällä yleisiä tai nimettyjä resursseja PSA:ss
 - [Nimettyjen resurssien varaaminen resurssitarpeista.](book-named-resource.md)
 - [Lähetä resurssipyyntö](submit-resource-request.md)
 - [Ehdotetun projektiresurssin hyväksyminen tai hylkääminen resurssipyynnöstä](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

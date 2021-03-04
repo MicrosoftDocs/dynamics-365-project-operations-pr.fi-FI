@@ -97,3 +97,6 @@ Voit valita sekä ruudukkonäkymässä että aikavaiheisessa näkymässä näyte
 ## <a name="expense-estimates"></a>Kulujen arviot
 
 **Lisää uusi kuluarvio** -painike ruudukkonäkymässä mahdollistaa sellaisten projektin kulujen kirjaamisen, jotka eivät suoraan liity työvoimaan. Voit kirjata tietyn tehtävän tai koko projektin kuluarviot. Valitse kul luokat ja alustava päivämäärä, jolloin oletat kulun tapahtuvan. Jos liitetyllä kustannushinnastolla ja myyntihinnastolla on oletushinnat (tai hinnankorotuksen prosenttiosuudet määritetään kululuokille), ne asetetaan automaattisesti arvioriville, kun liittäminen tapahtuu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

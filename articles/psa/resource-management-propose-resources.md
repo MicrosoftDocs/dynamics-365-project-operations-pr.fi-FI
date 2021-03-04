@@ -113,3 +113,6 @@ Koska Dynamics 365 Project Service Automation käyttää Universal Resource Sche
 Jos haluat tarkastella lisätietoja yksittäisestä resurssista, avaa resurssikortti napsauttamalla sitä hiiren kakkospainikkeella.
 
 ![Resurssikortti](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

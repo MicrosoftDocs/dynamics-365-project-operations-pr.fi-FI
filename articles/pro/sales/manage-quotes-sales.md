@@ -33,3 +33,6 @@ Luettelo kaikista projektitarjouksista, jotka näkyvät **Tarjoukset**-luettelos
 2. Valitse tarjousten suodatettu näkymä valitsemalla **Näkymävalitsin**. Omat näkymät ja siirtymisvaihtoehdot voidaan määrittää mukautetuilla suodatusehdoilla.
 
 Tarjouksia voidaan luoda tai poistaa tällä luettelosivulla tai tietosivuilla.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

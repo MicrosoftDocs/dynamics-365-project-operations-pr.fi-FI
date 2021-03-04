@@ -43,3 +43,6 @@ Seuraavat projektipohjaisen sopimusrivin **Sopimus**-rivin asiakastietueen kent�
 Laskutuksen jakoprosenttia voidaan muokata ruudukossa. Jos laskutuksen jakoprosenttien yhteissumma ei ole 100 prosentti, seurauksena on virhe. Kun laskutuksen jakoprosentteja on muokattu, poista virhe päivittämällä sivu.
 
 Voit kokeilla myös **Jaa tasaisesti** -vaihtoehdon valintaa sopimusrivin asiakkaan aliruudukossa. Tämä toiminto jakaa laskutuksen jaot tasaisesti kaikille sopimusrivin asiakkaille. Mahdollinen pyöristyskerron lisätään pyöristysasiakkaaseen. Yksi sopimusrivin asiakas merkitään aina **Pyöristys**-asiakkaaksi määrittämällä **Pyöristys**-merkinnän arvoksi **Kyllä**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Voit tuoda tietoja projektin varauksista ja kohdennuksista. Kun tuot tietoja, vo
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Ryhmittely-, lajittelu-, haku- ja suodatusominaisuudet
 
 Voit ryhmitellä ja suodattaa aikakirjauksia sarakkeissa määritettyjen dimensioiden mukaan. Valitse **Ryhmittelyperuste**-kentässä aikamerkintöjen suodatuksessa käytettävä dimensio. Voit myös lajitella aikamerkintätietueita nousevaan tai laskevaan järjestykseen käyttämällä sarakeotsikoiden lajittelunuolta. Lisäksi voit näyttää tai piilottaa kirjauksia valitsemalla sarakeotsikoista **Suodatin**-painikkeen ja kirjoittamalla sitten **Haku**-ruutuun tekstin, jota käytetään haettaessa aikamerkintöjä projektin nimen, projektitehtävän, aikakirjauksen tai resurssin perusteella.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

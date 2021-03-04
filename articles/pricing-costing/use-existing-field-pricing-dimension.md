@@ -31,3 +31,6 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 **Todelliset arvot** -entiteetillä on useita kenttiä, joita voidaan käyttää hinnoitteludimensioina resurssiperustaisessa hinnoittelussa. Esimerkiksi yksi yhteinen kenttä on **Varattavissa oleva resurssi**. Pienemmät yritykset, joissa on alle 20-30 laskutettavaa resurssia, voivat huomata, että laskutus- ja kustannushintojen määrittely erikseen kullekin resurssille on yksinkertaisempaa. Koska laskutettavan henkilöstön määrä kasvaa, resurssikohtaiset hintoja voi olla liikaa ylläpidettäväksi. Resurssin kustannukset ja laskumäärät alkavat vaihdella, kun resursseja mainostetaan ja taitoja ja kokemusta tulee lisää. 
 
 Toinen esimerkki on tapahtumaluokka. Asiakkaat ja toteuttajat ovat käyttäneet tapahtumaluokkaa työn luokittelussa. He käyttävät kenttää työn luokan hinnan ja kustannusten perusteella
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

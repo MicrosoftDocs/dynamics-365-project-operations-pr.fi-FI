@@ -81,3 +81,6 @@ Seuraavat kohdistustavat johtavat ylivaraukseen, jos resurssi on jo vahvistettu 
 - Jaa tunnit tasaisesti
 
 Kun käytössä on jokin näistä kolmesta kohdistustavasta, resurssin ylivarauksesta ei ilmoiteta. Voit korjata ylivarauksen aikataulutaulukon avulla.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

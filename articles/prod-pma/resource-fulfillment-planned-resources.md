@@ -40,3 +40,6 @@ Projektipäällikkö voi suunnitella projektiin tarvittavat resurssiroolit. Resu
 7. Valitse työntekijä ja sitten **Osoita**.
 8. Tarkista, että roolin **Ohjelmistokehittäjä 1** rivi on poistettu **XYZ-päivitysprojektin vaihe 2** -projektin osalta.
 9. Tarkista **XYZ-päivitysprojektin vaihe 2** -projektin **Projektitiimi ja aikataulutus** -välilehdellä, että edellisessä vaiheessa valitsemasi työntekijä on lisätty roolilla **Ohjelmistokehittäjä**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

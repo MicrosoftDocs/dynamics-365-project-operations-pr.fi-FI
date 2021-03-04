@@ -61,3 +61,6 @@ Voit luoda useita yritysten välisiä laskuja samalla kertaa kaikkien kaikille l
 ## <a name="post-the-intercompany-vendor-invoice"></a>Kirjaa yritysten välinen toimittajalasku
 
 Lainaa ottavan yrityksen projektin kirjanpitäjä voi tarkistaa odottavia yritysten välisiä laskuja, kun vastaava yritysten välinen asiakaslasku on kirjattu. Siirry Rahoituksessa lainaa ottavassa yrityksessä kohtaan **Ostoreskontra** > **Laskut** > **Odottavat toimittajan laskut**. Odottava laskun numero vastaa yritysten välisen asiakaslaskun numeroa. Tarkista, että lasku on oikein, ja kirjaa sitten lasku. Yritysten välisen toimittajan laskun kirjaaminen luo projektin alikirjanpidon ja pääkirjanpidon tapahtuman, joka vastaa tapahtuman kustannuksia lainaa ottavassa yrityksessä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

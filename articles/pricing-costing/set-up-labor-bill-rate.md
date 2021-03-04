@@ -55,3 +55,6 @@ Esimerkiksi Yhdysvalloissa työskentelevä Fabrikam Intian Robotics-osaston kehi
     | Developer | Fabrikam US | Fabrikam US - Robotics | 150 $ |
 
 3. Liitä myyntihinnasto **Fabrikam USA:n laskuhinnat** projektisopimuksen projektihinnastoon tai tietylle tilille.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

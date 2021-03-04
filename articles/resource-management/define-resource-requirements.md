@@ -26,3 +26,5 @@ Projektipäällikkö määrittää resurssivaatimukset projektin töiden suoritt
 3.  Valitse ryhmän jäsen **Ryhmän jäsen**-välilehdessä ja valitse sitten **Luo tarve**.
 
 Lisätietoja resurssitarpeen muokkaamisesta on ohje aiheessa [Resurssitarpeen tietojen päivittäminen](define-resource-requirements.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

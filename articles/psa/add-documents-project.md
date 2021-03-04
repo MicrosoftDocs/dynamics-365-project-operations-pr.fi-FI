@@ -45,3 +45,6 @@ Pidä projektiin liittyviä asiakirjoja järjestyksessä lisäämällä niitä p
   
 ### <a name="see-also"></a>Katso myös  
  [Projektipäällikön opas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

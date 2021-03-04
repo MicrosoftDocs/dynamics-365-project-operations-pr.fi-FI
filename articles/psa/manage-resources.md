@@ -344,3 +344,6 @@ Tilanteissa, joissa resurssille on kohdennuksia mutta ei varauksia, voit valita 
 ![Varaus-valintaikkunan laajentaminen](media/Resource-Management-image58.png)
 
 Projektipäällikkö tai resurssipäällikkö voi sitten käyttää aikataulutustaulua hallitakseen tilanteita, joissa resurssin varaukset ylittävät kapasiteetin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

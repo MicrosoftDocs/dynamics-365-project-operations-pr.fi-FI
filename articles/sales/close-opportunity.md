@@ -24,3 +24,6 @@ Projektimahdollisuus voidaan sulkea voitettuna tai hävittynä. **Sulje mahdolli
 Mahdollisuutta ei voi sulkea, jos siihen on liitetty aktiivisia tarjouksia. Voit sulkea kaikki mahdollisuuteen liittyvät aktiiviset ja luonnostarjoukset samanaikaisesti. Tämän jälkeen voit sulkea mahdollisuuden.
 
 Saat lisää yleisiä tietoja mahdollisuuksien sulkemisesta aiheesta [Mahdollisuuden sulkeminen voitettuina tai hävittyinä](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Kun olet luonut muutaman merkinnän, käyttäjät voivat luoda useita aikamerkin
 
 ## <a name="import"></a>Tuonti
 Samaa perusprosessia käytetään tuotaessa varauksista, kohdennuksista ja vaihdoista. Voit määrittää varausten tuonnin lähdepäivämäärävälin ja valita sitten erikseen varaukset, jotka kopioidaan luonnosaikamerkintöinä. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

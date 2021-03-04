@@ -45,3 +45,6 @@ Voit luoda määräkertoimet tuotteen ominaisuuksista seuraavasti:
 6. Tallenna ja sulje lomake. Toista nämä vaiheet kaikille ominaisuuksille, joita käytetään tuotepohjaisen tarjousrivin määrän laskennassa.
 
 Kun luot tuotteelle tuotepohjaisen tarjousrivin, tarjousrivin määrä lukitaan. Määrä lasketaan tuotteena niiden ominaisuusarvojen kertolaskuna, jotka syötetään kyseiselle tarjousriville.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

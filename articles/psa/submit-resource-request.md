@@ -41,3 +41,6 @@ Voit lähettää luodun resurssivaatimuksen resurssipyyntönä. Pyyntö lähetet
 Yleisen ryhmän jäsenen pyynnön tila muuttuu tilaksi **Lähetetty**.
 
 Kun resurssipäällikkö on täyttänyt pyynnön, yleinen resurssi korvataan nimetyllä resurssilla, jos resurssipäällikkö täyttää pyynnön nimetyn resurssin varauksella. Muussa tapauksessa yleinen resurssi säilyy ryhmässä ja pyynnön tilaksi muuttuu **Vaatii tarkistusta**, jos resurssipäällikkö on ehdottanut nimettyä resurssia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

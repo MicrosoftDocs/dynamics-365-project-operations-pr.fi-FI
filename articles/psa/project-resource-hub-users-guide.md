@@ -105,3 +105,6 @@ Anna kustannukset vähintään viikoittain (tai esimiehesi pyytämällä taajuud
  [Project Servicen yleiskuvaus](../psa/overview.md)   
  [Aika-, kulu- ja yhteistyöopas](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

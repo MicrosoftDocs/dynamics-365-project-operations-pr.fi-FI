@@ -316,3 +316,6 @@ Voit myös korjata aikataulutusvirheet yksitellen napsauttamalla kunkin tehtäv�
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Jokainen yritys, joka käyttää projektitoimintoja Dynamics 365 Customer Engage
   - **Laskutustyyppioletukset**: Project Operations käyttää kiinteää joukkoa laskutustyyppioletusarvoja, jotka on yhdistettävä rivin ominaisuuksiin Financessa. Tietueen luominen kullekin laskutustyypille: **ei määritetty**, **Laskutettava**, **Ei-laskutettava**, **maksuton** ja **ei käytettävissä**.
   - **Projektiluokan oletusarvot**: Valitse kullekin tapahtumatyypille käytettävät oletusprojektiluokat. Näitä oletusarvoja käytetään **Projektitoimintojen integrointikirjauskansiossa** ja arvioissa, joissa projektin toteutumiselle ei ole määritetty tapahtumaluokkaa.
   - **Ennusteet**: Valitse ennustemalli, jota käytetään aika- ja kuluarvioille.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Jos haluat ottaa käyttöön resurssien aikataulutuksen tehokkuuden parantamisen
 
 > [!NOTE]
 > Tämä jakaa yleiset tiedot **ResRollup** -taulukkoon kaikissa ympäristössäsi olevissa yrityksissä, joten eräajo on suoritettava vain yhdessä yrityksessä. Tätä eräajoa tarvitaan kaikissa **resurssin käytettävyys** -näkymissä. Jos tätä eräajoa ei suoriteta, **ResRollup** -tiedot luodaan lennossa, mikä voi viedä aikaa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

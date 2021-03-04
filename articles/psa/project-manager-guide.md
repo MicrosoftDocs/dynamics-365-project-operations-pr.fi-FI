@@ -95,3 +95,6 @@ Tässä oppaassa on tietoja, jotka tarvitset projektien luontiin ja hallintaan.
  [Resurssipäällikön opas](../psa/resource-manager-guide.md)   
  [Aika-, kulu- ja yhteistyöopas](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

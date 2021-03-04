@@ -58,3 +58,6 @@ Lisäohjeita on saatavilla tehtävien oppaina. Voit käyttää tehtäväoppaita 
 ### <a name="videos"></a>Videot
 
 Tutustu ohjevideoihin, jotka ovat nyt saatavilla [Microsoft Dynamics 365:n YouTube-kanavalla](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

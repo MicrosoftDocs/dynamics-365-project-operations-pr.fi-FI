@@ -112,3 +112,6 @@ Ei. Projektiarviot on tällä hetkellä rajoitettu tunteihin eikä tähän voi t
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Voiko yksikköjä ja yksikköryhmiä muokata, poistaa ja lisätä?
 Kyllä. **Aika**-yksikköryhmää ja **Tunti**-yksikköä lukuun ottamatta kaikkia yksikköjä voi poistaa tai muokata ja uusia yksikköjä voi lisätä. PSA:ssa **Aika**-yksikköryhmää ja **Tunti**-yksikköä ei voi poistaa. Niitä voidaan kuitenkin päivittää **Nimi**-kenttää varten käännetyllä tekstillä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

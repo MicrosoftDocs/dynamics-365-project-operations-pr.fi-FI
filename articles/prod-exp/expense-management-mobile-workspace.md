@@ -240,3 +240,6 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
 22. Valitse **Lähetä**.
 23. Anna mahdolliset hyväksyjää koskevat kommentit.
 24. Valitse **Valmis**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

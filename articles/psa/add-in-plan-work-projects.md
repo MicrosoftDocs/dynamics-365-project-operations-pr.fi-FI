@@ -242,3 +242,6 @@ Seuraavassa taulukossa kuvataan, miten projektitehtävän riippuvuuksien entitee
 
 ### <a name="additional-resources"></a>Lisäresurssit
  [Projektipäällikön opas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

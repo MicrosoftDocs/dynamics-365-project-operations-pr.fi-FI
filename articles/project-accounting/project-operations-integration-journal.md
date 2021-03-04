@@ -55,3 +55,6 @@ Project Operationsin integroinnin kirjauskansion riveillä voidaan päivittää 
 Vaikka integroinnin kirjauskansion rivejä voi poistaa, kirjaamattomat rivit lisätään kuitenkin kirjauskansioon uudelleen, kun kausittainen **Tuo valmistelusta** -prosessi suoritetaan uudelleen.
 
 Kun integroinnin kirjauskansio kirjataan, projektin alakirjanpito- ja kirjanpitotapahtumat luodaan. Niitä käytetään myöhemmin asiakkaan laskutuksessa, tuloutuksessa ja taloushallinnon raportoinnissa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

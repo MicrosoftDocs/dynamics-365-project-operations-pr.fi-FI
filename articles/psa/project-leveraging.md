@@ -54,3 +54,6 @@ Voit määrittää työmäärän ja aikataulutuksen arviot käyttämällä **Aik
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Arvioiden tuominen projektista tarjoukseen
 
 Kun olet määrittänyt projektin arviot, voit tuoda ne tarjousriviin. Valitse **Tarjousrivin tiedot** -sivulla tehtäväpalkissa **Tuo arvioista** luodaksesi yhteenvedon projektin arvioista tapahtumatyypin, roolin tai tehtävän tason mukaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

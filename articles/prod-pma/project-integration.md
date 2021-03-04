@@ -127,3 +127,6 @@ Voit luoda uuden työrakenteen Microsoft Project Client -ohjelmalla ja korvata o
 8.  Valitse resursoinnissa käytettävä **kalenteri**.
 
 11. Valitse **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

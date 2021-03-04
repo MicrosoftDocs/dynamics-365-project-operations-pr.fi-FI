@@ -53,3 +53,6 @@ Jos haluat määrittää työntekijälle pätevyyksiä, voit käyttää **Työte
 5. Valitse **Tasopäivämäärä** -kentässä **14.1.2014**.
 6. Syötä **Kokemus vuosissa** -kenttään **10**.
 7. Valitse **Tallenna** ja sulje sivu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja 
 | **Projektin suunnittelu ja seuranta** | 2164035 | Korjattu **Kopioi projekti** -toimintoon liittyvät ongelmat. |
 | **Aikamerkintä** | 2129161 | Tiukemmat rajoitukset, jotta käyttäjät eivät voi muuttaa ja päivittää lähetettyä tai hyväksyttyä aikamerkintää. |
 | **Aikamerkintä** | 2103572 | Muiden kuin projektiaikamerkintöjen aikahyväksyntä ei saa etsiä projektin hyväksyjän roolia. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Seuraavassa kerrotaan muutamia ehdotuksia, jotka voivat auttaa kulujen hallinnan
 ## <a name="when-to-evaluate-policies"></a>Käytäntöjen arvioimisajankohta
 
 Kustannushallintaparametreissa on mahdollisuus joko arvioida kustannusten hallintakäytännöt, kun rivi tallennetaan tai kun kustannusraportti lähetetään. Jos päätät arvioida, kun rivi tallennetaan, se varmistaa, että käyttäjillä on aikaisempi näkyvyys siitä, mitä heidän on tehtävä, jotta kuluraportti voidaan täydentää kerralla. Muussa tapauksessa voit viivästyttää käytännön arviointia ja säästää aikaa suorittamalla tarkistuksen lopussa työnkulun lähettämisen aikana.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

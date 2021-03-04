@@ -41,3 +41,6 @@ Jos asiakas hyväksyy projektitarjouksen, voit kopioida projektitarjouksen tiedo
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

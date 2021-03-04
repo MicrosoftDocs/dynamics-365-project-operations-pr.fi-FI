@@ -68,3 +68,6 @@ Koska varauksia ja delegointeja ei ole yhdistetty tiiviisti, on mahdollista vara
 > [!NOTE]
 > Jos siirrät tehtävän, jolle olet määrittänyt jaksottumisen itse, jaksottumisia ei ylläpidetä. Jaksotukset luodaan projektikalenterin mukaan. Niiden avulla otetaan huomioon työajan ja lomien muutokset. Tämä on tarkoituksellista, koska järjestelmä ei tunnista alkuperäisen jaksottumisen tarkoitusta eikä pysty määrittämään sitä, kannattaako jaksottuminen säilyttää uudella ajanjaksolla. Koska varauksia ja delegointeja ei ole yhdistetty, varaukset säilytetään alkuperäisten varausten jaksottumisissa. Tällöin varaus on peruutettava ja tehtävä varaus uudelleen uuden delegoinnin jaksottumiseen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

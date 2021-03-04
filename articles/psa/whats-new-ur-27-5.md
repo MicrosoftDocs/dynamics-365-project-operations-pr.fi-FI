@@ -42,3 +42,6 @@ Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia t
 Seuraavat ongelmat on korjattu:
 
 - Aikataulutusavun hakutoiminnon suorituskyvyn heikkeneminen
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

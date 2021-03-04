@@ -42,3 +42,6 @@ Resurssien taidot on luokiteltu pätevyysmallien mukaan. Yksittäiset luokitukse
 
 
 Nämä luokitusarvot näytetään **Resurssivaatimukset**, **Aikataulutaulukko** ja **Aikatauluavustaja** -suodattimissa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

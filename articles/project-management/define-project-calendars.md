@@ -49,3 +49,6 @@ Määritä projektin aikataulun luomista varten projektikalenteri, joka määrit
 8. Syötä **Työmalli**-dialogilaatikossa työmallin nimi, ja valitse sen jälkeen **Käytä**. 
 
 Voit nyt liittää työmallin projektin kalenterimalliin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

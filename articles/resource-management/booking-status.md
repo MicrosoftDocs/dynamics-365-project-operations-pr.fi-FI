@@ -20,3 +20,6 @@ ms.locfileid: "4514516"
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
 Voit käyttää Universal Resource Schedulingin toimintoja Dynamics 365 Field Servicessä varaustietojen määrittämiseksi organisaatiollesi. Lisätietoja tämän määrityksen suorittamisesta on kohdassa [Varaustilojen määrittäminen](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

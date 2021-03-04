@@ -57,3 +57,6 @@ Sääntö: projekti ja tietty tapahtumaluokka voidaan sisällyttää vain yhdell
 | S1       | SR2           | K1      | No           | Kyllä             | No          | Kelvollinen           | SR1 sisältää projektin P1 ajan ja maksut. SR2 sisältää projektin P1 kulun. </br>   Siinä, mitä kummallekin sopimusriville sisällytetään, ei ole päällekkäisyyttä, joten kelpaa.  |
 | S1       | SR1           | K1      | Kyllä          | Kyllä             | Kyllä         | Ei kelpaa       | Rikkoo sääntöä. Projektin P1 aika, kulu ja maksut sisältyvät kahden sopimuksen riveille.                                                                                               |
 | SR2      | SR2           | K1      | Kyllä          | Kyllä             | Kyllä         | Ei kelpaa       | Rikkoo sääntöä. Projektin P1 aika, kulu ja maksut sisältyvät kahden sopimuksen riveille.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

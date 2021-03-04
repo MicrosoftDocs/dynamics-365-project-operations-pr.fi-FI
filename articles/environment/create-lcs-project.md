@@ -36,3 +36,6 @@ Käytä Lifecycle Services (LCS) -palveluita Dynamics 365 Project Operations -ym
 
 Käytä tätä LCS-projektia Project Operations -ympäristön käyttöönottoon.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

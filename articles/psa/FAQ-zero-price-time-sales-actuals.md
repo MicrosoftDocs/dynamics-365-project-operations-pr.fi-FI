@@ -57,3 +57,6 @@ Jos toteutuneen ajan myynnin hinnoitteludimensioiden roolin hinnan ruudukossa ei
 
 Jos toteutuneen ajan myynnillä ei ole sallittua hintaa näiden kolmen edellä mainitun tarkistuksen jälkeen ole sallittu, kirjaa tukipyyntö. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

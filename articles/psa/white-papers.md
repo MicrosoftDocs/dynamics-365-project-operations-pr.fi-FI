@@ -45,3 +45,6 @@ Näissä julkaisuissa on yksityiskohtaisia tietoja [!INCLUDE[pn_crm_shortest](..
 
 ### <a name="see-also"></a>Katso myös
  [Project Servicen yleiskuvaus](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

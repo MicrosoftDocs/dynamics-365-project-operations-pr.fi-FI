@@ -38,3 +38,6 @@ Nämä usein kysytyt kysymykset koskevat toteutuneita kuluja, joissa tapahtuman 
 Siirry liittyvään kulumerkintään ja varmista, että kulumerkinnän kentässä on summa. Jos alkuperäisen kulumerkinnän kenttään ei ole annettu summaa, olet eristänyt ongelman.
  
 Voit ratkaista tämän ongelman luomalla kulumerkinnän, jolla on sallittu summa, ja hyväksymällä sen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

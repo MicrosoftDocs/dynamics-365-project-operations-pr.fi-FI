@@ -98,3 +98,6 @@ Noudata ohjeita aiheessa [Uuden ympäristön valmistelu](resource-provision-new-
 
 Asenna CDS:n määritys- ja konfiguraatiotiedot aiheessa [Konfiguraatiotietojen määritys ja käyttöönotto Common Data Servicessa](resource-apply-pro-setup-config-data.md) kuvatulla tavalla.
 Suorita tämä vaihe vasta sen jälkeen, kun Financen demoympäristö on otettu käyttöön ja esittelytiedot ovat valmiina.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

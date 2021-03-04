@@ -52,3 +52,6 @@ Päivitä laajennukset ja rekisteröi ne uudelleen suorittamalla seuraavat vaihe
 7. Valitse **OK** sulkeaksesi sivun ja valitse sitten **Päivitysvaihe**.
 8. Toista vaiheet 2–7 toiselle laajennukselle, **PreOperationQuoteLineDetail**. Tätä laajennusta varten on päivitettävä **Päivitä msdyn_quotelinetransaction** -vaihe.
 9. Sulje **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Seuraavissa aiheissa on lisätietoja tarjousten, hinnoittelun ja laskutuksen toi
 - [Yksikköryhmät ja yksiköt](advanced-units.md)
 - [Monien yksiköiden valuutta](advanced-currency.md)
 - [Todellisten arvojen kirjaaminen](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

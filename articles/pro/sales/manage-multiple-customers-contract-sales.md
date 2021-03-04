@@ -52,3 +52,6 @@ Sopimuksen asiakas voidaan luoda, päivittää tai poistaa **Projektisopimus**-s
 Laskutuksen jakoprosenttia voidaan muokata ruudukon muokkaustoiminnolla. Jos laskutuksen jakoprosenttien yhteissumma ei ole 100 prosenttia, seurauksena on virhe. Kun laskutuksen jakoprosentteja on muokattu, hylkää virhe päivittämällä sivu.
 
 Voit myös valita **Jaa tasaisesti** **Sopimuksen asiakkaat** -aliruudukossa, jolloin laskutus jaetaan tasaisesti kaikille sopimuksen asiakkaille. Mahdollinen pyöristyskerron lisätään pyöristysasiakkaaseen. Yksi sopimuksen asiakkaista merkitään aina **pyöristysasiakkaaksi**, minkä vuoksi sopimuksen asiakastietueen pyöristysmerkintänä on **Kyllä**. Yleensä kyse on sopimuksen ensisijaisesta asiakkaasta, mutta se voidaan vaihtaa.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

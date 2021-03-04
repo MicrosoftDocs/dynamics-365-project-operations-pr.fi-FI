@@ -26,3 +26,6 @@ Varauksista poiketen delegoinnit ovat projektiaikataulun projektitehtäviin sito
 Yleensä resurssin varausten summa on yhtä suuri kuin resurssin delegointien summa yhdessä tai useassa tehtävässä. Project Operations ei kuitenkaan pakota tätä yhdenmukaisuutta. Projektipäällikkö näkee **Täsmäytys**-näkymässä kohteet, joissa resurssin varaukset ja delegoinnit eivät täsmää.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

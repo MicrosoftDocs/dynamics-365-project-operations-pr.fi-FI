@@ -135,3 +135,6 @@ Jos todellisia arvoja saadaan laskun luomisen jälkeen, nämä todelliset arvot 
 2. Avaa proformalaskun luonnos ja valitse **Toiminnot**-valintanauhassa **Päivitä laskurivin tapahtumat**.
 
   Tällä tavoin voidaan luoda laskurivin tiedot todelliselle arvolle, jonka päivämäärä on menneisyydessä ja jossa on merkintä **Valmis laskuttamista varten** mutta jota ei ole sisällytetty laskuun.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Laskuta ennakko asiakkaalta seuraavasti:
     | **Laskun tila** | Tämä asetusjoukko ilmaisee, lisätäänkö ennakko tämän asiakkaan luonnoslaskuun. Mahdolliset arvot:</br>- **Ei valmis laskuttamista varten**</br>- **Valmis laskuttamista varten** | Jos ennakon tai ennakkomaksun merkintänä on **Valmis laskutettavaksi**, se lisätään rivien aikana luonnoslaskuun. Vain täysin laskutettua ennakkoa voidaan käyttää täsmäyttämään seuraavan laskukauden projektikustannuksia. |
 
 4. Kirjaa ennakko tai ennakkomaksu valitsemalla **Tallenna ja sulje** pikaluonti-ikkunassa.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Seuraavat ongelmat on korjattu:
 - Kun Dynamics 365 Field Service ja Project Service Automation on asennettu **Lukitse hinta** ja **Käytä nykyistä hinnoittelua** -vaihtoehtoja ei näy samanaikaisesti **Lasku**-sivulla.
 - Japaninkielisessä käännöksessä on ristiriita muiden kalenteripohjaisten sivujen kanssa.
 - **Aktivoi** ja **Poista aktivointi** on poistettu **Hinnaston liitos** -entiteeteistä Project Service Automationissa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

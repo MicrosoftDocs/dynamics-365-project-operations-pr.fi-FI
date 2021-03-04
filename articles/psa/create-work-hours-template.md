@@ -65,3 +65,6 @@ Ennen kuin voit luoda projektiaikataulun, sinun pitää määrittää projektika
   
 ### <a name="see-also"></a>Katso myös  
  [Resurssien määrittäminen](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ Federal Awards -tutkimuksen kulujen aikataulu sisältää seuraavat sarakkeet:
 - Federal Domestic Assistance -luettelo
 - Kuitit
 - Menot
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

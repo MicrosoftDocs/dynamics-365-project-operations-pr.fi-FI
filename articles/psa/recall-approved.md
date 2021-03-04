@@ -107,3 +107,6 @@ Seuraavassa kuvassa näkyvät muutokset, jotka tapahtuvat hyväksytyille aikakir
 Seuraavassa kuvassa näkyvät muutokset, jotka tapahtuvat hyväksytyille kulukirjauksille kun ne peruutetaan.
 
 ![Kulujen syötön tilasiirtymät](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

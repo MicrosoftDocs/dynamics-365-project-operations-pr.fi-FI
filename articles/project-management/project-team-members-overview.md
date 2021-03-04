@@ -60,3 +60,6 @@ Ryhmän jäsen -ruudukosta voidaan tehdä seuraavat toiminnot:
 
 - **Uusi**: Sen lisäksi, että projektipäälliköt voivat lisätä resursseja suoraan aikataulusta, he voivat lisätä uusia nimettyjä tai yleisiä ryhmän jäseniä Ryhmän jäsen -ruudukosta.
 - **Poista**: Valitsemalla yhden tai useita ryhmän jäseniä projektipäällikkö voi poistaa resursseja, jotka eivät enää osallistu projektiin. Ryhmän jäsenen poistaminen poistaa myös kaikki liittyvät resurssimääritykset ja peruuttaa kaikki aiemmin luodut varaukset.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

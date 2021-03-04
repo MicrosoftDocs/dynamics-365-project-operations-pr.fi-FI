@@ -40,3 +40,6 @@ Jos hävittynä suljettu projektitarjous viittaa projektiin riveillään, myös 
 
 > [!NOTE]
 > Project Operationsissa tarjouksen sulkeminen voitettuna tai hävittynä ei vaikuta mahdollisuuden tilaan, joka säilyy avoimena, kunnes se suljetaan manuaalisesti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

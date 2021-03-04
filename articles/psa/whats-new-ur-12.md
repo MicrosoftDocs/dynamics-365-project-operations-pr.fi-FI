@@ -61,3 +61,6 @@ Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia t
     - Korjattu: **Sopimus**-päälomakkeesta löytyi päällekkäisiä objektitunnuksia.
     - Korjattu: logiikka on päivitetty, jotta **Tarjousanalyysi** -välilehti näkyy siten, että se näyttää välilehden metatietomääritykset.
     - Korjattu: Todellisten arvojen tietueen kirjanpitopäivä on nyt peräisin ajan/kulun merkintäpäivämäärästä eikä hyväksynnän päivämäärästä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

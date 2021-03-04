@@ -144,3 +144,6 @@ Jos todellisia arvoja saadaan laskun luomisen jälkeen, nämä todelliset arvot 
 Project Operationsissa tuotteille voi luoda laskurivejä, joita ei käytetä mihinkään projektiin tai joita käytetään kaikissa projekteissa yhdessä projektipohjaisten laskurivien kanssa. Nämä laskurivit luodaan tuotepohjaisina sopimusriveinä, ja ne lisätään tuotepohjaisina laskuriveinä sen jälkeen, kun ne merkitty valmiiksi laskutettaviksi.
 
 Kun tuotepohjaiset laskurivit on lisätty, niitä ei voi muuttaa. Ne voidaan kuitenkin poistaa proformalaskun luonnoksesta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

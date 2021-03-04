@@ -65,3 +65,6 @@ Dynamics PSA:n asiakkaat eivät enää 1.3.2020 alkaen pysty luomaan uutta ympä
 
 > [!NOTE]
 > Saadaksesi parhaan käyttökokemuksen vanhemmista Field Service - ja PSA-sovelluksista, siirry sivulle **Järjestelmäasetukset**, ja valitse kentälle **Käytä vain uutta Unified Interfacea** arvoksi **Ei**, sillä näitä versioita ei ole suunniteltu ladattavaksi oikein UCI:n. Kun olet poistanut UCI:n käytöstä, voit avata ja suorittaa nämä Field Service - ja PSA-versiot käyttämällä vanhaa www-asiakasohjelmaa. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

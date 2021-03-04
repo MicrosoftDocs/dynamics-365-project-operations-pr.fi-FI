@@ -60,3 +60,6 @@ Sellaisiin laskuttamattomiin myynnin todellisiin arvoihin, joiden **Ei-ylitettä
 Jos monen asiakkaan sopimusrivien laskutustapana on aika ja materiaali, aikaa ja kuluja hyväksyttäessä yksi laskuttamaton myynnin todellinen arvo luodaan kullekin sopimusrivin asiakkaalle kullekin asiakkaalle määritetyn laskutuksen jakoprosentin mukaisesti. Nämä yksittäiset asiakaskohtaiset laskuttamattomat myynnin todelliset arvot näkyvät **Keskeneräiset ajan ja materiaalin laskutukset** -näkymässä. Kukin näistä laskuttamattomista toteutuneista myynneistä voidaan merkitä **valmiiksi laskutettavaksi** erillään tästä näkymästä.
 
 Luonnoslaskussa olevan laskuttamattoman myynnin todellisen arvon laskutuksen tilana näytetään tässä näkymässä **Asiakaslasku luotu**. Kun luonnoslasku on vahvistettu, tämän tietueen laskutuksen tilaksi päivittyy **Asiakaslasku kirjattu**. Älä päivitä tätä tila-arvoa mukautetulla koodilla. Project Operations ei toimi oikein, jos nämä tila-arvot päivitetään mukautetulla koodilla.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

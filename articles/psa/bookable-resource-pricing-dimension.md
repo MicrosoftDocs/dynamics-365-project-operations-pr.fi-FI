@@ -76,3 +76,6 @@ Näkyviin tulee **msdyn_bookableresource**-kentän **Uusi hinnoitteludimension k
 5. Lisää **msdyn_projectteam** kenttään **Entiteetin looginen nimi** ja **msdyn_bookableresourceid** kenttään **Kentän nimi**. Tallenna tietue.
 
  ![Uuden hinnoitteludimension kentän nimen lomake](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

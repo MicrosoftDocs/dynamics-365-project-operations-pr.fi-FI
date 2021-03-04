@@ -77,3 +77,6 @@ Tavoitejulkaisupäivämäärät voivat muuttua. Lisätietoja on kohdassa [Palvel
 | --- | --- |
 | 10.0.17 | 19. maaliskuuta 2021 |
 | 10.0.18 | 16. huhtikuuta 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

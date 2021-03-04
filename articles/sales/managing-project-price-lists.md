@@ -120,3 +120,6 @@ Laskutushintojen lailla myös henkilöresurssien kustannushinnat määritetään
     1. Organisaatioyksikköön liitetty kustannushinnasto.
     2. Project Operationsin parametreihin liitetty kustannushinnasto. Koska parametreihin voidaan liittää kustannushinnastoja monissa eri valuutoissa, projektin, sopimuksen tai tarjouksen sopimusorganisaatioyksikön valuutan ja kustannushinnaston valuuttojen vastaavuus määritetään.
     3. Kulujen osalta hinnoittelutapoja kustannusten mukaan ja hinnankorotus prosentteina kustannuksista ei voi käyttää kustannushinnastoissa. Vaikka näitä hinnoittelutapoja käytettäisiin kustannushinnaston riveillä tapahtumaluokan kustannusten määrittämiseen, järjestelmä jättää ne huomioimatta eikä oletusarvoista kustannushintaa määritetä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ ms.locfileid: "4075325"
 10. Valitse OK. 
 
 Tämän vaiheen jälkeen hyvityslasku on käytettävissä laskuehdotusta varten.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

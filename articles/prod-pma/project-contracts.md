@@ -344,3 +344,6 @@ Ensimmäisen kuukauden aikana konsultit kirjaavat projektille yhteensä 800 tunt
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

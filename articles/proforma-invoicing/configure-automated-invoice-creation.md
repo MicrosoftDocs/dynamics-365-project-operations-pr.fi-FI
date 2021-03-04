@@ -45,3 +45,6 @@ Laskujen luomisen erätyö on toistuva työ. Jos tämä erätyö suoritetaan use
 
 > [!NOTE]
 > Erälaskutus suoritetaan vain sellaisille projektisopimusriveille, jotka on määritetty laskun aikataulun mukaan. Jos sopimusrivillä on kiinteähintainen laskutusmenetelmä, sillä on oltava määritettyinä välitavoitteet. Jos projektisopimusrivillä on aika- ja materiaalipohjainen laskutusmenetelmä, sille on määritettävä päivämäärään perustuva laskutusaikataulu. Sama koskee myös projektipohjaista sopimusriviä.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Ennen kuin pyydät tai varaat resursseja [!INCLUDE[pn_project_service_auto](../i
   
 ### <a name="see-also"></a>Katso myös  
  [Määritä Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

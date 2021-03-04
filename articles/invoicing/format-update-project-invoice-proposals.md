@@ -143,3 +143,6 @@ Jos haluat tarkastella laskua ennen kirjausta, poista **Kirjaus**-valintaruudun 
 **Laskuehdotus**-sivun lisäksi laskuehdotukset voi kirjata myös suorittamalla kausittaisen työn **Laskuehdotusten kirjaus**. Tämä työ löytyy kohdasta **Projektinhallinta ja kirjanpito** > **Kausittainen** > **Projektilaskut** > **Laskuehdotusten kirjaus**.
 
 Tällä sivulla näkyvät kaikki laskuehdotukset, jotka ovat valmiita kirjattaviksi. Voit aikatauluttaa laskuehdotusten kirjauksen valitsemalla **Erä**. Aseta **erän käsittelyparametriksi** **Kyllä** ja määritä erän käsittelyn toistuminen valitsemalla **Toistuminen**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

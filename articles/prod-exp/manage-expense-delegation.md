@@ -41,3 +41,6 @@ Kun ominaisuuden hallinta-avain **Ota käyttöön kulujen delegoinnin luettelosi
 Edustajakäyttäjä voi suodattaa ja hakea nopeasti hänelle aiemmin delegoituja kuluraportteja. Edustajakäyttäjät voivat myös luoda uuden kuluraportin muille käyttäjille valitsemalla **Uusi kuluraportti**.
 
 Edustajakäyttäjät voivat myös luoda ja hallita muiden työntekijöiden kuluraportteja valitsemalla **Kulujen hallinta** > **Omat kulut** > **Kuluraportit** ja valitsemalla **Avaa toisen käyttäjän kulut**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

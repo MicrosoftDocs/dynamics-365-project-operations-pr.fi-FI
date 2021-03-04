@@ -36,3 +36,6 @@ Kun vahvistat korjaavan laskun, alkuperäinen laskutetun myynnin todellinen arvo
 
 - Laskutetun myynnin todellisen arvon kuudelle tunnille.
 - Laskuttamattoman myynnin todellisen arvon kahdelle jäljelle jääneelle tunnille. Tämä tapahtuma voidaan joko laskuttaa myöhemmin tai merkitä ei-veloitettavaksi riippuen siitä, mitä asiakkaan kanssa sovitaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

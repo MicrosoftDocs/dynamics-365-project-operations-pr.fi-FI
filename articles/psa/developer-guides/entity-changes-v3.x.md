@@ -84,3 +84,6 @@ Seuraavat verkkoresurssit ovat vanhentuneet:
 > Täydellinen luettelo vanhentuneista resursseista on aiheessa [Vanhentuneet verkkoresurssit Project Service Automationin versiossa 3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Asiakkaiden projektit edellyttävät erilaisia taitoja työn suorittamiseen, kut
   
 ### <a name="see-also"></a>Katso myös  
  [Resurssien määrittäminen](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

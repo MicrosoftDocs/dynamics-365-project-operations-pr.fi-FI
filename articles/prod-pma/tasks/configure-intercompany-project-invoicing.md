@@ -64,3 +64,6 @@ T채m채 aihe osoittaa, miten projektilaskutus m채채ritet채채n kahden yrityksen v�
 32. Kirjoita **Hinnoittelu** -kentt채채n numero.
 33. Valitse **Tallenna**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

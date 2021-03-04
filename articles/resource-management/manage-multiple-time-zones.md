@@ -68,3 +68,6 @@ Kun Laajenna varausta -toimintoa on käytetty kunkin resurssin kohdalla, varauks
 Huomaa, että lähemmät tiedot varauksista osoittavat, miten varausten alkamisaika on erilainen. Varaus alkaa aikaisintaan delegoinnin aikavälin alussa ja aikaisintaan resurssin käytettävissäoloajan alkamisaikana.
 
 ![Resurssien uudet varaukset aikataulutaulukossa](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

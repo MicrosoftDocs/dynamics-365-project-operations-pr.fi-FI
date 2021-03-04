@@ -67,3 +67,6 @@ Seuraavat ongelmat on korjattu:
 Seuraavat ongelmat on korjattu:
 
 - **Nouda kaikki tapahtumaluokat** -kaksoisnapsautus luo useita rivejä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

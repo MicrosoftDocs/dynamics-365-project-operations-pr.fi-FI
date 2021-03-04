@@ -113,3 +113,6 @@ Lataa ja asenna Finance and Operations -mobiilisovellus:
 11. Valitse riviominaisuus.
 12. Valinnaista: Lisää ulkoisia ja sisäisiä kommentteja.
 13. Valitse **Valmis**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Määräkertoimia luodaan tuotteen ominaisuuksista seuraavasti:
 7. Toista vaiheet 2–6 kaikkien niiden ominaisuuksien osalta, jotka yhdessä muodostavat tuotepohjaisen sopimusrivin määrän.
 
 Kun määräkertoimet on määritetty ja käyttäjä luo tuotteelle sopimusrivin, sopimusrivin määrä lukitaan. Määrä lasketaan sitten kyseisen sopimusrivin ominaisuusarvojen tuotteena.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

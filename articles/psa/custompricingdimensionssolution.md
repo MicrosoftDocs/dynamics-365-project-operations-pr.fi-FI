@@ -68,3 +68,6 @@ Sinun on lisättävä seuraavat Project Service -entiteetit hinnoitteluratkaisuu
 > ![Älä lisää kaikkia liittyviä komponentteja.](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

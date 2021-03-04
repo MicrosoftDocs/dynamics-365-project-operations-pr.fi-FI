@@ -43,3 +43,6 @@ Jos haluat tehdä kopion hinnastosta, tee seuraavat toimet.
 1. Hinnankorotuksen voi käyttöön kaikissa aliruudukon hinnoissa valitsemalla hinnaston **Rooli**-, **Luokka**- ja **Hinnaston nimike** -välilehdissä **Päivitä hinnat**. 
 2. Kirjoita avautuvaan valintaikkunaan korotus. Voit myös määrittää negatiivisen korotusprosentin, jolloin hinnat laskevat tietyllä prosenttiosuudella. 
 3. Valitse valintaruudussa **OK** ja varmista sitten, että aliruudukon hinnat vastaavat tehtyjä muutoksia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

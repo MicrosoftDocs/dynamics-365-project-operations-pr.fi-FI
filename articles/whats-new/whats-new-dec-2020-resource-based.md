@@ -109,3 +109,6 @@ Tähän julkaisuun sisältyvät seuraavat ominaisuudet:
 
 ### <a name="regulatory-updates"></a>Säännöstenmukaisuuspäivitykset
 Lisätietoja Finance and Operations -sovellusten säännöstenmukaisuuspäivityksistä on kohdassa [Säännöstenmukaisuuspäivitykset](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Voit myös kirjautua LCS:ään ja tutustua suunniteltuihin säännöstenmukaisuuspäivityksiin käyttämällä versiohakutyökalua. Versiohaussa voit käyttää hakuehtona maata, ominaisuustyyppiä ja versiota.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

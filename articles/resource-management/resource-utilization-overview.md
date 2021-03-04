@@ -45,3 +45,6 @@ Lisäksi jokaiselle varattavissa olevalle resurssille on määritettävä oletus
 **Project Service** -välilehdellä voit myös määrittää yksittäisen tavoitekäytön resurssille. Käytön laskenta käyttää sen jälkeen tätä tavoitekäyttöastetta määrittääkseen resurssin tavoitteen resurssin oletusroolin tavoitteen asemesta.
 
 Resurssin käyttöaste näytetään ainoastaan, jos resurssilla on hyväksyttyä laskutettavaa aikaa sen jakson aikana, joka näkyy ruudukossa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

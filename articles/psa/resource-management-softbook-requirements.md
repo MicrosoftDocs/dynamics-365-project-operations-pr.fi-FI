@@ -63,3 +63,6 @@ Voit käyttää samaa menetelmää sitovan varauksen tai alustavan varauksen per
 Muuttaaksesi alustavasti varatun resurssin sitovasti varatuksi, valitse resurssi projektin **Ryhmä**-välilehdellä ja valitse sitten **Vahvista**.
 
 ![Vahvista-komento](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

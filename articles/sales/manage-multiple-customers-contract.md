@@ -47,3 +47,6 @@ Sopimusasiakas voidaan luoda, päivittää tai poistaa **Sopimusasiakkaat**-väl
 Laskutuksen jakoprosenttia voidaan muokata ruudukossa. Jos laskutuksen jakoprosenttien yhteissumma ei ole 100 prosentti, seurauksena on virhe. Kun laskutuksen jakoprosenttia on muokattu, päivitä **Projektisopimus**-sivu virheen poistamiseksi.
 
 Voit kokeilla myös **Jaa tasaisesti** -vaihtoehdon valintaa projektisopimusasiakkaiden aliruudukossa. Laskutuksen jakoprosentit kohdistetaan tasaisesti kaikille projektisopimuksen asiakkaille. Mahdollinen pyöristyskerron lisätään pyöristysasiakkaaseen. Jonkin sopimusasiakkaan **Pyöristys** lipun arvon on aina oltava **Kyllä**. Tämä asiakas on pyöristysasiakas. Yleensä pyöristysasiakas on myös palvelusopimuksen ensisijainen asiakas, mutta se ei ole pakollista.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

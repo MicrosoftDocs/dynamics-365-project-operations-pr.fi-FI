@@ -96,3 +96,6 @@ Lähetä aikaraportti hyväksynnän työkulkuun valitsemalla **Lähetä**.
 ## <a name="review-timesheets"></a>Aikaraporttien tarkistaminen
 
 Valikossa on käytettävissä luettelo aikaraporteista, jotka on tarkistettava. Tämä vaihtoehto on käytettävissä vain, jos sinut on määritetty työnkulun hyväksyjäksi. Sekä otsikko- että rivihyväksyntä ovat tuettuja. Rivitason hyväksyntä tarjoaa mahdollisuuden merkitä yhden tai useamman rivin hyväksyntää varten. Kun olet tarkistanut aikaraportin tiedot, jatka työnkulkua valitsemalla **Hyväksy** , **Delegoi** tai **Palaa**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

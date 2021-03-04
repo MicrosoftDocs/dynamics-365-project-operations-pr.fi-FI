@@ -40,3 +40,6 @@ Dynamics 365 Project Service Automation sisältää kaksi järjestelmän koontin
 ## <a name="resource-manager"></a>Resource Manager 
 
 **Resource Manager** -koontinäyttö antaa resurssipäälliköille graafisen koontinäyttökokemuksen resurssipyyntöjen ja resurssien kysynnän ja käytön seurantaa varten. Se myös antaa resurssipäälliköille mahdollisuuden siivuttaa tietoja useiden dimensioiden perusteella.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

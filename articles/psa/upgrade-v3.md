@@ -110,3 +110,6 @@ Jos tehtävä on kohdennettu roolille, jonka organisaatioyksikkö on eri kuin so
  
 Oletusarvon muuttaminen eri resurssoiville organisaatioyksiköille luomattomille ryhmän jäsenille on se syy, miksi suosittelemme, että luot tai luot uudelleen ryhmän jokaiselle projektille, joka sisältää yleisiä resursseja ennen kuin päivität, jotta organisaatioyksikköjen kohdennuksia ei menetetä.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

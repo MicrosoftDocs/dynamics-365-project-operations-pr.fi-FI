@@ -44,3 +44,6 @@ Project Operations tukee useita käyttöönottomalleja. Lisätietoja parhaan kä
 2. Asenna **Microsoft Dynamics 365 Project Operations** Dynamics 365 -sovellusten käyttöönottoluettelosta. Lisätietoja on aiheessa [Dynamics 365 -sovellusten hallinta](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

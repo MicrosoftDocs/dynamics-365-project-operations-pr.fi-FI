@@ -63,3 +63,6 @@ Project Operationsissa tarjoukseen tehtyjä muutoksia ei voi jäljittää. Sen s
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Tarjousten ja projektisopimusten kommenttien ja hyväksyntöjen seuraaminen
 Voit hallita tarjousten ja projektisopimusten arviointia ja hyväksymistä tietueseinän ja viestien avulla. Organisaatiosi voi luoda mukautettuja työnkulkuja ja laajennuksia kohdentamaan, uudelleenohjaamaan ja hallitsemaan arvioinnin ja hyväksynnän työkohteiden ilmoituksia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

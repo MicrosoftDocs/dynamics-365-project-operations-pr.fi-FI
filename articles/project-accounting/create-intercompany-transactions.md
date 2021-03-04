@@ -113,3 +113,6 @@ Molly Clark, , GBPM:llä työskentelevä kehittäjä, kirjaa 10 tuntia työtä U
     - Credit: Projekti – Kerrytetty tuotto 120 USD
 
     Järjestelmä on nyt valmis luomaan yritysten välisen asiakaslaskun.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

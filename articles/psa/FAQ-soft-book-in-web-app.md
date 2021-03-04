@@ -87,3 +87,6 @@ Kun olet valmis muuttamaan alustavasti varatun ryhmän jäsenen resurssin sitova
 2. Kun aikataulutaulukko avautuu, laajenna resurssia niin, että varaukset näkyvät. Näkyviin tulee varaus, joka on merkitty alustavaksi.
 3. Napsauta varausta hiiren kakkospainikkeella Muuta tilaa -kohdassa. Valitse Sitova varaus ja sitten Sitova. Varauksen tila on nyt Sitova.
 4. Kun aikataulutaulukko suljetaan, näet, että resurssin tuntien varaus on muuttunut alustavasta sitovaksi ryhmän jäsenen ruudukossa. Voit nyt delegoida resurssin tehtäville (jos tehtävän sitovasti varatut tunnit ja työtunnit vastaavat toisiaan delegoinnissa). Huomaa, että jos seurasit yleisen resurssin täyttämisen vaiheita ylempänä kohteessa kolme, kun muutit alustavasti varatun resurssin tilan sitovaksi, yleisen ryhmän jäsen poistetaan ryhmästä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

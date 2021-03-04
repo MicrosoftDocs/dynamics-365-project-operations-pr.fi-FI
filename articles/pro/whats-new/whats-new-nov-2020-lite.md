@@ -37,3 +37,6 @@ Seuraavassa taulukossa on luettelo CDS-ympäristön version 4.4.0.70 Project Ope
 | Ajan ja kulun pikamerkintä | 2047499          | Aikamerkintä-sivun **Uusi**-painike avaa **Uusi sähköpostin allekirjoitus** -sivun.                                                                                               |
 | Ajan ja kulun pikamerkintä | 2059859          | Odottamaton ponnahdusikkuna avautuu kulumerkintää luotaessa.                                                                                                                         |
 | Muusta                        | 2044181          | [Ostotilauksen asennuksen poistaminen] – Tapahtuu virhe Tietue ei ole käytettävissä, kun Project Servicen **msdyn_ProjectServiceCore_Patch**- ja msdyn-perusratkaisujen asennusta yritetään poistaa.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

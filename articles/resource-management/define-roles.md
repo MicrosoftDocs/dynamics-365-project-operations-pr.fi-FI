@@ -20,3 +20,6 @@ ms.locfileid: "4514517"
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
 Voit käyttää Dynamics 365 Field Servicen tarjoamaa toiminnallisuutta määrittääksesi roolit Dynamics 365 Project Operations -ympäristössäsi. Lisätietoja tämän määrityksen suorittamisesta on kohdassa [Varattavissa olevien resurssiluokkien määrittäminen](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

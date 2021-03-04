@@ -35,3 +35,6 @@ Voit tarkastella kiinteähintaisen tuoton arviointiprojekteja suorittamalla seur
 
   Projektikustannukset, tuottoprofiili, kustannusmalli ja kausikoodi voidaan määrittää manuaalisesti. Jos niitä ei ole määritetty manuaalisesti, arvot ovat oletusarvoja, jotka on saatu ensimmäisen arvion laskemisen aikana projektista käyttäen sääntöjä, jotka on määritetty projektin kustannus- ja tuottoprofiileille.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

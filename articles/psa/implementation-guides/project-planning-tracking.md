@@ -45,3 +45,6 @@ Tässä aiheessa aiemmin ollut PDF-linkki on poistettu ja tiedoston sisältö on
 
 > [!NOTE]
 > Tämä aihe poistetaan myöhemmässä dokumentaatiopäivityksessä. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

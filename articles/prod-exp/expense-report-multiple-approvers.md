@@ -40,3 +40,6 @@ Jos päätät vaatia kuluraportille useita hyväksyjiä, voit lisätä työnkulk
 
     1. Työntekijän esimies hyväksyy kuluraportin.
     2. Budjetin omistaja hyväksyy kuluraportin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

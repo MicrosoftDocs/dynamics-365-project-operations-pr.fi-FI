@@ -47,3 +47,6 @@ Kun olet voittanut projektin tarjouksen, on aika laatia palvelusopimus asiakkaan
   
 ### <a name="see-also"></a>Katso myös  
  [Asiakaspäällikön opas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

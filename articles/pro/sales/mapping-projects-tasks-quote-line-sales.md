@@ -90,3 +90,6 @@ Voit myös poistaa projektitehtävien liitoksen tarjousriveistä **Tarjousrivi**
 
 >[!NOTE]
 > Tämä toimintosarja ei poista tehtävää projektista. Se poistaa vain tehtävän liitoksen projektipohjaisesta tarjousrivistä.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

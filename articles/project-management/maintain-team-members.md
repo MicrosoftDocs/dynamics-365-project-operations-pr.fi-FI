@@ -42,3 +42,6 @@ Kun teet valinnan, resurssi lisätään projektiryhmään ja se kohdennetaan teh
 Voit käyttää **Täsmäytys**-välilehden varauksenlaajennustoimintoa tai kohtaa **aikataulutaulukko** varataksesi resurssin kapasiteettia projektille.
 
 Kun ryhmän jäsen on varattu projektillesi, voit käyttää niiden varausten hallitsemiseen **Ylläpidä varauksia** -toimintoa tai **aikataulutaulukkoa**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

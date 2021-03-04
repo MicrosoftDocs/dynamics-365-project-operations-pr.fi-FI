@@ -66,3 +66,6 @@ Seuraavat ongelmat on korjattu:
 - Asiakkaat saattavat kokea heikentyneen suorituskyvyn luodessaan projektia, koska **GetBookableResourceIdFromUser** hakee varattavissa olevien resurssien kaikki sarakkeet pelkän ensisijaisen tunnuksen sijaan.
 - **TransactionType**-entiteetistä puuttuu esivahtistuken päivityslaajennus, joka estää käyttäjiä syöttämästä **yksiköitä** ja **yksikköryhmiä**, jotka eivät ole kelvollisia tapahtumatyypeille.
 - **Poista**-vaihe ei toimi aikamerkintöjen tuonnissa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ Kaikki kustannus-, myynti- ja siirtohinnat voidaan määrittää rooleille. Liit
 1. Valitse **Myyntihinta (tunti)** -sivulla **Uusi** ja syötä voimaantulopäivä.
 2. Valitse rooli **Rooli** -sarakkeesta.
 3. Syötä **Hinnoittelu** -sarakkeeseen hinta valitulle resurssiroolille.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

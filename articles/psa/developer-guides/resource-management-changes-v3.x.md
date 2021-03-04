@@ -170,3 +170,6 @@ Seuraavat suunniteltujen, toteutuneiden ja jäljellä olevien kustannusten ja my
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

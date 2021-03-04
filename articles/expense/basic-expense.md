@@ -55,3 +55,6 @@ Kulut, joita ei ole vielä lähetetty, voidaan poistaa. Jos haluat poistaa jo l�
 ## <a name="see-also"></a>Katso myös
 
 - [Hyväksyntöjen yleiskatsaus](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

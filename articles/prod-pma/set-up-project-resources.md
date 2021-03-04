@@ -75,3 +75,6 @@ Kun edeltävät tehtävät on suoritettu, voit suorittaa seuraavat tehtävät ta
 - Resurssipyyntöjen täyttäminen.
 - Pyydä henkilöresurssia työrakenteesta.
 - Varaa resursseja projektiin ilman henkilöresurssia koskevaa pyyntöä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

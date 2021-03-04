@@ -68,3 +68,6 @@ Avaa kiinteähintainen tarjousrivi, jolle on luotava välitavoite. Valitse **Las
 | Laskun tila | Pikaluonti | Kun välitavoite luodaan, tämän tilan arvoksi on aina määritetty **Ei valmis laskutettavaksi**. | Tämä välitetään projektisopimusrivin välitavoitteeseen ja laskuun. |
 | Rivisumma | Pikaluonti | Välitavoitteen summa tai arvo, joka laskutetaan asiakkaalta. | Tämä välitetään projektisopimusrivin välitavoitteeseen ja laskuun. |
 | Vero | Pikaluonti | Välitavoitteeseen sovellettava verosumma. | Tämä välitetään projektisopimusrivin välitavoitteeseen ja laskuun. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

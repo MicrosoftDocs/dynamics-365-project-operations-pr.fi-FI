@@ -89,3 +89,6 @@ Noudata seuraavia ohjeita korjataksesi yhden tai useamman kulumerkinnän.
 8. Tarkista **Todelliset arvot** -välilehdestä **Todellisten arvojen liitetty näkymä** . Luettelossa näytetään alkuperäiset ja korjatut merkinnät. Seuraavassa kuvassa näytetään alkuperäisten kulumerkintöjen summat ja niitä vastaavien korjattujen kulumerkintöjen summat. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -440,3 +440,6 @@ Kun tiliote on laskettu, voit tarkastella seuraavia tietoja **Projektitiliotteet
 -   **Kulutus** – Tietoja tuntien, nimikkeiden, kulujen ja palkanlaskennan tapahtumien kulutuksesta.
 -   **Lasku** – Tietoja laskuista ja ennakkolaskutuksesta.
 -   **Tuntihinta** – Tuotto- ja kustannustileille kirjattujen tuntien tuntihinnat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

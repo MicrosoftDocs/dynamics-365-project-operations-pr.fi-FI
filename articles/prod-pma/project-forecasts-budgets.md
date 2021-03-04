@@ -81,3 +81,6 @@ Jos käytät projektiennustusta, voit määrittää malleja alimalleiksi. Sitten
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

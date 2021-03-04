@@ -32,3 +32,6 @@ Kuluraporttien osalta voit porautua tapahtumasta alkuperäiseen raporttiin, joka
 Jos haluat porautua alkuperäiseen kuluraporttiin, johon tapahtuma ilmestyi, valitse tapahtuma ja valitse sitten **alkuperäinen asiakirja**.
 
 Kun tarkastelet yksittäisiä tapahtumia, voit tarkastella myös tapahtumaan liitettyjä lisätietoja. Jos kyseessä on esimerkiksi eritelty hotellikulu, voit tarkastella yksityiskohtaista luetteloa kuluista, kuten Internet-yhteys, puhelut ja huonepalvelu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

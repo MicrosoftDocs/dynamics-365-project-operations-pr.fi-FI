@@ -55,3 +55,6 @@ Mahdollisuudet ovat kiinnostuneita liidejä asiakkailta, jotka ovat kiinnostunei
   
 ### <a name="see-also"></a>Katso myös  
  [Asiakaspäällikön opas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

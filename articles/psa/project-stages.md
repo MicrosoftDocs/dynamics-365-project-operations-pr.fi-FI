@@ -65,3 +65,6 @@ Kun projektin työ on valmis, projektipäällikkö voi päivittää vaiheen **va
 ## <a name="close"></a>Sulje
 
 Kun kaikki tapahtumat on kirjattu projektille, projektipäällikkö voi päivittää vaiheen **suljetuksi**. Tässä vaiheessa tapahtumia ei voi tallentaa, ja projekti on määritetty vain luku -tilaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

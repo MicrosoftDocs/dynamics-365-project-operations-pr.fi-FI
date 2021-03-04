@@ -37,3 +37,5 @@ Kun olet projektipäällikkö, voit muokata ryhmän jäsenen resurssivaatimusta 
 ## <a name="edit-resource-assignment-contours"></a>Resurssien delegoinnin aikavälien muokkaaminen
 
 Resurssitarpeiden yksityiskohtien muokkaamisen lisäksi projektipäällikkö voi päivittää resurssitarpeen yksittäiset aikavälit käyttämällä **Määritä malli** -toimintoa. Kun **Määritä malli** on valittuna, näkyviin tulee sivu, jossa voit tarkastella aikavälejä päivä-, viikko- tai kuukausiasteikolla. Kukin aikaväli voidaan säätää alkamisajan, päättymisajan ja kokonaistyömäärän mukaan tietylle ajanjaksolle.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ ms.locfileid: "5144049"
   
 ### <a name="see-also"></a>Katso myös  
  [Projektipäällikön opas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

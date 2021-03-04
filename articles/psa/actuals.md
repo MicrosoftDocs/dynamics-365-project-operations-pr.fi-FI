@@ -330,3 +330,6 @@ PSA tallentaa projektin aikana esiintyvät taloudelliset tapahtumat. Nämä tapa
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

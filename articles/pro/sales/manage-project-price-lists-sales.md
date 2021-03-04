@@ -67,3 +67,6 @@ Kun sinulla on organisaation ja asiakaskohtaiset oletusprojektihinnastot, projek
 
 1. Tarkista **Projektihinnasto**-välilehden **Projektitarjous**-kohdan aliruudukossa, että mitään tiettyä hinnastotietuetta ei ole valittu.
 2. Valitse **Luo mukautettu hinnoittelu**. Tämä kopioi kaikki tarjoukseen tällä hetkellä liittyvät vakiohinnastot ja liittää nämä kopiot tarjoukseen. Olemassa olevat liitokset vakiohinnastoihin poistetaan. Tämän jälkeen myyjä voi alkaa tehdä muokkauksia näihin kopioihin. Näitä muuttuneita hintoja sovelletaan vain tähän projektitarjoukseen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

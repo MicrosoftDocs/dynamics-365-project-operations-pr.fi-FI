@@ -47,3 +47,6 @@ Kun konsultit kirjoittavat projektiin käyttämänsä ajan ja kulut, sinun on hy
   
 ### <a name="see-also"></a>Katso myös  
  [Projektipäällikön opas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

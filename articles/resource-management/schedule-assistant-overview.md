@@ -57,3 +57,6 @@ Suodatusruudussa näkyvät työhön liittyvät asetukset, kuten seuraavat:
 -   Resursoiva yritys
 -   Resurssityypit
 -   Ensisijaiset resurssit
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

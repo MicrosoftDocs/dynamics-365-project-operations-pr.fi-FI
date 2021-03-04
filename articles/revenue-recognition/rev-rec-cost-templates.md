@@ -79,3 +79,6 @@ Luo kustannusmalleja suorittamalla seuraavat vaiheet:
 7. Valitse **Luokat**-välilehdellä projektiluokat, jotka sisällytetään kustannusmalliriville.
 8. Valitse **Yleiset**-välilehdelle, sisällytetäänkö tämä rivi valmistumisprosentin laskentaan.
 9. Valitse valmistumisprosentin laskennassa käytettävä valmistumiskustannusmenetelmä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

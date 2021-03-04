@@ -79,3 +79,6 @@ Voit luoda avustuksen syöttämällä kaikki tiedot uuteen tietueeseen tai voit 
 2. Valitse muokattava avustus.
 3. Valitse toimintoruudun **Avustus** -välilehden **Ylläpidä** -ryhmässä **Muokkaa**.
 4. Tarkista avustuksen tiedot ja tee tarvittavat muutokset.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Seuraavat suorituskykyilmaisimet ovat käytettävissä projektisopimuksen **sopi
 | Aiheutuneet kulut | Tuotepohjaiset rivit | Kaikkien tuotepohjaiseen sopimusriviin kirjattujen kustannustodistusten summa. |
 | Käyttökate | Projektipohjaiset rivit | Laskutettu määrä - kustannukset, jotka ovat syntyneet asti päivä määrä/laskutettu summa |
 | Odotettu kate | Tuotepohjaiset rivit | (Sopimusrivin arvo - sopimusrivin arvioidut kustannukset)/sopimusrivin arvo |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

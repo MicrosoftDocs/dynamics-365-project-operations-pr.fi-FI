@@ -34,3 +34,6 @@ Myyntihintoja käytetään kerran sopimusta kohden. Myyntihinnaston hierarkian o
 1. Organisaatio
 2. Asiakas
 3. Tarjous/sopimus
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

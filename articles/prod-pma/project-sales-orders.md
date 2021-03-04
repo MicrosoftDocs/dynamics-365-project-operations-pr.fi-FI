@@ -41,3 +41,6 @@ Voit luoda projektiperusteisia myyntitilauksia kahdella seuraavalla tavalla.
 - Siirry projektiin itseensä. Valitse toimintoruudussa **Hallitse > Nimiketehtävät > Myyntitilaus**. Projektitiedot siirtyvät oletusarvoiksi projektin myyntitilaukseen. Jos projektisopimuksessa on useita rahoituslähteitä, sinun on valittava rahoituslähde, jotta voit määrittää asiakkaan myyntitilaukselle. Jos projektille on vain yksi rahoituslähde, asiakas määritetään automaattisesti.
 - Siirry **Kaikki myyntitilaukset** -luettelosivulle ja luo uusi myyntitilaus. Sinun on valittava projekti myyntitilausta varten. Kun projekti on valittu, asiakas määritetään rahoituslähteen perusteella tai sinun on valittava rahoituslähde, jos projektisopimuksessa on useita rahoituslähteitä.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

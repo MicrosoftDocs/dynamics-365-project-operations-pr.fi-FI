@@ -56,3 +56,6 @@ Kun kirjaudut Dynamics 365 -sovelluksiin, tarvitset seuraavat tiedot järjestelm
   
 ### <a name="see-also"></a>Katso myös  
  [Aika-, kulu- ja yhteistyöopas](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

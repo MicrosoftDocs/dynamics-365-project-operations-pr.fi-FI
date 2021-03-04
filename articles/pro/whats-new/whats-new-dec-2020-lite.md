@@ -57,3 +57,6 @@ Seuraavassa taulukossa on luettelo Project Operationsin päivityksistä Datavers
 | Aika ja kulut | 2034882 | **Uusi**-painike näkyy aikamerkinnöille kaksi kertaa komentopalkissa, kun Dynamics 365 Field Service on asennettu. |
 | Aika ja kulut | 2056028 | Päivitä **Ajan muokkaus** -sivu sisältämään aikajanan. |
 | Aika ja kulut | 1983747 | Ajansyöttökaavio näyttää lisätietoja. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

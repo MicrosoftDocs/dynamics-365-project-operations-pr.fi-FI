@@ -62,3 +62,6 @@ Seuraava menettely selittää, miten projektitiimi luodaan.
 ## <a name="monitor-project-teams"></a>Projektitiimien seuraaminen
 1. Valitse **Kaikki projektit** -sivulla **XYZ-päivityksen vaihe 2** -projektin **Projektitunnus** -linkki.
 2. Varmista **Projektitiimi ja aikataulutus** -pikavälilehdessä, että luettelossa olevat projektiresurssit ovat oikein.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

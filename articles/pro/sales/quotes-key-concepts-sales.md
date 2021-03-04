@@ -89,3 +89,6 @@ Project Operationsin tarjoukset perustuvat Dynamics 365 Sales -tarjouksiin. Toim
 - Project Operations -tarjouksilla on omat lomake- ja käyttöliittymäelementit, liiketoimintasäännöt, laajennusten liiketoimintalogiikka ja asiakaspuolen komentosarjat, jotka tekevät niistä erilaisia kuin Sales-tarjouksista.
 
 Näistä syistä ei ole suositeltavaa käyttää Sales-tarjousta ja Project Operations -tarjousta yhtäläisinä.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Jos menetetty projektisopimus viittaa sen riveillä olevaan projektiin, kyseinen
 
 > [!NOTE]
 > Dynamics 365 Project Operationsissa projektisopimuksen sulkeminen hävittynä ei vaikuta liittyvän mahdollisuuden tilaan. Mahdollisuus säilyy avoimena, ja se täytyy sulkea manuaalisesti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

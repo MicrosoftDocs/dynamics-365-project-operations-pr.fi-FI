@@ -43,3 +43,5 @@ Lisäämällä ominaisuuksia resurssitarpeisiin voit dokumentoida tietoja tai as
 3. Valitse **Osaamisalueet**-aliruudukossa **+ Lisää uusi tarveominaisuus.**
 4. Etsi ja valitse pikaluontiruudussa tarvittavat ominaisuudet ja lisää **Luokitusarvo**.
 5. Valitse **Tallenna ja sulje**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

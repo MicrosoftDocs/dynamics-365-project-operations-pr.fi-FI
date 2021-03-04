@@ -47,3 +47,6 @@ Luo tili kullekin asiakkaalle jonka kanssa työskentelet, riippumatta siitä tee
   
 ### <a name="see-also"></a>Katso myös  
  [Asiakaspäällikön opas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

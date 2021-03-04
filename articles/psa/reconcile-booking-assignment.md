@@ -101,3 +101,6 @@ Kun Laajenna varausta -toiminto on suoritettu jokaisessa resurssissa, varauksia 
 
 Varauksen yksityiskohdissa huomataan kuitenkin eroja varasuten aloitusajoissa. Varaukset alkavat aikaisintaan varauksen rajojen alkamishetkellä ja aikaisintaan resurssin käytettävissä olevana alkamisaikana.
  ![Resurssien uudet varaukset aikataulutaulukossa](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

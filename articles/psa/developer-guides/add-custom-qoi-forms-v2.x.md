@@ -96,3 +96,6 @@ Voit luoda mukautetun version **Projektitiedot**-lomakkeesta seuraavalla tavalla
     ```
 
 6. Tallenna ja julkaise mukautukset.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

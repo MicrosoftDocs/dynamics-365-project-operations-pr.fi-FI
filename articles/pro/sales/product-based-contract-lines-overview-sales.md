@@ -46,3 +46,6 @@ Jos sopimusrivi perustuu tuoteluetteloon, voit korvata myyntihinnan suoraan sopi
 Jos määrität **Hinnoittelu**-kentän arvoksi **Korvaa hinnoittelu**, oletushintaa ei määritetä. Anna projektin sopimusrivin tuotteen hinta. Jos määrität kentän arvoksi **Käytä oletusarvoa**, käytetään oletusmyyntihintaa eikä kenttää voi muokata.
 
 Kun olet asentanut Project Operationsin, oletusmyyntihinnat syötetään sopimuksen tuoteperusteisille riveille. **Hinnoittelu**-kentän arvoksi määritetään **Korvaa hinnoittelu**, jotta voit muokata sopimusrivien oletushintaa. Tämä on Project Operations -kohtainen toiminto, joita käytetään Dynamics 365 Salesin tuotepohjaisiin riveihin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

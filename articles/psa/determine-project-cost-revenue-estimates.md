@@ -81,3 +81,6 @@ Mahdolliset projektissa aiheutuvat kustannukset, joka eivät suoraan liity työh
   
 ### <a name="see-also"></a>Katso myös  
  [Projektipäällikön opas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

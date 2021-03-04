@@ -67,3 +67,6 @@ Kun olet valmis muuttamaan alustavasti varatun ryhmän jäsenen resurssin sitova
 2. Napsauta varausta hiiren kakkospainikkeella ja valitse **Muuta tilaa** -kohdassa **Tee sitova varaus** \> **Sitova**. Varauksen tila on nyt **Sitova**.
 3. Kun olet sulkenut aikataulutaulukon, palaa projektiin ja avaa **Ryhmä**-välilehti. Tällöin näet, että resurssin tunnit siirretään **Ryhmä**-välilehden **Alustavasti varatut tunnit** -sarakkeesta **Sitovasti varatut tunnit** -sarakkeeseen, kun esillä on **Nimetyt ryhmän jäsenet** -näkymä. Jos resurssi on kohdennettu tehtäville, **Täsmäytys**-välilehdessä ei enää näy varauksen vajetta, koska varaukset ovat nyt sitovia.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

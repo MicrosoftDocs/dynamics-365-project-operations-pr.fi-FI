@@ -55,3 +55,6 @@ Seuraavat ongelmat on korjattu:
 - Tyhjäarvon viittauspoikkeus luodaan, kun **GetEstimatesForProject**-laajennus käynnistetään.
 - **Merkitse valmiiksi laskuttamista varten** välitavoiteruudukossa päivittää määritteet vain osittain, lukuun ottamatta **InvoiceStatus**-määritettä, joka päivitetään.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

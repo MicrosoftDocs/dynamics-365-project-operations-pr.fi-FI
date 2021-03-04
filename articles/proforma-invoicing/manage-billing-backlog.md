@@ -38,3 +38,6 @@ Laskuttamattomia toteutuneita myyntejä, joiden **ei saa ylittää** -tila on **
 Jos kyseessä on usean asiakkaan sopimusrivi, jolla on ajan ja materiaalin laskutustapa, kun ajan ja kulujen hyväksyminen on tehty, jokaiselle sopimusrivillä olevalle asiakkaalle luodaan laskuttamaton todellisen myynnin sopimusrivi kullekin asiakkaalle määritetyn laskutusprosentin mukaan. **Aika- ja materiaalilaskutuksen ruuhkan** näkymässä näkyvät yksittäiset asiakaskohtaiset laskuttamattomat toteutuneet myynnit. Kukin näistä laskuttamattomista toteutuneista myynneistä voidaan merkitä **valmiiksi laskutettavaksi** erillään tästä näkymästä.
 
 Tässä näkymässä näkyy luonnoslaskun välitavoite, joka sisältää **luodun asiakaslaskun** **laskutuksen tilan**. Kun luonnoslasku on vahvistettu, tämän tietueen laskutuksen tilaksi päivittyy **Asiakaslasku kirjattu**. Tämän tilan arvon päivittämistä, kun se on tässä tilassa, mukautettua koodia käyttämällä ei suositella. Project Operations ei toimi oikein, kun näihin tila-arvoihin päivitetään mukautettua koodia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

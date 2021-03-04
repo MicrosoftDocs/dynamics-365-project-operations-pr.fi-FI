@@ -78,3 +78,6 @@ Nykyisessä sivussa on seuraavat ominaisuudet, mutta ne eivät vielä näy uudel
 - Rivitason työnkulku
 - Väliaikaisen hyväksyjän tuki
 - Lisäerittely
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

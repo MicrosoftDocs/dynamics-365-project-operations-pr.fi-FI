@@ -43,3 +43,6 @@ Tämä käyttöönotto valitaan, jos Project Operationsin odotetaan käyttävän
 - Monipuolinen yritysluokan arvonlisävero- ja vaihtokurssimoduuli tarvitaan projektin asiakkaille suunnattujen laskujen luomiseen.
 - Kansainvälisten tilinpäätösstandardien (IFRS) mukainen projektin kirjanpito- ja tuloutusjärjestelmä.
 - Finance- tai Supply Chain Management -sovellukset ja projektipohjaisten tapahtumien integrointi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

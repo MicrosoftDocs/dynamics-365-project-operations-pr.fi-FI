@@ -83,3 +83,6 @@ Tässä aiheessa kuvataan parametreja, joilla hallitaan yleistä toimintaa kuluj
 | Näytä korruption vastainen todistus   | Valitse tämä vaihtoehto, jos haluat näyttää korruption vastaisen tekstin, kun kuluraportti luodaan. Tällöin voidaan ottaa käyttöön tietyt kululuokat, jotka edellyttävät, että kuluraporttiin valitaan korruption vastainen todistus. Esimerkiksi hallituksen virallisiin kuluihin liittyvä lahjaluokka voi edellyttää, että työntekijä vahvistaa, että kulu vastaa hallituksen virkamiehiin liittyvää käytäntöä. |
 | Korruption vastainen sanoma lähettäjälle | Kirjoita teksti, joka näytetään kuluraporttia luovalle työntekijälle. Jos haluat lisätä kielikohtaisen tekstin, joka näkyy käyttäjän kielen mukaan, valitse **Käännökset**. |
 | Korruption vastainen sanoma hyväksyjälle  | Kirjoita teksti, joka näytetään hyväksyjälle, kun kuluraportti luodaan. Jos haluat lisätä kielikohtaisen tekstin, joka näkyy käyttäjän kielen mukaan, valitse **Käännökset**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

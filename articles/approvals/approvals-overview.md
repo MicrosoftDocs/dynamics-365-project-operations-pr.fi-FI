@@ -59,3 +59,6 @@ Kullakin projektilla on useita projektiryhmän jäseniä. Voit määrittää, mi
 3. Valitse **Tallenna**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

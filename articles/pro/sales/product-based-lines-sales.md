@@ -28,3 +28,6 @@ Tuotepohjaiset rivit voivat olla luettelonimikkeitä tai käsin lisättyjä tuot
 
 Kun mahdollisuuden yhteenvedon tuottomenetelmä on **Järjestelmän laskema**, asiakkaan budjettiarvot mahdollisuusriveillä lasketaan yhteen arvioidun tuoton laskemiseksi. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

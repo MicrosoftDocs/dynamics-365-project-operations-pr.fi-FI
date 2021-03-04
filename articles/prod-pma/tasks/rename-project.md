@@ -35,3 +35,6 @@ Projektivaiheita voi käyttää oppaana projektin elinkaareen. Voit määrittä�
 4. Valitse luettelosta esimääritetty tai käyttäjän määrittämä vaihe, jota haluat muokata. 
 5. Syötä uusi nimi projektivaiheen kenttään.
 6. Valitse Tallenna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

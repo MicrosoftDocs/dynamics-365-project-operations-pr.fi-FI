@@ -140,3 +140,6 @@ Seuraavissa kuvissa on esimerkkejä mallitehtävien yhdistämismäärityksestä 
 [![Mallien yhdistäminen ‑ toteutuneet päivitys](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Mallien yhdistäminen ‑ Tapahtumat päivitys](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

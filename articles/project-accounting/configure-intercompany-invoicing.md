@@ -101,3 +101,6 @@ Seuraavassa esimerkissä Contoso Robotics USA (USPM) on lainaa ottava yritys, ja
           - **Resurssointiyritys** = **Contoso Robotics UK**
           - **Laskutushinta** = **200 USD**
       9. Siirry kohtaan **Myynti** > **Projektisopimukset** ja liitä **Adventure Works laskutushinnasto** -hinnasto Adventure Works -projektin hinnastoon projektisopimuksessa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

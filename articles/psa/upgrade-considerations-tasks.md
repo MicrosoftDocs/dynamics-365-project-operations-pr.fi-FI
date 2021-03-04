@@ -96,3 +96,6 @@ Onnistuneen päivityksen varmistamiseksi seuraavat suhteet on säilytettävä oi
 
 - Kaikkien projektitehtäväriippuvuuksien on liityttävä samaan projektiin.
 - Samaan tehtävän riippuvuuteen ei voi viitata useammin kuin kerran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

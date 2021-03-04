@@ -209,3 +209,6 @@ Jos olet käyttänyt esittelytietoja Finance-ympäristössä, lisätietoja esitt
 
 
 Project Operations -ympäristö on nyt valmisteltu ja määritetty. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

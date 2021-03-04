@@ -55,3 +55,6 @@ Kun tämä hinnoittelumenetelmä valitaan luokan hintarivillä, joka on yhdistet
 
 ### <a name="markup-over-cost"></a>Hinnankorotus
 Kun tämä hinnoittelumenetelmä valitaan luokan hintarivillä, joka on yhdistetty myyntihintaluetteloon, hinta on oletusarvoisesti luokan ja yksikköyhdistelmän osalta tosiasiallisten kulujen osalta. Esimerkki: kulutapahtumaluokan laskuttamattomat myynnin todelliset arvot. Tämä yksikköhinta asetetaan laskuttamattomalle myynnille tosiasialliseksi laskennalliseksi arvoksi kyseisen hinnan tosiasiallisista kustannuksista sen jälkeen, kun määritelty merkintäprosentti on sovellettu. Kustannuksiin perustuvia hintoja ei tehdä kulujen kustannus- tai tarjousrivin ja sopimusrivin tietojen perusteella.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

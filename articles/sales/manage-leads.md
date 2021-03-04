@@ -80,3 +80,6 @@ Liidistä mahdollisuudeksi -liiketoimintaprosessi tukee seuraavia vaiheita:
 | Kehitä | Mahdollisuus | Kehitä mahdollisuutta lisäämällä tietoja liittyvistä töistä, keskeisistä sidosryhmistä ja kilpailijoista. |
 | Ehdota | Mahdollisuus | Laadi ehdotus ja hanki hyväksyntä sisäiseltä tarkistusryhmältä. |
 | Sulje | Mahdollisuus | Kun mahdollisuus voitetaan, sopimus suljetaan. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

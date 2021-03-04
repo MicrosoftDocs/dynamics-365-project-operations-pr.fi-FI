@@ -59,3 +59,6 @@ Voit myös napsauttaa ryhmäruudukon **Resurssitarve**-linkkiä avataksesi tarpe
 
 ![Resurssitarve](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

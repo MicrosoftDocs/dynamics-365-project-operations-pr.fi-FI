@@ -80,3 +80,6 @@ Kun toimittaja suorittaa projektissa työnsä ja lähettää sinulle laskun, tar
 2. Jos kyseessä on **toimittajan lasku, joka maksetaan kun on maksettu** -sivu, kirjoita hakukenttään arvot löytääksesi toimittajan laskun, jota haluat tarkastella, ja valitse sitten **Hae**.
 3. Valitse **toimittajan laskun rivit** -pikavälilehden rivit, joita haluat muuttaa.
 4. Jos laskun rivillä **maksetaan, kun maksu ehdot täyttyvät** , valitse **Vapauta toimittajan maksu**. **Maksu, kun maksettu** -asetus on poistettu, ja **valmis maksettavaksi** -kentän arvoksi vaihdetaan **Kyllä**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

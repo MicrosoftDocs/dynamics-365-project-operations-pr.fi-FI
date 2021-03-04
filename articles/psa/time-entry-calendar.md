@@ -42,3 +42,6 @@ Kalenteri ei tue yksittäisten kalenterikohteiden toimintoja, etkä voi valita y
 ## <a name="extensibility"></a>Laajennettavuus
 
 Voit lisätä mukautettuja kenttiä, määrittää hakukenttiä ja luoda mukautettuja näkymiä **Aikakirjaukset**-sivulla. Voit myös määrittää mukautetun liiketoimintalogiikan, joka perustuu mukautettuihin kenttiin valittuihin tai kirjoitettuihin arvoihin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

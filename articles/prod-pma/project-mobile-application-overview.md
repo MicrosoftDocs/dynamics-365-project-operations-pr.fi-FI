@@ -49,3 +49,6 @@ Omat työaikaraportit (mobiilioptimoitu) ja tarkistettavat työaikaraportit (mob
 - [Projektin aikamerkinnät]( project-time-entry-mobile-workspace.md)
 - [Projektin työaikaraportit mobiililaitteessa](Mobile-timesheets.md)
 - [Mukautettujen kenttien käyttöönotto Microsoft Dynamics 365 Project Timesheet -mobiilisovelluksessa iOS:ssä ja Androidissa](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

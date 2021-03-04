@@ -104,3 +104,6 @@ Resurssivarauksen aikana projektipäälliköt voivat suodattaa niitä rooliresur
 
 3. Valitse **Tallenna** ja sulje sivu.
 4. Lisää **Pätevyydet** -välilehdessä taito **ProjectMgmt** ja sertifikaatti **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

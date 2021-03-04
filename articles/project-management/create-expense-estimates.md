@@ -38,3 +38,6 @@ Kullekin kulurivinimikkeelle määritetään seuraavat määritteet:
 - **Yksikkökustannushinta**: Yksikköhinta, jota käytettiin laskettaessa kulun kustannusta.
 - **Yksikkömyyntihinta**: Yksikköhinta, jota käytettiin laskettaessa kulun myyntihintoja.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Toista samat vaiheet kuin ensimmäisellä tarjouskoodilla. Muista lisätä toine
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Asenna CDS-määritys ja määritä esittelytiedot
 
 Asenna CDS-määritykset ja määritä esittelytiedot noudattamalla ohjeita aiheessa [Ota käyttöön esittelyn määritystiedot](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

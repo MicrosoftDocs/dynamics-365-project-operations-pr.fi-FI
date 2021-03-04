@@ -54,3 +54,6 @@ Kun myyntihinnasto on ratkaistu, järjestelmä suorittaa yksikkömyyntihinnan ol
     | &nbsp; | Hinnankorotus | Käyttämällä luokan hintarivillä määritettyä merkintää, joka liittyy liittyvän kustannuksen todelliseen yksikkökustannushintaan |
 
 4. Jos järjestelmä ei pysty vastaamaan **luokan** ja **yksikön** kenttien arvoja, myyntihinnan oletusarvona on nolla (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

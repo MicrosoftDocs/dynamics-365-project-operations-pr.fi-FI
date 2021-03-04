@@ -26,3 +26,6 @@ Office-ryhmien avulla voit jakaa projektin muiden ryhmän jäsenten kanssa Commo
 > [!NOTE] 
 > Käyttäjät lisätään ryhmään vain, jos painat **Ryhmät**-näppäintä ja lisäät ne. Tämä eroaa Projectin verkkoversion toiminnasta. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

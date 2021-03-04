@@ -62,3 +62,6 @@ Android on yhteensopiva Platform Update 16:n kanssa, kun se on saatavilla.
 13. Valinnainen: Syötä lisää työaikaraportin rivejä.
 
 14. Kun olet syöttänyt tuntilomakkeen rivit, valitse **Työnkulku** \> **Lähetys** -toiminto, joka lähettää tuntilomakkeen työnkulun hyväksyntäprosessiin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

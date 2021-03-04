@@ -113,3 +113,6 @@ Kun lainauksen tekevä yritys, USSI, kirjaa konserniyritysten välisen myyntilas
 Lisätietoja on aiheessa [Konsernin sisäisen projektilaskutuksen määrittäminen](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

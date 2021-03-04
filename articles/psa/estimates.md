@@ -106,3 +106,6 @@ Jos olet lisännyt muokatun kentän tarjousrivin tietoihin ja haluat järjestelm
 
 8. Toista vaiheet 1–7 toisen laajennuksen osalta.
 9. Sulje PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

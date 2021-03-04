@@ -53,3 +53,6 @@ Kun olet lisännyt asiakkaidesi projekteihin osaamisalueita, tarvitset välineit
   
 ### <a name="see-also"></a>Katso myös  
  [Resurssien määrittäminen](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

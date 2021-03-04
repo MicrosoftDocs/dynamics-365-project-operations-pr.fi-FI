@@ -150,3 +150,6 @@ Seuraavassa luettelossa esitetään kattava entiteettiperusteinen luettelo niist
 |  Todellinen|• Tiedot<br>• Aktiiviset todelliset arvot|• Todellisten arvojen liitetty näkymä|
 
 Mukautettuja kenttiä voi määrityksistäsi riippuen olla tarpeen lisätä myös liiketoimintasääntöihin. Yksi valmis esimerkki on liiketoimintasääntöä **Aikamerkinnän muokattavuus tilan perusteella** varten. Tämä sääntö määrittää, mitkä kentät on lukittava, kun Aikamerkintä-tila on tilassa, jota ei voi muokata, kuten **Hyväksytty**. Lisää kenttiä tähän liiketoimintasääntöön, jotta kenttiä ei voi muokata, kun Aikamerkinnän tila on muu kuin **Luonnos** tai **Palautettu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

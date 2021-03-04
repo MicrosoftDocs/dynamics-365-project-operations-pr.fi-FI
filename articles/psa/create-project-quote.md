@@ -55,3 +55,6 @@ Tarjouksen luominen vastaa mahdollisuuden luomista. Mahdollisuus on sisäistä t
   
 ### <a name="see-also"></a>Katso myös  
  [Asiakaspäällikön opas](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

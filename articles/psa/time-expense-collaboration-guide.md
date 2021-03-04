@@ -73,3 +73,6 @@ Napsauttamalla oheista linkkiä saat lisätietoja siitä, mitä [!INCLUDE[pn_pro
  [Asiakaspäällikön opas](../psa/account-manager-guide.md)   
  [Projektipäällikön opas](../psa/project-manager-guide.md)   
  [Resurssipäällikön opas](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

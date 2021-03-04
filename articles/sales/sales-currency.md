@@ -71,3 +71,6 @@ Ennen kuin aloitat nämä toimet, tarkista, että käyttöoikeusrooli sisältä�
 
 > [!IMPORTANT]
 >  Muiden tietueiden käytössä olevia valuuttoja ei voi poistaa. Vain niiden aktivointi voidaan poistaa. Valuuttatietueiden aktivoinnin poistaminen ei poista nykyisiin tietueisiin, kuten mahdollisuuksiin tai tilauksiin, tallennettuja valuuttatietoja. Et kuitenkaan voi valita uusille tapahtumille valuuttaa, jonka aktivointi on poistettu.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

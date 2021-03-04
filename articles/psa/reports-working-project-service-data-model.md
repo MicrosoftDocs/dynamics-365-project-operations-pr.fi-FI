@@ -123,3 +123,6 @@ Kun käsittelet **Todellista** entiteettiä, on tärkeää, että ymmärrät, mi
 **Tapahtuman alkuperä** -entiteetti tallentaa **Todellisen** tietueen alkuperän, ja **Tapahtuman yhteys** -entiteetti tallentaa liittyvät tietueet **Todelliselle** tietueelle. Lisäksi **Todellinen** tietue sisältää viittauksia projektiin, projektisopimukseen (tilaus), varattavissa olevaan resurssiin ja asiakkaaseen.
 
 ![Kaavio, jossa näkyvät tapahtuman yhteys, alkuperä ja toteutuneet suhteet](media/PS-Reporting-image6.png "Kaavio, jossa näkyvät tapahtuman yhteys, alkuperä ja toteutuneet suhteet")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

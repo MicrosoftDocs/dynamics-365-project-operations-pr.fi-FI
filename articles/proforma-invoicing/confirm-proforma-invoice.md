@@ -198,3 +198,6 @@ Välitavoitteen summaa koskeva laskutettu myynti, joka on projektisopimusrivin a
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

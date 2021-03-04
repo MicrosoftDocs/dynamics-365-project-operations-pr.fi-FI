@@ -30,3 +30,6 @@ Koska Nancy työskenteli kahdessa erillisessä projektissa Frankfurtissa ollessa
 | Junan hinta   | 578 DKK              | 405 DKK                         | 173 DKK                         |
 | Hotelli        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Ateriat        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

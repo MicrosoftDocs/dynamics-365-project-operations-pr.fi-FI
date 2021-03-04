@@ -125,3 +125,6 @@ UR5-päivityksessä tarvitaan seuraavat entiteettien suojausoikeuksien päivityk
  
  ![Kirjanpitomäärityksen synkronointi](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

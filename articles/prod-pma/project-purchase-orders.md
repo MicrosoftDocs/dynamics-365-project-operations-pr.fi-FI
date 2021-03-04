@@ -76,3 +76,6 @@ Voit luoda ostotilauksen projektinhallinnassa ja kirjanpidossa jollakin seuraavi
 
 Lisätietoja: [Nimikkeiden vastaanotto nimiketarpeeseen perustuvan ostotilauksen perusteella](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Kun budjetti tai budjetin versio on kohdistettu, voit tarkistaa kohdistussummat 
 10. Kun kohdistus on haluamasi, voit lähettää budjetin tai budjetin versiot hyväksymisen työnkulkuun valitsemalla projektibudjetti-sivulla Lähetä.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -167,3 +167,6 @@ Jos yritys toimii yhtenä yksikkönä, jolla on yksi kustannushinnasto, sille ei
 Kun projekti luodaan itsenäisenä, projektin oletusarvoinen sopimusyksikkö perustuu projektin luoneeseen käyttäjään. Kyseinen käyttäjä on myös oletusarvoinen projektipäällikkö. Jos projekti on yhdistetty myyntientiteettiin, kuten tarjoukseen tai projektisopimukseen, projektin sopimusyksikkö perustuu kyseiseen myyntientiteettiin. Tässä tapauksessa projektiarviot lasketaan mahdollisesti uudelleen, koska kustannushinnastoa käytetään kustannusarvion muutosten laskemiseen, jos sopimusyksikkö muuttuu. Myyntihinnastoa käytetään muutettavien myyntiarvioiden laskemiseen, jotta ne vastaavat tarjouksessa olevaa projektin hinnastoa.
 
 Projektin kenttiä **Sopimusyksikkö** ja **Valuutta** ei voi muokata, koska niiden on vastattava sen myyntientiteetin (tarjous tai projektisopimus) arvoja, joihin projekti on yhdistetty.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

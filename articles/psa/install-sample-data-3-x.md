@@ -297,3 +297,6 @@ Valitse käyttäjä (esimerkiksi Spencer Low) ja muuta käyttäjän työtunnit. 
 
 > [!div class="mx-imgBorder"]
 > ![Aktiivisten varattavissa olevien resurssien näyttökuva](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

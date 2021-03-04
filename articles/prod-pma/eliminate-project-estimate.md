@@ -51,3 +51,6 @@ Jotta arviointiprojekti voidaan poistaa, sen on oltava valmis. Seuraavassa kerro
 5. Kun eliminointiprosessi on valmis, eliminoitu arviointiprojekti näytetään negatiivisena. 
 
 Jos et aio poistaa arviota, voit valita eliminoidun arvion ja valita **Peruuta eliminointi**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

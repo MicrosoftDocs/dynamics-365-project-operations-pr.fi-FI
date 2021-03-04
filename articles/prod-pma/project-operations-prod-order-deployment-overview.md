@@ -43,3 +43,6 @@ Valitse käyttöönottotyyppi, joka käyttää Dynamics 365 Project Operationsia
 - Yritysluokan arvonlisävero- ja vaihtokurssimoduuli tarvitaan projektin asiakkaille suunnattujen laskujen luomiseen.
 - Kansainvälisten tilinpäätösstandardien (IFRS) mukainen projektin kirjanpito- ja tuloutusjärjestelmä.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

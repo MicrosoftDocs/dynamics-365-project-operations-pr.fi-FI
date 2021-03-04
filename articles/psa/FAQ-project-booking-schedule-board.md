@@ -91,3 +91,6 @@ Resurssi voidaan varata uudesta resurssitarpeesta seuraavasti.
 
 4. Nyt kun resurssi on varattu, tehtävät on kohdennettava manuaalisesti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

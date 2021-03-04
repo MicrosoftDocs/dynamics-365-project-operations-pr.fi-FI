@@ -57,3 +57,6 @@ Kustannushinnastot eivät ole oletusarvoisesti missään Project Operationsin en
 5. Seuraavaksi järjestelmä tarkastelee niiden hinnastojen päivämäärää, jotka vastaavat saapuvan arvion tai todellisen rivin päivämäärää. 
 6. Jos tulevan arvion tai todellisen päivämäärän kohdalla on useita tehokkaita hinnastoja, viimeksi luotu hinnasto on valittuna.
 7. Jos projektiparametreihin, jotka vastaavat valuuttaa ja voimaantulopäivää, ei ole liitetty kustannushinnastoja, järjestelmäoletusarvona on, että kustannushinta on nolla (0) saapuvassa arviossa tai todellisella rivillä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Voit käyttää ohjattua toimintoa seuraavasti.
 1. Siirry kohtaan **Projektinhallinta ja kirjanpito** > **Tarjoukset** > **Projektitarjoukset**.
 2. Valitse siirrettävä tarjous ja valitse **seuranta** -välilehden **muokkaa** -ryhmästä **siirrä projektiin**.
 3. Liitä ja siirrä tarjous projektiin käyttämällä seuraa **Siirrä tarjous projektiin** -toimintoa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

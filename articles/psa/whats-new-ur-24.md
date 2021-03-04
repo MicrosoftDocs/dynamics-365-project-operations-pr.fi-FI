@@ -81,3 +81,6 @@ Seuraavat ongelmat on korjattu:
 - **Päivitä toteutuneet** -painike laskee yhteenvetotehtävät virheellisesti.
 - Microsoft Project -apuohjelma: Korjaa null-viittausvirhe, jos jollain ryhmän jäsenellä on tyhjä resursointiyksikkö.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

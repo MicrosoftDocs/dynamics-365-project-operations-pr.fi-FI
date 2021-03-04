@@ -61,3 +61,6 @@ Kun projektiryhmä kopioidaan lähdeprojektista, yleiset resurssit kopioidaan. Y
 Kun projekti kopioidaan, sekä resurssin että kulun arviorivit kopioidaan lähdeprojektista. 
 
 Lisätietoja projektin kopioinnin ohjelmallisesta käyttämisestä on ohjeaiheessa [Projektimallien kehittäminen projektin kopioinnin avulla](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

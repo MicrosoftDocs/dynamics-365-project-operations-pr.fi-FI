@@ -44,3 +44,6 @@ Lisätietoja on kohdassa [Kulumerkintä (lite)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>Kulujen käyttöönoton määritys
 Jos haluat selvittää, onko käytössä kulujen hallinnan peruskäyttöönotto, tarkista, että URL-osoite päättyy **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

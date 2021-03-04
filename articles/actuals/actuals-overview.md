@@ -342,3 +342,6 @@ Project Operations tallentaa projektin aikana esiintyvät taloudelliset tapahtum
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

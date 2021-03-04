@@ -149,3 +149,6 @@ Oletusarvoisesti lehtisolmutehtävän alkamispäiväksi määritetään projekti
 ### <a name="manual-scheduling"></a>Manuaalinen aikataulutus
 
 Jos automaattisen aikataulutuksen säännöt eivät vastaa tarpeitasi, voit määrittää tehtävätilaksi **Manuaalisesti aikataulutettu**. Tämä asetus estää aikataulutusmoduulia laskemasta muiden ajoitusmääritteiden arvoja. Tehtävätilasta riippumatta edeltäjän määrittäminen tehtävälle vaikuttaa aina riippuvaisen tehtävän alkamispäivään.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

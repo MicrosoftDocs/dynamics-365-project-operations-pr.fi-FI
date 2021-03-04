@@ -43,3 +43,6 @@ Jos sinulla on myös mukautettuja sovellusmoduuleja, jotka sisältävät kaikki 
 
 ### <a name="currently-extended-time-entry-changes"></a>Tällä hetkellä pidennetyt aikamerkinnän muutokset
 Jotta aikamerkinnän nykyiseen käyttöön vaikutettaisiin mahdollisimman vähän, tämä roolien muutos on ainoa perusvaatimus, jota tarvitaan, jotta aikamerkintöjä voidaan jatkaa. Jos olet luonut mukautettuja näkymiä tai erillisiä ajansyöttökokemuksia, määritä **Aikamerkinnän asetukset** -kentille oikeat PSA-arvot.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

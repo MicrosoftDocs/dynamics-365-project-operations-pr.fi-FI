@@ -30,3 +30,6 @@ Kun tuotepohjainen sopimusrivi luodaan luettelotuotteelle, rivin hinta on oletus
 Yksikkökustannusten ottaminen tuotepohjaiseen sopimusriviin sallii eri tuotekustannukset jokaiselle yksikön myynnille. Vaikka ei olekaan aina tarpeen, on tiettyjä tilanteita, joissa toimittaja voi diskontata tuotteen hintaa. Esimerkkitilanne:
 
 Fabrikam Robotics asentaa robottikäsiä Adatum Corporationin kokoonpanolinjoilla. Fabrikam tarjoaa asennuspalvelut, mutta robottikädet ovat peräisin Trey Researchilta. Jos robottikäsien asennus Adatum Corporationissa avaa uuden toimialayksikön, Treyn Researchille, he voivat tarjota Fabrikamille erikoisalennuksen tästä sopimuksesta. Tässä tapauksessa Fabrikam luo tuotepohjaisen sopimusrivin robottikäsille. Tähän palvelusopimukseen syötetään yksikkökustannus. Kustannus eroaa Trey Researchin robottikäsien kustannuksesta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

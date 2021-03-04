@@ -39,3 +39,6 @@ Jos ominaisuuksien hallinnan avain **Ota käyttöön kulujen edustajien luettelo
 Edustaja voi suodattaa ja hakea nopeasti aiemmin delegoituja kuluraportteja. Edustaja voi myös nopeasti luoda uuden kuluraportin muille käyttäjille valitsemalla **Uusi kuluraportti**.
 
 Edustajat voivat luoda ja hallita muiden työntekijöiden kuluraportteja siirtymällä kohtan **Kulujen hallinta** > **Omat kulut** > **Kuluraportit** ja valitsemalla **Avaa toisen käyttäjän kulut**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

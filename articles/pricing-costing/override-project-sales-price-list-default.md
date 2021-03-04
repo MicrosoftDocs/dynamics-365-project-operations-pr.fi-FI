@@ -52,3 +52,6 @@ Voit käyttää näitä hinnastoja ja päivittää työn (roolin hinta) ja kuluj
 Projektisopimuksen projektihinnoittelun oletusarvona on aina mukautettu hinnasto, jossa on sopimuksen nimi ja jonka nimeen on lisätty luontipäivä- ja aikaleima. Tämä pitää paikkansa riippumatta siitä. luontiinko sopimus silloin, kun tarjous voitettiin, vai luotiinko sopimus alusta alkaen. Voit tarvittaessa poistaa tämän liitoksen mukautettuun hinnastoon ja liittää sen sijaan vakiohinnaston projektisopimukseen.
 
 Jos liität vakiohinnaston tarjouksen tai sopimuksen projektihinnastoihin, hinnaston hintoihin tehdyt muutokset vaikuttavat kaikkiin hinnastoa käyttäviin tarjouksiin ja sopimuksiin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

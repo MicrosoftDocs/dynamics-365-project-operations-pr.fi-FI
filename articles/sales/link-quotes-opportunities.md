@@ -56,3 +56,6 @@ Aiemmin luotu tarjous voidaan linkittää mahdollisuuteen. Päivitä aiemmin luo
    Kun siirrät mahdollisuuden tähän vaiheeseen, voit valita tämän tarjouksen tähän mahdollisuuteen liitetystä tarjousluettelosta. Tämän tarjouksen valitseminen ilmaisee, että olet siirtymässä eteenpäin sen kanssa.
 
    Muut mahdollisuuteen liittyvät tarjoukset ovat edelleen käytettävissä ja aktiivisia, kunnes yksi niistä on voitettu. Voit siirtää myyntirosessin edelliseen **Hyväksy**-vaiheeseen ja valita toisen tarjouksen, jonka kanssa haluat edetä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

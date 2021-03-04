@@ -34,3 +34,6 @@ ms.locfileid: "5145714"
 Kaikki projektin aikana esiintyvät taloudelliset tapahtumat kirjataan. Nämä tapahtumat kirjataan muodossa **Todelliset arvot**. Seuraavassa taulukossa esitetään todellisten arvojen eri tyypit, jotka luodaan sen perusteella, onko projekti aika ja materiaalit -projekti, kiinteähintainen projekti vai sisäinen projekti vai onko se myyntiä edeltävässä vaiheessa.
 
 > ![Taulukko, jossa näkyy todellisten arvojen kirjaustapa](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

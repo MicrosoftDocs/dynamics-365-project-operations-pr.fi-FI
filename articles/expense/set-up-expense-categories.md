@@ -61,3 +61,6 @@ Ennen määritysprosessin aloittamista on tehtävä seuraavat päätökset kulle
 
     - Jätetäänkö jotkin aliluokat pois veronpalautuksesta?
     - Mikä on aliluokkien nimikkeen arvonlisäveroryhmä?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

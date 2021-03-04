@@ -124,3 +124,6 @@ Käytettävissä voivat olla esimerkiksi seuraavat ominaisuudet:
 - **Tuote-SKU** 
 
 **Käyttäjät**- ja **Kuukaudet**-ominaisuudet voidaan valita määräkertoimiksi muokkaamalla tuoterivin ominaisuuksia. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Dynamics 365 Project Operationsin projektinhallintatyökalujen avulla voit helpo
 - Projektin arvioiden käyttäminen myyntiprosessin aikana.
 - Resurssivaatimusten ennustaminen tuleville projekteille.
 - Projektien toimittaminen menestyksekkäästi seuraamalla edistymistä ja toteutuneita kustannuksia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

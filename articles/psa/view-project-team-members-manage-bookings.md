@@ -57,3 +57,6 @@ Voit tarkastella projektin ryhmän jäsenten luetteloa ja sieltä voit ylläpit�
   
 ### <a name="see-also"></a>Katso myös  
  [Projektipäällikön opas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

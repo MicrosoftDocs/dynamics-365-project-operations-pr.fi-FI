@@ -116,3 +116,6 @@ Tämä tehtävätila ei vaikuta edeltävien/riippuvaisten tehtävien alkamis- ja
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Helppokäyttötoiminnot ja pikanäppäimet
 
 **Aikataulut**-ruudukko on täysin käytettävissä, ja siinä voidaan käyttää näytönlukijoita (esim. Narrator, JAWS tai NVDA). Voit siirtyä ruudukkoalueella nuolinäppäimillä (kuten Microsoft Excelissä), voit käyttää sarkainnäppäintä siirtyäksesi vuorovaikutteisten käyttöliittymäelementtien välillä ja voit käyttää alanuolinäppäintä, Enter-näppäintä tai välilyöntiä valitaksesi ja avataksesi avattavia valikkoja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

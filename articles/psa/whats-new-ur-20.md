@@ -62,3 +62,6 @@ Seuraavat ongelmat on korjattu:
 - **Organisaation yksikkökustannushinta** -luettelot sallivat päivämäärän voimassaolon päällekkäisyydet.
 - Käyttäjät eivät voi muuttaa **organisaatioyksikköä**, kun järjestystyyppi ei ole työpohjainen, koska se johtaa null-viittauksen poikkeusvirheeseen.
 - Kun yrität siirtyä **Tarjousrivin tiedot** -lomakkeesta takaisin **Tarjous**-välilehteen, lomake päivittyy ja näyttää **Yhteenveto**-välilehden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

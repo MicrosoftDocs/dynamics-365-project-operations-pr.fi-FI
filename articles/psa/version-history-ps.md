@@ -73,3 +73,6 @@ Tietoja Project Servicen päivityksistä saat siirtymällä sivulle [Dynamics 36
 >[!Note]
 > - Muiden kuin Government Community Cloud (GCC) -alueiden päivämäärät ilmaiset seuraavan automaattisen päivityksen ajankohdan. GCC:n päivämäärät ilmaisevat version saatavuuden; kyseisillä alueilla ei ole tällä hetkellä automaattista päivitystä.
 > - Kaikilla muilla alueilla aikaavievät päivitykset voidaan suorittaa yöllä viikonlopun aikana **Ajoituspäivämäärä**-sarakkeen osoittamalla tavalla, vaikka useimmat päivitykset tulisi suorittaa ajoitettuna yönä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

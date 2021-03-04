@@ -46,3 +46,6 @@ Aikatauluavustaja tulee näkyviin, ja se suodatetaan vaatimusten mukaan. Valitse
 > ![Resurssi valittu](media/Resource-Management-image61.png)
 
 Yleinen ryhmän jäsen korvataan sitovalla projektiryhmän nimetyn resurssin varauksella ja tehtäväkohdennuksilla projektiaikataulussa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

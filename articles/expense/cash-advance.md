@@ -63,3 +63,6 @@ Kun luot ja lähetät kuluraportin jo saadusta käteisennakosta, kulut oikaistaa
 ### <a name="example"></a>Esimerkiksi
 Aiot matkustaa Seattlesta New York Cityyn konferenssia varten. Luot 3 000,00 USD:n käteisennakkopyynnön konferenssilipun, hotellin, aterioiden ja taksin arvioitujen kustannusten perusteella. Sinulle ei makseta, ellei esimiehesi hyväksy tätä pyyntöä. Kun esimies on hyväksynyt pyynnön, käteisennakko 3 000,00 USD maksetaan pankkitilillesi. Sen jälkeen osallistut konferenssiin. Kun olet suorittanut matkasi, huomaat, että kokonaiskulut olivat vain 2 790,00 USD. Valitse **Käteinen** **Maksutapa**-kentässä ja lähetä kulut 2 790,00 USD. Lähetetty kulusumma oikaistaan automaattisesti sinulle lainattua 3 000,00 USD käteisennakkoa vastaan. Nyt olet velkaa 210,00 USD (3 000,00 - 2 790,00), jonka voit palauttaa yritykselle käyttämällä **Käteisen palautus** -kululuokkaa.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

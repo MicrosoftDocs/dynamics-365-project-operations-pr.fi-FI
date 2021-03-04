@@ -72,3 +72,6 @@ Asiakaskohtainen projektihinnasto voidaan määrittää, kun asiakkaiden kanssa 
 ## <a name="custom-pricing-on-a-project-contract"></a>Projektisopimuksen mukautettu hinnoittelu
 
 Kun organisaation oletusprojektihinnastot ja asiakaskohtaiset projektihinnastot ovat käytettävissä, luotavissa projektisopimuksissa käytetään automaattisesti näitä projektihinnastoliitoksia. Projektisopimuksen projektihinnastot kuitenkin kopioidaan aina siten, että niihin on liitetty päivämäärä ja sopimuksen nimi. Tili- ja projektipäälliköt voivat sitten muokata hintoja näissä kopioiduissa versioissa. Tällä tavoin muutettuja hintoja käytetään vain kyseisessä projektisopimuksessa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

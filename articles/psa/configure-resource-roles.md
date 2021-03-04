@@ -59,3 +59,6 @@ Rooleilla on tärkeä osa projektin suunnittelussa, kun määritetään resurssi
   
 ### <a name="see-also"></a>Katso myös  
  [Resurssien määrittäminen](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

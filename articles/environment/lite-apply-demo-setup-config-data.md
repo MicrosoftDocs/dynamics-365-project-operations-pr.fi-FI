@@ -74,3 +74,6 @@ Ennen määrityksen aloittamista, Common Data Service (CDS) -ympäristön on olt
     -   Varattavissa olevan resurssin ominaisuus
 
     ![Suorita tuonti](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

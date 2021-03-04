@@ -35,3 +35,6 @@ Kaikki luodut projektilaskut ovat käytettävissä **Myynti**-alueen **laskutus*
 Proformalasku voidaan luoda myös **Projektisopimuksen** tiedot -sivulta. Järjestelmä tarkistaa, mikä projektisopimuksista on **valmis laskutukseen**, joka on päivätty ennen kuluvan päivän päivämäärää. Näistä palvelusopimuksista järjestelmä luo proformalaskujen luonnokset kunkin sopimusrivin asiakkaiden määrän perusteella.
 
 Kun luodaan yksittäinen proformalasku, näkyviin tulee **lasku**-sivu. Jos projektisopimuksesta luodaan useita laskuja, kaikki luodut laskut näkyvät **Laskut**-luettelosivulla.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

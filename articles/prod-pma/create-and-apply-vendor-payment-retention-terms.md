@@ -65,3 +65,6 @@ Kun olet luonut toimittajan pidätysehdot, voit kohdistaa ehdot projektiin.
 6. Jos projektilla on myös toimittajalle määritetty maksu, kun maksettu (PWP) -ehdot, kirjoita projektin kynnysprosentti **PWP-kynnysprosentti** -kenttään.
 
 Toimittajan säilytysehdot näkyvät myös toimittajalle luotavien ostotilausten yhteydessä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

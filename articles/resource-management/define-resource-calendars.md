@@ -43,3 +43,6 @@ Jokaisella projektiin varattavalla resurssilla on oltava työaikakalenteri, jott
 2. Valitse ruudukkonäkymästä enintään 25 **varattavissa olevaa resurssia** päivitettäväksi.
 3. Valitse **Määritä kalenteri** ja näkyviin tulee valintaikkuna, jossa on käytettävissä olevien työtuntimallien luettelo.
 4. Valitse käytettävä malli sen avulla ja valitse sitten **Käytä**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

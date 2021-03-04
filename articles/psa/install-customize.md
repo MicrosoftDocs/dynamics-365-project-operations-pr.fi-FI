@@ -55,3 +55,6 @@ ms.locfileid: "5151474"
  [Projektipäällikön opas](../psa/project-manager-guide.md)   
  [Resurssipäällikön opas](../psa/resource-manager-guide.md)   
  [Aika-, kulu- ja yhteistyöopas](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

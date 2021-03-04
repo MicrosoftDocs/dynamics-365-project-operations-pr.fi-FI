@@ -42,3 +42,6 @@ Seuraavat ongelmat on korjattu:
 
 - Aikataulutusavun hakutoiminnon suorituskyvyn heikkeneminen
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

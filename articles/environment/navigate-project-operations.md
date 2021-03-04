@@ -38,3 +38,6 @@ Siirry Financessa **Projektinhallinta ja kirjanpito** -moduuliin valitsemalla **
 
 > [!NOTE]
 > Project Operationsia voi käyttää Common Data Servicessa ja **Projektinhallinta ja kirjanpito** -moduulissa suoraan kummankin URL-osoitteen avulla. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

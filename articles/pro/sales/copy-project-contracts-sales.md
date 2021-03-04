@@ -45,3 +45,6 @@ Seuraavia tietoja ei kopioida **lähdetarjouksesta** **kohdetarjoukseen**:
   - Asiakkaan budjettitiedot
 
 Koska nämä tiedot ovat sopimuskohtaisia, näitä kenttiä ja tietueita ei kopioida. Projektien ja tuotteiden sopimusrivit, sopimusrivien tietojen arviot ja sopimustason ei-ylitettävät arvot kopioidaan. Hinta- ja kustannushintaoletukset määräytyvät valinnoista **Kopioi parametrit** -kentässä valitun **Kopioi parametrit** -asetuksen mukaan.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

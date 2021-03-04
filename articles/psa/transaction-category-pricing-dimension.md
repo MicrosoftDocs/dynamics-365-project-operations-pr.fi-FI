@@ -53,3 +53,6 @@ Seuraavassa taulukossa on kattava luettelo niistä valmiina olevista lomakkeista
 2. Huomaa **Parametrit**-sivun **Summaperusteiset hinnoitteludimensiot** -välilehdellä, että välilehden ruudukko näyttää **Hinnoitteludimensiot** -entiteetin tietueet.
 3. Lisää tähän luetteloon **Tapahtumaluokka** ja aseta **Sovelletaan kustannuksiin** ja **Sovelletaan myyntiin** -kenttien arvoksi **Kyllä**.
 4. Valitse **Dimensiotyyppi**-kentässä **Summaperusteinen**, ja valitse sitten **Tapahtumaluokan** prioriteetti kustannuksiin ja myynteihin liittyen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Kopioitaessa projektiarviorivien välillä hinnastot päivitetään. Kustannushi
 ### <a name="copying-a-project-team"></a>Projektiryhmän kopioiminen
 
 Kun projektiryhmä kopioidaan projektimallista projektiin, kopioidaan yleiset resurssit, samoin kuin mallissa määritetyt taidot ja osaamisalueet. Yleisten resurssien kohdennukset myös säilytetään sellaisina, kuin ne olivat projektimallissa. Nimettyjä resursseja ei tueta projektimalleissa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

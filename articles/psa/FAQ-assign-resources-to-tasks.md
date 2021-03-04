@@ -82,3 +82,6 @@ Tällä tavoin kohdennetut resurssit lisätään ryhmään ilman varauksia. täm
 
 3. Valitse resurssi, jonka haluat kohdentaa tehtävälle.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

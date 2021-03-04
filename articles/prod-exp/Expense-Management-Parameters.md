@@ -89,3 +89,6 @@ Parametrit ohjaavat yleistä käyttäytymistä kulunhallinnassa.
 | <strong>Korruption vastainen sanoma lähettäjälle</strong> |                                                                                             Kirjoita teksti, joka näytetään työntekijälle uutta kuluraporttia luotaessa. Jos haluat lisätä kielikohtaisen tekstin, joka näkyy käyttäjän kielen mukaan, paina<strong>Käännökset</strong>-painiketta.                                                                                             |
 | <strong>Korruption vastainen sanoma hyväksyjälle</strong>  |                                                                                             Kirjoita teksti, joka näytetään hyväksyjälle uutta kuluraporttia luotaessa. Jos haluat lisätä kielikohtaisen tekstin, joka näkyy käyttäjän kielen mukaan, paina<strong>Käännökset</strong>-painiketta.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

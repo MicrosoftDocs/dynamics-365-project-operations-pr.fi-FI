@@ -64,3 +64,6 @@ Lisää hinnoitteluratkaisuun seuraavat Project Service -entiteetit, jotta voit 
 5.  Kun sinua pyydetään sisällytämään valituista entiteeteistä riippuvaisia entiteettejä, valitse **Ei, älä sisällytä pakollisia komponentteja.**
 
     ![Sisältäen riippuvaiset entiteetit](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

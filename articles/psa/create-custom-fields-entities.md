@@ -73,3 +73,6 @@ Voit luoda tietoja entiteettiperusteisille dimensioille manuaalisesti tai käytt
 > ![Esimerkkitietoja Vakionimike-entiteetille ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

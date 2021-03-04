@@ -70,3 +70,6 @@ Valtuutus on nyt valmis.
 Olet yhdistänyt Azure-tilauksen onnistuneesti. Voit nyt ottaa käyttöön Dynamics 365 Financen pilvi-isännöidyt ympäristöt.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

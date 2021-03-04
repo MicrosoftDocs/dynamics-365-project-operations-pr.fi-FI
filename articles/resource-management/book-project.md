@@ -66,3 +66,6 @@ Projektipäällikön täytyy ehkä varata resurssi projektiin, mutta vain tietä
 
 > [!NOTE]
 > Tämä menetelmä ei luo varauksia resurssille. Sen sijaan se lisää resurssin ryhmään. Kun ryhmän jäsen on lisätty projektiin, projektipäällikkö voi ylläpitää varauksia tai laajentaa varauksia, jotta tarvittavat varaukset voidaan lisätä resurssiin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

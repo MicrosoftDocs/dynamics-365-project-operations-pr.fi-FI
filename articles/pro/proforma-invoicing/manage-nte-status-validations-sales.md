@@ -73,3 +73,6 @@ Ei-ylitettävän rajoituksen voi arvioida uudelleen joukkotoiminnolla. Ei-ylitet
 Voit arvioida ei-ylitettävän rajoituksen tilan uudelleen valitsemalla vähintään yhden todellisen arvon **Keskeneräiset ajan ja materiaalin laskutukset**- tai **Todelliset arvot** -näkymässä ja valitse sitten **Arvioi ei-ylitettävän rajoituksen tila uudelleen**.
 
 Kaikki soveltuvat todelliset arvot, joissa on ei-ylitettävä rajoitus, arvioidaan ei-ylitettävien rajoitusten asetusten perusteella. Todelliset arvot, jotka liittyvät ei-ylitettävän rajoituksen tila uudelleenarviointiin, ovat laskuttamattomia myynnin todellisia arvoja, joita ei ole laskutettu, jotka eivät ole laskuluonnoksia ja jotka on merkitty veloitettavaksi. Kaikki muut valitut todelliset arvot ohitetaan.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

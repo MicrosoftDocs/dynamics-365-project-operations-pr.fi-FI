@@ -90,3 +90,6 @@ Arvion tilaksi vaihtuu **Eliminoitu**.
 Tämän sivun avulla voit peruuttaa kaikki poistot, joilla on tietty arviopäivä ja joiden arvio tila on **Eliminoitu**. Tapahtuman tila muuttuu sen jälkeen, kun olet valinnut tarvittavat kentät.
 
 Tämä myös muuttaa automaattisesti projektin tilaksi **Työn alla**, jos projektin vaiheeksi on määritetty valmis. Projektikauden arvion tila vaihtuu takaisin arvoksi **Kirjattu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

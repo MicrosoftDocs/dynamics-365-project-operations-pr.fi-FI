@@ -62,3 +62,6 @@ Projektimallit säästävät aikaa, jos yritys tekee säännöllisesti samankalt
   
 ### <a name="see-also"></a>Katso myös  
  [Projektipäällikön opas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

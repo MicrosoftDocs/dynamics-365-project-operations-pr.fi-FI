@@ -144,3 +144,6 @@ Käytä laajennusvahvistuksia kaikkiin vahvistuksiin, jotka edellyttävät enemm
 
 ### <a name="copying-time-entries"></a>Aikamerkintöjen kopiointi
 Voit määrittää aikamerkinnän aikana kopioitavien kenttien luettelon käyttämällä **Näytä kopiointiajan syöttö** -sarakkeita. **Päivämäärä** ja **kesto** ovat pakollisia kenttiä, eikä niitä pitäisi poistaa näkymästä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Fabrikam UK-Roboticsin kustannushinnastossa kustannushinnat voidaan ilmaista seu
 | Developer | Fabrikam UK | 115 GBP |
 
 Kustannushinnastossa voi olla työvoimahinnat useissa valuutoissa. Kun projektin kustannusarvio luodaan, Project Operations muuntaa nämä kustannusprosentit projektivaluuttaan ja näyttää ne käyttäjälle. Kun ajankohta on hyväksytty ja todellinen kustannus luodaan, todellinen kustannushinta on hinnoiteltu vastaavan roolihintarivin valuutassa kustannushinnastossa. Yksittäisen projektin kustannusten toteutuneet kustannukset voidaan kirjata useina valuuttoina. Kun kuitenkin kootaan tai tiivistetään todelliset työvoimakustannukset projektitasolla, Project Operations muuntaa kaikki työvoimakustannussummat projektin valuutaksi, jonka käyttäjä voi tarkastella.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

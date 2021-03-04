@@ -29,3 +29,6 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 - **Kommentit** -kentän avulla projektipäällikkö voi syöttää tilaan liittyviä kommentteja. 
 - **Tila päivitetty** -kenttää ei voi muokata. Tämän kentän arvo on aikaleima, joka ilmaisee, milloin tila on viimeksi päivitetty.
 - **Aikataulun tehokkuus**- ja **Kustannustehokkuus**-kentät määritetään seurantaruudukossa. Kun pääsolmun aikataulu ja kustannusten ero **Työmäärän seuranta** -näkymässä ovat positiivisia, näiden kenttien arvoksi päivitetään **Edellä**. Kun pääsolmun aikataulu ja kustannusten ero ovat negatiivisia, näiden kenttien arvoksi määritetään **Jäljessä**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

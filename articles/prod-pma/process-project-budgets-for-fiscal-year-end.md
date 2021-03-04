@@ -98,3 +98,6 @@ Kun käsitellään jäljellä olevia budjettisummia, voit luoda pääkirjanpitoo
 5. Jos haluat käsitellä kutakin käsiteltävää projektia, valitse vaihtoehto projektirivin alussa. 
 6. Valitse **prosessi** , jos haluat siirtää valittujen projektien jäljellä olevat budjettisummat valittuun tilikauteen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

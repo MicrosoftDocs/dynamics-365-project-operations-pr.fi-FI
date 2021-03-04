@@ -20,3 +20,6 @@ ms.locfileid: "4514515"
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
 Voit käyttää Dynamics 365 Field Serviceä luodaksesi varattavissa olevia resursseja, joita voidaan käyttää Dynamics 365 Project Operations -ympäristössä. Lisätietoja näiden resurssien luomisesta on kohdassa [Varattavissa olevien resurssien luominen](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Tässä aiheessa kuvataan, miten jäljellä oleville budjeteille luodaan ennuste
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

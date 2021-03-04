@@ -77,3 +77,6 @@ Arviota tai todellista kulua voidaan pitää veloitettavissa vain, jos tarjousri
 | No | Kyllä | Koko projekti | Ei voida määrittää | Ei veloitettava | Ei voida määrittää | Laskutus toteutuneesta ajasta: Ei saatavilla </br>Laskutustyyppi tosiasiallisista kustannuksista: Ei veloitettava |
 | Kyllä | No | Koko projekti | Veloitettava | Ei voida määrittää | Ei voida määrittää | Laskutus toteutuneesta ajasta: Laskutettava</br>Laskutustyyppi tosiasiallisista kustannuksista: Ei saatavilla |
 | Kyllä | No | Koko projekti | Ei veloitettava | Ei voida määrittää | Ei voida määrittää | Laskutus toteutuneesta ajasta: Ei veloitettava </br>Laskutustyyppi tosiasiallisista kustannuksista: Ei saatavilla |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

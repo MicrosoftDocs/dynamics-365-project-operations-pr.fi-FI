@@ -65,3 +65,6 @@ Project Operationsin mahdollisuuden myyntiprosessi on laajennusmahdollisuus myyn
 > Jos projektipohjainen sopimus on käynnistetty mahdollisuudesta, mahdollisuuden myyntiprosessiin on etusijalla.
 
 Voit muokata tuote liiketoimintaprosessin työnkulkua tai luoda omia liiketoimintaprosessien työnkulkuja, joilla voit seurata myyntiprosessia tarpeen mukaan. Lisätietoja liiketoimintaprosesseista on aiheessa [liiketoimintaprosessin kulun yleiskatsaus](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

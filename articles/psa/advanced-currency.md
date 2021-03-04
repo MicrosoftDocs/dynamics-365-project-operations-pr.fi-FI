@@ -105,3 +105,6 @@ Dynamics 365 käsittelee eri valuutoissa olevien summien koonnit automaattisesti
 | Kulut           | Laskuttamaton myynti   | 17. kesä | Jali  | Auton vuokraus           | 1 kpl     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Projektin laskuttamattoman myynnin kokonaissumman laskemista varten voidaan luoda **Summa**-kentän koontikenttä kaikille asiaan liittyville laskuttamattomille myynnin todellisille arvoille. Koontikenttä on Dynamics 365:n rakenne, jonka avulla voidaan luoda pikakaavioita toisiinsa liittyville tietueille.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

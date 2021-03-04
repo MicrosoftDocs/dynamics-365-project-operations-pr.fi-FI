@@ -124,3 +124,6 @@ Seuraavassa kuvissa on esimerkki mallitehtävien yhdistämismäärityksissä tie
 > Yhdistämismäärityksessä näytetään kenttätiedot, jotka synkronoidaan Project Service Automationista Financeen.
 
 [![Project Service Automationista Financen malliyhdistämiseen](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

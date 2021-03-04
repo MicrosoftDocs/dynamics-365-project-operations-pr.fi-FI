@@ -68,3 +68,6 @@ Seuraavissa vaiheissa selitetään, miten laajennukset rekisteröidään.
 
 9. Sulje laajennuksen rekisteröintityökalu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

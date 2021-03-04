@@ -93,3 +93,6 @@ Project Operationsin palvelusopimukset perustuvat Dynamics 365 Sales -sopimuksii
 - Project Operations -sopimuksilla on omat lomake- ja käyttöliittymäelementit, liiketoimintasäännöt, laajennusten liiketoimintalogiikka ja asiakaspuolen komentosarjat, jotka tekevät niistä erilaisia kuin Sales-sopimuksista.
 
 Näistä syistä sinun ei tule käyttää myyntitilausta ja Project Operationsin sopimusta samassa merkityksessä.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

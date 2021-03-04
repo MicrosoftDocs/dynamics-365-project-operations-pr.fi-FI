@@ -160,3 +160,6 @@ Luomalla kuluraporttikäytäntöjä voit auttaa organisaatiota säästämään a
 - Milloin käytäntö vanhenee?
 - Mikä on käytäntösääntö?
 - Mikä on käytäntösäännön tulos?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

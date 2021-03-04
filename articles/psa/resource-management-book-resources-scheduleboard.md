@@ -53,3 +53,6 @@ Ennen kuin aikataulutaulukosta on mahdollista varata, on luotava resurssitarpeet
 Tarve täytetään valitulla resurssilla. Huomaa, että **Varausvaatimukset**-ruudussa vaatimukset on päivitetty, ja resurssi näkyy varattuna projektissa.
 
 ![Projektiin varattu resurssi](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

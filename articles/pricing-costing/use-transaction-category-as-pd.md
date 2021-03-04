@@ -50,3 +50,6 @@ Seuraavassa taulukossa on luettelo kaikista sisällytetyistä lomakkeista ja nä
 2. Varmista **Parametrit**-sivun **Määrään perustuvat hinnoitteludimensiot** -välilehdellä, että ruudukko näyttää tietueet **Hinnoitteludimensiot**-entiteetissä.
 3. Lisää tähän luetteloon **Tapahtumaluokka** ja aseta **Sovelletaan kustannuksiin** ja **Sovelletaan myyntiin** -kenttien arvoksi **Kyllä**.
 4. Valitse **Dimensiotyyppi**-kentässä **Määrään perustuva**, ja valitse sitten **Tapahtumaluokan** prioriteetti kustannuksiin ja myynteihin liittyen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

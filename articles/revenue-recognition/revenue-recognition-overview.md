@@ -60,3 +60,6 @@ Dynamics 365 Project Operationsissa tuoton kirjaamisperiaatteet vaihtelevat proj
 [Myyntituottoarvioiden hallinta](rev-rec-completed-contract-method.md)
 
 [Valmistumiskustannusmenetelmät](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

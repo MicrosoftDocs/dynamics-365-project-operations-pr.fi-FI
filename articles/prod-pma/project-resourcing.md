@@ -55,3 +55,6 @@ Seuraavissa ohjeaiheissa on tietoja tehtävistä, jotka on suoritettava, kun ty�
 - [Projektin resurssien aikataulutuksen suorituskyky](project-scheduling-performance.md)
 - [Roolien määrittäminen työrakennemalleihin](set-up-roles-wbs-template.md)
 - [Resurssien täyttäminen suunniteltujen resurssien osalta](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

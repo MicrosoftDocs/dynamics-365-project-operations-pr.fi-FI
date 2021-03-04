@@ -68,3 +68,6 @@ Voit käyttää **Täsmäytys**-välilehden varauksenlaajennustoimintoa tai koht
 ![Ryhmän jäsenen varausten laajentaminen resurssin täsmäyksen välilehdessä](media/RM-how-to-7.png)
 
 Kun ryhmän jäsen on varattu projektillesi, voit käyttää niiden varausten hallitsemiseen varausten ylläpitoa tai aikataulutaulukkoa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

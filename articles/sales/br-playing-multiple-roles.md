@@ -106,3 +106,6 @@ Kun laajennat kyseisen ryhmän jäsen tietueen riviä, voit nähdä ryhmän jäs
 ### <a name="estimates-grid"></a>Arvioruudukko 
 
 **Arviot**-ruudukossa saman resurssin eri määritykset hinnoitellaan eri tavalla. Resurssin varaus tehtävässä **Tehtävä A** on hinnoiteltu käyttäen **Rooli**-määritteen arvoa **Consulting Lead**. Saman resurssin varaus tehtävässä **Tehtävä B** on hinnoiteltu käyttäen **Rooli**-määrityksen arvoa **Network Technician**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

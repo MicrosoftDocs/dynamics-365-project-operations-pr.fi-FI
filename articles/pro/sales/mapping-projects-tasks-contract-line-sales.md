@@ -82,3 +82,6 @@ Tämä ei ole optimaalinen tapa poistaa tehtävien liitoksia sopimusriveistä. V
 4. Valitse sopimusrivi avautuvan valintaikkunan avattavasta luettelosta.
 5. Valitse valintaruutu ilmaisemaan, poistetaanko liitos myös valittujen tehtävien alitehtävistä. Valintaruudun valitseminen poistaa valittujen tehtävien alitehtävien liitokset sopimusriviltä.
 6. Valitse **OK**. Varoitussanoma ilmaisee, että tämän liitoksen poistaminen aiheuttaa tehtävään aiemmin kirjattujen todellisten arvojen palautuksen. Poista tehtävän ja projektipohjaisen sopimusrivin välinen liitos valitsemalla varoitussanomassa **OK**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

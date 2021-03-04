@@ -170,3 +170,6 @@ Seuraavissa kuvissa on esimerkkejä mallitehtävien yhdistämismäärityksestä 
 [![Kuluarviotapahtumien mallin yhdistäminen](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Kuluarvioiden mallin yhdistäminen](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

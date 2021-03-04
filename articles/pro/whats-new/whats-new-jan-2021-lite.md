@@ -41,3 +41,6 @@ Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja 
 | **Mahdollisuuksien hallinta** | 2040713 | Korjattu skriptivirhe, joka ilmeni luotaessa laskua sopimuksesta, kun Field Service on asennettu. |
 | **Projektin suunnittelu ja seuranta** | 2090202 | Liiketoimintasäännöt, joita ei enää käytetä, on merkitty **vanhentuneiksi**. |
 | **Aika ja kulu** | 2091249 | Ohjausobjekteja on tarkennettu siten, että käyttäjät eivät voi muuttaa tehtävää lähetetyssä tai hyväksytyssä aikamerkinnässä. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

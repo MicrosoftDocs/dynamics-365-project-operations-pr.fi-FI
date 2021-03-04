@@ -74,3 +74,6 @@ Kun laajennat kyseisen Ryhmän jäsen -tietueen riviä, näet kummallekin tehtä
 Kun siirryt **Arviot**-ruudukkoon, huomaat, että saman resurssin molemmat delegoinnit hinnoitellaan eri tavalla.
 Resurssin delegointi tehtävssä A on hinnoiteltu käyttämällä **Rooli**-määritteen arvoa **Consulting Lead**. Saman resurssin delegointi tehtävssä B on hinnoiteltu käyttämällä **Rooli**-määritteen arvoa **Network Technician**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

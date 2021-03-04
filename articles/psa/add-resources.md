@@ -55,3 +55,6 @@ Organisaatioyksiköille voi määrittää resursseja, jos sinulla täytyy olla e
   
 ### <a name="see-also"></a>Katso myös  
  [Resurssien määrittäminen](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

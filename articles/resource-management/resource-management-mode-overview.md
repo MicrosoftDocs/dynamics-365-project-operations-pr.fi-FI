@@ -48,3 +48,6 @@ Resurssin varaaminen suoraan projektiin:
 Resurssien varaaminen resurssitarpeesta:
 - [Yleisten varattavissa olevien resurssien delegointi tehtävään ja resurssitarpeiden luominen](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Nimettyjen resurssien varaaminen resurssitarpeista](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

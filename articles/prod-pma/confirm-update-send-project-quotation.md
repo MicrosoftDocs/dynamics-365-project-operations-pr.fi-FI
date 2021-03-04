@@ -57,3 +57,6 @@ Jos haluat muokata aiemmin luotua projektitarjousta, tarjouksen tilan tulee olla
 
 > [!NOTE]
 > Et voi muokata projektitarjousta sen jälkeen, kun tilaksi on vaihdettu **Lähetetty**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

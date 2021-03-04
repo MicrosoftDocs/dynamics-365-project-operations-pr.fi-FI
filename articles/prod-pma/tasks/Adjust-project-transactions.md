@@ -44,3 +44,6 @@ Tässä tehtäväoppaassa kerrotaan, miten projektin tapahtumaa voi muuttaa. Voi
 13. Merkitse valittu rivi luettelossa. 
 14. Kirjoita Kustannushinta-kenttään numero. 
 15. Valitse Julkaise. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

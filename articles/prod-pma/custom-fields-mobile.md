@@ -429,3 +429,6 @@ Oletusprojektiluokan syöttäminen työaikaraportin tapahtumille tapahtuu kolmel
 1. Sovellus yrittää asettaa oletusluokan projektiresurssista. Tämä oletusluokka on määritetty **getCurrentUserResource** - ja **getDelegatedResourcesForCurrentUser** -menetelmille **TSTimesheetSettingsService** -luokassa.
 2. Jos oletusluokkaa ei ole projektiresurssitasolla, sovellus yrittää vetää sen projektiaktiviteetista. Tämä oletusluokka määritetään **TSTimesheetProjectService** -luokan **getActivitiesForProject** -menetelmässä.
 3. Jos oletuskategoriaa ei anneta projektin aktiviteettitasolla, oletusluokka otetaan projektin parametreista. Tämä oletusluokka määritetään **TSTimesheetProjectService** -luokan **getProjectDetailsbyRule** -menetelmässä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

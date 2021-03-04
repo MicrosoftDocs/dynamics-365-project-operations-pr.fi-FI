@@ -107,3 +107,6 @@ Työrakenteeseen on lisätty lisäasetuksia, jotta resursointitoimintoa voidaan 
     > Et saa varoitusta siitä, että määritetty resurssi on nyt 2, koska resurssien määränä säilyy 1.
 
 14. Vahvista työrakenteen resurssimääritys **Työrakenne** -sivulla ja valitse sitten **Tallenna**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

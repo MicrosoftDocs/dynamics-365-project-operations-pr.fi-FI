@@ -53,3 +53,6 @@ Seuraavassa kerrotaan muutamia ehdotuksia, jotka voivat auttaa kulujen hallinnan
 ## <a name="when-to-evaluate-policies"></a>Käytäntöjen arvioimisajankohta
 
 Voit valita kulujen hallinnan parametreissa kulujen hallintakäytäntöjen arvioimisen, kun rivi on tallennettu tai kun kuluraportti on lähetetty. Jos haluat tehdä arvioinnin rivin tallennuksen yhteydessä, käyttäjät näkevät suoritettavat toiminnot aiemmin ja voivat viimeistellä kuluraportin kerralla. Muussa tapauksessa voit viivästyttää käytännön arviointia ja säästää aikaa suorittamalla tarkistuksen lopussa työnkulun lähettämisen aikana.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

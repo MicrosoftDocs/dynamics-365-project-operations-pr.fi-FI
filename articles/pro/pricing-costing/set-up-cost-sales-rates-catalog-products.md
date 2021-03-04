@@ -26,3 +26,6 @@ Tuoteluettelonimikkeiden hinnoittelu määritetään Dynamics 365 Project Operat
 Project Operationsissa tuotteita ei voi arvioida tai käyttää projekteissa, joten tuoteluettelohintoja ei tarvitse määrittää tarjousten ja sopimusten projektihinnastoihin.
 
 Määritä tuoteluettelohinnat tarjouksen, sopimuksen tai tilin **Tuotehinta**-kentän avulla. Älä määritä tuoteluettelohintoja projektin hinnastoihin. Projektihinnastot ovat yksinomaisia Project Operationsia varten. Sovelluskohtainen liiketoimintalogiikka kopioi hinnastot tarjouksesta sopimukseen. Tuloksena on palvelussopimuskohtainen hinnasto Kopiointitoiminto voi viivyttää tarjouksen voittoprosessia, jos tarjouksen projektihinnasto muuttuu liian suureksi. Tuotehinnastoja ei kopioida, kun luodaan palvelusopimuksille mukautettuja hinnastoja. Koska kopiointia ei tehdä, tämä ei vaikuta tarjousprosessin suorituskykyyn.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

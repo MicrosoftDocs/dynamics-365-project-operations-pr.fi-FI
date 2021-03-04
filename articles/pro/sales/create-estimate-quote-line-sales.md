@@ -67,3 +67,6 @@ Tarjousrivin tietojen valuutta kustannukselle tulee oletuksena tarjouksen sopimu
 Kannattavuuslaskelmat muuntavat tarjousrivin tiedot kustannukselle ja myynnille ympäristön perusvaluuttaan ja ilmoittavat tarjouksen yleisen arvioidun katteen.
 
 Tämä voi johtaa valuutan pyöristysvirheisiin ja katteen muuttumiseen, koska valuuttakursseista puuttuu voimassaolopäivät. Käytä näitä laskelmia projektitarjouksissa vain arvioina eikä toteutuneena lakisääteisenä tai muuna raportina, joka edellyttää suurempaa pyöristyksen tarkkuutta ja tietoisuutta valuuttakurssien voimassolon päivämääristä.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Jos haluat hylätä ehdotuksen, valitse **Hylkää resurssi**.
 ![Resurssiehdotuksen hyväksyminen](media/RM-how-to-20.png) 
 
 Samoin kuin yleisen resurssipyynnön täyttämisessä suoraan nimetyllä resurssilla, yleinen resurssi korvataan ja kohdennetut tehtävät päivitetään nimetyllä ryhmän jäsenellä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

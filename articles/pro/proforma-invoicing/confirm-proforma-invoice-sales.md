@@ -273,3 +273,6 @@ Tuoteriviltä laskutettu myynti, jolla on tuotepohjaisen sopimusrivin määrä j
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

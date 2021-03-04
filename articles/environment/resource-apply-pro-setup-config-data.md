@@ -134,3 +134,6 @@ Seuraavien edellytysten on täytyttävä ennen tietojen määrittämistä Common
 13. Valitse **Tallenna**. 
 
 ![Päivitetyt projektin parametrit](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Kannattavuuslaskelmat muuntavat **kustannusten** ja **myynnin** sopimusrivin tie
 
 > [!NOTE]
 > Valuutan pyöristysvirheitä ja muuttuneita katteita voi esiintyä, koska vaihtokurssien voimassaolopäivä puuttuu. Käytä näitä projektisopimusten laskelmia vain likimääräisinä arvoina eikä varsinaisena lakisääteisenä tai muuna raportointina, joka edellyttää tarkkuutta pyöristyksen osalta tai tietoisuutta vaihtokurssien voimassaolopäivästä.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

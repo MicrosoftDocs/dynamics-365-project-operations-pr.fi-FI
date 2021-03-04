@@ -31,3 +31,6 @@ ms.locfileid: "5144149"
 Project Service Automation (PSA) sisältää monta kenttää **Nykyarvot**-entiteetissä, joita voidaan käyttää hinnoitteludimensioina resurssipohjaisessa hinnoittelussa projektiorganisaatioissa. Esimerkiksi yksi yhteinen kenttä on **Varattavissa oleva resurssi**. Pienemmät yritykset, joissa on alle 20-30 laskutettavaa resurssia, voivat huomata, että laskutus- ja kustannushintojen määrittely erikseen kullekin resurssille on yksinkertaisempaa. Koska laskutettava työvoima kuitenkin kasvaa, tietyt hinnat voivat muuttua epärealistisiksi ylläpitää, kun resurssien kustannukset ja laskutushinnat alkavat vaihdella, kun resursseja ylennetään, he kerryttävät lisää kokemusta, tai saavat uusia taitoja. Koska tämä lähestymistapa toimii edelleen tietyn kokoisia yrityksiä varten, katso [Käytä varattavaa resurssia hinnoitteludimensiona](bookable-resource-pricing-dimension.md) ymmärtääksesi, kuinka olemassa olevaa Project Service -kenttää voidaan käyttää hinnoitteludimensiona.
 
 Toinen esimerkki on tapahtumaluokka. Asiakkaat ja toteuttajat ovat käyttäneet PSA:N tapahtumaluokkaa työn luokittelemiseksi ja hinnan sekä kustannusten määrittelyä varten työn luokan perusteella. Lisätietoja on aiheessa [Tapahtumaluokan käyttäminen hinnoitteludimensiona](transaction-category-pricing-dimension.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Tämä tehtävä käyttää USSI-tietojoukkoa.
 21. Kirjoita arvo **Tuoteresepti** -kenttään.
 22. Valitse **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Käytä tätä käyttöönottoa, jos Project Operationsia odotetaan käyttävän
 - Integroitu järjestelmä, joka hallitsee aikataulujen ja taloustietojen sisäisiä ja laskutettavia projekteja projektimyynnistä laskutukseen.
 - Project Operationsin kanssa integroitava kolmannen osapuolen toiminnanohjaus (ERP)- tai kirjanpitojärjestelmä.
 - Kolmannen osapuolen järjestelmä arvonlisäverojen, vaihtokurssien, kulukorvausten ja muiden kuin projektikulujen käsittelemiseen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

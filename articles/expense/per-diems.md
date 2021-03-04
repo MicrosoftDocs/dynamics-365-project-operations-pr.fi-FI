@@ -31,3 +31,6 @@ Päiväraha on palkka, joka maksetaan työhön matkustavalle työntekijälle. Ku
     
 ## <a name="submit-expenses-using-per-diem"></a>Kulujen lähettäminen päivärahan avulla
 Jos haluat lähettää kuluja käyttäen päivärahoja, käytä **Päiväraha**-kululuokkaa, kun luot kuluraporttia. Anna **Päivärahan alkupäivämäärä**-, **Päivärahan loppupäivämäärä** ja **Päivärahan sijainti**. Summa lasketaan valitun sijainnin päivärahahintojen perusteella, ja ateriavähennys lasketaan päivärahatasojen perusteella.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

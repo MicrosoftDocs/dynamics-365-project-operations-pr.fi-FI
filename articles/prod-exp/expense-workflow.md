@@ -55,3 +55,6 @@ Seuraava prosessi on esimerkki kuluraportin kulunhallinnan työnkulusta.
 Kun nämä vaatimukset on tarkistettu, kuluraportti kirjataan.
 
 Kun kuluraportti on kirjattu, maksu on sallittu kuluraportille ja työntekijälle hyvitetään.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Seuraavat ongelmat on korjattu:
 - Parannettiin virheiden käsittelyä ottamaan huomioon tyhjäarvoinen viitepoikkeus, joka luotiin kohdasta **Kopioi projekti: arvioi HelperResource-hallinta**.
 - **Keskeneräiset ajan ja materiaalin laskutukset** -kohdan **Ei ole valmis laskutettavaksi** ei tyhjennä laskutustilaa.
 - Korjattiin virheellisesti merkityt **Hinnat**-painikkeet **Roolin hinta**- ja **Luettelon nimikkeet** -välilehdessä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

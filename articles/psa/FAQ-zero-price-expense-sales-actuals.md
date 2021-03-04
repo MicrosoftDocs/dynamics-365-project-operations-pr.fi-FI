@@ -72,3 +72,6 @@ JOs kululuokan hinnan asetus ei ole sallittu, olet eristänyt ongelman. Ratkaisu
 Jos toteutuneella kulumyynnillä ei ole sallittua hintaa näiden kolmen edellä mainitun tarkistuksen jälkeen ole sallittu, kirjaa tukipyyntö.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

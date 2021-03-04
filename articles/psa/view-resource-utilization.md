@@ -43,3 +43,6 @@ Voit tarkistaa resurssien käytön määrittääksesi resurssien käyttötasot. 
   
 ### <a name="see-also"></a>Katso myös  
  [Resurssipäällikön opas](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

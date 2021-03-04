@@ -32,3 +32,6 @@ Projektia, jota ei ole liitetty Dynamics 365 Project Operationsin palvelusopimuk
 Kun tapahtumat on kirjattu projektiin ja projekti on liitetty projektisopimukseen, järjestelmä peruuttaa kaikki kertyneet tapahtumat ja luo uudet laskutettavat tapahtumat. Laskutettavat tapahtumat noudattavat kunkin projektin kustannus- ja tuottoprofiilissa määritettyjä kirjanpitosääntöjä.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

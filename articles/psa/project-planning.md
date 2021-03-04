@@ -52,3 +52,6 @@ Seuraavissa aiheissa on tietoja, joiden avulla projektipäälliköt voivat arvio
 - [Projektimallit](project-templates.md)
 - [Projektin vaiheet](project-stages.md)
 - [Projektin asetukset](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

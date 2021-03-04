@@ -56,3 +56,6 @@ Valitse hyväksyttävä matkustusehdotus ja valitse sitten **Työnkulku** > **Hy
 
 > [!NOTE]
 > Kun yhdistät kuluraportin hyväksyttyyn matkaehdotukseen, tapahtuman summa ei voi olla suurempi kuin valtuutettu summa. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

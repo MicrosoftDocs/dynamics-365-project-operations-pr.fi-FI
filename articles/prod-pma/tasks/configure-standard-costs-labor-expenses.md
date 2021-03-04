@@ -54,3 +54,6 @@ Tässä aiheessa kerrotaan, miten projektin työn ja kulujen vakiokustannukset m
 22. Kirjoita **Hinnoittelu** -kenttään numero. Todellinen myyntihinta, jota käytetään, kun työntekijä syöttää tapahtumat kulukirjauskansioon, on myyntihinta, joka on yksityiskohtaisin. Jos esimerkiksi sekä yleinen että työntekijäkohtainen myyntihinta on määritetty, käytetään työntekijäkohtaista myyntihintaa.  
 23. Valitse **Tallenna**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

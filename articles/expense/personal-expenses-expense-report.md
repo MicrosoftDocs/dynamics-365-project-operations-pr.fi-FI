@@ -28,3 +28,6 @@ Työntekijän henkilökohtaiset kulut voidaan käsitellä kahdella tavalla:
   - **Yrityksen maksama**: organisaatio maksaa yrityksen luottokorttilaskun kokonaan ja veloittaa sitten työntekijän tililtä henkilökohtaiset kulut.
 
 Voit valita menetelmän, jota organisaatiosi käyttää **kulun hallinnan parametrit** -sivulla.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

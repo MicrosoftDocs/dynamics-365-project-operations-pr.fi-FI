@@ -40,3 +40,6 @@ Joskus tehtävän alkuperäisiä arvioita joudutaan tarkistamaan. Tehtävä voi 
   
 ### <a name="see-also"></a>Katso myös  
  [Projektipäällikön opas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

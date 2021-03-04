@@ -48,3 +48,6 @@ Seuraavassa taulukossa on esitetty työnkulkutyypit, jotka **kulun hallinnan** a
 |       <strong>Matkustusehdotus</strong>       |          Luo matkaehdotusten hyväksyntätyönkulkuja.           |
 |      <strong>Käteisennakkopyyntö</strong>      |         Luo hyväksyntätyönkulut käteisennakkopyynnöille.          |
 |        <strong>ALV:n palautus</strong>        | Voit luoda hyväksyntätyönkulkuja arvonlisäveron palautusta varten.  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
