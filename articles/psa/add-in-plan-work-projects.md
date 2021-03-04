@@ -1,12 +1,12 @@
 ---
-title: Töiden suunnittelu Microsoft Projectissa Project Service -apuohjelmalla | MicrosoftDocs
-description: Tässä aiheessa on tietoja Microsoft Project Servicen Microsoft Project -apuohjelman lisäämisestä, määrityksestä ja käytöstä.
+title: Töiden suunnittelu Microsoft Projectissa Project Service -apuohjelmalla
+description: Tässä aiheessa on tietoja Microsoft Project Servicen Microsoft Project -apuohjelman käytöstä.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-ms.date: 04/06/2019
+ms.date: 01/07/2021
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -18,22 +18,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
+ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
 ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
 ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145984"
+ms.locfileid: "5145939"
 ---
-# <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Töiden suunnittelu Microsoft Projectissa Project Service Automation -apuohjelmalla
+# <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Töiden suunnittelu Microsoft Projectissa Project Service -apuohjelmalla
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] helpottaa projektinsuunnittelua, kuten arvioita. Voit määrittää työn niin, että kustannukset, tavoite ja myynnin arvot ovat selvillä, kun lopullinen ehdotus lähetetään.  
 
- Asentamalla [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)]in voit suunnitella työt tutussa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] -ympäristössä. Käytä [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]in tehokkaita suunnittelu- ja hallintatoimintoja ja päivitä projektisuunnitelma sitten Project Service Automationiin.  
+Asentamalla [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)]in voit suunnitella työt tutussa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] -ympäristössä. Käytä [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]in tehokkaita suunnittelu- ja hallintatoimintoja ja päivitä projektisuunnitelma sitten Project Service Automationiin.  
 
 > [!IMPORTANT]
 > - Jotta SharePointin tiedostojen hallintatoimintoa voi käyttää [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] -tiedostojesi tallentamiseksi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -projekteja varten, [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]in järjestelmänvalvojan on otettava tiedostojen hallinta käyttöön. 
@@ -44,7 +44,7 @@ ms.locfileid: "5145984"
 
 1.  Voit ladata tuetun Project Service -versiosi lisäosan [joko V2.X](https://go.microsoft.com/fwlink/?linkid=828268) tai [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956) latauskeskuksesta.  
 
-2.  Napsauta lataamislinkkiä.  
+2.  Valitse lataamislinkki.  
 
 3.  Kun lataus on valmis, asenna apuohjelma valitsemalla **Kyllä**.  
 
@@ -72,9 +72,9 @@ ms.locfileid: "5145984"
 
 1.  Avaa projekti ja napsauta **Tehtävä**-valintanauhaa.  
 
-2.  Valitse ensin **Gantt-kaavio**-valikko ja valitse sitten **Resurssitaulukko**.  
+2. Valitse ensin **Gantt-kaavio**-valikko ja valitse sitten **Resurssitaulukko**.  
 
-3.  Napsauta Resurssitaulukko-kohdassa avattavaa **Project Service -resurssirooli** -valikkoa ja valitse Project Service Automation -rooli.  
+3. Napsauta Resurssitaulukko-kohdassa avattavaa **Project Service -resurssirooli** -valikkoa ja valitse Project Service Automation -rooli.  
 
 ## <a name="staff-your-project-with-resources"></a>Resurssien valinta projektiin  
 
@@ -87,10 +87,10 @@ ms.locfileid: "5145984"
 ## <a name="publish-your-project"></a>Projektin julkaiseminen  
 Kun projektisuunnittelu on valmis, seuraavana vaiheena on projekti tuonti ja julkaisu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa.  
 
-Projekti tuodaan [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]iin. Hinnoittelu- ja ryhmänmuodostusprosessia käytetään. Avaa projekti [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa ja tarkista, että ryhmä, projektiarviot ja työrakenne on luotu. Seuraavassa taulukossa näkyy, mistä löydät tulokset:
+Projekti tuodaan [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]iin. Hinnoittelu- ja ryhmänmuodostusprosessia käytetään. Avaa projekti [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa ja tarkista, että ryhmä, projektiarviot ja työrakenne on luotu. Seuraavassa taulukossa näkyy, mistä löydät tulokset.
 
 
-|                                                                                          |                                                                                                                                   |
+|              Microsoft Project                                                           |                      Project Service Automation                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt-kaaviot**   | Tuo tiedot [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:n **Työrakenne**-näytölle. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Resurssisivu** |   Tuo tiedot [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:n **Projektiryhmän jäsenet** -näytölle.   |
@@ -137,40 +137,40 @@ Projekti tuodaan [!INCLUDE[pn_project_service_auto](../includes/pn-project-servi
 
 ### <a name="upload-a-file-for-sharepoint"></a>Lataa tiedosto SharePointia varten  
 
-1. Valitse päävalikosta **Project Service** > **Siirrä**.  
+1. Valitse päävalikosta **Project Service** > **Lataa**.  
 
 2. Valitse **Project Service Automation -projektin asiakirjat**.  
 
 3. Valitse **Ota Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa käyttöön** -valintaikkunassa **Kyllä** tai **Ei**.  
 
-   - Jos valitset **Kyllä**, voit valita **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painiketta Project Service Automationissa sekä käynnistää [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]in ja ladata Project-tiedoston SharePoint-tiedostokirjastosta.  
+   - Jos valitset **Kyllä**, voit napsauttaa **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painiketta Project Service Automationissa sekä käynnistää [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]in ja ladata Project-tiedoston SharePoint-tiedostokirjastosta.  
 
-   - Jos valitset **Ei**, **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painikkeen linkki ei toimi.  
+   - Jos valitset **Ei**, **Avaa kohteessa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** -linkki ei toimi.  
 
 4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] -tiedosto sijaitsee [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa tietyn [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -projektin **Tiedostot**-kohdassa.  
 
 ### <a name="upload-a-file-for-office-groups"></a>Tiedoston siirtäminen Office-ryhmiin  
 
-1. Valitse päävalikosta **Project Service** > **Siirrä**.  
+1. Valitse päävalikosta **Project Service** > **Lataa**.  
 
 2. Valitse **Project Service Automation -projektin asiakirjat**.  
 
 3. Valitse **Ota Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa käyttöön** -valintaikkunassa **Kyllä** tai **Ei**.  
 
-   - Jos valitset **Kyllä**, voit valita **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painiketta Project Service Automationissa sekä käynnistää [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]in ja ladata Project-tiedoston SharePoint-tiedostokirjastosta.  
+   - Jos valitset **Kyllä**, voit napsauttaa **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painiketta Project Service Automationissa sekä käynnistää [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]in ja ladata Project-tiedoston SharePoint-tiedostokirjastosta.  
 
-   - Jos valitset **Ei**, **Avaa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]issa** -painikkeen linkki ei toimi.  
+   - Jos valitset **Ei**, **Avaa kohteessa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** -linkki ei toimi.  
 
 4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] -tiedosto sijaitsee [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa tietyn [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -projektin **Tiedostot**-kohdassa.  
 
 ## <a name="publish--your-project-as-a-template"></a>Projektin julkaiseminen mallina  
- Voit tallentaa projektin ja käyttää sitä uudelleen tallentamalla sen projektimallina [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa.  Projektimalleja ovat [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa uudelleenkäytettäviä projektisuunnitelmia. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Projektimallin luominen (Project Service Automation)](../psa/create-project-template.md)  
+ Voit tallentaa projektin ja käyttää sitä uudelleen tallentamalla sen projektimallina [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa. Projektimalleja ovat [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]issa uudelleenkäytettäviä projektisuunnitelmia. Lisätietoja on kohdassa [Projektimallin luominen (Project Service Automation)](../psa/create-project-template.md). 
 
 1. Valitse **Project Service** -välilehdessä **Julkaise** > **Uusi Project Service Automation -projektimalli**.  
 
 2. Anna **Julkaise uuteen Project Service -malliin** -valintaikkunassa **Projektimallin nimi**.  
 
-3. Voit vaihtoehtoisesti valita **Linkitä projektisuunnitelma Project Service Automationiin** -vaihtoehdon, jolloin Project-tiedosto linkitetään [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]iin.  
+3. Voit vaihtoehtoisesti valita **Linkitä projektisuunnitelma Project Service Automationiin** -vaihtoehdon, jolloin suunnitelman Project-tiedosto linkitetään [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]iin.  
 
 4. Valitse **Julkaise**.  
 
@@ -181,53 +181,64 @@ Kun Project-tiedosto linkitetään [!INCLUDE[pn_project_service_auto](../include
 Kun projektia luetaan Project Service Automationista, resurssin kalenteria ei synkronoida työasemaohjelmaan. Jos tehtävien kestoissa, työmäärissä tai lopuissa on eroja, syynä on luultavasti se, että resursseilla ja työpöytäohjelmailla ei ole samaa työtuntimallikalenteria, jota käytetään projektissa.
 
 
-## <a name="data-synchronization"></a>Tietojen synkronoiminen
+## <a name="data-synchronization"></a>Tietojen synkronointi
+Tämän osan taulukoissa on tietoja entiteettitietojen synkronoimisesta Project Service Automationin ja Microsoft Project -työpöytäapuohjelman välillä.
 
-Seuraavassa taulukossa kuvataan, miten tiedot synkronoidaan Project Service Automationin ja Microsoft Project -työpöytäapuohjelman välillä.
-
-| **Entiteetti** | **Kenttä** | **Microsoft Project Project Service Automationiin** | **Project Service Automation Microsoft Projectiin** |
-| --- | --- | --- | --- |
-| Projektin tehtävä | Eräpäivä | ● | - |
-| Projektin tehtävä | Arvioitu työmäärä | ● | - |
-| Projektin tehtävä | MS Project -asiakastunnus | ● | - |
-| Projektin tehtävä | Ylätason tehtävä | ● | - |
-| Projektin tehtävä | Project | ● | - |
-| Projektin tehtävä | Projektitehtävä | ● | - |
-| Projektin tehtävä | Projektitehtävän nimi | ● | - |
-| Projektin tehtävä | Resursointiyksikkö (vanhentunut versiossa 3.0) | ● | - |
-| Projektin tehtävä | Suunniteltu kesto | ● | - |
-| Projektin tehtävä | Aloituspäivämäärä | ● | - |
-| Projektin tehtävä | WBS-tunnus | ● | - |
+### <a name="project-task-entity-table"></a>Projektitehtävän entiteettitaulu
+Seuraavassa taulukossa kuvataan, miten projektitehtävän entiteettitiedot synkronoidaan Project Service Automationin ja Microsoft Project -työpöytäapuohjelman välillä.
 
 | **Entiteetti** | **Kenttä** | **Microsoft Project Project Service Automationiin** | **Project Service Automation Microsoft Projectiin** |
 | --- | --- | --- | --- |
-| Ryhmän jäsen | MS Project -asiakastunnus | ● | - |
-| Ryhmän jäsen | Toimen nimi | ● | - |
-| Ryhmän jäsen | projekti | ● | ● |
-| Ryhmän jäsen | Projektiryhmä | ● | ● |
-| Ryhmän jäsen | Resursointiyksikkö | - | ● |
-| Ryhmän jäsen | Rooli | - | ● |
+| Projektin tehtävä | Eräpäivä | Synkronoitu | Ei synkronoitu |
+| Projektin tehtävä | Arvioitu työmäärä | Synkronoitu | Ei synkronoitu |
+| Projektin tehtävä | MS Project -asiakastunnus | Synkronoitu | Ei synkronoitu |
+| Projektin tehtävä | Ylätason tehtävä | Synkronoitu | Ei synkronoitu |
+| Projektin tehtävä | Project | Synkronoitu | Ei synkronoitu |
+| Projektin tehtävä | Projektitehtävä | Synkronoitu | Ei synkronoitu |
+| Projektin tehtävä | Projektitehtävän nimi | Synkronoitu | Ei synkronoitu |
+| Projektin tehtävä | Resursointiyksikkö (vanhentunut versiossa 3.0) | Synkronoitu | Ei synkronoitu |
+| Projektin tehtävä | Suunniteltu kesto | Synkronoitu | Ei synkronoitu |
+| Projektin tehtävä | Aloituspäivämäärä | Synkronoitu | Ei synkronoitu |
+| Projektin tehtävä | WBS-tunnus | Synkronoitu | Ei synkronoitu |
+
+### <a name="team-member-entity-table"></a>Ryhmän jäsenen entiteettitaulu
+Seuraavassa taulukossa kuvataan, miten ryhmän jäsenen entiteettitiedot synkronoidaan Project Service Automationin ja Micros
+
+| **Entiteetti** | **Kenttä** | **Microsoft Project Project Service Automationiin** | **Project Service Automation Microsoft Projectiin** |
+| --- | --- | --- | --- |
+| Ryhmän jäsen | MS Project -asiakastunnus | Synkronoitu | Ei synkronoitu |
+| Ryhmän jäsen | Toimen nimi | Synkronoitu | Ei synkronoitu |
+| Ryhmän jäsen | projekti | Synkronoitu | Synkronoitu |
+| Ryhmän jäsen | Projektiryhmä | Synkronoitu | Synkronoitu |
+| Ryhmän jäsen | Resursointiyksikkö | Ei synkronoitu | Synkronoitu |
+| Ryhmän jäsen | Rooli | Ei synkronoitu | Synkronoitu |
 | Ryhmän jäsen | Työtunnit | Ei synkronoitu | Ei synkronoitu |
 
-| **Entiteetti** | **Kenttä** | **Microsoft Project Project Service Automationiin** | **Project Service Automation Microsoft Projectiin** |
-| --- | --- | --- | --- |
-| Resurssien delegointi | Päivämäärästä | ● | - |
-| Resurssien delegointi | tuntia | ● | - |
-| Resurssien delegointi | MS Project -asiakastunnus | ● | - |
-| Resurssien delegointi | Suunniteltu työ | ● | - |
-| Resurssien delegointi | Project | ● | - |
-| Resurssien delegointi | Projektiryhmä | ● | - |
-| Resurssien delegointi | Resurssien delegointi | ● | - |
-| Resurssien delegointi | Tehtävä | ● | - |
-| Resurssien delegointi | Päivämäärään | ● | - |
+### <a name="resource-assignment-entity-table"></a>Resurssien delegoinnin entiteettitaulu
+Seuraavassa taulukossa kuvataan, miten resurssien delegoinnin entiteettitiedot synkronoidaan Project Service Automationin ja Micros
 
 | **Entiteetti** | **Kenttä** | **Microsoft Project Project Service Automationiin** | **Project Service Automation Microsoft Projectiin** |
 | --- | --- | --- | --- |
-| Projektitehtävän riippuvuudet | Projektitehtävän riippuvuus | ● | - |
-| Projektitehtävän riippuvuudet | Linkkityyppi | ● | - |
-| Projektitehtävän riippuvuudet | Edeltäjän tehtävä | ● | - |
-| Projektitehtävän riippuvuudet | Project | ● | - |
-| Projektitehtävän riippuvuudet | Seuraajan tehtävä | ● | - |
+| Resurssien delegointi | Päivämäärästä | Synkronoitu | Ei synkronoitu |
+| Resurssien delegointi | tuntia | Synkronoitu | Ei synkronoitu |
+| Resurssien delegointi | MS Project -asiakastunnus | Synkronoitu | Ei synkronoitu |
+| Resurssien delegointi | Suunniteltu työ | Synkronoitu | Ei synkronoitu |
+| Resurssien delegointi | Project | Synkronoitu | Ei synkronoitu |
+| Resurssien delegointi | Projektiryhmä | Synkronoitu | Ei synkronoitu |
+| Resurssien delegointi | Resurssien delegointi | Synkronoitu | Ei synkronoitu |
+| Resurssien delegointi | Tehtävä | Synkronoitu | Ei synkronoitu |
+| Resurssien delegointi | Päivämäärään | Synkronoitu | Ei synkronoitu |
 
-### <a name="see-also"></a>Katso myös  
+### <a name="project-task-dependencies-entity-table"></a>Projektitehtävän riippuvuuksien entiteettitaulu
+Seuraavassa taulukossa kuvataan, miten projektitehtävän riippuvuuksien entiteettitiedot synkronoidaan Project Service Automationin ja Micros
+
+| **Entiteetti** | **Kenttä** | **Microsoft Project Project Service Automationiin** | **Project Service Automation Microsoft Projectiin** |
+| --- | --- | --- | --- |
+| Projektitehtävän riippuvuudet | Projektitehtävän riippuvuus | Synkronoitu | Ei synkronoitu |
+| Projektitehtävän riippuvuudet | Linkkityyppi | Synkronoitu | Ei synkronoitu |
+| Projektitehtävän riippuvuudet | Edeltäjän tehtävä | Synkronoitu | Ei synkronoitu |
+| Projektitehtävän riippuvuudet | Project | Synkronoitu | Ei synkronoitu |
+| Projektitehtävän riippuvuudet | Seuraajan tehtävä | Synkronoitu | Ei synkronoitu |
+
+### <a name="additional-resources"></a>Lisäresurssit
  [Projektipäällikön opas](../psa/project-manager-guide.md)

@@ -3,6 +3,7 @@ title: Miksi toteutuneen kulumyynnin oletushinta on nolla?
 description: Seuraavien kolmen tarkistuksen avulla voit tehdä vianmäärityksen ja selvittää, miksi hinnan oletusarvo on 0 toteutuneelle kulumyynnille.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122069"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146299"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Miksi toteutuneen kulumyynnin oletushinta on nolla?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ Nämä usein kysytyt kysymykset koskevat toteutuneita kuluja, joissa tapahtuman 
 
 Etsi projekti toteutuneesta projektikentästä ja siirry projektin sivulle. Siirry sitten Myynti-välilehteen. Valitse Projektisopimusrivit-ruudukossa Projektisopimus-kentän linkki. Projektisopimus-sivu avautuu. Siirry Projektisopimus-sivulla Projektihinnastot-välilehteen. Varmista, että siellä on vähintään yksi liitetty hinnasto.
 
-Jos projektisopimuksen Projektihinnastot-ruudukkoon ei ole liitetty hinnastoa, toimi seuraavasti:
+Jos projektisopimuksen Projektihinnastot-ruudukkoon ei ole liitetty hinnastoa:
 
 - Liitä hinnasto Projektihinnastot-ruudukkoon. Tässä liitettävien hinnastojen kontekstikentän arvoksi on määritettävä Myynti ja hinnaston valuuttakentän arvon on oltava sama kuin projektisopimuksen valuuttakentän arvo. Kun olet tehnyt vaaditut korjaukset, voit luoda kulumerkinnän uudelleen ja hyväksyä sen. Tarkista, että toteutuneen laskuttamattoman myynnin hinta on sallittu.
 - Jos projektisopimuksen Projektihinnastot-ruudukkoon on liitetty useita hinnastoja, siirry tarkistukseen 2.
@@ -47,7 +50,7 @@ Project Service -sovelluksessa voidaan käyttää oletushintojen hinnastoa, jos 
 - Aloita varmistamalla, että liitettyjen hinnastojen Yleinen-välilehden alku- ja loppupäivämäärät on määritetty. Jos yllä määritettyjä hinnastojen alku- ja loppupäivämääriä ei ole määritetty, olet eristänyt ongelman. 
 - Ota toteutuneen kulumyynnin päivämääräkentän arvo muistiin ja tarkista, onko mikään hinnastoista käytössä kyseisenä päivänä. Esimerkiksi toteutuneen kulun päivämäärän tulisi olla hinnaston alku- ja loppupäivämäärän välillä. 
     - Jos toteutuneen kulumyynnin päivämäärä ei kuulu yhdenkään hinnaston päivämääräväliin, olet eristänyt ongelman. Muokkaa hinnaston alku- ja loppupäivämääriä varmistaaksesi, että hinnasto kattaa toteutuneen kulun päivämäärän. 
-    - Jos toteutuneen kulumyynnin päivämäärä kuuluu usean hinnaston päivämääräväliin, olet eristänyt ongelman. Voit korjata ongelman muokkaamalla hinnastojen alku- ja loppupäivämääriä niin, että vain yksi hinnasto kattaa toteutuneen kulun päivämäärän. 
+    - Jos toteutuneen kulumyynnin päivämäärä kuuluu usean hinnaston päivämääräväliin, olet eristänyt ongelman. Muokkaa hinnastojen alku- ja loppupäivämääriä niin, että vain yksi hinnasto kattaa toteutuneen kulun päivämäärän. 
     - Jos toteutuneen kulun kattavia hinnastoja on vain yksi, siirry tarkistukseen 3.
 Kun olet tehnyt vaaditut korjaukset, voit luoda kulumerkinnän uudelleen ja hyväksyä sen. Tarkista, että toteutuneen laskuttamattoman myynnin hinta on sallittu.
 
@@ -55,7 +58,7 @@ Kun olet tehnyt vaaditut korjaukset, voit luoda kulumerkinnän uudelleen ja hyv�
 
 Jos olet tarkistuksen 1 ja 2 suoritus onnistui, sinulla pitäisi olla nyt vain yksi projektihinnasto, joka käsittää toteutuneen kulumyynnin päivämäärän. Avaa projektihinnasto ja siirry Luokan hinnat -välilehteen. Varmista, että toteutuneen kulun määritetyllä kululuokalla on rivi ruudukossa.
  
-- Jos riviä ei ole, olet eristänyt ongelman. Luo toteutuneen kulun luokalle rivi Luokan hinta -ruudukkoon. Kun olet tehnyt tämän, voit luoda kulumerkinnän uudelleen ja hyväksyä sen. Tarkista, että toteutuneen laskuttamattoman myynnin hinta on sallittu. 
+- Jos riviä ei ole, olet eristänyt ongelman. Luo toteutuneen kulun luokalle rivi Luokan hinta -ruudukkoon. Sitten voit luoda kulumerkinnän uudelleen ja hyväksyä sen. Tarkista, että toteutuneen laskuttamattoman myynnin hinta on sallittu. 
 - Jos Luokan hinnat -ruudukossa on rivi kululuokalle, tarkista, onko rivin hinta sallittu.
 
 Näiden tapojen avulla voit tarkistaa, onko hinta sallittu:
