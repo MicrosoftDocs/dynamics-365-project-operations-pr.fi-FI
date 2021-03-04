@@ -3,17 +3,18 @@ title: Uuden ympäristön valmisteleminen
 description: Tässä aiheessa on tietoja siitä, miten uuden Project Operations -ympäristön voi valmistella.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642963"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727786"
 ---
 # <a name="provision-a-new-environment"></a>Uuden ympäristön valmisteleminen
 
@@ -60,17 +61,15 @@ Käytä seuraavia vaiheita, kun haluat ottaa käyttöön Project Operationsin au
 
 ![Käyttöönoton suostumus](./media/2DeploymentConsent.png)
 
-7. Täytä loput pakolliset kentät ohjatussa toiminnossa ja vahvista asennus. Ympäristön valmisteluaika vaihtelee ympäristötyypin mukaan. Valmistelu voi kestää jopa kuusi tuntia.
+7. Valinnainen - Käytä esittelytietoja ympäristössä. Valitse **Lisäasetukset**, valitse **Mukauta SQL-tietokannan määrityksiä** ja aseta **Määritä sovellustietokannan tietojoukko** -asetukseksi **Esittely**.
+
+8. Täytä loput pakolliset kentät ohjatussa toiminnossa ja vahvista asennus. Ympäristön valmisteluaika vaihtelee ympäristötyypin mukaan. Valmistelu voi kestää jopa kuusi tuntia.
 
   Kun käyttöönotto on valmis, ympäristö näkyy tilassa **Otettu käyttöön**.
 
-8. Varmista, että ympäristö on otettu käyttöön, valitsemalla **Kirjaudu** ja kirjautumalla ympäristöön sekä tarkistamalla käyttöönoton tilan.
+9. Voit varmistaa, että ympäristön käyttöönotto onnistui, valitsemalla **Kirjaudu sisään** ja kirjautumalla ympäristöön.
 
 ![-ympäristön tiedot](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Project Operationsin Finance -esittelytietojen käyttöönotto (valinnainen vaihe)
-
-Käytä Project Operationsin Finance-esittelytietoja 10.0.13-palvelujulkaisun pilvessä isännöityyn ympäristöön, kuten kuvattu [tässä artikkelissa](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Ota päivitykset käyttöön Finance-ympäristössä
 
@@ -151,6 +150,21 @@ Kun entiteetit otetaan käyttöön, kaikki käytettävissä olevat yhdistämism�
 Päivitys kestää noin 20 minuuttia. Saat ilmoituksen, kun se on valmis.
 
 ![Päivityksen vahvistus](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Suojausasetusten päivittäminen Dataversen Project Operationsissa
+
+1. Siirry Project Operationsiin Dataverse-ympäristössä. 
+2. Valitse **Asetukset** > **Suojaus** > **Käyttöoikeusroolit**. 
+3. Valitse **Käyttöoikeusroolit**-sivun rooliluettelosta **kaksoiskirjoitussovelluksen käyttäjä** ja valitse **Mukautetut entiteetit** -välilehti.  
+4. Varmista, että roolilla on **Luku**- ja **Lisää kohteeseen** -oikeudet seuraaville:
+      
+      - **Valuuttakurssin tyyppi**
+      - **Tilikartta**
+      - **Kirjanpitokalenteri**
+      - **Tapahtumarekisteri**
+
+5. Kun käyttöoikeusrooli on päivitetty, siirry kohtaan **Asetukset** > **Suojaus** > **Ryhmät** ja valitse oletusryhmä **Oman yksikön omistaja** -ryhmänäkymässä.
+6. Valitse **Hallitse rooleja** ja varmista, että **kaksoiskirjoitussovelluksen käyttäjä** -käyttöoikeus on käytössä tässä ryhmässä.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Suorita Project Operationsin kaksoiskirjoituksen yhdistämismääritykset
 

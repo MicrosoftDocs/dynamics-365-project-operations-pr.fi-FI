@@ -1,9 +1,9 @@
 ---
-title: Synkronoi projektisopimuksia ja projekteja suoraan Project Service Automationista Finance and Operationsiin
+title: Synkronoi projektisopimukset ja projektit suoraan Project Service Automationista Financeen
 description: Tässä aiheessa kuvataan malli ja sen pohjana olevat tehtävät, joita käytetään projektisopimusten ja projektien synkronoimiseen suoraan Microsoft Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642629"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764815"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronoi projektisopimuksia ja projekteja suoraan Project Service Automationista Finance and Operationsiin
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synkronoi projektisopimukset ja projektit suoraan Project Service Automationista Financeen 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Jos haluat käyttää käytettävissä olevia malleja, valitse Microsoft Power A
 Seuraavia malleja ja pohjana olevia tehtäviä käytetään projektisopimusten ja projektien synkronoimiseen Project Service Automationista Financeen:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integrointi Dynamics 365 Project Service Automationin versioon v2.x
-- **Tietojen integroinnin mallin nimi:** Projektit ja sopimukset (PSA:sta Fin:iin ja Ops:iin)
+- **Mallin nimi tietojen integroinnissa:** Projektit ja sopimukset (Project Service Automationista Financeen)
 - **Projektin tehtävien nimet:**
 
-    - Projektisopimukset PSA:sta Fin:iin ja Ops:iin
-    - Projektit PSA:sta Fin:iin ja Ops:iin
-    - Projektisopimuksen rivit PSA:sta Fin:iin ja Ops:iin
-    - Projektisopimuksen rivien välitavoitteet PSA:sta Fin:iin ja Ops:iin
+    - Projektisopimukset Project Service Automationista Financeen
+    - Projektit Project Service Automationista Financeen
+    - Projektisopimusrivit Project Service Automationista Financeen
+    - Projektisopimusrivien välitavoitteet Project Service Automationista Financeen
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Integrointi Dynamics 365 Project Service Automationin versioon v3.x
 Project Service Automationissa on rakennemuutos, joka vaikuttaa projektisopimuksen rivien välitavoitemalliin, ja mallin v2-version käyttöä tarvitaan Project Service Automationin version v3.x integroimiseksi Dynamics 365:een.
 
-- **Tietojen integroinnin mallin nimi:** Projektit ja sopimukset (PSA 3.x:stä Fin:iin ja Ops:iin) – v2
+- **Mallin nimi tietojen integroinnissa:** Projektit ja sopimukset (Project Service Automation 3.x -versiosta Financeen) - v2
 - **Projektin tehtävien nimet:**
 
-    - Projektisopimukset PSA:sta Fin:iin ja Ops:iin
-    - Projektit PSA:sta Fin:iin ja Ops:iin
-    - Projektisopimuksen rivit PSA:sta Fin:iin ja Ops:iin
-    - Projektisopimuksen rivien välitavoitteet PSA:sta Fin:iin ja Ops:iin
+    - Projektisopimukset Project Service Automationista Financeen
+    - Projektit Project Service Automationista Financeen
+    - Projektisopimusrivit Project Service Automationista Financeen
+    - Projektisopimusrivien välitavoitteet Project Service Automationista Financeen
 
 Tilit on synkronoitava, ennen kuin projektisopimuksia ja projekteja voi esiintyä.
 
@@ -87,7 +87,8 @@ Tilit on synkronoitava, ennen kuin projektisopimuksia ja projekteja voi esiinty�
 
 Projektisopimuksia hallitaan Project Service Automationissa, ja ne synkronoidaan Financeen projektisopimuksina. Voit määrittää projektisopimuksen integroinnin lähteen Financessa osana integrointimallia.
 
-Aika- ja materiaaliprojekteja ja kiinteähintaisia projekteja hallitaan Project Service Automationissa, ja ne synkronoidaan Financeen projekteina. Voit määrittää projektin integroinnin lähteen Financessa osana integrointimallia.
+Aika-, materiaali- ja kiinteähintaisia projekteja hallitaan Project Service Automationissa, ja ne synkronoidaan Financeen projekteina. Osana malli-integrointia voit määrittää projektin integrointilähteen Financessa. Tällä hetkellä tuetaan vain aika- ja materiaali- sekä kiinteähintaisia projekteja.
+
 
 Projektisopimuksen rivejä hallitaan Project Service Automationissa, ja ne synkronoidaan Financeen sopimuksen laskutussääntöinä. Jos laskutustapa poikkeaa oletusarvoisesta projektityypistä, synkronointi päivittää sopimusrivi projektin ja projektiryhmän projektityypin.
 
@@ -122,7 +123,7 @@ Kun käytetään Project Service Automationin Finenceen integroinnin ratkaisua, 
 
 ## <a name="power-query"></a>Power Query
 
-Sinun on käytettävä Microsoft Power Query for Excel -isäosaa suodattamaan tietoja, jos seuraavat ehdot täyttyvät:
+Microsoft Power Query for Excelin avulla voit suodattaa tietoja, jos seuraavat ehdot täyttyvät:
 
 - Sinulla on myyntitilauksia Dynamics 365 Salesissa.
 - Sinulla on useita organisaatioyksiköitä Project Service Automationissa, ja nämä organisaatioyksiköt yhdistetään useisiin oikeushenkilöihin Financessa.
@@ -130,7 +131,7 @@ Sinun on käytettävä Microsoft Power Query for Excel -isäosaa suodattamaan ti
 Jos sinun on käytettävä Power Queryä, noudata seuraavia ohjeita:
 
 - Projektien ja sopimusten (PSA:sta Fin:iin ja Ops:iin) mallissa on oletussuodatin, joka sisältää vain tyypin **Työkohde (msdyn\_ordertype = 192350001)** myyntitilauksia. Tämän suodattimen avulla voidaan varmistaa, että myyntitilauksille ei luoda projektisopimuksia Financessa. Jos luot oman mallin, tämä suodatin on lisättävä.
-- Sinun täytyy luoda Power Query -suodatin, joka sisältää vain ne sopimusorganisaatiot, jotka on synkronoitava integroinnin yhteysjoukon oikeushenkilöön. Esimerkiksi projektisopimukset, jotka sinulla on Contoso US:n sopimusorganisaatioyksikön kanssa, pitäisi synkronoida USSI-oikeushenkilöön, mutta projektisopimukset, jotka sinulla on Contoso Globalin sopimusorganisaatioyksikön kanssa, pitäisi synkronoida USMF-oikeushenkilöön. Jos et lisää tätä suodatinta tehtävien yhdistämismääritykseen, kaikki projektisopimukset synkronoidaan yhteysjoukolle määritettyyn oikeushenkilöön sopimusorganisaatioyksiköstä riippumatta.
+- Luo Power Query -suodatin, joka sisältää vain sopimusorganisaatiot, jotka synkronoidaan integroinnin yhteysjoukon yritykseen. Esimerkiksi projektisopimukset, jotka sinulla on Contoso US:n sopimusorganisaatioyksikön kanssa, pitäisi synkronoida USSI-oikeushenkilöön, mutta projektisopimukset, jotka sinulla on Contoso Globalin sopimusorganisaatioyksikön kanssa, pitäisi synkronoida USMF-oikeushenkilöön. Jos et lisää tätä suodatinta tehtävien yhdistämismääritykseen, kaikki projektisopimukset synkronoidaan yhteysjoukolle määritettyyn oikeushenkilöön sopimusorganisaatioyksiköstä riippumatta.
 
 ## <a name="template-mapping-in-data-integration"></a>Mallien yhdistämismääritys tietojen integroinnissa
 

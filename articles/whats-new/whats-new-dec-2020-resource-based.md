@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700676"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727876"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Uudet ominaisuudet joulukuussa 2020 – Project Operations resursseihin/ei-varastoitaviin perustuvissa skenaarioissa
 
@@ -24,6 +24,8 @@ Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja 
 
 - Project Operations Dataverse-ympäristön versiossa 4.5.0.134
 - Projektinhallinta ja kirjanpito Dynamics 365 Finance -ympäristön versiossa 10.0.15
+
+Tietoja tämän version päivittämisestä on aiheessa [Project Operationsin päivittäminen Finance-ympäristössä](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>Tähän julkaisuun sisältyvät ominaisuudet
 Tähän julkaisuun sisältyvät seuraavat ominaisuudet:

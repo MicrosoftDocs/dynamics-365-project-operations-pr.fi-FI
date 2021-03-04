@@ -1,6 +1,6 @@
 ---
 title: Kulujen delegoinnin hallinta
-description: Kulujen delegoinnin käyttäjä voi luoda ja hallita kuluraportteja organisaation toisen työntekijän puolesta.
+description: Kuluja delegoiva käyttäjä voi luoda ja hallita organisaation toisen työntekijän kuluraportteja.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075500"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960783"
 ---
 # <a name="manage-expense-delegation"></a>Kulujen delegoinnin hallinta
 
-[!include [banner](../includes/banner.md)]
+Kulujen edustaja voi luoda ja hallita toisen työntekijän kuluraportteja.
 
-Kulujen delegoinnin käyttäjä voi luoda ja hallita kuluraportteja organisaation toisen työntekijän puolesta.
+## <a name="configure-expense-delegation"></a>Kulujen delegoinnin määritys
 
-## <a name="configuring-expense-delegation"></a>Kulujen delegoinnin määrittäminen
+1. Voit määrittää käyttäjän kuluedustajaksi valitsemalla **Kulujen hallinta > Asetukset > Yleiset > Edustajat**.
+2. Valitse **Edustajat**-sivulla **Uusi**.
+3. Valitse työntekijä, josta haluat tehdä edustajan. 
+4. Anna edustajakäyttäjän alias sekä delegointikauden alkamis- ja päättymispäivä.
 
-Jos haluat määrittää käyttäjän kulujen delegoinnin, avaa **edustajat** -sivu siirtymällä **kulun hallinta > asetukset > yleiset > edustajat** -kohtaan. Valitse **Uusi** ja valitse sitten työntekijä, jolle delegoinnin haluat määrittää. Anna edustajakäyttäjän alias sekä delegointikauden alkamis- ja päättymispäivä.
+## <a name="manage-expense-delegation-for-another-employee"></a>Toisen työntekijän kulujen delegoinnin hallinta
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Kulujen hallinnan delegointi toisen työntekijän puolesta
+Kun ominaisuuden hallinta-avain **Ota käyttöön kulujen delegoinnin luettelosivu** on käytössä, **Minulle delegoidut kulut** -luettelosivu on käytettävissä. Siirry kohtaan **Kulujen hallinta** > **Omat kulut** > **Minulle delegoidut kulut**.
 
-Jos ominaisuuksien hallinta-avain **ota käyttöön kulujen delegointi luettelosivu** on käytössä, **minulle delegoitujen kulujen luettelo** -sivu on käytettävissä siirtymällä kohtaan **kulun hallinta > Omat kulut > minulle delegoidut kulut**.
+Edustajakäyttäjä voi suodattaa ja hakea nopeasti hänelle aiemmin delegoituja kuluraportteja. Edustajakäyttäjät voivat myös luoda uuden kuluraportin muille käyttäjille valitsemalla **Uusi kuluraportti**.
 
-Edustajakäyttäjä voi suodattaa ja hakea nopeasti aiemmin käyttäjälle delegoituja kuluraportteja. Käyttäjä voi myös nopeasti luoda uuden kuluraportin toisen käyttäjän puolesta napsauttamalla **Uusi kuluraportti**.
-
-Edustajakäyttäjät voivat myös luoda ja hallita kuluraportteja muiden työntekijöiden puolesta siirtymällä kohtaan **Kulujen hallinta > Omat kulut > Kuluraportit** ja valitsemalla **Avaa toisen käyttäjän kulut** -painike.
+Edustajakäyttäjät voivat myös luoda ja hallita muiden työntekijöiden kuluraportteja valitsemalla **Kulujen hallinta** > **Omat kulut** > **Kuluraportit** ja valitsemalla **Avaa toisen käyttäjän kulut**.
