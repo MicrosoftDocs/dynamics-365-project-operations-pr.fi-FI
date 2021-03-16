@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Uudet ominaisuudet
       items:
+        - name: Maaliskuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-mar-2021-resource-based.md
         - name: Helmikuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
           href: whats-new/whats-new-feb-2021-resource-based.md
         - name: Tammikuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
@@ -318,52 +320,52 @@
       items:
         - name: Kulujen yleiskatsaus
           href: expense/expense-overview.md
-        - name: Projektien kulujen hallintakokemus
+        - name: Uusi kulukokemus
           items:
-            - name: Määritys ja asetukset
-              items:
-                - name: Käytäntöjen määrittäminen
-                  href: expense/set-up-policies.md
-                - name: Työnkulkujen määritteleminen
-                  href: expense/set-up-workflows.md
-                - name: Delegoinnin hallinta
-                  href: expense/manage-delegation.md
-                - name: Kulujen hallintaparametrien määrittäminen
-                  href: expense/configure-expense-management-parameters.md
-                - name: Luottokortin integroinnin määrittäminen
-                  href: expense/set-up-credit-card-integration.md
-                - name: Kululuokkien määrittäminen
-                  href: expense/set-up-expense-categories.md
-            - name: Matkalaskun henkilökohtaisten kulujen käsitteleminen
-              href: expense/personal-expenses-expense-report.md
-            - name: Matkalaskujen luominen
-              items:
-                - name: Matkalaskun jakelut
-                  href: expense/distributions-expense-report.md
-            - name: Matkalaskujen hyväksyminen
-              items:
-                - name: Matkalaskut ja monta hyväksyjää
-                  href: expense/expense-reports-multiple-approvers.md
-            - name: Matkalaskujen kirjaaminen
-              href: expense/posting-expense-reports.md
-            - name: Matkustusehdotus
-              href: expense/travel-requisition.md
-            - name: Käteisennakko
-              href: expense/cash-advance.md
-            - name: Päivärahat
-              href: expense/per-diems.md
-            - name: Taloushallinto
-              items:
-                - name: 'ALV:n palautus'
-                  href: expense/vat-recovery.md
-            - name: Uusi kulukokemus
-              items:
-                - name: Uudistetut matkalaskut
-                  href: expense/expense-reports-reimagined.md
-                - name: Kuitin ja kulun täsmäyttäminen OCR-tekstintunnistuksella
-                  href: expense/match-receipt-expense-ocr.md
-            - name: Kulujen hallinta mobiilisovelluksella
-              href: expense/expense-using-mobile.md
+            - name: Uudistetut matkalaskut
+              href: expense/expense-reports-reimagined.md
+            - name: 'Kuitin sieppaaminen OCR:n avulla'
+              href: expense/match-receipt-expense-ocr.md
+        - name: Määritys ja asetukset
+          items:
+            - name: Käytäntöjen määrittäminen
+              href: expense/set-up-policies.md
+            - name: Työnkulkujen määritteleminen
+              href: expense/set-up-workflows.md
+            - name: Delegoinnin hallinta
+              href: expense/manage-delegation.md
+            - name: Kulujen hallintaparametrien määrittäminen
+              href: expense/configure-expense-management-parameters.md
+            - name: Luottokortin integroinnin määrittäminen
+              href: expense/set-up-credit-card-integration.md
+            - name: Kululuokkien määrittäminen
+              href: expense/set-up-expense-categories.md
+        - name: Henkilökohtaiset kulut
+          href: expense/personal-expenses-expense-report.md
+        - name: Konsernin sisäiset kulut
+          href: prod-exp/intercompany-expense.md
+        - name: Matkalaskujen luominen
+          items:
+            - name: Matkalaskun jakelut
+              href: expense/distributions-expense-report.md
+        - name: Matkalaskujen hyväksyminen
+          items:
+            - name: Matkalaskut ja monta hyväksyjää
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Matkalaskujen kirjaaminen
+          href: expense/posting-expense-reports.md
+        - name: Matkustusehdotus
+          href: expense/travel-requisition.md
+        - name: Käteisennakko
+          href: expense/cash-advance.md
+        - name: Päivärahat
+          href: expense/per-diems.md
+        - name: Kulujen hallintasovellus
+          href: expense/expense-using-mobile.md
+        - name: Taloushallinto
+          items:
+            - name: 'ALV:n palautus'
+              href: expense/vat-recovery.md
     - name: Hyväksynnät
       items:
         - name: Hyväksyntöjen yleiskatsaus
@@ -456,6 +458,8 @@
           href: environment/security-model.md
     - name: Uudet ominaisuudet
       items:
+        - name: Maaliskuun 2021 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Helmikuun 2021 Lite-käyttöönoton uudet ominaisuudet
           href: pro/whats-new/whats-new-feb-2021-lite.md
         - name: Tammikuun 2021 Lite-käyttöönoton uudet ominaisuudet
@@ -894,44 +898,52 @@
   items:
     - name: Kulujen hallinnan yleiskatsaus
       href: prod-exp/expense-management.md
-    - name: Uudistetut matkalaskut
-      href: prod-exp/ExpenseWorkspaceNew.md
-    - name: Kulujen hallinnan suunnittelu
-      href: prod-exp/plan-expense-management.md
-    - name: Kulujen hallintaparametrit
-      href: prod-exp/Expense-Management-Parameters.md
-    - name: Kulujen hallinnan mobiilityötila
-      href: prod-exp/expense-management-mobile-workspace.md
-    - name: Kulujen hallinnan työnkulkujen määrittäminen
-      href: prod-exp/expense-workflows.md
-    - name: Kulujen hallinnan työnkulku
-      href: prod-exp/expense-workflow.md
-    - name: Kulujen delegoinnin hallinta
-      href: prod-exp/manage-expense-delegation.md
-    - name: Kulukuittien käsittely
-      href: prod-exp/expense-receipt-processing.md
-    - name: Luottokorttitapahtumien tuonti ja ylläpitäminen
-      href: prod-exp/import-credit-card.md
-    - name: Matkalaskun jakelut
-      href: prod-exp/expense-report-distributions.md
+    - name: Uusi kulukokemus
+      items:
+        - name: Uudistetut matkalaskut
+          href: expense/expense-reports-reimagined.md
+        - name: 'Kuitin sieppaaminen OCR:n avulla'
+          href: expense/match-receipt-expense-ocr.md
+    - name: Määritys ja asetukset
+      items:
+        - name: Käytäntöjen määrittäminen
+          href: expense/set-up-policies.md
+        - name: Työnkulkujen määritteleminen
+          href: expense/set-up-workflows.md
+        - name: Delegoinnin hallinta
+          href: expense/manage-delegation.md
+        - name: Kulujen hallintaparametrien määrittäminen
+          href: expense/configure-expense-management-parameters.md
+        - name: Luottokortin integroinnin määrittäminen
+          href: expense/set-up-credit-card-integration.md
+        - name: Kululuokkien määrittäminen
+          href: expense/set-up-expense-categories.md
+    - name: Henkilökohtaiset kulut
+      href: expense/personal-expenses-expense-report.md
     - name: Konsernin sisäiset kulut
       href: prod-exp/intercompany-expense.md
-    - name: Kulukäytäntöjen määrittäminen
-      href: prod-exp/travel-expense-policies.md
-    - name: Matkalaskun näyttäminen
-      href: prod-exp/view-expense-report.md
-    - name: Matkalaskun kirjaaminen
-      href: prod-exp/post-expense.md
-    - name: Matkalaskut ja monta hyväksyjää
-      href: prod-exp/expense-report-multiple-approvers.md
-    - name: ALV-palautus kulujen hallinnassa
-      href: prod-exp/VAT-expense-report.md
-    - name: Päivärahasäännöt
-      href: prod-exp/per-diem.md
-    - name: Matkustusehdotukset
-      href: prod-exp/travel-req.md
-    - name: Matkalaskun henkilökohtaiset kulut
-      href: prod-exp/personal-expenses.md
+    - name: Matkalaskujen luominen
+      items:
+        - name: Matkalaskun jakelut
+          href: expense/distributions-expense-report.md
+    - name: Matkalaskujen hyväksyminen
+      items:
+        - name: Matkalaskut ja monta hyväksyjää
+          href: expense/expense-reports-multiple-approvers.md
+    - name: Matkalaskujen kirjaaminen
+      href: expense/posting-expense-reports.md
+    - name: Matkustusehdotus
+      href: expense/travel-requisition.md
+    - name: Käteisennakko
+      href: expense/cash-advance.md
+    - name: Päivärahat
+      href: expense/per-diems.md
+    - name: Kulujen hallintasovellus
+      href: expense/expense-using-mobile.md
+    - name: Taloushallinto
+      items:
+        - name: 'ALV:n palautus'
+          href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -940,10 +952,16 @@
       items:
         - name: Project Service 3.x -päivitysten julkaisuaikataulu
           href: psa/version-history-ps.md
+        - name: 'Päivitysversion 29, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-29.md
+        - name: 'Hotfix-korjaukset sisältävän päivitysversion 28.6, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-28-6.md
         - name: 'Hotfix-korjaukset sisältävän päivitysversion 28.5, V3 uudet ominaisuudet ja muutokset'
           href: psa/whats-new-ur-28-5.md
         - name: 'Päivitysversion 28, V3 uudet ominaisuudet ja muutokset'
           href: psa/whats-new-ur-28.md
+        - name: 'Hotfix-korjaukset sisältävän päivitysversion 27.6, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-27-6.md
         - name: 'Hotfix-korjaukset sisältävän päivitysversion 27.5, V3 uudet ominaisuudet ja muutokset'
           href: psa/whats-new-ur-27-5.md
         - name: 'Päivitysversion 27, V3 uudet ominaisuudet ja muutokset'
