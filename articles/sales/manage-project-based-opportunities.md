@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118469"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277829"
 ---
 # <a name="manage-project-based-opportunities"></a>Projektipohjaisten mahdollisuuksien hallinta
 
@@ -21,7 +21,7 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 Projektipohjaisten yritysten toimitustoiminnot on yleensä jaettu useisiin maihin ja maantieteellisille alueille. Projektin toteutuksen ja toimituksen kustannukset voivat vaihdella sen mukaan, mikä paikkatieto tai divisioona hallitsee toimitusta. Tämä puolestaan voi vaikuttaa kaupan marginaaliin. Projektiin perustuvien palvelujen toimittamiseen liittyy yleensä suuria määriä henkilöresurssien aikaa, huomattavia matkakuluja, materiaalikustannuksia ja muita kuluja.
 
-Dynamics 365 Project Operationsin projektipohjaiset mahdollisuudet on suunniteltu Dynamics 365 Salesin laajennusten kanssa. Aihe sisältää tietoja projektipohjaisten yritysten tarvitsemista lisätoiminnoista eri kentissä ja liiketoimintalogiikasta, joilla hallitaan projektipohjaisia mahdollisuuksia.
+Dynamics 365 Project Operationsin projektipohjaiset mahdollisuudet on suunniteltu sisältämään Dynamics 365 Salesin laajennuksia. Aihe sisältää tietoja projektipohjaisten yritysten tarvitsemista lisätoiminnoista eri kentissä ja liiketoimintalogiikasta, joilla hallitaan projektipohjaisia mahdollisuuksia.
 
 ## <a name="view-all-project-based-opportunities"></a>Näytä kaikki projektipohjaiset mahdollisuudet
 

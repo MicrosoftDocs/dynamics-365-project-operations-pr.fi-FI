@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125624"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279224"
 ---
 # <a name="schedule-assistant-overview"></a>Ajoitusavustajan yleiskatsaus
 
@@ -25,7 +25,7 @@ Kun tarvittavat resurssit on tunnistettu, resurssi- tai projektipäällikkö voi
 
 ## <a name="prerequisites"></a>Edellytykset
 
-Ajoitusavustaja on osa Universal Resource Scheduling -ratkaisua. Tämä ratkaisu sisältyy ja asennetaan Dynamics 365 Project Operationsin, Dynamics 365 Field Servicee ja Dynamics 365 Customer Servicen kanssa.
+Ajoitusavustaja on osa Universal Resource Scheduling -ratkaisua. Tämä ratkaisu sisältyy ja se asennetaan Dynamics 365 Project Operationsin, Dynamics 365 Field Servicen ja Dynamics 365 Customer Servicen kanssa.
 
 ## <a name="matching-requirements-and-resources"></a>Vastaavat tarpeet ja resurssit
 

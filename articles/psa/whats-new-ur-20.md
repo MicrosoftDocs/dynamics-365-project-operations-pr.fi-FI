@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147109"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280664"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation -päivitysjulkaisu 20, V3
 
@@ -42,7 +42,7 @@ Seuraavat ongelmat on korjattu:
 
 - Kun projektiryhmän jäseniä tuodaan käyttämällä kohdistusmenetelmää, joka edellyttää tunteja, tuloksena on epäselvä virhesanoma, kun määritetyt tunnit ovat nolla.
 - Käyttäjät saavat virheellisen virheen, kun projektitehtävän **Kuvaus**-kenttään on syötetty enimmäismäärä merkkejä.
-- **Microsoft Dynamics 365 Project Service Automation -laajennuksen lataus** -sivu ohjaa englanninkieliselle lataussivulle, kun käyttäjän kieliasetukseksi on määritetty japani.
+- **Microsoft Dynamics 365 Project Service Automation-apuohjelman lataussivu** ohjaa englanninkieliseen lataussivuun, kun käyttäjän kieliasetukset on määritetty japaninkielisiksi.
 - Kun palvelinvirhe ilmenee, **Projektit**-lomakkeen **Aikataulu**-välilehden synkronoinnin selite säilyy joskus.
 - Tarpeettomia tehtävien päivityksiä lähetetään palvelimeen, kun tehtävää muokataan.
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181988"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277874"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Useiden asiakkaiden hallinta projektitarjouksessa
 
@@ -23,7 +23,7 @@ Projektitarjoukset tukevat skenaariota, joissa ehdotukseen liittyy useita asiakk
 
 Kaikki tarjouksen asiakkaat projektitarjouksen **Asiakkaat**-välilehdessä ovat projektitarjouksen rivin oletusarvona tarjousta varten luoduille **uusille** projektipohjaisille tarjousriveille. Aiemmin luodut projektipohjaiset tarjousrivit eivät peri uusia tarjouksen asiakastietueita, jotka on luotu niiden jälkeen.
 
-Tarjouksen asiakkaat ja tarjousrivin asiakkaat voidaan lisätä, päivittää tai poistaa milloin tahansa, ennen kuin tarjous on voitettu. Tarjouksen kelvollinen asiakas täytyy määrittää asiakkaaksi omistavan yrityksen tai oikeushenkilön **Asiakkaat**-sivulla. Yritykset määritetään Dynamics 365 Project Operationsin **Projektinhallinta ja kirjanpito** -moduulissa, ja ne ovat käytettävissä yrityksinä Project Operationsin **Projektimyynti ja toimitus** -moduuleissa.
+Tarjouksen asiakkaat ja tarjousrivin asiakkaat voidaan lisätä, päivittää tai poistaa milloin tahansa, ennen kuin tarjous on voitettu. Tarjouksen kelvollinen asiakas täytyy määrittää asiakkaaksi omistavan yrityksen tai oikeushenkilön **Asiakkaat**-sivulla. Yrityksen määritetään **Projektinhallinta ja kirjanpito** -moduulissa Dynamics 365 Project Operationsissa, ja ne ovat käytettävissä yrityksinä **Projektimyynnit- ja toimitus** -moduuleissa Project Operationsissa.
 
 ## <a name="concept-of-a-primary-customer"></a>Ensisijaisen asiakkaan käsite
 
