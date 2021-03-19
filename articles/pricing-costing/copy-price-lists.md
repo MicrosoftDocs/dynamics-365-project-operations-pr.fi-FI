@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181493"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275714"
 ---
 # <a name="copy-price-lists"></a>Hinnastojen kopioiminen
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Voit luoda hinnastojen kopioita Dynamics 365 Project Operationsissa. Voit esimerkiksi luoda hinnastoja tulevalle vuodelle käyttämällä kuluvan vuoden hinnastoa.  Voit myös kopioida hinnastoista hintaluettelon laskuhinnoista ja myyntihinnoista. 
+Voit luoda kopioita hinnastoista Dynamics 365 Project Operationsissa. Voit esimerkiksi luoda hinnastoja tulevalle vuodelle käyttämällä kuluvan vuoden hinnastoa.  Voit myös kopioida hinnastoista hintaluettelon laskuhinnoista ja myyntihinnoista. 
 
 Jos haluat tehdä kopion hinnastosta, tee seuraavat toimet.
 

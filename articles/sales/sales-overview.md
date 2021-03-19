@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177597"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277379"
 ---
 # <a name="sales-process-overview"></a>Myyntiprosessin yleiskatsaus
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Projektiperusteisessa organisaatiossa käytettävät myyntiprosessit eroavat tuoteperusteisessa organisaatiossa käytettävistä myyntiprosesseista. Tämä ero johtuu siitä, että projektiperusteisten organisaatioiden myyntisyklit ovat pidempiä ja edellyttävät mukautettuja arviointimenetelmiä tarjousten analysoimiseksi ja luomiseksi kullekin kaupalle. Dynamics 365 Project Operations käyttää joitakin seuraavia samoja toimintoja kuin myyntiprosessit:
+Projektiperusteisessa organisaatiossa käytettävät myyntiprosessit eroavat tuoteperusteisessa organisaatiossa käytettävistä myyntiprosesseista. Tämä ero johtuu siitä, että projektiperusteisten organisaatioiden myyntisyklit ovat pidempiä ja edellyttävät mukautettuja arviointimenetelmiä tarjousten analysoimiseksi ja luomiseksi kullekin kaupalle. Dynamics 365 Project Operations käyttää joitakin seuraavista toimintoja, joita käytetään myyntiprosessissa:
 
 - Myyntiprosessin seurannassa käytetään Liidi-tietuetta.
 - Hyväksyttyjä liidejä seurataan mahdollisuuksina.

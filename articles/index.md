@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120809"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275894"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations yhdistää myynnin, resurssoinnin, projektinhallinnan ja taloushallinnon tiimit yhteen sovellukseen, joka voittaa enemmän tarjouksia, nopeuttaa projektien toimitusta ja maksimoi kannattavuuden.
+Microsoft Dynamics 365 Project Operations -sovellus yhdistää myynti-, resursointi-, projektinhallinta- ja rahoitustiimit yhteen sovellukseen voittaakseen enemmän tarjouksia, nopeuttaakseen projektien toimittamista ja maksimoidakseen kannattavuuden.
 
 -   **Johtajat saavat liiketoiminnan näkemyksiä** lisätäkseen näkyvyyttä kaikkiin tiimeihin, tietoihin ja prosesseihin sekä tekoälyominaisuudet parempien ja nopeampien liiketoimintapäätösten tekemiseen.
 -   **Myynti voi voittaa** enemmän kauppoja ja nopeuttaa myyntisykliä hyödyntäen nopeiden ja tarkkojen tarjousten, joustavan hinnoittelun ja saumattoman siirtymisen arviosta toteutukseen etuja.
@@ -40,7 +40,7 @@ Project Operations on tehokas sellaisenaan, mutta sitä voidaan laajentaa asiakk
 Lisätietoja:
 
 - [Project Operationsin yleiskatsaus](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Dynamics 365 Project Operationsin vuoden 2020 1. julkaisuaallon yleiskatsaus](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Katsaus vuoden 2020 Dynamics 365 Project Operations -julkaisuaallosta 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

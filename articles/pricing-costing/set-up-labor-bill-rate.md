@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180685"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274814"
 ---
 # <a name="set-up-labor-bill-rates"></a>Työn laskutushintojen määrittäminen
 
 **Käytetään**: Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 
-Jokaisella hinnastolla on joukkoroolien hintoja tai työvoimahintoja, jotka ovat voimassa sen kontekstin ja päivämäärän mukaan, joka sisältyy hinnasto-otsikkoon. Dynamics 365 Project Operationsin laskutushinnat voidaan määrittää vain yhdessä valuutassa, joka on hinnasto-otsikon valuutta.
+Jokaisella hinnastolla on joukkoroolien hintoja tai työvoimahintoja, jotka ovat voimassa sen kontekstin ja päivämäärän mukaan, joka sisältyy hinnasto-otsikkoon. Dynamics 365 Project Operationsin laskutushinnat ajan osalta voidaan määrittää vain yhdessä valuutassa, joka on hinnasto-otsikossa käytetty valuutta.
 
 1. Jos haluat määrittää myyntihinnaston työvoimalaskujen hinnat, luo hinnasto-otsikon perusteella hinnasto. 
 2. Valitse **roolien hinnat** -välilehden aliruudukossa **+ Uusi roolien hinta**. 

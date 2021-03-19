@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180706"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274364"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Työn kustannushintojen määrittäminen – lite
 
@@ -38,7 +38,7 @@ Seuraavassa taulukossa on joitakin kenttiä, jotka ovat tärkeitä luotaessa ty�
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Siirrä hinnoittelu ja kustannukset resursseille, jotka eivät kuulu jaostoosi tai oikeushenkilöösi
 
-Projektipohjaisissa yrityksissä on tavallista käyttää projektiin eri oikeushenkilöiden tai osastojen työntekijöitä. Projektin voi toteuttaa yksi oikeushenkilö, mutta projektissa työskentelevät työntekijät tai konsultit voivat tulla samalta oikeushenkilöltä tai toiselta, tai molemmat voivat olla yhdistettyjä. Dynamics 365 Project Operationsissa oikeushenkilö, joka omistaa projektin toimituksen, kutsutaan **omistajayritykseksi** ja jaosta, joka omistaa toimituksen, kutsutaan **sopimusyksiköksi**. Muita resursseja toimittavien oikeushenkilöiden nimenä on **resursointiyritys**, ja resursseja tuottavia osastoja kutsutaan **resursointiyksiköiksi**. Useimmissa maissa yritysten on varmistettava, että resurssipäällikkö tai -osasto veloittaa omistettavaa yritystä ja hankintayksikköä resurssien käytöstä.
+Projektipohjaisissa yrityksissä on tavallista käyttää projektiin eri oikeushenkilöiden tai osastojen työntekijöitä. Projektin voi toteuttaa yksi oikeushenkilö, mutta projektissa työskentelevät työntekijät tai konsultit voivat tulla samalta oikeushenkilöltä tai toiselta, tai molemmat voivat olla yhdistettyjä. Dynamics 365 Project Operationsissa projektin toimituksen omistava yritys on **Omistava yritys** ja toimituksen omistava yritys on **Sopimusyksikkö**. Muita resursseja toimittavien oikeushenkilöiden nimenä on **resursointiyritys**, ja resursseja tuottavia osastoja kutsutaan **resursointiyksiköiksi**. Useimmissa maissa yritysten on varmistettava, että resurssipäällikkö tai -osasto veloittaa omistettavaa yritystä ja hankintayksikköä resurssien käytöstä.
 
 Esimerkiksi Fabrikam Corporationin on varmistettava, että Fabrikam Intia-Robotics on neuvotellut kustannushintakortin Fabrikam US-Roboticsin tai Fabrikam UK-Roboticsin kanssa.
 

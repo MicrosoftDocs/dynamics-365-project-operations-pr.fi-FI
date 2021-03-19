@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: b6b017177e718110969363844d5db4c393949d28
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177462"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273464"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Arvion tuonti projektipohjaiselle sopimusriville – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Dynamics 365 Project Operationsissa voit tuoda arvioita projektista projektipohjaiseen sopimusriviin.
+Voit tuoda arvioita projektista projektipohjaiselle sopimusriville Dynamics 365 Project Operations -sovelluksessa.
 
 1. Tarkista, että projektipohjaisen sopimusrivin **Projekti**-kenttä on täytetty.
 2. Valitse **Sopimusrivin tiedot** -välilehdessä aliruudukossa **Tuo projektiarviosta**. Näkyviin tulee keskustelusivu, jossa on yhteenvetovaihtoehtoja. Yhteenvedon vaihtoehdot ovat **tapahtumaluokka**, **luokka**, **rooli** ja **projektitehtävä**.

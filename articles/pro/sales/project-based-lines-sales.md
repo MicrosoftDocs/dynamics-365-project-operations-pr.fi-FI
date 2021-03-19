@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180998"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272519"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Projektipohjaiset mahdollisuusrivit – lite
 
@@ -27,7 +27,7 @@ Alla on projektipohjaisen mahdollisuusrivin kentät:
 
 | **Kenttä** | **Sijainti** | **Kuvaus** | **Loppupään vaikutus** |
 | --- | --- | --- | --- |
-| Tuotetyyppi | Yleiset-välilehti (piilotettu) | Voit valita jonkin seuraavista vaihtoehdoista:</br>– Projektipohjainen palvelu (käytettävissä vain, kun Dynamics 365 Project Operations on asennettu)</br>– Tuotepohjainen (käytettävissä vain, kun Project Operations ja Dynamics 365 Sales on asennettu) | Tämän kentän arvoksi määritetään **Projektipohjainen palvelu**, kun luot projektipohjaisen mahdollisuusrivin mahdollisuuden projektipohjaisten rivien ruudukosta. <br> Jos muutat tai korvaat tämän arvon, projektin toimintoja ei voi ottaa käyttöön projektipohjaisissa rivinimikkeissä. |
+| Tuotetyyppi | Yleiset-välilehti (piilotettu) | Voit valita jonkin seuraavista vaihtoehdoista:</br>- Projektipohjainen palvelu (käytettävissä vain kun Dynamics 365 Project Operations on asennettu)</br>– Tuotepohjainen (käytettävissä vain, kun Project Operations ja Dynamics 365 Sales on asennettu) | Tämän kentän arvoksi määritetään **Projektipohjainen palvelu**, kun luot projektipohjaisen mahdollisuusrivin mahdollisuuden projektipohjaisten rivien ruudukosta. <br> Jos muutat tai korvaat tämän arvon, projektin toimintoja ei voi ottaa käyttöön projektipohjaisissa rivinimikkeissä. |
 | Mahdollisuus | Yleiset-välilehti | Tämä kenttä on vain luku -tilassa, ja se viittaa ylätason mahdollisuustietueeseen, johon tämä rivinimike kuuluu. | Tämä kenttä ei vaikuta loppupään prosessiin. |
 | Nimi | Yleiset-välilehti | Tätä muokattavaa tekstikenttää voidaan käyttää lyhyen nimen antamiseen rivinimikkeelle. | Tämä arvo siirretään tarjousriville, kun luot tarjouksen tästä mahdollisuudesta. |
 | Asiakasbudjetti | Yleiset-välilehti | Tämän muokattavan valuuttakentän avulla voit seurata summaa, jonka asiakas on halukas käyttämään tälle rivinimikkeelle. | Tämä arvo siirretään tarjousrivin vastaavaan kenttään, kun luot tarjouksen tästä mahdollisuudesta. |

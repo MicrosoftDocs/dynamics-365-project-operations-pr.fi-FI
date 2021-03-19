@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181133"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277604"
 ---
 # <a name="project-contract-settings"></a>Projektin palvelusopimuksen asetukset
 
@@ -21,7 +21,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 Tässä aiheessa on tietoja koko projektisopimusta koskevista kentistä, mukaan lukien asetukset, jotka vaikuttavat kaikkiin sopimusriveihin. Mukana on myös tietoja palvelusopimuksesta, joka on koottu kaikkiin rivikohteisiin projektisopimuksen suorituskykyilmaisimien mukaan.
 
-Seuraavassa taulukossa on esitetty projektisopimuksen kentät, jotka löytyvät vain Dynamics 365 Project Operationsista tai joissa on merkittäviä muutoksia verrattuna myyntisopimuksiin Dynamics 365 Salesissa.
+Seuraavassa taulukossa on luettelo projektisopimuksen kentistä, jotka ovat yksilöllisiä Dynamics 365 Project Operationsissa tai joiden myyntitilausten toimintatavoissa on tärkeitä muutoksia Dynamics 365 Salesissa.
 
 | Field | Sijainti | Kuvaus | Loppupään vaikutus |
 | --- | --- | --- | --- |

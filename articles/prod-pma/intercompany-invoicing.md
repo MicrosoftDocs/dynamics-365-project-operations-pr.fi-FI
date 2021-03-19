@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075374"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270764"
 ---
 # <a name="intercompany-invoicing"></a>Konsernin sisäinen laskutus
 
@@ -31,7 +31,7 @@ ms.locfileid: "4075374"
 
 Tässä artikkelissa on tietoja ja esimerkkejä projektien laskutuksesta konsernin sisällä.
 
-Organisaatiolla voi olla useita osastoja, tytäryhtiöitä ja muita juridisia kohteita, jotka siirtävät tuotteita ja palveluja toisiinsa projekteissa. Palvelua tai tuotetta tarjoavaa yritystä kutsutaan *Lainauksen tekeväksi yritykseksi* , ja palvelua tai tuotetta vastaanottavaa yritystä kutsutaan *Lainaavaksi yritykseksi*. 
+Organisaatiolla voi olla useita osastoja, tytäryhtiöitä ja muita juridisia kohteita, jotka siirtävät tuotteita ja palveluja toisiinsa projekteissa. Palvelua tai tuotetta tarjoavaa yritystä kutsutaan *Lainauksen tekeväksi yritykseksi*, ja palvelua tai tuotetta vastaanottavaa yritystä kutsutaan *Lainaavaksi yritykseksi*. 
 
 Seuraavassa kuvassa on tyypillinen skenaario, jossa kaksi yritystä, SI FR (lainauksen tekevä yritys) ja SI USA (lainaava yritys) jakavat resursseja asiakkaan A projektin toimittamiseksi. Tässä skenaariossa SI FR toimittaa työn asiakkaalle A. 
 
@@ -44,12 +44,12 @@ Tavoitteena on helpottaa konserniyritysten välisten projektitapahtumien kustann
 -   Siirrä tuoton tuloutus lainauksen tekevälle yritykselle ja silloin, kun lainaavan yrityksen on hyväksyttävä kustannus.
 -   Jaksota keskeneräisen työn tuotto (KET) lainauksen tekevässä yrityksessä.
 -   Määritä siirtohinnat, jotka voivat perustua erilaisiin hinnoittelumalleihin. Seuraavassa on joitakin esimerkkejä.
-    -   **Määrä** – **Hinnoittelu** -kenttään syöttämäsi summa on todellinen kustannus per määrä tai yksikkö.
-    -   **Kulujen summa** – Hinta/kustannus tapahtumaa kohti sekä **Hinnoittelu** -kenttään syöttämäsi kulujen summa.
-    -   **Kuluprosentti** – Siirtohinta on hinta/kustannus tapahtumaa kohden kerrottuna **Hinnoittelu** -kenttään syöttämälläsi kuluprosentilla.
+    -   **Määrä** – **Hinnoittelu**-kenttään syöttämäsi summa on todellinen kustannus per määrä tai yksikkö.
+    -   **Kulujen summa** – Hinta/kustannus tapahtumaa kohti sekä **Hinnoittelu**-kenttään syöttämäsi kulujen summa.
+    -   **Kuluprosentti** – Siirtohinta on hinta/kustannus tapahtumaa kohden kerrottuna **Hinnoittelu**-kenttään syöttämälläsi kuluprosentilla.
     -   **Myyntihinnan prosenttiosuus** – Lainauksen tekevälle yritykselle siirretyn myyntihinnan prosenttiosuus.
     -   **Myyntihinnan alapuolella oleva määrä** – Määrä, jonka lainaava yritys pidättää myyntihinnoista ennen kuin se siirretään lainauksen tekevälle yritykselle.
-    -   **Kateprosentti** – **Hinnoittelu** -kenttään syöttämäsi numero on kateprosentti, joka ilmaistaan prosentteina myyntihinnasta.
+    -   **Kateprosentti** – **Hinnoittelu**-kenttään syöttämäsi numero on kateprosentti, joka ilmaistaan prosentteina myyntihinnasta.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Esimerkki 1: konsernin sisäisen laskutuksen parametrien määrittäminen
 Tässä esimerkissä USSI on lainauksen tekevä yritys, ja sen resurssit raportoivat aikaa suhteessa lainaavaan yritykseen, FRSI, joka omistaa sopimuksen loppuasiakkaan kanssa. Tunnit ja kulut, jotka USSI-työntekijät raportoivat, voidaan sisällyttää projektilaskuun, jonka FRSI luo. Lisäksi on olemassa kolmas tapahtumalähde, joka voi olla peräisin lainauksen tekevästä yrityksestä (tässä esimerkissä), kun se tarjoaa jaettuja toimittajapalveluita tytäryhtiöille (esimerkiksi FRSI) ja siirtää nämä kustannukset kyseisten tytäryritysten projekteihin. Kaikki vastaavat laskun asiakirjat ja verolaskelmat täytetään Financessa. 
@@ -78,8 +78,8 @@ USSI, Lainauksen tekevän yrityksen on luotava ja postitettava projektin työaik
 
 | Osavaihe | Merkintäkohta                                                                       | Kuvaus                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Projektinhallinta ja kirjanpito** &gt; **Työaikaraportit** &gt; **Kaikki työaikaraportit** | Uuden työaikaraportin luominen. Valitse tuntiaikaraportin rivin **Yritys** -kentässä **FRSI**. Valitse **Projektitunnus** -kentässä projekti FRSI-ohjelmassa. Anna kunkin viikonpäivän tunnit. |
-| B    | **Työaikaraportti** -sivu                                                                | Kun työnkulku on suoritettu, kirjaa tuntilomake ja merkitse tositenumero.                                                                                                               |
+| A    | **Projektinhallinta ja kirjanpito** &gt; **Työaikaraportit** &gt; **Kaikki työaikaraportit** | Uuden työaikaraportin luominen. Valitse tuntiaikaraportin rivin **Yritys**-kentässä **FRSI**. Valitse **Projektitunnus**-kentässä projekti FRSI-ohjelmassa. Anna kunkin viikonpäivän tunnit. |
+| B    | **Työaikaraportti**-sivu                                                                | Kun työnkulku on suoritettu, kirjaa tuntilomake ja merkitse tositenumero.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Esimerkki 3: konserniyritysten välisen toimittajalaskun luominen ja kirjaaminen
 USSI, Lainauksen tekevän yrityksen on luotava ja postitettava projektin konsernin sisäinen toimittajalasku FRSI:stä, joka on lainaava yritys. Tämä toimittajalasku edustaa alihankkijoita, jotka on suorittanut USSI:n maksamat toimittajat. Tässä tehtävässä tarvittavissa vaiheissa on kaksi kohtaa.
@@ -87,7 +87,7 @@ USSI, Lainauksen tekevän yrityksen on luotava ja postitettava projektin konsern
 | Osavaihe | Merkintäkohta                                                                                      | Kuvaus                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Ostoreskontra** &gt; **Laskut** &gt; **Avaa toimittajalaskut** &gt; **Uusi toimittajalasku** | Luo uusi toimittajalasku ja kirjoita FRSI-projektin puolesta hankitut palvelut.                                                                                                                                                                                  |
-| B    | **Toimittajalasku** -sivu                                                                      | Anna rivit, jotka edustavat ulkoistettuja palveluita FRSI:n puolesta. Kirjoita laskun rivin **Projekti** -välilehden **Rivin tiedot** -pikavälilehden **Projekti yritys** - kenttään **FRSI**. Anna projekti ja vastaavat tiedot. Kirjaa sitten toimittajalasku. |
+| B    | **Toimittajalasku**-sivu                                                                      | Anna rivit, jotka edustavat ulkoistettuja palveluita FRSI:n puolesta. Kirjoita laskun rivin **Projekti**-välilehden **Rivin tiedot** -pikavälilehden **Projekti yritys**- kenttään **FRSI**. Anna projekti ja vastaavat tiedot. Kirjaa sitten toimittajalasku. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Esimerkki 4: konserniyritysten välisen laskun luominen ja kirjaaminen
 USSI:n, lainauksen tekevän yrityksen, täytyy luoda ja kirjata konsernilasku. Tässä tehtävässä tarvittavissa vaiheissa on kaksi kohtaa.
@@ -96,7 +96,7 @@ USSI:n, lainauksen tekevän yrityksen, täytyy luoda ja kirjata konsernilasku. T
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Projektinhallinta ja kirjanpito** &gt; **Projektilaskut** &gt; **Konsernin sisäinen myyntilasku**  | Avaa **Luo konsernin lasku** -sivu valitsemalla **Uusi**.                                                                                  |
 | B    | **Projektinhallinta ja kirjanpito** &gt; **Projektilaskut** &gt; **Konsernin sisäiset myyntilaskut** | Kirjoita **Luo konserninsisäinen lasku** -sivulle yritys, määritä sisällytettävä tapahtuma ja valitse sitten **Hae**. |
-| C    | **Projektinhallinta ja kirjanpito** &gt; **Projektilaskut** &gt; **Konsernin sisäiset myyntilaskut** | Valitse laskutettavat tapahtumat tai valitse **Valitse kaikki** , jos haluat laskuttaa kaikki luettelon tapahtumat, ja valitse sitten **OK**.                  |
+| C    | **Projektinhallinta ja kirjanpito** &gt; **Projektilaskut** &gt; **Konsernin sisäiset myyntilaskut** | Valitse laskutettavat tapahtumat tai valitse **Valitse kaikki**, jos haluat laskuttaa kaikki luettelon tapahtumat, ja valitse sitten **OK**.                  |
 | D    | **Konsernin sisäinen lasku** -sivu                                                                       | Näkyviin tulee konsernin sisäinen myyntilaskuehdotus.                                                                                             |
 | E    | **Konsernin sisäinen lasku** -sivu                                                                       | Valitse **Julkaise**.                                                                                                                                  |
 
@@ -107,7 +107,7 @@ Kun lainauksen tekevä yritys, USSI, kirjaa konserniyritysten välisen myyntilas
 |------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | A    | **Osto reskontra** &gt; **Laskut** &gt; **Odottavat toimittajan laskut**                            | Tarkista lasku tarkistamalla, että tuntilomakkeen arvot on sisällytetty, ja kirjaa sitten toimittajan lasku.                  |
 | B    | **Projektinhallinta ja kirjanpito** &gt; **Projektilaskut** &gt; **Projektin laskuehdotukset** | Luo projektille uusi projektilasku ja tarkista, että kirjatut tuntitapahtumat tulevat näkyviin.            |
-| C    | **Projektilasku** -sivu                                                                       | Valitse projektilasku ja tarkastele sitten kustannusta ja myyntihintaa valitsemalla **Näytä tiedot**. Kirjaa sitten lasku. |
+| C    | **Projektilasku**-sivu                                                                       | Valitse projektilasku ja tarkastele sitten kustannusta ja myyntihintaa valitsemalla **Näytä tiedot**. Kirjaa sitten lasku. |
 
 
 Lisätietoja on aiheessa [Konsernin sisäisen projektilaskutuksen määrittäminen](tasks/configure-intercompany-project-invoicing.md).

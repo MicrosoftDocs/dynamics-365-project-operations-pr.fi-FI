@@ -1,6 +1,6 @@
 ---
 title: Aikatoimintojen yleiskatsaus
-description: Tämä aihe tarjoaa tietoja Dynamics 365 Operationsin aikatoiminnosta.
+description: Tässä aiheessa on tietoja aikatoiminnosta Dynamics 365 Project Operationsissa.
 author: stsporen
 manager: AnnBe
 ms.date: 10/02/2020
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 291ca3cc6d995a9722fe3cd29ded95fb606888c6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e27311f7dda1c3c713dc3ad6c0e63f395264808d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124544"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277109"
 ---
-# <a name="time-overview"></a>Aikatoimintojen yleiskatsaus
+# <a name="time-overview"></a>Ajan yleiskatsaus
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Aikamerkintä on prosessi, jossa tallennetaan resurssin todellisuudessa käyttämä aika. Dynamics 365 Project Operationsin aikamerkinnät sallivat kustannus- ja myyntihintojen laskemisen tehtävien edistyessä. Nämä merkinnät auttavat projektipäällikköä hallinnoimaan projekteja ja tehtäviä. Aikamerkinnät ilmoittavat resurssipäälliköille myös mahdollisista lomista tai poissaoloista, jotka näkyvät aikataulutaulukossa merkinnällä **Ei töissä**. Näiden ilmoitusten avulla resurssipäälliköt voivat suunnitella näitä tapahtumia.
+Aikamerkintä on prosessi, jossa tallennetaan resurssin todellisuudessa käyttämä aika. Dynamics 365 Project Operationsin aikamerkinnät sallivat kustannus- ja myyntihintojen laskemisen tehtävän edetessä. Nämä merkinnät auttavat projektipäällikköä hallinnoimaan projekteja ja tehtäviä. Aikamerkinnät ilmoittavat resurssipäälliköille myös mahdollisista lomista tai poissaoloista, jotka näkyvät aikataulutaulukossa merkinnällä **Ei töissä**. Näiden ilmoitusten avulla resurssipäälliköt voivat suunnitella näitä tapahtumia.
 
 Kun tallennat aikaa Project Operationsissa, käyttäjät voivat seurata projektin kaikkien tasojen tietoja. Tämä sisältää tehtävän, yhteenvedon tai projektin tason.
 

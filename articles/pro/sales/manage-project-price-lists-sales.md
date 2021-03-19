@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175977"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273014"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Projektihinnastojen hallinta projektitarjouksissa – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Projektitarjoukset on suunniteltu tukemaan useita päivämääräkohtaisia myyntihinnastoja. Dynamics 365 Project Operationsissa lisätään uusi liitetty entiteetti, jonka nimi on **Projektihinnastot**. Tällä entiteetillä on yksi-moneen-suhde projektitarjoukseen.
+Projektitarjoukset on suunniteltu tukemaan useita päivämääräkohtaisia myyntihinnastoja. Dynamics 365 Project Operationsissa lisätään uusi liittyvä entiteetti nimeltä **Projektihinnastot**. Tällä entiteetillä on yksi-moneen-suhde projektitarjoukseen.
 
 Projektihinnastoja käytetään projektin aika- ja kulutapahtumien hinnoitteluun. Kun tarjouksessa on yksi tai usemapi projektihinnasto, näitä hinnastoja käytetään aika- ja kuluarvioiden sekä niiden toteutuneiden arvojen hinnoitteluun projekteissa, jotka on liitetty tarjoukseen tarjousrivin kautta.
 

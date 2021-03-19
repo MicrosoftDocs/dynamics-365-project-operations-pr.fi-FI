@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180233"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277559"
 ---
 # <a name="project-quote-settings"></a>Projektitarjouksen asetukset
 
@@ -22,7 +22,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 Tässä artikkelissa selitetään projektitarjousta koskevat tiedot. Tämä sisältää kaikkiin tarjousriveihin vaikuttavat asetukset sekä tiedot tarjouksesta, joka on koottu yhteen kaikkien rivinimikkeiden kanssa, jotta projektitarjouksen suorituskykyilmaisimia voidaan tuottaa.
 
-Seuraavassa taulukossa on esitetty projektitarjouksen yhteenvedon tietokentät, jotka löytyvät vain Dynamics 365 Project Operationsista tai joissa on merkittäviä muutoksia verrattuna Dynamics 365 Salesiin.
+Seuraavassa taulukossa on luettelo projektitarjouksen yhteenvetotietokentistä, jotka ovat yksilöllisiä Dynamics 365 Project Operationsissa tai joiden toimintatavoissa on tärkeitä muutoksia Dynamics 365 Salesin tarjouksista.
 
 | **Kenttä** | **Sijainti** | **Kuvaus** | **Loppupään vaikutus** |
 | --- | --- | --- | --- |

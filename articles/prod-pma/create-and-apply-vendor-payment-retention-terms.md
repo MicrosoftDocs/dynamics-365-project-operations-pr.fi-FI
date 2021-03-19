@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075485"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270944"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Toimittajan maksun pidätysehtojen luominen ja käyttäminen
 
@@ -38,12 +38,12 @@ Voit syöttää toimittajan maksun prosenttiosuuden pidätyksestä ja prosenttio
 Seuraavien vaiheiden avulla voit määrittää ja ylläpitää toimittajan maksujen säilytysehtoja. 
 
 1. Siirry kohtaan **projektinhallinta ja kirjanpito** > **säilyttäminen** > **Toimittajamaksujen säilytysehdot**.
-2. Valitse **Uusi** , jos haluat lisätä uuden toimittajan säilytysehdon. Uuden termin **sääntötunnus** -arvo syötetään automaattisesti. 
-3. Kirjoita lyhyt kuvaus **kuvaus** -kenttään ja valitse **ehdot** -pikavälilehdessä **Lisää rivi** , jos haluat määrittää termin arvot seuraaville:
+2. Valitse **Uusi**, jos haluat lisätä uuden toimittajan säilytysehdon. Uuden termin **sääntötunnus**-arvo syötetään automaattisesti. 
+3. Kirjoita lyhyt kuvaus **kuvaus**-kenttään ja valitse **ehdot**-pikavälilehdessä **Lisää rivi**, jos haluat määrittää termin arvot seuraaville:
 
-   - **Toimitettujen yksiköiden prosenttimäärä** : Kirjoita termin valmistumisprosentti. Summat säilytetään automaattisesti toimittajan laskuissa, kunnes projektin valmistumisvaihe on sama kuin määritetty prosenttiosuus. Jos esimerkiksi kirjoitat 50,00, summat pidätetään, kunnes projektista on 50 prosenttia valmiina.
-   - **Pidätettävä prosentti** : Anna toimittajan laskun määrän pidätettävä prosenttiosuus. Jos esimerkiksi kirjoitat 10,00, 10 prosenttia toimittajan laskusta pidätetään, kunnes projektin valmistumisprosentti on sama kuin määritetty **toimitetut yksiköt prosentteina -kentässä**.
-   - **Vapautettava prosentti** : Valitse **Lisää rivi** , jos haluat määrittää, kuinka monta prosenttia aiemmin kertyneistä summista vapautetaan valitun projektin valmistumisasteen mukaan.
+   - **Toimitettujen yksiköiden prosenttimäärä**: Kirjoita termin valmistumisprosentti. Summat säilytetään automaattisesti toimittajan laskuissa, kunnes projektin valmistumisvaihe on sama kuin määritetty prosenttiosuus. Jos esimerkiksi kirjoitat 50,00, summat pidätetään, kunnes projektista on 50 prosenttia valmiina.
+   - **Pidätettävä prosentti**: Anna toimittajan laskun määrän pidätettävä prosenttiosuus. Jos esimerkiksi kirjoitat 10,00, 10 prosenttia toimittajan laskusta pidätetään, kunnes projektin valmistumisprosentti on sama kuin määritetty **toimitetut yksiköt prosentteina -kentässä**.
+   - **Vapautettava prosentti**: Valitse **Lisää rivi**, jos haluat määrittää, kuinka monta prosenttia aiemmin kertyneistä summista vapautetaan valitun projektin valmistumisasteen mukaan.
 
 > [!NOTE]
 > Jos projektin valmistumisen eri tasoilla on useampi kuin yksi välitavoite, kirjoita kullekin säilytyssäännölle erillinen toimittajan säilytysajan rivi. Kullakin rivillä voidaan määrittää eri säilytysprosentti ja eri vapautusprosentti kullekin projektin valmistumistasolle.
@@ -53,16 +53,16 @@ Kun olet luonut toimittajan pidätysehdot, voit kohdistaa ehdot projektiin.
 ## <a name="apply-vendor-retention-terms-to-a-project"></a>Toimittajan säilytysehtojen soveltaminen projektiin
 
 1. Siirry kohtaan **projektinhallinta- ja kirjanpito** > **projektit** > **kaikki projektit** ja avaa projekti projektiluettelo-sivulla.
-2. Valitse **toimittajasopimukset** -pikavälilehdessä **Lisää rivi**.
+2. Valitse **toimittajasopimukset**-pikavälilehdessä **Lisää rivi**.
 3. Valitse **tilikoodikentässä** jokin seuraavista vaihtoehdoista: 
 
-   - **Taulukko** : toimittajan säilytysehdot koskevat yhtä toimittajaa.
-   - **Ryhmä** : toimittajan säilytysehdot koskevat kaikkia toimittajaryhmän toimittajia.
-   - **Kaikki** : Toimittajan säilytysehdot koskevat kaikkia toimittajia.
+   - **Taulukko**: toimittajan säilytysehdot koskevat yhtä toimittajaa.
+   - **Ryhmä**: toimittajan säilytysehdot koskevat kaikkia toimittajaryhmän toimittajia.
+   - **Kaikki**: Toimittajan säilytysehdot koskevat kaikkia toimittajia.
 
-4. Valitse **toimittaja/toimittajaryhmä -kentässä** toimittaja tai toimittajaryhmä, johon toimittajan säilytysehtoja sovelletaan. Jos valitsit edellisessä vaiheessa **Kaikki** , tämä kenttä ei ole käytettävissä.
+4. Valitse **toimittaja/toimittajaryhmä -kentässä** toimittaja tai toimittajaryhmä, johon toimittajan säilytysehtoja sovelletaan. Jos valitsit edellisessä vaiheessa **Kaikki**, tämä kenttä ei ole käytettävissä.
 5. **Valitse toimittajan säilytysehdot** -kentässä edellisessä toimintosarjassa luomasi säilytysehdot.
-6. Jos projektilla on myös toimittajalle määritetty maksu, kun maksettu (PWP) -ehdot, kirjoita projektin kynnysprosentti **PWP-kynnysprosentti** -kenttään.
+6. Jos projektilla on myös toimittajalle määritetty maksu, kun maksettu (PWP) -ehdot, kirjoita projektin kynnysprosentti **PWP-kynnysprosentti**-kenttään.
 
 Toimittajan säilytysehdot näkyvät myös toimittajalle luotavien ostotilausten yhteydessä.
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075402"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270989"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Ota Microsoft Dynamics 365 Project Timesheet -mobiilisovelluksen mukautetut kentät käyttöön iOS:ssä ja Androidissa
 
@@ -42,43 +42,43 @@ Tämä aihe on tarkoitettu sovelluskehittäjille, jotka integroivat mukautettuja
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Tietosopimus – TSTimesheetCustomField X++-luokka
 
-**TSTimesheetCustomField** -luokka on X++-tietosopimusluokka, joka edustaa tietoja mukautetusta kentästä työaikaraportin toiminnallisuuteen. Mukautettujen kenttäobjektien luettelot välitetään sekä TSTimesheetDetails-palvelusopimuksessa että TSTimesheetEntry-tietosopimuksessa mukautettujen kenttien näyttämistä varten mobiilisovelluksessa.
+**TSTimesheetCustomField**-luokka on X++-tietosopimusluokka, joka edustaa tietoja mukautetusta kentästä työaikaraportin toiminnallisuuteen. Mukautettujen kenttäobjektien luettelot välitetään sekä TSTimesheetDetails-palvelusopimuksessa että TSTimesheetEntry-tietosopimuksessa mukautettujen kenttien näyttämistä varten mobiilisovelluksessa.
 
 - **TSTimesheetDetails** - Työaikaraportin otsikkosopimus.
-- **TSTimesheetEntry** - Työaikaraportin tapahtumasopimus. Näiden objektien ryhmät, joilla on samat projektitiedot ja **timesheetLineRecId** -arvo, muodostavat rivin.
+- **TSTimesheetEntry** - Työaikaraportin tapahtumasopimus. Näiden objektien ryhmät, joilla on samat projektitiedot ja **timesheetLineRecId**-arvo, muodostavat rivin.
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (Lajit)
 
-**TsTimesheetCustom** -objektin **FieldBaseType** -ominaisuus määrittää sovelluksessa näkyvän kentän tyypin. Seuraavat **Tyypit** -arvot ovat tuettuja.
+**TsTimesheetCustom**-objektin **FieldBaseType**-ominaisuus määrittää sovelluksessa näkyvän kentän tyypin. Seuraavat **Tyypit**-arvot ovat tuettuja.
 
 | Tyypin arvo | Laji              | Muistiinpanot |
 |-------------|-------------------|-------|
 | 0           | Merkkijono (ja Enum) | Kenttä näkyy tekstikenttänä. |
 | 1           | Integer           | Arvo näkyy numerona, jossa ei ole desimaaleja. |
-| 2           | Reaali              | Arvo näkyy numerona, jossa on desimaaleja.<p>Jos haluat näyttää sovelluksessa todellisen arvon valuuttana, käytä **fieldExtenededType** -ominaisuutta. **numberOfDecimals** -ominaisuuden avulla voit määrittää näytettävien desimaalien määrän.</p> |
+| 2           | Reaali              | Arvo näkyy numerona, jossa on desimaaleja.<p>Jos haluat näyttää sovelluksessa todellisen arvon valuuttana, käytä **fieldExtenededType**-ominaisuutta. **numberOfDecimals**-ominaisuuden avulla voit määrittää näytettävien desimaalien määrän.</p> |
 | 3           | Päivä              | Päivämäärämuodot määräytyvät **Käyttäjän asetukset** -kohdassa **kieli ja maa/alue** -asetuksen mukaan määräytyvien käyttäjien **päivämäärä-, kellonaika- ja lukumuoto** -asetusten mukaan. |
 | 4           | Boolean           | |
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Jos **TSTimesheetCustomField** -objektissa ei ole **stringOptions** -ominaisuutta, käyttäjälle toimitetaan vapaamuotoinen tekstikenttä.
+- Jos **TSTimesheetCustomField**-objektissa ei ole **stringOptions**-ominaisuutta, käyttäjälle toimitetaan vapaamuotoinen tekstikenttä.
 
-    **stringLength** -ominaisuuden avulla voidaan määrittää merkkijonon enimmäispituus, jonka käyttäjät voivat syöttää.
+    **stringLength**-ominaisuuden avulla voidaan määrittää merkkijonon enimmäispituus, jonka käyttäjät voivat syöttää.
 
-- Jos **TSTimesheetCustomField** -objektissa on **stringOptions** -ominaisuus, nämä luetteloelementit ovat ainoat arvot, joita käyttäjät voivat valita valintanappien avulla.
+- Jos **TSTimesheetCustomField**-objektissa on **stringOptions**-ominaisuus, nämä luetteloelementit ovat ainoat arvot, joita käyttäjät voivat valita valintanappien avulla.
 
     Tässä tapauksessa merkkijonokenttä voi toimia luettelointi-arvona käyttäjämerkintää varten. Jos haluat tallentaa arvon tietokantaan valintaluettelolla, yhdistä se manuaalisesti uudelleen luettelointiarvoon, ennen kuin tallennat tietokantaan komentoketjulla (lisätietoja on kohdassa "käytä komentoa TSTimesheetEntryService-luokassa, kun haluat tallentaa tuntilomakemerkinnän sovelluksesta uudelleen tietokantaan"-osaan jäljempänä tässä aiheessa).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
-Tämän ominaisuuden avulla voit muotoilla reaaliarvoja valuutalle. Tämä menetelmä on käytettävissä vain, kun **fieldBaseType** -arvo on **Tosi**.
+Tämän ominaisuuden avulla voit muotoilla reaaliarvoja valuutalle. Tämä menetelmä on käytettävissä vain, kun **fieldBaseType**-arvo on **Tosi**.
 
 - **TSCustomFieldExtendedType:None** – Muotoilua ei käytetä.
 - **TSCustomFieldExtendedType::Currency** – Muotoile arvo valuuttana.
 
-    Kun valuutan muotoilu on aktiivinen, voit käyttää **stringValue** -kenttää ja siirtää sovelluksessa näkyvän valuuttakoodin. Arvo on vain luku -arvo.
+    Kun valuutan muotoilu on aktiivinen, voit käyttää **stringValue**-kenttää ja siirtää sovelluksessa näkyvän valuuttakoodin. Arvo on vain luku -arvo.
 
-    **realValue** -kenttä sisältää rahasummat, jotka tulisi tallentaa tietokantaan.
+    **realValue**-kenttä sisältää rahasummat, jotka tulisi tallentaa tietokantaan.
 
 ### <a name="fieldsection-tscustomfieldsection"></a>fieldSection (TSCustomFieldSection)
 
@@ -97,7 +97,7 @@ Tämä ominaisuus määrittää kentän, kun sovelluksen arvot tallennetaan tiet
 
 ### <a name="iseditable-noyes"></a>isEditable (NoYes)
 
-Määrittämällä tämän ominaisuuden arvoksi **Kyllä** voit määrittää, että käyttäjät voivat muokata tuntilomakemerkintäosan kenttää. Määrittämällä ominaisuuden arvoksi **Ei** , voit määrittää kentän vain luku -tilaan.
+Määrittämällä tämän ominaisuuden arvoksi **Kyllä** voit määrittää, että käyttäjät voivat muokata tuntilomakemerkintäosan kenttää. Määrittämällä ominaisuuden arvoksi **Ei**, voit määrittää kentän vain luku -tilaan.
 
 ### <a name="ismandatory-noyes"></a>isMandatory (NoYes)
 
@@ -109,15 +109,15 @@ Tämä ominaisuus määrittää otsikon, joka näkyy sovelluksen kentän vieress
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (Merkkijonoluettelo)
 
-Tämä ominaisuus on käytettävissä vain, jos **fieldBaseType** -arvoksi on määritetty **merkkijono**. Jos **stringOptions** on määritetty, valintanappien kautta valittavissa olevat merkkijonoarvot (radiopainikkeet) määritetään luettelon merkkijonojen avulla. Jos merkkijonoja ei ole, vapaatekstimuotoinen merkintä merkkijonokentässä sallitaan (lisätietoja on kohdassa "Käyttöketjun hallinta TSTimesheetEntryService-luokassa, kun tuntilomakemerkintä tallennetaan sovelluksesta uudelleen tietokantaan" -osaan jäljempänä tässä aiheessa).
+Tämä ominaisuus on käytettävissä vain, jos **fieldBaseType**-arvoksi on määritetty **merkkijono**. Jos **stringOptions** on määritetty, valintanappien kautta valittavissa olevat merkkijonoarvot (radiopainikkeet) määritetään luettelon merkkijonojen avulla. Jos merkkijonoja ei ole, vapaatekstimuotoinen merkintä merkkijonokentässä sallitaan (lisätietoja on kohdassa "Käyttöketjun hallinta TSTimesheetEntryService-luokassa, kun tuntilomakemerkintä tallennetaan sovelluksesta uudelleen tietokantaan" -osaan jäljempänä tässä aiheessa).
 
 ### <a name="stringlength-int"></a>strinLength (kokonaisluku)
 
-Tämä ominaisuus määrittää merkkijonokentän enimmäispituuden. Se on käytettävissä vain, jos **fieldBaseType** -arvoksi on määritetty **merkkijono**.
+Tämä ominaisuus määrittää merkkijonokentän enimmäispituuden. Se on käytettävissä vain, jos **fieldBaseType**-arvoksi on määritetty **merkkijono**.
 
 ### <a name="numberofdecimals-int"></a>numberOfDecimals (kokonaisluku)
 
-Tämä ominaisuus määrittää todelliselle kentälle näytettävien desimaalien määrän. Se on käytettävissä vain, jos **fieldBaseType** -arvoksi on määritetty **todellinen**.
+Tämä ominaisuus määrittää todelliselle kentälle näytettävien desimaalien määrän. Se on käytettävissä vain, jos **fieldBaseType**-arvoksi on määritetty **todellinen**.
 
 ### <a name="ordersequence-int"></a>orderSequence (kokonaisluku)
 
@@ -125,31 +125,31 @@ Tämä ominaisuus määrittää, missä järjestyksessä mukautetut kentät näk
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (boolean)
 
-**Boolean** -tyypin kentissä tämä ominaisuus siirtää kentän totuusarvon palvelimen ja sovelluksen välille.
+**Boolean**-tyypin kentissä tämä ominaisuus siirtää kentän totuusarvon palvelimen ja sovelluksen välille.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-**GUID** -tyypin kentissä tämä ominaisuus siirtää GUID-arvon palvelimen ja sovelluksen välille.
+**GUID**-tyypin kentissä tämä ominaisuus siirtää GUID-arvon palvelimen ja sovelluksen välille.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-**Int64** -tyypin kentissä tämä ominaisuus siirtää kentän Int64-arvon palvelimen ja sovelluksen välille.
+**Int64**-tyypin kentissä tämä ominaisuus siirtää kentän Int64-arvon palvelimen ja sovelluksen välille.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-**Int** -tyypin kentissä tämä ominaisuus siirtää kentän Int-arvon palvelimen ja sovelluksen välille.
+**Int**-tyypin kentissä tämä ominaisuus siirtää kentän Int-arvon palvelimen ja sovelluksen välille.
 
 ### <a name="realvalue-real"></a>realValue (todellinen)
 
-**Todellinen** -tyypin kentissä tämä ominaisuus siirtää kentän Todellinen-arvon palvelimen ja sovelluksen välille.
+**Todellinen**-tyypin kentissä tämä ominaisuus siirtää kentän Todellinen-arvon palvelimen ja sovelluksen välille.
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-**Merkkijono** -tyypin kentissä tämä ominaisuus siirtää kentän merkkijonoarvon palvelimen ja sovelluksen välille. Sitä käytetään myös **todellinen** -tyypin kentissä, jotka on muotoiltu valuutaksi. Näiden kenttien osalta ominaisuutta käytetään valuuttakoodin välittämiseen sovellukseen.
+**Merkkijono**-tyypin kentissä tämä ominaisuus siirtää kentän merkkijonoarvon palvelimen ja sovelluksen välille. Sitä käytetään myös **todellinen**-tyypin kentissä, jotka on muotoiltu valuutaksi. Näiden kenttien osalta ominaisuutta käytetään valuuttakoodin välittämiseen sovellukseen.
 
 ### <a name="datevalue-date"></a>dateValue (päivämäärä)
 
-**Päivämäärä** -tyypin kentissä tämä ominaisuus siirtää kentän päivämääräarvon palvelimen ja sovelluksen välille.
+**Päivämäärä**-tyypin kentissä tämä ominaisuus siirtää kentän päivämääräarvon palvelimen ja sovelluksen välille.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Mukautetun kentän näyttäminen ja tallentaminen tuntilomakemerkinnän osassa
 
@@ -179,9 +179,9 @@ Alla on Visual Studio -sovellusobjektipuusta otettu näyttökuva. Se näyttää 
 
 Tämä koodi määrittää sovelluksen kentän näyttöasetukset. Se esimerkiksi määrittää kenttätyypin, otsikon, sen, onko kenttä pakollinen, ja missä osassa kenttä näkyy.
 
-Seuraavassa esimerkissä näkyy aikamerkintöjen merkkijonokenttä. Tässä kentässä on kaksi vaihtoehtoa, **Ensimmäinen vaihtoehto** ja **Toinen vaihtoehto** , jotka ovat käytettävissä valintanappien kautta (radionapit). Sovelluksen kenttä liitetään **TestLineString** -kenttään, joka on lisätty TSTimesheetLine-tauluun.
+Seuraavassa esimerkissä näkyy aikamerkintöjen merkkijonokenttä. Tässä kentässä on kaksi vaihtoehtoa, **Ensimmäinen vaihtoehto** ja **Toinen vaihtoehto**, jotka ovat käytettävissä valintanappien kautta (radionapit). Sovelluksen kenttä liitetään **TestLineString**-kenttään, joka on lisätty TSTimesheetLine-tauluun.
 
-Huomaa kohtien **TSTimesheetCustomField::newFromMetatdata()** method to simplify the initialization of the custom field properties: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** ja **numberOfDecimals** käyttö. Voit myös määrittää nämä parametrit manuaalisesti.
+Huomaa kohtien **TSTimesheetCustomField::newFromMetatdata()** method to simplify the initialization of the custom field properties: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** ja **numberOfDecimals** käyttö. Voit myös määrittää nämä parametrit manuaalisesti.
 
 ```xpp
 ...
@@ -210,7 +210,7 @@ final class TSTimesheetSettings_Extension
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlistforentry-method-of-the-tstimesheetentry-class-to-enter-values-in-a-timesheet-entry"></a>Käytä komentoketjua TSTimesheetEntry-luokan buildCustomFieldListForEntry-menetelmässä, kun haluat syöttää tuntilomakemerkinnän arvot
 
-**buildCustomFieldListForEntry** -menetelmällä syötetään arvoja mobiilisovelluksen tallennettujen työaikaraporttien riveille. Se vie TSTimesheetTrans-tietueen parametriksi. Tietueen kenttien avulla voit täyttää mukautetun kentän arvon sovelluksessa.
+**buildCustomFieldListForEntry**-menetelmällä syötetään arvoja mobiilisovelluksen tallennettujen työaikaraporttien riveille. Se vie TSTimesheetTrans-tietueen parametriksi. Tietueen kenttien avulla voit täyttää mukautetun kentän arvon sovelluksessa.
 
 ```xpp
 ...
@@ -243,12 +243,12 @@ final class TsTimesheetEntry_Extension
 
 Jos haluat tallentaa mukautetun kentän tietokantaan tavalliseen käyttöön, sinun täytyy laajentaa useita menetelmiä:
 
-- **timesheetLineNeedsUpdating** -menetelmällä määritetään, onko käyttäjä muuttanut rivitietuetta sovelluksessa, ja se on tallennettava tietokantaan. Jos tehokkuus ei ole ongelma, tätä menetelmää voidaan yksinkertaistaa niin, että se palauttaa aina **tosi** -arvon.
-- **populateTimesheetLineFromEntryDuringCreate** - ja **populateTimesheetLineFromEntryDuringUpdate** -menetelmien avulla voi lisätä arvoja TSTimesheetLine tietokantatietueeseen. Seuraavassa esimerkissä määritetään, miten tietokantakentän ja syöttökentän välinen yhdistämismääritys tehdään manuaalisesti X++-koodin kautta.
-- **populateTimesheetWeekFromEntry** -menetelmää voidaan myös laajentaa, jos **TSTimesheetEntry** -objektiin yhdistettävän mukautetun kentän täytyy kirjoittaa uudelleen TSTimesheetLineweek-tietokantataulukkoon.
+- **timesheetLineNeedsUpdating**-menetelmällä määritetään, onko käyttäjä muuttanut rivitietuetta sovelluksessa, ja se on tallennettava tietokantaan. Jos tehokkuus ei ole ongelma, tätä menetelmää voidaan yksinkertaistaa niin, että se palauttaa aina **tosi**-arvon.
+- **populateTimesheetLineFromEntryDuringCreate**- ja **populateTimesheetLineFromEntryDuringUpdate**-menetelmien avulla voi lisätä arvoja TSTimesheetLine tietokantatietueeseen. Seuraavassa esimerkissä määritetään, miten tietokantakentän ja syöttökentän välinen yhdistämismääritys tehdään manuaalisesti X++-koodin kautta.
+- **populateTimesheetWeekFromEntry**-menetelmää voidaan myös laajentaa, jos **TSTimesheetEntry**-objektiin yhdistettävän mukautetun kentän täytyy kirjoittaa uudelleen TSTimesheetLineweek-tietokantataulukkoon.
 
 > [!NOTE]
-> Seuraavassa esimerkissä tallennetaan **firstOption** - tai **seconnOption** -arvo, jonka käyttäjä valitsee tietokantaan raakamerkkijonoarvona. Jos tietokannan kenttä on **Enum** -tyypin kenttä, arvot voidaan yhdistää manuaalisesti luettelointiarvoon ja tallentaa sitten tietokantataulukon luettelointikenttään.
+> Seuraavassa esimerkissä tallennetaan **firstOption**- tai **seconnOption**-arvo, jonka käyttäjä valitsee tietokantaan raakamerkkijonoarvona. Jos tietokannan kenttä on **Enum**-tyypin kenttä, arvot voidaan yhdistää manuaalisesti luettelointiarvoon ja tallentaa sitten tietokantataulukon luettelointikenttään.
 
 ```xpp
 ...
@@ -366,7 +366,7 @@ final class TSTimesheetSettings_Extension
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlistforheader-method-of-the-tstimesheetdetails-class-to-fill-in-timesheet-details"></a>Käytä komentoketjua TSTimesheetDetails-luokan buildCustomFieldListForHeader-menetelmässä, kun haluat täyttää tuntilomakemerkinnän tiedot
 
-**buildCustomFieldListForHeader** -menetelmää käytetään täyttämään tuntilomakkeen otsikkotiedot mobiilisovelluksessa. Se vie TSTimesheetTable-tietueen parametriksi. Tietueen kenttien avulla voit täyttää mukautetun kentän arvon sovelluksessa. Seuraavassa esimerkissä ei lue tietokannan arvoja. Sen sijaan se luo X++-logiikan avulla lasketun arvon, joka näkyy sovelluksessa.
+**buildCustomFieldListForHeader**-menetelmää käytetään täyttämään tuntilomakkeen otsikkotiedot mobiilisovelluksessa. Se vie TSTimesheetTable-tietueen parametriksi. Tietueen kenttien avulla voit täyttää mukautetun kentän arvon sovelluksessa. Seuraavassa esimerkissä ei lue tietokannan arvoja. Sen sijaan se luo X++-logiikan avulla lasketun arvon, joka näkyy sovelluksessa.
 
 
 ```xpp
@@ -409,26 +409,26 @@ final class TSTimesheetDetails_Extension
 Työaikaraportin toimintojen aiemmin luotu logiikka tietokantatasolla toimii silti odotetulla tavalla. Jos haluat keskeyttää Tallenna- tai Lähetä-toimintojen suorittamisen ja näyttää tietyn virhesanoman, voit lisätä **heittovirheen ("viesti käyttäjälle")** -komentolaajennuksen kautta. Seuraavassa on kolme hyödyllistä laajennusmenetelmäesimerkkiä:
 
 - Jos TSTimesheetLine-taulun **validateWrite** palauttaa arvon **epätosi** aikaraportin rivintallennustoiminnon aikana, mobiilisovelluksessa näkyy virhesanoma.
-- Jos TSTimesheetTable-taulun **validateSubmit** palauttaa arvon **epätosi** , sovelluksen tuntilomakkeen lähettämisen aikana käyttäjälle näytetään virheilmoitus.
-- Logiikka, joka täyttää kentät (esimerkiksi **rivin ominaisuus** ) **Lisää** -menetelmän aikana TSTimesheetLine-taulussa, suoritetaan edelleen.
+- Jos TSTimesheetTable-taulun **validateSubmit** palauttaa arvon **epätosi**, sovelluksen tuntilomakkeen lähettämisen aikana käyttäjälle näytetään virheilmoitus.
+- Logiikka, joka täyttää kentät (esimerkiksi **rivin ominaisuus**) **Lisää**-menetelmän aikana TSTimesheetLine-taulussa, suoritetaan edelleen.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Valmiiden kenttien piilottaminen ja merkitseminen vain luku -muodossa määrityksen kautta
 
-Projektiparametreistä voit luoda valmiita kenttiä vain luku -muodossa tai piilotettuina mobiilisovelluksessa. Määritä asetukset **projektinhallinta- ja kirjanpitoparametrit** -sivun **tuntilomake** -välilehden **mobiilituntilomakkeet** -kohdassa.
+Projektiparametreistä voit luoda valmiita kenttiä vain luku -muodossa tai piilotettuina mobiilisovelluksessa. Määritä asetukset **projektinhallinta- ja kirjanpitoparametrit**-sivun **tuntilomake**-välilehden **mobiilituntilomakkeet**-kohdassa.
 
 ![Projektin parametrit](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Valintaan käytettävissä olevien aktiviteettien muuttaminen laajennusten kautta
 
-Projektiin valittavissa olevat aktiviteetit täytetään **TsTimesheetProjectService** -luokan **getActivitiesForProject()** - ja **getActivityQuery()** - menetelmien kautta. Voit muuttaa tätä tapaa käyttämällä komentoketjua, joka vastaa liiketoimintaskenaariota aktiviteeteille, joita voi valita tietylle projektille.
+Projektiin valittavissa olevat aktiviteetit täytetään **TsTimesheetProjectService**-luokan **getActivitiesForProject()**- ja **getActivityQuery()**- menetelmien kautta. Voit muuttaa tätä tapaa käyttämällä komentoketjua, joka vastaa liiketoimintaskenaariota aktiviteeteille, joita voi valita tietylle projektille.
 
 ### <a name="entering-a-default-project-category-on-timesheet-entries"></a>Oletusprojektiluokan syöttäminen työaikaraportin tapahtumille
 
 Oletusprojektiluokan syöttäminen työaikaraportin tapahtumille tapahtuu kolmella tasolla. Voit käyttää komentoketjua, kun haluat laajentaa käyttäytymistä jollakin tai kaikilla näillä tasoilla halutun käyttäytymisen saavuttamiseksi. Käytetään seuraavaa hierarkiaa:
 
-1. Sovellus yrittää asettaa oletusluokan projektiresurssista. Tämä oletusluokka on määritetty **getCurrentUserResource** - ja **getDelegatedResourcesForCurrentUser** -menetelmille **TSTimesheetSettingsService** -luokassa.
-2. Jos oletusluokkaa ei ole projektiresurssitasolla, sovellus yrittää vetää sen projektiaktiviteetista. Tämä oletusluokka määritetään **TSTimesheetProjectService** -luokan **getActivitiesForProject** -menetelmässä.
-3. Jos oletuskategoriaa ei anneta projektin aktiviteettitasolla, oletusluokka otetaan projektin parametreista. Tämä oletusluokka määritetään **TSTimesheetProjectService** -luokan **getProjectDetailsbyRule** -menetelmässä.
+1. Sovellus yrittää asettaa oletusluokan projektiresurssista. Tämä oletusluokka on määritetty **getCurrentUserResource**- ja **getDelegatedResourcesForCurrentUser**-menetelmille **TSTimesheetSettingsService**-luokassa.
+2. Jos oletusluokkaa ei ole projektiresurssitasolla, sovellus yrittää vetää sen projektiaktiviteetista. Tämä oletusluokka määritetään **TSTimesheetProjectService**-luokan **getActivitiesForProject**-menetelmässä.
+3. Jos oletuskategoriaa ei anneta projektin aktiviteettitasolla, oletusluokka otetaan projektin parametreista. Tämä oletusluokka määritetään **TSTimesheetProjectService**-luokan **getProjectDetailsbyRule**-menetelmässä.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

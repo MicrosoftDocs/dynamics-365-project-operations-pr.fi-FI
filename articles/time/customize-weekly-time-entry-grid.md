@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124634"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277154"
 ---
 # <a name="extending-time-entries"></a>Aikamerkintöjen laajentaminen
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Dynamics 365 Project Operations sisältää laajennettavan ja mukautetun aikamerkinnän ohjausobjektin. Tämä ohjausobjekti sisältää seuraavat ominaisuudet:
+Dynamics 365 Project Operations sisältää laajennettavan ajansyötön mukautetun ohjausobjektin. Tämä ohjausobjekti sisältää seuraavat ominaisuudet:
 
 - Syötä aika vaaka suunnassa koko viikolle
 - Summat päivän, rivin tai viikon mukaan

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075401"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270674"
 ---
 # <a name="eliminate-a-project-estimate"></a>Projektiarvion poistaminen
 
@@ -34,18 +34,18 @@ Projektin arviot tarjoavat taloudellisen näkymän työhön, joka on arvioitu ja
 Jotta arviointiprojekti voidaan poistaa, sen on oltava valmis. Seuraavassa kerrotaan, miten arvio voidaan poistaa.
 
 1. Siirry kohtaan **Projektinhallinta ja kirjanpito** > **Kaikki projektit** ja avaa projekti. 
-2. Valitse **hallinta** -välilehdessä **arviot** ja valitse sitten **arvio** -sivulla **Poista**.
-3. Määritä **yleiset** -välilehden **Poista arvio** -sivulla seuraavat asetukset:
+2. Valitse **hallinta**-välilehdessä **arviot** ja valitse sitten **arvio**-sivulla **Poista**.
+3. Määritä **yleiset**-välilehden **Poista arvio**-sivulla seuraavat asetukset:
 
-   - **Kausikoodi** : Valitse kausikoodi, jos haluat valita sopivat arviointiprojektit. 
-   - **Arviopäivämäärä** : Valitse eliminoinnin arviopäivä.
-   - **Eliminoiminen KET-varoituksilla** : Ota tämä asetus käyttöön, jos haluat ilmoittaa, kun keskeneräiseen työhön (KET) liittyvä arvio poistetaan. Kun tämä vaihtoehto ei ole käytössä, eliminointi ei voi jatkua, jos yhtään ei-arvioitua tapahtumaa on olemassa. 
+   - **Kausikoodi**: Valitse kausikoodi, jos haluat valita sopivat arviointiprojektit. 
+   - **Arviopäivämäärä**: Valitse eliminoinnin arviopäivä.
+   - **Eliminoiminen KET-varoituksilla**: Ota tämä asetus käyttöön, jos haluat ilmoittaa, kun keskeneräiseen työhön (KET) liittyvä arvio poistetaan. Kun tämä vaihtoehto ei ole käytössä, eliminointi ei voi jatkua, jos yhtään ei-arvioitua tapahtumaa on olemassa. 
    > [!NOTE]
-   > Tämä vaihtoehto on käytettävissä vain, kun eliminointi kohdistetaan arviointiprojektiin. Se ei ole käytettävissä, jos käytät kausittaisia kirjauksia. Tämä asetus toimii **Projektiparametrit** -sivun **arvio** -välilehden asetusten **Salli eliminointi, kun ei-arvioituja tapahtumia on** -kenttäryhmässä.
-   - **Aseta vaihe valmiiksi** : Ota tämä asetus käyttöön, kun haluat määrittää arviointiprojektin vaiheen **päättyneeksi** , kun olet suorittanut eliminoinnin.
-   - **Tulosta arvioluettelo** : Valitse tiedot, jotka sisällytetään, kun arvioluettelo tulostetaan.
-   - **Näytä infoloki** : Ota tämä asetus käyttöön, kun haluat näyttää infolokin.
-   - **Kirjauspvm** : Valitse arvion kirjanpidon kirjauspäivä.
+   > Tämä vaihtoehto on käytettävissä vain, kun eliminointi kohdistetaan arviointiprojektiin. Se ei ole käytettävissä, jos käytät kausittaisia kirjauksia. Tämä asetus toimii **Projektiparametrit**-sivun **arvio**-välilehden asetusten **Salli eliminointi, kun ei-arvioituja tapahtumia on** -kenttäryhmässä.
+   - **Aseta vaihe valmiiksi**: Ota tämä asetus käyttöön, kun haluat määrittää arviointiprojektin vaiheen **päättyneeksi**, kun olet suorittanut eliminoinnin.
+   - **Tulosta arvioluettelo**: Valitse tiedot, jotka sisällytetään, kun arvioluettelo tulostetaan.
+   - **Näytä infoloki**: Ota tämä asetus käyttöön, kun haluat näyttää infolokin.
+   - **Kirjauspvm**: Valitse arvion kirjanpidon kirjauspäivä.
 
 4.  Valitse **OK**.
 5. Kun eliminointiprosessi on valmis, eliminoitu arviointiprojekti näytetään negatiivisena. 
