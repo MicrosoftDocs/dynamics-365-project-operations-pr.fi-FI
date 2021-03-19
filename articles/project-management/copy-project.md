@@ -1,27 +1,27 @@
 ---
 title: Projektin kopioiminen
-description: Tässä aiheessa on tietoja projektien kopioinnista Dynamics 365 Project Operationsissa.
+description: Tässä aiheessa on tietoja projektien kopioimisesta Dynamics 365 Project Operationsissa.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131789"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479515"
 ---
 # <a name="copy-a-project"></a>Projektin kopioiminen
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Dynamics 365 Project Operationsissa voit luoda nopeasti uusia projekteja valitsemalla **Kopioi projekti** **Projektit**-lomakkeessa. Jos haluat kopioida projektin, avaa kopioitava projekti ja valitse sitten **Kopioi projekti**. Toiminto kopioi:
+Dynamics 365 Project Operationsin avulla voit nopeasti luoda uusia projekteja valitsemalla **Projektit**-lomakkeessa **Kopioi projekti**. Jos haluat kopioida projektin, avaa kopioitava projekti ja valitse sitten **Kopioi projekti**. Toiminto kopioi:
 
-- Projektin ominaisuudet
+- Projektin ominaisuudet (arvioitu alkamispäivä kopioidaan lähdeprojektista)
 - Työrakenne
 - Projektiryhmän jäsenet
 - Projektin arviot

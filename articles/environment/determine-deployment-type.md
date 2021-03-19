@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401214"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479560"
 ---
 # <a name="determine-your-deployment-type"></a>Käyttöönottotyypin määritys
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
 > [!IMPORTANT]
-> Kun olet ostanut käyttöoikeuden, voit määrittää Dynamics 365 Project Operationsin parhaan asennusmallin [ohjatun asennusvuon avulla](https://aka.ms/provisionprojectoperations).
+> Kun olet ostanut lisenssin, aloita tästä ja selvitä Dynamics 365 Project Operations -palvelun paras käyttöönottomalli käyttämällä  [ohjattua asennustyökulkua](https://aka.ms/provisionprojectoperations).
 > Kun olet tehnyt ohjatun asennusvuon, sinut ohjataan oikeaan hallintaportaaliin, jotta asennus viimeistellään. Katso asennuksen viimeistelemisen tiedot.
 
 
@@ -31,6 +31,9 @@ Project Operations sisältää Project Service Automationin mukana toimitetut to
 
 Nykyiset projektin hallinta- ja kirjanpitotoimintoja käyttävät Finance-asiakkaat voivat jatkoa käyttöä entiseen tapaan. Katso [Project Operations varastoitavien/tuotantotilausten skenaarioissa](#pma).
 
+
+## <a name="deployment-regions"></a>Käyttöönottoalueet
+Lisätietoja Project Operationsin käyttöönottoa tukevien alueiden määrittämisestä on kohdassa [Dynamics 365:n ja Power Platformin maantieteellinen saatavuusraportti](https://dynamics.microsoft.com/en-us/geographic-availability/). Jos haluat nähdä tuetut alueet, valitse **Näytä raportti** ja laajenna **Dynamics 365 > Operation Apps > Dynamics 365 Project Operations**.
 
 ## <a name="deployment-types"></a>Käyttöönottotyypit
 Project Operations tukee useita eri toteutusvaihtoehtoja tarpeidesi mukaan. Olitpa uusi tai nykyinen Dynamics 365 -asiakas, Project Operations voit tukea tarpeitasi.

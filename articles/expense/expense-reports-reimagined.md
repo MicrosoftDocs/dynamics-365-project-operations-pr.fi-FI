@@ -1,9 +1,9 @@
 ---
 title: Uudistetut matkalaskut
-description: Tässä aiheessa on tietoja siitä, miten kuluraportin tapahtumien käyttökokemus on uusittu ja suunniteltu uudelleen.
+description: Tässä aiheessa selitetään kuluraporttien merkinnän uudistettu kokemus.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122789"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499712"
 ---
 # <a name="expense-reports-reimagined"></a>Uudistetut matkalaskut
 
@@ -59,25 +59,22 @@ Voit ottaa uuden käyttökokemuksen käyttöön ottamalla käyttöön **Kulurapo
 | Sanomarivin viestien vähentäminen| Infolokin viestien määrää vähennettiin ja yritettiin estää päällekkäisten viestien näkyminen useissa tapauksissa. |
 | Yhteen ryhmitellyt yleiset toiminnot | Käyttöliittymä siivottiin lisäämällä uusia toimintopainikkeita useimmille yleisille rivitason toiminnoille ja lisäämällä kolme pistettä sisältävän painikkeen (...) otsikolle ja muille harvemmin suoritettaville toiminnoille. |
 | Uusi työtila näkyvyyden lisäämiseksi | Uusi työtila yhdistää ominaisuuksia ja linkkejä, joiden avulla käyttäjät voivat siirtyä eri alueisiin. |
-| Lisää aiemmin luodut kulut ja kuitit kulun luonnin aikana | Kun luot kuluraportteja, voit lisätä kaikki tai valitut kulut ja kuitit. |
+| Lisää aiemmin luodut kulut ja kuitit kulun luonnin aikana | Kun luot kuluraportteja, voit lisätä kaikki kulut tai valita ei-liitetyt kulut. Ei-liitetyt kulut ovat kuluja, jotka tuotiin yrityksen luottokortin syötteestä tai kuluja, jotka käyttäjä on luonut manuaalisesti, mutta joita ei ole liitetty kuluraporttiin.|
 | Vaihtokurssilaskin | Lisätään valuuttakurssilaskin, jonka avulla voit laskea käteisellä maksettujen monivaluuttatapahtumien valuuttakursseja. |
 | Tallenna ja lisää uusia kulurivejä | **Tallenna**- ja **Uusi**-painikkeet ovat käytettävissä, kun uusia kuluja syötetään, joten voit nopeasti syöttää kulurivejä. |
 | Parempi näkyvyys jaetuille ja eritellyille riveille | Eritellyt ja jaetut rivit lisätään suoraan kululuetteloon näkyvyyden lisäämiseksi, ja niiden avulla voit helposti selvittää, onko virheitä. |
 | Näytä kuitit erittelyn aikana | Kuitit voidaan näyttää erittelyn aikana. |
+| Käteisennakon valinta | Valitse vähintään yksi käteisennakko yhden kulutapahtuman täyttämiseksi. |
+| Käteisennakon saldo | Tarkista käteisennakon saldo reaaliajassa, kun luot kulutapahtuman hyväksyttyjä ja maksettuja käteisennakoita vastaan. |
 
 Alkuperäinen julkaisu keskittyy kulujen syöttämisen skenaarioihin. Kuluraporttien tarkistus- tai hyväksyntäskenaario jatkaa aiemmin luodun kulun syöttösivun käyttämistä.
 
-Nykyisessä sivussa on seuraavat ominaisuudet, mutta ne eivät vielä näy uudella sivulla. Nämä ominaisuudet otetaan uudelleen käyttöön seuraavien useiden versioiden aikana:
+Reimagined Expense Workspace ei tue seuraavia ominaisuuksia:
 
-- Hyväksynnät
-- Ostoreskontran hyväksynnät ja mahdollisuus muokata kirjanpitoa
-- Useita aloituskohtia
 - Matkustusehdotuksen integraatio
-- Kulukentän näkyvyyden tietoentiteetti
-- Päivärahakulujen kirjaus
-- Rivitason työnkulku
+- Päivärahakulukirjaus
 - Väliaikaisen hyväksyjän tuki
-- Lisäerittely
+- Mahdollisuus tarkastella työnkulun historiaa
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

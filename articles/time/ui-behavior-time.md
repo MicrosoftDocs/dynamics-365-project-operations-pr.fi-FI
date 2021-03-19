@@ -3,17 +3,17 @@ title: Aikamerkkinnän käyttöliittymän toiminta
 description: Tässä aiheessa on tietoja käyttöliittymän toiminnasta aikamerkkinnässä.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124499"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499610"
 ---
 # <a name="time-entry-ui-behavior"></a>Aikamerkkinnän käyttöliittymän toiminta
 
@@ -21,6 +21,19 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 
 **Viikoittainen aikamerkintä** -ruudukko on mukautettu ohjausobjekti, jolla on kaksi pääosaa, **Dimensiot** ja **Kesto**.
+
+## <a name="keyboard-shortcuts"></a>Näppäimistön pikanäppäimet
+| Toimi        | Pikalinkki                  |
+|------------   |------------------------   |
+| Uusi           | Alt + Vaihto + n           |
+| Kopioi rivi      | Alt + Vaihto + c           |
+| Muokkaa merkintää    | Alt + Vaihto + e           |
+| Muokkaa riviä      | Alt + Vaihto + Ctrl + e    |
+| Avaa merkintä    | Alt + Vaihto + o           |
+| Lähettäminen        | Alt + Vaihto + s           |
+| Palauta        | Alt + Vaihto + r           |
+| Delete        | Alt + Vaihto + d           |
+| Kopioi viikko     | Alt + Vaihto + w           |
 
 ## <a name="dimensions"></a>Dimensiot
 **Dimensiot** -osassa näkyvät ne dimensiot, joihin aikaa voidaan lisätä. Seuraavien dimensioiden tuki on sisäänrakennettu:
