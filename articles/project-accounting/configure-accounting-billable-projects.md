@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131969"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287639"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Laskutettavien projektien kirjanpidon määrittäminen
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Dynamics 365 Project Operations tukee erilaisia laskutusprojektien kirjanpitovaihtoehtoja, jotka sisältävät aika- ja materiaali sekä kiinteähintaisia tapahtumia.
+Dynamics 365 Project Operations tukee erilaisia kirjanpitovaihtoehtoja laskutettaviin projekteihin, jotka sisältävät aika- ja materiaali- sekä kiinteähintaisia tapahtumia.
 
 - **Aika- ja materiaalitapahtumat**: Nämä tapahtumat laskutetaan työn edetessä projektin tuntien, kulujen, nimikkeiden tai maksujen perusteella. Nämä tapahtumakustannukset voidaan täsmätä kunkin tapahtuman tuoton kanssa, ja projekti laskutetaan työn edetessä. Projektin tuottoa voidaan myös jaksottaa tapahtumahetkellä. Laskutuksen aikana tuotto kirjataan ja mahdollinen jaksotettu tuotto palautetaan.
 - **Kiinteähintaiset tapahtumat**: Nämä tapahtumat laskutetaan projektisopimukseen perustuvan laskutusaikataulun mukaan. Kiinteähintaisten tapahtumien tuotto voidaan kirjata laskutuksessa, tai se voidaan laskea ja kirjata jaksoittain **valmiin sopimuksen** tai **valmistumisprosentin** mukaan.
