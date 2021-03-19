@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5b3622458da957ed150311f6ea75d5f1444d5f1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c2083516ff929113fd6db377acfe5aeb104666dd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075515"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288224"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Nimikkeiden vastaanotto nimiketarpeeseen perustuvan ostotilauksen perusteella
 
@@ -38,8 +38,8 @@ Tämä tehtävä käyttää USSI-tietojoukkoa.
 3. Valitse toimintoruudussa **Suunnittelu**.
 4. Valitse **Nimiketarpeet**.
 5. Valitse **Uusi**.
-6. Syötä riville arvo tai valitse siltä arvo **Nimikenumero** -kentässä.
-7. Kirjoita **Määrä** -kenttään numero.
+6. Syötä riville arvo tai valitse siltä arvo **Nimikenumero**-kentässä.
+7. Kirjoita **Määrä**-kenttään numero.
 8. Valitse **Tallenna**.
 9. Valitse toimintoruudussa **Hallitse**.
 10. Valitse **Funktiot**.
@@ -53,7 +53,7 @@ Tämä tehtävä käyttää USSI-tietojoukkoa.
 18. Valitse **Vahvista**.
 19. Valitse toimintoruudussa **Vastaanota**.
 20. Valitse **Tuoteresepti**.
-21. Kirjoita arvo **Tuoteresepti** -kenttään.
+21. Kirjoita arvo **Tuoteresepti**-kenttään.
 22. Valitse **OK**.
 
 

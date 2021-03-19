@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075409"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289320"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client -integraatio
 
@@ -42,14 +42,14 @@ Microsoft Project Clientiin integroinnin käyttöönottoa varten on asennettava 
 •   Valitse **Avaa** ja sitten kehotteesta **Suorita**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Olemassa olevan työrakenneluonnoksen avaaminen ja muokkaus Microsoft Project Clientissä
-Jos Dynamics 365 Financessa olevalle projektille on jo luotu työrakenne, se voidaan avata o luodulle projektille on luotu työn erittely rakenne, työerittely rakenne voidaan avata Microsoft Project Client -sovelluksessa, jos työrakenne on luonnostilassa. Avaa **Projekti** -sivulta valitsemalla **Avaa Microsoft Projectissa** -linkki **Suunnitelma** -välilehdestä. Tämä sivu voidaan avata myös Microsoft Project Client -sovelluksesta valitsemalla **Avaa** **Microsoft Dynamics 365** -välilehdestä. Valitse luettelosta **Oikeushenkilö** ja **Projekti**.
+Jos Dynamics 365 Financessa olevalle projektille on jo luotu työrakenne, se voidaan avata o luodulle projektille on luotu työn erittely rakenne, työerittely rakenne voidaan avata Microsoft Project Client -sovelluksessa, jos työrakenne on luonnostilassa. Avaa **Projekti**-sivulta valitsemalla **Avaa Microsoft Projectissa** -linkki **Suunnitelma**-välilehdestä. Tämä sivu voidaan avata myös Microsoft Project Client -sovelluksesta valitsemalla **Avaa** **Microsoft Dynamics 365** -välilehdestä. Valitse luettelosta **Oikeushenkilö** ja **Projekti**.
 
 > [!NOTE]
 > Jos käytät Internet Explorer -selainta, sinun on valittava **Tallenna** avataksesi manuaalisesti tiedoston lataussijainnista. Tai **Tallenna ja avaa** avataksesi tidoston Microsoft Project Clientissa. Älä nimeä tiedostoa uudelleen tallennettaessa.
 
 Ennen kuin teet tiedostoon muutoksia Microsoft Project Client -ohjelmalla, sinun on kuitattava se ulos. Valitse **Kuittaa ulos** **Microsoft Dynamics 365** -välilehdessä. Tämä estää muita käyttäjiä muokkaamasta työrakennetta Financessa samalla. Jos haluat julkaista työrakenteen muokkaamisen jälkeen, valitse **Kuittaa sisään** **Microsoft Dynamics 365** -välilehdessä.
 
-Jos projektiin on jo lisätty projektiryhmä Financessa, resurssiluetteloon täytetään ryhmän jäsenet. Jos projektiryhmää ei ole vielä lisätty projektiin, voit valita resursseja ja luoda ryhmän Microsoft Project Client -ohjelmassa napsauttamalla **Resurssit** -painiketta **Microsoft Dynamics 365** -välilehdessä. 
+Jos projektiin on jo lisätty projektiryhmä Financessa, resurssiluetteloon täytetään ryhmän jäsenet. Jos projektiryhmää ei ole vielä lisätty projektiin, voit valita resursseja ja luoda ryhmän Microsoft Project Client -ohjelmassa napsauttamalla **Resurssit**-painiketta **Microsoft Dynamics 365** -välilehdessä. 
 
 Seuraavat tiedot synkronoidaan takaisin Financeen osana sisäänkuittausprosessia:
 
@@ -122,7 +122,7 @@ Voit luoda uuden työrakenteen Microsoft Project Client -ohjelmalla ja korvata o
 
 6.  Syötä **Projektin nimi**.
 
-7.  Valitse **Projektityyppi** , **Projektiryhmä** ja **Projektisopimuksen tunnus**. Voit vaihtoehtoisesti luoda uuden projektisopimuksen valitsemalla **Uusi**.
+7.  Valitse **Projektityyppi**, **Projektiryhmä** ja **Projektisopimuksen tunnus**. Voit vaihtoehtoisesti luoda uuden projektisopimuksen valitsemalla **Uusi**.
 
 8.  Valitse resursoinnissa käytettävä **kalenteri**.
 

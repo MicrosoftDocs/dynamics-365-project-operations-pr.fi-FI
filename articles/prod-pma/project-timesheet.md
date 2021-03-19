@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075521"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288825"
 ---
 # <a name="project-timesheet-mobile-application"></a>Project Timesheet -mobiilisovellus
 
@@ -53,10 +53,10 @@ Project Timesheet -mobiilisovelluksen on oltava käytössä Financessa. Jos halu
 
 ## <a name="submit-a-project-timesheet"></a>Projektin työaikaraportin lähettäminen
 
-Voit luoda ja lähettää projektin työaikaraportin sovelluksessa. Voit luoda uuden aikaraportin aikaisemman aikaraportin tietojen, tallennettujen rivien tai projektimääritysten perusteella. Jos sinut on määritetty edustajaksi, voit myös kirjoittaa tuntilomakkeen toiselle työntekijälle. Voit luoda aikaraportin edustajana valitsemalla **Valikko** -painikkeen ja valitsemalla sitten resurssin nimen.
+Voit luoda ja lähettää projektin työaikaraportin sovelluksessa. Voit luoda uuden aikaraportin aikaisemman aikaraportin tietojen, tallennettujen rivien tai projektimääritysten perusteella. Jos sinut on määritetty edustajaksi, voit myös kirjoittaa tuntilomakkeen toiselle työntekijälle. Voit luoda aikaraportin edustajana valitsemalla **Valikko**-painikkeen ja valitsemalla sitten resurssin nimen.
 
 Aikaraporttisivu luo uuden aikaraportin aikaraporttijaksolle kulloisenkin päivämäärän perusteella. Näkyviin tulee työviikko. Jos aikaraportti kattaa useita viikkoja, voit valita toisen työviikon työviikkovälilehdistä.
-Jos kulloisellekin päivämäärälle on olemassa aikaraportti, se tulee näkyviin. Jos sinun on luotava uusi aikaraportti toisella aikaraporttijaksolla, valitse **Valikko** -painike ja sitten **Uusi aikaraportti**.
+Jos kulloisellekin päivämäärälle on olemassa aikaraportti, se tulee näkyviin. Jos sinun on luotava uusi aikaraportti toisella aikaraporttijaksolla, valitse **Valikko**-painike ja sitten **Uusi aikaraportti**.
 
 Voit syöttää projektitietoja valitsemalla **Lisää aika** -toiminto tai **Kopioi aika kohteesta** -toiminto. **Kopioi aika kohteesta** -toiminto kopioi projektin rivitiedot, mutta ei tuntimäärää. **Kopioi aika kohteesta** -valikko sisältää seuraavat asetukset:
 
@@ -68,17 +68,17 @@ Voit syöttää projektitietoja valitsemalla **Lisää aika** -toiminto tai **Ko
 
 Näytettävät projektitiedot riippuvat **Projektinhallinnan ja kirjanpidon parametrit** -sivulla määritetyistä mobiiliparametreista.
 
-Valitse **Oikeushenkilö** -kentässä se oikeushenkilö, jolle olet tehnyt projektityötä. **Oikeushenkilö** -kenttä on käytettävissä vain, jos yritystenvälinen aikaporttien tuki on otettu käyttöön oikeushenkilöllesi.
+Valitse **Oikeushenkilö**-kentässä se oikeushenkilö, jolle olet tehnyt projektityötä. **Oikeushenkilö**-kenttä on käytettävissä vain, jos yritystenvälinen aikaporttien tuki on otettu käyttöön oikeushenkilöllesi.
 
-Valitse aikaraportille asiakas, joka liittyy projektiin. Android-ensijulkaisussa asiakkaan suorittamaa kirjausta ei tueta, koska projekti on valittava ensin. Jos valitsit ensin projektin, **Asiakas** -kenttä täytetään automaattisesti.
+Valitse aikaraportille asiakas, joka liittyy projektiin. Android-ensijulkaisussa asiakkaan suorittamaa kirjausta ei tueta, koska projekti on valittava ensin. Jos valitsit ensin projektin, **Asiakas**-kenttä täytetään automaattisesti.
 
-Valitse **Projekti** -kentässä projekti, jolle olet kirjaamassa aikaa. **Asiakas** -kenttä täytetään automaattisesti.
+Valitse **Projekti**-kentässä projekti, jolle olet kirjaamassa aikaa. **Asiakas**-kenttä täytetään automaattisesti.
 
 Asiakas- ja projektihaut mahdollistavat haun sekä asiakkaissa että projekteissa.
 
-Valitse tiedot kentissä **Luokka** , **Aktiviteetti** , **Riviominaisuus** , **Myyntiveroryhmä** ja **Nimikkeen myyntiveroryhmä** tarpeen mukaan. Nämä kentät voi ohittaa.
+Valitse tiedot kentissä **Luokka**, **Aktiviteetti**, **Riviominaisuus**, **Myyntiveroryhmä** ja **Nimikkeen myyntiveroryhmä** tarpeen mukaan. Nämä kentät voi ohittaa.
 
-**Riviominaisuus** -kentän arvoksi määritetään oletusarvo, joka perustuu projektinhallinnan ja kirjanpidon parametreihin. Kun projektin/luokan ja luokan/resurssin parametrit on otettu käyttöön, **Riviominaisuus** -arvoksi määritetään oletusarvo, jonka olet määrittänyt tälle vahvistukselle. Kun projektin/luokan ja luokan/resurssin parametreja ei ole otettu käyttöön **Riviominaisuus** -arvon oletusarvo määräytyy **Projektinhallinnan ja kirjanpidon parametrit** -sivun **Ota oletusriviominaisuus** -kentän mukaisesti. **Riviominaisuus** -arvo voidaan ohittaa.
+**Riviominaisuus**-kentän arvoksi määritetään oletusarvo, joka perustuu projektinhallinnan ja kirjanpidon parametreihin. Kun projektin/luokan ja luokan/resurssin parametrit on otettu käyttöön, **Riviominaisuus**-arvoksi määritetään oletusarvo, jonka olet määrittänyt tälle vahvistukselle. Kun projektin/luokan ja luokan/resurssin parametreja ei ole otettu käyttöön **Riviominaisuus**-arvon oletusarvo määräytyy **Projektinhallinnan ja kirjanpidon parametrit** -sivun **Ota oletusriviominaisuus** -kentän mukaisesti. **Riviominaisuus**-arvo voidaan ohittaa.
 
 Valitse päivä, jolle aika lisätään. Määritä kunakin päivänä tekemäsi tuntimäärä.
 
@@ -95,7 +95,7 @@ Lähetä aikaraportti hyväksynnän työkulkuun valitsemalla **Lähetä**.
 
 ## <a name="review-timesheets"></a>Aikaraporttien tarkistaminen
 
-Valikossa on käytettävissä luettelo aikaraporteista, jotka on tarkistettava. Tämä vaihtoehto on käytettävissä vain, jos sinut on määritetty työnkulun hyväksyjäksi. Sekä otsikko- että rivihyväksyntä ovat tuettuja. Rivitason hyväksyntä tarjoaa mahdollisuuden merkitä yhden tai useamman rivin hyväksyntää varten. Kun olet tarkistanut aikaraportin tiedot, jatka työnkulkua valitsemalla **Hyväksy** , **Delegoi** tai **Palaa**.
+Valikossa on käytettävissä luettelo aikaraporteista, jotka on tarkistettava. Tämä vaihtoehto on käytettävissä vain, jos sinut on määritetty työnkulun hyväksyjäksi. Sekä otsikko- että rivihyväksyntä ovat tuettuja. Rivitason hyväksyntä tarjoaa mahdollisuuden merkitä yhden tai useamman rivin hyväksyntää varten. Kun olet tarkistanut aikaraportin tiedot, jatka työnkulkua valitsemalla **Hyväksy**, **Delegoi** tai **Palaa**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

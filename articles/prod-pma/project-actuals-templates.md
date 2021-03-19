@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075480"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289680"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkronoi projektin todelliset arvot suoraan Project Service Automationista projekti-integraation kirjauskansioon kirjausta varten Finance and Operationsissa
 
@@ -86,9 +86,9 @@ Projektien toteutuneiden arvojen mallissa on käytettävä Microsoft Power Query
 - Jos konsernin aikaa tai konsernin sisäisiä kuluja ei synkronoida Financeen, sinun täytyy poistaa mallista viimeksi lisätty ehdollinen sarake. Muussa tapauksessa voi tapahtua joko integrointivirhe tai virheellisiä toteutuneita tapahtumia voidaan tuoda Financeen.
 
 #### <a name="contract-organizational-unit"></a>Sopimusorganisaatioyksikkö
-Voit päivittää lisätyn ehdollisen sarakkeen mallissa avaamalla yhdistämismäärityksen valitsemalla **Yhdistämismääritys** -nuoli. Valitse **Tarkka kysely ja suodatus** -linkki avataksesi Power Queryn.
+Voit päivittää lisätyn ehdollisen sarakkeen mallissa avaamalla yhdistämismäärityksen valitsemalla **Yhdistämismääritys**-nuoli. Valitse **Tarkka kysely ja suodatus** -linkki avataksesi Power Queryn.
 
-- Jos käytät oletusarvoisten projektien toteutuneiden arvojen (PSA:sta Fin:iin ja Ops:iin) mallia, valitse Power Queryssä ensimmäinen **Lisätty ehto** **Sovelletut vaiheet** -osasta. Korvaa **Toiminto** -kirjauksessa **USSI** sen yrityksen nimellä, jota käytetään integroinnissa. Lisää **Funktio** -merkintään lisäehtoja tarpeen mukaan ja päivitä **Tai** -ehto **USMF** -ohjelmasta oikeaan yritykseen.
+- Jos käytät oletusarvoisten projektien toteutuneiden arvojen (PSA:sta Fin:iin ja Ops:iin) mallia, valitse Power Queryssä ensimmäinen **Lisätty ehto** **Sovelletut vaiheet** -osasta. Korvaa **Toiminto**-kirjauksessa **USSI** sen yrityksen nimellä, jota käytetään integroinnissa. Lisää **Funktio**-merkintään lisäehtoja tarpeen mukaan ja päivitä **Tai**-ehto **USMF**-ohjelmasta oikeaan yritykseen.
 - Jos olet luomassa uutta mallia, sinun täytyy lisätä sarake, joka tukee konsernin sisäistä aikaa ja kuluja. Valitse Power Queryssä **Lisää ehdollinen sarake** ja kirjoita uuden sarakkeen nimi, kuten **Yritys**. Kirjoita sarakkeen ehto, silloin jos **msdyn\_contractorganizationalunitid.msdyn\_name** on \<organizational unit\>, sitten \<enter the legal entity\>; muuten tyhjäarvo
 
 ### <a name="template-mapping-in-data-integration"></a>Mallien yhdistämismääritys tietojen integroinnissa

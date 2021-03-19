@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075332"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288960"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Federal Awards -tutkimuksen kulujen aikataulu
 
@@ -35,7 +35,7 @@ Hallinto- ja budjettitoimiston (Circular A-133) mukaan viranomaiset, jotka vasta
 
 Federal Awards -tutkimuksen kulujen luettelo sisältää Federal Assistance (CFDA) -osaston ja -numeron, avustusnumeron, avustuksen vuoden, liittovaltion toimiston, joka tarjoaa varat, sekä sen nimen, jossa läpimenoentiteetti on. Kysely on tiettynä ajanjaksona. Yleensä kyseinen kausi on sama kuin tilinpäätöskausi, joka on tilikausi.
 
-Kysely sisältää apurahoja, joiden ennustepäivämäärät ovat valitulla päivämäärävälillä. **Kyselyn myöntäjä** -sarakkeessa näkyy apuraha-asiakas tai apurahan myöntäjä. Myönnettyä apurahaa varten **Myöntävä toimisto** -sarake näyttää apurahan asiakkaan. Jos apuraha ei ole myönnetty apuraha, **Myöntävä toimisto** -sarake on tyhjä.
+Kysely sisältää apurahoja, joiden ennustepäivämäärät ovat valitulla päivämäärävälillä. **Kyselyn myöntäjä** -sarakkeessa näkyy apuraha-asiakas tai apurahan myöntäjä. Myönnettyä apurahaa varten **Myöntävä toimisto**-sarake näyttää apurahan asiakkaan. Jos apuraha ei ole myönnetty apuraha, **Myöntävä toimisto**-sarake on tyhjä.
 
 ## <a name="set-up-the-cfda-clusters"></a>Määritä CFDA-klusterit
 
@@ -52,23 +52,23 @@ Sinun on määritettävä CFDA-numerot, jotka voidaan lisätä apurahoihin ja si
 
 1. Siirry kohtaan **projektinhallinta ja kirjanpito \> asetukset \> apurahat \> luettelo liittovaltion kotimaisista avustusnumeroista**.
 2. Jos haluat luoda CFDA-numeron, valitse **Uusi**.
-3. Kirjoita CFDA-numero **Numero** -sarakkeeseen.
-4. Paina **sarkain** -näppäintä.
-5. Kirjoita CFDA-ruutuun **Kuvaus** -sarakkeessa.
-6. Paina **sarkain** -näppäintä.
+3. Kirjoita CFDA-numero **Numero**-sarakkeeseen.
+4. Paina **sarkain**-näppäintä.
+5. Kirjoita CFDA-ruutuun **Kuvaus**-sarakkeessa.
+6. Paina **sarkain**-näppäintä.
 7. Valinnainen: Lisää **Ohjelman klusteri** -kenttään sopiva CFDA-klusteri.
 8. Tallenna muutokset valitsemalla **Tallenna**.
 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Määritä apurahat, jotka raportoivat Federal Awards -tutkimuksen kulujen aikataulusta
 
 1. Siirry kohtaan **projektin hallinta ja kirjan pito \> avustukset \> avustukset** ja valitse olemassa oleva avustus.
-2. Määritä **Asetukset** -pikavälilehden  **Federal Domestic Assistance- luettelo** -kentän luettelossa CFDA-numero. Apurahan CFDA-numero määrittää CFDA-klusterin raportointia varten.
+2. Määritä **Asetukset**-pikavälilehden **Federal Domestic Assistance- luettelo** -kentän luettelossa CFDA-numero. Apurahan CFDA-numero määrittää CFDA-klusterin raportointia varten.
 3. Kirjoita **yhteyshenkilön tiedot** -pikavälilehden myöntäjä-tiedot seuraavasti:
 
-    1. Kirjoita **Avustusasiakas** -kenttään avustuksesta vastaava asiakas. Jos kyseessä on olemassa oleva apuraha, nämä tiedot on ehkä jo syötetty.
-    2. Ilmaise, onko avustusasiakas rahoittaja. Jos avustusasiakas on rahoittaja, jätä **läpivalinta** -ruutu tyhjäksi. Jos toinen asiakas on rahoittaja ja avustusasiakas on vastuussa rahavarojen käytöstä ja seurannasta, valitse **Läpimeno** -valintaruutu.
+    1. Kirjoita **Avustusasiakas**-kenttään avustuksesta vastaava asiakas. Jos kyseessä on olemassa oleva apuraha, nämä tiedot on ehkä jo syötetty.
+    2. Ilmaise, onko avustusasiakas rahoittaja. Jos avustusasiakas on rahoittaja, jätä **läpivalinta**-ruutu tyhjäksi. Jos toinen asiakas on rahoittaja ja avustusasiakas on vastuussa rahavarojen käytöstä ja seurannasta, valitse **Läpimeno**-valintaruutu.
 
-4. Jos valitsit edellisessä vaiheessa **läpimeno** -valintaruudun, anna **myöntäjätoimisto** -kenttään avustuksen toimittanut asiakas. Myöntäjä ja avustusasiakas eivät voi olla sama asiakas.
+4. Jos valitsit edellisessä vaiheessa **läpimeno**-valintaruudun, anna **myöntäjätoimisto**-kenttään avustuksen toimittanut asiakas. Myöntäjä ja avustusasiakas eivät voi olla sama asiakas.
 
 Seuraavassa on esimerkki läpilaskuavustuksesta:
 
@@ -79,16 +79,16 @@ Liittohallitus rahoitti valtion infrastruktuurihanketta. Liittohallitus antoi ra
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Älä sisällytä avustuksia SEFA-raportointiin avustustyypin perusteella
 
-1. Siirry kohtaan **Projektinhallinta ja kirjanpito \> Määritys \> Avustukset \> Avustustyypit**.
-2. Valitse **Oletustiedot** -pikavälilehdessä  **Ohita Federal Awards -ohjelman kulut** -valintaruutu.
+1. Siirry kohtaan **Projektinhallinta ja kirjanpito \> Määritys \> Avustukset \> Avustustyypit**.
+2. Valitse **Oletustiedot**-pikavälilehdessä **Ohita Federal Awards -ohjelman kulut** -valintaruutu.
 3. Tallenna muutokset valitsemalla **Tallenna**.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Aja Federal Awards -tutkimuksen kulujen aikataulukysely
 
 1. Siirry **projektinhallinta ja kirjanpito \> kyselyt ja raportit \> apurahakyselyt \> Federal Awards -tutkimuksen aikatauluun**.
-2. Toimi **Parameterit** -osassa seuraavasti:
+2. Toimi **Parameterit**-osassa seuraavasti:
 
-    1. Valitse **päivämääräväli** -kentässä päivämäärävälin koodi. Voit vaihtoehtoisesti määrittää päivämäärävälin **alkamispäivä** - ja **pvm:stä** - kenttiin.
+    1. Valitse **päivämääräväli**-kentässä päivämäärävälin koodi. Voit vaihtoehtoisesti määrittää päivämäärävälin **alkamispäivä**- ja **pvm:stä**- kenttiin.
     2. Valinnainen: Jos haluat, että kyselyyn sisällytetään vain laskutetut tapahtumat, määritä **Sisällytä vain laskutetut tulot** -asetuksen arvoksi **Kyllä**.
 
 ## <a name="columns"></a>Sarakkeet

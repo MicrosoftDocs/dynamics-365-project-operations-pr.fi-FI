@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075328"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288645"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Roolien määrittäminen työrakennemalleihin
 
@@ -33,7 +33,7 @@ Projektipäälliköt voivat määrittää työrakeennemalleja (WBS), joita he vo
 
 1. Valitse **Projektinhallinta ja kirjanpito** > **Määritys** > **Projektit** > **Työrakennemallit**.
 2. Valitse **Tiedot** valittua työrakennemallia varten.
-3. Valitse tehtävä luettelosta ja valitse sitten **Rooli** -kentässä rooli, jolle tehtävä osoitetaan.
+3. Valitse tehtävä luettelosta ja valitse sitten **Rooli**-kentässä rooli, jolle tehtävä osoitetaan.
 
 ## <a name="work-with-a-wbs"></a>Työrakenteen kanssa työskentely
 
@@ -81,7 +81,7 @@ Työrakenteeseen on lisätty lisäasetuksia, jotta resursointitoimintoa voidaan 
 
 1. Valitse **Kaikki projektit** -sivulla **XYZ-päivityksen vaihe 2** -projekti.
 2. Valitse **Suunnittele** > **Aktiviteetit** > **Työrakenne**.
-3. Lisää seuraavat tason yksi aktiviteetit työrakenteeseen valitsemalla **Uusi** :
+3. Lisää seuraavat tason yksi aktiviteetit työrakenteeseen valitsemalla **Uusi**:
 
     - Aloitus
     - Suunnittelu
@@ -93,20 +93,20 @@ Työrakenteeseen on lisätty lisäasetuksia, jotta resursointitoimintoa voidaan 
 
     [![Päivämäärien ja työmäärän määrittäminen](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Valitse **Aloitus** -tehtävärivi ja sitten **Rooli** -kentässä **Projektipäällikkö**.
+5. Valitse **Aloitus**-tehtävärivi ja sitten **Rooli**-kentässä **Projektipäällikkö**.
 6. Valitse **Julkaise**.
-7. Valitse saman rivin **Resurssi** -kentässä **Taneli Kultaranta** ja valitse sitten **Hyväksy**.
-8. Valitse **Suunnittelu** -tehtävärivi ja valitse sitten **Rooli** -kentässä **Liiketoiminta-analyytikko**.
+7. Valitse saman rivin **Resurssi**-kentässä **Taneli Kultaranta** ja valitse sitten **Hyväksy**.
+8. Valitse **Suunnittelu**-tehtävärivi ja valitse sitten **Rooli**-kentässä **Liiketoiminta-analyytikko**.
 9. Valitse **Julkaise** ja sitten **Luo tiimi automaattisesti**.
 10. Valitse avautuvassa viestiruudussa **Kyllä**.
-11. Tarkista, että **Resurssi** -kentän arvo on **Liiketoiminta-analyytikko 1**.
+11. Tarkista, että **Resurssi**-kentän arvo on **Liiketoiminta-analyytikko 1**.
 12. Avaa **Liiketoiminta-analyytikko 1** -resurssin haku ja valitse **Käynnistä resurssimääritykset**. Valitse sitten tehtävälle työntekijä.
 13. Valitse **Osoita alustavasti** &gt; **Koko kapasiteetti**.
 
     > [!NOTE] 
     > Et saa varoitusta siitä, että määritetty resurssi on nyt 2, koska resurssien määränä säilyy 1.
 
-14. Vahvista työrakenteen resurssimääritys **Työrakenne** -sivulla ja valitse sitten **Tallenna**.
+14. Vahvista työrakenteen resurssimääritys **Työrakenne**-sivulla ja valitse sitten **Tallenna**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

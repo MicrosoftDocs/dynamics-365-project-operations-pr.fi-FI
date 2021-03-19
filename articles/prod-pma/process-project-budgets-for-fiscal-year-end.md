@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075481"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289725"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Projektibudjettien siirtäminen tilikauden lopussa
 
@@ -37,11 +37,11 @@ Tarkista projektien vuoden lopun budjettisummat tekemällä seuraavat toimet, mu
 
 1. Siirry kohtaan **projektinhallinta ja kirjanpito** > **kausittaiset** > **budjetit** > **Siirrettävät budjetit**. 
 2. Tarkista **Projektibudjetin siirtoprosessi** -sivun **vuoden lopun asetukset** -välilehdessä, että **Siirrä jäljellä olevat projektibudjetin summat** ei ole käytössä.
-3. Valitse **parametrit** -välilehden **Projektibudjettivuosi** -kentässä tilikausi, jonka jäljellä olevan budjetin summan haluat nähdä. 
+3. Valitse **parametrit**-välilehden **Projektibudjettivuosi**-kentässä tilikausi, jonka jäljellä olevan budjetin summan haluat nähdä. 
 4. Valitse **Avaava tilikausi** -kentästä tilivuosi, jolle haluat tarkastella jäljellä olevaa budjettisummaa. 
 5. Valitse **mistä ennustemalli** -kentässä **jäljellä oleva budjetti**. 
 6. Jos haluat lisätä projekteja, jotka vastaavat valittuja ehtoja ja joilla ei ole jäljellä olevaa budjettia, valitse **Näytä nolla jäljellä**.  
-7. Valitse **Valitse budjetit** -välilehdessä **Nouda kaikki budjetit** , jos haluat ladata kaikki valittuja ehtoja vastaavat budjetit, ja valitse sitten **Käsittele**. 
+7. Valitse **Valitse budjetit** -välilehdessä **Nouda kaikki budjetit**, jos haluat ladata kaikki valittuja ehtoja vastaavat budjetit, ja valitse sitten **Käsittele**. 
 8. Jos haluat suunnitella tietokantakyselyn, joka lataa tietyn budjettijoukon ruutuun, valitse **Nouda valitut budjetit**.
 
 Jos haluat lisätietoja tietystä ruudun rivistä, valitse rivi ja valitse sitten **Näytä budjetin tiedot** tai **Näytä tilit**.
@@ -51,32 +51,32 @@ Jos haluat lisätietoja tietystä ruudun rivistä, valitse rivi ja valitse sitte
 Kun käsitellään jäljellä olevia budjettisummia, voit luoda pääkirjanpitoon tapahtumia, joita olet tekemässä. Jos haluat luoda kirjanpitotapahtumia, täytä osan vaiheet, [Siirrä budjettisummat ja luo kirjanpitotapahtumat](#carry-forward). 
 
 > [!NOTE]
-> Siirretyt budjettisummat siirretään **ennustemallit** -sivussa valittuun ennustemalliin siirrettäväksi ennuste malliksi.  
+> Siirretyt budjettisummat siirretään **ennustemallit**-sivussa valittuun ennustemalliin siirrettäväksi ennuste malliksi.  
 
 ## <a name="carry-forward-budget-amounts-and-create-general-ledger-transactions"></a><a name="carry-forward"></a>Siirrä budjettisummat ja luo kirjanpitotapahtumat
 
 1.  Valitse **projektinhallinta ja kirjanpito** > **kausittaiset** > **budjetit** > **Siirrettävät budjetit**. 
 2. Valitse **projektibudjetin siirtoprosessi** -sivulla **vuoden loppu** ja ota sitten **Siirrä jäljellä olevat projektibudjetin summat** käyttöön ja **Luo budjettirekisterimerkinnät kirjanpitoon**. 
-3. Valitse **Parametrit** -välilehdestä **Projektiparametrit** -kenttäryhmä ja valitse seuraava:
+3. Valitse **Parametrit**-välilehdestä **Projektiparametrit**-kenttäryhmä ja valitse seuraava:
 
-   - **Projektibudjettivuosi** : Valitse sen tilivuoden alku, jolle haluat tarkastella jäljellä olevia budjettisummia. 
-   - **Voitto ja tappio** : Luo tulostapahtumia pääkirjanpitoon. 
-   -  **KET** : Luo keskeneräisten töiden (KET) tapahtumia pääkirjaan.
-   -  **Palkanlaskenta** : Palkanlaskennan kohdistustapahtumien luominen pääkirjaan. 
+   - **Projektibudjettivuosi**: Valitse sen tilivuoden alku, jolle haluat tarkastella jäljellä olevia budjettisummia. 
+   - **Voitto ja tappio**: Luo tulostapahtumia pääkirjanpitoon. 
+   -  **KET**: Luo keskeneräisten töiden (KET) tapahtumia pääkirjaan.
+   -  **Palkanlaskenta**: Palkanlaskennan kohdistustapahtumien luominen pääkirjaan. 
 
-5. Anna **Pääkirjanpito** -kenttäryhmässä seuraavat tiedot: 
+5. Anna **Pääkirjanpito**-kenttäryhmässä seuraavat tiedot: 
 
    - Valitse **Avaava tilikausi** -kentästä tilikausi, jolle haluat siirtää jäljellä olevat budjettisummat projekteille. Oletusarvo on yksi vuosi **projektin budjettivuosi** -kentän arvon jälkeen.
    -  **Valitse siirrettävä kausi** -kentässä kausi, jolle haluat luoda budjettirekisterin tiedot pääkirjaan. Tämä on yleensä ensimmäinen kausi uudella tilikaudella.
 
-6. Anna **Kopioi kohteesta/kohteeseen** -kenttäryhmässä seuraavat tiedot:
+6. Anna **Kopioi kohteesta/kohteeseen**-kenttäryhmässä seuraavat tiedot:
 
    - Valitse **mistä ennustemalli** -kentässä projektibudjetin ennustemalli, joka liittyy jäljellä oleviin budjettisummiin, jotka haluat siirtää projekteille. 
    - Valitse **Kirjanpidon budjettimalliin** -kentässä kirjanpidonbudjettimalli, joka liittyy jäljellä oleviin budjettisummiin, jotka haluat siirtää kirjanpitoon. 
-   -  Valitse **Siirrä myyntivaluutta** , jos haluat käyttää projektin myyntivaluuttaa kirjanpitotapahtumissa, jotka luodaan, kun siirrät projektien budjettisummat. Jos vaihtoehtoa ei ole valittu, tapahtumat käyttävät kirjanpitovaluuttaa. 
-   -  Valitse **Näytä nolla jäljellä** , jos haluat lisätä projektit, joilla ei ole jäljellä olevia budjettisummia, mutta jotka täyttävät muut ehdot, jotka valitset alaruudussa näytettävistä projekteista.
+   -  Valitse **Siirrä myyntivaluutta**, jos haluat käyttää projektin myyntivaluuttaa kirjanpitotapahtumissa, jotka luodaan, kun siirrät projektien budjettisummat. Jos vaihtoehtoa ei ole valittu, tapahtumat käyttävät kirjanpitovaluuttaa. 
+   -  Valitse **Näytä nolla jäljellä**, jos haluat lisätä projektit, joilla ei ole jäljellä olevia budjettisummia, mutta jotka täyttävät muut ehdot, jotka valitset alaruudussa näytettävistä projekteista.
 
-7. Valitse **Valitse budjetit** -välilehdessä **Nouda kaikki budjetit** , jos haluat ladata kaikki valittuja ehtoja vastaavat budjetit. Jos haluat mieluummin suunnitella tietokantakyselyn, joka lataa tietyn projektibudjetin ruutuun, valitse **Nouda valitut budjetit**.
+7. Valitse **Valitse budjetit** -välilehdessä **Nouda kaikki budjetit**, jos haluat ladata kaikki valittuja ehtoja vastaavat budjetit. Jos haluat mieluummin suunnitella tietokantakyselyn, joka lataa tietyn projektibudjetin ruutuun, valitse **Nouda valitut budjetit**.
 8. Jos haluat käsitellä kutakin käsiteltävää projektia, valitse vaihtoehto projektirivin alussa.
 
     > [!TIP]
@@ -88,15 +88,15 @@ Kun käsitellään jäljellä olevia budjettisummia, voit luoda pääkirjanpitoo
 
 1. Siirry kohtaan **projektinhallinta ja kirjanpito** > **kausittaiset** > **budjetit** > **Siirrettävät budjetit**.
 2. Valitse **Projektibudjetin siirtoprosessi** -sivun **vuoden lopun asetukset** -kentässä **Siirrä jäljellä olevat projektibudjetin summat**.
-3. Valitse **parametrit** -ryhmän **Projektibudjettivuosi** -kentässä tilikausi, jonka jäljellä olevat budjettisummat haluat nähdä.
-4. Anna **Kopioi kohteesta/kohteeseen** -ryhmässä seuraavat tiedot:
+3. Valitse **parametrit**-ryhmän **Projektibudjettivuosi**-kentässä tilikausi, jonka jäljellä olevat budjettisummat haluat nähdä.
+4. Anna **Kopioi kohteesta/kohteeseen**-ryhmässä seuraavat tiedot:
 
    - Valitse **mistä ennustemalli** -kentässä projektibudjetin ennustemalli, joka liittyy jäljellä oleviin budjettisummiin, jotka haluat siirtää projekteille. 
-   - Valitse **Näytä nolla jäljellä** , jos haluat sisällyttää hankkeita, joissa ei ole jäljellä olevia budjettisummia, mutta jotka täyttävät muut valitsemasi ehdot.
-   - Valitse **Valitse budjetit** -ryhmässä **Nouda kaikki budjetit** , jos haluat ladata kaikki valittuja ehtoja vastaavat budjetit. Jos haluat suunnitella tietokantakyselyn, joka lataa tietyn projektibudjettijoukon ruutuun, valitse **Nouda valitut budjetit**.
+   - Valitse **Näytä nolla jäljellä**, jos haluat sisällyttää hankkeita, joissa ei ole jäljellä olevia budjettisummia, mutta jotka täyttävät muut valitsemasi ehdot.
+   - Valitse **Valitse budjetit** -ryhmässä **Nouda kaikki budjetit**, jos haluat ladata kaikki valittuja ehtoja vastaavat budjetit. Jos haluat suunnitella tietokantakyselyn, joka lataa tietyn projektibudjettijoukon ruutuun, valitse **Nouda valitut budjetit**.
 
 5. Jos haluat käsitellä kutakin käsiteltävää projektia, valitse vaihtoehto projektirivin alussa. 
-6. Valitse **prosessi** , jos haluat siirtää valittujen projektien jäljellä olevat budjettisummat valittuun tilikauteen.
+6. Valitse **prosessi**, jos haluat siirtää valittujen projektien jäljellä olevat budjettisummat valittuun tilikauteen.
 
 
 

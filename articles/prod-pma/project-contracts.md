@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075479"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289545"
 ---
 # <a name="project-contracts"></a>Projektisopimukset
 
@@ -255,7 +255,7 @@ Voit määrittää seuraavan tyyppisiä laskutussääntöjä:
 -   **Toimitusyksikkö** – Laskuta asiakasta, kun toimitusyksikkö on valmis. Palvelusopimuksessa määritetään toimitusyksiköt.
 -   **Edistyminen** – Laskuta asiakasta, kun olet suorittanut määritetyn prosenttiosuuden projektista. Voit määrittää laskutussäännön, joka laskee automaattisesti valmiin työn prosenttiosuuden, tai voit laskea valmiin työn prosenttimäärän ja asiakkaan laskutettavan summan manuaalisesti.
 -   **Välitavoite** – Laskuta asiakasta projektin välitavoitteen koko määrästä, kun välitavoite saavutetaan.
--   **Maksu** : Laskuta palveluistasi asiakas- ja hallinnointipalkkio, joka on yleensä prosenttiosuus palvelujen kustannuksista.
+-   **Maksu**: Laskuta palveluistasi asiakas- ja hallinnointipalkkio, joka on yleensä prosenttiosuus palvelujen kustannuksista.
 -   **Aika ja materiaali** – Laskuta asiakasta projektissa käytettävän ajan ja materiaalin arvosta.
 
 Voit määrittää kaikentyyppisille laskutussäännöille säilytysprosentin, joka vähennetään asiakaslaskuista, kunnes projekti saavuttaa sovitun vaiheen. Maksun säilytysprosentti määritetään projektisopimuksessa. Summa lasketaan myyntilaskun rivien yhteisarvon perusteella ja vähennetään siitä. 

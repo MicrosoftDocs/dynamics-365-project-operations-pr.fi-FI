@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075323"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287954"
 ---
 # <a name="work-breakdown-structures-overview"></a>Työrakenteiden yleiskatsaus
 
@@ -98,11 +98,11 @@ Tällä hetkellä työrakennenumerointia ei voi mukauttaa.
 
 **Ulonna tehtävä** Kun ulonnat tehtävän, se ei ole enää päätehtävänsä jäsentehtävä. Tämän tehtävän työrakennenumero lasketaan automaattisesti uudelleen, jotta se vastaisi tehtävän uutta hierarkiatasoa. Tehtävän aiemman päätehtävän työmäärä, kustannukset ja päivämäärät lasketaan sitten uudelleen siten, että ne eivät enää sisällä kyseistä tehtävää. 
 
-**Siirrä ylöspäin ja Siirrä alaspäin** Kun valitset **Siirrä ylöspäin** ja **Siirrä alaspäin** , muutat tehtävän sijaintia päätehtävänsä hierarkiassa. Tehtävän sijainti ei vaikuta tehtävän työmäärään, kustannuksiin päivämääriin tai kestoon. Tehtävän työrakennenumero kuitenkin lasketaan automaattisesti uudelleen, jotta se vastaisi tehtävän uutta sijaintia.
+**Siirrä ylöspäin ja Siirrä alaspäin** Kun valitset **Siirrä ylöspäin** ja **Siirrä alaspäin**, muutat tehtävän sijaintia päätehtävänsä hierarkiassa. Tehtävän sijainti ei vaikuta tehtävän työmäärään, kustannuksiin päivämääriin tai kestoon. Tehtävän työrakennenumero kuitenkin lasketaan automaattisesti uudelleen, jotta se vastaisi tehtävän uutta sijaintia.
 
 ### <a name="schedule-estimation"></a>Aikatauluarvio
 
-Aikatauluarvio on yleensä työrakenteen luomisen toinen vaihe. Paras käytäntö on toteuttaa aikatauluarvio, kun olet luonut tehtävät. Financen **Työrakenne** -sivulla on kaksi osaa. Yläruutu on tarkoitettu aikatauluarviolle, ja alaruudussa on **Arvioidut kustannukset ja tuotot** -välilehti, jota voit käyttää kustannusten arviointiin. 
+Aikatauluarvio on yleensä työrakenteen luomisen toinen vaihe. Paras käytäntö on toteuttaa aikatauluarvio, kun olet luonut tehtävät. Financen **Työrakenne**-sivulla on kaksi osaa. Yläruutu on tarkoitettu aikatauluarviolle, ja alaruudussa on **Arvioidut kustannukset ja tuotot** -välilehti, jota voit käyttää kustannusten arviointiin. 
 **Tehtäväriippuvaisuudet** Työrakenteessa voidaan luoda tehtävien välille edeltäjäsuhde. Kun määrität tehtävälle edeltäjätehtäviä, tehtävä voi alkaa vasta, kun kaikki edeltäjätehtävät on suoritettu. Tehtävän suunnitelluksi alkamispäiväksi määritetään aina sen kaikkien edeltäjien viimeisin päivämäärä. 
 
 **Tehtävien ajoitus** Seuraavat tekijät määrittävät lehtisolmutehtävien aikataulutuksen:
@@ -142,7 +142,7 @@ Joissakin tapauksissa haluat ehkä poiketa näistä säännöistä. Voit poistaa
 
 ### <a name="cost-estimation"></a>Kustannusarvio
 
-Kuten tässä asiakirjassa aiemmin mainittiin, voit määrittää kustannusarvion kullekin lehtisolmun tehtävälle käyttämällä **Työrakenne** -sivun alaruudun **Arvioidut kustannukset ja tuotot** -välilehteä. 
+Kuten tässä asiakirjassa aiemmin mainittiin, voit määrittää kustannusarvion kullekin lehtisolmun tehtävälle käyttämällä **Työrakenne**-sivun alaruudun **Arvioidut kustannukset ja tuotot**-välilehteä. 
 
 > [!NOTE] 
 > Et voi muokata yhteenveto- tai säilötehtävän kustannusarviota. Yhteenvetotehtävän kustannusarvio vastaa sen lehtisolmutehtävien kustannusarvioiden summaa. Kunkin tehtävän arvioitu kokonaiskustannus lasketaan seuraavien tapahtumatyyppien arvioitujen kustannusmäärien summana:
@@ -151,13 +151,13 @@ Kuten tässä asiakirjassa aiemmin mainittiin, voit määrittää kustannusarvio
 -   Nimike tai materiaali
 -   Kulut
 
-**Maksu** -tapahtumatyyppiä käytetään maksuihin perustuvien tuottojen arviointiin. Tällä tapahtumatyypillä ei ole kustannuskomponenttia, joten sitä ei oteta huomioon kustannuksia arvioitaessa. 
+**Maksu**-tapahtumatyyppiä käytetään maksuihin perustuvien tuottojen arviointiin. Tällä tapahtumatyypillä ei ole kustannuskomponenttia, joten sitä ei oteta huomioon kustannuksia arvioitaessa. 
 
-**Tilillä** -tapahtumatyyppiä käytetään sovitun myyntiarvon tallentamiseen kiinteäarvoisissa projekteissa. Tätä tapahtuma tyyppiä ei myöskään oteta huomioon arvioitaessa kustannuksia. 
+**Tilillä**-tapahtumatyyppiä käytetään sovitun myyntiarvon tallentamiseen kiinteäarvoisissa projekteissa. Tätä tapahtuma tyyppiä ei myöskään oteta huomioon arvioitaessa kustannuksia. 
 
 Kun arvioit työn, materiaalin ja kulujen kustannuksia kussakin tehtävässä, sinun on määritettävä arvioidulle kustannukselle projektiluokka. 
 
-**Työkustannusten arviointi** Määrität jokaiselle lehtisolmutehtävälle työmäärän tunneissa sekä oletusluokan. Siten, kun määrität tehtävälle aikataulun, kyseisen tehtävän työvoimakustannusten arvio lisätään automaattisesti työn oletusluokkaan. Tämä kustannusarvio näkyy kyseisen tehtävän **Rivitiedot** -ruudukon **Arvioidut kustannukset ja tuotot** -välilehdessä. Jos tarvitset enemmän työvoima kustannusarvioita, voit lisätä ne tähän välilehteen. Jos lisäät tai vähennät työvoimakustannusarvion työtunteja, tehtävän aikataulu lasketaan automaattisesti uudelleen. 
+**Työkustannusten arviointi** Määrität jokaiselle lehtisolmutehtävälle työmäärän tunneissa sekä oletusluokan. Siten, kun määrität tehtävälle aikataulun, kyseisen tehtävän työvoimakustannusten arvio lisätään automaattisesti työn oletusluokkaan. Tämä kustannusarvio näkyy kyseisen tehtävän **Rivitiedot**-ruudukon **Arvioidut kustannukset ja tuotot**-välilehdessä. Jos tarvitset enemmän työvoima kustannusarvioita, voit lisätä ne tähän välilehteen. Jos lisäät tai vähennät työvoimakustannusarvion työtunteja, tehtävän aikataulu lasketaan automaattisesti uudelleen. 
 
 **Kulu- ja materiaalikustannusten arviointi** **Arvioidut kustannukset ja tuotot** -välilehden avulla voit myös arvioida tehtävän kulu- ja materiaalikustannukset, jos tarvitset arvioita. 
 

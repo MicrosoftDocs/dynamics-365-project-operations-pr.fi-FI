@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075327"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288588"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Toimittajan maksu, kun maksettu -maksujen määrittäminen ja käyttäminen
 
@@ -49,16 +49,16 @@ Kun määrität projektille PWP-ehdot, sinun täytyy määrittää prosentteina 
 
 1. Siirry kohtaan **Projektinhallinta ja kirjanpito** \> **Projektit** \> **Kaikki projektit**.
 2. Etsi ja avaa projekti, jolle haluat määrittää PWP-ehdot.
-3. Valitse **toimittajasopimukset** -pikavälilehdessä **Lisää rivi**.
-3. Valitse **tilikoodi** -kentässä jokin seuraavista vaihtoehdoista:
+3. Valitse **toimittajasopimukset**-pikavälilehdessä **Lisää rivi**.
+3. Valitse **tilikoodi**-kentässä jokin seuraavista vaihtoehdoista:
 
     - **Taulukko** – PWP-ehdot koskevat yhtä toimittajaa.
     - **Ryhmä** – PWP-ehdot koskevat kaikkia toimittajaryhmän toimittajia.
     - **Kaikki** – PWP-ehdot koskevat kaikkia toimittajia.
 
-4. Jos valitsit edellisessä vaiheessa **taulukon** tai **ryhmän** , valitse **toimittaja-/toimittajaryhmä** -kentässä toimittaja- tai toimittajaryhmä, johon PWP-termit liittyvät. Jos valitsit edellisessä vaiheessa **Kaikki** , **toimittaja-/toimittajaryhmä** -kenttää ei voi muokata.
+4. Jos valitsit edellisessä vaiheessa **taulukon** tai **ryhmän**, valitse **toimittaja-/toimittajaryhmä**-kentässä toimittaja- tai toimittajaryhmä, johon PWP-termit liittyvät. Jos valitsit edellisessä vaiheessa **Kaikki**, **toimittaja-/toimittajaryhmä**-kenttää ei voi muokata.
 5. Jos toimittajan pidätysehdot on määritetty toimittajalle projektissa, valitse **toimittajan säilytysehdot** -kentässä säilytysehtojen sääntötunnus.
-6. Kirjoita **PWP-kynnysprosentti** -kenttään projektin kynnysprosentti. Projektille määrittämäsi prosenttiosuus määrittää vähimmäishinnan, joka asiakkaan on maksettava, ennen kuin maksat toimittajalle.
+6. Kirjoita **PWP-kynnysprosentti**-kenttään projektin kynnysprosentti. Projektille määrittämäsi prosenttiosuus määrittää vähimmäishinnan, joka asiakkaan on maksettava, ennen kuin maksat toimittajalle.
 
 ## <a name="create-a-po-that-has-pwp-terms"></a>Luo ostotilaus, jolla on PWP-termit
 
@@ -69,8 +69,8 @@ Kun kirjaat laskun toimittajalta, jos toimittajalle on asetettu PWP-ehtoja. Näm
 
     Vaihtoehtoisesti voit avata aiemmin luodun ostotilauksen **Kaikki tilaukset** -luettelosivulla.
 
-4. Tarkista **ostotilaus** -sivun **Ostotilauksen rivit** -pikavälilehdessä myyntitilausrivin tiedot. **Maksa, kun maksettu** -asetus valitaan automaattisesti, ja **PWP-kynnysprosentti** -kentän arvo kopioidaan automaattisesti **Projektit** -sivun **PWP-kynnysprosentti** -kentästä.
-6. Jos et halua käyttää PWP-ehtoja ostotilausrivin toimittajalle, tyhjennä **maksu, kun maksettu** -vaihtoehto. Tässä tapauksessa ostotilausrivin **PWP-kynnysprosentti** -kentän arvoksi palautetaan 0 (nolla).
+4. Tarkista **ostotilaus**-sivun **Ostotilauksen rivit** -pikavälilehdessä myyntitilausrivin tiedot. **Maksa, kun maksettu** -asetus valitaan automaattisesti, ja **PWP-kynnysprosentti**-kentän arvo kopioidaan automaattisesti **Projektit**-sivun **PWP-kynnysprosentti**-kentästä.
+6. Jos et halua käyttää PWP-ehtoja ostotilausrivin toimittajalle, tyhjennä **maksu, kun maksettu** -vaihtoehto. Tässä tapauksessa ostotilausrivin **PWP-kynnysprosentti**-kentän arvoksi palautetaan 0 (nolla).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Asiakkaan maksun päivittäminen ja toimittajan maksaminen
 
@@ -79,7 +79,7 @@ Kun toimittaja suorittaa projektissa työnsä ja lähettää sinulle laskun, tar
 1. Siirry kohtaan **projektinhallinta ja kirjanpito** \> **kyselyt ja raportit** \> **pidätyskyselyt** \> **toimittajan lasku maksetaan kun maksettu**.
 2. Jos kyseessä on **toimittajan lasku, joka maksetaan kun on maksettu** -sivu, kirjoita hakukenttään arvot löytääksesi toimittajan laskun, jota haluat tarkastella, ja valitse sitten **Hae**.
 3. Valitse **toimittajan laskun rivit** -pikavälilehden rivit, joita haluat muuttaa.
-4. Jos laskun rivillä **maksetaan, kun maksu ehdot täyttyvät** , valitse **Vapauta toimittajan maksu**. **Maksu, kun maksettu** -asetus on poistettu, ja **valmis maksettavaksi** -kentän arvoksi vaihdetaan **Kyllä**.
+4. Jos laskun rivillä **maksetaan, kun maksu ehdot täyttyvät**, valitse **Vapauta toimittajan maksu**. **Maksu, kun maksettu** -asetus on poistettu, ja **valmis maksettavaksi** -kentän arvoksi vaihdetaan **Kyllä**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

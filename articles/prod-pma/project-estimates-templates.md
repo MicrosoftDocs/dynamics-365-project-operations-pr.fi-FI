@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075476"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289455"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronoi projektiarvioita suoraan Project Service Automationista Finance and Operationsiin
 
@@ -80,18 +80,18 @@ Projektien työaika-arviomallissa on käytettävä Microsoft Power Query for Exc
 
 #### <a name="set-the-default-forecast-model-id"></a>Määritä oletusarvoisen ennustemallin tunnus
 
-Päivitä oletusarvoisen ennustemallin tunnus mallissa avaamalla yhdistämismäärityksen valitsemalla **Yhdistämismääritys** -nuoli. Valitse sitten **Tarkka kysely ja suodatus** -linkki.
+Päivitä oletusarvoisen ennustemallin tunnus mallissa avaamalla yhdistämismäärityksen valitsemalla **Yhdistämismääritys**-nuoli. Valitse sitten **Tarkka kysely ja suodatus** -linkki.
 
-- Jos käytät oletusarvoisten projektien työaika-arvioiden (PSA:sta Fin:iin ja Ops:iin) mallia, valitse **Sovelletut vaiheet** -luettelossa **Lisätty ehto**. Korvaa **Toiminto** -kirjauksessa **O\_forecast** sen ennustemallin tunnuksella, jota käytetään integroinnissa. Oletusmallilla on esittelytiedoista peräisin oleva ennustemallin tunnus.
+- Jos käytät oletusarvoisten projektien työaika-arvioiden (PSA:sta Fin:iin ja Ops:iin) mallia, valitse **Sovelletut vaiheet** -luettelossa **Lisätty ehto**. Korvaa **Toiminto**-kirjauksessa **O\_forecast** sen ennustemallin tunnuksella, jota käytetään integroinnissa. Oletusmallilla on esittelytiedoista peräisin oleva ennustemallin tunnus.
 - Jos olet luomassa uutta mallia, tämä sarake on lisättävä. Valitse Power Queryssä **Lisää ehdollinen sarake** ja kirjoita uuden sarakkeen nimi, Kuten **Mallitunnus**. Kirjoita sarakkeen ehto, silloin jos projektitehtävä ei ole tyhjäarvo, sitten \<enter the forecast model ID\>; muuten tyhjäarvo.
 
 #### <a name="filter-out-resource-specific-records"></a>Resurssikohtaisten tietueiden pois suodattaminen
 
-Projektien työaikaennusteiden (PSA:sta Fin:iin ja Ops:iin) mallissa on oletussuodatin, joka poistaa kaikki resurssikohtaiset tietueet. Jos luot oman mallin, tämä suodatin on lisättävä. Valitse **Tarkka kysely ja suodatus** -linkki suodattaaksesi **msdyn\_islinetask** -saraketta siten, että vain tietueet, joiden arvo on **Epätosi** ovat mukana.
+Projektien työaikaennusteiden (PSA:sta Fin:iin ja Ops:iin) mallissa on oletussuodatin, joka poistaa kaikki resurssikohtaiset tietueet. Jos luot oman mallin, tämä suodatin on lisättävä. Valitse **Tarkka kysely ja suodatus** -linkki suodattaaksesi **msdyn\_islinetask**-saraketta siten, että vain tietueet, joiden arvo on **Epätosi** ovat mukana.
 
 #### <a name="filter-out-empty-transaction-category-rows"></a>Tyhjien tapahtumaluokkarivien pois suodattaminen
 
-Sinun on lisättävä suodatin poistaaksesi kaikki rivit, joilla on tyhjiä tapahtumaluokkia. Tämä tehtävä on pakollinen riippumatta siitä, käytätkö oletusmallia vai luotko oman mallin. Tämä suodatin poistaa Project Service Automationista kaikki yhteenvetorivit, jotka saattavat aiheuttaa virheitä Financen työaikaennusteissa. Valitse **Tarkka kysely ja suodatus** -linkki suodattaaksesi tyhjät tietueet sarakkeessa **msdyn\_transactioncategory\_value**.
+Sinun on lisättävä suodatin poistaaksesi kaikki rivit, joilla on tyhjiä tapahtumaluokkia. Tämä tehtävä on pakollinen riippumatta siitä, käytätkö oletusmallia vai luotko oman mallin. Tämä suodatin poistaa Project Service Automationista kaikki yhteenvetorivit, jotka saattavat aiheuttaa virheitä Financen työaikaennusteissa. Valitse **Tarkka kysely ja suodatus**-linkki suodattaaksesi tyhjät tietueet sarakkeessa **msdyn\_transactioncategory\_value**.
 
 ### <a name="template-mapping-in-data-integration"></a>Mallien yhdistämismääritys tietojen integroinnissa
 
@@ -137,13 +137,13 @@ Projektien kuluarviomallissa on käytettävä Power Queryä seuraavien tehtävie
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Suodatus siten, että mukana on vain kuluarviorivejä
 
-Projektin kuluarvioiden (PSA:sta Fin:iin ja Ops:iin) -mallissa on oletussuodatin, jonka ansiosta integroinnissa on mukana vain kulurivejä. Jos luot oman mallin, tämä suodatin on lisättävä. Valitse **Tapahtumasuhteet** -tehtävä ja avaa siten yhdistämismääritys valitsemalla **Yhdistämismääritys** -nuoli. Valitse **Tarkka kysely ja suodatus** -linkki. Suodata **msdyn\_transactiontype1** -saraketta siten, että se sisältää vain **msdyn\_estimateline** -kohteita.
+Projektin kuluarvioiden (PSA:sta Fin:iin ja Ops:iin) -mallissa on oletussuodatin, jonka ansiosta integroinnissa on mukana vain kulurivejä. Jos luot oman mallin, tämä suodatin on lisättävä. Valitse **Tapahtumasuhteet**-tehtävä ja avaa siten yhdistämismääritys valitsemalla **Yhdistämismääritys**-nuoli. Valitse **Tarkka kysely ja suodatus** -linkki. Suodata **msdyn\_transactiontype1**-saraketta siten, että se sisältää vain **msdyn\_estimateline**-kohteita.
 
 #### <a name="set-the-default-forecast-model-id"></a>Määritä oletusarvoisen ennustemallin tunnus
 
-Päivitä oletusarvoisen ennustemallin tunnus mallissa valitsemalla **Kuluarviot** -tehtävä ja avaamalla sitten yhdistämismääritys valitsemalla **Yhdistämismääritys** -nuoli. Valitse **Tarkka kysely ja suodatus** -linkki.
+Päivitä oletusarvoisen ennustemallin tunnus mallissa valitsemalla **Kuluarviot**-tehtävä ja avaamalla sitten yhdistämismääritys valitsemalla **Yhdistämismääritys**-nuoli. Valitse **Tarkka kysely ja suodatus** -linkki.
 
-- Jos käytät oletusarvoisten projektien kuluarvioiden (PSA:sta Fin:iin ja Ops:iin) mallia, valitse Power Queryssä ensimmäinen **Lisätty ehto** **Sovelletut vaiheet** -osasta. Korvaa **Toiminto** -kirjauksessa **O\_forecast** sen ennustemallin tunnuksella, jota käytetään integroinnissa. Oletusmallilla on esittelytiedoista peräisin oleva ennustemallin tunnus.
+- Jos käytät oletusarvoisten projektien kuluarvioiden (PSA:sta Fin:iin ja Ops:iin) mallia, valitse Power Queryssä ensimmäinen **Lisätty ehto** **Sovelletut vaiheet** -osasta. Korvaa **Toiminto**-kirjauksessa **O\_forecast** sen ennustemallin tunnuksella, jota käytetään integroinnissa. Oletusmallilla on esittelytiedoista peräisin oleva ennustemallin tunnus.
 - Jos olet luomassa uutta mallia, tämä sarake on lisättävä. Valitse Power Queryssä **Lisää ehdollinen sarake** ja kirjoita uuden sarakkeen nimi, Kuten **Mallitunnus**. Kirjoita sarakkeen ehto, silloin jos arviorivitunnus ei ole tyhjäarvo, sitten \<enter the forecast model ID\>; muuten tyhjäarvo.
 
 #### <a name="transform-the-billing-types"></a>Laskutustyyppien muuntaminen

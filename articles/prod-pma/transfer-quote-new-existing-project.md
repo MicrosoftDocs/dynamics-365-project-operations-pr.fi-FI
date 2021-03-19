@@ -18,23 +18,23 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075324"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288089"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>Tarjouksen siirtäminen projektiin
 
 [!include [banner](../includes/banner.md)]
 
-Kun projektitarjouksen tila on **vahvistettu** , voit siirtää jotkin tai kaikki tarjousrivit uuteen tai aiemmin luotuun projektiin käyttämällä **Siirrä projektiin** -toimintoa. 
+Kun projektitarjouksen tila on **vahvistettu**, voit siirtää jotkin tai kaikki tarjousrivit uuteen tai aiemmin luotuun projektiin käyttämällä **Siirrä projektiin** -toimintoa. 
 
 Voit käyttää ohjattua toimintoa seuraavasti.
 
 1. Siirry kohtaan **Projektinhallinta ja kirjanpito** > **Tarjoukset** > **Projektitarjoukset**.
-2. Valitse siirrettävä tarjous ja valitse **seuranta** -välilehden **muokkaa** -ryhmästä **siirrä projektiin**.
+2. Valitse siirrettävä tarjous ja valitse **seuranta**-välilehden **muokkaa**-ryhmästä **siirrä projektiin**.
 3. Liitä ja siirrä tarjous projektiin käyttämällä seuraa **Siirrä tarjous projektiin** -toimintoa.
 
 

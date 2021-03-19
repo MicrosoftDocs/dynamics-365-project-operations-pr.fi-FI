@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075491"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289770"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektinhallinnan ja kirjanpidon yleiskuvaus
 
@@ -205,8 +205,8 @@ Voit tilata nimikkeitä yrityksen varastosta projektin kulutusta varten. Vaihtoe
 
 Kohteiden tilaustapa määräytyy sen mukaan, mistä tilaat ne:
 
--   Jotta voit tilata nimikkeitä yrityksen varastosta, sinun täytyy syöttää tilaus nimiketarpeeksi. Jos käytät **Nimiketarpeet** -sivua, voit määrittää tarpeen niin, että vastaanotat nimikkeitä osittaisena toimituksena. Siksi voit lykätä nimikkeiden määrän kulutusta, kunnes nimikkeet ovat pakollisia.
--   Jos haluat tilata nimikkeitä ulkoiselta toimittajalta, tilaus on luotava ostotilauksena **Ostotilaus** -sivulla.
+-   Jotta voit tilata nimikkeitä yrityksen varastosta, sinun täytyy syöttää tilaus nimiketarpeeksi. Jos käytät **Nimiketarpeet**-sivua, voit määrittää tarpeen niin, että vastaanotat nimikkeitä osittaisena toimituksena. Siksi voit lykätä nimikkeiden määrän kulutusta, kunnes nimikkeet ovat pakollisia.
+-   Jos haluat tilata nimikkeitä ulkoiselta toimittajalta, tilaus on luotava ostotilauksena **Ostotilaus**-sivulla.
 
 > [!NOTE] 
 > Projektiin liittyvän myyntitilauksen pakkausluetteloa ei voi peruuttaa, jos nimikkeet on jo merkitty pakkausta varten. 
@@ -232,7 +232,7 @@ Lisätietoja projektilaskutuksen käsittelystä on aiheessa [Projektilaskutus](h
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Projektin valmistumiskustannusten laskeminen
 
-Kun luot arvion, voit valita menetelmän, jota käytetään projektin valmistumiskustannusten laskemiseen. Valitse menetelmä **Jäljellä olevien kustannusten menetelmä** -kentässä **Luo arvio** -sivulla. Valitsemasi menetelmä kohdistetaan erikseen jokaiseen kustannusarvion kustannusriviin. Kun rivin tila on **Luotu** , voit muuttaa sen menetelmää, jota käytetään **Kustannusarvio** -sivulla. 
+Kun luot arvion, voit valita menetelmän, jota käytetään projektin valmistumiskustannusten laskemiseen. Valitse menetelmä **Jäljellä olevien kustannusten menetelmä** -kentässä **Luo arvio** -sivulla. Valitsemasi menetelmä kohdistetaan erikseen jokaiseen kustannusarvion kustannusriviin. Kun rivin tila on **Luotu**, voit muuttaa sen menetelmää, jota käytetään **Kustannusarvio**-sivulla. 
 
 Seuraavassa taulukossa on kuvattu projektin valmistumistavat.
 
@@ -300,7 +300,7 @@ Voit ennustaa valitun projektin kassavirrat oman asetuksen perusteella. Jos proj
 -   **Projektin päivämäärä:** 5. maaliskuuta 2012.
 -   **Laskun päivämäärä:** 31. maaliskuuta 2012. Tämä päivämäärä määräytyy laskun taajuuden mukaan. Tässä esimerkissä laskun toistumisväli määritetään nykyiselle kuukaudelle. Siksi kaikki tapahtumat, jotka on kirjattu maaliskuun aikana, laskutetaan kuukauden viimeisenä päivänä.
 -   **Määrä päivä:** 14. huhtikuuta 2012. Tämä päivämäärä määräytyy projektille määritettyjen maksuehtojen perusteella. Tässä esimerkissä valitaan maksuehdot 14 päivältä. Tämän vuoksi laskun päivämäärään lisätään 14 päivää, jotta se saapuu 14. huhtikuuta 2012.
--   **Odotettu myyntimaksupäivä:** 27. huhtikuuta 2012. Tämä päivämäärä lasketaan laskemalla yhteen **projektinhallinta ja kirjanpitoparametrit**  -sivun **yleiset puskuripäivät** -kentän päivien määrä **Projektisopimukset** -sivun **yksittäisten puskuripäivien** välillä ja lisäämällä kokonaissumma **määräpäivä** -kentän päivien lukumäärään . Tässä esimerkissä kirjoitit **3** **Yleiset puskuripäivät** -kenttään ja **10** **Yksittäiset puskuripäivät** -kenttään. Siksi eräpäivään lisätään 13 päivää odotetun myyntipäivän, 27. huhtikuuta 2012, saavuttamiseksi.
+-   **Odotettu myyntimaksupäivä:** 27. huhtikuuta 2012. Tämä päivämäärä lasketaan laskemalla yhteen **projektinhallinta ja kirjanpitoparametrit** -sivun **yleiset puskuripäivät** -kentän päivien määrä **Projektisopimukset**-sivun **yksittäisten puskuripäivien** välillä ja lisäämällä kokonaissumma **määräpäivä**-kentän päivien lukumäärään. Tässä esimerkissä kirjoitit **3** **Yleiset puskuripäivät** -kenttään ja **10** **Yksittäiset puskuripäivät** -kenttään. Siksi eräpäivään lisätään 13 päivää odotetun myyntipäivän, 27. huhtikuuta 2012, saavuttamiseksi.
 
 Yleiset puskuripäivät voivat joko korvata yksittäiset puskuripäivät tai ne voidaan lisätä yksittäisiin puskuripäiviin:
 
@@ -323,9 +323,9 @@ Määritettyjen päivien perusteella kustannusten maksupäivä voi poiketa proje
 
 Esimerkiksi tapahtuman projektipäivä on 5. maaliskuuta 2012, ja seuraavat maksuehdot on määritetty:
 
--   **Aukioloajat:** kuluva kuukausi ( **M** )
--   **Kulut:** 14 päivää ( **D14** )
--   **Kohteet:** 30 päivää ( **D30** )
+-   **Aukioloajat:** kuluva kuukausi (**M**)
+-   **Kulut:** 14 päivää (**D14**)
+-   **Kohteet:** 30 päivää (**D30**)
 
 Näiden asetusten perusteella kunkin tapahtumatyypin kustannusten maksupäivä:
 
@@ -338,7 +338,7 @@ Näiden asetusten perusteella kunkin tapahtumatyypin kustannusten maksupäivä:
 
 Kustannusten maksupäivämäärää ei lasketa puskuripäivinä. Kun projekti on valmis, sekä kustannus että myynti kirjataan tulostileille, kun kaikki kustannuslaskenta ja laskutus on valmis. 
 
-Kun kaikki myynti- ja toimittajalaskut on täytetty, voit tarkastella **kassavirta** -sivun ja **Projektitiliotteet** -sivun kenttien välistä suhdetta.
+Kun kaikki myynti- ja toimittajalaskut on täytetty, voit tarkastella **kassavirta**-sivun ja **Projektitiliotteet**-sivun kenttien välistä suhdetta.
 
 :::row:::
     :::column:::
@@ -364,31 +364,31 @@ Voit seurata kustannuksia, joita organisaatiossa syntyy projektin aikana **Kusta
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Jäljellä olevien budjetoitujen summien tarkasteleminen
 
-Jos **projektinhallinta ja kirjanpidon parametrit** -sivun kustannusten hallintamenetelmäksi on valittu **jäljellä oleva budjetti** , **kustannusten hallinta** -sivu laskee kustannukset, joita ei ole kirjattu todellisiksi tai merkittyinä sidotuiksi. Erityisesti **kustannusten hallinta** -sivun alaruudun **yleiset** -välilehden summat lasketaan seuraavilla tavoilla:
+Jos **projektinhallinta ja kirjanpidon parametrit** -sivun kustannusten hallintamenetelmäksi on valittu **jäljellä oleva budjetti**, **kustannusten hallinta** -sivu laskee kustannukset, joita ei ole kirjattu todellisiksi tai merkittyinä sidotuiksi. Erityisesti **kustannusten hallinta** -sivun alaruudun **yleiset**-välilehden summat lasketaan seuraavilla tavoilla:
 
 -   **Toteutunut kustannus** – projektiin valitulle kustannusriville käytetty kokonaissumma. Toteutunut kustannussumma lasketaan **kirjanpidon päivitykset** -sivulla.
 -   **Sidottu kustannus** – Kulujen lisämäärä, jonka yritys on sitoutunut maksamaan. Sidotut kustannussummat lasketaan **Sidotut kustannukset** -sivulla.
 -   **Jäljellä oleva budjetti** – Valitun kustannusrivin vielä käytettävissä olevan alkuperäisen budjetoidun määrän summa. Jäljellä oleva budjettisumma lasketaan **pääkirjan esikatselu** -sivulla.
 -   **Kokonaiskustannukset** – Todellisten kustannusten, sidottujen kustannusten ja jäljellä olevien budjettisummien summa.
 
-**Kustannusten hallinta** -sivun **poikkeama** -välilehdessä voit tarkastella odotetun kokonaiskustannuksen ja alkuperäisen budjetin vertailua. Tämä vertailu näyttää näiden summien väliset erot. Siksi voit nähdä, missä tiedot eivät täsmää. Poikkeamasummat lasketaan seuraavilla tavoilla:
+**Kustannusten hallinta** -sivun **poikkeama**-välilehdessä voit tarkastella odotetun kokonaiskustannuksen ja alkuperäisen budjetin vertailua. Tämä vertailu näyttää näiden summien väliset erot. Siksi voit nähdä, missä tiedot eivät täsmää. Poikkeamasummat lasketaan seuraavilla tavoilla:
 
 -   **Alkuperäinen budjetti** – Valitun kustannusrivin alun perin budjetoitu summa. Alkuperäinen budjettisumma lasketaan **pääkirjan esikatselu** -sivulla.
--   **Kokonaiskustannukset** – Todellisten kustannusten, sidottujen kustannusten ja jäljellä olevien budjettisummien summa, kuten raportoitu **Yleiset** -välilehdellä.
+-   **Kokonaiskustannukset** – Todellisten kustannusten, sidottujen kustannusten ja jäljellä olevien budjettisummien summa, kuten raportoitu **Yleiset**-välilehdellä.
 -   **Poikkeama** – Kokonaiskustannuksen ja alkuperäisen budjetin ero.
 -   **Määrään perustuva varianssi** – Alkuperäisen ennusteen ja kokonaisennusteen välinen ero. Ero voidaan ilmaista matemaattisesti (ennustemäärän kokonaismäärä) × (alkuperäinen keskimääräinen hinta – keskihinta yhteensä). Tämä laskelma koskee vain projektitunteja.
 -   **HIntaan perustuva varianssi** – Alkuperäisen ennusteen ja kokonaisennusteen välinen ero. Ero voidaan ilmaista matemaattisesti (Alkuperäinen ennustehinta) × (alkuperäinen ennustemäärä – ennustemäärä yhteensä). Tämä laskelma koskee vain projektitunteja.
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Kokonaisbudjettisummien tarkasteleminen
 
-Jos **projektinhallinta ja kirjanpidon parametrit** -sivun kustannusten hallintamenetelmäksi on valittu **kokonaisbudjetti** , **kustannusten hallinta** -sivu laskee todelliset kustannukset ja projektin kokonaiskustannukset, jotta näiden kahden välinen ero voidaan havaita. Erityisesti **kustannusten hallinta** -sivun alaruudun **yleiset** -välilehden summat lasketaan seuraavilla tavoilla:
+Jos **projektinhallinta ja kirjanpidon parametrit** -sivun kustannusten hallintamenetelmäksi on valittu **kokonaisbudjetti** , **kustannusten hallinta** -sivu laskee todelliset kustannukset ja projektin kokonaiskustannukset, jotta näiden kahden välinen ero voidaan havaita. Erityisesti **kustannusten hallinta** -sivun alaruudun **yleiset**-välilehden summat lasketaan seuraavilla tavoilla:
 
 -   **Budjetoidut kokonaiskustannukset** – Valitun kustannusrivin budjetoitu kokonaissumma.
 -   **Toteutunut kustannus** – projektille tähän mennessä aiheutuneiden kustannusten kokonaismäärä valituille kustannusriveille.
 -   **Sidottu kustannus** – projektiin valitulle kustannusriville sidottu kokonaissumma.
 -   **Varianssi** – Todellisten ja sidottujen kustannusten sekä kokonaiskustannusten välinen ero. Varianssi osoittaa, onko kokonaisbudjetille määritettävä lisäkustannuksia.
 
-**Kustannusten hallinta** -sivun **poikkeama** -välilehdessä voit tarkastella kokonaisbudjetin ja alkuperäisen budjetin välisiä eroja katsomalla seuraavat kentät:
+**Kustannusten hallinta** -sivun **poikkeama**-välilehdessä voit tarkastella kokonaisbudjetin ja alkuperäisen budjetin välisiä eroja katsomalla seuraavat kentät:
 
 -   **Alkuperäinen budjetti** – Kustannusrivin alun perin budjetoitu summa. Alkuperäinen budjetti lasketaan **pääkirjan esikatselu** -sivulla.
 -   **Budjetoidut kokonaiskustannukset** – Kokonaiskustannukset, jotka alun perin budjetoitiin kustannusriville. Budjetoidut kokonaiskustannukset lasketaan **pääkirjan esikatselu** -sivulla.
@@ -425,14 +425,14 @@ Kun lasketaan työntekijän käyttöastetta, voit käyttää normaalitunteja tai
 
 ### <a name="review-project-statements"></a>Tarkastele projektilaskelmia
 
-Voit luoda projektiraportin, jossa voit tarkastella pikavedosta projektin edistymisestä. Kun suoritat projektiraportin, voit määrittää ehdot, joita käytetään laskelman laskemiseen tekemällä valintoja **Projekti laskelmat** -sivun **yleiset** -välilehdessä . Voit valita, haluatko sisällyttää tai jättää pois seuraavat tiedot:
+Voit luoda projektiraportin, jossa voit tarkastella pikavedosta projektin edistymisestä. Kun suoritat projektiraportin, voit määrittää ehdot, joita käytetään laskelman laskemiseen tekemällä valintoja **Projekti laskelmat** -sivun **yleiset**-välilehdessä . Voit valita, haluatko sisällyttää tai jättää pois seuraavat tiedot:
 
 -   Projektin tyypit
 -   Tapahtumatyypit
 -   Projektin päivämäärä/kirjanpidon päivämäärä
 -   Tiedot
 
-Kun tiliote on laskettu, voit tarkastella seuraavia tietoja **Projektitiliotteet** -sivun eri välilehdissä:
+Kun tiliote on laskettu, voit tarkastella seuraavia tietoja **Projektitiliotteet**-sivun eri välilehdissä:
 
 -   **Yleiset** – Yleisiä tietoja projektin perusvoiton ja tappion rakenteesta.
 -   **Voitto ja tappio** – Tietoja jaksotetusta tuotosta.

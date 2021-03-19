@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075529"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289365"
 ---
 # <a name="project-grants"></a>Projektimäärärahat
 
@@ -42,18 +42,18 @@ Voit luoda avustuksen syöttämällä kaikki tiedot uuteen tietueeseen tai voit 
 
 1. Siirry kohtaan **Projektinhallinta ja kirjanpito** \> **Avustukset** \> **Avustukset**.
 2. Valitse **Uusi** \> **Apuraha**.
-3. Kirjoita avustuksen tiedot -sivun **Yleinen** -pikavälilehden **avustuksen tunnus** -kenttään avustuksen aakkosnumeerinen tunnus.
+3. Kirjoita avustuksen tiedot -sivun **Yleinen**-pikavälilehden **avustuksen tunnus** -kenttään avustuksen aakkosnumeerinen tunnus.
 4. Kirjoita avustuksen nimi **Avustuksen nimi** -kenttään.
-5. Lisää **Kuvaus** -kenttään uuden avustuksen tiedot.
+5. Lisää **Kuvaus**-kenttään uuden avustuksen tiedot.
 
     Useimmat sivun kentistä ovat valinnaisia, ja voit kirjoittaa haluamasi määrän tietoja.
 
     Seuraavassa luettelossa on kuvattu kunkin avustuksen tiedot -sivun pikavälilehdessä määritetyt tiedot:
 
     - **Yleinen** – Anna avustuksen nimi, tila, kuvaus, tarkoitus ja summa.
-    - **Yhteystiedot** – Anna tiedot henkilöstön jäsenistä, avustuksen hallinnoijasta ja avustuksen asiakas- tai organisaatiolähteestä. Voit myös määrittää, onko organisaatiosi läpikulkukohde, joka vastaanottaa avustuksen, ja välittää sen sitten toiselle vastaanottajalle. Valitse **Lisää** , jos haluat lisätä yhteyshenkilön tietoja, kuten puhelinnumeroita ja sähköpostiosoitteita.
+    - **Yhteystiedot** – Anna tiedot henkilöstön jäsenistä, avustuksen hallinnoijasta ja avustuksen asiakas- tai organisaatiolähteestä. Voit myös määrittää, onko organisaatiosi läpikulkukohde, joka vastaanottaa avustuksen, ja välittää sen sitten toiselle vastaanottajalle. Valitse **Lisää**, jos haluat lisätä yhteyshenkilön tietoja, kuten puhelinnumeroita ja sähköpostiosoitteita.
     - **Päivämäärät ja määräajat** – Anna avustukseen ja avustussovellukseen liittyvät päivämäärät. Esimerkkejä ovat sovelluksen määräpäivä, lähetyspäivä sekä päivämäärä, jona avustus on hyväksytty tai hylätty.
-    - **Liitetyt projektit ja projektisopimukset** – tähän pikavälilehteen voi syöttää tietoja vain, jos **Yleinen** -pikavälilehden **avustuksen tila** -kentän arvoksi on määritetty **aktiivinen** tai **myönnetty**. Viimeistele liittyvä tehtävä valitsemalla jokin seuraavista vaihtoehdoista:
+    - **Liitetyt projektit ja projektisopimukset** – tähän pikavälilehteen voi syöttää tietoja vain, jos **Yleinen**-pikavälilehden **avustuksen tila** -kentän arvoksi on määritetty **aktiivinen** tai **myönnetty**. Viimeistele liittyvä tehtävä valitsemalla jokin seuraavista vaihtoehdoista:
 
         - **Lisää rahoituslähde** – Lisää avustukseen uusi rahoituslähde. Voit kirjoittaa kaikki tiedot nyt tai voit käyttää oletustietoja ja päivittää ne myöhemmin.
         - **Lisää projektisopimus** – Lisää tai päivitä projektisopimuksen tietoja.
@@ -62,7 +62,7 @@ Voit luoda avustuksen syöttämällä kaikki tiedot uuteen tietueeseen tai voit 
     - **Asetukset** – Anna tiedot toisiaan vastaavista varoista, jos nämä tiedot ovat pakollisia. Monet organisaatiot, jotka myöntävät apurahoja, edellyttävät, että vastaanottajat käyttävät tiettyä määrää omia rahojaan tai resursseja, jotta ne vastaisivat avustukseen myönnettyjä summia. Voit kirjoittaa **Paikallinen projekti- tai seurantatunnus** -kenttään tunnuksen, joka eroaa projektitunnuksesta.
 
         > [!NOTE]
-        > Jos osa tuesta myönnetään jollekin toiselle organisaatiolle, määritä **alimyöntäjä** -asetukseksi **Kyllä**. Jos kyseessä on Yhdysvalloissa myönnetty avustus, voit määrittää, myönnetäänkö apuraha osavaltion toimeksiannon vai liittovaltion mandaatin perusteella.
+        > Jos osa tuesta myönnetään jollekin toiselle organisaatiolle, määritä **alimyöntäjä**-asetukseksi **Kyllä**. Jos kyseessä on Yhdysvalloissa myönnetty avustus, voit määrittää, myönnetäänkö apuraha osavaltion toimeksiannon vai liittovaltion mandaatin perusteella.
 
     - **Nostotiedot** – voit lisätä tai päivittää tietoja siitä, miten usein avustusvaroja voidaan peruuttaa, laskuttaa tai käyttää.
 
@@ -77,7 +77,7 @@ Voit luoda avustuksen syöttämällä kaikki tiedot uuteen tietueeseen tai voit 
 
 1. Siirry kohtaan **Projektinhallinta ja kirjanpito** \> **Avustukset** \> **Avustukset**.
 2. Valitse muokattava avustus.
-3. Valitse toimintoruudun **Avustus** -välilehden **Ylläpidä** -ryhmässä **Muokkaa**.
+3. Valitse toimintoruudun **Avustus**-välilehden **Ylläpidä**-ryhmässä **Muokkaa**.
 4. Tarkista avustuksen tiedot ja tee tarvittavat muutokset.
 
 
