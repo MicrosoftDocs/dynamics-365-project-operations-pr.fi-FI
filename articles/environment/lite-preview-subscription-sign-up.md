@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175887"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290040"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Rekisteröityminen esiversion tilaajaksi – lite 
 
-Tässä aiheessa on tietoja siitä, miten voit tilata kumppanin esiversiotarjouksen ja ottaa käyttöön Dynamics 365 Project Operationsin lite – kauppa proformalaskutukseen -käyttöönoton.
+Tässä aiheessa selitetään, miten voit tilata kumppanin tarjouksen esikatselun sekä ottaa käyttöön Dynamics 365 Project Operationsin Lite-käyttöönotto – kauppa proformalaskutukseen -ominaisuuden.
 
 > [!NOTE]
 > Tämä prosessi muuttuu Project Operationsin tulevissa versioissa.
@@ -32,17 +32,17 @@ Tässä aiheessa on tietoja siitä, miten voit tilata kumppanin esiversiotarjouk
 
 Kun vastaanotat [esikatselupyynnön](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) hyväksynnän, saat kaksi Microsoftin tarjousta sähköpostitse. Näiden tarjousten avulla voit ottaa käyttöön Project Operationsin esikatselun:
 
-- Dynamics 365 Project Operations (CRM) – esiversion kokeilu
+- Dynamics 365 Project Operations (CRM) - Esiversion kokeiluversio
 - Office 365 Project Operationsin esiversion kokeilu
 
 > [!IMPORTANT]
 > Vain yksi henkilö, vuokraajan järjestelmänvalvoja, voi suorittaa tämän tehtävän organisaatiossa. Jos et ole tämän version tilaaja, odota, kunnes organisaatiosi on rekisteröitynyt ja olet saanut käyttäjätietosi.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – esiversion kokeilu 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Esiversion kokeiluversio 
 
 Ennen kuin aloitat, varmista, että olet kirjautunut selaimeen, jossa on käyttäjän työtili, siinä vuokraajan kohdassa, jossa haluat projektin toimintojen esikatselun.
 
-1. Lunasta ensimmäinen tarjouskoodi, **Dynamics 365 Project Operations (CRM) - esiversion kokeilu** liittämällä se selaimen URL-osoitteeseen.
+1. Lunasta ensimmäinen tarjouskoodi, **Dynamics 365 Project Operations (CRM) – Esiversion kokeiluversio** liittämällä se selaimen URL-osoitekenttään.
 
 ![Lunasta tarjous](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Toista samat vaiheet kuin ensimmäisellä tarjouskoodilla. Muista lisätä toine
 
 ![Käyttöoikeuksien määrittäminen](./media/15AssignLicenses.png)
 
-3. Tarkista, että **Dynamics 365 Project Operations (CRM) -esiversion** ja **Office 365 Project Operations -esiversion** käyttöoikeudet ovat valittuina. 
+3. Varmista, että **Dynamics 365 Project Operationsin (CRM) esiversio** ja **Office 365 Project Operations - esiversio** -lisenssit on valittu. 
 4. Valitse **Tallenna muutokset**.
 
 ## <a name="create-a-new-cds-environment"></a>Luo uusi CDS-ympäristö
