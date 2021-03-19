@@ -18,20 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147694"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283274"
 ---
-# <a name="reporting-home-page"></a>Raportoinnin kotisivu
+# <a name="reporting-home-page"></a>Raportoinnin aloitussivu
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoftin Dynamics 365 Project Service Automation mahdollistaa projektiperusteisille organisaatioille niiden liiketoimintojen tehokkaan hallinnan. Ryhmän jäsenten on kaikissa projekteissa hallinnnoitava mahdollisuuksia ja tarjouksia sekä suunniteltava työ, resursoitava projektit, hallittava työtä suunnitelman mukaan, laskutettava työstä ja tehtävä työ projektin valmistumiseksi. Kyky raportoida toiminnoista on avainasemassa organisaation terveyden määrittämistä varten ja mahdollisesti tarvittavien korjaavien toimenpiteiden suorittamiseksi. PSA käyttää Microsoft Dynamics 365 -raportointimenetelmää ja -teknologiaa kaikkeen raportointiinsa. Lisätietoja raportointivaihtoehdoista on [Dynamics 365 Customer Engagement (on-premises) -version 9 raportinkirjoitusoppaassa](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation mahdollistaa projektiperusteisille organisaatioille niiden liiketoimintojen tehokkaan hallinnan. Ryhmän jäsenten on kaikissa projekteissa hallinnnoitava mahdollisuuksia ja tarjouksia sekä suunniteltava työ, resursoitava projektit, hallittava työtä suunnitelman mukaan, laskutettava työstä ja tehtävä työ projektin valmistumiseksi. Kyky raportoida toiminnoista on avainasemassa organisaation terveyden määrittämistä varten ja mahdollisesti tarvittavien korjaavien toimenpiteiden suorittamiseksi. PSA käyttää Microsoft Dynamics 365 -raportointimenetelmää ja -teknologiaa kaikkeen raportointiinsa. Lisätietoja raportointivaihtoehdoista on [Dynamics 365 Customer Engagement (on-premises) -version 9 raportinkirjoitusoppaassa](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Ohjattu raportin luominen
 
