@@ -1,82 +1,710 @@
 ---
-title: Tarjousrivin laskutettavan komponentin määrittäminen – lite
+title: Tarjousrivin laskutettavan osan määrittäminen
 description: Tässä ohjeaiheessa on tietoja laskutettavan ja ei-laskutettavan komponentin määrittämisestä projektipohjaisella tarjousrivillä.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273869"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858289"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a><span data-ttu-id="2fa2e-103">Tarjousrivin laskutettavan komponentin määrittäminen – lite</span><span class="sxs-lookup"><span data-stu-id="2fa2e-103">Configure the chargeable components of a quote line - lite</span></span>
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a><span data-ttu-id="21090-103">Tarjousrivin laskutettavan komponentin määrittäminen</span><span class="sxs-lookup"><span data-stu-id="21090-103">Configure the chargeable components of a quote line</span></span> 
 
-<span data-ttu-id="2fa2e-104">_**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_</span><span class="sxs-lookup"><span data-stu-id="2fa2e-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="21090-104">_**Koskee:** Lite-käyttöönotto - kaupasta proformalaskutukseen, Project Operationsin resurssiin/ei-varastointiin perustuvia skenaarioita_</span><span class="sxs-lookup"><span data-stu-id="21090-104">_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="2fa2e-105">Projektipohjaiseen tarjousrivillä on *sisällytettyjen* osien ja *laskutettavien* osien käsitteet.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-105">A project-based quote line has the concept of *included* components and *chargeable* components.</span></span>
+<span data-ttu-id="21090-105">Projektipohjaiseen tarjousrivillä on *sisällytettyjen* osien ja *laskutettavien* osien käsitteet.</span><span class="sxs-lookup"><span data-stu-id="21090-105">A project-based quote line has the concept of *included* components and *chargeable* components.</span></span>
 
-<span data-ttu-id="2fa2e-106">Sisällytettyjä osia voivat olla seuraavat:</span><span class="sxs-lookup"><span data-stu-id="2fa2e-106">Included components are subject to:</span></span>
+<span data-ttu-id="21090-106">Sisällytettyjä osia voivat olla seuraavat:</span><span class="sxs-lookup"><span data-stu-id="21090-106">Included components are subject to:</span></span>
 
-  - <span data-ttu-id="2fa2e-107">Laskutustapa ja asiakasjako</span><span class="sxs-lookup"><span data-stu-id="2fa2e-107">Billing method and customer splits</span></span>
-  - <span data-ttu-id="2fa2e-108">Ei-ylitettävät rajoitukset</span><span class="sxs-lookup"><span data-stu-id="2fa2e-108">Not-to-exceed limits</span></span> 
-  - <span data-ttu-id="2fa2e-109">Projektipohjaisella tarjousrivillä määritetyt laskun toistumisasetukset</span><span class="sxs-lookup"><span data-stu-id="2fa2e-109">Invoice frequency settings defined on the project-based quote line</span></span>
+  - <span data-ttu-id="21090-107">Laskutustapa ja asiakasjako</span><span class="sxs-lookup"><span data-stu-id="21090-107">Billing method and customer splits</span></span>
+  - <span data-ttu-id="21090-108">Ei-ylitettävät rajoitukset</span><span class="sxs-lookup"><span data-stu-id="21090-108">Not-to-exceed limits</span></span> 
+  - <span data-ttu-id="21090-109">Projektipohjaisella tarjousrivillä määritetyt laskun toistumisasetukset</span><span class="sxs-lookup"><span data-stu-id="21090-109">Invoice frequency settings defined on the project-based quote line</span></span>
 
-<span data-ttu-id="2fa2e-110">Sisällytettyjen komponenttien alijoukko voidaan merkitä laskutettaviksi **laskutustyyppi**-kentän avulla.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-110">A subset of the included components can be marked as chargeable using the **Billing Type** field.</span></span> <span data-ttu-id="2fa2e-111">**Laskutustyyppi**-kenttä on asetusjoukko, joka sallii seuraavat arvot tarjousrivin kontekstissa:</span><span class="sxs-lookup"><span data-stu-id="2fa2e-111">The **Billing Type** field is an option-set that allows the following values in the context of a quote line:</span></span>
+<span data-ttu-id="21090-110">Sisällytettyjen komponenttien alijoukko voidaan merkitä laskutettaviksi **laskutustyyppi**-kentän avulla.</span><span class="sxs-lookup"><span data-stu-id="21090-110">A subset of the included components can be marked as chargeable using the **Billing Type** field.</span></span> <span data-ttu-id="21090-111">**Laskutustyyppi**-kenttä on asetusjoukko, joka sallii seuraavat arvot tarjousrivin kontekstissa:</span><span class="sxs-lookup"><span data-stu-id="21090-111">The **Billing Type** field is an option-set that allows the following values in the context of a quote line:</span></span>
 
-  - <span data-ttu-id="2fa2e-112">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-112">Chargeable</span></span>
-  - <span data-ttu-id="2fa2e-113">Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-113">Non-chargeable</span></span>
+  - <span data-ttu-id="21090-112">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-112">Chargeable</span></span>
+  - <span data-ttu-id="21090-113">Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-113">Non-chargeable</span></span>
 
-<span data-ttu-id="2fa2e-114">Laskutettavat komponentit voidaan määrittää tehtäville, rooleille ja tapahtumaluokille.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-114">Chargeable components can be defined on tasks, roles, and transaction categories.</span></span>
+<span data-ttu-id="21090-114">Laskutettavat komponentit voidaan määrittää tehtäville, rooleille ja tapahtumaluokille.</span><span class="sxs-lookup"><span data-stu-id="21090-114">Chargeable components can be defined on tasks, roles, and transaction categories.</span></span>
 
-<span data-ttu-id="2fa2e-115">Maksukyky määritetään tarjousrivin tehtäville, ja se koskee kaikkia siihen riviin sisältyviä tapahtumaluokkia.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-115">Chargeability is defined on the tasks for a quote line and applies to all transaction classes included on that line.</span></span> <span data-ttu-id="2fa2e-116">Jos sopimusrivin **Sisällytä tehtävät** -kentän asetus on **Koko projekti** tai se on jätetty tyhjäksi, **Veloitettavat tehtävät** -välilehti ei ole käytettävissä.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-116">If the **Include Tasks** field is set to **Entire project** or left blank, the **Chargeable Tasks** tab isn't available.</span></span>
+<span data-ttu-id="21090-115">Maksukyky määritetään tarjousrivin tehtäville, ja se koskee kaikkia siihen riviin sisältyviä tapahtumaluokkia.</span><span class="sxs-lookup"><span data-stu-id="21090-115">Chargeability is defined on the tasks for a quote line and applies to all transaction classes included on that line.</span></span> <span data-ttu-id="21090-116">Jos sopimusrivin **Sisällytä tehtävät** -kentän asetus on **Koko projekti** tai se on jätetty tyhjäksi, **Veloitettavat tehtävät** -välilehti ei ole käytettävissä.</span><span class="sxs-lookup"><span data-stu-id="21090-116">If the **Include Tasks** field is set to **Entire project** or left blank, the **Chargeable Tasks** tab isn't available.</span></span>
 
-<span data-ttu-id="2fa2e-117">Laskutettavuus määritetään tarjousrivin rooleissa, ja se koskee vain **Ajan** tapahtumaluokkaa.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-117">Chargeability is defined on roles for a quote line and only applies to the **Time** transaction class.</span></span> <span data-ttu-id="2fa2e-118">Jos **Sisällytä aika** -kentän asetus on **Ei** projektitarjousrivillä, **Veloitettavat roolit** -välilehti ei ole käytettävissä.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-118">If the field, **Include Time** is set to **No** on a project quote line, the **Chargeable Roles** tab isn't available.</span></span>
+<span data-ttu-id="21090-117">Laskutettavuus määritetään tarjousrivin rooleissa, ja se koskee vain **Ajan** tapahtumaluokkaa.</span><span class="sxs-lookup"><span data-stu-id="21090-117">Chargeability is defined on roles for a quote line and only applies to the **Time** transaction class.</span></span> <span data-ttu-id="21090-118">Jos **Sisällytä aika** -kentän asetus on **Ei** projektitarjousrivillä, **Veloitettavat roolit** -välilehti ei ole käytettävissä.</span><span class="sxs-lookup"><span data-stu-id="21090-118">If the field, **Include Time** is set to **No** on a project quote line, the **Chargeable Roles** tab isn't available.</span></span>
 
-<span data-ttu-id="2fa2e-119">Veloitettavuus määritetään tarjousrivin tapahtumaluokissa ja koskee vain **Kulu**-tapahtumaluokkaa.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-119">Chargeability is defined on transaction categories for a  quote line and only applies to the **Expense** transaction class.</span></span> <span data-ttu-id="2fa2e-120">Jos **Sisällytä kulut** -kentän asetus on **Ei** projektitarjousrivillä, **Veloitettavat luokat** -välilehti ei ole käytettävissä.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-120">If the field, **Include Expenses** is set to **No** on a project quote line, the **Chargeable Categories** tab isn't available.</span></span>
+<span data-ttu-id="21090-119">Veloitettavuus määritetään tarjousrivin tapahtumaluokissa ja koskee vain **Kulu**-tapahtumaluokkaa.</span><span class="sxs-lookup"><span data-stu-id="21090-119">Chargeability is defined on transaction categories for a  quote line and only applies to the **Expense** transaction class.</span></span> <span data-ttu-id="21090-120">Jos **Sisällytä kulut** -kentän asetus on **Ei** projektitarjousrivillä, **Veloitettavat luokat** -välilehti ei ole käytettävissä.</span><span class="sxs-lookup"><span data-stu-id="21090-120">If the field, **Include Expenses** is set to **No** on a project quote line, the **Chargeable Categories** tab isn't available.</span></span>
 
-### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a><span data-ttu-id="2fa2e-121">Projektitehtävän päivittäminen laskutettavaksi tai ei-laskutettavaksi</span><span class="sxs-lookup"><span data-stu-id="2fa2e-121">Update a project task to be chargeable or non-chargeable</span></span>
+### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a><span data-ttu-id="21090-121">Projektitehtävän päivittäminen laskutettavaksi tai ei-laskutettavaksi</span><span class="sxs-lookup"><span data-stu-id="21090-121">Update a project task to be chargeable or non-chargeable</span></span>
 
-<span data-ttu-id="2fa2e-122">Projektitehtävä voi olla laskutettava tai ei-laskutettava tietyn projektipohjaisen tarjousrivin yhteydessä, mikä mahdollistaa seuraavan asennuksen:</span><span class="sxs-lookup"><span data-stu-id="2fa2e-122">A project task can be chargeable or non-chargeable in the context of a specific project-based quote line, which makes the following setup possible:</span></span>
+<span data-ttu-id="21090-122">Projektitehtävä voi olla laskutettava tai ei-laskutettava tietyn projektipohjaisen tarjousrivin yhteydessä, mikä mahdollistaa seuraavan asennuksen.</span><span class="sxs-lookup"><span data-stu-id="21090-122">A project task can be chargeable or non-chargeable in the context of a specific project-based quote line, which makes the following setup possible.</span></span>
 
-<span data-ttu-id="2fa2e-123">Jos projektiin perustuva tarjousrivi sisältää **Ajan** ja tehtävän **T1**, tehtävä liitetään tarjousriviin laskutettavana.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-123">If a project-based quote line includes **Time** and the task **T1**, the task is associated to the quote line as chargeable.</span></span> <span data-ttu-id="2fa2e-124">Jos on olemassa toinen tarjousrivi, joka sisältää **Kulut**, voit liittää **T1**-tehtävän tarjousriviin ei-laskutettavana.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-124">If there is a second quote line that includes **Expenses**, you can associate the **T1** task on the quote line as non-chargeable.</span></span> <span data-ttu-id="2fa2e-125">Tuloksena on, että kaikki tehtävään kirjattu aika on laskutettavaa ja kaikki tehtävään kirjatut kulut ovat ei-laskutettavia.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-125">The result is that all time recorded on the task is chargeable and all expenses recorded on the task are non-chargeable.</span></span>
+<span data-ttu-id="21090-123">Jos projektiin perustuva tarjousrivi sisältää **Ajan** ja tehtävän **T1**, tehtävä liitetään tarjousriviin laskutettavana.</span><span class="sxs-lookup"><span data-stu-id="21090-123">If a project-based quote line includes **Time** and the task **T1**, the task is associated to the quote line as chargeable.</span></span> <span data-ttu-id="21090-124">Jos on olemassa toinen tarjousrivi, joka sisältää **Kulut**, voit liittää **T1**-tehtävän tarjousriviin ei-laskutettavana.</span><span class="sxs-lookup"><span data-stu-id="21090-124">If there is a second quote line that includes **Expenses**, you can associate the **T1** task on the quote line as non-chargeable.</span></span> <span data-ttu-id="21090-125">Tuloksena on, että kaikki tehtävään kirjattu aika on laskutettavaa ja kaikki tehtävään kirjatut kulut ovat ei-laskutettavia.</span><span class="sxs-lookup"><span data-stu-id="21090-125">The result is that all time recorded on the task is chargeable and all expenses recorded on the task are non-chargeable.</span></span>
 
-<span data-ttu-id="2fa2e-126">Tehtävän laskutustyyppi voidaan määrittää projektipohjaisen tarjousrivin **Veloitettavat tehtävät** -välilehdessä päivittämällä **Laskutustyyppi**-kenttä **Tarjousrivin tehtävät** -aliruudukossa.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-126">A task's billing type can be configured on the **Chargeable Tasks** tab of a project-based quote line by updating the **Billing Type** field on the **Quote Line Tasks** subgrid.</span></span> <span data-ttu-id="2fa2e-127">Vaihtoehtoisesti projektitehtävän laskutustyyppi voidaan päivittää sen aliruudukon **Laskutustyyppi**-kentässä, joka on tehtävään liitetyt tarjousrivit näyttävän projektin tehtävän laskutusasetuksissa.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-127">Alternatively, you can update the billing type for a project task in the **Billing Type** field on the subgrid on the task billing setup of a project that shows the quote lines associated to a task.</span></span>
+<span data-ttu-id="21090-126">Tehtävän laskutustyyppi voidaan määrittää projektipohjaisen tarjousrivin **Veloitettavat tehtävät** -välilehdessä päivittämällä **Laskutustyyppi**-kenttä **Tarjousrivin tehtävät** -aliruudukossa.</span><span class="sxs-lookup"><span data-stu-id="21090-126">A task's billing type can be configured on the **Chargeable Tasks** tab of a project-based quote line by updating the **Billing Type** field on the **Quote Line Tasks** subgrid.</span></span> <span data-ttu-id="21090-127">Vaihtoehtoisesti projektitehtävän laskutustyyppi voidaan päivittää sen aliruudukon **Laskutustyyppi**-kentässä, joka on tehtävään liitetyt tarjousrivit näyttävän projektin tehtävän laskutusasetuksissa.</span><span class="sxs-lookup"><span data-stu-id="21090-127">Alternatively, you can update the billing type for a project task in the **Billing Type** field on the subgrid on the task billing setup of a project that shows the quote lines associated to a task.</span></span>
 
-### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a><span data-ttu-id="2fa2e-128">Roolin päivittäminen laskutettavaksi tai ei-laskutettavaksi</span><span class="sxs-lookup"><span data-stu-id="2fa2e-128">Update a role to be chargeable or non-chargeable</span></span>
+### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a><span data-ttu-id="21090-128">Roolin päivittäminen laskutettavaksi tai ei-laskutettavaksi</span><span class="sxs-lookup"><span data-stu-id="21090-128">Update a role to be chargeable or non-chargeable</span></span>
 
-<span data-ttu-id="2fa2e-129">Rooli voi olla laskutettava tai ei-laskutettava tietyn projektipohjaisen tarjousrivin kontekstissa.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-129">A role can be chargeable or non-chargeable in the context of a specific project-based quote line.</span></span>
+<span data-ttu-id="21090-129">Rooli voi olla laskutettava tai ei-laskutettava tietyn projektipohjaisen tarjousrivin kontekstissa.</span><span class="sxs-lookup"><span data-stu-id="21090-129">A role can be chargeable or non-chargeable in the context of a specific project-based quote line.</span></span>
 
-<span data-ttu-id="2fa2e-130">Roolin laskutustyyppi voidaan määrittää tarjousrivin **Veloitettavat roolit** -välilehdessä päivittämällä **Laskutustyyppi**-kenttä **Veloitettavat roolit** -aliruudukossa.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-130">A role's billing type can be configured on the **Chargeable Roles** tab of a quote line by updating the **Billing Type** field on the **Chargeable Roles** subgrid.</span></span>
+<span data-ttu-id="21090-130">Roolin laskutustyyppi voidaan määrittää tarjousrivin **Veloitettavat roolit** -välilehdessä päivittämällä **Laskutustyyppi**-kenttä **Veloitettavat roolit** -aliruudukossa.</span><span class="sxs-lookup"><span data-stu-id="21090-130">A role's billing type can be configured on the **Chargeable Roles** tab of a quote line by updating the **Billing Type** field on the **Chargeable Roles** subgrid.</span></span>
 
-### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a><span data-ttu-id="2fa2e-131">Päivitä tapahtumaluokka laskutettavaksi tai ei-laskutettavaksi</span><span class="sxs-lookup"><span data-stu-id="2fa2e-131">Update a transaction category to be chargeable or non-chargeable</span></span>
+### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a><span data-ttu-id="21090-131">Päivitä tapahtumaluokka laskutettavaksi tai ei-laskutettavaksi</span><span class="sxs-lookup"><span data-stu-id="21090-131">Update a transaction category to be chargeable or non-chargeable</span></span>
 
-<span data-ttu-id="2fa2e-132">Tietyn tarjousrivin tapahtumaluokka voi olla laskutettava tai ei-laskutettava.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-132">A transaction category can be chargeable or non-chargeable on a specific quote line.</span></span>
+<span data-ttu-id="21090-132">Tietyn tarjousrivin tapahtumaluokka voi olla laskutettava tai ei-laskutettava.</span><span class="sxs-lookup"><span data-stu-id="21090-132">A transaction category can be chargeable or non-chargeable on a specific quote line.</span></span>
 
-<span data-ttu-id="2fa2e-133">Tapahtuman laskutustyyppi voidaan määrittää tarjousrivin **Veloitettavat luokat** -välilehdessä päivittämällä **Laskutustyyppi**-kenttä **Veloitettavat luokat** -aliruudukossa.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-133">A transaction's billing type can be configured on the **Chargeable Categories** tab of a quote line by updating the **Billing Type** field on the **Chargeable Categories** subgrid.</span></span>
+<span data-ttu-id="21090-133">Tapahtuman laskutustyyppi voidaan määrittää tarjousrivin **Veloitettavat luokat** -välilehdessä päivittämällä **Laskutustyyppi**-kenttä **Veloitettavat luokat** -aliruudukossa.</span><span class="sxs-lookup"><span data-stu-id="21090-133">A transaction's billing type can be configured on the **Chargeable Categories** tab of a quote line by updating the **Billing Type** field on the **Chargeable Categories** subgrid.</span></span>
 
-### <a name="resolve-chargeability"></a><span data-ttu-id="2fa2e-134">Selvitä verosaatavan syntyminen</span><span class="sxs-lookup"><span data-stu-id="2fa2e-134">Resolve chargeability</span></span>
-<span data-ttu-id="2fa2e-135">Arviota tai todellista luontiaikaa voidaan pitää veloitettavissa vain, jos tarjousriville on lisätty **Aika** ja jos **Tehtävä** ja **Rooli** on määritetty laskutettaviksi tarjousrivillä.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-135">An estimate or actual created for time will only be considered chargeable if **Time** is included on the quote line, and if **Task** and **Role** are configured as chargeable on the quote line.</span></span>
+### <a name="resolve-chargeability"></a><span data-ttu-id="21090-134">Selvitä verosaatavan syntyminen</span><span class="sxs-lookup"><span data-stu-id="21090-134">Resolve chargeability</span></span>
+<span data-ttu-id="21090-135">Aikaa varten luotu arvio tai todellinen arvo katsotaan laskutettavaksi vain, jos:</span><span class="sxs-lookup"><span data-stu-id="21090-135">An estimate or actual created for time will only be considered chargeable if:</span></span>
 
-<span data-ttu-id="2fa2e-136">Arviota tai todellista kulua voidaan pitää veloitettavissa vain, jos tarjousriville on lisätty **Kulu** ja jos **Tehtävä** ja **Tapahtumaluokka** on määritetty laskutettaviksi tarjousrivillä.</span><span class="sxs-lookup"><span data-stu-id="2fa2e-136">An estimate or actual created for expense will only be considered chargeable if **Expense** is included on the quote line, and if **Task** and **Transaction Category** are configured as chargeable on the quote line.</span></span>
+   - <span data-ttu-id="21090-136">**Aika** sisältyy tarjousriviin.</span><span class="sxs-lookup"><span data-stu-id="21090-136">**Time** is included on the quote line.</span></span>
+   - <span data-ttu-id="21090-137">**Rooli** on määritetty laskutettavaksi tarjousrivillä.</span><span class="sxs-lookup"><span data-stu-id="21090-137">**Role** is configured as chargeable on the quote line.</span></span>
+   - <span data-ttu-id="21090-138">**Sisältyvät tehtävät** on määritetty **Valituiksi tehtäviksi** tarjousrivillä.</span><span class="sxs-lookup"><span data-stu-id="21090-138">**Included Tasks** is set to **Selected tasks** on the quote line.</span></span> 
 
-| <span data-ttu-id="2fa2e-137">Sisältää ajan</span><span class="sxs-lookup"><span data-stu-id="2fa2e-137">Includes Time</span></span> | <span data-ttu-id="2fa2e-138">Sisältää kulun</span><span class="sxs-lookup"><span data-stu-id="2fa2e-138">Includes Expense</span></span> | <span data-ttu-id="2fa2e-139">Sisällytettävät tehtävät</span><span class="sxs-lookup"><span data-stu-id="2fa2e-139">Included Tasks</span></span> | <span data-ttu-id="2fa2e-140">Rooli</span><span class="sxs-lookup"><span data-stu-id="2fa2e-140">Role</span></span> | <span data-ttu-id="2fa2e-141">Luokka</span><span class="sxs-lookup"><span data-stu-id="2fa2e-141">Category</span></span> | <span data-ttu-id="2fa2e-142">Tehtävä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-142">Task</span></span> | <span data-ttu-id="2fa2e-143">Laskutus</span><span class="sxs-lookup"><span data-stu-id="2fa2e-143">Billing</span></span> |
-| --- | --- | --- | --- | --- | --- | --- |
-| <span data-ttu-id="2fa2e-144">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-144">Yes</span></span> | <span data-ttu-id="2fa2e-145">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-145">Yes</span></span> | <span data-ttu-id="2fa2e-146">Koko projekti</span><span class="sxs-lookup"><span data-stu-id="2fa2e-146">Entire project</span></span> | <span data-ttu-id="2fa2e-147">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-147">Chargeable</span></span> | <span data-ttu-id="2fa2e-148">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-148">Chargeable</span></span> | <span data-ttu-id="2fa2e-149">Ei voida määrittää</span><span class="sxs-lookup"><span data-stu-id="2fa2e-149">Can't be set</span></span> | <span data-ttu-id="2fa2e-150">Laskutus toteutuneesta ajasta: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-150">Billing on a time actual: Chargeable</span></span> </br><span data-ttu-id="2fa2e-151">Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-151">Billing type on expense actual: Chargeable</span></span> |
-| <span data-ttu-id="2fa2e-152">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-152">Yes</span></span> | <span data-ttu-id="2fa2e-153">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-153">Yes</span></span> | <span data-ttu-id="2fa2e-154">Vain valitut tehtävät</span><span class="sxs-lookup"><span data-stu-id="2fa2e-154">Selected tasks only</span></span> | <span data-ttu-id="2fa2e-155">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-155">Chargeable</span></span> | <span data-ttu-id="2fa2e-156">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-156">Chargeable</span></span> | <span data-ttu-id="2fa2e-157">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-157">Chargeable</span></span> | <span data-ttu-id="2fa2e-158">Laskutus toteutuneesta ajasta: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-158">Billing on a time actual: Chargeable</span></span></br><span data-ttu-id="2fa2e-159">Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-159">Billing type on expense actual: Chargeable</span></span> |
-| <span data-ttu-id="2fa2e-160">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-160">Yes</span></span> | <span data-ttu-id="2fa2e-161">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-161">Yes</span></span> | <span data-ttu-id="2fa2e-162">Vain valitut tehtävät</span><span class="sxs-lookup"><span data-stu-id="2fa2e-162">Selected tasks only</span></span> | <span data-ttu-id="2fa2e-163">Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-163">Non-chargeable</span></span> | <span data-ttu-id="2fa2e-164">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-164">Chargeable</span></span> | <span data-ttu-id="2fa2e-165">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-165">Chargeable</span></span> | <span data-ttu-id="2fa2e-166">Laskutus toteutuneesta ajasta: Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-166">Billing on a time actual: Non-Chargeable</span></span></br><span data-ttu-id="2fa2e-167">Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-167">Billing type on expense actual: Chargeable</span></span> |
-| <span data-ttu-id="2fa2e-168">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-168">Yes</span></span> | <span data-ttu-id="2fa2e-169">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-169">Yes</span></span> | <span data-ttu-id="2fa2e-170">Vain valitut tehtävät</span><span class="sxs-lookup"><span data-stu-id="2fa2e-170">Selected tasks only</span></span> | <span data-ttu-id="2fa2e-171">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-171">Chargeable</span></span> | <span data-ttu-id="2fa2e-172">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-172">Chargeable</span></span> | <span data-ttu-id="2fa2e-173">Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-173">Non-Chargeable</span></span> | <span data-ttu-id="2fa2e-174">Laskutus toteutuneesta ajasta: Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-174">Billing on a time actual: Non-Chargeable</span></span></br> <span data-ttu-id="2fa2e-175">Laskutustyyppi tosiasiallisista kustannuksista: Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-175">Billing type on expense actual: Non-Chargeable</span></span> |
-| <span data-ttu-id="2fa2e-176">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-176">Yes</span></span> | <span data-ttu-id="2fa2e-177">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-177">Yes</span></span> | <span data-ttu-id="2fa2e-178">Vain valitut tehtävät</span><span class="sxs-lookup"><span data-stu-id="2fa2e-178">Selected tasks only</span></span> | <span data-ttu-id="2fa2e-179">Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-179">Non-Chargeable</span></span> | <span data-ttu-id="2fa2e-180">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-180">Chargeable</span></span> | <span data-ttu-id="2fa2e-181">Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-181">Non- Chargeable</span></span> | <span data-ttu-id="2fa2e-182">Laskutus toteutuneesta ajasta: Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-182">Billing on a time actual: Non-Chargeable</span></span></br> <span data-ttu-id="2fa2e-183">Laskutustyyppi tosiasiallisista kustannuksista: Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-183">Billing type on expense actual: Non-Chargeable</span></span> |
-| <span data-ttu-id="2fa2e-184">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-184">Yes</span></span> | <span data-ttu-id="2fa2e-185">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-185">Yes</span></span> | <span data-ttu-id="2fa2e-186">Vain valitut tehtävät</span><span class="sxs-lookup"><span data-stu-id="2fa2e-186">Selected tasks only</span></span> | <span data-ttu-id="2fa2e-187">Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-187">Non-Chargeable</span></span> | <span data-ttu-id="2fa2e-188">Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-188">Non-Chargeable</span></span> | <span data-ttu-id="2fa2e-189">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-189">Chargeable</span></span> | <span data-ttu-id="2fa2e-190">Laskutus toteutuneesta ajasta: Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-190">Billing on a time actual: Non-Chargeable</span></span></br> <span data-ttu-id="2fa2e-191">Laskutustyyppi tosiasiallisista kustannuksista: Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-191">Billing type on expense actual: Non-Chargeable</span></span> |
-| <span data-ttu-id="2fa2e-192">No</span><span class="sxs-lookup"><span data-stu-id="2fa2e-192">No</span></span> | <span data-ttu-id="2fa2e-193">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-193">Yes</span></span> | <span data-ttu-id="2fa2e-194">Koko projekti</span><span class="sxs-lookup"><span data-stu-id="2fa2e-194">Entire project</span></span> | <span data-ttu-id="2fa2e-195">Ei voida määrittää</span><span class="sxs-lookup"><span data-stu-id="2fa2e-195">Can't be set</span></span> | <span data-ttu-id="2fa2e-196">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-196">Chargeable</span></span> | <span data-ttu-id="2fa2e-197">Ei voida määrittää</span><span class="sxs-lookup"><span data-stu-id="2fa2e-197">Can't be set</span></span> | <span data-ttu-id="2fa2e-198">Laskutus toteutuneesta ajasta: Ei saatavilla</span><span class="sxs-lookup"><span data-stu-id="2fa2e-198">Billing on a time actual: Not available</span></span> </br><span data-ttu-id="2fa2e-199">Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-199">Billing type on expense actual: Chargeable</span></span> |
-| <span data-ttu-id="2fa2e-200">No</span><span class="sxs-lookup"><span data-stu-id="2fa2e-200">No</span></span> | <span data-ttu-id="2fa2e-201">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-201">Yes</span></span> | <span data-ttu-id="2fa2e-202">Koko projekti</span><span class="sxs-lookup"><span data-stu-id="2fa2e-202">Entire project</span></span> | <span data-ttu-id="2fa2e-203">Ei voida määrittää</span><span class="sxs-lookup"><span data-stu-id="2fa2e-203">Can't be set</span></span> | <span data-ttu-id="2fa2e-204">Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-204">Non-chargeable</span></span> | <span data-ttu-id="2fa2e-205">Ei voida määrittää</span><span class="sxs-lookup"><span data-stu-id="2fa2e-205">Can't be set</span></span> | <span data-ttu-id="2fa2e-206">Laskutus toteutuneesta ajasta: Ei saatavilla</span><span class="sxs-lookup"><span data-stu-id="2fa2e-206">Billing on a time actual: Not available</span></span> </br><span data-ttu-id="2fa2e-207">Laskutustyyppi tosiasiallisista kustannuksista: Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-207">Billing type on expense actual: Non-chargeable</span></span> |
-| <span data-ttu-id="2fa2e-208">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-208">Yes</span></span> | <span data-ttu-id="2fa2e-209">No</span><span class="sxs-lookup"><span data-stu-id="2fa2e-209">No</span></span> | <span data-ttu-id="2fa2e-210">Koko projekti</span><span class="sxs-lookup"><span data-stu-id="2fa2e-210">Entire project</span></span> | <span data-ttu-id="2fa2e-211">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-211">Chargeable</span></span> | <span data-ttu-id="2fa2e-212">Ei voida määrittää</span><span class="sxs-lookup"><span data-stu-id="2fa2e-212">Can't be set</span></span> | <span data-ttu-id="2fa2e-213">Ei voida määrittää</span><span class="sxs-lookup"><span data-stu-id="2fa2e-213">Can't be set</span></span> | <span data-ttu-id="2fa2e-214">Laskutus toteutuneesta ajasta: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-214">Billing on a time actual: Chargeable</span></span></br><span data-ttu-id="2fa2e-215">Laskutustyyppi tosiasiallisista kustannuksista: Ei saatavilla</span><span class="sxs-lookup"><span data-stu-id="2fa2e-215">Billing type on expense actual: Not available</span></span> |
-| <span data-ttu-id="2fa2e-216">Kyllä</span><span class="sxs-lookup"><span data-stu-id="2fa2e-216">Yes</span></span> | <span data-ttu-id="2fa2e-217">No</span><span class="sxs-lookup"><span data-stu-id="2fa2e-217">No</span></span> | <span data-ttu-id="2fa2e-218">Koko projekti</span><span class="sxs-lookup"><span data-stu-id="2fa2e-218">Entire project</span></span> | <span data-ttu-id="2fa2e-219">Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-219">Non-chargeable</span></span> | <span data-ttu-id="2fa2e-220">Ei voida määrittää</span><span class="sxs-lookup"><span data-stu-id="2fa2e-220">Can't be set</span></span> | <span data-ttu-id="2fa2e-221">Ei voida määrittää</span><span class="sxs-lookup"><span data-stu-id="2fa2e-221">Can't be set</span></span> | <span data-ttu-id="2fa2e-222">Laskutus toteutuneesta ajasta: Ei veloitettava</span><span class="sxs-lookup"><span data-stu-id="2fa2e-222">Billing on a time actual: Non-chargeable</span></span> </br><span data-ttu-id="2fa2e-223">Laskutustyyppi tosiasiallisista kustannuksista: Ei saatavilla</span><span class="sxs-lookup"><span data-stu-id="2fa2e-223">Billing type on expense actual: Not available</span></span> |
+<span data-ttu-id="21090-139">Jos nämä kolme asiaa ovat tosia, **Tehtävä** määritetään myös laskutettavaksi.</span><span class="sxs-lookup"><span data-stu-id="21090-139">If these three things are true, the **Task** is also configured as chargeable.</span></span> 
+
+<span data-ttu-id="21090-140">Kulua varten luotu arvio tai todellinen arvo katsotaan laskutettavaksi vain, jos:</span><span class="sxs-lookup"><span data-stu-id="21090-140">An estimate or actual created for expense is only considered chargeable if:</span></span> 
+
+   - <span data-ttu-id="21090-141">**Kulu** sisältyy tarjousriviin.</span><span class="sxs-lookup"><span data-stu-id="21090-141">**Expense** is included on the quote line.</span></span>
+   - <span data-ttu-id="21090-142">**Tapahtumaluokka** on määritetty laskutettavaksi tarjousrivillä.</span><span class="sxs-lookup"><span data-stu-id="21090-142">**Transaction category** is configured as chargeable on the quote line.</span></span>
+   - <span data-ttu-id="21090-143">**Sisältyvät tehtävät** on määritetty **Valituiksi tehtäviksi** tarjousrivillä.</span><span class="sxs-lookup"><span data-stu-id="21090-143">**Included Tasks** is set to **Selected tasks** on the quote line.</span></span>
+
+<span data-ttu-id="21090-144">Jos nämä kolme asiaa ovat tosia, **Tehtävä** määritetään myös laskutettavaksi.</span><span class="sxs-lookup"><span data-stu-id="21090-144">If these three things are true, the **Task** is also configured as chargeable.</span></span> 
+
+<span data-ttu-id="21090-145">Materiaalia varten luotu arvio tai todellinen arvo katsotaan laskutettavaksi vain, jos:</span><span class="sxs-lookup"><span data-stu-id="21090-145">An estimate or actual created for material will only be considered chargeable if:</span></span>
+
+   - <span data-ttu-id="21090-146">**Materiaalit** sisältyy tarjousriviin.</span><span class="sxs-lookup"><span data-stu-id="21090-146">**Materials** is included on the quote line.</span></span>
+   - <span data-ttu-id="21090-147">**Sisältyvät tehtävät** on määritetty **Valituiksi tehtäviksi** tarjousrivillä.</span><span class="sxs-lookup"><span data-stu-id="21090-147">**Included Tasks** is set to **Selected tasks** on the quote line.</span></span>
+
+<span data-ttu-id="21090-148">Jos nämä kaksi asiaa ovat tosia, **Tehtävä** tulisi myös määrittää laskutettavaksi.</span><span class="sxs-lookup"><span data-stu-id="21090-148">If these two things are true, the **Task** should also be configured as chargeable.</span></span> 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="21090-149">
+                    <strong>Sisältää ajan</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-149">
+                    <strong>Includes Time</strong>
+                </span></span></p>
+            </td>
+            <td width="78" valign="top">
+                <p><span data-ttu-id="21090-150">
+                    <strong>Sisältää kulun</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-150">
+                    <strong>Includes Expense</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="63" valign="top">
+                <p><span data-ttu-id="21090-151">
+                    <strong>Sisältää materiaalit</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-151">
+                    <strong>Includes Materials</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="75" valign="top">
+                <p><span data-ttu-id="21090-152">
+                    <strong>Sisällytettävät tehtävät</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-152">
+                    <strong>Included Tasks</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="21090-153">
+                    <strong>Rooli</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-153">
+                    <strong>Role</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="21090-154">
+                    <strong>Luokka</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-154">
+                    <strong>Category</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="21090-155">
+                    <strong>Tehtävä</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-155">
+                    <strong>Task</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="350" valign="top">
+                <p><span data-ttu-id="21090-156">
+                    <strong>Laskutettavuusvaikutus</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-156">
+                    <strong>Chargeability impact</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-157">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-157">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="21090-158">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-158">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="21090-159">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-159">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="21090-160">Koko projekti</span><span class="sxs-lookup"><span data-stu-id="21090-160">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-161">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-161">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-162">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-162">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-163">Ei voi määrittää</span><span class="sxs-lookup"><span data-stu-id="21090-163">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="21090-164">Laskutus toteutuneesta ajasta: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-164">Billing on a time actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="21090-165">Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-165">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="21090-166">Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-166">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-167">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-167">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="21090-168">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-168">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="21090-169">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-169">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="21090-170">Vain valitut tehtävät</span><span class="sxs-lookup"><span data-stu-id="21090-170">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-171">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-171">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-172">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-172">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-173">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-173">Chargeable</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="21090-174">Laskutus toteutuneesta ajasta: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-174">Billing on a time actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="21090-175">Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-175">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="21090-176">Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-176">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-177">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-177">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="21090-178">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-178">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="21090-179">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-179">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="21090-180">Vain valitut tehtävät</span><span class="sxs-lookup"><span data-stu-id="21090-180">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="21090-181">
+                    <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-181">
+                    <strong>Non - Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-182">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-182">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-183">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-183">Chargeable</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="21090-184">Laskutus toteutuneesta ajasta: <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-184">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-185">Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-185">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="21090-186">Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-186">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-187">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-187">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="21090-188">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-188">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="21090-189">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-189">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="21090-190">Vain valitut tehtävät</span><span class="sxs-lookup"><span data-stu-id="21090-190">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-191">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-191">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-192">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-192">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="21090-193">
+                    <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-193">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="21090-194">Laskutus toteutuneesta ajasta: <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-194">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-195">Laskutustyyppi kulujen toteutuneista arvoista: <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-195">Billing type on expense actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-196">Laskutustyyppi materiaalin toteutuneista arvoista: <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-196">Billing type on material actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-197">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-197">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="21090-198">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-198">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="21090-199">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-199">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="21090-200">Vain valitut tehtävät</span><span class="sxs-lookup"><span data-stu-id="21090-200">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="21090-201">
+                    <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-201">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-202">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-202">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="21090-203">
+                    <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-203">
+                    <strong>Non- Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="21090-204">Laskutus toteutuneesta ajasta: <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-204">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-205">Laskutustyyppi kulujen toteutuneista arvoista: <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-205">Billing type on expense actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-206">Laskutustyyppi materiaalin toteutuneista arvoista: <strong> Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-206">Billing type on material actual: <strong> Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-207">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-207">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="21090-208">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-208">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="21090-209">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-209">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="21090-210">Vain valitut tehtävät</span><span class="sxs-lookup"><span data-stu-id="21090-210">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="21090-211">
+                    <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-211">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="21090-212">
+                    <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-212">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-213">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-213">Chargeable</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="21090-214">Laskutus toteutuneesta ajasta: <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-214">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-215">Laskutustyyppi kulujen toteutuneista arvoista: <strong> Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-215">Billing type on expense actual: <strong> Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-216">Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-216">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="21090-217">
+                    <strong>No</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-217">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="21090-218">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-218">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="21090-219">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-219">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="21090-220">Koko projekti</span><span class="sxs-lookup"><span data-stu-id="21090-220">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-221">Ei voi määrittää</span><span class="sxs-lookup"><span data-stu-id="21090-221">Cannot be set</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="21090-222">
+                    <strong>Veloitettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-222">
+                    <strong>Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-223">Ei voi määrittää</span><span class="sxs-lookup"><span data-stu-id="21090-223">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="21090-224">Laskutus ajan toteutuneesta arvosta: <strong>Ei saatavilla</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-224">Billing on a time actual: <strong>Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-225">Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-225">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="21090-226">Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-226">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="21090-227">
+                    <strong>No</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-227">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="21090-228">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-228">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="21090-229">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-229">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="21090-230">Koko projekti</span><span class="sxs-lookup"><span data-stu-id="21090-230">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-231">Ei voi määrittää</span><span class="sxs-lookup"><span data-stu-id="21090-231">Cannot be set</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="21090-232">
+                    <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-232">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-233">Ei voi määrittää</span><span class="sxs-lookup"><span data-stu-id="21090-233">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="21090-234">Laskutus ajan toteutuneesta arvosta: <strong>Ei saatavilla</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-234">Billing on a time actual: <strong>Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-235">Laskutustyyppi kulujen toteutuneista arvoista: <strong> Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-235">Billing type on expense actual: <strong> Non-chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-236">Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-236">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-237">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-237">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p><span data-ttu-id="21090-238">
+                    <strong>No</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-238">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="21090-239">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-239">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="21090-240">Koko projekti</span><span class="sxs-lookup"><span data-stu-id="21090-240">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-241">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-241">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-242">Ei voi määrittää</span><span class="sxs-lookup"><span data-stu-id="21090-242">Cannot be set</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-243">Ei voi määrittää</span><span class="sxs-lookup"><span data-stu-id="21090-243">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="21090-244">Laskutus toteutuneesta ajasta: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-244">Billing on a time actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="21090-245">Laskutustyyppi kulujen toteutuneista arvoista:<strong> Ei saatavilla</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-245">Billing type on expense actual:<strong> Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-246">Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-246">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-247">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-247">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p><span data-ttu-id="21090-248">
+                    <strong>No</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-248">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="21090-249">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-249">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="21090-250">Koko projekti</span><span class="sxs-lookup"><span data-stu-id="21090-250">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="21090-251">
+                    <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-251">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-252">Ei voi määrittää</span><span class="sxs-lookup"><span data-stu-id="21090-252">Cannot be set</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-253">Ei voi määrittää</span><span class="sxs-lookup"><span data-stu-id="21090-253">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="21090-254">Laskutus ajan toteutuneesta arvosta: <strong>Ei-laskutettava </strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-254">Billing on a time actual: <strong>Non-chargeable </strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-255">Laskutustyyppi kulujen toteutuneista arvoista:<strong> Ei saatavilla</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-255">Billing type on expense actual:<strong> Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-256">Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-256">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-257">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-257">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="21090-258">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-258">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p><span data-ttu-id="21090-259">
+                    <strong>No</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-259">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="21090-260">Koko projekti</span><span class="sxs-lookup"><span data-stu-id="21090-260">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-261">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-261">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-262">Veloitettava</span><span class="sxs-lookup"><span data-stu-id="21090-262">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-263">Ei voi määrittää</span><span class="sxs-lookup"><span data-stu-id="21090-263">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="21090-264">Laskutus toteutuneesta ajasta: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-264">Billing on a time actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="21090-265">Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava</span><span class="sxs-lookup"><span data-stu-id="21090-265">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="21090-266">Laskutustyyppi materiaalin toteutuneista arvoista: <strong> Ei saatavilla</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-266">Billing type on material actual: <strong> Not available</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="21090-267">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-267">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="21090-268">Kyllä</span><span class="sxs-lookup"><span data-stu-id="21090-268">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p><span data-ttu-id="21090-269">
+                    <strong>No</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-269">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="21090-270">Koko projekti</span><span class="sxs-lookup"><span data-stu-id="21090-270">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="21090-271">
+                    <strong>Ei-laskutettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-271">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="21090-272">
+                    <strong>Ei veloitettava</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-272">
+                    <strong>Non-chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="21090-273">Ei voi määrittää</span><span class="sxs-lookup"><span data-stu-id="21090-273">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="21090-274">Laskutus ajan toteutuneesta arvosta: <strong>Ei-laskutettava </strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-274">Billing on a time actual: <strong>Non-chargeable </strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-275">Laskutustyyppi kulujen toteutuneista arvoista:<strong> Ei-laskutettava </strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-275">Billing type on expense actual:<strong> Non-chargeable </strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="21090-276">Laskutustyyppi materiaalin toteutuneista arvoista:<strong> Ei saatavilla</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="21090-276">Billing type on material actual:<strong> Not available</strong>
+                </span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

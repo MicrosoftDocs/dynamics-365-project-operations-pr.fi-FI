@@ -3,60 +3,63 @@ title: Hyväksyntöjen yleiskatsaus
 description: Tämä aihe tarjoaa tietoja hyväksymisten käsittelemisestä Project Operationsissa.
 author: stsporen
 manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: a7573b95998387453b72dbcb73c3de977ed7d913
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290354"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852495"
 ---
-# <a name="approvals-overview"></a><span data-ttu-id="8b130-103">Hyväksyntöjen yleiskatsaus</span><span class="sxs-lookup"><span data-stu-id="8b130-103">Approvals overview</span></span>
+# <a name="approvals-overview"></a><span data-ttu-id="ab958-103">Hyväksyntöjen yleiskatsaus</span><span class="sxs-lookup"><span data-stu-id="ab958-103">Approvals overview</span></span>
 
-<span data-ttu-id="8b130-104">_**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_</span><span class="sxs-lookup"><span data-stu-id="8b130-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="ab958-104">_**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_</span><span class="sxs-lookup"><span data-stu-id="ab958-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="8b130-105">Ajan ja kulujen lähetykset siirtyvät hyväksymisen työnkulun läpi.</span><span class="sxs-lookup"><span data-stu-id="8b130-105">Time and Expense submissions move through an approval workflow.</span></span> <span data-ttu-id="8b130-106">Kun tapahtumat on hyväksytty, tapahtumat kirjataan toteutuneisiin tai aika varataan aikataulussa.</span><span class="sxs-lookup"><span data-stu-id="8b130-106">After the entries are approved, transactions are recorded in actuals or time is booked in the schedule.</span></span>
+<span data-ttu-id="ab958-105">Ajan, kulun ja materiaalin käytön lähetykset liikkuvat hyväksynnän työnkulun läpi.</span><span class="sxs-lookup"><span data-stu-id="ab958-105">Time, expense, and material usage submissions move through an approval workflow.</span></span> <span data-ttu-id="ab958-106">Kun tapahtumat on hyväksytty, tapahtumat kirjataan toteutuneisiin tai aika varataan aikataulussa.</span><span class="sxs-lookup"><span data-stu-id="ab958-106">After the entries are approved, transactions are recorded in actuals or time is booked in the schedule.</span></span>
 
-## <a name="approvals-workflow"></a><span data-ttu-id="8b130-107">Hyväksyntätyönkulku</span><span class="sxs-lookup"><span data-stu-id="8b130-107">Approvals workflow</span></span>
-<span data-ttu-id="8b130-108">Kun luot ja lähetät aika- tai kulutapahtuman, järjestelmä luo hyväksymismerkinnän.</span><span class="sxs-lookup"><span data-stu-id="8b130-108">When you create and submit a time or expense entry, an approval entry is created.</span></span> <span data-ttu-id="8b130-109">Projektin hyväksyjä tai esimies tarkistaa ja hyväksyy merkinnän.</span><span class="sxs-lookup"><span data-stu-id="8b130-109">The Project approver or your manager reviews and approves your entry.</span></span> <span data-ttu-id="8b130-110">Jos merkintä liittyy projektiin, todelliset arvot luodaan, kun se on hyväksytty.</span><span class="sxs-lookup"><span data-stu-id="8b130-110">If the entry is related to a project, when it's approved, the actuals will be created.</span></span> <span data-ttu-id="8b130-111">Tämä sallii kustannusten ja laskutuksen seurannan.</span><span class="sxs-lookup"><span data-stu-id="8b130-111">This allows the cost and billing to be tracked.</span></span> 
+## <a name="approvals-workflow"></a><span data-ttu-id="ab958-107">Hyväksyntätyönkulku</span><span class="sxs-lookup"><span data-stu-id="ab958-107">Approvals workflow</span></span>
+<span data-ttu-id="ab958-108">Kun luot ja lähetät ajan, kulun tai materiaalin käytön merkinnän, luodaan hyväksyntätietue.</span><span class="sxs-lookup"><span data-stu-id="ab958-108">When you create and submit a time, expense, or material usage entry, an approval record is created.</span></span> <span data-ttu-id="ab958-109">Projektin hyväksyjä tai esimies arvioi ja hyväksyy merkinnän.</span><span class="sxs-lookup"><span data-stu-id="ab958-109">The project approver or manager reviews and approves the entry.</span></span> <span data-ttu-id="ab958-110">Jos merkintä liittyy projektiin, toteutuneet arvot luodaan, kun se hyväksytään.</span><span class="sxs-lookup"><span data-stu-id="ab958-110">If the entry is related to a project, the actuals will be created when it's approved.</span></span> <span data-ttu-id="ab958-111">Tämä sallii kustannusten ja laskutuksen seurannan.</span><span class="sxs-lookup"><span data-stu-id="ab958-111">This allows the cost and billing to be tracked.</span></span>
 
-## <a name="approve-an-entry"></a><span data-ttu-id="8b130-112">Merkinnän hyväksyminen</span><span class="sxs-lookup"><span data-stu-id="8b130-112">Approve an entry</span></span>
-<span data-ttu-id="8b130-113">**Hyväksynnät**-lomakkeen avulla voit siirtyä eri näkymien välillä niin, että voit tarkastella eri hyväksyntöjen tyyppejä.</span><span class="sxs-lookup"><span data-stu-id="8b130-113">The **Approvals** form allows you to switch between different views so that you can view the different types of approvals.</span></span>
+## <a name="approve-an-entry"></a><span data-ttu-id="ab958-112">Merkinnän hyväksyminen</span><span class="sxs-lookup"><span data-stu-id="ab958-112">Approve an entry</span></span>
+<span data-ttu-id="ab958-113">**Hyväksynnät**-sivulla voit siirtyä eri näkymien välillä niin, että voit tarkastella erityyppisiä hyväksyntöjä.</span><span class="sxs-lookup"><span data-stu-id="ab958-113">The **Approvals** page allows you to switch between different views so that you can view the different types of approvals.</span></span>
   
-1. <span data-ttu-id="8b130-114">Siirry **Hyväksynnät**-lomakkeeseen ja valitse **Kulut**, **Aika** tai **Peruutukset**.</span><span class="sxs-lookup"><span data-stu-id="8b130-114">Go to the **Approvals** form and select **Expenses**, **Time**, or **Recalls**.</span></span>
-2. <span data-ttu-id="8b130-115">Tarkista kukin hyväksyntä ja valitse ne, jotka haluat hyväksyä.</span><span class="sxs-lookup"><span data-stu-id="8b130-115">Review each approval, and select the ones you want to approve.</span></span>
-3. <span data-ttu-id="8b130-116">Hyväksy valitut tapahtumat valitsemalla **Hyväksy**.</span><span class="sxs-lookup"><span data-stu-id="8b130-116">Select **Approve** to approve the selected entries.</span></span>
-<span data-ttu-id="8b130-117">Järjestelmä käsittelee nämä merkinnät ja luo toteutuneet arvot tai varauksen.</span><span class="sxs-lookup"><span data-stu-id="8b130-117">The system will process these entries and create actuals or a booking.</span></span>
+1. <span data-ttu-id="ab958-114">Siirry **Hyväksynnät**-sivulle ja valitse **Kulut**, **Aika**, **Materiaalin käyttö** tai **Peruutukset**.</span><span class="sxs-lookup"><span data-stu-id="ab958-114">Go to the **Approvals** page and select **Expenses**, **Time**, **Material Usage**, or **Recalls**.</span></span>
+2. <span data-ttu-id="ab958-115">Tarkista kukin hyväksyntä ja valitse ne, jotka haluat hyväksyä.</span><span class="sxs-lookup"><span data-stu-id="ab958-115">Review each approval, and select the ones you want to approve.</span></span>
+3. <span data-ttu-id="ab958-116">Hyväksy valitut tapahtumat valitsemalla **Hyväksy**.</span><span class="sxs-lookup"><span data-stu-id="ab958-116">Select **Approve** to approve the selected entries.</span></span>
+<span data-ttu-id="ab958-117">Järjestelmä käsittelee nämä merkinnät ja luo toteutuneet arvot.</span><span class="sxs-lookup"><span data-stu-id="ab958-117">The system processes these entries and create actuals.</span></span>
 
-## <a name="reject-an-entry"></a><span data-ttu-id="8b130-118">Tietueen hylkääminen</span><span class="sxs-lookup"><span data-stu-id="8b130-118">Reject an entry</span></span>
-<span data-ttu-id="8b130-119">Projektin hyväksyjänä sinun täytyy ehkä lähettää tapahtuma uudelleen käyttäjälle korjausta varten.</span><span class="sxs-lookup"><span data-stu-id="8b130-119">As the Project approver, you may have to send an entry back to a user for correction.</span></span>
+## <a name="reject-an-entry"></a><span data-ttu-id="ab958-118">Tietueen hylkääminen</span><span class="sxs-lookup"><span data-stu-id="ab958-118">Reject an entry</span></span>
+<span data-ttu-id="ab958-119">Projektin hyväksyjänä sinun täytyy ehkä lähettää tapahtuma uudelleen käyttäjälle korjausta varten.</span><span class="sxs-lookup"><span data-stu-id="ab958-119">As the Project approver, you may have to send an entry back to a user for correction.</span></span>
   
-1. <span data-ttu-id="8b130-120">Siirry **Hyväksynnät**-lomakkeeseen ja valitse hylättävä tapahtuma.</span><span class="sxs-lookup"><span data-stu-id="8b130-120">Go to the **Approvals** form and select the entry to reject.</span></span> 
-2. <span data-ttu-id="8b130-121">Valitse **Hylkää**.</span><span class="sxs-lookup"><span data-stu-id="8b130-121">Select **Reject**.</span></span>
-3. <span data-ttu-id="8b130-122">Valinnainen – Voit lisätä kommentin **Hylkäyksen kommentit** -valintaikkunaan ja ilmoittaa käyttäjälle, miksi merkintä hylätään.</span><span class="sxs-lookup"><span data-stu-id="8b130-122">Optional - Add a comment in the **Rejection Comments** dialog to inform the user why the entry is being rejected.</span></span>
-4. <span data-ttu-id="8b130-123">Valitse **OK**.</span><span class="sxs-lookup"><span data-stu-id="8b130-123">Select **OK**.</span></span> <span data-ttu-id="8b130-124">Tapahtuma palautetaan käyttäjälle.</span><span class="sxs-lookup"><span data-stu-id="8b130-124">The entry will be returned to the user.</span></span>
+1. <span data-ttu-id="ab958-120">Siirry **Hyväksynnät**-sivulle ja valitse hylättävä merkintä.</span><span class="sxs-lookup"><span data-stu-id="ab958-120">Go to the **Approvals** page and select the entry to reject.</span></span> 
+2. <span data-ttu-id="ab958-121">Valitse **Hylkää**.</span><span class="sxs-lookup"><span data-stu-id="ab958-121">Select **Reject**.</span></span>
+3. <span data-ttu-id="ab958-122">Valinnaisesti voit lisätä kommentin **Hylkäyskommemmentit**-valintaikkunaan ja ilmoittaa käyttäjälle, miksi merkintä hylätään.</span><span class="sxs-lookup"><span data-stu-id="ab958-122">Optional, add a comment in the **Rejection Comments** dialog box to inform the user why the entry is being rejected.</span></span>
+4. <span data-ttu-id="ab958-123">Valitse **OK**.</span><span class="sxs-lookup"><span data-stu-id="ab958-123">Select **OK**.</span></span> <span data-ttu-id="ab958-124">Tapahtuma palautetaan käyttäjälle.</span><span class="sxs-lookup"><span data-stu-id="ab958-124">The entry will be returned to the user.</span></span>
   
-## <a name="recall-entries"></a><span data-ttu-id="8b130-125">Merkintöjen peruuttaminen</span><span class="sxs-lookup"><span data-stu-id="8b130-125">Recall entries</span></span>
-<span data-ttu-id="8b130-126">Jossakin vaiheessa on ehkä peruutettava lähetetty tapahtuma.</span><span class="sxs-lookup"><span data-stu-id="8b130-126">At some point, you might need to recall a submitted entry.</span></span> <span data-ttu-id="8b130-127">Jos tapahtumaa ei ole hyväksytty, se palautetaan heti.</span><span class="sxs-lookup"><span data-stu-id="8b130-127">If the entry has not been approved, it will be returned immediately.</span></span> <span data-ttu-id="8b130-128">Hyväksytyllä tapahtumalla voi kuitenkin olla merkittävä vaikutus.</span><span class="sxs-lookup"><span data-stu-id="8b130-128">An approved entry however, may have a material impact.</span></span> <span data-ttu-id="8b130-129">Projektin hyväksyjän on hyväksyttävä peruutus, jotta tapahtuma voidaan palauttaa toteutuneissa arvoissa.</span><span class="sxs-lookup"><span data-stu-id="8b130-129">The Project approver is required to approve the recall in order to reverse the transaction in Actuals.</span></span>
+## <a name="cancel-approval"></a><span data-ttu-id="ab958-125">Peruuta hyväksyntä</span><span class="sxs-lookup"><span data-stu-id="ab958-125">Cancel approval</span></span>
+<span data-ttu-id="ab958-126">Joissakin tapauksissa aiemmin hyväksytty merkintä on ehkä peruutettava.</span><span class="sxs-lookup"><span data-stu-id="ab958-126">In some cases, you might need to cancel a previously approved entry.</span></span> <span data-ttu-id="ab958-127">Aiemmin hyväksytyn merkinnän peruuttaminen vaikuttaa taloustietoihin.</span><span class="sxs-lookup"><span data-stu-id="ab958-127">Canceling a previously approved entry will have a financial impact.</span></span> 
 
-## <a name="specify-project-approvers"></a><span data-ttu-id="8b130-130">Määritä projektin hyväksyjät</span><span class="sxs-lookup"><span data-stu-id="8b130-130">Specify Project approvers</span></span>
-<span data-ttu-id="8b130-131">Kullakin projektilla on useita projektiryhmän jäseniä.</span><span class="sxs-lookup"><span data-stu-id="8b130-131">Each project has a number of project team members.</span></span> <span data-ttu-id="8b130-132">Voit määrittää, mitkä ryhmän jäsenet ovat myös projektin hyväksyjiä.</span><span class="sxs-lookup"><span data-stu-id="8b130-132">You can specify which team members are also Project approvers.</span></span>
+## <a name="approving-recall-requests"></a><span data-ttu-id="ab958-128">Peruutuspyyntöjen hyväksyminen</span><span class="sxs-lookup"><span data-stu-id="ab958-128">Approving recall requests</span></span>
+<span data-ttu-id="ab958-129">Joissakin tapauksissa konsultin on ehkä syytä peruuttaa aiemmin hyväksytty merkintä.</span><span class="sxs-lookup"><span data-stu-id="ab958-129">In some cases, a consultant may need to recall a previously approved entry.</span></span> <span data-ttu-id="ab958-130">Aiemmin hyväksytyn merkinnän peruuttaminen vaikuttaa taloustietoihin.</span><span class="sxs-lookup"><span data-stu-id="ab958-130">Canceling a previously approved entry will have a financial impact.</span></span> <span data-ttu-id="ab958-131">Projektin hyväksyjän on hyväksyttävä peruutus, jotta tapahtuma voidaan kumota toteutuneissa arvoissa.</span><span class="sxs-lookup"><span data-stu-id="ab958-131">The project approver is required to approve the recall to reverse the transaction in Actuals.</span></span>
 
-1. <span data-ttu-id="8b130-133">Siirry **Projektit**-lomakkeeseen ja avaa projekti luettelosta.</span><span class="sxs-lookup"><span data-stu-id="8b130-133">Go to the **Projects** form and open the project from the list.</span></span>
-2. <span data-ttu-id="8b130-134">Valitse **Ryhmä**-välilehdestä ryhmän jäsen, josta tulee projektin hyväksyjä, ja valitse sitten **Muokkaa**.</span><span class="sxs-lookup"><span data-stu-id="8b130-134">On the **Team** tab, select the team member who will be a Project approver and then select **Edit**.</span></span>
-3. <span data-ttu-id="8b130-135">Valitse **Projektin hyväksyjä** -kentässä **Kyllä**.</span><span class="sxs-lookup"><span data-stu-id="8b130-135">Set the **Project Approver** field to **Yes**.</span></span>
-4. <span data-ttu-id="8b130-136">Valitse **Tallenna**.</span><span class="sxs-lookup"><span data-stu-id="8b130-136">Select **Save**.</span></span>
-5. <span data-ttu-id="8b130-137">Lisää projektin hyväksyjiä toistamalla vaiheet 2–4.</span><span class="sxs-lookup"><span data-stu-id="8b130-137">Repeat steps 2-4 to add additional Project approvers.</span></span>
+## <a name="specify-project-approvers"></a><span data-ttu-id="ab958-132">Määritä projektin hyväksyjät</span><span class="sxs-lookup"><span data-stu-id="ab958-132">Specify Project approvers</span></span>
+<span data-ttu-id="ab958-133">Kullakin projektilla on useita projektiryhmän jäseniä.</span><span class="sxs-lookup"><span data-stu-id="ab958-133">Each project has a number of project team members.</span></span> <span data-ttu-id="ab958-134">Voit määrittää, mitkä ryhmän jäsenet ovat myös projektin hyväksyjiä.</span><span class="sxs-lookup"><span data-stu-id="ab958-134">You can specify which team members are also Project approvers.</span></span>
 
-## <a name="configure-the-users-manager"></a><span data-ttu-id="8b130-138">Käyttäjän esimiehen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="8b130-138">Configure the user's manager</span></span>
+1. <span data-ttu-id="ab958-135">Siirry **Projektit**-sivulle ja avaa projekti luettelosta.</span><span class="sxs-lookup"><span data-stu-id="ab958-135">Go to the **Projects** page and open the project from the list.</span></span>
+2. <span data-ttu-id="ab958-136">Valitse **Ryhmä**-välilehdestä ryhmän jäsen, josta tulee projektin hyväksyjä, ja valitse sitten **Muokkaa**.</span><span class="sxs-lookup"><span data-stu-id="ab958-136">On the **Team** tab, select the team member who will be a Project approver and then select **Edit**.</span></span>
+3. <span data-ttu-id="ab958-137">Valitse **Projektin hyväksyjä** -kentässä **Kyllä**.</span><span class="sxs-lookup"><span data-stu-id="ab958-137">Set the **Project Approver** field to **Yes**.</span></span>
+4. <span data-ttu-id="ab958-138">Valitse **Tallenna**.</span><span class="sxs-lookup"><span data-stu-id="ab958-138">Select **Save**.</span></span>
+5. <span data-ttu-id="ab958-139">Lisää projektin hyväksyjiä toistamalla vaiheet 2–4.</span><span class="sxs-lookup"><span data-stu-id="ab958-139">Repeat steps 2-4 to add additional Project approvers.</span></span>
 
-1. <span data-ttu-id="8b130-139">Valitse **Asetukset** > **Suojaus** > **Käyttäjät**.</span><span class="sxs-lookup"><span data-stu-id="8b130-139">Go to **Settings** > **Security** > **Users**.</span></span>
-2. <span data-ttu-id="8b130-140">Valitse käyttäjä, jolle delegoit esimiehen, ja valitse **Organisaation tiedot** -alueessa esimies luettelosta.</span><span class="sxs-lookup"><span data-stu-id="8b130-140">Select the user to whom you are assigning a manager and in the **Organization Information** area, select the manager from the list.</span></span> 
-3. <span data-ttu-id="8b130-141">Valitse **Tallenna**.</span><span class="sxs-lookup"><span data-stu-id="8b130-141">Select **Save**.</span></span>
+## <a name="configure-the-users-manager"></a><span data-ttu-id="ab958-140">Käyttäjän esimiehen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="ab958-140">Configure the user's manager</span></span>
+
+1. <span data-ttu-id="ab958-141">Valitse **Asetukset** > **Suojaus** > **Käyttäjät**.</span><span class="sxs-lookup"><span data-stu-id="ab958-141">Go to **Settings** > **Security** > **Users**.</span></span>
+2. <span data-ttu-id="ab958-142">Valitse käyttäjä, jolle delegoit esimiehen, ja valitse **Organisaation tiedot** -alueessa esimies luettelosta.</span><span class="sxs-lookup"><span data-stu-id="ab958-142">Select the user to whom you are assigning a manager and in the **Organization Information** area, select the manager from the list.</span></span> 
+3. <span data-ttu-id="ab958-143">Valitse **Tallenna**.</span><span class="sxs-lookup"><span data-stu-id="ab958-143">Select **Save**.</span></span>
 
 
 
