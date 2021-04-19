@@ -1,22 +1,22 @@
 ---
-title: Arvioiden ja todellisten arvojen kustannushintojen selvittäminen – lite
-description: Tässä aiheessa on tietoja siitä, miten arvioiden ja toteutuneiden kustannusten hinnat ratkaistaan.
+title: Kustannushintojen selvittäminen projektin arvioissa ja toteutuneissa arvoissa
+description: Tässä aiheessa on tietoja kustannushintojen ratkaisemisesta projektin arvioissa ja toteutuneissa arvoissa.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274545"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877261"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Arvioiden ja todellisten arvojen kustannushintojen selvittäminen – lite
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Kustannushintojen selvittäminen projektin arvioissa ja toteutuneissa arvoissa 
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
@@ -36,6 +36,12 @@ Kun kustannushinnasto on ratkaistu, Ajan arviointirivin **Rooli**- ja **Resursoi
 Kulun arvioidut rivit viittaavat projektin kulun ja kuluarvioiden tarjous- ja sopimusrivin tietoihin.
 
 Kun kustannushinnasto on ratkaistu, järjestelmä käyttää kustannusarviorivin **Luokka**- ja **Yksikkö**-kenttien yhdistelmää täsmäyttämiseen ratkaistun hinnaston **Luokkahinta**-rivien kanssa. Jos järjestelmä löytää luokan hintarivin, jonka kustannushinta on **luokka**- ja **yksikkö**-kenttäyhdistelmässä, kustannushinta on oletusarvo. Jos järjestelmä ei pysty täsmäyttämään **Luokka**- ja **Yksikkö**-arvoja tai jos se pystyy löytämään vastaavan luokan hintarivin, mutta hinnoittelumenetelmä ei ole **Yksikköhinta**, kustannushinnan oletusarvo on nolla (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Kustannusten arvojen selvittäminen materiaalin toteutuneiden arvojen ja arvioiden riveillä
+
+Materiaalin arviorivit viittaavat tarjouksen ja sopimusrivin tietoihin materiaaleille ja materiaalin arvioiriveihin projektissa.
+
+Kun kustannushinnasto on selvitetty, järjestelmä käyttää yhdistelmää kentistä **Tuote** ja **Yksikkö** materiaalin arvion arviorivillä verratakseen sitä **Hinnaston nimikkeiden**-riveihin selvitetyssä hinnastossa. Jos järjestelmä löytää tuotehintarivin, jolla on kustannushinta **Tuotteen** ja **Yksikön** kenttien yhdistelmälle, kustannushinta saa oletusarvon. Jos järjestelmä ei pysty yhdistämään **Tuote**- ja **Yksikkö**-arvoja, tai se kykenee löytämään vastaavan hinnastonimikkeen rivin, mutta hinnoittelumenetelmä perustuu peruskustannuksiin tai nykyisiin kustannuksiin eikä kumpaakaan määritellä tuotteessa, yksikkökustannus saa oletusarvon nolla.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

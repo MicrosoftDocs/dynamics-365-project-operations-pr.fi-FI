@@ -1,26 +1,26 @@
 ---
-title: Proformalaskun vahvistaminen – lite
-description: Tämä aihe tarjoaa tietoja Project Operationsin proformalaskujen vahvistamisesta.
+title: Proformamuotoisen projektilaskun vahvistaminen
+description: Tässä aiheessa on tietoja proformamuotoisten projektipohjaisten laskujen vahvistamisesta Project Operationsissa.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274274"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867082"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Proformalaskun vahvistaminen – lite
+# <a name="confirm-a-proforma-project-invoice"></a>Proformamuotoisen projektilaskun vahvistaminen 
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
 
-Kun proformalasku on vahvistettu, projektilaskun päivitysten tila on **Vahvistettu**. Kun lasku on vahvistettu, se on vain luku -tilassa. Jatkossa lasku voidaan oikaista vain, jos asiakkaalle on aloitettu korjauksia tai hyvityksiä tai jos lasku on merkitty maksetuksi.
+Kun proformalasku on vahvistettu, projektilaskun päivitysten tila on **Vahvistettu**. Kun lasku on vahvistettu, se on vain luku -tilassa. Edelleen lasku voidaan korjata vain, jos on asiakkaan aloittamia korjauksia tai hyvityksiä.
 
 Seuraavassa taulukossa on lueteltu järjestelmän luomat toteutuneet arvot. Nämä toteutuneet arvot luodaan, kun projektilaskulle tehdään tiettyjä toimintoja ennen sen vahvistamista.
 
@@ -225,6 +225,70 @@ Laskuttamattoman myynnin peruutus määrälle ja summalle alkuperäisen kuluhyv�
             <td width="408" valign="top">
                 <p>
 Uusi laskuttamaton todellinen myynti, joka on veloitettavissa muokatun laskurivin tiedoissa olevasta määrästä ja summasta, laskuttamattoman tosiasiallisen myynnin palautuksesta ja vastaavan laskutetun myynnin todellisesta arvosta. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Materiaalitapahtuman laskutus ilman laskuluonnoksen muokkauksia.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskuttamattoman myynnin peruutus alkuperäisen materiaalin käytön hyväksynnän määrälle ja summalle.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Laskutetun myynnin todellinen arvo alkuperäisen materiaalin käytön hyväksynnän määrälle ja summalle.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Muokatun materiaalitapahtuman laskutus, kun sitä muokattiin määrän pienentämiseksi.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskuttamattoman myynnin peruutus alkuperäisen ajan käytön hyväksynnän määrälle ja summalle.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uusi laskuttamaton todellinen myynti, joka on veloitettavissa muokatun laskurivin tiedoissa olevasta määrästä ja summasta, laskuttamattoman tosiasiallisen myynnin palautuksesta ja vastaavan laskutetun myynnin todellisesta arvosta.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uusi laskuttamaton tosiasiallinen myynti, josta ei veloiteta jäljellä olevaa määrää ja summaa sen jälkeen, kun vähennetään korjatut luvut muokatun laskurivin yksityiskohdissa, laskutetun myynnin tosiasiallisesta palautuksesta ja vastaavasta laskutetusta todellisesta myynnistä.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Muokatun materiaalitapahtuman laskutus, kun sitä muokattiin määrän kasvattamiseksi.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskuttamattoman myynnin peruutus alkuperäisen materiaalin käytön hyväksynnän määrälle ja summalle.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uusi laskuttamaton todellinen myynti, joka on veloitettavissa muokatun laskurivin tiedoissa olevasta määrästä ja summasta, laskuttamattoman tosiasiallisen myynnin palautuksesta ja vastaavan laskutetun myynnin todellisesta arvosta.
                 </p>
             </td>
         </tr>

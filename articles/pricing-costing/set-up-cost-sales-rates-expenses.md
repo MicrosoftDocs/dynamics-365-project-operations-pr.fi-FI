@@ -3,17 +3,17 @@ title: Kulujen kustannus- ja myyntihintojen määrittäminen
 description: Tässä aiheessa on tietoja kustannusten ja myyntihintojen määrittämisestä tapahtuma- ja kululuokille.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274904"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877216"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Kulujen kustannus- ja myyntihintojen määrittäminen
 
@@ -23,9 +23,10 @@ Voit määrittää tapahtumaluokkien kustannus- ja myyntihinnat Dynamics 365 Pro
 
 Voit määrittää tapahtumaluokkien kustannukset ja myyntihinnat tekemällä seuraavat toimet. 
 
-1. Hinnaston otsikkoon perustuvan hinnaston luominen. 
-2. Valitse **Luokan hinnat** -kohdan aliruudukon valikossa **+ Uusi luokan hinta**. 
-3. Kirjoita **pikaluontisivulle** tapahtumaluokka ja yksikkö, jolle luot uuden hinnan.
+1. Siirry kohtaan **Myynti** > **Asiakkaat** > **Hinnastot**.
+2. Luo uusi hinnasto valitsemalla **Uusi**. 
+3. Valitse **Luokan hinnat** -kohdan aliruudukon valikossa **Uusi luokan hinta**. 
+4. Kirjoita **pikaluontisivulle** tapahtumaluokka ja yksikkö, jolle luot uuden hinnan.
 
 Seuraavassa taulukossa on lueteltu **yleiset**-välilehden kentät ja luokan hintarivin **pikaluontisivu**, joka kannattaa pitää mielessä, kun luot luokkahintoja myynti- tai kustannushinnastossa.
 

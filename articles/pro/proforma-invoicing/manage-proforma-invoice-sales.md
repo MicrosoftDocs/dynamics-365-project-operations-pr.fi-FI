@@ -1,21 +1,21 @@
 ---
-title: Proformalaskun hallinta – lite
-description: Tässä aiheessa on tietoja proformalaskujen käyttämisestä.
+title: Proformamuotoisen projektilaskun hallinta
+description: Tässä aiheessa on tietoja proformamuotoisten projektipohjaisten parissa työskentelystä.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274021"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866902"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Proformalaskun hallinta – lite
+# <a name="manage-a-proforma-project-invoice"></a>Proformamuotoisen projektilaskun hallinta 
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
@@ -69,9 +69,9 @@ Project Operationsissa jokaisella projektisopimusrivillä on aina yksi laskurivi
 
 Jokainen projektilaskun laskurivi sisältää laskurivin tiedot. Nämä rivitiedot liittyvät laskuttamattomaan toteutuneeseen myyntiin ja niihin sopimusriviin liittyviin välitavoitteisiin, joihin laskurivi viittaa. Kaikissa näissä tapahtumissa on merkintä **Valmis laskuttamista varten**.
 
-**Aika ja materiaali -laskun** rivillä laskurivin tiedot ryhmitetään **Laskurivi**-sivulla seuraaviin ryhmiin: **Veloitettava**, **Ei-veloitettava** ja **Ilmainen**. **Veloitettavan laskurivin** tiedot listään laskurivin kokonaissummaan. **Ilmaisia** ja **ei-veloitettavia toteutuneita** ei lisätä laskurivin kokonaissummaan.
+**Aika- ja materiaalilasku** -rivillä laskun tiedot on ryhmitelty ryhmiin **Laskutettava**, **Ei-laskutettava** ja **Ilmainen** sivulla **Laskurivi**. **Veloitettavan laskurivin** tiedot listään laskurivin kokonaissummaan. **Ilmaiset** ja **Ei-laskutettavat toteutuneet arvot** eivät täsmää laskurivin kokonaissummaan.
 
-**Kiinteä hinta -laskun** rivin osalta laskurivin tiedot luodaan välitavoitteista, joiden merkintänä liittyvällä sopimusrivillä on **Valmis laskuttamista varten**. Kun laskurivin tiedot on luotu välitavoitteesta, välitavoitteen laskutustilaksi päivitetään **Asiakaslasku luotu**.
+**Kiinteähintainen lasku** -riviä varten laskurivin tiedot luodaan välitavoitteista, jotka on merkitty **Valmis laskutettavaksi** liittyvällä sopimusrivillä. Kun laskurivin tiedot on luotu välitavoitteesta, välitavoitteen laskutustilaksi päivitetään **Asiakaslasku luotu**.
 
 ### <a name="edit-invoice-line-details"></a>Laskurivin tietojen muokkaaminen
 
@@ -98,8 +98,12 @@ Seuraavat kentät ovat käytettävissä laskun rivin tiedossa, joka perustuu las
 | **Vero** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Käyttäjä voi muokata kenttää | Käyttäjä voi muokata kenttää luotaessa uutta laskurivin tietoa ilman, että perustuu todelliseen arvoon. |
 | **Koko summa** | Laskennallinen kenttä, joka lasketaan kaavalla **Summa + Vero**. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
 | **Laskutustyyppi** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Käyttäjä voi muokata kenttää. | Kun **Veloitettava** valitaan, rivi lisätään laskurivin kokonaissummaan. **Ilmainen** ja **Ei-veloitettava** jättävät rivin pois laskurivin kokonaissummasta. |
+| **Valitse tuote** | Määritetään oletusarvoisesti lähteen todellisesta arvosta, tämä on vain luku -kenttä. | Kun luot uuden laskun rivin tiedot ilman taustalla olevaa todellista arvoa, tätä kenttää voi muokata. |
+| **Tuote** | Määritetään oletusarvoisesti lähteen todellisesta arvosta, tämä on vain luku -kenttä. | Kun luot uuden laskurivin tiedot ilman varsinaista taustaa, tätä kenttää voidaan muokata, jos **Valitse tuote** -kentän arvoksi on määritetty **Aiemmin luotu tuote**. |
+| **Tuotteen nimi** | Määritetään oletusarvoisesti lähteen todellisesta arvosta, tämä on vain luku -kenttä. | Uudessa laskurivin tiedossa, jossa tuotetunnus on valittu luettelosta, tämä kenttä on tuotteen nimi. Käsin luotaville tuotteille tämä kenttä on käsin luotava nimi. |
+| **Käsin lisätty kuvaus** | Määritetään oletusarvoisesti lähteen todellisesta arvosta, tämä kenttä on muotoa vain luku. | Kun luot uuden laskurivin tiedot ilman taustalla olevaa todellista arvoa, voit lisätä tuotteelle kuvauksen. |
 | **Tapahtumatyyppi** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Arvoksi määritetään oletusarvoisesti **Laskutettu myynti**, ja se on lukittu, kun luodaan uusi **Laskurivin tieto**, joka ei perustu todelliseen arvoon.  |
-| **Tapahtumaluokka** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Arvo määritetään oletusarvoisesti sen perusteella, onko käyttäjän valitsema laskurivin tieto **Aika**, **Kulu** vai **Maksu** samalla, kun luodaan sellainen uusi **Laskurivin tieto**, jonka perusteena ei ole todellinen arvo. Muokkaus estetty lukituksella. |
+| **Tapahtumaluokka** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Määritetään oletusarvon mukaan riippuen siitä, valitseeko käyttäjä luotavaksi **Aika**-, **Kulu**-, **Materiaali**- vai **Maksu**-tyyppisen laskurivin tiedon luodessaan uuden **Laskurivin tiedon** ilman taustalla olevaa todellista arvoa. Muokkaus estetty lukituksella. |
 
 Seuraavat kentät ovat käytettävissä laskurivin tiedossa, joka perustuu välitavoitteeseen:
 

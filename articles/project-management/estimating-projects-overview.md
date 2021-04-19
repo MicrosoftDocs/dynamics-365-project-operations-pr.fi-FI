@@ -1,31 +1,41 @@
 ---
-title: Projektien arvioinnin yleiskatsaus
-description: Tässä aiheessa on tietoja arvioista sovelluksessa Dynamics 365 Project Operations.
-author: ruhercul
+title: Taloudellista arviointia koskevat käsitteet
+description: Tässä aiheessa on tietoja projektien taloudellisista arvioista Project Operationsissa.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286874"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701732"
 ---
-# <a name="estimate-projects-overview"></a>Projektien arvioinnin yleiskatsaus
+# <a name="financial-estimation-concepts"></a>Taloudellista arviointia koskevat käsitteet
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
+Dynamics 365 Project Operationsissa projektit voidaan arvioida kahdessa vaiheessa: 
+1. Myyntiä edeltävässä vaiheessa ennen sopimuksen voittamista. 
+2. Sen jälkeen, kun projektisopimus on luotu, suoritusvaiheessa. 
+
+Projektipohjaiselle työlle voi luoda talousarvion seuraavilla kolmella sivulla:
+- **Tarjousrivi**-sivulla käyttäen tarjousrivin tietoja.  
+- **Projektisopimus**-sivulla käyttäen projektisopimuksen tietoja. 
+- **Projekti**-sivulla käyttäen **Tehtävät** tai **Kuluarviot**-välilehtisivuja.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Arvion luominen projektitarjouksen avulla
 Projektiperusteisessa tarjouksessa entiteettiä **Tarjousrivin tiedot** voidaan käyttää projektin toimittamisen edellyttämän työmäärän arviointiin. Tämä arvio voidaan ilmoittaa asiakkaalle.
 
 Projektiperusteisilla tarjousriveillä voi olla paljon tarjousrivin tietoja tai ei yhtään. Tarjousrivin tietoja käytetään ajan, kulujen tai maksujen arviointiin. Microsoft Dynamics 365 Project Operations ei mahdollista materiaaliarvioita tarjousrivin tietojen perusteella. Näitä kutsutaan tapahtumaluokiksi. Myös arvioidut verosummat voidaan määrittää tapahtumaluokassa.
 
 Tapahtumaluokkien lisäksi tarjousrivin tiedoilla on tapahtumatyyppi. Tarjousrivin tiedoissa on kaksi tapahtumatyyppiä: **Kustannus** ja **Projektisopimus**.
 
-## <a name="estimate-by-using-a-contract"></a>Arvio sopimuksen perusteella
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Arvion luominen projektisopimuksen avulla
 
 Jos käytit tarjousta projektiperusteisen sopimuksen luonnin yhteydessä, kunkin tarjouksen tarjousrivin arvio kopioidaan projektisopimukseen. Projektisopimuksen rakenne vastaa projektitarjouksen rakennetta eli siinä on rivejä, rivien tietoja ja laskutusaikatauluja.
 
@@ -35,25 +45,19 @@ Sopimusrivin tietoja voidaan käyttää ajan, kulujen tai maksujen arviointiin. 
 
 Materiaaliarviot eivät ole sallittuja sopimusrivin tietojen perusteella.
 
-Projektisopimuksessa tuetut prosessit ovat laskun luominen ja vahvistaminen. Laskun luonnissa luodaan luonnos projektiperusteisesta laskusta, joka sisältää kaikki laskuttamattomat myynnin todelliset arvot kulloiseenkin päivämäärään mennessä.
+## <a name="use-a-project-to-create-an-estimate"></a>Arvion luominen projektin avulla 
 
-Vahvistuksen jälkeen sopimusta voidaan vain lukea ja sen tila muuttuu arvosta **Luonnos** arvoon **Vahvistettu**. Tätä toimintoa ei voi perua. Koska toiminto on pysyvä, parhaana käytäntönä on pitää sopimus **Luonnos**-tilassa.
-
-Ainoa ero sopimusluonnosten ja vahvistettujen sopimusten välillä on niiden tila ja se, että sopimusluonnoksia voi muuttaa ja vahvistettuja sopimuksia ei voi muuttaa. Sekä sopimusluonnosten että vahvistettujen sopimusten perusteella voidaan luoda laskuja ja seurata todellisia arvoja.
-
-Project Operations ei tue muutostilauksia sopimuksissa tai projekteissa.
-
-## <a name="estimating-projects"></a>Projektien arviointi
-
-Voit arvioida projektien aikaa ja kuluja. Project Operations ei mahdollista projektien materiaalien tai maksujen arviointia.
+Voit arvioida projektien aikaa ja kuluja. Project Operations ei tue projektien materiaalien tai maksujen arvioita.
 
 Aika-arvioita luodaan, kun luot tehtävän ja määrität tehtävän suorittamiseen tarvittavan yleisen resurssin määritteet. Aika-arviot luodaan ajoitettujen tehtävien perusteella. Aika-arvioita ei luoda, jos luot yleisiä ryhmän jäseniä aikataulun kontekstin ulkopuolella.
 
-Kuluarviot syötetään **Arviot** -sivun ruudukkoon.
+Kuluarviot syötetään **Kuluarviot**-sivun ruudukkoon.
 
-## <a name="understanding-estimation"></a>Tietoja arvioinnista
+Projektin arvion luomista pidetään parhaina käytäntönä, koska kullekin projektisuunnitelman tehtävälle voidaan luoda yksityiskohtaisia alhaalta ylöspäin -arvioita työvoimaa tai aikaa ja kuluja varten. Tämän yksityiskohtaisen arvion avulla voidaan sitten luoda arvioita kullekin tarjousriville ja luoda asiakkaalle entistä luotettavampi tarjous. Kun tuot tai luot tarjousrivillä yksityiskohtaisen arvion projektisuunnitelman avulla, Project Operations tuo näiden arvioiden myyntiarvot ja kustannusarvot. Tuonnin jälkeen voit tarkastella projektin tarjouksessa kannattavuutta, katteita ja soveltuvuusmittareita.
 
-Seuraava taulukko sisältää opastuksen arviointivaiheen liiketoimintalogiikkaan.
+## <a name="understanding-estimates"></a>Tietoja arvioista
+
+Seuraava taulukko sisältää opastuksen arviovaiheen liiketoimintalogiikkaan.
 
 | Skenaario                                                                                                                                                                                                                                                                                                                                          | Entiteettitietue                                                                                                                                                                                                       | Tapahtumatyyppi | Tapahtumaluokka | Lisätiedot                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|

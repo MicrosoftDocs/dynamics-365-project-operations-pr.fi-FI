@@ -3,17 +3,17 @@ title: Projektihinnastojen hallinta projektisopimuksissa
 description: Tässä aiheessa on tietoja projektisopimusten projektihinnastojen hallinnasta.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278594"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858559"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Projektihinnastojen hallinta projektisopimuksissa
 
@@ -21,13 +21,13 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 Dynamics 365 Project Operationsin projektisopimukset on suunniteltu tukemaan sopimuksessa useita voimassaolopäiviä käyttäviä myyntihinnastoja. Project Operationsissa on uusi **Projektihinnastot**-niminen liitetty entiteetti. Tällä entiteetillä on yksi moneen -suhde projektisopimukseen.
 
-Projektihinnastoja käytetään projektin aika- ja kulutapahtumien hinnoitteluun. Kun sopimuksessa on vähintään yksi projektihinnasto, kyseisiä hinnastoja käytetään hinnoittelemaan aika- ja kuluarvioita ja todellisia arvoja projekteissa, jotka on liitetty sopimukseen sopimusrivin kautta.
+Projektin hinnastoilla hinnoitellaan aikaa, materiaalia ja kulutapahtumia projektissa. Kun sopimuksessa on yksi tai useampi projektihinnasto, näitä hinnastoja käytetään ajan, materiaalinen, kuluarvioiden ja toteutuneiden arvojen hinnoitteluun projekteissa, jotka liittyvät sopimukseen sopimusrivin kautta.
 
-Jos projektisopimuksessa ei ole projektihinnastoja, varoitussanoma ilmoittaa, että projektihinnastoja ei ole ja ettei arvioita, projektityön todellista arvoa ja kuluja hinnoitella. Myyntiarvoilla ei ole hintaa.
+Kun projektisopimuksessa ei ole projektihinnastoja, näkyviin tulee varoitus siitä, että projektihinnastoja ei ole, ja arvioitasi, projektin todellista työtä, materiaalia ja kirjattuja kuluja ei hinnoitella. Myyntiarvoilla ei ole hintaa.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Projektihinnaston liittäminen projektisopimukseen tai tämän liitoksen poistaminen
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Projektipohjaisen työn tai kulujen arvioinnissa käytettävän hinnaston luominen tai liittäminen
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Tietyn hinnaston luominen tai liittäminen projektipohjaisen työn, materiaalin ja kulujen arvioimista varten
 
 1. Valitse projektisopimuksessa **Projektihinnastot**-välilehti.
 2. Valitse aliruudukossa **+ Lisää uusi projektihinnasto**.
@@ -52,7 +52,7 @@ Jos projektisopimuksessa ei ole projektihinnastoja, varoitussanoma ilmoittaa, et
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Sopimuksen projektihinnaston automaattisten oletusarvojen määrittäminen
 
-Projektihinnasto voidaan määrittää projektisopimuksen oletusluetteloksi. Tämä asetus voi auttaa varmistamaan, että kaikissa organisaation sopimuksissa on aluksi käytössä kyseisen hintakauden vakiohinnasto.
+Projektihinnasto voidaan määrittää projektin oletushinnastoksi. Tämä määritys varmistaa, että kaikki organisaation sopimukset alkavat aina vakiomuotoisella projektihinnastolla kyseiselle ajanjaksolle.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Organisaation oletusprojektihinnaston määrittäminen
 

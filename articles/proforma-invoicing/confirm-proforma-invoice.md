@@ -1,39 +1,102 @@
 ---
-title: Proformalaskun vahvistaminen
-description: Tässä aiheessa on tietoja proformalaskun vahvistamisesta.
+title: Proformamuotoisen projektipohjaisen laskun vahvistaminen
+description: Tässä aiheessa on tietoja proformamuotoisen projektipohjaisen laskun vahvistamisesta.
 author: rumant
 manager: AnnBe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b2ed241509d2643d841ce55777e6e316612f70b8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 53c647dca506822312053fb5c9b086a2947974c2
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287864"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867126"
 ---
-# <a name="confirm-a-proforma-invoice"></a>Proformalaskun vahvistaminen
+# <a name="confirm-a-proforma-project-based-invoice"></a>Proformamuotoisen projektipohjaisen laskun vahvistaminen
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Kun proformalasku on vahvistettu, projektilaskun päivitysten tila on **Vahvistettu**. Kun lasku on vahvistettu, se on vain luku -tilassa. Jatkossa lasku voidaan oikaista vain, jos asiakkaalle on aloitettu korjauksia tai hyvityksiä tai kun se on merkitty maksetuksi.
+Kun proformalasku on vahvistettu, projektilaskun päivitysten tila on **Vahvistettu**. Kun lasku on vahvistettu, se on vain luku -tilassa. Edelleen lasku voidaan korjata vain, jos on asiakkaan aloittamia korjauksia tai hyvityksiä.
 
 Seuraavassa taulukossa on lueteltu järjestelmän luomat toteutuneet arvot. Nämä toteutuneet arvot luodaan, kun projektilaskulle tehdään tiettyjä toimintoja ennen sen vahvistamista.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="416" valign="top">
+            <td width="216" valign="top">
                 <p>
                     <strong>Skenaario</strong>
                 </p>
             </td>
-            <td width="608" valign="top">
+            <td width="808" valign="top">
                 <p>
                     <strong>Vahvistuksen yhteydessä luodut toteutuneet arvot</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Ennakkomaksun tai ennakkomaksuun perustuvan maksun laskuttaminen </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskutetun todellisen myynnin tyyppi, <strong>Pidätyskohde</strong> luodaan ennakkomaksulle tai pidätyskohteelle.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Laskuttamaton toteutunut myynti, jonka ennakkomaksun tai ennakkon täsmäytykseen käytettävä summa on negatiivinen.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Sen jälkeen, kun olet täysin täsmäyttänyt laskun pidätyksen tai ennakkomaksun.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Täsmäytystä varten luodun pidätyksen tai ennakkomaksun laskuttamattoman myynnin peruutus. Tämä summa on positiivinen, koska sen tarkoitus on kumota pidätyksen tai ennakkomaksun yhteydessä luotu negatiivinen tulos.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Laskutetun myynnin todellinen summa laskussa.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Sen jälkeen, kun olet osittain täsmäyttänyt laskun pidätyksen tai ennakkomaksun.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Täsmäytystä varten luodun pidätyksen tai ennakkomaksun laskuttamattoman myynnin peruutus. Tämä summa on positiivinen, koska sen tarkoitus on kumota pidätyksen tai ennakkomaksun yhteydessä luotu negatiivinen tulos.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Laskutetun myynnin todellinen summa laskussa.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Negatiivisen laskuttamattoman myynnin todellinen jäljellä olevan pidätys tai ennakkomäärä, jota käytetään tulevissa laskuissa.
                 </p>
             </td>
         </tr>
@@ -71,14 +134,14 @@ Laskuttamattoman myynnin peruutus tunnille ja summalle alkuperäisen aikahyväks
         <tr>
             <td width="408" valign="top">
                 <p>
-Uusi laskuttamaton todellinen myynti, joka on veloitettavissa laskutettujen laskurivien tiedoille, peruutetun myynnin toteutumiselle ja laskutettavalle myynnille.
+Uusi laskuttamaton todellinen myynti, joka veloitetaan muokatun laskurivin tiedoissa olevista tunneista ja summasta, myynnin tosiasiallinen palautus ja vastaava laskutetun myynnin toteutuma.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Uusi laskuttamaton tosiasiallinen myynti, josta ei veloiteta jäljellä olevia tunteja ja määrää sen jälkeen, kun vähennetään korjatut luvut muokatun laskurivin yksityiskohdissa, laskutetun myynnin tosiasiallinen palautus ja vastaava laskutettu todellinen myynti.
+Uusi laskuttamaton myynnin toteutunut arvo, joka ei ole laskutettava jäljellä olevilta tunneilta ja summalta sen jälkeen, kun muokatun laskurivin tiedot, toteutuneiden myyntien peruutus ja vastaava laskutettu myynti on vähennetty.
                 </p>
             </td>
         </tr>
@@ -135,7 +198,7 @@ Laskuttamattoman myynnin peruutus määrälle ja summalle alkuperäisen kuluhyv�
         <tr>
             <td width="408" valign="top">
                 <p>
-Uusi laskuttamaton todellinen myynti, joka on veloitettavissa muokatun laskurivin tiedoissa olevasta määrästä ja summasta, laskuttamattoman tosiasiallisen myynnin palautuksesta ja vastaavan laskutetun myynnin todellisesta arvosta. 
+Uusi laskuttamaton todellinen myynti, joka on veloitettavissa muokatun laskurivin tiedoissa olevasta määrästä ja summasta, laskuttamattoman tosiasiallisen myynnin palautuksesta ja vastaavan laskutetun myynnin todellisesta arvosta.
                 </p>
             </td>
         </tr>
@@ -161,7 +224,71 @@ Laskuttamattoman myynnin peruutus määrälle ja summalle alkuperäisen kuluhyv�
         <tr>
             <td width="408" valign="top">
                 <p>
-Uusi laskuttamaton todellinen myynti, joka on veloitettavissa muokatun laskurivin tiedoissa olevasta määrästä ja summasta, muokkaamattoman tosiasiallisen myynnin palautuksesta ja vastaavan laskutetun myynnin todellisesta arvosta.
+Uusi laskuttamaton todellinen myynti, joka on veloitettavissa muokatun laskurivin tiedoissa olevasta määrästä ja summasta, laskuttamattoman tosiasiallisen myynnin palautuksesta ja vastaavan laskutetun myynnin todellisesta arvosta. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Materiaalitapahtuman laskutus ilman laskuluonnoksen muokkauksia.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskuttamattoman myynnin peruutus alkuperäisen materiaalin käytön hyväksynnän määrälle ja summalle.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Laskutetun myynnin todellinen arvo alkuperäisen materiaalin käytön hyväksynnän määrälle ja summalle.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Muokatun materiaalitapahtuman laskutus, kun sitä muokattiin määrän pienentämiseksi.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskuttamattoman myynnin peruutus alkuperäisen ajan käytön hyväksynnän määrälle ja summalle.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uusi laskuttamaton todellinen myynti, joka on veloitettavissa muokatun laskurivin tiedoissa olevasta määrästä ja summasta, laskuttamattoman tosiasiallisen myynnin palautuksesta ja vastaavan laskutetun myynnin todellisesta arvosta.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uusi laskuttamaton tosiasiallinen myynti, josta ei veloiteta jäljellä olevaa määrää ja summaa sen jälkeen, kun vähennetään korjatut luvut muokatun laskurivin yksityiskohdissa, laskutetun myynnin tosiasiallisesta palautuksesta ja vastaavasta laskutetusta todellisesta myynnistä.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Muokatun materiaalitapahtuman laskutus, kun sitä muokattiin määrän kasvattamiseksi.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Laskuttamattoman myynnin peruutus alkuperäisen materiaalin käytön hyväksynnän määrälle ja summalle.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uusi laskuttamaton todellinen myynti, joka on veloitettavissa muokatun laskurivin tiedoissa olevasta määrästä ja summasta, laskuttamattoman tosiasiallisen myynnin palautuksesta ja vastaavan laskutetun myynnin todellisesta arvosta.
                 </p>
             </td>
         </tr>
@@ -196,8 +323,8 @@ Välitavoitteen summaa koskeva laskutettu myynti, joka on projektisopimusrivin a
                 </p>
             </td>
         </tr>
+       
     </tbody>
 </table>
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

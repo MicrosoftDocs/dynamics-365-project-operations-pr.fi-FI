@@ -1,23 +1,23 @@
 ---
-title: Tarjousrivin laskutettavan komponentin määrittäminen – lite
+title: Tarjousrivin laskutettavan osan määrittäminen
 description: Tässä ohjeaiheessa on tietoja laskutettavan ja ei-laskutettavan komponentin määrittämisestä projektipohjaisella tarjousrivillä.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273869"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858289"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Tarjousrivin laskutettavan komponentin määrittäminen – lite
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Tarjousrivin laskutettavan komponentin määrittäminen 
 
-_**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
+_**Koskee:** Lite-käyttöönotto - kaupasta proformalaskutukseen, Project Operationsin resurssiin/ei-varastointiin perustuvia skenaarioita_
 
 Projektipohjaiseen tarjousrivillä on *sisällytettyjen* osien ja *laskutettavien* osien käsitteet.
 
@@ -42,7 +42,7 @@ Veloitettavuus määritetään tarjousrivin tapahtumaluokissa ja koskee vain **K
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>Projektitehtävän päivittäminen laskutettavaksi tai ei-laskutettavaksi
 
-Projektitehtävä voi olla laskutettava tai ei-laskutettava tietyn projektipohjaisen tarjousrivin yhteydessä, mikä mahdollistaa seuraavan asennuksen:
+Projektitehtävä voi olla laskutettava tai ei-laskutettava tietyn projektipohjaisen tarjousrivin yhteydessä, mikä mahdollistaa seuraavan asennuksen.
 
 Jos projektiin perustuva tarjousrivi sisältää **Ajan** ja tehtävän **T1**, tehtävä liitetään tarjousriviin laskutettavana. Jos on olemassa toinen tarjousrivi, joka sisältää **Kulut**, voit liittää **T1**-tehtävän tarjousriviin ei-laskutettavana. Tuloksena on, että kaikki tehtävään kirjattu aika on laskutettavaa ja kaikki tehtävään kirjatut kulut ovat ei-laskutettavia.
 
@@ -61,22 +61,575 @@ Tietyn tarjousrivin tapahtumaluokka voi olla laskutettava tai ei-laskutettava.
 Tapahtuman laskutustyyppi voidaan määrittää tarjousrivin **Veloitettavat luokat** -välilehdessä päivittämällä **Laskutustyyppi**-kenttä **Veloitettavat luokat** -aliruudukossa.
 
 ### <a name="resolve-chargeability"></a>Selvitä verosaatavan syntyminen
-Arviota tai todellista luontiaikaa voidaan pitää veloitettavissa vain, jos tarjousriville on lisätty **Aika** ja jos **Tehtävä** ja **Rooli** on määritetty laskutettaviksi tarjousrivillä.
+Aikaa varten luotu arvio tai todellinen arvo katsotaan laskutettavaksi vain, jos:
 
-Arviota tai todellista kulua voidaan pitää veloitettavissa vain, jos tarjousriville on lisätty **Kulu** ja jos **Tehtävä** ja **Tapahtumaluokka** on määritetty laskutettaviksi tarjousrivillä.
+   - **Aika** sisältyy tarjousriviin.
+   - **Rooli** on määritetty laskutettavaksi tarjousrivillä.
+   - **Sisältyvät tehtävät** on määritetty **Valituiksi tehtäviksi** tarjousrivillä. 
 
-| Sisältää ajan | Sisältää kulun | Sisällytettävät tehtävät | Rooli | Luokka | Tehtävä | Laskutus |
-| --- | --- | --- | --- | --- | --- | --- |
-| Kyllä | Kyllä | Koko projekti | Veloitettava | Veloitettava | Ei voida määrittää | Laskutus toteutuneesta ajasta: Laskutettava </br>Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava |
-| Kyllä | Kyllä | Vain valitut tehtävät | Veloitettava | Veloitettava | Veloitettava | Laskutus toteutuneesta ajasta: Laskutettava</br>Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava |
-| Kyllä | Kyllä | Vain valitut tehtävät | Ei veloitettava | Veloitettava | Veloitettava | Laskutus toteutuneesta ajasta: Ei veloitettava</br>Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava |
-| Kyllä | Kyllä | Vain valitut tehtävät | Veloitettava | Veloitettava | Ei veloitettava | Laskutus toteutuneesta ajasta: Ei veloitettava</br> Laskutustyyppi tosiasiallisista kustannuksista: Ei veloitettava |
-| Kyllä | Kyllä | Vain valitut tehtävät | Ei veloitettava | Veloitettava | Ei veloitettava | Laskutus toteutuneesta ajasta: Ei veloitettava</br> Laskutustyyppi tosiasiallisista kustannuksista: Ei veloitettava |
-| Kyllä | Kyllä | Vain valitut tehtävät | Ei veloitettava | Ei veloitettava | Veloitettava | Laskutus toteutuneesta ajasta: Ei veloitettava</br> Laskutustyyppi tosiasiallisista kustannuksista: Ei veloitettava |
-| No | Kyllä | Koko projekti | Ei voida määrittää | Veloitettava | Ei voida määrittää | Laskutus toteutuneesta ajasta: Ei saatavilla </br>Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava |
-| No | Kyllä | Koko projekti | Ei voida määrittää | Ei veloitettava | Ei voida määrittää | Laskutus toteutuneesta ajasta: Ei saatavilla </br>Laskutustyyppi tosiasiallisista kustannuksista: Ei veloitettava |
-| Kyllä | No | Koko projekti | Veloitettava | Ei voida määrittää | Ei voida määrittää | Laskutus toteutuneesta ajasta: Laskutettava</br>Laskutustyyppi tosiasiallisista kustannuksista: Ei saatavilla |
-| Kyllä | No | Koko projekti | Ei veloitettava | Ei voida määrittää | Ei voida määrittää | Laskutus toteutuneesta ajasta: Ei veloitettava </br>Laskutustyyppi tosiasiallisista kustannuksista: Ei saatavilla |
+Jos nämä kolme asiaa ovat tosia, **Tehtävä** määritetään myös laskutettavaksi. 
+
+Kulua varten luotu arvio tai todellinen arvo katsotaan laskutettavaksi vain, jos: 
+
+   - **Kulu** sisältyy tarjousriviin.
+   - **Tapahtumaluokka** on määritetty laskutettavaksi tarjousrivillä.
+   - **Sisältyvät tehtävät** on määritetty **Valituiksi tehtäviksi** tarjousrivillä.
+
+Jos nämä kolme asiaa ovat tosia, **Tehtävä** määritetään myös laskutettavaksi. 
+
+Materiaalia varten luotu arvio tai todellinen arvo katsotaan laskutettavaksi vain, jos:
+
+   - **Materiaalit** sisältyy tarjousriviin.
+   - **Sisältyvät tehtävät** on määritetty **Valituiksi tehtäviksi** tarjousrivillä.
+
+Jos nämä kaksi asiaa ovat tosia, **Tehtävä** tulisi myös määrittää laskutettavaksi. 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Sisältää ajan</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Sisältää kulun</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Sisältää materiaalit</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Sisällytettävät tehtävät</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Rooli</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Luokka</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tehtävä</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Laskutettavuusvaikutus</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Koko projekti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei voi määrittää </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Laskutus toteutuneesta ajasta: Laskutettava </p>
+                <p>
+Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava </p>
+                <p>
+Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Vain valitut tehtävät </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Laskutus toteutuneesta ajasta: Laskutettava </p>
+                <p>
+Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava </p>
+                <p>
+Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Vain valitut tehtävät </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ei-laskutettava</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Laskutus toteutuneesta ajasta: <strong>Ei-laskutettava</strong>
+                </p>
+                <p>
+Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava </p>
+                <p>
+Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Vain valitut tehtävät </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ei-laskutettava</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Laskutus toteutuneesta ajasta: <strong>Ei-laskutettava</strong>
+                </p>
+                <p>
+Laskutustyyppi kulujen toteutuneista arvoista: <strong>Ei-laskutettava</strong>
+                </p>
+                <p>
+Laskutustyyppi materiaalin toteutuneista arvoista: <strong>Ei-laskutettava</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Vain valitut tehtävät </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ei-laskutettava</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ei-laskutettava</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Laskutus toteutuneesta ajasta: <strong>Ei-laskutettava</strong>
+                </p>
+                <p>
+Laskutustyyppi kulujen toteutuneista arvoista: <strong>Ei-laskutettava</strong>
+                </p>
+                <p>
+Laskutustyyppi materiaalin toteutuneista arvoista: <strong> Ei-laskutettava</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Vain valitut tehtävät </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ei-laskutettava</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Ei-laskutettava</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Laskutus toteutuneesta ajasta: <strong>Ei-laskutettava</strong>
+                </p>
+                <p>
+Laskutustyyppi kulujen toteutuneista arvoista: <strong> Ei-laskutettava</strong>
+                </p>
+                <p>
+Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Koko projekti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei voi määrittää </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Veloitettava</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei voi määrittää </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Laskutus ajan toteutuneesta arvosta: <strong>Ei saatavilla</strong>
+                </p>
+                <p>
+Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava </p>
+                <p>
+Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Koko projekti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei voi määrittää </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Ei-laskutettava</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei voi määrittää </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Laskutus ajan toteutuneesta arvosta: <strong>Ei saatavilla</strong>
+                </p>
+                <p>
+Laskutustyyppi kulujen toteutuneista arvoista: <strong> Ei-laskutettava</strong>
+                </p>
+                <p>
+Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Koko projekti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Ei voi määrittää </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei voi määrittää </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Laskutus toteutuneesta ajasta: Laskutettava </p>
+                <p>
+Laskutustyyppi kulujen toteutuneista arvoista:<strong> Ei saatavilla</strong>
+                </p>
+                <p>
+Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Koko projekti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ei-laskutettava</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Ei voi määrittää </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei voi määrittää </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Laskutus ajan toteutuneesta arvosta: <strong>Ei-laskutettava </strong>
+                </p>
+                <p>
+Laskutustyyppi kulujen toteutuneista arvoista:<strong> Ei saatavilla</strong>
+                </p>
+                <p>
+Laskutustyyppi materiaalin toteutuneella arvolla: Laskutettava </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Koko projekti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Veloitettava </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei voi määrittää </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Laskutus toteutuneesta ajasta: Laskutettava </p>
+                <p>
+Laskutustyyppi tosiasiallisista kustannuksista: Laskutettava </p>
+                <p>
+Laskutustyyppi materiaalin toteutuneista arvoista: <strong> Ei saatavilla</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Koko projekti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ei-laskutettava</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Ei veloitettava</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ei voi määrittää </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Laskutus ajan toteutuneesta arvosta: <strong>Ei-laskutettava </strong>
+                </p>
+                <p>
+Laskutustyyppi kulujen toteutuneista arvoista:<strong> Ei-laskutettava </strong>
+                </p>
+                <p>
+Laskutustyyppi materiaalin toteutuneista arvoista:<strong> Ei saatavilla</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

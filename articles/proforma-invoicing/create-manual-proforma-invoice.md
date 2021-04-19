@@ -1,42 +1,27 @@
 ---
-title: Manuaalisen proformalaskun luominen
-description: Tässä aiheessa on tietoja proformalaskun luomisesta.
+title: Proformalaskut
+description: Tässä aiheessa on tietoja proformalaskuista Project Operationsissa.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287774"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866857"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Manuaalisen proformalaskun luominen
+# <a name="proforma-invoices"></a>Proformalaskut
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Laskutus tarjoaa projektipäälliköille toisen hyväksyntätason ennen laskujen luomista asiakkaille. Ensimmäinen hyväksyntätaso on valmis, kun projektiryhmän jäsenten toimittavat aika- ja kulumerkinnät on hyväksytty.
+Proformalaskutus tarjoaa projektipäälliköille toisen hyväksyntätason ennen laskujen luomista asiakkaille. Ensimmäinen hyväksyntätaso on valmis, kun projektiryhmän jäsenten toimittamat aika-, kulu- ja materiaalimerkinnät on hyväksytty. Vahvistetut proformalaskut ovat käytettävissä Project Operationsin Projektin laskenta -moduulissa. Projektin kirjanpitäjät voivat tehdä lisäpäivityksiä, kuten myyntiveron, kirjanpidon ja laskun asettelun.
 
-Dynamics 365 Project Operations ei seuraavista syistä ole suunniteltu luomaan asiakkaille suunnattuja laskuja:
-
-- Se ei sisällä verotietoja.
-- Se ei pysty muuntamaan muita valuuttoja laskutusvaluutaksi oikein määritetyillä vaihtokursseilla.
-- Se ei pysty muotoilemaan laskuja tulostettavaan muotoon.
-
-Sen sijaan voit käyttää talous- tai kirjanpitojärjestelmää luomaan asiakkaille suunnattuja laskuja, joissa käytetään luotavien laskuehdotusten tietoja.
 
 ## <a name="creating-project-invoices"></a>Projektilaskujen luominen
 
@@ -50,7 +35,7 @@ Tietylle projektisopimukselle luodaan lasku seuraavalla tavalla.
 
 - Avaa projektisopimus **Projektisopimukset**-luettelosivulla ja valitse sitten **Luo lasku**.
 
-    Lasku luodaan kaikille valitun projektisopimuksen tapahtumille, joiden tila on **Laskutusvalmis**. Näitä tapahtumia ovat aika, kulut, välitavoitteet ja projektiperusteiset sopimusrivit.
+    Lasku luodaan kaikille valitun projektisopimuksen tapahtumille, joiden tila on **Laskutusvalmis**. Näitä tapahtumia ovat aika, kulut, materiaalit, välitavoitteet ja muut laskuttamattomat myyntikirjauskansion rivit.
 
 Laskuja luodaan joukoittain seuraavalla tavalla.
 
@@ -60,7 +45,7 @@ Laskuja luodaan joukoittain seuraavalla tavalla.
 
 2. Sulje viesti-ikkuna valitsemalla **OK**.
 
-    Lasku luodaan kaikille sopimusrivin tapahtumille, joiden tila on **Laskutusvalmis**. Näitä tapahtumia ovat aika, kulut, välitavoitteet ja projektiperusteiset sopimusrivit.
+    Lasku luodaan kaikille sopimusrivin tapahtumille, joiden tila on **Laskutusvalmis**. Näitä tapahtumia ovat aika, kulut, materiaalit, välitavoitteet ja muut laskuttamattomat myyntikirjauskansion rivit.
 
 3. Voit tarkastella luotuja laskuja siirtymällä kohtaan **Myynti** \> **Laskutus** \> **Laskut**. Näet yhden laskun kullekin projektisopimukselle.
 
@@ -93,11 +78,10 @@ Laskujen luomisen erätyö on toistuva työ. Jos tämä erätyö suoritetaan use
  
 ### <a name="edit-a-draft-invoice"></a>Laskuluonnoksen muokkaaminen
 
-Kun luot projektilaskuluonnoksen, kaikki aika- ja kulumerkintöjen hyväksymisen yhteydessä luodut laskuttamattomat myyntitapahtumat tuodaan laskuun. Voit tehdä seuraavia muutoksia, kun lasku on edelleen luonnosvaiheessa:
+Kun luot projektilaskuluonnoksen, kaikki aika-, kulu- ja materiaalimerkintöjen hyväksymisen yhteydessä luodut laskuttamattomat myyntitapahtumat tuodaan laskuun. Voit tehdä seuraavia muutoksia, kun lasku on edelleen luonnosvaiheessa:
 
 - Laskurivin tietojen poistaminen tai muokkaaminen.
 - Määrän ja laskutustyypin muokkaaminen.
-- Ajan, kulun ja maksujen lisäys tapahtumina suoraan laskuun. Voit käyttää tätä toimintoa, jos laskurivi on yhdistetty sopimusriviin, joka salli nämä tapahtumaluokat.
 
 Vahvista lasku valitsemalla **Vahvista**. Vahvistustoimintotoiminto on yksisuuntainen toiminto. Kun valitset **Vahvista**, järjestelmä muuttaa laskun vain luettavaan muotoon ja luo laskutetun myynnin todellisia arvoja kullekin laskuriville kunkin laskurivin tietojen perusteella. Jos laskurivin tiedot viittaavat laskuttamattomaan myynnin todelliseen arvoon, järjestelmä myös kumoaa laskuttamattoman myynnin todellisen arvon. (Kaikki aika- tai kulumerkinnän perusteella luodut laskutusrivin tiedot viittaavat laskuttamattoman myyniin todelliseen arvoon.) Pääkirjan integrointijärjestelmät voivat käyttää tätä kumoamista kumotakseen projektin keskeneräistä työtä kirjanpitotarkoituksia varten.
 

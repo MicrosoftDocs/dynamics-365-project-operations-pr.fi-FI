@@ -3,17 +3,17 @@ title: Käyttöönottotyypin määritys
 description: Tässä aiheessa on tietoja Project Operationsin oikean käyttöönottotyypin valinnasta omalle yrityksellesi.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479560"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663590"
 ---
 # <a name="determine-your-deployment-type"></a>Käyttöönottotyypin määritys
 
@@ -44,7 +44,7 @@ Project Operations tukee useita eri toteutusvaihtoehtoja tarpeidesi mukaan. Olit
 - [Project Operations resurssien ja ei-varastoitavien skenaarioissa](#integrated)
 - [Project Operations varastoitavien/tuotantotilausten skenaarioissa](#pma)
 
-Project Operations tukee varastoitu/tuotantotilaus-skenaarioita ja ei-varastoitavia/resurssipohjaisia skenaarioita samassa ympäristössä yritystason määritysten avulla. Contoso voi esimerkiksi käyttää Yhdysvaltojen tuotantolaitoksen varasto-/tuotantotilaustoimintoja (Yritys = Contoso Manufacturing United States). Contoso voi käyttää Contoso Robotics Arms huoltotilan ei-varastoitavien/resurssipohjaisten ominaisuuksien käyttöä Isossa-Britanniassa (yritys = Contoso Robotics United Kingdom).
+Project Operations tukee varastoitu/tuotantotilaus-skenaarioita ja ei-varastoitavia/resurssipohjaisia skenaarioita samassa ympäristössä yritystason määritysten avulla. Esimerkiksi Contoso voi käyttää varastossa olevaa/tuotantotilaus-ominaisuuksia Yhdysvaltain tuotantolaitoksellaan (Yritys = Contoso Manufacturing United States). Contoso voi käyttää ei-varastoituita tai resurssipohjaisia ominaisuuksia Contoso Robotics Arms -huoltolaitoksellaan Yhdistyneessä kuningaskunnassa (Yritys = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lite-käyttöönotto – kauppa proformalaskutukseen
 
@@ -56,7 +56,7 @@ Lite-käyttöönotossa on seuraavat ominaisuudet:
 - Yhdistetty resurssien hallinta
 - Aikaseuranta
 - Peruskulu
-- Proformalaskutus ja asiakkaille suunnattu laskutus 
+- Projektipäällikön tarkistusten ja muokkausten proformalaskutus 
 
 #### <a name="deployment-steps"></a>Käyttöönotto-ohjeet
 Määritä paras Project Operationsin käyttöönottomalli käyttämällä [Käyttöönottokyselyä](https://aka.ms/provisionprojectoperations).
@@ -87,14 +87,14 @@ Lisätietoja tälle käyttöönotolle: [Esiversiotilauksiin rekisteröityminen](
 ### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a>Project Operations varastoitavien/tuotantotilausten skenaarioissa
 
 - Projektin suunnittelu työrakenteen avulla
-- Resurssienhallinta
+- Resurssien hallinta
 - Aikaseuranta
 - Koko kulu
 - Kuittien OCR
 - Täysi laskutus
-- Tuoton kirjaaminen
+- Tuoton tunnistus
 - Tuotantotilaukset
-- Materiaalien tuki
+- Varastomateriaalien tuki varastojen avulla
 
 #### <a name="deployment-steps"></a>Käyttöönotto-ohjeet
 Määritä paras Project Operationsin käyttöönottomalli käyttämällä [Käyttöönottokyselyä](https://aka.ms/provisionprojectoperations).

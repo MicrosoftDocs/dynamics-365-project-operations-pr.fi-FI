@@ -3,17 +3,17 @@ title: Ei-ylitettävän tilan ja vahvistusten hallinta
 description: Tässä aiheessa on tietoja Project Operationsissa suorittavista ei-ylitettävän rajoituksen tarkistuksesta.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274010"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866723"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Ei-ylitettävän tilan ja vahvistusten hallinta 
 
@@ -21,7 +21,7 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 ## <a name="not-to-exceed-on-approvals"></a>Ei-ylitettävät rajoitukset hyväksynnöissä
 
-Kun aika- tai kulumerkintä lähetetään, hyväksyntätietue luodaan. Jos hyväksyntä on veloitettava ja yhdistetään ajan ja materiaalin sopimusriville, järjestelmä suorittaa ei-ylitettävän vahvistustarkastuksen seuraavilla tasoilla:
+Kun ajan, kulun tai materiaalin käytön merkintä lähetetään, luodaan hyväksyntätietue. Jos hyväksyntä on veloitettava ja yhdistetään ajan ja materiaalin sopimusriville, järjestelmä suorittaa ei-ylitettävän vahvistustarkastuksen seuraavilla tasoilla:
 
   - Tarkistus projektin sopimusrivillä asiakkaalle määritetyn rajan perusteella
   - Tarkistus sopimusrivillä määritetyn rajan perusteella
@@ -34,11 +34,11 @@ Jos tarkistus läpäistään, hyväksynnän vahvistuksen tila on **Onnistui**.
 
 Jos tarkistusta ei läpäistä, hyväksynnän vahvistuksen tila on **Epäonnistui**. Ei-ylitettävän rajoituksen tarkistuksen tiedot ilmaisevat käyttäjälle, millä tasolla vahvistus epäonnistui.
 
-Jos lähetetty aika- tai kulumerkintä on ei-veloitettava, ei-ylitettävän rajoituksen tarkistuksen tilaksi on määritetty **Ei käytettävissä** ja tarkistuksen tieto on **Ei käytettävissä**.
+Kun lähetettyä aikaa, kulua tai materiaalin käyttöä ei katsota laskutettavaksi, ei-ylitettävän vahvistuksen tilaksi määritetään **Ei käytettävissä** ja tarkistustiedot ovat **Ei käytettävissä**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Laskuttamattomien myynnin todellisten arvojen ei-ylitettävä rajoitus
 
-Kun aika- tai kulumerkintä hyväksytään, kustannusten ja laskuttamattomien myynnin todellisten arvojen tietueet luodaan. Jos luotava laskuttamaton myynnin todellinen arvo on veloitettava ja yhdistetään ajan ja materiaalin sopimusriville, sovellus suorittaa ei-ylitettävän rajoituksen vahvistustarkastuksen seuraavilla tasoilla:
+Kun ajan, kulun tai materiaalin käyttötapahtuma hyväksytään, luodaan kustannukset ja laskuttamattomat myynnin toteutuneiden arvojen tietueet. Jos luotava laskuttamaton myynnin todellinen arvo on veloitettava ja yhdistetään ajan ja materiaalin sopimusriville, sovellus suorittaa ei-ylitettävän rajoituksen vahvistustarkastuksen seuraavilla tasoilla:
 
   - Tarkistus projektin sopimusrivin asiakkaalle määritetyn rajan perusteella
   - Tarkistus sopimusrivillä määritetyn rajan perusteella
@@ -55,9 +55,9 @@ Kun laskuttamattoman myynnin todellinen arvo on ei-veloitettava tai ilmainen ja 
 
 ## <a name="reset-the-not-to-exceed-status"></a>Ei-ylitettävän rajoituksen tilan nollaaminen
 
-Ei-ylitettävän rajoituksen voi nollata joukkotoiminnolla. Tällä tavoin projektipäälliköt voivat muokata ei-ylitettävän rajoituksen tarkistusta ja priorisoida tietyn työn, ajan tai kulujen laskutusta muiden käytettävissä olevasta ei-ylitettävästä rajoitussummasta jo vahvistettujen ohitse.
+Ei-ylitettävän rajoituksen voi nollata joukkotoiminnolla. Projektipäälliköt voivat oikaista ei-ylitettävää tarkistusta, jotta tietyn työ-, aika-, kulu- tai materiaalikäytön laskutus voidaan priorisoida muiden suhteen, jotka on jo käytetty saatavilla olevasta summasta, jota ei saa ylittää.
 
-Kun laskuttamattomien myynnin todellisten arvojen ei-ylitettävien rajoitusten tila nollataan, vahvistettua summaa pienennetään. Projektipäällikkö voi valita toisen työn, ajan tai kulun, joka ei aiemmin läpäissyt ei-ylitettävän rajoituksen tarkistusta, ja arvioida ne uudelleen. Kun vahvistettu summa pienenee, nämä todelliset arvot läpäisevät nyt vahvistuksen. Tällä tavoin projektipäällikkö voi hallita tarkemmin kyseisen kauden laskutettavissa olevia tapahtumia.
+Kun laskuttamattomien myynnin todellisten arvojen ei-ylitettävien rajoitusten tila nollataan, vahvistettua summaa pienennetään. Projektipäällikkö voi valita toisen työ-, aika-, kulu- tai materiaalikäyttömerkinnän, joka ei ole aiemmin läpäissyt ei-ylitettävää vahvistusta, ja arvioida sen uudelleen. Kun sidottu summa on pienentynyt, nämä toteutuneet summat ohittavat nyt oikeellisuustarkistuksen, mikä auttaa projektipäällikköä hallitsemaan enemmän laskutettavia tapahtumia kyseiseltä jaksolta.
 
 Voit nollata ei-ylitettävän rajoituksen tilan valitsemalla vähintään yhden todellisen arvon **Keskeneräiset ajan ja materiaalin laskutukset**- tai **Todelliset arvot** -näkymässä ja valitse sitten **Nollaa ei-ylitettävän rajoituksen tila**.
 

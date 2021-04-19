@@ -1,21 +1,21 @@
 ---
-title: Arvioiden ja todellisten arvojen myyntihintojen selvittäminen – lite
-description: Tässä aiheessa on tietoa myyntihintojen ratkaisemisesta arvioiden ja todellisten tietojen perusteella.
+title: Myyntihintojen selvittäminen projektin arvioille ja toteutuneille arvoille
+description: Tässä aiheessa on tietoja myyntihintojen selvittämisestä projektin arvioissa ja toteutuneissa arvoissa.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274499"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877352"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Arvioiden ja todellisten arvojen myyntihintojen selvittäminen – lite
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Myyntihintojen selvittäminen projektin arvioille ja toteutuneille arvoille
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
@@ -55,5 +55,14 @@ Kun myyntihinnasto on ratkaistu, järjestelmä suorittaa yksikkömyyntihinnan ol
 
 4. Jos järjestelmä ei pysty vastaamaan **luokan** ja **yksikön** kenttien arvoja, myyntihinnan oletusarvona on nolla (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Myynnin arvojen selvittäminen materiaalin toteutuneiden arvojen ja arvioiden riveillä
+
+Project Operationsin materiaalin arviorivejä käytetään tarjousrivin ja sopimusrivin tietojen kirjaamiseen materiaaleille ja materiaalin arvioiriveille projektissa.
+
+Kun myyntihinnasto on ratkaistu, järjestelmä suorittaa yksikkömyyntihinnan oletusarvon seuraavasti:
+
+1. Järjestelmä käyttää arviointirivin **Tuote**- ja **Yksikkö**-kenttäyhdistelmiä yhdistämään materiaali hinnaston nimikkeiden riveihin ratkaistussa hinnastossa.
+2. Jos järjestelmä löytää hinnaston nimikerivin, jolla on myyntihinta **Tuote**- ja **Yksikkö**-kentän yhdistelmälle ja hinnoittelutapa on **Valuuttasumma**, käytetään hinnastorivillä määritettyä myyntihintaa.
+3. Jos **Tuote**- ja **Yksikkö**-arvot eivät täsmää, myyntihinta saa oletusarvon nolla.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

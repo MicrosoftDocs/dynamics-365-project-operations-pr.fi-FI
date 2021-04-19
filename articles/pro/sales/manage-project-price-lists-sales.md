@@ -1,27 +1,27 @@
 ---
-title: Projektihinnastojen hallinta projektitarjouksissa – lite
-description: Tämä aihe tarjoaa tietoja tarjouksien projektihinnastojen käsittelystä. (Sales)
+title: Projektihinnastojen hallinta projektitarjouksissa
+description: Tämä aihe tarjoaa tietoja tarjouksien projektihinnastojen käsittelystä.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273014"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858604"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Projektihinnastojen hallinta projektitarjouksissa – lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Projektihinnastojen hallinta projektitarjouksissa 
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
 Projektitarjoukset on suunniteltu tukemaan useita päivämääräkohtaisia myyntihinnastoja. Dynamics 365 Project Operationsissa lisätään uusi liittyvä entiteetti nimeltä **Projektihinnastot**. Tällä entiteetillä on yksi-moneen-suhde projektitarjoukseen.
 
-Projektihinnastoja käytetään projektin aika- ja kulutapahtumien hinnoitteluun. Kun tarjouksessa on yksi tai usemapi projektihinnasto, näitä hinnastoja käytetään aika- ja kuluarvioiden sekä niiden toteutuneiden arvojen hinnoitteluun projekteissa, jotka on liitetty tarjoukseen tarjousrivin kautta.
+Projektin hinnastoilla hinnoitellaan aikaa, materiaalia ja kulutapahtumia projektissa. Kun tarjouksessa on yksi tai useampi projektihinnasto, näitä hinnastoja käytetään ajan, materiaalinen, kuluarvioiden ja toteutuneiden arvojen hinnoitteluun projekteissa, jotka liittyvät tarjoukseen tarjousrivin kautta.
 
 Jos projektitarjouksessa ei ole projektihinnastoa, näyttöön tulee varoitussanoma. Sanomassa ilmoitetaan, että koska projektihinnastoja ei ole, arvioituja ja toteutuneita projektitöitä ja kuluja ei hinnoitella. Sen sijaan niillä on myyntiarvojen hintana nolla (0).
 

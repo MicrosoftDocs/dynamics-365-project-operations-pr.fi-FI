@@ -3,17 +3,17 @@ title: Projektipohjaisen sopimusrivin arviointi – lite
 description: Tässä aiheessa on tietoja projektipohjaisen sopimusrivin arvioinnista.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 186b982ee440576e10cf5b78922848b8877afd51
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bf7941a627375604dca778ab293756bed2536049
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273533"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858073"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Projektipohjaisen sopimusrivin arviointi – lite
 
@@ -28,28 +28,33 @@ Projektipohjaisen sopimusrivin voi arvioida siirtymällä projektipohjaisella **
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Arvioinnin luominen suoraan projektipohjaisella sopimusrivillä
 
-1. Siirry sopimusriville ja valitse **Sopimusrivin tiedot** -välilehti. Tässä välilehdessä luotavat rivit lasketaan yhteen, ja ne näkyvät tämän **sopimusrivin** **sopimuksen arvona**. 
-2. Valitse **Sopimusrivin tiedot** -alaruudussa **+ Uusi sopimusrivin tieto**. Pikaluonnin liukusäädin avautuu. **Sopimusrivin tiedot** -lomakkeessa on seuraavat kentät:
+Arvion luonti suoraan projektipohjaisella sopimusrivillä tapahtuu seuraavia vaiheita seuraamalla:
 
-| Field | Sijainti | Kuvaus | Loppupään vaikutus |
+1. Siirry sopimusriville ja valitse **Sopimusrivin tiedot** -välilehti. Tässä välilehdessä luotavat rivit lasketaan yhteen, ja ne näkyvät tämän **sopimusrivin** **sopimuksen arvona**. 
+2. Valitse **Sopimusrivin tiedot** -alaruudukossa **Uusi sopimusrivin tieto**. Pikaluonnin liukusäädin avautuu. Seuraavat kentät ovat käytettävissä **Sopimusrivin tiedot** -sivulla.
+
+| Kenttä | Sijainti | Kuvaus | Loppupään vaikutus |
 | --- | --- | --- | --- |
-| **Kuvaus** | **Pikaluonti** | Tietyn arvion kuvaus. | Tämän kentän oletusarvona on automaattisesti luotuihin kustannuksiin liittyvän sopimusrivin tiedot. |
-| **Tapahtumaluokka** | **Pikaluonti** | Tässä avattavassa luettelossa on tapahtumaluokkia, jotka sisältyvät projektipohjaisen sopimusrivin **Yleiset**-välilehteen. | Tämän kentän oletusarvona on automaattisesti luotuihin kustannuksiin liittyvän sopimusrivin tiedot. |
-| **Rooli** | **Pikaluonti** | Tämän työn suorittavan tai tämän kulun aiheuttavan henkilön rooli. | Tämän kentän oletusarvona on automaattisesti luotuihin kustannuksiin liittyvän sopimusrivin tiedot. |
-| **Luokka** | **Pikaluonti** | Työn tai kulun luokka. | Tämän kentän oletusarvona on automaattisesti luotuihin kustannuksiin liittyvän sopimusrivin tiedot. |
-| **Aloituspäivämäärä** | **Pikaluonti** | Työn alkamispäivämäärä. | Tämän kentän oletusarvona on automaattisesti luotuihin kustannuksiin liittyvän sopimusrivin tiedot. |
-| **Päättymispäivä** | **Pikaluonti** | Työn päättymispäivämäärä. | Tämän kentän oletusarvona on automaattisesti luotuun kustannukseen liittyvän sopimusrivin tiedot. |
-| **Resursointiyksikkö** | **Pikaluonti** | Tämän kustannuksen aiheuttava resursointiyksikkö, joka toimittaa siinä työtä tekevän resurssin. | Tämän kentän oletusarvona on automaattisesti luotuihin kustannuksiin liittyvän sopimusrivin tiedot. Tätä kenttää käytetään myös kustannushinnan haussa. |
-| **Yksikön aikataulutus** | **Pikaluonti** | Työn tai kulun yksikköryhmä. Yksiköt kuuluvat yksikköaikatauluun tai yksiköiden ryhmään. Esimerkiksi *mailit* ja *kilometrit (km)* ovat etäisyyttä kuvaavaan yksikköryhmään kuuluvia yksiköitä. | Tämän kentän oletusarvona on automaattisesti luotuihin kustannuksiin liittyvän sopimusrivin tiedot. |
-| **Yksikkö** | **Pikaluonti** | Työn tai kulun yksikkö. | Tämän kentän oletusarvona on automaattisesti luotuihin kustannuksiin liittyvän sopimusrivin tiedot. |
-| **Määrä** | **Pikaluonti** | Työn tai kulun määrä. | Tämän kentän oletusarvona on automaattisesti luotuihin kustannuksiin liittyvän sopimusrivin tiedot. |
-| **Yksikköhinta** | **Pikaluonti** | Työn suorittavan rooli laskutushinta tai kululuokan myyntihinta. Tämän kentän oletusarvona on **aikaan** perustuva roolin ja resursointiyksikön yhdistelmä projektihinnastossa, joka on voimassa alkamispäivänä. Kulujen osalta tämän kentän oletusarvo saadaan sen projektihinnaston tapahtumaluokan hintamäärityksistä, joka on voimassa alkamispäivänä. Jos tapahtumaluokan hinnoittelutapa ei ole **yksikköhinta**, oletusarvoa ei ole, ja tämä kenttä jätetään tyhjäksi. | Työn suorittavan rooli kustannushinta tai kululuokan yksikkökohtainen kustannus. Tämän kentän oletusarvo **ajalle perustuu roolin** ja resursointiyksikön yhdistelmään sillä sopimusyksikköön liitetyn kustannushintaluettelon roolin hintarivillä, joka on voimassa alkamispäivänä. Kulujen osalta tämän kentän oletusarvo perustuu siihen sopimusyksikköön liitettyyn kustannushintaluettelon luokan hintariviin, joka on voimassa alkamispäivänä. Jos tapahtumaluokan hinnoittelutapa ei ole hinta yksikköä kohden, oletusarvoa ei ole, ja tämä kenttä jätetään tyhjäksi. |
-| **Arvioitu vero** | **Pikaluonti** | Tämän työn tai kulun käyttäjän antama arvioitu vero. | Tämän työn tai kulun käyttäjän antama arvioitu vero. |
-| **Summa** | **Pikaluonti** | Käyttäjä voi lisätä tämän kentän arvon, jos **Määrä**- ja **Hinta**-kentät on jätetty tyhjiksi. Jos **Määrä**- ja **Hinta**-kentät on täytetty, **Summa**-kenttä on vain luku -muotoinen ja se lasketaan kaavalla **(Määrä \* Yksikköhinta) + Vero**. | &nbsp; |
+| **Kuvaus** | **Pikaluonti** | Tietyn arvion kuvaus. | Tämä arvo saa oletusarvon, joka on automaattisesti luotu liittyvä sopimusrivin kustannustieto. |
+| **Tapahtumaluokka** | **Pikaluonti** | Tämä on tapahtumaluokkien luettelo, joka sisältyy projektipohjaisen sopimusrivin **Yleiset**-välilehteen. | Tämä arvo saa oletusarvon, joka on automaattisesti luotu liittyvä sopimusrivin kustannustieto. |
+| **Valitse tuote** | **Pikaluonti** | Koskee, kun tapahtumaluokka on **Materiaali**. Voit valinnaisesti määrittää, onko tämä arviorivi **Aiemmin luodulle** (luettelon) tuotteelle vai **Käsin lisättävälle** tuotteelle. | Tämä arvo saa oletusarvon, joka on automaattisesti luotu liittyvä sopimusrivin kustannustieto. |
+| **Tuote** | **Pikaluonti** | Tuoteluettelon tuotteen tunnus. Tämä kenttä on käytössä vain, kun valitset **Aiemmin luodun tuotteen** **Valitse tuote** -kentässä. Tunnuksen avulla haetaan myyntihinta sopimuksen projektihinnastosta. | Tämä arvo saa oletusarvon, joka on automaattisesti luotu liittyvä sopimusrivin kustannustieto. |
+| **Käsin lisätty tuote** | **Pikaluonti** | Tekstikenttä, johon syötetään tuotteen nimi. Tämä kenttä on käytössä vain, kun valitset **Käsin lisättävä** **Valitse tuote** -kentässä.| Tämä arvo saa oletusarvon, joka on automaattisesti luotu liittyvä sopimusrivin kustannustieto. |
+| **Rooli** | **Pikaluonti** | Tämän työn suorittavan tai tämän kulun aiheuttavan henkilön rooli. | Tämä arvo saa oletusarvon, joka on automaattisesti luotu liittyvä sopimusrivin kustannustieto.|
+| **Luokka** | **Pikaluonti** | Työn tai kulun luokka. |Tämä arvo saa oletusarvon, joka on automaattisesti luotu liittyvä sopimusrivin kustannustieto.|
+| **Aloituspäivämäärä** | **Pikaluonti** | Työn alkamispäivämäärä. | Tämä arvo saa oletusarvon, joka on automaattisesti luotu liittyvä sopimusrivin kustannustieto. |
+| **Päättymispäivä** | **Pikaluonti** | Työn päättymispäivämäärä. | Tämä arvo saa oletusarvon, joka on automaattisesti luotu liittyvä sopimusrivin kustannustieto. |
+| **Resursointiyksikkö** | **Pikaluonti** | Resursoiva yksikkö, joka aiheittaa tämän kustannuksen ja tarjoaa resurssit sen suhteen tehtävään työhön. |Tämä arvo saa oletusarvon, joka on automaattisesti luotu liittyvä sopimusrivin kustannuksen tieto ja jota käytetään kustannushinnan hakemiseen. |
+| **Yksikön aikataulutus** | **Pikaluonti** | Työn, tuotteen tai kulun yksikköryhmä. Yksiköt kuuluvat yksikköaikatauluun tai yksiköiden ryhmään. Esimerkiksi *mailit* ja *kilometrit (km)* ovat etäisyyttä kuvaavaan yksikköryhmään kuuluvia yksiköitä. | Tämä arvo saa oletusarvon, joka on automaattisesti luotu liittyvä sopimusrivin kustannustieto. |
+| **Yksikkö** | **Pikaluonti** | Työn, tuotteen tai kulun yksikkö. | Tämä arvo saa oletusarvon, joka on automaattisesti luotu liittyvä sopimusrivin kustannustieto. |
+| **Määrä** | **Pikaluonti** | Työn, tuotteen tai kulun määrä. | Tämä arvo saa oletusarvon, joka on automaattisesti luotu liittyvä sopimusrivin kustannustieto. |
+| **Yksikköhinta** | **Pikaluonti** | Työn suorittavan roolin laskutushinta, tuotteen yksikkökustannus tai tuote- tai kululuokan myyntihinta. Tämä kenttä saa oletusarvoksi **Ajan** perustuen alkamispäivänä voimassa olevassa projektihinnastossa olevien roolihintarivien hinnoitteludimensioiden arvojen yhdistelmiin. **Kulujen** osalta tämän kentän oletusarvo saadaan sen projektihinnaston tapahtumaluokan hintamäärityksistä, joka on voimassa alkamispäivänä. Jos tapahtumaluokan hinnoittelutapa ei ole **yksikköhinta**, oletusarvoa ei ole, ja tämä kenttä jätetään tyhjäksi. Tämän kentän oletusarvo tuotteille perustuu **Hinnaston nimike** -riviin projektihinnastossa, joka on voimassa alkamispäivänä.| Työn suorittavan roolin kustannushinta, kululuokan yksikkökustannus tai tuotteen yksikkökustannus. Tämä kenttä saa oletusarvoksi **Ajan** perustuen alkamispäivänä voimassa olevaan sopimusyksikköön liitetyssä projektihinnastossa olevien roolihintarivien hinnoitteludimensioiden arvojen yhdistelmiin. Kulujen osalta tämän kentän oletusarvo perustuu siihen sopimusyksikköön liitettyyn kustannushintaluettelon luokan hintariviin, joka on voimassa alkamispäivänä. Jos tapahtumaluokan hinnoittelutapa ei ole hinta yksikköä kohden, oletusarvoa ei ole, ja tämä kenttä jätetään tyhjäksi. Tämän kentän oletusarvo tuotteille perustuu **Hinnaston nimike** -riviin kustannushinnastossa, joka liittyy sopimusyksikköön, joka on voimassa alkamispäivänä.|
+| **Arvioitu vero** | **Pikaluonti** | Tämän työn tai kulun arvioitu vero. | Tämän työn tai kulun arvioitu vero. |
+| **Summa** | **Pikaluonti** | Tämän kentän arvo voidaan lisätä, jos **Määrä**- ja  **Hinta**-kentät jätetään tyhjiksi. Jos **Määrä**- ja **Hinta**-kentät on täytetty, **Summa**-kenttä on vain luku -muotoinen ja se lasketaan kaavalla **(Määrä \* Yksikköhinta) + Vero**. | &nbsp; |
 
 ## <a name="update-prices-on-contract-line-details"></a>Sopimusrivin tietojen hintojen päivittäminen
 
-Jos muutat sopimukseen tai sopimusyksikön kustannushintaluetteloon liitettyjä projektihinnaston hintoja, yksittäisen sopimusrivin tietojen hinnat voidaan päivittää vastaamaan muutosta. Valitse **Palvelusopimus**-sivulla **Laske uudelleen**. Avautuva varoitus ilmoittaa, että kaikkien tämän sopimuksen sopimusrivien hinnat palautetaan alkutilaan. Valitsemalla **Kyllä** voit päivittää sekä myynnin että kustannuksen sopimusrivin tietojen hinnat päivitetään.
+Jos muutat sopimukseen tai sopimusyksikön kustannushintaluetteloon liitettyjä projektihinnaston hintoja, yksittäisen sopimusrivin tietojen hinnat voidaan päivittää vastaamaan muutosta. Valitse **Palvelusopimus**-sivulla **Laske uudelleen**. Näkyviin tulee varoitus, joka ilmoittaa, että kaikkien tämän sopimuksen sopimusrivien hinnat nollataan. Valitsemalla **Kyllä** voit päivittää sekä myynnin että kustannuksen sopimusrivin tietojen hinnat päivitetään.
 
 ## <a name="access-contract-line-details-for-cost"></a>Kustannuksen sopimusrivin tietojen käyttäminen
 
@@ -67,7 +72,7 @@ Valitse **Sopimusrivin tiedot** -välilehdessä ruudussa rivi, jolloin toiminnot
 Kannattavuuslaskelmat muuntavat **kustannusten** ja **myynnin** sopimusrivin tietojen summat ympäristön perusvaluutaksi, jolloin voidaan raportoida sopimuksen todelliset ja arvioidut kokonaiskatteet.
 
 > [!NOTE]
-> Valuutan pyöristysvirheitä ja muuttuneita katteita voi esiintyä, koska vaihtokurssien voimassaolopäivä puuttuu. Käytä näitä projektisopimusten laskelmia vain likimääräisinä arvoina eikä varsinaisena lakisääteisenä tai muuna raportointina, joka edellyttää tarkkuutta pyöristyksen osalta tai tietoisuutta vaihtokurssien voimassaolopäivästä.
+> Valuutan pyöristysvirheitä ja muuttuneita katteita voi esiintyä, koska vaihtokurssien voimassaolopäivä puuttuu. Näitä laskelmia voi käyttää vain projektisopimuksissa, koska ne ovat pyöristyksiä, ja ne eivät ole varsinaisia lakimääräistä tai muuta raportointia, joka edellyttää valuuttakurssien pyöristystarkkuutta ja päivämäärävaikuttavuuden tuntemusta.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

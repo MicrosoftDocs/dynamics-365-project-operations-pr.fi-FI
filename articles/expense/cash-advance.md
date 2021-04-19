@@ -3,19 +3,19 @@ title: Käteisennakko
 description: Tässä aiheessa on tietoja käteisennakoista.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276704"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715556"
 ---
 # <a name="cash-advance"></a>Käteisennakko
 
@@ -60,7 +60,22 @@ Seuraavan menettelyn suorittaa yleensä kirjanpitäjä tai käyttäjä, jolla on
 
 Kun luot ja lähetät kuluraportin jo saadusta käteisennakosta, kulut oikaistaan automaattisesti tähän ennakkoon. Jos käteisennakko on suurempi kuin kuluksi kirjattu summa, saldo on palautettava yritykselle käyttämällä **Palauta käteistä** -kululuokkaa. Jos yrityksen maksama käteisennakko on pienempi kuin kuluttamasi summa, yrityksen on maksettava saldo takaisin. 
 
-### <a name="example"></a>Esimerkiksi
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Kuluihin kohdistuvien käteisennakkojen valinta
+Ennen kuluraportin lähettämistä voit valita käteisennakon, joka kohdistuu raportin kulutapahtumiin. Tätä toimintoa varten on otettava käyttöön seuraavat kaksi ominaisuutta **Ominaisuuksien hallinta** -työtilassa:
+
+  - Uudistetut kuluraportit
+  - Mahdollisuus yhdistää käteisennakkoja kuluriveille
+ 
+ Kun nämä ominaisuudet on otettu käyttöön:
+ 
+  - Kutakin kuluriviä varten voidaan lisätä yksi tai useampia käteisennakoita.
+  - Käteisennakon käytettävissä oleva summa näkyy reaaliaikaisesti, kun kuluraportti tallennetaan. Näin voit käsitellä kulutapahtumia ja palautuksen käteistapahtumia samanaikaisesti.
+  - Yhtä kulutapahtumaa varten voidaan valita yksi tai useampia käteisennakoita.
+  - Käteisennakon täsmäytystiedot ovat käytettävissä kyselyn avulla. 
+ 
+Jos et käytä näitä ominaisuuksia, toiminnot säilyvät samoina siten, että aiemmin luodut käteisennakot vähennetään automaattisesti kulun lähetyksen jälkeen.
+
+### <a name="example"></a>Esimerkiksi 
 Aiot matkustaa Seattlesta New York Cityyn konferenssia varten. Luot 3 000,00 USD:n käteisennakkopyynnön konferenssilipun, hotellin, aterioiden ja taksin arvioitujen kustannusten perusteella. Sinulle ei makseta, ellei esimiehesi hyväksy tätä pyyntöä. Kun esimies on hyväksynyt pyynnön, käteisennakko 3 000,00 USD maksetaan pankkitilillesi. Sen jälkeen osallistut konferenssiin. Kun olet suorittanut matkasi, huomaat, että kokonaiskulut olivat vain 2 790,00 USD. Valitse **Käteinen** **Maksutapa**-kentässä ja lähetä kulut 2 790,00 USD. Lähetetty kulusumma oikaistaan automaattisesti sinulle lainattua 3 000,00 USD käteisennakkoa vastaan. Nyt olet velkaa 210,00 USD (3 000,00 - 2 790,00), jonka voit palauttaa yritykselle käyttämällä **Käteisen palautus** -kululuokkaa.
 
 

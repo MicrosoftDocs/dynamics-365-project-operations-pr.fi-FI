@@ -3,17 +3,17 @@ title: Arvioiden ja todellisten arvojen myyntihintojen selvittäminen
 description: Tämä aihe tarjoaa tietoja myyntihintojen ratkaisemisesta arvioiden ja todellisuuden mukaan.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274949"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877441"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Arvioiden ja todellisten arvojen myyntihintojen selvittäminen
 
@@ -54,6 +54,17 @@ Kun myyntihinnasto on ratkaistu, järjestelmä suorittaa yksikkömyyntihinnan ol
     | &nbsp; | Hinnankorotus | Käyttämällä luokan hintarivillä määritettyä merkintää, joka liittyy liittyvän kustannuksen todelliseen yksikkökustannushintaan |
 
 4. Jos järjestelmä ei pysty vastaamaan **luokan** ja **yksikön** kenttien arvoja, myyntihinnan oletusarvona on nolla (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Myynnin arvojen selvittäminen materiaalin toteutuneiden arvojen ja arvioiden riveillä
+
+Project Operationsin materiaalin arviorivejä käytetään tarjousrivin ja sopimusrivin tietojen kirjaamiseen materiaaleille ja materiaalin arvioiriveille projektissa.
+
+Kun myyntihinnasto on ratkaistu, järjestelmä suorittaa yksikkömyyntihinnan oletusarvon seuraavasti:
+
+1. Järjestelmä käyttää arviointirivin **Tuote**- ja **Yksikkö**-kenttäyhdistelmiä yhdistämään materiaali hinnaston nimikkeiden riveihin ratkaistussa hinnastossa.
+2. Jos järjestelmä löytää hinnaston nimikerivin, jolla on myyntihinta **Tuote**- ja **Yksikkö**-kentän yhdistelmälle ja hinnoittelutapa on **Valuuttasumma**, käytetään hinnastorivillä määritettyä myyntihintaa.
+3. Jos **Tuote**- ja **Yksikkö**-arvot eivät täsmää, myyntihinta saa oletusarvon nolla.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

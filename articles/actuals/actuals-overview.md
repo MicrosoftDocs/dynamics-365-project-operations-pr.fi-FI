@@ -3,7 +3,7 @@ title: Todelliset arvot
 description: Tässä aiheessa on tietoja Microsoft Dynamics 365 Project Operationsin todellisten arvojen käsittelystä.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291795"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852540"
 ---
 # <a name="actuals"></a>Todelliset arvot 
 
-_**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
+_**Koskee:** Project Operationsin resurssiin/ei-varastointiin perustuvia skenaarioita, Lite-käyttöönotto - kaupasta proformalaskutukseen_
 
-Todelliset arvot vastaavat työmäärää, joka projektissa on suoritettu. Ne luodaan aika- ja kulutapahtumien sekä päiväkirjakirjausten ja laskujen tuloksena.
+Toteutuneet arvot edustavat projektin arvioitua ja hyväksyttyä taloudellista ja aikataulun edistymistä. Ne luodaan ajan, kulujen, materiaalin käyttömerkintöjen, kirjausten ja laskujen hyväksynnän tuloksena.
 
 ## <a name="journal-lines-and-time-submission"></a>Kirjauskansion rivit ja ajan lähetys
 
@@ -45,7 +45,7 @@ Kun lähetetään sellaiseen projektiin linkitetty aikamerkintä, joka on yhdist
 
 Oletushintojen luonnin logiikka on kirjauskansion rivillä. Aikamerkinnän kenttien arvot kopioidaan kirjauskansion riville. Nämä arvot sisältävät tapahtumapäivämäärän, sopimusriviin yhdistetyn projektin ja valuuttatuloksen asianmukaisessa hinnastossa.
 
-Oletushinnoitteluun vaikuttavia kenttiä, kuten **Rooli** ja **Organisaatioyksiköt**, käytetään määrittämään asianmukainen hinta kirjauskansion riville. Voit lisätä mukautetun kentän ajankohdalle. Jos haluat, että kentän arvo välitetään todellisiin arvoihin, luo kenttä Todelliset arvot -entiteettiin ja käytä kenttien yhdistämistä kopioidaksesi kentän aikamerkinnästä todelliseen arvoon.
+Oletushintoihin vaikuttavia kenttiä, kuten **Rooli** ja **Organisaatioyksikkö** käytetään kirjauskansion rivin sopivan hinnan määrittämiseen. Voit lisätä mukautetun kentän ajankohdalle. Jos haluat, että kentän arvo välitettään toteutuneisiin arvoihin, luo kenttä **Toteutuneet**- ja **Kirjausrivi**-taulukoihin. Käytä mukautettua koodia, kun haluat välittää valitun kentän arvon ajan syötöstä toteutuneisiin arvoihin kirjausrivin kautta käyttämällä tapahtumien alkuperää. Lisätietoja tapahtumien alkuperästä ja yhteyksistä on ohjeaiheessa [Toteutuneidenarvojen linkittäminen alkuperäisiin tietueisiin](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Kirjauskansiorivit ja peruskulujen lähettäminen
 
@@ -57,24 +57,42 @@ Kun lähetetty perustukulumerkintä linkitetään projektiin, joka on yhdistetty
 
 ### <a name="fixed-price"></a>Kiinteähintainen
 
-Kun lähetetään sellaiseen projektiin linkitetty peruskulumerkintä, joka on yhdistetty kiinteähintaiseen sopimusriviin, järjestelmä luo kirjauskansion rivi kustannusta varten.
+Kun lähetetty peruskulumerkintä on linkitetty projektiin, joka on yhdistetty kiinteähintaiseen sopimusriviin, järjestelmä luo yhden kirjauskansion rivin kustannusta varten.
 
 ### <a name="default-pricing"></a>Oletushinnoittelu
 
-Kulujen oletushintojen syöttämiseen liittyvä logiikka perustuu kululuokkaan. Oikean hinnaston määrittämisessä käytetään tapahtuman päiväystä, sopimusriviin yhdistettyä projektia ja valuuttaa. Itse hinnan osalta syötetty summa asetetaan oletusarvoisesti suoraan siihen liittyvien kulujen kirjauskansion kustannus- ja myyntirivien arvoksi.
+Kulujen oletushintojen syöttämiseen liittyvä logiikka perustuu kululuokkaan. Sopivan hinnaston määrittämisessä käytetään tapahtuman päiväystä, sopimusriviin yhdistettyä projektia ja valuuttaa. Oletushintoihin vaikuttavia kenttiä, kuten **Tapahtumaluokka** ja **Yksikkö** käytetään kirjauskansion rivin sopivan hinnan määrittämiseen. Tämä toimii kuitenkin vain, jos hinnaston hinnoittelutapa on **Yksikköhinta**. Jos hinnoittelutapa on **Kustannuksen arvo** tai **Hinnankorotus kustannukselle**, hintaa, joka syötetään, kun kulumerkintä luodaan, käytetään kustannukselle ja myyntikirjauskansion rivi lasketaan hinnoittelutavan perusteella. 
 
-Luokkaperusteista merkintää yksikkökohtaisista kulumerkintöjen oletushinnoista ei ole käytettävissä.
+Voit lisätä kulumerkintään mukautetun kentän. Jos haluat, että kentän arvo välitettään toteutuneisiin arvoihin, luo kenttä **Toteutuneet**- ja **Kirjausrivi**-taulukoihin. Käytä mukautettua koodia, kun haluat välittää valitun kentän arvon ajan syötöstä toteutuneisiin arvoihin kirjausrivin kautta käyttämällä tapahtumien alkuperää. Lisätietoja tapahtumien alkuperästä ja yhteyksistä on ohjeaiheessa [Toteutuneidenarvojen linkittäminen alkuperäisiin tietueisiin](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Kirjauskansion rivien ja materiaalin käyttölokien lähettäminen
+
+Lisätietoja kulumerkinnästä on kohdassa [Materiaalin käyttöloki](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Aika ja materiaalit
+
+Kun lähetetty materiaalin käyttölokin kirjaus linkitetään projektiin, joka on yhdistetty ajan ja materiaalien sopimusriviin, järjestelmä luo kaksi kirjauskansion riviä, yhden kustannuksille ja toisen laskuttamattomalle myynnille.
+
+### <a name="fixed-price"></a>Kiinteähintainen
+
+Kun lähetetty materiaalin käyttölokin kirjaus on linkitetty projektiin, joka on yhdistetty kiinteähintaiseen sopimusriviin, järjestelmä luo yhden kirjauskansion rivin kustannusta varten.
+
+### <a name="default-pricing"></a>Oletushinnoittelu
+
+Materiaalin oletushintojen syöttämisen logiikka perustuu tuotteen ja yksikön yhdistelmään. Sopivan hinnaston määrittämisessä käytetään tapahtuman päiväystä, sopimusriviin yhdistettyä projektia ja valuuttaa. Oletushintoihin vaikuttavia kenttiä, kuten **Tuotetunnus** ja **Yksikkö** käytetään kirjauskansion rivin sopivan hinnan määrittämiseen. Tämä koskee kuitenkin vain luettelotuotteita. Lisätyille tuotteille hintaa, joka syötetään, kun materiaalin käyttölokin kirjaus luodaan, käytetään kustannuksen ja myyntihinnan kirjauskansioriveillä. 
+
+Voit lisätä **materiaalin käyttölokin** kirjaukseen mukautetun kentän. Jos haluat, että kentän arvo välitettään toteutuneisiin arvoihin, luo kenttä **Toteutuneet**- ja **Kirjausrivi**-taulukoihin. Käytä mukautettua koodia, kun haluat välittää valitun kentän arvon ajan syötöstä toteutuneisiin arvoihin kirjausrivin kautta käyttämällä tapahtumien alkuperää. Lisätietoja tapahtumien alkuperästä ja yhteyksistä on ohjeaiheessa [Toteutuneidenarvojen linkittäminen alkuperäisiin tietueisiin](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Tapahtumakirjauskansioiden käyttö kustannusten tallentamiseen
 
 Tapahtumakirjauskansioihin voit tallentaa kustannuksia tai tuottoja luokkiin materiaali, maksu, kulu ja verotapahtuma. Kirjauskansioita voi käyttää seuraaviin tarkoituksiin:
 
-- Tallenna projektin materiaalien todelliset kustannukset ja myynti.
 - Siirrä tapahtumien todelliset arvot toisesta järjestelmästä Microsoft Dynamics 365 Project Operations -ohjelmaan.
 - Tallenna kustannukset, jotka tapahtuivat toisessa järjestelmässä. Nämä kustannukset voivat sisältää hankinta- tai alihankintakustannuksia.
 
 > [!IMPORTANT]
 > Sovellus ei tarkista päiväkirjan rivin tyyppiä tai siihen liittyvää hinnoittelua, joka on syötetty päiväkirjan riville. Siksi vain käyttäjä, joka on täysin tietoinen todellisten arvojen kirjanpidollisesta vaikutuksesta projekteihin, voi käyttää tapahtumakirjauskansioita todellisten arvojen luomiseen. Tämän kirjauskansiotyypin vaikutuksen vuoksi sinun on valittava huolellisesti, kenellä on oikeus luoda tapahtumakirjauskansioita.
+
 ## <a name="record-actuals-based-on-project-events"></a>Todellisten arvojen tallentaminen projektitapahtumien perusteella
 
 Project Operations tallentaa projektin aikana esiintyvät taloudelliset tapahtumat. Nämä tapahtumat kirjataan muodossa Todelliset arvot. Seuraavissa taulukoissa esitetään todellisten arvojen eri tyypit, jotka luodaan sen perusteella, onko projekti aika ja materiaalit -projekti vai kiinteähintainen projekti, onko se myyntiä edeltävässä vaiheessa vai onko se sisäinen projekti.

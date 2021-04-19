@@ -1,5 +1,5 @@
 ---
-title: Projektipohjaisten sopimusrivien käyttäminen – lite
+title: Projektipohjaisten sopimusrivien yleiskatsaus
 description: Tässä aiheessa on tietoja projektipohjaisten sopimusrivien käyttämisestä.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b0ff564c2cf9bc5681e14efbfa7983d6959c155
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 824fdd54d7b513b49afd1a6d76d3387df81418e2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273284"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858154"
 ---
-# <a name="work-with-projectbased-contract-lines---lite"></a>Projektipohjaisten sopimusrivien käyttäminen – lite
+# <a name="project-based-contract-lines-overview"></a>Projektipohjaisten sopimusrivien yleiskatsaus
 
-_**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
+_**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
 Dynamics 365 Project Operationsin projektipohjaiset sopimusrivit on suunniteltu sisältämään sitoumuksen projektityön tiettyjen komponenttien arvio- ja laskutussopimukset. Projektipohjaisen sopimusrivin rakenne on laajennettu projektin arviointi- ja laskutusskenaarioihin seuraavien käsitteiden avulla:
 
@@ -35,11 +35,12 @@ Seuraavassa taulukossa on projektipohjaisten sopimusrivien **Yleiset**-välilehd
 | --- | --- | --- |
 | **Nimi** | Sopimusrivin nimi. Se määrittää sopimuksen arvioitavan komponentin. Jos projektisopimus on luotu tarjouksesta, tämä arvo kopioidaan vastaavasta projektipohjaisen tarjousrivin arvosta. | Nimi kopioidaan tältä sopimusriviltä luodulle projektin laskuriville, kun lasku luodaan. |
 | **Laskutustapa** | Jos projektisopimus on luotu tarjouksesta, tämä arvo kopioidaan vastaavasta tarjousrivin kentästä. Tämä asetusjoukko ilmaisee kaksi tärkeintä Project Operationsin tukemaa sopimusmallia:</br>- **Kiinteä hinta**</br>- **Aika ja materiaalit** | Varsinainen tapahtuma käsitellään viitatun sopimusrivin laskutustavan perusteella. Jos sen sopimusrivin, johon todellinen arvo viittaa, laskutustapana on aika ja materiaali, kustannusten ja laskuttamaton todellisen myynnin tietueet luodaan. Jos sen sopimusrivin, johon todellinen arvo viittaa, laskutustapa on kiinteä hinta, vain todellinen kustannus luodaan. |
-| **Project** | Tämän kentän avulla voi määrittää projektin, jonka avulla toimitetaan tämän sitoumuksen työ. | Tätä arvoa käytetään yhdessä **Sisällytettävät tehtävät**- ja **Sisällytettävät tapahtumaluokat** -kenttien kanssa selvittämään sopimusriviviittaus todellisen arvon tai arvion rivitietueessa. |
+| **Project** | Tämän kentän avulla voi määrittää projektin, jonka avulla toimitetaan tämän sitoumuksen työ. | Arvoa käytetään yhdessä **Sisällytetyt tehtävät** - ja **Sisällytetyt tapahtumaluokat** -arvojen kanssa, kun sopimusriviviittaus ratkaistaan toteutuneiden tai arviorivitietueiden perusteella. |
 | **Sisällytettävät tehtävät** | Ilmaisee, sisältääkö tämä sopimusrivi valitun projektin kaikki projektitehtävät vai vain tehtävien alijoukon. Tällä asetusjoukolla on seuraavat mahdolliset arvot:</br>- **Kaikki projektitehtävät**</br>- **Vain valitut projektitehtävät**. Tyhjä arvo tässä kentässä vastaa vaihtoehdon **Kaikki projektitehtävät** valintaa. | Jos **Vain valitut tehtävät** valitaan, voi valita tietyt tehtävät ja liittää ne tähän sopimusriviin **Projekti**-sivun **Tehtävän laskutuksen asetukset** -välilehdessä. Tätä arvoa käytetään yhdessä **Projekti**- ja **Sisällytettävät tapahtumaluokat** -luokkien kanssa selvittämään sopimusriviviittaus todellisen arvon tai arvion rivitietueessa. |
-| **Sisällytä aika** | Merkintä ilmaisee, sisältääkö tämä sopimusrivi valitun projekti aikatapahtumat tai työkustannukset. **Ei**-arvo ilmaisee, että aikatapahtumia tai työkustannuksia ei sisällytetä sopimusriville. **Kyllä**-arvo ilmaisee, että ne sisällytetään. | Tätä arvoa käytetään yhdessä projektin kanssa selvittämään sopimusriviviittaus todellisen arvon tai arvion rivitietueessa. |
-| **Sisällytä kulu** | Merkintä ilmaisee, sisällytetäänkö valitun projekti kulukustannukset tälle sopimusriville. **Ei**-arvo ilmaisee, että kulukustannuksia ei sisällytetä sopimusriville. **Kyllä**-arvo ilmaisee, että se sisällytetään. | Tätä arvoa käytetään yhdessä projektin kanssa selvittämään sopimusriviviittaus todellisen arvon tai arvion rivitietueessa. |
-| **Sisällytä maksu** | Merkintä ilmaisee, sisällytetäänkö valitun projekti maksut tälle sopimusriville. **Ei**-arvo ilmaisee, että maksuja ei sisällytetä sopimusriville. **Kyllä**-arvo ilmaisee, että ne sisällytetään. | Tätä arvoa käytetään yhdessä projektin kanssa selvittämään sopimusriviviittaus todellisen arvon tai arvion rivitietueessa. |
+| **Sisällytä aika** | **Kyllä**/**Ei** -arvo ilmaisee, sisällytetäänkö valitun projektin aikatapahtumat tai työvoimakustannukset tähän sopimusriviin. **Ei**-arvo ilmaisee, että aikatapahtumia tai työkustannuksia ei sisällytetä sopimusriville. **Kyllä**-arvo ilmaisee, että ne sisällytetään. | Tätä arvoa käytetään yhdessä projektin kanssa, kun palvelusopimusrivin viittaus ratkaistaan toteutuneita tai arviorivitietueita varten. |
+| **Sisällytä kulu** | **Kyllä**/**Ei** -arvo ilmaisee, sisällytetäänkö valitun projektin kulutapahtumat tähän sopimusriviin. **Ei**-arvo ilmaisee, että kulukustannuksia ei sisällytetä sopimusriville. **Kyllä**-arvo ilmaisee, että se sisällytetään. | Tätä arvoa käytetään yhdessä projektin kanssa, kun palvelusopimusrivin viittaus ratkaistaan toteutuneita tai arviorivitietueita varten. |
+| **Sisällytä materiaalit** | **Kyllä**/**Ei** -arvo ilmaisee, sisällytetäänkö valitun projektin materiaalikustannukset tähän sopimusriviin. **Ei**-arvo ilmaisee, että materiaalikustannuksia ei sisällytetä tähän sopimusriviin. **Kyllä**-arvo ilmaisee, että se sisällytetään. | Tätä arvoa käytetään yhdessä projektin kanssa, kun palvelusopimusrivin viittaus ratkaistaan toteutuneita tai arviorivitietueita varten. |
+| **Sisällytä maksu** | **Kyllä**/**Ei** -arvo ilmaisee, sisällytetäänkö valitun projektin maksut tähän sopimusriviin. **Ei**-arvo ilmaisee, että maksuja ei sisällytetä sopimusriville. **Kyllä**-arvo ilmaisee, että ne sisällytetään. | Tätä arvoa käytetään yhdessä projektin kanssa, kun palvelusopimusrivin viittaus ratkaistaan toteutuneita tai arviorivitietueita varten. |
 | **Palvelusopimuksen summa** | Kiinteähintaisella sopimusrivillä tämä summa on sovittu arvo, joka asiakkaalle laskutetaan kaikesta tähän sopimusriviin liitetyistä työkomponenteista. Ajan ja materiaalin sopimusrivillä tämä summa on arvio siitä, mitä asiakkaalle laskutetaan kaikesta tähän sopimusriviin liitetyistä työkomponenteista. Jos projektisopimus on luotu tarjouksesta, tämä arvo kopioidaan vastaavan tarjousrivin kentästä. Jos projektipohjaisella sopimusrivillä on tietoja, kenttä on lukittu eikä sitä voi muokata ja sen arvo saadaan sopimusrivin tietojen summasta. | Jos sopimusrivillä on rivitietoja, tätä arvoa voi muokata muuttamalla rivitietojen summia. Kiinteähintaisella sopimusrivillä tämän arvon avulla luodaan summa ennen veroja säännöllisinä välitavoitteiden laskutusajankohtina. |
 | **Arvioitu vero** | Käyttäjä voi muokata tätä kenttää antamalla arvioidun verosumman sopimusrivillä. Jos projektipohjaisella sopimusrivillä on tietoja, kenttä on lukittu eikä sitä voi muokata ja sen arvo saadaan sopimusrivin tietojen verosummasta. | Jos sopimusrivillä on rivitietoja, tätä arvoa voi muokata muuttamalla rivitietojen verosummia. Kiinteähintaisella sopimusrivillä tämän arvon avulla luodaan vero säännöllisinä välitavoitteiden laskutusajankohtina. |
 | **Palvelusopimuksen summa veron jälkeen** | Sopimusrivin summa veron jälkeen. Tämä kenttä on vain luku -muotoinen, ja se lasketaan kaavalla **Palvelusopimuksen summa + Vero**. | Kiinteähintaisella sopimusrivillä tämän arvon avulla luodaan säännölliset välitavoitteiden laskutukset. |
@@ -54,18 +55,559 @@ Sääntö 2: jos **Sisällytettävät tehtävät** -kenttä on tyhjä tai sen m�
 
 Sääntö 3: jos **Sisällytettävät tehtävät** -kenttä on tyhjä tai sen määrityksenä on **Vain valitut projektitehtävät**, projekti ja tietty tapahtumaluokka voidaan sisällyttää useille sopimuksen projektipohjaisille sopimusriveille.
 
-| Sopimus | Palvelusopimuksen rivi | Project | Sisällytettävät tehtävät      | Sisällytä aika | Sisällytä kulu | Sisällytä maksu | Kelpaa / ei kelpaa | Syy                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|----------|---------------|---------|---------------------|--------------|-----------------|-------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| S1       | SR1           | K1      | Tyhjä               | Kyllä          | Kyllä             | Kyllä         | Ei kelpaa       | Säännön 2 rikkominen. Projektin P1 aika, kulu ja maksut sisältyvät kummallekin sopimusriville SR1 ja SR2.                                                                                                                                                                                                                                                                                                              |
-| S1       | SR2           | K1      | Tyhjä               | Kyllä          | Kyllä             | Kyllä         | Ei kelpaa       | Säännön 2 rikkominen. Projektin P1 aika, kulu ja maksut sisältyvät kummallekin sopimusriville SR1 ja SR2.                                                                                                                                                                                                                                                                                                              |
-| S1       | SR1           | K1      | Tyhjä               | Kyllä          | No              | Kyllä         | Ei kelpaa       | Säännön 2 rikkominen. Projektin P1 aika ja maksut sisältyvät kummallekin sopimusriville SR1 ja SR2.                                                                                                                                                                                                                                                                                                                          |
-| S1       | SR2           | K1      | Tyhjä               | Kyllä          | Kyllä             | Kyllä         | Ei kelpaa       | Säännön 2 rikkominen. Projektin P1 aika ja maksut sisältyvät kummallekin sopimusriville SR1 ja SR2.                                                                                                                                                                                                                                                                                                                          |
-| S1       | SR1           | K1      | Tyhjä               | Kyllä          | No              | Kyllä         | Kelvollinen           | SR1 sisältää projektin P1 ajan ja maksut. SR2 sisältää projektin P1 kulun. </br>   Siinä, mitä kummallekin sopimusriville sisällytetään, ei ole päällekkäisyyttä, joten kelpaa.                                                                                                                                                                                                                         |
-| S1       | SR2           | K1      | Tyhjä               | No           | Kyllä             | No          | Kelvollinen           | SR1 sisältää projektin P1 ajan ja maksut. SR2 sisältää projektin P1 kulun. </br>   Siinä, mitä kummallekin sopimusriville sisällytetään, ei ole päällekkäisyyttä, joten kelpaa.                                                                                                                                                                                                                         |
-| S1       | SR1           | K1      | Vain valitut tehtävät | Kyllä          | Kyllä             | Kyllä         | Ei kelpaa       | Säännön 2 rikkominen.   </br>- S1 sisältää projektin P1 tehtävien alijoukon ajan, kulut ja maksut. </br>- SR2 sisältää koko projektin P1 ajan, kulut ja maksut, joten se on päällekkäinen S1:n sisällön kanssa.                                                                                                                                                                                          |
-| S1       | SR2           | K1      | Tyhjä               | Kyllä          | Kyllä             | Kyllä         | Ei kelpaa       | Säännön 2 rikkominen.   </br>- S1 sisältää projektin P1 tehtävien alijoukon ajan, kulut ja maksut. </br>- SR2 sisältää koko projektin P1 ajan, kulut ja maksut, joten se on päällekkäinen S1:n sisällön kanssa.                                                                                                                                                                                          |
-| S1       | SR1           | K1      | Vain valitut tehtävät | Kyllä          | Kyllä             | Kyllä         | Kelvollinen           | Säännön 3 perusteella</br>- S1 sisältää projektin P1 tehtävien alijoukon ajan, kulut ja maksut. </br> - SR2 sisältää projektin P1 tehtävien alijoukon ajan, kulut ja maksut. </br> Ainoa lisätarkistus koskee sopimusrivin SR1 tehtävien alijoukkoa, joka ei ole saman kuin sopimusrivin SR2 tehtävien alijoukko. Tällä tavoin voidaan varmistaa, ettei päällekkyyksiä ole. Järjestelmä suorittaa tämän tarkistuksen tehtäviä liitettäessä. |
-| S1       | SR2           | K1      | Vain valitut tehtävät | Kyllä          | Kyllä             | Kyllä         | Kelvollinen           | Säännön 3 perusteella</br>- S1 sisältää projektin P1 tehtävien alijoukon ajan, kulut ja maksut. </br> - SR2 sisältää projektin P1 tehtävien alijoukon ajan, kulut ja maksut. </br> Ainoa lisätarkistus koskee sopimusrivin SR1 tehtävien alijoukkoa, joka ei ole saman kuin sopimusrivin SR2 tehtävien alijoukko. Tällä tavoin voidaan varmistaa, ettei päällekkyyksiä ole. Järjestelmä suorittaa tämän tarkistuksen tehtäviä liitettäessä. |
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    <strong>Sopimus</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Palvelusopimuksen rivi</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Project</strong>
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    <strong>Sisällytettävät tehtävät</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Sisällytä aika</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Sisällytä kulu</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Sisällytä materiaalit</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Sisällytä</strong>
+                </p>
+                <p>
+                    <strong>Maksu</strong>
+                </p>
+            </td>
+            <td width="53" valign="top">
+                <p>
+                    <strong>Kelpaa / ei kelpaa</strong>
+                </p>
+            </td>
+            <td width="250" valign="top">
+                <p>
+                    <strong>Syy</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+S1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+SR1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+K1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tyhjä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Ei kelpaa </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Säännön 2 rikkominen. P1-projektin aika, kulut, materiaalit ja maksut sisältyvät sekä sopimusriveille CL1 että CL2.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+S1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+SR2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+K1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tyhjä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+S1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+SR1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+K1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tyhjä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Ei kelpaa </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Säännön 2 rikkominen. P1-projektin aika, materiaalit ja maksut sisältyvät sekä sopimusriveille CL1 että CL2.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+S1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+SR2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+K1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tyhjä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+S1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+SR1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+K1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tyhjä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Kelvollinen </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+P1-projektin aika, materiaalit ja maksut sisältyvät CL1:een.
+                </p>
+                <ul>
+                    <li>
+Kulu P1-projektissa sisältyy riville CL2.
+                    </li>
+                </ul>
+                <p>
+Sopimusriveillä ei ole päällekkäisyyksiä, joten ne ovat kelvollisia.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+S1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+SR2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+K1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tyhjä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+No </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+S1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+SR1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+K1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Vain valitut tehtävät </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Ei kelpaa </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Rikkoo sääntöä 2 </p>
+                <p>
+C1 sisältää projektin P1 tehtävien alijoukon ajan, materiaalit, kulut ja maksut.
+                </p>
+                <p>
+CL2 sisältää koko projektin P1 ajan, materiaalit, kulut ja maksut, joten se on päällekkäinen C1:n kanssa.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+S1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+SR2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+K1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Tyhjä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+S1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+SR1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+K1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Vain valitut tehtävät </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Kelvollinen </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Säännön 3 perusteella </p>
+                <p>
+C1 sisältää projektin P1 tehtävien alijoukon ajan, kulut, materiaalit, ja maksut.
+                </p>
+                <p>
+CL2 sisältää projektin P1 tehtävien alijoukon ajan, kulut, materiaalit, ja maksut.
+                </p>
+                <p>
+Ainoa lisätarkistus koskee CL1-tehtävien alijoukkoa, joka eroaa CL2:n tehtävien alijoukosta. Näin voidaan varmistaa, että CL2-tehtävissä ei ole päällekkäisiä tehtäviä. Järjestelmä suorittaa tämän, kun tehtävät on liitetty.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+S1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+SR2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+K1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Vain valitut tehtävät </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Kyllä </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

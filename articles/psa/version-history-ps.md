@@ -24,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a8e1c7233de5705c928308431738060cca454e89
-ms.sourcegitcommit: 7e39fc1d50681850175428c909755204b08f0a77
+ms.openlocfilehash: bae7acf2abf174b6e59d159521ffd1f465e311a0
+ms.sourcegitcommit: 3c60ac7543cc05d93a5d4ce87a3c7854fb9a203b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556619"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "5854381"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x -päivitysjulkaisujen aikataulu
 
@@ -39,7 +39,7 @@ ms.locfileid: "5556619"
 
 | Ratkaisu  | Viimeisin versio |
 |-------|----|
-| Project Service Automation    | 3.10.47.7 |
+| Project Service Automation    | 3.10.51.61 |
 | Project Service Automation -työpöytälaajennus                | 3.15          |
 
 Tietoja Project Servicen päivityksistä saat siirtymällä sivulle [Dynamics 365:n julkaisusuunnitelmat](https://docs.microsoft.com/dynamics365/release-plans/). 
@@ -47,28 +47,28 @@ Tietoja Project Servicen päivityksistä saat siirtymällä sivulle [Dynamics 36
 | Asema  | Alue | Nykyinen versio | Seuraava versio |  Aikataulutettu päivämäärä
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Asema 1</strong> | |  |  | |
-| | <i>Ensimmäinen julkaisu</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. huhtikuuta 2021
+| | <i>Ensimmäinen julkaisu</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 23. huhtikuuta 2021
 |<strong>Asema 2</strong> | |  |  | |
-| | <i>Etelä-Amerikka</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. huhtikuuta 2021
-| | <i>Kanada</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. huhtikuuta 2021
-| | <i>Intia</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. huhtikuuta 2021
-| | <i>Ranska</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. huhtikuuta 2021
-| | <i>Arabiemiirikunnat</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. huhtikuuta 2021
-| | <i>Etelä-Afrikka</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. huhtikuuta 2021
-| | <i>saksa</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. huhtikuuta 2021
-| | <i>Sveitsi</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2. huhtikuuta 2021
+| | <i>Etelä-Amerikka</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. huhtikuuta 2021
+| | <i>Kanada</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. huhtikuuta 2021
+| | <i>Intia</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. huhtikuuta 2021
+| | <i>Ranska</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. huhtikuuta 2021
+| | <i>Arabiemiirikunnat</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. huhtikuuta 2021
+| | <i>Etelä-Afrikka</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. huhtikuuta 2021
+| | <i>saksa</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. huhtikuuta 2021
+| | <i>Sveitsi</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | 30. huhtikuuta 2021
 |<strong>Asema 3</strong> | |  |  | |
-| | <i>Japani</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9. huhtikuuta 2021
-| | <i>Aasian Tyynenmeren alue</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9. huhtikuuta 2021
-| | <i>Iso-Britannia</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9. huhtikuuta 2021
-| | <i>Oseania</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9. huhtikuuta 2021
+| | <i>Japani</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9. huhtikuuta 2021
+| | <i>Aasian Tyynenmeren alue</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9. huhtikuuta 2021
+| | <i>Iso-Britannia</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9. huhtikuuta 2021
+| | <i>Oseania</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 9. huhtikuuta 2021
 |<strong>Asema 4</strong> | |  |  | |
-| | <i>Eurooppa</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 12. maaliskuuta 2021
+| | <i>Eurooppa</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 16. huhtikuuta 2021
 |<strong>Asema 5</strong> | |  |  | |
-| | <i>Pohjois-Amerikka</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 19. maaliskuuta 2021
+| | <i>Pohjois-Amerikka</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 23. huhtikuuta 2021
 |<strong>Asema 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 19. maaliskuuta 2021
-| | <i>Varatut skaalausryhmät</i> | [3.10.45.120](whats-new-ur-27-6.md) | [3.10.46.147](whats-new-ur-28-6.md) | 05. maaliskuuta 2021
+| | <i>Government Community Cloud</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 30. huhtikuuta 2021
+| | <i>Varatut skaalausryhmät</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | 30. huhtikuuta 2021
 
 >[!Note]
 > - Muiden kuin Government Community Cloud (GCC) -alueiden päivämäärät ilmaiset seuraavan automaattisen päivityksen ajankohdan. GCC:n päivämäärät ilmaisevat version saatavuuden; kyseisillä alueilla ei ole tällä hetkellä automaattista päivitystä.
