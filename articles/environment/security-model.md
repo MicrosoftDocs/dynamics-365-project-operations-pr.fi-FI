@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276794"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951205"
 ---
 # <a name="security-model"></a>Suojausmalli
 
@@ -58,7 +58,7 @@ Ryhmät sallivat projektin käyttöoikeudet ja tukevat yhteistyöartefaktien kä
 
 Project Operations ei luo ryhmää implisiittisen toiminnon kautta, vaan se tapahtuu vain, jos painat Ryhmät-näppäintä.
 
-Ryhmän jäsenen haku **Ryhmän hallinta** -valintaikkunassa rajoittuu niihin, jotka on määritetty osana ympäristön suojausryhmää. Lisätietoja: [Ympäristön käyttöoikeuksien hallinta: käyttöoikeusroolit ja käyttöoikeudet](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Ryhmän jäsenen haku **Ryhmän hallinta** -valintaikkunassa rajoittuu niihin, jotka on määritetty osana ympäristön suojausryhmää. Lisätietoja: [Ympäristön käyttöoikeuksien hallinta: käyttöoikeusroolit ja käyttöoikeudet](/power-platform/admin/control-user-access).
 
 ![Ryhmätila](./media/groupsmode.png)
 
@@ -70,7 +70,7 @@ Ryhmän jäsenen haku **Ryhmän hallinta** -valintaikkunassa rajoittuu niihin, j
 ## <a name="deployment-recommendation"></a>Käyttöönottosuositukset
 Kun Office-ryhmän yhteiskäyttömalli kehittyy, toiminnallisuutta lisätään, jotta aikaa voidaan hallita tarkemmin. Asiakkaita, jotka ottavat tänään käyttöön Project Operationsin, kehotetaan käyttämään perinteistä Microsoft Dynamics 365 -suojausmallia.
 
-Lisätietoja: [Common Data Servicen suojaus](https://docs.microsoft.com/power-platform/admin/wp-security).
+Lisätietoja: [Common Data Servicen suojaus](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operationsin ja Microsoft Dynamics 365 Financen suojaus
 Project Operations sisältää seuraavat roolit:
@@ -78,7 +78,7 @@ Project Operations sisältää seuraavat roolit:
 - Projektipäällikkö
 - Projektin kirjanpitäjä
 
-Lisätietoja Financen suojauksesta on aiheessa [Roolipohjainen suojaus](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Lisätietoja Financen suojauksesta on aiheessa [Roolipohjainen suojaus](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2351d87d2953f0e661d8f5281a4fdd071edb9c05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6343ff4dcfeae5d53eaf8eaa860afaf42559857a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292020"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950350"
 ---
 # <a name="create-product-catalog-items-project-service"></a>Luo tuoteluettelon nimikkeet (Project Service)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5292020"
 
 Jos haluat lisätä tuotteita, kuten ohjelmiston käyttöoikeudet, projektitarjouksiin ja arvioihin, sinun on lisättävä jokainen tuote tuoteluetteloon.  
   
- Saat lisätietoja tuotteiden lisäämisestä tuoteluetteloon kohdassa [Tuotteen luominen (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales).  
+ Saat lisätietoja tuotteiden lisäämisestä tuoteluetteloon kohdassa [Tuotteen luominen (Sales)](/dynamics365/sales-enterprise/create-product-sales).  
   
 ### <a name="see-also"></a>Katso myös  
  [Määritä Project Service](../psa/configure.md)

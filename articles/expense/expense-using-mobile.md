@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 2cbce8fbfa622a143f3ebfc34d7d60a7da4a9171
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499892"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950882"
 ---
 # <a name="mobile-expense-app"></a>Kulujen hallintasovellus
 
@@ -72,16 +72,16 @@ Jos organisaatiossasi on otettu käyttöön versio 1611, jossa on Platform Updat
 <td>Järjestelmänvalvoja</td>
 <td>Tietokanta 4019015 on X++-päivitys tai metatietojen hotfix-korjaus, joka sisältää <strong>Kulujen hallinta</strong> -mobiilityötilan. Tietokannan 4019015 käyttöönottoa varten järjestelmänvalvojasi on suoritettava seuraavat vaiheet.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Päivitysten lataaminen Lifecycle Servicesestä</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Metatietojen hotfix-korjauksen asentaminen</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sellaisen käyttöönotettavan paketin luominen</a>, joka sisältää <strong>ApplicationSuite</strong>- ja <strong>ExpenseMobile</strong>-mallit, ja sitten käyttöönotettavan paketin lataaminen LCS-palveluun.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Käyttöönotettavan paketin käyttöönotto</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Päivitysten lataaminen Lifecycle Servicesestä</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Metatietojen hotfix-korjauksen asentaminen</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sellaisen käyttöönotettavan paketin luominen</a>, joka sisältää <strong>ApplicationSuite</strong>- ja <strong>ExpenseMobile</strong>-mallit, ja sitten käyttöönotettavan paketin lataaminen LCS-palveluun.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Käyttöönotettavan paketin käyttöönotto</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Julkaise <strong>Kulujen hallinta</strong> -mobiilityötila.</td>
 <td>Järjestelmänvalvoja</td>
-<td>Katso <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilityötilan julkaiseminen</a>.</td>
+<td>Katso <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilityötilan julkaiseminen </a>.</td>
 </tr>
 </tbody>
 </table>
@@ -122,11 +122,11 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
 
 1. Avaa mobiililaitteessa **Kulujen hallinta** -työtila.
 2. Valitse **Kulun nopea syöttö**.
-3. Valitse kululuokka. Näkyvissä ovat kululuokat, jotka ladataan sovellukseesi offline-käyttöä varten. Oletusarvoisesti ladataan 50 nimikettä, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos luokkaa ei ole luettelossa, valitse **Hae** online-hakua varten. Hae kululuokan mukaan tai vaihda hakuun kulutyypin perusteella.
+3. Valitse kululuokka. Näkyvissä ovat kululuokat, jotka ladataan sovellukseesi offline-käyttöä varten. Oletusarvoisesti ladataan 50 nimikettä, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos luokkaa ei ole luettelossa, valitse **Hae** online-hakua varten. Hae kululuokan mukaan tai vaihda hakuun kulutyypin perusteella.
 4. Anna kulun tapahtumapäivämäärä.
 5. Valinnainen: Anna kuluun liittyvä myyjä.
 6. Anna kulun summa.
-7. Valitse kulun valuutta. Näkyvissä ovat valuuttakoodit, jotka ladataan sovellukseesi offline-käyttöä varten. Oletusarvoisesti ladataan 400 valuuttaa, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos valuutta ei ole luettelossa, valitse **Hae** online-hakua varten. Hae valuutan mukaan tai vaihda hakuun nimen perusteella.
+7. Valitse kulun valuutta. Näkyvissä ovat valuuttakoodit, jotka ladataan sovellukseesi offline-käyttöä varten. Oletusarvoisesti ladataan 400 valuuttaa, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos valuutta ei ole luettelossa, valitse **Hae** online-hakua varten. Hae valuutan mukaan tai vaihda hakuun nimen perusteella.
 8. Valitse **Ota valokuva** tai **Valitse kuva**.
 9. Valitse jokin seuraavista vaiheista:
 
@@ -159,11 +159,11 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
 7. Valitse luettelosta vähintään kulu.
 8. Valitse **Valmis**.
 9. Jos haluat lisätä kuluraporttiin uuden kulun, valitse **Uusi kulu**.
-10. Valitse kululle luokka. Näkyvissä ovat kululuokat, jotka ladataan sovellukseesi offline-käyttöä varten. Oletusarvoisesti ladataan 50 nimikettä, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos luokkaa ei ole luettelossa, valitse **Hae** online-hakua varten. Hae kululuokan mukaan tai vaihda hakuun kulutyypin perusteella.
+10. Valitse kululle luokka. Näkyvissä ovat kululuokat, jotka ladataan sovellukseesi offline-käyttöä varten. Oletusarvoisesti ladataan 50 nimikettä, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos luokkaa ei ole luettelossa, valitse **Hae** online-hakua varten. Hae kululuokan mukaan tai vaihda hakuun kulutyypin perusteella.
 11. Valinnainen: Anna kuluun liittyvä myyjä.
 12. Anna kulun tapahtumapäivämäärä.
 13. Anna kulun summa.
-14. Valitse kulun valuutta. Näkyvissä ovat valuuttakoodit, jotka ladataan sovellukseesi offline-käyttöä varten. Oletusarvoisesti ladataan 400 valuuttaa, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos valuutta ei ole luettelossa, valitse **Hae** online-hakua varten. Hae valuutan mukaan tai vaihda hakuun nimen perusteella.
+14. Valitse kulun valuutta. Näkyvissä ovat valuuttakoodit, jotka ladataan sovellukseesi offline-käyttöä varten. Oletusarvoisesti ladataan 400 valuuttaa, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos valuutta ei ole luettelossa, valitse **Hae** online-hakua varten. Hae valuutan mukaan tai vaihda hakuun nimen perusteella.
 15. Valitse **Valmis**.
 16. Jos haluat lisätä kuluja koskevia tietoja, valitse **Lisää tietoja**. Käytettävissä olevat kentät määräytyvät yrityksen kulujen hallinnan määrityksen mukaan.
 17. Jos yrityskäytäntö edellyttää kululle kuitin, valitse **Kuitit** ja tee seuraavat toiminnot:
@@ -209,12 +209,12 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
 
         - Jos valitsit **Edelliset vieraat** -kohdan, toimi seuraavasti:
 
-            1. Valitse luettelosta vähintään yksi edellinen vieras. Näkyviin tulee sovellukseen offline-tilaa varten ladattuihin edellisiin kuluraportteihin lisättyjen aiempien vieraiden luettelo. Oletusarvoisesti ladataan 50 nimikettä, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos edellinen vieras ei ole luettelossa, valitse **Hae** online-hakua varten. Hae nimen mukaan tai vaihda hakuun organisaation, maan tai nimikkeen perusteella.
+            1. Valitse luettelosta vähintään yksi edellinen vieras. Näkyviin tulee sovellukseen offline-tilaa varten ladattuihin edellisiin kuluraportteihin lisättyjen aiempien vieraiden luettelo. Oletusarvoisesti ladataan 50 nimikettä, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos edellinen vieras ei ole luettelossa, valitse **Hae** online-hakua varten. Hae nimen mukaan tai vaihda hakuun organisaation, maan tai nimikkeen perusteella.
             2. Valitse **Valmis**.
 
         - Jos valitsit **Työtoverit**-kohdan, toimi seuraavasti:
 
-            1. Valitse luettelosta vähintään yksi työntekijä. Näkyvissä ovat työntekijät, jotka ladataan sovellukseesi offline-käyttöä varten. Oletusarvoisesti ladataan 50 nimikettä, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos työtoveri ei ole luettelossa, valitse **Hae** online-hakua varten. Hae nimen mukaan tai vaihda hakuun yrityksen tai nimikkeen perusteella.
+            1. Valitse luettelosta vähintään yksi työntekijä. Näkyvissä ovat työntekijät, jotka ladataan sovellukseesi offline-käyttöä varten. Oletusarvoisesti ladataan 50 nimikettä, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos työtoveri ei ole luettelossa, valitse **Hae** online-hakua varten. Hae nimen mukaan tai vaihda hakuun yrityksen tai nimikkeen perusteella.
             2. Valitse **Valmis**.
 
     3. Valitse **Takaisin**-painike, jos haluat palata kulun tietoihin.
@@ -223,7 +223,7 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
 
     1. Valitse ensimmäinen päivämäärä, jonka mukaan erittely tehdään.
     2. Valitse **Lisää erittely**.
-    3. Valitse kulun erittelylle aliluokka. Näkyvissä ovat kulun aliluokat, jotka ladataan sovellukseesi offline-käyttöä varten. Oletusarvoisesti ladataan 50 nimikettä, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos aliluokkaa ei ole luettelossa, valitse **Hae** online-hakua varten. Hae kulun aliluokan nimen mukaan.
+    3. Valitse kulun erittelylle aliluokka. Näkyvissä ovat kulun aliluokat, jotka ladataan sovellukseesi offline-käyttöä varten. Oletusarvoisesti ladataan 50 nimikettä, mutta kehittäjä voi muuttaa tätä määrää. Lisätietoja kehittäjille on kohdassa [Mobiiliympäristö](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jos aliluokkaa ei ole luettelossa, valitse **Hae** online-hakua varten. Hae kulun aliluokan nimen mukaan.
     4. Kirjoita erittelyn tapahtuman summa.
     5. Muokkaa tapahtumapäivämäärää, jos se on pakollinen.
     6. Valitse **Valmis**.

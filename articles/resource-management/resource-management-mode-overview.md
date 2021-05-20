@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279449"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949945"
 ---
 # <a name="resource-management-modes-overview"></a>Resurssien hallintatilojen yleiskatsaus
 
@@ -29,11 +29,11 @@ Jos kyseessä on organisaatio, joka keskittää resurssien kohdistuksen projekte
 
 Jos haluat hallita resursseja keskitetyn tilan avulla, katso:
 
-- [Yleisten varattavissa olevien resurssien delegointi tehtävään ja resurssitarpeiden luominen](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Nimettyjen resurssien varaaminen resurssitarpeista](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Resurssipyynnön lähettäminen](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Resurssipyyntöjen täyttäminen](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Ehdotetun projektiresurssin hyväksyminen tai hylkääminen resurssipyynnöstä](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Yleisten varattavissa olevien resurssien delegointi tehtävään ja resurssitarpeiden luominen](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Nimettyjen resurssien varaaminen resurssitarpeista](/dynamics365/project-service/book-named-resource)
+- [Resurssipyynnön lähettäminen](/dynamics365/project-service/submit-resource-request)
+- [Resurssipyyntöjen täyttäminen](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Ehdotetun projektiresurssin hyväksyminen tai hylkääminen resurssipyynnöstä](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Hybriditila
 Organisaatioille, jotka tarvitsevat resurssien kohdentamisen joustavuutta, hybriditilan avulla sekä projekti päälliköt että resurssipäälliköt voivat varata resursseja.
@@ -43,11 +43,11 @@ Organisaatioille, jotka tarvitsevat resurssien kohdentamisen joustavuutta, hybri
 Tuetun keskitetyn tilan prosessin lisäksi voit hallita kaikkia muita tuettuja varaustyönkulkuja hybriditilassa seuraavien aiheiden ohjeiden mukaisesti:
 
 Resurssin varaaminen suoraan projektiin:
-- [Nimettyjen varattavissa olevien resurssien varaaminen projektiryhmälle ja tehtävien kohdennus](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Nimettyjen varattavissa olevien resurssien varaaminen projektiryhmälle ja tehtävien kohdennus](/dynamics365/project-service/assign-named-bookable-resource)
 
 Resurssien varaaminen resurssitarpeesta:
-- [Yleisten varattavissa olevien resurssien delegointi tehtävään ja resurssitarpeiden luominen](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Nimettyjen resurssien varaaminen resurssitarpeista](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Yleisten varattavissa olevien resurssien delegointi tehtävään ja resurssitarpeiden luominen](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Nimettyjen resurssien varaaminen resurssitarpeista](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

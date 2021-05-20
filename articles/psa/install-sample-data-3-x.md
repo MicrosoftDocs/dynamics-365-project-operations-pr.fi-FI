@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275084"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950575"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Näytetietojen asennus Project Service -sovelluksessa
 
@@ -136,7 +136,7 @@ Esittelytietopakettia varten tarvitaan kuusi käyttäjää. Paketti asennetaan o
     - Käytä asiakaspäällikkönä käyttäjää Fullname="Molly Clark"   
     - Käytä käytäntö- ja projektipäällikkönä käyttäjää Fullname="Spencer Low"  
     - Käytä tiimin jäsenenä käyttäjää Fullname="Veronica Quek"   
-    - Käyttäjä Fullname="William Contoso"
+    - Käyttäjä kokonimi="Aulis Contoso"
   
 2. Määritä edellä mainituille kuudelle käyttäjälle järjestelmänvalvojan rooli esittelytietojen tuontia varten, jotta näytetiedot tuodaan oikein. 
 
@@ -149,7 +149,7 @@ Esittelytietopakettia varten tarvitaan kuusi käyttäjää. Paketti asennetaan o
 
 5. Ensimmäisen käyttäjän kalenterin (joka on **userstocreateandconfigure**-tunnisteessa) avulla lisätään kaikkien varattavien resurssien työtunnit esittelytietoja tuotaessa. Valitse **Asetukset** > **Suojaus** > **Käyttäjät**, etsi käyttäjä Spencer Low ja avaa Työtunnit-asetus. Muokkaa nykyisiä työtunteja valitsemalla **Koko viikoittain toistuva aikataulu alusta loppuun** -asetus. Varmista, että **työtunneiksi on määritetty 8.00–17.00 (9 tuntia) maanantaista perjantaihin ja aikavyöhykkeeksi on määritetty Tyynenmeren normaaliaika (USA ja Kanada)**. Tällä tavoin varmistaa, että projekti- ja aikataulutaulukko näkyvät odotetusti.
 
-**Suositus:** Organisaatiolle kannattaa luoda varmuuskopio nyt siltä varalta, että asennuksessa on palattava aloituskohtaan. Näin saattaa käydä, jos näytetietojen asennuksen aikana tapahtuu virhe. Lisätietoja on kohdassa [Ilmentymien varmuuskopiointi ja palautus](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Suositus:** Organisaatiolle kannattaa luoda varmuuskopio nyt siltä varalta, että asennuksessa on palattava aloituskohtaan. Näin saattaa käydä, jos näytetietojen asennuksen aikana tapahtuu virhe. Lisätietoja on kohdassa [Ilmentymien varmuuskopiointi ja palautus](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Suorita Package Deployer
 

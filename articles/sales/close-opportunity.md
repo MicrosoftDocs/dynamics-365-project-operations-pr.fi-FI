@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8698663fc35c9ae0eb54c2f1cf1fbbaaf29230d7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01c2452003d9ac5fbf85704ead67f7ee8011ed1c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278774"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949900"
 ---
 # <a name="close-an-opportunity"></a>Mahdollisuuden sulkeminen
 
@@ -23,7 +23,7 @@ Projektimahdollisuus voidaan sulkea voitettuna tai hävittynä. **Sulje mahdolli
 
 Mahdollisuutta ei voi sulkea, jos siihen on liitetty aktiivisia tarjouksia. Voit sulkea kaikki mahdollisuuteen liittyvät aktiiviset ja luonnostarjoukset samanaikaisesti. Tämän jälkeen voit sulkea mahdollisuuden.
 
-Saat lisää yleisiä tietoja mahdollisuuksien sulkemisesta aiheesta [Mahdollisuuden sulkeminen voitettuina tai hävittyinä](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+Saat lisää yleisiä tietoja mahdollisuuksien sulkemisesta aiheesta [Mahdollisuuden sulkeminen voitettuina tai hävittyinä](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

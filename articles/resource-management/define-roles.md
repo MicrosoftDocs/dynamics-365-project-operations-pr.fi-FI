@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8c30d504615c9854f99aa1e8e86ec576cd584dc7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fff52c142e4ac1f01fe86808094e94e3974db53a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279719"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949990"
 ---
 # <a name="define-roles"></a>Roolien määrittäminen
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Voit käyttää Dynamics 365 Field Servicen tarjoamaa toiminnallisuutta määrittääksesi roolit Dynamics 365 Project Operations -ympäristössäsi. Lisätietoja tämän määrityksen suorittamisesta on kohdassa [Varattavissa olevien resurssiluokkien määrittäminen](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+Voit käyttää Dynamics 365 Field Servicen tarjoamaa toiminnallisuutta määrittääksesi roolit Dynamics 365 Project Operations -ympäristössäsi. Lisätietoja tämän määrityksen suorittamisesta on kohdassa [Varattavissa olevien resurssiluokkien määrittäminen](/dynamics365/field-service/set-up-bookable-resource-categories).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

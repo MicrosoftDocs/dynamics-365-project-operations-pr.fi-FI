@@ -3,17 +3,17 @@ title: Projektin laskuehdotusten hallinta
 description: Tässä aiheessa on tietoja asiakkaille suunnattujen laskujen käsittelystä Project Operationsissa resurssi-/ei-varastoitavissa skenaarioissa.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275849"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950710"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projektin laskuehdotusten hallinta
 
@@ -80,7 +80,8 @@ Kiinteähintaista laskutustapaa käyttävät projektisopimusrivit laskutetaan [k
     - **Asiakas** käyttää asiakkaan laskutuksen arvonlisäveroryhmää aina oletusarvona.
     - **Haku**: etsii kaikista tämän luettelon entiteeteistä ja valitsee ensimmäisen käytettävissä olevan arvon. Haku alkaa **Projekti**-entiteetistä, sitten **Projektisopimus**-entiteetistä ja sitten **Asiakas**-entiteetistä.
 
-- **Kiinteähintaisen välitavoitteen nimikkeen arvonlisäveroryhmää** käytetään **Nimikkeen arvonlisäveroryhmä** -kentän oletusarvona.
+- **Kiinteähintaisen välitavoitteen nimikkeen arvonlisäveroryhmää** käytetään oletusarvona laskutuksen välitavoitteen **Nimikkeen arvonlisäveroryhmä** -kentässä. Kirjanpitäjä voi tarkastella ja muokata tätä arvoa **Asiakastapahtumat**-sivulla. Järjestelmä käyttää asiakastapahtuman arvoa luodessaan projektilaskun ehdotusriviä.
+ 
 
 ### <a name="financial-dimensions"></a>Taloushallinnon dimensiot
 
@@ -132,7 +133,7 @@ Projektin kirjanpitäjä voi mukauttaa projektin laskun tulostetta käyttämäll
 
 Tulostuksen hallinta käyttää erilaisia raporttitiedostoja laskun tulostamiseen, kohteiden määrittämiseen ja laskun alatunnistetekstin mukauttamiseen. Tulostuksen hallinnan voi määrittää moduulitasolla, mutta nämä asetukset voidaan ohittaa tietylle asiakkaalle, palvelusopimukselle tai laskuehdotukselle. Jos haluat käyttää tätä toimintoa **Projektilaskuehdotus**-sivulla, valitse **Tulosta** > **Tulostuksen hallinta**.
 
-Tulostuksen hallinnan asetukset näkyvät puunäkymänä, jossa jokaisella solmutasolla näkyy muutettavissa olevat asiakirjat. Voit delegoida mukautettuja tulosteita moduuli-, asiakas-, palvelusopimus- tai laskuehdotusasiakirjatasolla. Jos haluat muokata alkuperäistä asiakirjan tulostetta, laajenna haluamasi solmu ja valitse **Alkuperäinen nimike**. Valitse **Raportin muoto** -kentässä tulostuksessa käytettävä raportin muoto. Voit käyttää mukautettuja raportin muotoja [Business Document Management -kehyksen](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) avulla.
+Tulostuksen hallinnan asetukset näkyvät puunäkymänä, jossa jokaisella solmutasolla näkyy muutettavissa olevat asiakirjat. Voit delegoida mukautettuja tulosteita moduuli-, asiakas-, palvelusopimus- tai laskuehdotusasiakirjatasolla. Jos haluat muokata alkuperäistä asiakirjan tulostetta, laajenna haluamasi solmu ja valitse **Alkuperäinen nimike**. Valitse **Raportin muoto** -kentässä tulostuksessa käytettävä raportin muoto. Voit käyttää mukautettuja raportin muotoja [Business Document Management -kehyksen](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) avulla.
 
 ## <a name="post-invoice-proposals"></a>Laskuehdotusten kirjaus
 

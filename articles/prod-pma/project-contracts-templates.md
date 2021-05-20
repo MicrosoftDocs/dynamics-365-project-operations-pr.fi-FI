@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289590"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950395"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synkronoi projektisopimukset ja projektit suoraan Project Service Automationista Financeen 
 
@@ -109,8 +109,8 @@ Kun käytetään Project Service Automationin Finenceen integroinnin ratkaisua, 
 ## <a name="prerequisites-and-mapping-setup"></a>Edellytykset ja yhdistämismääritykset
 
 - Tilit on synkronoitava, ennen kuin projektisopimuksia ja projekteja voi esiintyä.
-- Lisää yhteysjoukkoosi integrointiavaimen kenttämääritys kohteelle **msdyn\_organizationalunits** to **msdyn\_name \[Nimi\]**. Sinun täytyy ehkä ensin lisätä projekti yhteysjoukkoon. Lisätietoja [Tietojen integrointi Common Data Serviceen sovelluksille](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Lisää yhteysjoukkoosi integrointiavaimen kenttämääritys kohteelle **msdyn\_projects** to **msdynce\_projectnumber \[Projektinumero\]**. Sinun täytyy ehkä ensin lisätä projekti yhteysjoukkoon. Lisätietoja [Tietojen integrointi Common Data Serviceen sovelluksille](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Lisää yhteysjoukkoosi integrointiavaimen kenttämääritys kohteelle **msdyn\_organizationalunits** to **msdyn\_name \[Nimi\]**. Sinun täytyy ehkä ensin lisätä projekti yhteysjoukkoon. Lisätietoja [Tietojen integrointi Common Data Serviceen sovelluksille](/powerapps/administrator/data-integrator).
+- Lisää yhteysjoukkoosi integrointiavaimen kenttämääritys kohteelle **msdyn\_projects** to **msdynce\_projectnumber \[Projektinumero\]**. Sinun täytyy ehkä ensin lisätä projekti yhteysjoukkoon. Lisätietoja [Tietojen integrointi Common Data Serviceen sovelluksille](/powerapps/administrator/data-integrator).
 - **SourceDataID**, jotta projektisopimukset ja projektit voidaan päivittää eri arvoon tai poistaa yhdistämismäärityksestä. Mallin oletusarvo on **Project Service Automation**.
 - **PaymentTerms**-yhdistämismääritys on päivitettävä vastaamaan kelvollisia maksuehtoja Financessa. Voit myös poistaa yhdistämismäärityksen projektitehtävästä. Oletusarvon yhdistämismäärityksissä on esittelytietojen oletusarvoja. Seuraavassa taulukossa esitetään arvot Project Service Automationissa.
 
@@ -131,7 +131,7 @@ Microsoft Power Query for Excelin avulla voit suodattaa tietoja, jos seuraavat e
 Jos sinun on käytettävä Power Queryä, noudata seuraavia ohjeita:
 
 - Projektien ja sopimusten (PSA:sta Fin:iin ja Ops:iin) mallissa on oletussuodatin, joka sisältää vain tyypin **Työkohde (msdyn\_ordertype = 192350001)** myyntitilauksia. Tämän suodattimen avulla voidaan varmistaa, että myyntitilauksille ei luoda projektisopimuksia Financessa. Jos luot oman mallin, tämä suodatin on lisättävä.
-- Luo Power Query -suodatin, joka sisältää vain sopimusorganisaatiot, jotka synkronoidaan integroinnin yhteysjoukon yritykseen. Esimerkiksi projektisopimukset, jotka sinulla on Contoso US:n sopimusorganisaatioyksikön kanssa, pitäisi synkronoida USSI-oikeushenkilöön, mutta projektisopimukset, jotka sinulla on Contoso Globalin sopimusorganisaatioyksikön kanssa, pitäisi synkronoida USMF-oikeushenkilöön. Jos et lisää tätä suodatinta tehtävien yhdistämismääritykseen, kaikki projektisopimukset synkronoidaan yhteysjoukolle määritettyyn oikeushenkilöön sopimusorganisaatioyksiköstä riippumatta.
+- Luo Power Query -suodatin, joka sisältää vain sopimusorganisaatiot, jotka synkronoidaan integroinnin yhteysjoukon yritykseen. Esimerkiksi projektisopimukset, joiden organisaatioyksikkö on Contoso US, on synkronoitava USSI-yritykseen, mutta projektisopimukset, jotka sinulla on Contoso Globalin sopimusorganisaatioyksikön kanssa, synkronoidaan USMF-yritykseen. Jos et lisää tätä suodatinta tehtävien yhdistämismääritykseen, kaikki projektisopimukset synkronoidaan yhteysjoukolle määritettyyn oikeushenkilöön sopimusorganisaatioyksiköstä riippumatta.
 
 ## <a name="template-mapping-in-data-integration"></a>Mallien yhdistämismääritys tietojen integroinnissa
 

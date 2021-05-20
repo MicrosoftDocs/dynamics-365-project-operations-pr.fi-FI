@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282644"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951430"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Projektin resurssien aikatauluttaminen (Project Service)
 
@@ -35,7 +35,7 @@ Voit tarkistaa resurssien käytettävyyden, jotta saat yleisen käsityksen siit�
   
 Aikataulutaulukossa on luettelo resursseista ja heidän saatavuudestaan. Valitse tila näyttämään saatavuus **tuntien**, **päivän**, **viikon** tai **kuukauden** mukaan.  
   
-Aikataulutaulukko on määritettävä, ennen kuin sitä voi käyttää. Lisätietoja on aiheessa [Aikataulutaulukon määrittäminen (Field Service tai Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Aikataulutaulukko on määritettävä, ennen kuin sitä voi käyttää. Lisätietoja on aiheessa [Aikataulutaulukon määrittäminen (Field Service tai Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Jos käytät vanhaa versiota, lisätietoja resurssien saatavuudesta on ohjeaiheessa [Resurssien saatavuuden näyttäminen](../psa/view-resource-availability.md).  
 
