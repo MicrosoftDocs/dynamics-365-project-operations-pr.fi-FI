@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 1aae04230104d27db2f62db8e674697fd83460ac
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663590"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948100"
 ---
 # <a name="determine-your-deployment-type"></a>Käyttöönottotyypin määritys
 
@@ -99,7 +99,7 @@ Lisätietoja tälle käyttöönotolle: [Esiversiotilauksiin rekisteröityminen](
 #### <a name="deployment-steps"></a>Käyttöönotto-ohjeet
 Määritä paras Project Operationsin käyttöönottomalli käyttämällä [Käyttöönottokyselyä](https://aka.ms/provisionprojectoperations).
 
-Lisätietoja tälle käyttöönotolle: [Esiversiotilauksiin rekisteröityminen](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) ja [Uuden ympäristön valmistelu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
+Lisätietoja tälle käyttöönotolle: [Esiversiotilauksiin rekisteröityminen](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) ja [Uuden ympäristön valmistelu](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json). 
 
 
 

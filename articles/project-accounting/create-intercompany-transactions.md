@@ -3,17 +3,17 @@ title: Yritysten välisten tapahtumien luominen
 description: Tässä aiheessa on tietoja yritysten välisten asiakkaan ja toimittajan tapahtumien luomisesta.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287414"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880444"
 ---
 # <a name="create-intercompany-transactions"></a>Yritysten välisten tapahtumien luominen
 
@@ -62,7 +62,7 @@ Molly Clark, , GBPM:llä työskentelevä kehittäjä, kirjaa 10 tuntia työtä U
     4. Määritä valuutaksi **USD**.
     5. Tallenna tietue.
 3. Siirry kohtaan **Myynti** > **Projektisopimukset** ja luo uusi projektisopimus Adventure Worksille.
-    1. Määritä omistavaksi yritykseksi **USPM** -ja sopimusyksiköksi **Contoso Robotics US**.
+    1. Määritä omistava yritys **USPM**-yksiköiksi ja sopimusyksiköksi **Contoso Robotics US**.
     2. Valitse asiakkaaksi Adventure Works.
     3. Valitse tuotehinnasto ja tallenna tietue.
     4. Luo uusi sopimusripi **Sopimusrivit**-välilehdellä. Määritä mikä tahansa nimi ja valitse laskutustavaksi **Aika ja materiaalit**.
@@ -94,7 +94,7 @@ Molly Clark, , GBPM:llä työskentelevä kehittäjä, kirjaa 10 tuntia työtä U
     Tämä laskuttamaton myynti on nyt valmis laskutettavaksi. Adventure Worksin lasku voidaan kirjata rahoituksellisesti tarvittaessa.
 
 10. Kirjaudu sisään **GBPM**-kirjanpitäjänä. Avaa Finance-esiintymä, joka liittyy Project Operationsiin, ja avaa yritys **GBPM**. 
-11. Siirry kohtaan **Projektinhallinta ja kirjanpito** > **Kausittainen** > **Project Operations ja Customer Engagement** > **Tuo valmistelusta** ja valitse kausittainen prosessi suoritettavaksi Project Operationsin integrointikirjauskansion täyttämiseksi.
+11. Siirry kohtaan **projektinhallinta ja kirjanpito** > **Jaksottainen** > **projektitoimintojen integrointi** > **Tuo valmistelutaulukosta** ja suorita jaksottainen prosessi täyttääksesi Project Operations Integroinnin kirjauskansion.
 12. Siirry kohtaan **Projektinhallinta ja kirjanpito** > **Kirjauskansiot** > **Project Operationsin integrointikirjauskansio** ja tarkista rivit. Järjestelmä luo seuraavat rivit.
 
     | **Tapahtumatyyppi** | **Hinta** | **Tapahtumavaluutta** | **Summa** |

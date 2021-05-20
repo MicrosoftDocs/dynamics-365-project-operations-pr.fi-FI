@@ -3,17 +3,17 @@ title: Azure-tilauksen lisääminen LCS-projektiin
 description: Tässä aiheessa on tietoja siitä, miten Azure-tilauksen voi yhdistää LCS-projektiin.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289905"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880534"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure-tilauksen lisääminen LCS-projektiin
 
@@ -62,7 +62,7 @@ Valtuutus on nyt valmis.
 3. Valitse **Määritä käyttämään Azure Resource Manageria** -kentässä **Kyllä**.
 4. Varmista, että Azuren tilauksen AAD-vuokraajan toimialue vastaa käytettyä toimialueen omistavan Azure-tilausksen toimialuetta ja valitse **Seuraava**.
 5. Vahvista valitsemalla **Microsoft Azure -määritys** -näytössä **Seuraava**. Jos näyttöön tulee virhe tässä näytössä, palaa tämän aiheen osaan [Dynamics Deployment Services -käyttöoikeuksien antaminen Azure-tilaukselle](#provide) javarmista, että olet suorittanut kaikki vaiheet.
-6. Lataa Azure Management Certificate -varmenne tietokoneen paikalliseen kansioon ja lähetä se sitten Azure Management Portal -portaaliin siirtymällä kohtaan **Asetukset** > **Management Certificates**. Tämän varmenteen avulla LCS voi kommunikoida Azuren kanssa puolestasi. Voit ohittaa tämän vaiheen, jos käyttäjälläsi on tilauksen käyttöoikeus.
+6. Lataa Azure-hallintavarmenne tietokoneesi paikalliseen kansioon. Pyydä Azure-tilausjärjestelmänvalvoja lataamaan varmenne Azure-hallintaportaaliin valitsemalla tilaus ja valitsemalla **Asetukset** > **Hallinnan varmenteet**. Tämän varmenteen avulla LCS voi olla yhteydessä Azureen puolestasi. Voit ohittaa tämän vaiheen, jos käyttäjälläsi on tilauksen käyttöoikeus.
 7. Valitse **Seuraava**.
 8. Valitse Azure-alue, johon otetaan käyttöön, ja valitse sitten palvelinkeskus, joka on lähellä sijaintia, jossa aiot käyttää tätä järjestelmää.
 9.  Valitse **Yhdistä**.

@@ -3,17 +3,17 @@ title: Yritysten välisten asiakkaan ja toimittajan laskujen luominen
 description: Tässä aiheessa on tietoja yritysten välisten asiakkaan ja toimittajan laskujen luomisesta.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287459"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948386"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Yritysten välisten asiakkaan ja toimittajan laskujen luominen
 
@@ -25,7 +25,9 @@ Lainaa antavan yrityksen projektin kirjanpitäjä voi määrittää eräprosessi
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Yritysten välisen asiakaslaskun manuaalinen luominen projektin tapahtumille 
 
-Toimi näin luodaksesi yritysten välisen asiakaslaskun projektin tapahtumille. Hae tunnit, jotka työntekijät kirjasivat projekteihin lainaa ottavissa yrityksissä ja kuluja, jotka tapahtuivat omassa yrityksessäsi lainaavien yritysten puolesta. Voit hakea tietoja yrityksen nimen, projektin sopimusnumeron, projektinumeron, päivämäärävälin tai minkä tahansa näiden ehtojen yhdistelmän perusteella. Valitse hakutuloksista yritysten väliseen laskuun lisättävät tapahtumat.
+Toimi näin luodaksesi yritysten välisen asiakaslaskun projektin tapahtumille. Hae tunnit, jotka työntekijät kirjasivat projekteihin lainaa ottavissa yrityksissä ja kuluja, jotka tapahtuivat omassa yrityksessäsi lainaavien yritysten puolesta. Voit hakea tietoja yrityksen nimen, projektin sopimusnumeron, projektinumeron, päivämäärävälin tai minkä tahansa näiden ehtojen yhdistelmän perusteella. Valitse hakutuloksista yritysten väliseen laskuun lisättävät tapahtumat. 
+
+Seuraavat vaiheet on suoritettava lainauksen tekevässä yrityksessä. 
 
 1. Siirry Dynamics 365 Financessa kohtaan **Projektinhallinta ja kirjanpito** > **Proktin laskut** > **Yritysten väliset asiakaslaskut**. Valitse **Yritysten väliset asiakaslaskut** -luettelosivun toimintoruudussa **Uusi.**
 2. Valitse **Luo yritysten välinen lasku** -sivun **Yritys**-kentässä lainaa ottava yritys.
@@ -35,9 +37,9 @@ Toimi näin luodaksesi yritysten välisen asiakaslaskun projektin tapahtumille. 
 6. Valitse hakutuloksista yritysten väliseen laskuehdotukseen sisällytettävät tapahtumat ja valitse sitten **OK**.
 7. Hakutuloksista valitsemasi yritysten väliset tapahtumat näkyvät sivulla **Yritysten välinen asiakaslasku**. Jos haluat muokata tapahtumia, ennen kuin lähetät laskun lainaa ottavalle yritykselle, toimi seuraavasti:
   
-    1. Avaa **Luo laskuehdotus** -sivu. Valitse nykyiselle laskulle lisää yritysten välisiä tapahtumia ja valitse sitten **Lisää rivi**.
+    1. Avaa **Konsernin sisäinen myyntilasku** -sivulla laskun tiedot ja valitse sitten **Lisää rivi**.
     2. Voit poistaa rivin valitsemalla sen ja valitsemalla sen jälkeen **Poista**.
-    3. Tarkastele kommentteja, syitä, rahoitusdimensioita ja muita tietoja valitusta rivistä  **Laskun rivit** -pikavälilehdellä.
+    3. Tarkastele kommentteja, syitä, taloushallinnon dimensioita ja muita tietoja valitusta rivistä laskurivin tiedoissa.
     
 8. Voit kirjata yritysten välisen asiakaslaskun valitsemalla toimintoruudussa **Kirjaa**.
 
@@ -52,7 +54,7 @@ Voit luoda useita yritysten välisiä laskuja samalla kertaa kaikkien kaikille l
 2. Valitse **Luo yritysten välisiä laskuja** -sivun **Yritys**-kentässä laskutettava yritys. Jos et valitse yritystä, kaikki hakuehtoja vastaavat tapahtumat näytetään kaikille lainaa ottaville yrityksille.
 3. Valitse kohdassa **Luo yksi lasku per**, tulisiko yritysten välinen lasku luoda projektin perusteella vai lainaa ottavan yrityksen perusteella.
 4. Valinnainen: Jos haluat valita tietyn projektin ja projektisopimuksen yritysten välisten laskujen luomista varten, napauta **Valitse**. Valitse **Tiedustelu**-sivun **Ehdot**-kentässä projektisopimus, projektinumero tai molemmat ja valitse sitten **OK**.
-5. Määritä **Erä**-sivulla eräprosetti luomaan yritysten välisiä laskuja toistuvasti. Lisätietoja on aiheessa [Eräkäsittelytyön lähettäminen lomakkeesta](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Määritä **Erä**-sivulla eräprosetti luomaan yritysten välisiä laskuja toistuvasti. Lisätietoja on aiheessa [Eräkäsittelytyön lähettäminen lomakkeesta](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Voit kirjata yritysten välisiä laskuja valitsemalla toimintoruudussa **Kirjaa**.
 
 > [!NOTE]

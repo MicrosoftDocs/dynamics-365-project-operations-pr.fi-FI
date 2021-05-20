@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277829"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948371"
 ---
 # <a name="manage-project-based-opportunities"></a>Projektipohjaisten mahdollisuuksien hallinta
 
@@ -64,7 +64,7 @@ Project Operationsin mahdollisuuden myyntiprosessi on laajennusmahdollisuus myyn
 >
 > Jos projektipohjainen sopimus on käynnistetty mahdollisuudesta, mahdollisuuden myyntiprosessiin on etusijalla.
 
-Voit muokata tuote liiketoimintaprosessin työnkulkua tai luoda omia liiketoimintaprosessien työnkulkuja, joilla voit seurata myyntiprosessia tarpeen mukaan. Lisätietoja liiketoimintaprosesseista on aiheessa [liiketoimintaprosessin kulun yleiskatsaus](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+Voit muokata tuote liiketoimintaprosessin työnkulkua tai luoda omia liiketoimintaprosessien työnkulkuja, joilla voit seurata myyntiprosessia tarpeen mukaan. Lisätietoja liiketoimintaprosesseista on aiheessa [liiketoimintaprosessin kulun yleiskatsaus](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

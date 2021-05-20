@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283769"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948135"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Projektiresurssikeskuksen käyttöopas
 
@@ -48,7 +48,7 @@ Projektiresurssikeskussovelluksen avulla voit syöttää projektien aikoja ja ku
 ## <a name="install-the-mobile-app"></a>Mobiilisovelluksen asentaminen
 Laitteeseesi on ladattava mobiilisovellus, ennen kuin aloitat projektiresurssikeskuksen sovelluksen käyttämisen. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 puhelimille ja tableteille -sovelluksen asentaminen](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 puhelimille ja tableteille -sovelluksen asentaminen](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Siirtymisen perustoiminnot
 1.  Kun kirjaudut sisään mobiilisovellukseen, näkyvissä on Omat sovellukset -sivu ja käytettävissäsi olevien sovellusten luettelo. 
@@ -99,7 +99,7 @@ Anna kustannukset vähintään viikoittain (tai esimiehesi pyytämällä taajuud
 5. Jatka syöttämällä koko viikon kulut. Kun se on valmis ja kaikki näyttää olevan kunnossa, napauta **Lähetä**-kohtaa. Esimies tarkistaa ja hyväksyy kustannukset.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Yleisiä tietoja mobiilisovelluksen käyttämisestä 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobiilisovelluksen perusopas](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobiilisovelluksen perusopas](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Katso myös  
  [Project Servicen yleiskuvaus](../psa/overview.md)   

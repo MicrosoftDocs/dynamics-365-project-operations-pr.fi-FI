@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285209"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948190"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Luo projektimahdollisuus (Project Service)
 
@@ -39,7 +39,7 @@ Mahdollisuudet ovat kiinnostuneita liidejä asiakkailta, jotka ovat kiinnostunei
   
 3.  Kirjoita **Yhteenveto**-alueelle mahdollisuuden yritys ja muut tiedot.  
   
-4.  Lisää mahdolliset liidiin liittyvät muistiinpanot ja aktiviteetit (kuten puhelut tai sähköpostiviestit). Lisätietoja muistiinpanojen ja aktiviteettien lisäämisestä on kohdassa [Muistiinpanojen, tehtävien, puheluiden tai sähköpostin toiminnan seuraaminen aktiviteettien avulla](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Lisää mahdolliset liidiin liittyvät muistiinpanot ja aktiviteetit (kuten puhelut tai sähköpostiviestit). Lisätietoja muistiinpanojen ja aktiviteettien lisäämisestä on kohdassa [Muistiinpanojen, tehtävien, puheluiden tai sähköpostin toiminnan seuraaminen aktiviteettien avulla](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Voit lisätä sidosryhmän jäseniä valitsemalla **Sidosryhmän jäsenet** -alueella **+**.  
   

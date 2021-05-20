@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287234"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948326"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operationsin integroinnin kirjauskansio
 
@@ -38,7 +38,7 @@ Järjestelmä ryhmittelee kirjauskansion rivit erillisiin kirjauskansioihin **Pr
 Kirjauskansion rivit luodaan projektin todellisten arvojen perusteella. Seuraavassa luettelossa on muutamia tärkeitä oletus- ja muunnossääntöjä:
 
   - Kullakin projektin todellisella tapahtumalla on rivi Project Operationsin integroinnin kirjauskansiossa. Ajan ja materiaalin laskutustyypin kustannukset ja laskuttamattomat myyntitapahtumat näytetään erillisillä riveillä.
-  - **Päivämäärä**-kenttä ilmaisee tapahtumapäivän. **Kirjanpitopäivämäärä**-kenttä ilmaisee päivämäärän, jolloin tapahtuma kirjattiin kirjanpitoon. Jos kirjanpitopäivämäärä on [suljetulla tilikaudella](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) ja parametri **Määritä kirjauspäivä automaattisesti avoimeen kirjanpidon kauteen** on määritetty **Projektinhallinnan ja kirjanpidon parametrit** -sivun **Rahoitustoiminta**-välilehdessä, järjestelmä oikaisee tapahtumapäivämäärän seuraavan avoimen kirjanpitokauden ensimmäiseen päivään.
+  - **Päivämäärä**-kenttä ilmaisee tapahtumapäivän. **Kirjanpitopäivämäärä**-kenttä ilmaisee päivämäärän, jolloin tapahtuma kirjattiin kirjanpitoon. Jos kirjanpitopäivämäärä on [suljetulla tilikaudella](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) ja parametri **Määritä kirjauspäivä automaattisesti avoimeen kirjanpidon kauteen** on määritetty **Projektinhallinnan ja kirjanpidon parametrit** -sivun **Rahoitustoiminta**-välilehdessä, järjestelmä oikaisee tapahtumapäivämäärän seuraavan avoimen kirjanpitokauden ensimmäiseen päivään.
   - **Tosite**-kentässä on jokaisen todellisen tapahtuman tositenumero. Tositenumerosarja määritetään **Projektinhallinnan ja kirjanpidon parametrit** -sivun **Numerosarjat**-välilehdessä. Kullekin riville määritetään uusi numero. Kun tosite on kirjattu, kustannusten ja laskuttamattoman myyntitapahtuman suhdetta voi tarkastella valitsemalla **Liittyvät tositteet** **Tositetapahtuma**-sivulla.
   - **Luokka**-kenttä ilmaisee projektitapahtuman ja oletusarvot liittyvän projektin todellisen arvon tapahtumaluokan perusteella.
     - Jos **Tapahtumaluokka** määritetään projektin todellisessa arvossa ja annetussa yrityksessä on liittyvä **projektiluokka**, luokan oletusarvona on tämä projektiluokka.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 526f2ab1fd186877f32a2d11bd92ee8c26a19139
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278054"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947875"
 ---
 # <a name="manage-leads"></a>Liidien hallinta
 
@@ -55,7 +55,7 @@ Liidejä, joiden **Tyyppi**-arvoksi on määritetty **Työperusteinen**, kutsuta
 - Asiakkaaseen liittyvä yhteyshenkilötietue, joka perustuu liidin **Etunimi**- ja **Sukunimi**-kenttien arvoihin.
 - Projektipohjainen mahdollisuus, jonka **Tyyppi**-kentän arvo on **Työperusteinen**.
 
-Lisätietoja liidien hyväksymisestä on aiheessa [Liidien hyväksyminen tai muuntaminen](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Lisätietoja liidien hyväksymisestä on aiheessa [Liidien hyväksyminen tai muuntaminen](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Liidin hyväksyntä ja yrityksen tiedot 
 

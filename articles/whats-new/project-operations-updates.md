@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877531"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948235"
 ---
 # <a name="project-operations-updates"></a>Project Operationsin päivitykset
 
@@ -49,23 +49,23 @@ Dataverse-ympäristön Project Operationsin päivitykset ovat saatavana kuukausi
 | Asema   | Alue        | Nykyinen versio | Seuraava versio | Yleisesti saatavana |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Asema 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Ensimmäinen julkaisu |  4.9.0.221       | TBD     | 23. huhtikuuta 2021           |
+|   &nbsp;  | Ensimmäinen julkaisu |  4.9.0.221       | TBD     | 30. huhtikuuta 2021           |
 | Asema 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Etelä-Amerikka |  4.9.0.221       | TBD     | 23. huhtikuuta 2021           |
-|    &nbsp; | Kanada        |  4.9.0.221       | TBD     | 23. huhtikuuta 2021           |
-|   &nbsp;  | Intia         |  4.9.0.221       | TBD     | 23. huhtikuuta 2021           |
-|   &nbsp;  | Ranska         |  4.9.0.221       | TBD     | 23. huhtikuuta 2021           |
-|   &nbsp;  | Arabiemiirikunnat         |  4.9.0.221       | TBD     | 23. huhtikuuta 2021           |
-|   &nbsp;  | Etelä-Afrikka         |  4.9.0.221       | TBD     | 23. huhtikuuta 2021           |
+|   &nbsp;  | Etelä-Amerikka |  4.9.0.221       | TBD     | 30. huhtikuuta 2021           |
+|    &nbsp; | Kanada        |  4.9.0.221       | TBD     | 30. huhtikuuta 2021           |
+|   &nbsp;  | Intia         |  4.9.0.221       | TBD     | 30. huhtikuuta 2021           |
+|   &nbsp;  | Ranska         |  4.9.0.221       | TBD     | 30. huhtikuuta 2021           |
+|   &nbsp;  | Arabiemiirikunnat         |  4.9.0.221       | TBD     | 30. huhtikuuta 2021           |
+|   &nbsp;  | Etelä-Afrikka         |  4.9.0.221       | TBD     | 30. huhtikuuta 2021           |
 | Asema 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japani         |  4.9.0.221       | TBD     | 30. huhtikuuta 2021           |
-|   &nbsp;  | Tyynenmeren Aasia  |  4.9.0.221       | TBD     | 30. huhtikuuta 2021           |
-|   &nbsp;  | Iso-Britannia |  4.9.0.221       | TBD     | 30. huhtikuuta 2021           |
-|   &nbsp;  | Oseania       |  4.9.0.221       | TBD     | 30. huhtikuuta 2021           |
+|   &nbsp;  | Japani         |  4.9.0.221       | TBD     | 7-tou-21           |
+|   &nbsp;  | Tyynenmeren Aasia  |  4.9.0.221       | TBD     | 7-tou-21           |
+|   &nbsp;  | Iso-Britannia |  4.9.0.221       | TBD     | 7-tou-21           |
+|   &nbsp;  | Oseania       |  4.9.0.221       | TBD     | 7-tou-21           |
 | Asema 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Eurooppa        |  4.8.0.92       | 4.9.0.221     | 16.4.21           |
+|   &nbsp;  | Eurooppa        |  4.9.0.221       | TBD     | 14-tou-21           |
 | Asema 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Pohjois-Amerikka |  4.8.0.92       | 4.9.0.221     | 23. huhtikuuta 2021           |
+|   &nbsp;  | Pohjois-Amerikka |  4.9.0.221       | TBD     | 21-tou-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Finance and Operations -sovellusympäristön projektinhallinnan ja kirjanpidon julkaisuaikataulu
 
@@ -73,15 +73,15 @@ Projektinhallinnan ja kirjanpidon päivitykset julkaistaan kahdeksan kertaa vuod
 
 | Tuettu julkaisu | Yleisesti saatavana (oma päivitys) |
 | --- | --- |
+| 10.0.18 | 16. huhtikuuta 2021 |
 | 10.0.17 | 19. maaliskuuta 2021 |
 | 10.0.16 | 22. tammikuuta 2021 |
 
 
-Tavoitejulkaisupäivämäärät voivat muuttua. Lisätietoja on kohdassa [Palvelupäivityksen saatavuus](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+Tavoitejulkaisupäivämäärät voivat muuttua. Lisätietoja on kohdassa [Palvelupäivityksen saatavuus](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | Tavoitejulkaisupäivä | Yleisesti saatavana (oma päivitys) |
 | --- | --- |
-| 10.0.18 | 16. huhtikuuta 2021 |
 | 10.0.19 | 18. kesäkuuta 2021 |
 | 10.0.20 | 16. heinäkuuta 2021 |
 
