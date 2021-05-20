@@ -1,6 +1,6 @@
 ---
-title: Luo uusi työtuntimalli
-description: Työtuntimallin luominen Project Servicessä
+title: Työtuntimallien luominen
+description: Ohjeita työtuntimallin luomisesta Project Servicessä.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285029"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981251"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="f24eb-103">Luo työtuntimalli (Project Service)</span><span class="sxs-lookup"><span data-stu-id="f24eb-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="063ad-103">Luo työtuntimalli (Project Service)</span><span class="sxs-lookup"><span data-stu-id="063ad-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="f24eb-104">Ennen kuin voit luoda projektiaikataulun, sinun pitää määrittää projektikalenteri, joka määrittää päivittäisen työajan aikatauluun ja mahdolliset palvelukatkot.</span><span class="sxs-lookup"><span data-stu-id="f24eb-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="f24eb-105">Tähän käytetään työtuntimallia, joka sisältää tietoja päivittäisistä työtunneista, vapaapäivistä ja muista palvelukatkoista.</span><span class="sxs-lookup"><span data-stu-id="f24eb-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="f24eb-106">Kun luot projektin, voit liittää työmallin projektin kalenteriin jota sovelletaan projektin aikatauluun.</span><span class="sxs-lookup"><span data-stu-id="f24eb-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="f24eb-107">Voit luoda työtuntimallin kahdella tavalla:</span><span class="sxs-lookup"><span data-stu-id="f24eb-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="f24eb-108">Luo työtuntimalli resurssikalenterin perusteella.</span><span class="sxs-lookup"><span data-stu-id="f24eb-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="f24eb-109">Luo uusi työtuntimalli.</span><span class="sxs-lookup"><span data-stu-id="f24eb-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="f24eb-110">Työtuntimallin luominen resurssikalenterin perusteella.</span><span class="sxs-lookup"><span data-stu-id="f24eb-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="f24eb-111">Siirry kohtaan **Project Service > Resurssit**.</span><span class="sxs-lookup"><span data-stu-id="f24eb-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="f24eb-112">Valitse haluamasi resurssi, jota käytetään työaikasi pohjana.</span><span class="sxs-lookup"><span data-stu-id="f24eb-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="f24eb-113">Valitse **Tallenna kalenteri nimellä**, anna työtuntimallille nimi ja valitse sitten **Tallenna**.</span><span class="sxs-lookup"><span data-stu-id="f24eb-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="f24eb-114">Kun asetusten muutos on valmis, valitse **Tallenna ja sulje**.</span><span class="sxs-lookup"><span data-stu-id="f24eb-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="f24eb-115">Napsauta näytön oikeassa alakulmassa olevaa **Tallenna**-painiketta.</span><span class="sxs-lookup"><span data-stu-id="f24eb-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="f24eb-116">Uuden työtuntimallin luominen</span><span class="sxs-lookup"><span data-stu-id="f24eb-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="f24eb-117">Siirry kohtaan **Project Service > Työtuntimallit**.</span><span class="sxs-lookup"><span data-stu-id="f24eb-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="f24eb-118">Valitse **Uusi**.</span><span class="sxs-lookup"><span data-stu-id="f24eb-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="f24eb-119">Anna työtuntimallille nimi.</span><span class="sxs-lookup"><span data-stu-id="f24eb-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="f24eb-120">Valitse resurssi työajan pohjaksi ja valitse sitten **Tallenna**.</span><span class="sxs-lookup"><span data-stu-id="f24eb-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="f24eb-121">Katso myös</span><span class="sxs-lookup"><span data-stu-id="f24eb-121">See Also</span></span>  
- [<span data-ttu-id="f24eb-122">Resurssien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="f24eb-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="063ad-104">Projektia voi luoda ja hallita käyttämällä projektissa kalenterimallia.</span><span class="sxs-lookup"><span data-stu-id="063ad-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="063ad-105">Kalenterimalli määrittää seuraavat projektimääritteet:</span><span class="sxs-lookup"><span data-stu-id="063ad-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="063ad-106">Työaika, mukaan lukien alkamis- ja päättymisaika</span><span class="sxs-lookup"><span data-stu-id="063ad-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="063ad-107">Työpäivät</span><span class="sxs-lookup"><span data-stu-id="063ad-107">Working days</span></span>
+- <span data-ttu-id="063ad-108">Kalenteripoikkeukset, kuten muut kuin työpäivät</span><span class="sxs-lookup"><span data-stu-id="063ad-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="063ad-109">Projektiin käytettävä kalenterimalli on kopio organisaation asetuksissa määritetystä kalenterimallista.</span><span class="sxs-lookup"><span data-stu-id="063ad-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="063ad-110">Jos muutat kalenterimallia, muutokset eivät leviä projektin työaikaan.</span><span class="sxs-lookup"><span data-stu-id="063ad-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="063ad-111">Jotta projektin työaikaa voidaan muuttaa, on otettava käyttöön uusi malli.</span><span class="sxs-lookup"><span data-stu-id="063ad-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="063ad-112">Organisaation kalenterimallin luomiselle on kaksi tärkeää avainvaatimusta:</span><span class="sxs-lookup"><span data-stu-id="063ad-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="063ad-113">Määritä mallin haluttu työaika käyttämällä uutta tai aiemmin luotua varattavissa olevaa resurssia.</span><span class="sxs-lookup"><span data-stu-id="063ad-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="063ad-114">Luo uusi kalenterimalli ja liitä malli varattavaan resurssiin.</span><span class="sxs-lookup"><span data-stu-id="063ad-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="063ad-115">**Määritä mallin työaika**</span><span class="sxs-lookup"><span data-stu-id="063ad-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="063ad-116">Siirry kohtaan **Resurssit** \> **Resurssit**.</span><span class="sxs-lookup"><span data-stu-id="063ad-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="063ad-117">Luo uusi resurssi, jota haluat käyttää kalenterimallissa, tai valitse aiemmin luotu resurssi.</span><span class="sxs-lookup"><span data-stu-id="063ad-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="063ad-118">Valitse **resurssin työaika** -välilehti ja noudata ohjeita kohdasta [Resurssin työaikojen määrittäminen](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) kalenterisääntöjen määrittämiseksi.</span><span class="sxs-lookup"><span data-stu-id="063ad-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="063ad-119">**Luo uusi kalenterimalli**</span><span class="sxs-lookup"><span data-stu-id="063ad-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="063ad-120">Valitse **Asetukset** \> **Kalenterimalli**.</span><span class="sxs-lookup"><span data-stu-id="063ad-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="063ad-121">Valitse **Uusi** ja kirjoita nimi, kuvaus ja malliresurssi.</span><span class="sxs-lookup"><span data-stu-id="063ad-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="063ad-122">Kun resurssiin viitataan kalenterimallissa, kalenterimalliin liitetään resurssin kalenterin kopio.</span><span class="sxs-lookup"><span data-stu-id="063ad-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="063ad-123">Jos kopioidun mallin työajat muuttuvat, nämä muutokset eivät levitä kalenterimalliin.</span><span class="sxs-lookup"><span data-stu-id="063ad-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="063ad-124">Katso myös</span><span class="sxs-lookup"><span data-stu-id="063ad-124">See Also</span></span>  
+ [<span data-ttu-id="063ad-125">Resurssien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="063ad-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

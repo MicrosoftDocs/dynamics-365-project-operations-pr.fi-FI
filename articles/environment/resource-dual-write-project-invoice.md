@@ -1,0 +1,30 @@
+---
+title: Projektilaskutuksen integrointi
+description: Tässä aiheessa on tietoja Project Operationsin asiakaslaskutuksen kaksoiskirjoituksen integroinnista.
+author: sigitac
+ms.date: 04/26/2021
+ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 102a7cdba467a2071119c5b32d2e75e48170c783
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955739"
+---
+# <a name="project-invoice-integration"></a><span data-ttu-id="26f83-103">Projektilaskutuksen integrointi</span><span class="sxs-lookup"><span data-stu-id="26f83-103">Project invoice integration</span></span>
+
+<span data-ttu-id="26f83-104">Tässä aiheessa on tietoja Project Operationsin asiakaslaskutuksen kaksoiskirjoituksen integroinnista.</span><span class="sxs-lookup"><span data-stu-id="26f83-104">This topic provides information about Project Operations dual-write integration for customer invoicing.</span></span>
+
+<span data-ttu-id="26f83-105">Project Operationsissa projektipäällikkö hallitsee projektin laskutuksen taustalokia ja luo proformalaskun asiakkaalle Microsoft Dataversessä.</span><span class="sxs-lookup"><span data-stu-id="26f83-105">In Project Operations, the Project manager manages the project billing backlog and creates a proforma invoice for the customer in Microsoft Dataverse.</span></span> <span data-ttu-id="26f83-106">Tämän proformalaskun perusteella myyntireskontran hoitaja tai projektin kirjanpitäjä luo asiakkaalle laskun.</span><span class="sxs-lookup"><span data-stu-id="26f83-106">Based on this proforma invoice, the Accounts receivable clerk or Project accountant creates a customer-facing invoice.</span></span> <span data-ttu-id="26f83-107">Kaksoiskirjoituksen integrointi varmistaa, että proformalaskun tiedot synkronoidaan Finance and Operations -sovelluksiin.</span><span class="sxs-lookup"><span data-stu-id="26f83-107">Dual-write integration ensures that the proforma invoice details are synchronized to Finance and Operations apps.</span></span> <span data-ttu-id="26f83-108">Kun asiakkaalle suunnattu lasku on julkaistu, järjestelmä päivittää projektin toteutuneet tiedot Dataverseen kirjanpidon tiedoista.</span><span class="sxs-lookup"><span data-stu-id="26f83-108">After the customer-facing invoice is posted, the system updates the relevant project actuals in Dataverse with the accounting detail.</span></span> <span data-ttu-id="26f83-109">Seuraava kuva antaa korkean tason käsitteellisen yleiskatsauksen tästä integraatiosta.</span><span class="sxs-lookup"><span data-stu-id="26f83-109">The following graphic provides a high-level conceptual overview of this integration.</span></span>
+
+   ![Projektilaskutuksen integrointi](./media/DW5Invoicing.png)
+
+<span data-ttu-id="26f83-111">Kun projektipäällikkö on vahvistanut proformalaskun Dataversessä, proformalaskun otsikkotiedot synkronoivat Finance and Operations -sovellukset käyttämällä kaksoiskirjoitustaulukkokarttaa **Projektilaskuehdotus V2 (laskut)**.</span><span class="sxs-lookup"><span data-stu-id="26f83-111">After the Project manager confirms the proforma invoice in Dataverse, the proforma invoice header information synchronizes to Finance and Operations apps using the dual-write table map, **Project invoice proposal V2 (invoices)**.</span></span> <span data-ttu-id="26f83-112">Tämä on yksi tapa integroida Dataversestä Finance and Operations -sovelluksiin.</span><span class="sxs-lookup"><span data-stu-id="26f83-112">This is a one-way integration from Dataverse to Finance and Operations apps.</span></span> <span data-ttu-id="26f83-113">Projektilaskuehdotusten luomista tai poistamista suoraan Finance and Operations -sovelluksista ei tueta.</span><span class="sxs-lookup"><span data-stu-id="26f83-113">Creating or deleting Project invoice proposals directly in Finance and Operations apps isn't supported.</span></span>
+
+<span data-ttu-id="26f83-114">Laskun vahvistus Dataversessä käynnistää myös liiketoimintalogiikan, joka luo laskutukseen liittyviä tietueita **Toteutuneet**-kohteeseen.</span><span class="sxs-lookup"><span data-stu-id="26f83-114">Invoice confirmation in Dataverse also triggers the business logic to create billing-related records in the **Actuals** entity.</span></span> <span data-ttu-id="26f83-115">Nämä tiedot synkronoidaan Finance and Operationsiin käyttämällä kaksoiskirjoitustaulukkokarttaa, **Project Operationsin integrointien toteutuneet (msdyn\_actuals)**.</span><span class="sxs-lookup"><span data-stu-id="26f83-115">These records are synchronized to Finance and Operations using the dual-write table map, **Project Operations integration actuals (msdyn\_actuals).**</span></span> <span data-ttu-id="26f83-116">Lisätietoja on aiheissa [Projektin arviot ja todelliset kulut](resource-dual-write-estimates-actuals.md).</span><span class="sxs-lookup"><span data-stu-id="26f83-116">For more information, see [Project estimates and actuals](resource-dual-write-estimates-actuals.md).</span></span> 
+
+<span data-ttu-id="26f83-117">Projektilaskun ehdotusrivit luodaan jaksottaisen prosessin avulla, **Tuo valmistelusta**.</span><span class="sxs-lookup"><span data-stu-id="26f83-117">Project invoice proposal lines are created by the periodic process, **Import form staging**.</span></span> <span data-ttu-id="26f83-118">Tämä prosessi perustuu **Toteutuneet valmistelut** -taulukon laskutettuihin myyntitietoihin,</span><span class="sxs-lookup"><span data-stu-id="26f83-118">This process is based on the billed sales actuals details in the **Actuals staging** table.</span></span> <span data-ttu-id="26f83-119">Lisätietoja on ohjeaiheessa [Projektilaskuehdotusten hallinta](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals).</span><span class="sxs-lookup"><span data-stu-id="26f83-119">For more information, see [Manage project invoice proposals](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals).</span></span> 
