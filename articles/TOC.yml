@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Uudet ominaisuudet
       items:
+        - name: Toukokuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Huhtikuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Maaliskuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Kululuokkien määrittäminen
               href: expense/set-up-expense-categories.md
+            - name: Kilometrikorvauksen määrittäminen kilometrikorvaustasojen perusteella
+              href: expense/set-up-mileage.md
         - name: Henkilökohtaiset kulut
           href: expense/personal-expenses-expense-report.md
         - name: Konsernin sisäiset kulut
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Uudet ominaisuudet
       items:
+        - name: Toukokuun 2021 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Huhtikuun 2021 Lite-käyttöönoton uudet ominaisuudet
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Maaliskuun 2021 Lite-käyttöönoton uudet ominaisuudet
@@ -1028,6 +1034,8 @@
       items:
         - name: Project Service 3.x -päivitysten julkaisuaikataulu
           href: psa/version-history-ps.md
+        - name: 'Päivitysversion 32, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-32.md
         - name: 'Päivitysversion 31, V3 uudet ominaisuudet ja muutokset'
           href: psa/whats-new-ur-31.md
         - name: 'Päivitysversion 30, V3 uudet ominaisuudet ja muutokset'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Viikoittaisen aikamerkinnän mukauttaminen
               href: psa/time-entry-extensibility-v3.md
+            - name: Hyväksyntäjoukot
+              href: psa/approval-set.md
     - name: Usein kysytyt kysymykset ja vianmääritys (3.x)
       items:
         - name: Miksi toteutuneen kulun kustannusten oletushinta on nolla?
