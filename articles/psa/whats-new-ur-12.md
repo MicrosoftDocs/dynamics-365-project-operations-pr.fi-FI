@@ -2,8 +2,6 @@
 title: Uutuudet ja muutokset Project Service Automation -päivitysjulkaisussa 12, V3
 description: Tässä aiheessa on tietoja Project Service Automation -päivitysversion 12, V3:n uusista ominaisuuksista.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,50 +15,50 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58a12ded135712d8194499ce4a9ba9e4e2aa99bd
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f29eaf7c471104ad3e319d8f4e1cbc70e44fc1ca
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949495"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000342"
 ---
-# <a name="project-service-automation-update-release-12-v3"></a><span data-ttu-id="43bd8-103">Project Service Automation -päivitysjulkaisu 12, V3</span><span class="sxs-lookup"><span data-stu-id="43bd8-103">Project Service Automation Update Release 12, V3</span></span>
+# <a name="project-service-automation-update-release-12-v3"></a><span data-ttu-id="2bd89-103">Project Service Automation -päivitysjulkaisu 12, V3</span><span class="sxs-lookup"><span data-stu-id="2bd89-103">Project Service Automation Update Release 12, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="43bd8-104">Olemme iloisia voidessamme julkistaa uusimman Dynamics 365 Project Service Automation (PSA) -sovelluksen päivityksen.</span><span class="sxs-lookup"><span data-stu-id="43bd8-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="43bd8-105">Tämä julkaisu sisältää joitakin tärkeitä parannuksia laatuun, tehokkuuteen ja käytettävyyteen.</span><span class="sxs-lookup"><span data-stu-id="43bd8-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="43bd8-106">Tämä versio on yhteensopiva Dynamics 365 -versioiden 9.x kanssa.</span><span class="sxs-lookup"><span data-stu-id="43bd8-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="43bd8-107">Jos haluat päivittää tämän julkaisun, käy Dynamics 365 online -hallintakeskuksessa ja asenna päivitys siirtymällä Ratkaisut-sivulle.</span><span class="sxs-lookup"><span data-stu-id="43bd8-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="43bd8-108">Lisätietoja: [Ensisijaisen ratkaisun asentaminen, päivittäminen tai poistaminen](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="43bd8-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="2bd89-104">Olemme iloisia voidessamme julkistaa uusimman Dynamics 365 Project Service Automation (PSA) -sovelluksen päivityksen.</span><span class="sxs-lookup"><span data-stu-id="2bd89-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="2bd89-105">Tämä julkaisu sisältää joitakin tärkeitä parannuksia laatuun, tehokkuuteen ja käytettävyyteen.</span><span class="sxs-lookup"><span data-stu-id="2bd89-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="2bd89-106">Tämä versio on yhteensopiva Dynamics 365 -versioiden 9.x kanssa.</span><span class="sxs-lookup"><span data-stu-id="2bd89-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="2bd89-107">Jos haluat päivittää tämän julkaisun, käy Dynamics 365 online -hallintakeskuksessa ja asenna päivitys siirtymällä Ratkaisut-sivulle.</span><span class="sxs-lookup"><span data-stu-id="2bd89-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="2bd89-108">Lisätietoja: [Ensisijaisen ratkaisun asentaminen, päivittäminen tai poistaminen](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="2bd89-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="43bd8-109">Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia tai muuttuneita Project Service Automation V3 -päivitysjulkaisussa 12.</span><span class="sxs-lookup"><span data-stu-id="43bd8-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 12.</span></span> <span data-ttu-id="43bd8-110">Tällä versiolla on koontinumero V3.10.2.34 ja se on ollut yleisesti saatavilla itsepalvelupäivityksenä lokakuusta 2019 lähtien.</span><span class="sxs-lookup"><span data-stu-id="43bd8-110">This version has a build number of V3.10.2.34 and is generally available through a self-update in October 2019.</span></span>
+<span data-ttu-id="2bd89-109">Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia tai muuttuneita Project Service Automation V3 -päivitysjulkaisussa 12.</span><span class="sxs-lookup"><span data-stu-id="2bd89-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 12.</span></span> <span data-ttu-id="2bd89-110">Tällä versiolla on koontinumero V3.10.2.34 ja se on ollut yleisesti saatavilla itsepalvelupäivityksenä lokakuusta 2019 lähtien.</span><span class="sxs-lookup"><span data-stu-id="2bd89-110">This version has a build number of V3.10.2.34 and is generally available through a self-update in October 2019.</span></span>
 
-## <a name="update-release-12"></a><span data-ttu-id="43bd8-111">Päivitysjulkaisu 12</span><span class="sxs-lookup"><span data-stu-id="43bd8-111">Update Release 12</span></span>
+## <a name="update-release-12"></a><span data-ttu-id="2bd89-111">Päivitysjulkaisu 12</span><span class="sxs-lookup"><span data-stu-id="2bd89-111">Update Release 12</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="43bd8-112">Ohjelmistovirheiden korjaukset</span><span class="sxs-lookup"><span data-stu-id="43bd8-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="2bd89-112">Ohjelmistovirheiden korjaukset</span><span class="sxs-lookup"><span data-stu-id="2bd89-112">Bug fixes</span></span>
 
-- <span data-ttu-id="43bd8-113">Aika ja kulu</span><span class="sxs-lookup"><span data-stu-id="43bd8-113">Time and Expense</span></span>
+- <span data-ttu-id="2bd89-113">Aika ja kulu</span><span class="sxs-lookup"><span data-stu-id="2bd89-113">Time and Expense</span></span>
 
-    - <span data-ttu-id="43bd8-114">Korjattu: aikamerkinnän virheviesteihin on päivitetty merkityksellisempiä tietoja.</span><span class="sxs-lookup"><span data-stu-id="43bd8-114">Fixed: Time entry error messaging has been updated with more relevant context.</span></span>
-    - <span data-ttu-id="43bd8-115">Korjattu: Aikamerkintöjen ruudukko ja aikataulu näyttävät pystysuuntaisen vierityspalkin tarpeen mukaan.</span><span class="sxs-lookup"><span data-stu-id="43bd8-115">Fixed: Time entry grid and schedule correctly displays the vertical scrollbar when required.</span></span>
-    - <span data-ttu-id="43bd8-116">Korjattu: Lähetettyjä kulu- ja aikamerkintöjä voidaan hyväksyä.</span><span class="sxs-lookup"><span data-stu-id="43bd8-116">Fixed: Submitted expense and time entries can be approved.</span></span>
-    - <span data-ttu-id="43bd8-117">Korjattu: Hyväksynnän peruuttamisen vahvistusvalintaikkunan sanoma on korjattu, jotta se vastaisi hyväksynnän tilaa, kun se muutetaan tilasta **Hyväksytty** tilaan **Lähetetty**.</span><span class="sxs-lookup"><span data-stu-id="43bd8-117">Fixed: Cancel approval confirmation dialog message has been corrected to reflect the status of the approval when changed from **Approved** to **Submitted**.</span></span>
-    - <span data-ttu-id="43bd8-118">Korjattu: **Hinta**- **Yksikkö**- ja **Määrä**-kentät on nyt lukittu kulutietueessa sen jälkeen, kun se on hyväksytty.</span><span class="sxs-lookup"><span data-stu-id="43bd8-118">Fixed: **Price**, **Unit**, and **Quantity** fields are now locked on the Expense record after it is has been approved.</span></span>
+    - <span data-ttu-id="2bd89-114">Korjattu: aikamerkinnän virheviesteihin on päivitetty merkityksellisempiä tietoja.</span><span class="sxs-lookup"><span data-stu-id="2bd89-114">Fixed: Time entry error messaging has been updated with more relevant context.</span></span>
+    - <span data-ttu-id="2bd89-115">Korjattu: Aikamerkintöjen ruudukko ja aikataulu näyttävät pystysuuntaisen vierityspalkin tarpeen mukaan.</span><span class="sxs-lookup"><span data-stu-id="2bd89-115">Fixed: Time entry grid and schedule correctly displays the vertical scrollbar when required.</span></span>
+    - <span data-ttu-id="2bd89-116">Korjattu: Lähetettyjä kulu- ja aikamerkintöjä voidaan hyväksyä.</span><span class="sxs-lookup"><span data-stu-id="2bd89-116">Fixed: Submitted expense and time entries can be approved.</span></span>
+    - <span data-ttu-id="2bd89-117">Korjattu: Hyväksynnän peruuttamisen vahvistusvalintaikkunan sanoma on korjattu, jotta se vastaisi hyväksynnän tilaa, kun se muutetaan tilasta **Hyväksytty** tilaan **Lähetetty**.</span><span class="sxs-lookup"><span data-stu-id="2bd89-117">Fixed: Cancel approval confirmation dialog message has been corrected to reflect the status of the approval when changed from **Approved** to **Submitted**.</span></span>
+    - <span data-ttu-id="2bd89-118">Korjattu: **Hinta**- **Yksikkö**- ja **Määrä**-kentät on nyt lukittu kulutietueessa sen jälkeen, kun se on hyväksytty.</span><span class="sxs-lookup"><span data-stu-id="2bd89-118">Fixed: **Price**, **Unit**, and **Quantity** fields are now locked on the Expense record after it is has been approved.</span></span>
 
-- <span data-ttu-id="43bd8-119">Projektinhallinta</span><span class="sxs-lookup"><span data-stu-id="43bd8-119">Project Management</span></span>
+- <span data-ttu-id="2bd89-119">Projektinhallinta</span><span class="sxs-lookup"><span data-stu-id="2bd89-119">Project Management</span></span>
 
-    - <span data-ttu-id="43bd8-120">Korjattu: **Uusi**-toiminto **Ryhmän jäsen** -päälomakkeessa on poistettu.</span><span class="sxs-lookup"><span data-stu-id="43bd8-120">Fixed: **New** action on **Team member** main form has been removed.</span></span>
-    - <span data-ttu-id="43bd8-121">Korjattu: Resurssivaraukset on päivitetty epätarkkojen pyöristysten virheiden vuoksi, jotka johtivat tehtävän päättymispäivän muutokseen.</span><span class="sxs-lookup"><span data-stu-id="43bd8-121">Fixed: Resource assignments have been updated to account for inaccurate rounding errors, which lead to a shift in a task’s end date.</span></span>
-    - <span data-ttu-id="43bd8-122">Korjattu: Käyttäjä näkee tehtäväruudukossa oleelliset palvelinpuolen virheet.</span><span class="sxs-lookup"><span data-stu-id="43bd8-122">Fixed: In the task grid, relevant server-side errors will be surfaced to the user.</span></span>
-    - <span data-ttu-id="43bd8-123">Korjattu: ryhmän jäsenen nimi muodostetaan nyt tehtävän Henkilöt-valitsimella toimen nimen sijaan.</span><span class="sxs-lookup"><span data-stu-id="43bd8-123">Fixed: The team member’s name now renders in the task people picker instead of the position name.</span></span>
+    - <span data-ttu-id="2bd89-120">Korjattu: **Uusi**-toiminto **Ryhmän jäsen** -päälomakkeessa on poistettu.</span><span class="sxs-lookup"><span data-stu-id="2bd89-120">Fixed: **New** action on **Team member** main form has been removed.</span></span>
+    - <span data-ttu-id="2bd89-121">Korjattu: Resurssivaraukset on päivitetty epätarkkojen pyöristysten virheiden vuoksi, jotka johtivat tehtävän päättymispäivän muutokseen.</span><span class="sxs-lookup"><span data-stu-id="2bd89-121">Fixed: Resource assignments have been updated to account for inaccurate rounding errors, which lead to a shift in a task’s end date.</span></span>
+    - <span data-ttu-id="2bd89-122">Korjattu: Käyttäjä näkee tehtäväruudukossa oleelliset palvelinpuolen virheet.</span><span class="sxs-lookup"><span data-stu-id="2bd89-122">Fixed: In the task grid, relevant server-side errors will be surfaced to the user.</span></span>
+    - <span data-ttu-id="2bd89-123">Korjattu: ryhmän jäsenen nimi muodostetaan nyt tehtävän Henkilöt-valitsimella toimen nimen sijaan.</span><span class="sxs-lookup"><span data-stu-id="2bd89-123">Fixed: The team member’s name now renders in the task people picker instead of the position name.</span></span>
 
-- <span data-ttu-id="43bd8-124">Resurssienhallinta</span><span class="sxs-lookup"><span data-stu-id="43bd8-124">Resource Management</span></span>
+- <span data-ttu-id="2bd89-124">Resurssienhallinta</span><span class="sxs-lookup"><span data-stu-id="2bd89-124">Resource Management</span></span>
 
-    - <span data-ttu-id="43bd8-125">Korjattu: Mallista luotujen projektien resurssitarvetiedot käyttävät nyt projektikalenteria.</span><span class="sxs-lookup"><span data-stu-id="43bd8-125">Fixed: Resource requirement details for projects created from a template now use the project calendar.</span></span>
-    - <span data-ttu-id="43bd8-126">Korjattu: Taidot ja kompetenssit siirtyvät nyt oletusarvon mukaan roolien päätiedoista kyseiselle roolille luodulle resurssitarpeelle.</span><span class="sxs-lookup"><span data-stu-id="43bd8-126">Fixed: Skills and competencies now default from role master data to the resource requirement created for that role.</span></span>
+    - <span data-ttu-id="2bd89-125">Korjattu: Mallista luotujen projektien resurssitarvetiedot käyttävät nyt projektikalenteria.</span><span class="sxs-lookup"><span data-stu-id="2bd89-125">Fixed: Resource requirement details for projects created from a template now use the project calendar.</span></span>
+    - <span data-ttu-id="2bd89-126">Korjattu: Taidot ja kompetenssit siirtyvät nyt oletusarvon mukaan roolien päätiedoista kyseiselle roolille luodulle resurssitarpeelle.</span><span class="sxs-lookup"><span data-stu-id="2bd89-126">Fixed: Skills and competencies now default from role master data to the resource requirement created for that role.</span></span>
 
-- <span data-ttu-id="43bd8-127">Sales</span><span class="sxs-lookup"><span data-stu-id="43bd8-127">Sales</span></span>
+- <span data-ttu-id="2bd89-127">Sales</span><span class="sxs-lookup"><span data-stu-id="2bd89-127">Sales</span></span>
 
-    - <span data-ttu-id="43bd8-128">Korjattu: **Sopimus**-päälomakkeesta löytyi päällekkäisiä objektitunnuksia.</span><span class="sxs-lookup"><span data-stu-id="43bd8-128">Fixed: Duplicate object IDs found on the **Contract main** form.</span></span>
-    - <span data-ttu-id="43bd8-129">Korjattu: logiikka on päivitetty, jotta **Tarjousanalyysi** -välilehti näkyy siten, että se näyttää välilehden metatietomääritykset.</span><span class="sxs-lookup"><span data-stu-id="43bd8-129">Fixed: Logic has been updated to make the **Quote Analysis** tab visible so that it displays the metadata setup of the tab.</span></span>
-    - <span data-ttu-id="43bd8-130">Korjattu: Todellisten arvojen tietueen kirjanpitopäivä on nyt peräisin ajan/kulun merkintäpäivämäärästä eikä hyväksynnän päivämäärästä.</span><span class="sxs-lookup"><span data-stu-id="43bd8-130">Fixed: Accounting date on the actual record now comes from the date of the time/expense entry date and not the date of the approval.</span></span>
+    - <span data-ttu-id="2bd89-128">Korjattu: **Sopimus**-päälomakkeesta löytyi päällekkäisiä objektitunnuksia.</span><span class="sxs-lookup"><span data-stu-id="2bd89-128">Fixed: Duplicate object IDs found on the **Contract main** form.</span></span>
+    - <span data-ttu-id="2bd89-129">Korjattu: logiikka on päivitetty, jotta **Tarjousanalyysi** -välilehti näkyy siten, että se näyttää välilehden metatietomääritykset.</span><span class="sxs-lookup"><span data-stu-id="2bd89-129">Fixed: Logic has been updated to make the **Quote Analysis** tab visible so that it displays the metadata setup of the tab.</span></span>
+    - <span data-ttu-id="2bd89-130">Korjattu: Todellisten arvojen tietueen kirjanpitopäivä on nyt peräisin ajan/kulun merkintäpäivämäärästä eikä hyväksynnän päivämäärästä.</span><span class="sxs-lookup"><span data-stu-id="2bd89-130">Fixed: Accounting date on the actual record now comes from the date of the time/expense entry date and not the date of the approval.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
