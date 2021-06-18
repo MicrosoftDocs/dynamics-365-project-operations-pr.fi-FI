@@ -2,18 +2,16 @@
 title: Määritystietojen määrittäminen ja käyttäminen Common Data Servicessa
 description: Tässä aiheessa on tietoja määritystietojen määrittämisestä ja käyttöönotosta Project Operationsissa.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289815"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001287"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Määritystietojen määrittäminen ja käyttäminen Common Data Servicessa 
 
@@ -23,7 +21,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 ## <a name="prerequisites"></a>Edellytykset
 
-Seuraavien edellytysten on täytyttävä ennen tietojen määrittämistä Common Data Servicessa (CDS):
+Seuraavien edellytysten on täytyttävä ennen kuin aloitat tietojen määrittämisen Common Data Servicessa (CDS):
 
 1.  Project Operationsia varten valmistellut CDS- ja Dynamics 365 Finance -ympäristöt.
 2.  CDS-ympäristöön jaetut Dynamics 365 Financen yritystiedot. Tämän vuoksi CDS:n **Yhtiö**-entiteetillä on seuraavat yhtiötietueet:
@@ -33,7 +31,7 @@ Seuraavien edellytysten on täytyttävä ennen tietojen määrittämistä Common
 
 ## <a name="install-setup-and-configuration-data"></a>Asenna määritys- ja konfiguraatiotiedot
 
-1. Lataa, poista esto ja pura [Asennus- ja määritystietopaketti](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Lataa, poista esto ja pura [Asennus- ja määritystietopaketti](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Siirry purettuun kansioon ja suorita suoritettava tiedosto *DataMigrationUtility*.
 3. Valitse ohjatussa Common Data Service Configuration Migration (CMT) -toiminnossa sivulla 1 **Tuo tiedot** ja sitten **Jatka**.
 
@@ -57,13 +55,20 @@ Seuraavien edellytysten on täytyttävä ennen tietojen määrittämistä Common
 ![Tuo tiedot](./media/5ImportData.png)
 
 10. Tuonti kestää noin 2-10 minuuttia verkon nopeuden mukaan. Kun tuonti on valmis, sulje ohjattu CMT-toiminto. 
-11. Tarkista organisaatiosi tiedot seuraavissa 19 entiteetissä:
+11. Tarkista organisaatiosi tiedot seuraavissa 26 entiteetissä:
 
   - Valuutta
+  - Tilikartta
+  - Kirjanpitokalenteri
+  - Vaihtokurssien tyypit
+  - Maksupäivä
+  - Maksuaikataulu
+  - Maksuehto
   - Organisaatioyksikkö
   - Ota yhteyttä
   - Veroryhmä
   - Asiakasryhmä
+  - Toimittajaryhmä
   - Yksikkö
   - Yksikköryhmä
   - Hinnasto

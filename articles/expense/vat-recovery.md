@@ -2,18 +2,16 @@
 title: ALV-palautus kulujen hallinnassa
 description: Tässä aiheesa kerrotaan, miten voit saada hyvityksiä hyväksyttävistä arvonlisäverotapahtumista.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1c7bd2cb3b200ef3be735484d4e831a7a5793d58
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a840c808a76c96dd5f9dfb863c230801718c203c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275939"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001692"
 ---
 # <a name="vat-recovery-in-expense-management"></a>ALV-palautus kulujen hallinnassa
 
@@ -35,25 +33,25 @@ Kun edellytykset on täytetty, on suoritettava seuraavat vaiheet, jotta voit pyy
 4. Lähetä ALV-palautustiedot kolmannelle osapuolelle, jotta voit määrittää kansainväliset palautukset.
 5. Käsittele kotimaisten kulujen ALV-palautuksia.
 
-Seuraavissa osissa on esimerkkejä siitä, miten Contoson työntekijät suorittavat kunkin vaiheen.
+Seuraavissa osissa on esimerkkejä siitä, miten Contoso-yrityksen työntekijät suorittavat kunkin vaiheen.
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Anna luottokorttitapahtumien verotiedot, jotta voit määrittää kelpoiset ALV-palautukset
 
-Yhdysvalloissa sijaitseva Contoson myyntiedustaja Nancy on vastikään palannaut myyntimatkalta Yhdistyneeseen kuningaskuntaan. Matkan aikana Nancy aiheutti joitakin henkilökohtaisia luottokorttikuluja aterioissa. Nancyn on nyt luotava kuluraportti kulujen täsmäyttämiseksi.
+Nancy on Yhdysvalloissa sijaitseva Contoso-yrityksen myyntiedustaja, joka palasi äskettäin myyntimatkalta Yhdistyneestä kuningaskunnasta. Matkan aikana Nancy aiheutti joitakin henkilökohtaisia luottokorttikuluja aterioissa. Nancyn on nyt luotava kuluraportti kulujen täsmäyttämiseksi.
 
 Kun Nancy syöttää tiedot kuluraporttiin, hän valitsee **Yhdistynyt kuningaskunta** **Muokkaa kuluraporttia** -sivun **Maa/alue**-kentässä. Tämän jälkeen arvonlisäveroryhmien luettelo suodatetaan niin, että siinä näkyvät vain ne ryhmät, jotka koskevat Yhdistynyttä kuningaskuntaa. Nancy valitsee **Yhdistynyt kuningaskunta 001** -arvonlisäveroryhmän ja valitsee sitten **Ateriat**-nimikearvonlisäveroryhmän. Seuraavaksi Nancy lisää uuden majoitustapahtuman. Koska Yhdistyneessä kuningaskunnassa on vain yksi arvonlisäveroryhmä ja yksi nimikearvonlisäveroryhmä majoittukselle, nämä tiedot täytetään automaattisesti Nancyn kuluraporttiin.
 
-Contoson käytännön mukaan kaikissa kuluissa on oltava täsmäävä kuitti. Tämän vuoksi, kun Nancy tallentaa kuluraportin, hän saa sanoman, jonka mukaan hänen on liitettävä kuitti jokaisesta tapahtumasta, jonka hän on luetellut kuluraportissaan. Nancy varmistaa, että hän on liittänyt jokaisen tapahtuman kuitin digitaalisen kuvan kuluraporttiin ja lähettää sitten raportin hyväksyttäväksi. Tämän jälkeen hän lähettää paperikuitit toimiston käsittelyryhmälle. Tämä ryhmä lähettää ALV-palautustiedot kolmannen osapuolen toimittajalle, joka määrittää kansainvälisen arvonlisäveron palautuksen Contosolle.
+Kaikilla kuluilla on oltava vastaava vastaanottaja Contoso-yrityksen käytännön mukaisesti. Tämän vuoksi, kun Nancy tallentaa kuluraportin, hän saa sanoman, jonka mukaan hänen on liitettävä kuitti jokaisesta tapahtumasta, jonka hän on luetellut kuluraportissaan. Nancy varmistaa, että hän on liittänyt jokaisen tapahtuman kuitin digitaalisen kuvan kuluraporttiin ja lähettää sitten raportin hyväksyttäväksi. Tämän jälkeen hän lähettää paperikuitit toimiston käsittelyryhmälle. Tämä ryhmä lähettää ALV-palautustiedot ulkopuoliselle toimittajalle, joka tallentaa kansainväliset ALV-palautustiedot Contoso-yrityksen puolesta.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Verotietojen tarkistaminen ja kuluraportin kirjaaminen
 
-Ennen kuin Contoson ostoreskontran koordinaattori April voi kirjata kuluraportin, hänen on annettava kaikki puuttuvat verotiedot. Hän avaa **Kuluraportin tiedot** -sivun ja näkee Nancyn hyväksytyn kuluraportin. april avaa kuluraportin tarkastellakseen tapahtumien tietoja. Hän näkee, että Nancy ei ole antanut yhden tapahtuman nimikearvonlisäveroryhmää. Koska nämä tiedot eivät ole käytettävissä, April ei voi kirjata kuluraporttia. Tämän vuoksi hän tarkastelee **Vero määritykset** -sivua kulujen hallinnassa ja etsii maalle/alueelle ja tapahtumatyypille sopivan nimikearvonlisäveroryhmän. April voi nyt kirjata kuluraportin pääkirjanpitoon.
+Ennen kuin April, joka on Contoso-yrityksen ostoreskontrakoordinaattori, voi kirjata kuluraportin, hänen on syötettävä kaikki siitä puuttuvat verotiedot. Hän avaa **Kuluraportin tiedot** -sivun ja näkee Nancyn hyväksytyn kuluraportin. april avaa kuluraportin tarkastellakseen tapahtumien tietoja. Hän näkee, että Nancy ei ole antanut yhden tapahtuman nimikearvonlisäveroryhmää. Koska nämä tiedot eivät ole käytettävissä, April ei voi kirjata kuluraporttia. Tämän vuoksi hän tarkastelee **Vero määritykset** -sivua kulujen hallinnassa ja etsii maalle/alueelle ja tapahtumatyypille sopivan nimikearvonlisäveroryhmän. April voi nyt kirjata kuluraportin pääkirjanpitoon.
 
 Kun April kirjaa kuluraportin, luodaan palautettavissa oleva ALV-työnimike. Tämä työnimike delegoidaan toimiston käsittelyryhmän jäsenelle. April vastaanottaa viestin, joka vahvistaa, että kirjaus onnistui. Tässä sanomassa näkyy myös palautuksessa tunnistettujen ALV-tapahtumien määrä.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Käsittele kulut, jotka kelpaavat kansainväliseen ALV-palautukseen
 
-Arnie, Contoson käsittelyryhmän jäsen, vastaa siitä, että kaikki tarvittavat ALV-palautuksen tiedot sisältyvät kuluraportteihin. Hän avaa **Kulun veronpalautus** -sivun ja valitsee Nancyn lähettämän kuluraportin. Tämän jälkeen Arnie tarkistaa, että kaikki pakolliset kuitit on liitetty ja että oikeat arvonlisäveroryhmän ja nimikearvonlisäveron koodit on syötetty.
+Arnie on Contoso-yrityksen taustakäsittelyryhmän jäsen, jonka vastuulla on varmistaa, että kuluraportit sisältävät kaikki pakolliset ALV-palautustiedot. Hän avaa **Kulun veronpalautus** -sivun ja valitsee Nancyn lähettämän kuluraportin. Tämän jälkeen Arnie tarkistaa, että kaikki pakolliset kuitit on liitetty ja että oikeat arvonlisäveroryhmän ja nimikearvonlisäveron koodit on syötetty.
 
 Kun Arnie vastaanottaa paperikuitit Nancylta, hän tarkistaa ne digitaalisia kuitteja vastaan ja muuttaa sitten kuluraportin tilaksi **Valmis palautettavaksi**.
 
