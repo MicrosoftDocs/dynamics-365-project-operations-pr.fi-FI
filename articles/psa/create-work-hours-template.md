@@ -2,8 +2,6 @@
 title: Työtuntimallien luominen
 description: Ohjeita työtuntimallin luomisesta Project Servicessä.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 105e3cb2ef7b904e96dc21013906e0b7444e3b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981251"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997192"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Luo työtuntimalli (Project Service)
 
@@ -51,7 +49,7 @@ Organisaation kalenterimallin luomiselle on kaksi tärkeää avainvaatimusta:
 
 1. Siirry kohtaan **Resurssit** \> **Resurssit**.
 2. Luo uusi resurssi, jota haluat käyttää kalenterimallissa, tai valitse aiemmin luotu resurssi.
-3. Valitse **resurssin työaika** -välilehti ja noudata ohjeita kohdasta [Resurssin työaikojen määrittäminen](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) kalenterisääntöjen määrittämiseksi.
+3. Valitse **resurssin työaika** -välilehti ja noudata ohjeita kohdasta [Resurssin työaikojen määrittäminen](/dynamics365/field-service/set-work-hours-resource.md) kalenterisääntöjen määrittämiseksi.
 
 **Luo uusi kalenterimalli**
 
