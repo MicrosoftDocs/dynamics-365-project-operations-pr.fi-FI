@@ -2,18 +2,16 @@
 title: Useiden asiakkaiden hallinta projektipohjaisilla tarjousriveillä – lite
 description: Tässä aiheessa kuvataan sitä, miten projektipohjaisilla tarjousriveillä hallitaan useita asiakkaita.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0fde833ad6b13fc12b733d1aa9f3bba0cfd95b2b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f2e45e0a83f904a65a29c1e39b59adac47a77c58
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273067"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994987"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Useiden asiakkaiden hallinta projektipohjaisilla tarjousriveillä – lite
 
