@@ -2,65 +2,63 @@
 title: Kululuokkien määrittäminen
 description: Tässä aiheessa on tietoja siitä, miten kuluraporttien kululuokkia ja jaettuja luokkia määritetään.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1589cf82626e744d35f31fef8e8437a5ad71360d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d66df1ffd2be2ff884561010c46cda255a2d2189
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276119"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001783"
 ---
-# <a name="set-up-expense-categories"></a><span data-ttu-id="8ab5f-103">Kululuokkien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="8ab5f-103">Set up expense categories</span></span>
+# <a name="set-up-expense-categories"></a><span data-ttu-id="19e4e-103">Kululuokkien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="19e4e-103">Set up expense categories</span></span>
 
-<span data-ttu-id="8ab5f-104">_**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_</span><span class="sxs-lookup"><span data-stu-id="8ab5f-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="19e4e-104">_**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_</span><span class="sxs-lookup"><span data-stu-id="19e4e-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="8ab5f-105">Kun työntekijät luovat kuluraportteja, kukin heidän tallentamansa kulu on liitettävä kululuokkaan.</span><span class="sxs-lookup"><span data-stu-id="8ab5f-105">When employees create expense reports, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="8ab5f-106">Kululuokat johdetaan jaetuista luokista, jotka voidaan jakaa organisaation yritysten kesken.</span><span class="sxs-lookup"><span data-stu-id="8ab5f-106">Expense categories are derived from shared categories that can be shared across the legal entities in your organization.</span></span> <span data-ttu-id="8ab5f-107">Nämä kululuokat voidaan jakaa myös muilla alueilla sen mukaan, miten organisaatio on määritetty.</span><span class="sxs-lookup"><span data-stu-id="8ab5f-107">Depending on how your organization is defined, these expense categories can also be shared in other areas.</span></span> <span data-ttu-id="8ab5f-108">Organisaation määritelmän ja käyttöönottoryhmän ohjeiden perusteella sinun täytyy määrittää, käytetäänkö kulujen hallinnassa käytettäviä luokkia vain kulujen hallinnassa vai pitäisikö ne jakaa muilla alueilla.</span><span class="sxs-lookup"><span data-stu-id="8ab5f-108">Based on the definition of your organization and guidance from the implementation team, you must determine whether the categories that are used in Expense management will be used only in Expense management or should be shared in other areas.</span></span>
+<span data-ttu-id="19e4e-105">Kun työntekijät luovat kuluraportteja, kukin heidän tallentamansa kulu on liitettävä kululuokkaan.</span><span class="sxs-lookup"><span data-stu-id="19e4e-105">When employees create expense reports, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="19e4e-106">Kululuokat johdetaan jaetuista luokista, jotka voidaan jakaa organisaation yritysten kesken.</span><span class="sxs-lookup"><span data-stu-id="19e4e-106">Expense categories are derived from shared categories that can be shared across the legal entities in your organization.</span></span> <span data-ttu-id="19e4e-107">Nämä kululuokat voidaan jakaa myös muilla alueilla sen mukaan, miten organisaatio on määritetty.</span><span class="sxs-lookup"><span data-stu-id="19e4e-107">Depending on how your organization is defined, these expense categories can also be shared in other areas.</span></span> <span data-ttu-id="19e4e-108">Organisaation määritelmän ja käyttöönottoryhmän ohjeiden perusteella sinun täytyy määrittää, käytetäänkö kulujen hallinnassa käytettäviä luokkia vain kulujen hallinnassa vai pitäisikö ne jakaa muilla alueilla.</span><span class="sxs-lookup"><span data-stu-id="19e4e-108">Based on the definition of your organization and guidance from the implementation team, you must determine whether the categories that are used in Expense management will be used only in Expense management or should be shared in other areas.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="8ab5f-109">Nämä luokat voidaan jakaa projektinhallinnan ja kirjanpidon ja kulujen hallinnan välillä tai projektinhallinnan ja kirjanpidon sekä tuotannon välillä.</span><span class="sxs-lookup"><span data-stu-id="8ab5f-109">These categories can be shared between Project management and accounting and Expense management, or between Project management and accounting and Production.</span></span> <span data-ttu-id="8ab5f-110">Niitä ei kuitenkaan voi jakaa kulujen hallinnan ja tuotannon välillä.</span><span class="sxs-lookup"><span data-stu-id="8ab5f-110">However, they can't be shared between Expense management and Production.</span></span>
+> <span data-ttu-id="19e4e-109">Nämä luokat voidaan jakaa projektinhallinnan ja kirjanpidon ja kulujen hallinnan välillä tai projektinhallinnan ja kirjanpidon sekä tuotannon välillä.</span><span class="sxs-lookup"><span data-stu-id="19e4e-109">These categories can be shared between Project management and accounting and Expense management, or between Project management and accounting and Production.</span></span> <span data-ttu-id="19e4e-110">Niitä ei kuitenkaan voi jakaa kulujen hallinnan ja tuotannon välillä.</span><span class="sxs-lookup"><span data-stu-id="19e4e-110">However, they can't be shared between Expense management and Production.</span></span>
 
-<span data-ttu-id="8ab5f-111">Ennen määritysprosessin aloittamista on tehtävä seuraavat päätökset kullekin kululuokalle:</span><span class="sxs-lookup"><span data-stu-id="8ab5f-111">Before you can begin the setup process, the following decisions must be made for each expense category:</span></span>
+<span data-ttu-id="19e4e-111">Ennen määritysprosessin aloittamista on tehtävä seuraavat päätökset kullekin kululuokalle:</span><span class="sxs-lookup"><span data-stu-id="19e4e-111">Before you can begin the setup process, the following decisions must be made for each expense category:</span></span>
 
-- <span data-ttu-id="8ab5f-112">Mikä on kululuokka?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-112">What is the expense category?</span></span> <span data-ttu-id="8ab5f-113">Esimerkkeinä voidaan mainita luokat lennoille, hotellille tai kilometrikorvauksille.</span><span class="sxs-lookup"><span data-stu-id="8ab5f-113">Examples include categories for flights, hotel, or mileage.</span></span>
-- <span data-ttu-id="8ab5f-114">Voiko kululuokkaa käyttää myös projektinhallinnassa ja kirjanpidossa?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-114">Can the expense category also be used in Project management and accounting?</span></span> <span data-ttu-id="8ab5f-115">Jos voi käyttää, on tehtävä myös seuraavat päätökset:</span><span class="sxs-lookup"><span data-stu-id="8ab5f-115">If it can, you must also make the following decisions:</span></span>
+- <span data-ttu-id="19e4e-112">Mikä on kululuokka?</span><span class="sxs-lookup"><span data-stu-id="19e4e-112">What is the expense category?</span></span> <span data-ttu-id="19e4e-113">Esimerkkeinä voidaan mainita luokat lennoille, hotellille tai kilometrikorvauksille.</span><span class="sxs-lookup"><span data-stu-id="19e4e-113">Examples include categories for flights, hotel, or mileage.</span></span>
+- <span data-ttu-id="19e4e-114">Voiko kululuokkaa käyttää myös projektinhallinnassa ja kirjanpidossa?</span><span class="sxs-lookup"><span data-stu-id="19e4e-114">Can the expense category also be used in Project management and accounting?</span></span> <span data-ttu-id="19e4e-115">Jos voi käyttää, on tehtävä myös seuraavat päätökset:</span><span class="sxs-lookup"><span data-stu-id="19e4e-115">If it can, you must also make the following decisions:</span></span>
 
-    - <span data-ttu-id="8ab5f-116">Mitä kustannustilejä käytetään seuraaviin kuluihin?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-116">Which cost accounts will be used for the following expenses?</span></span>
+    - <span data-ttu-id="19e4e-116">Mitä kustannustilejä käytetään seuraaviin kuluihin?</span><span class="sxs-lookup"><span data-stu-id="19e4e-116">Which cost accounts will be used for the following expenses?</span></span>
 
-        - <span data-ttu-id="8ab5f-117">Kustannus</span><span class="sxs-lookup"><span data-stu-id="8ab5f-117">Cost</span></span>
-        - <span data-ttu-id="8ab5f-118">Palkanlaskennan kohdistus</span><span class="sxs-lookup"><span data-stu-id="8ab5f-118">Payroll allocation</span></span>
-        - <span data-ttu-id="8ab5f-119">KET-kustannusarvo</span><span class="sxs-lookup"><span data-stu-id="8ab5f-119">WIP-cost value</span></span>
-        - <span data-ttu-id="8ab5f-120">Kustannusnimike</span><span class="sxs-lookup"><span data-stu-id="8ab5f-120">Cost-item</span></span>
-        - <span data-ttu-id="8ab5f-121">KET-kustannuksen arvonimike</span><span class="sxs-lookup"><span data-stu-id="8ab5f-121">WIP-cost value-item</span></span>
-        - <span data-ttu-id="8ab5f-122">Jaksotettu tappio</span><span class="sxs-lookup"><span data-stu-id="8ab5f-122">Accrued loss</span></span>
-        - <span data-ttu-id="8ab5f-123">KET – jaksotettu tappio</span><span class="sxs-lookup"><span data-stu-id="8ab5f-123">WIP-accrued loss</span></span>
+        - <span data-ttu-id="19e4e-117">Kustannus</span><span class="sxs-lookup"><span data-stu-id="19e4e-117">Cost</span></span>
+        - <span data-ttu-id="19e4e-118">Palkanlaskennan kohdistus</span><span class="sxs-lookup"><span data-stu-id="19e4e-118">Payroll allocation</span></span>
+        - <span data-ttu-id="19e4e-119">KET-kustannusarvo</span><span class="sxs-lookup"><span data-stu-id="19e4e-119">WIP-cost value</span></span>
+        - <span data-ttu-id="19e4e-120">Kustannusnimike</span><span class="sxs-lookup"><span data-stu-id="19e4e-120">Cost-item</span></span>
+        - <span data-ttu-id="19e4e-121">KET-kustannuksen arvonimike</span><span class="sxs-lookup"><span data-stu-id="19e4e-121">WIP-cost value-item</span></span>
+        - <span data-ttu-id="19e4e-122">Jaksotettu tappio</span><span class="sxs-lookup"><span data-stu-id="19e4e-122">Accrued loss</span></span>
+        - <span data-ttu-id="19e4e-123">KET – jaksotettu tappio</span><span class="sxs-lookup"><span data-stu-id="19e4e-123">WIP-accrued loss</span></span>
 
-    - <span data-ttu-id="8ab5f-124">Mitä tuottotilejä käytetään seuraavissa tuottolähteissä?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-124">Which revenue accounts will be used for the following sources of revenue?</span></span>
+    - <span data-ttu-id="19e4e-124">Mitä tuottotilejä käytetään seuraavissa tuottolähteissä?</span><span class="sxs-lookup"><span data-stu-id="19e4e-124">Which revenue accounts will be used for the following sources of revenue?</span></span>
 
-        - <span data-ttu-id="8ab5f-125">Laskutettu tuotto</span><span class="sxs-lookup"><span data-stu-id="8ab5f-125">Invoiced revenue</span></span>
-        - <span data-ttu-id="8ab5f-126">Jaksotetun tuoton myyntiarvo</span><span class="sxs-lookup"><span data-stu-id="8ab5f-126">Accrued revenue-sales value</span></span>
-        - <span data-ttu-id="8ab5f-127">KET – myynnin arvo</span><span class="sxs-lookup"><span data-stu-id="8ab5f-127">WIP-sales value</span></span>
-        - <span data-ttu-id="8ab5f-128">Jaksotettu tuotto – tuotanto</span><span class="sxs-lookup"><span data-stu-id="8ab5f-128">Accrued revenue-production</span></span>
-        - <span data-ttu-id="8ab5f-129">KET – tuotanto</span><span class="sxs-lookup"><span data-stu-id="8ab5f-129">WIP-production</span></span>
-        - <span data-ttu-id="8ab5f-130">Jaksotettu tuotto – voitto</span><span class="sxs-lookup"><span data-stu-id="8ab5f-130">Accrued revenue-profit</span></span>
-        - <span data-ttu-id="8ab5f-131">KET – voitto</span><span class="sxs-lookup"><span data-stu-id="8ab5f-131">WIP-profit</span></span>
-        - <span data-ttu-id="8ab5f-132">Jaksotettu tuotto – tilaus</span><span class="sxs-lookup"><span data-stu-id="8ab5f-132">Accrued revenue-subscription</span></span>
-        - <span data-ttu-id="8ab5f-133">KET – tilaus</span><span class="sxs-lookup"><span data-stu-id="8ab5f-133">WIP-subscription</span></span>
+        - <span data-ttu-id="19e4e-125">Laskutettu tuotto</span><span class="sxs-lookup"><span data-stu-id="19e4e-125">Invoiced revenue</span></span>
+        - <span data-ttu-id="19e4e-126">Jaksotetun tuoton myyntiarvo</span><span class="sxs-lookup"><span data-stu-id="19e4e-126">Accrued revenue-sales value</span></span>
+        - <span data-ttu-id="19e4e-127">KET – myynnin arvo</span><span class="sxs-lookup"><span data-stu-id="19e4e-127">WIP-sales value</span></span>
+        - <span data-ttu-id="19e4e-128">Jaksotettu tuotto – tuotanto</span><span class="sxs-lookup"><span data-stu-id="19e4e-128">Accrued revenue-production</span></span>
+        - <span data-ttu-id="19e4e-129">KET – tuotanto</span><span class="sxs-lookup"><span data-stu-id="19e4e-129">WIP-production</span></span>
+        - <span data-ttu-id="19e4e-130">Jaksotettu tuotto – voitto</span><span class="sxs-lookup"><span data-stu-id="19e4e-130">Accrued revenue-profit</span></span>
+        - <span data-ttu-id="19e4e-131">KET – voitto</span><span class="sxs-lookup"><span data-stu-id="19e4e-131">WIP-profit</span></span>
+        - <span data-ttu-id="19e4e-132">Jaksotettu tuotto – tilaus</span><span class="sxs-lookup"><span data-stu-id="19e4e-132">Accrued revenue-subscription</span></span>
+        - <span data-ttu-id="19e4e-133">KET – tilaus</span><span class="sxs-lookup"><span data-stu-id="19e4e-133">WIP-subscription</span></span>
 
-- <span data-ttu-id="8ab5f-134">Mikä on kulutyyppi?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-134">What is the expense type?</span></span>
-- <span data-ttu-id="8ab5f-135">Mikä on kululuokan oletusmaksutapa?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-135">What is the default payment method for the expense category?</span></span>
-- <span data-ttu-id="8ab5f-136">Onko kululuokan kulut eriteltävä?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-136">Do expenses in the expense category have to be itemized?</span></span>
-- <span data-ttu-id="8ab5f-137">Mikä on kululuokan oletuspäätili?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-137">What is the main default account for the expense category?</span></span>
-- <span data-ttu-id="8ab5f-138">Mikä on kululuokan nimikkeen oletusarvonlisäveroryhmä?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-138">What is the default item sales tax group for the expense category?</span></span>
-- <span data-ttu-id="8ab5f-139">Sallitaanko kululuokalle muita maksutapoja?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-139">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="8ab5f-140">Jos sallitaan, mitä ne ovat?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-140">If so, what are they?</span></span>
-- <span data-ttu-id="8ab5f-141">Onko kululuokassa aliluokkia?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-141">Are there subcategories in this expense category?</span></span> <span data-ttu-id="8ab5f-142">Jos aliluokkia on, on tehtävä myös seuraavat päätökset:</span><span class="sxs-lookup"><span data-stu-id="8ab5f-142">If there are subcategories, you must also make the following decisions:</span></span>
+- <span data-ttu-id="19e4e-134">Mikä on kulutyyppi?</span><span class="sxs-lookup"><span data-stu-id="19e4e-134">What is the expense type?</span></span>
+- <span data-ttu-id="19e4e-135">Mikä on kululuokan oletusmaksutapa?</span><span class="sxs-lookup"><span data-stu-id="19e4e-135">What is the default payment method for the expense category?</span></span>
+- <span data-ttu-id="19e4e-136">Onko kululuokan kulut eriteltävä?</span><span class="sxs-lookup"><span data-stu-id="19e4e-136">Do expenses in the expense category have to be itemized?</span></span>
+- <span data-ttu-id="19e4e-137">Mikä on kululuokan oletuspäätili?</span><span class="sxs-lookup"><span data-stu-id="19e4e-137">What is the main default account for the expense category?</span></span>
+- <span data-ttu-id="19e4e-138">Mikä on kululuokan nimikkeen oletusarvonlisäveroryhmä?</span><span class="sxs-lookup"><span data-stu-id="19e4e-138">What is the default item sales tax group for the expense category?</span></span>
+- <span data-ttu-id="19e4e-139">Sallitaanko kululuokalle muita maksutapoja?</span><span class="sxs-lookup"><span data-stu-id="19e4e-139">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="19e4e-140">Jos sallitaan, mitä ne ovat?</span><span class="sxs-lookup"><span data-stu-id="19e4e-140">If so, what are they?</span></span>
+- <span data-ttu-id="19e4e-141">Onko kululuokassa aliluokkia?</span><span class="sxs-lookup"><span data-stu-id="19e4e-141">Are there subcategories in this expense category?</span></span> <span data-ttu-id="19e4e-142">Jos aliluokkia on, on tehtävä myös seuraavat päätökset:</span><span class="sxs-lookup"><span data-stu-id="19e4e-142">If there are subcategories, you must also make the following decisions:</span></span>
 
-    - <span data-ttu-id="8ab5f-143">Jätetäänkö jotkin aliluokat pois veronpalautuksesta?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-143">Are any of the subcategories excluded from tax recovery?</span></span>
-    - <span data-ttu-id="8ab5f-144">Mikä on aliluokkien nimikkeen arvonlisäveroryhmä?</span><span class="sxs-lookup"><span data-stu-id="8ab5f-144">What is the item sales tax group of the subcategories?</span></span>
+    - <span data-ttu-id="19e4e-143">Jätetäänkö jotkin aliluokat pois veronpalautuksesta?</span><span class="sxs-lookup"><span data-stu-id="19e4e-143">Are any of the subcategories excluded from tax recovery?</span></span>
+    - <span data-ttu-id="19e4e-144">Mikä on aliluokkien nimikkeen arvonlisäveroryhmä?</span><span class="sxs-lookup"><span data-stu-id="19e4e-144">What is the item sales tax group of the subcategories?</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
