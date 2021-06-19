@@ -2,18 +2,16 @@
 title: Useiden asiakkaiden hallinta projektisopimuksissa
 description: Tässä aiheessa on tietoja useiden asiakkaiden hallinnasta projektisopimuksessa.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dda8bc58c00082a9ef3835ea293003c63013983f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85122a0bcf5b07196624abd26a536060a36b264e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277964"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011457"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Useiden asiakkaiden hallinta projektisopimuksissa
 
