@@ -2,19 +2,17 @@
 title: Hinnoitteludimensioiden yleiskatsaus
 description: Tässä aiheessa on tietoja hinnoitteludimensioista Dynamics 365 Project Operationsissa.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275399"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004977"
 ---
 # <a name="pricing-dimensions-overview"></a>Hinnoitteludimensioiden yleiskatsaus
 
@@ -61,16 +59,16 @@ Seuraavassa esimerkissä esitetään laskutushintoja, jotka määritetään rool
 
 | Rooli        | Organisaatioyksikkö    |Yksikkö      |Hinta      |Valuutta  |
 | ------------|-------------|----------|----------:|----------|
-| Kehittäjä   | Contoso US  |Hour | 200|USD     |
-| Kehittäjä   | Contoso India |Hour|   112|USD     |
+| Kehittäjä   | Contoso US  |tunti | 200|USD     |
+| Kehittäjä   | Contoso India |tunti|   112|USD     |
 
 
 **Esimerkkikustannushinnat**
 
 | Palkkaluokat     | Organisaatioyksikkö    |Yksikkö      |Hinta      |Valuutta  |
 | ----------------|-------------|----------|----------:|----------|
-| Oma company_Band1 | Contoso US  |Hour | 145|USD     |
-| Oma company_Band2 | Contoso India |Hour|   67|USD     |
+| Oma company_Band1 | Contoso US  |tunti | 145|USD     |
+| Oma company_Band2 | Contoso India |tunti|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
