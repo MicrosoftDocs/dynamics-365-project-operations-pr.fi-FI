@@ -2,8 +2,6 @@
 title: Organisaatioyksiköt
 description: Tässä aiheessa on tietoja Dynamics 365 Project Service Automationin organisaatioyksiköistä.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291660"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009612"
 ---
 # <a name="organizational-units"></a>Organisaatioyksiköt 
 
@@ -124,7 +122,7 @@ Ei. PSA:n nykyisessä versiossa organisaatioyksiköt eivät ole hierarkkisia. T�
 Kun sinulla on monimutkainen kustannuspaikkojen, osastojen, laskutuspaikkojen jne. hierarkia, määritä kyseisen hierarkian lehtisolmut erillisiksi organisaatioyksiköiksi.
 Seuraavassa esimerkissä esitetään tyypillinen hierarkia:
 
-**Contoso India**
+**ContosoIntia**
 
   - SAP-käytäntö 
 

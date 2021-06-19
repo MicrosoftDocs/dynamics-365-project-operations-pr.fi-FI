@@ -2,8 +2,6 @@
 title: Laskutusjonon tarkasteleminen projekteissa ja projektisopimuksissa
 description: Tässä aiheessa on tietoja ajan, kulujen ja tuotteiden jonojen tarkastelusta sekä siitä, miten ne voidaan merkitä laskutusvalmiiksi.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdeeb100614cda78d0ba536310bb6b411c863b71
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282779"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008532"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Laskutusjonon tarkasteleminen projekteissa ja projektisopimuksissa
 

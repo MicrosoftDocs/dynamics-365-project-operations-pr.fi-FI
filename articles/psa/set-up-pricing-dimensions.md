@@ -2,12 +2,10 @@
 title: Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi
 description: Tässä aiheessa on tietoja mukautettujen hinnoitteludimensioiden määrittämisestä.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282464"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008307"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi 
 
@@ -78,7 +76,7 @@ Hinnoitteludimensioita on kahta tyyppiä:
 |             | Contoso US   |Paikallinen             |                    |Ylityö                 |20     |
 
 
-Jos resurssi Contoso Indialta, jonka perushinta on 100 US-dollaria työskentelee asiakkaan tiloissa, ja hän merkitsee 8 tuntia tavallista työaikaa ja 2 tuntia ylityötä aikamerkintäänsä, Project Servicen hinnoittelumoottori käyttää perushintaa 100 kahdelsalle tunnille ja tallentaa 800 USD. Kahdelle ylityötunnille käytetään 15 % hinnankorotusta, joka lasketaan perushinnalle 100, jotta saadaan yksikköhinta 115 US-dollaria, ja kokonaiskustannukseksi tallennetaan 230 US-dollaria.
+Jos Contoso India resurssi, jonka perushinta on 100 dollaria, työskentelee asiakkaan tiloissa ja merkitsee 8 tuntia tavallista työaikaa ja 2 tuntia ylityötä aikamerkintäänsä, Project Servicen hinnoittelumoduuli käyttää 100 dollarin perushintaa 8 tunnille ja tallentaa arvoksi 800 USD. Kahdelle ylityötunnille käytetään 15 % hinnankorotusta, joka lasketaan perushinnalle 100, jotta saadaan yksikköhinta 115 US-dollaria, ja kokonaiskustannukseksi tallennetaan 230 US-dollaria.
 
 ### <a name="applicable-to-cost"></a>Sovelletaan kustannuksiin 
 Jos tämän arvo on **Kyllä**, se osoittaa, että dimension arvoa syötekontekstista tulisi käyttää yhdistämään **Roolihinta** ja **Roolihinnan korotus**, kun haetaan kustannuksia ja hinnankorotusten arvoja.
