@@ -2,8 +2,6 @@
 title: Määritä laskutustiheydet
 description: Laskutustiheyden määrittäminen Project Servicessä
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,39 +16,39 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 21baa270c307aaee584d6ea1c6d133a48dcbe485
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9c1b6de7ff15a0902db90cfa80aff87141c65637
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282509"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008352"
 ---
-# <a name="set-up-invoice-frequencies-project-service"></a><span data-ttu-id="f8d5e-103">Määritä laskun taajuudet (Project Service)</span><span class="sxs-lookup"><span data-stu-id="f8d5e-103">Set up invoice frequencies (Project Service)</span></span>
+# <a name="set-up-invoice-frequencies-project-service"></a><span data-ttu-id="1e645-103">Määritä laskun taajuudet (Project Service)</span><span class="sxs-lookup"><span data-stu-id="1e645-103">Set up invoice frequencies (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] <span data-ttu-id="f8d5e-104">-sovelluksen laskutustiheys määrittää, kuinka usein asiakkaita laskutetaan ja minä määrittämäsi ajanjakson päivänä.</span><span class="sxs-lookup"><span data-stu-id="f8d5e-104">invoice frequencies determine how often you bill your clients, and on which day of the time period you specify.</span></span> <span data-ttu-id="f8d5e-105">Määritä laskutusvälin taajuus kullekin ajanjaksolle jota aiot käyttää asiakkaiden laskuttamiseen, kuten laskutukseen kuukausittain, joka toinen viikko, tai viikoittain.</span><span class="sxs-lookup"><span data-stu-id="f8d5e-105">Set up an invoice frequency for each time period you plan to use for billing your clients, such as monthly, biweekly, or weekly.</span></span>  
+[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] <span data-ttu-id="1e645-104">-sovelluksen laskutustiheys määrittää, kuinka usein asiakkaita laskutetaan ja minä määrittämäsi ajanjakson päivänä.</span><span class="sxs-lookup"><span data-stu-id="1e645-104">invoice frequencies determine how often you bill your clients, and on which day of the time period you specify.</span></span> <span data-ttu-id="1e645-105">Määritä laskutusvälin taajuus kullekin ajanjaksolle jota aiot käyttää asiakkaiden laskuttamiseen, kuten laskutukseen kuukausittain, joka toinen viikko, tai viikoittain.</span><span class="sxs-lookup"><span data-stu-id="1e645-105">Set up an invoice frequency for each time period you plan to use for billing your clients, such as monthly, biweekly, or weekly.</span></span>  
   
-1.  <span data-ttu-id="f8d5e-106">Siirry kohtaan **Project Service > Laskutustaajuus**.</span><span class="sxs-lookup"><span data-stu-id="f8d5e-106">Go to **Project Service > Invoice Frequencies**.</span></span>  
+1.  <span data-ttu-id="1e645-106">Siirry kohtaan **Project Service > Laskutustaajuus**.</span><span class="sxs-lookup"><span data-stu-id="1e645-106">Go to **Project Service > Invoice Frequencies**.</span></span>  
   
-2.  <span data-ttu-id="f8d5e-107">Valitse **Uusi**.</span><span class="sxs-lookup"><span data-stu-id="f8d5e-107">Click **New**.</span></span>  
+2.  <span data-ttu-id="1e645-107">Valitse **Uusi**.</span><span class="sxs-lookup"><span data-stu-id="1e645-107">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="f8d5e-108">Anna laskutusvälin nimi **Yleiset**-alueen kohtaan **Nimi**.</span><span class="sxs-lookup"><span data-stu-id="f8d5e-108">In the **General** area, enter a name for the invoice frequency in **Name**.</span></span>  
+3.  <span data-ttu-id="1e645-108">Anna laskutusvälin nimi **Yleiset**-alueen kohtaan **Nimi**.</span><span class="sxs-lookup"><span data-stu-id="1e645-108">In the **General** area, enter a name for the invoice frequency in **Name**.</span></span>  
   
-4.  <span data-ttu-id="f8d5e-109">**Jakso**-kohdassa valitse **kuukausittain**, **kahden viikon välein** tai **viikon välein**.</span><span class="sxs-lookup"><span data-stu-id="f8d5e-109">In **Period**, select **Monthly**, **Biweekly**, or **Weekly**.</span></span>  
+4.  <span data-ttu-id="1e645-109">**Jakso**-kohdassa valitse **kuukausittain**, **kahden viikon välein** tai **viikon välein**.</span><span class="sxs-lookup"><span data-stu-id="1e645-109">In **Period**, select **Monthly**, **Biweekly**, or **Weekly**.</span></span>  
   
-5.  <span data-ttu-id="f8d5e-110">Jos määritit laskutusväliksi kuukausittain tai kahden viikon välein, **Suorituspäivät** kohdassa valitse **Kauden päivä** laskuttaaksesi aikajakson määritettynä päivänä (viikonpäivänä tai viikonloppuna) tai valitse **Kauden viikonpäivä** laskuttaaksesi aikajakson määritettynä viikonpäivänä.</span><span class="sxs-lookup"><span data-stu-id="f8d5e-110">If you specified a period of monthly or biweekly, in **Days of run**, select **Day of period** to invoice on the specified day of the period (whether weekday or weekend), or select **Weekday of period** to invoice on the specified weekday of the period.</span></span>  
+5.  <span data-ttu-id="1e645-110">Jos määritit laskutusväliksi kuukausittain tai kahden viikon välein, **Suorituspäivät** kohdassa valitse **Kauden päivä** laskuttaaksesi aikajakson määritettynä päivänä (viikonpäivänä tai viikonloppuna) tai valitse **Kauden viikonpäivä** laskuttaaksesi aikajakson määritettynä viikonpäivänä.</span><span class="sxs-lookup"><span data-stu-id="1e645-110">If you specified a period of monthly or biweekly, in **Days of run**, select **Day of period** to invoice on the specified day of the period (whether weekday or weekend), or select **Weekday of period** to invoice on the specified weekday of the period.</span></span>  
   
-6.  <span data-ttu-id="f8d5e-111">Jos olet määrittänyt tietyn ajanjakson kuukausittain, kohdassa **Suorituksia kuukaudessa** valitse, kuinka monta kertaa haluat suorittaa laskun kuukaudessa.</span><span class="sxs-lookup"><span data-stu-id="f8d5e-111">If you specified a period of monthly, in **Runs per month**, select the number of times per month you want to run the invoice.</span></span>  
+6.  <span data-ttu-id="1e645-111">Jos olet määrittänyt tietyn ajanjakson kuukausittain, kohdassa **Suorituksia kuukaudessa** valitse, kuinka monta kertaa haluat suorittaa laskun kuukaudessa.</span><span class="sxs-lookup"><span data-stu-id="1e645-111">If you specified a period of monthly, in **Runs per month**, select the number of times per month you want to run the invoice.</span></span>  
   
-7.  <span data-ttu-id="f8d5e-112">Muuta **Laskutustiheyden tiedot** -alueella tarvittaessa päivä- tai viikonpäivätietoja, jotta varmistetaan lasku tuotetaan määritetyn kauden oikeana päivänä tai viikonpäivänä.</span><span class="sxs-lookup"><span data-stu-id="f8d5e-112">In the **Invoice Frequency Details** area, change the day or weekday details as necessary to make sure the invoice runs on the correct day or weekday of the period you specified.</span></span>  
+7.  <span data-ttu-id="1e645-112">Muuta **Laskutustiheyden tiedot** -alueella tarvittaessa päivä- tai viikonpäivätietoja, jotta varmistetaan lasku tuotetaan määritetyn kauden oikeana päivänä tai viikonpäivänä.</span><span class="sxs-lookup"><span data-stu-id="1e645-112">In the **Invoice Frequency Details** area, change the day or weekday details as necessary to make sure the invoice runs on the correct day or weekday of the period you specified.</span></span>  
   
-8.  <span data-ttu-id="f8d5e-113">Valitse **Tallenna** näytön oikeassa alakulmassa, kun olet valmis.</span><span class="sxs-lookup"><span data-stu-id="f8d5e-113">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
+8.  <span data-ttu-id="1e645-113">Valitse **Tallenna** näytön oikeassa alakulmassa, kun olet valmis.</span><span class="sxs-lookup"><span data-stu-id="1e645-113">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="f8d5e-114">Katso myös</span><span class="sxs-lookup"><span data-stu-id="f8d5e-114">See Also</span></span>  
- [<span data-ttu-id="f8d5e-115">Määritä Project Service</span><span class="sxs-lookup"><span data-stu-id="f8d5e-115">Configure Project Service</span></span>](../psa/configure.md)
+### <a name="see-also"></a><span data-ttu-id="1e645-114">Katso myös</span><span class="sxs-lookup"><span data-stu-id="1e645-114">See Also</span></span>  
+ [<span data-ttu-id="1e645-115">Määritä Project Service</span><span class="sxs-lookup"><span data-stu-id="1e645-115">Configure Project Service</span></span>](../psa/configure.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
