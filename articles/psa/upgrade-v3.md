@@ -1,9 +1,7 @@
 ---
 title: Huomioitavaa päivityksistä – Microsoft Dynamics 365 Project Service Automationin versiosta 2.x tai 1.x versioon 3
 description: Tässä aiheessa on tietoja asioista, jotka on otettava huomioon päivitettäessä Project Service Automation -versiosta 2.x tai 1.x versioon 3.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281654"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014877"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Päivitykseen liittyviä huomioita - PSA:n versio 2.x tai 1.x versioon 3
 
@@ -83,11 +81,11 @@ Ennen kuin aloitat päivityksen, suosittelemme, että luot ryhmän uudelleen kul
 
 Tehtäville, jotka on kohdennettu yleisille ryhmän jäsenille, jotka luotiin **Luo ryhmä** -toiminnolla, päivitys jättää yleiset resurssit ryhmään ja jättää kohdennuksen kyseiselle ryhmän jäsenelle. Suosittelemme, että luot yleiselle ryhmän jäsenelle resurssivaatimuksen päivityksen jälkeen, mutta ennen kuin varaat tai lähetät resurssipyynnön. Tämä säilyttää kaikki sellaiset organisaation yleisten ryhmän jäsenten organisaatioyksikön määritykset, jotka eroavat projektinsopimusorganisaation organisaatioyksiköstä.
 
-Esimerkiksi Projekti Z -projektissa sopimusorganisaatioyksikkö on Contoso US. Projektisuunnitelmassa toteutusvaiheeseen kuuluvat testaustehtävät on kohdennettu roolille tekninen konsultti, ja kohdennettu organisaatioyksikkö on Contoso India.
+Esimerkiksi Projekti Z -projektissa sopimusorganisaatioyksikkö on Contoso US. Projektisuunnitelmassa toteutusvaiheeseen kuuluvat testaustehtävät on kohdennettu Tekninen konsultti -roolille, ja kohdennettu organisaatioyksikkö on Contoso India.
 
 ![Toteutusvaiheen organisaatiomääritys](media/org-unit-assignment-09.png)
 
-Toteutusvaiheen jälkeen integrointitestaustehtävä kohdennetaan roolille tekninen konsultti, mutta organisaatioksi määritellään Contoso US.  
+Toteutusvaiheen jälkeen integrointitestaustehtävä kohdennetaan Tekninen konsultti -roolille, mutta organisaatioksi määritellään Contoso US.  
 
 ![Integrointitestaustehtävän organisaatiomääritys](media/org-unit-generate-team-10.png)
 
@@ -106,7 +104,7 @@ Voit tarkastella organisaatioyksikköä arviot-näkymässä.
  
 Kun päivitys on valmis, se rivitehtävän organisaatioyksikkö, joka vastaa yleistä ryhmän jäsentä, lisätään yleiseen ryhmän jäseneen, ja rivitehtävä poistetaan. Tämän vuoksi on suositeltavaa, että ennen päivittämistä luot tai luot ryhmän uudelleen jokaiselle projektille, joka sisältää yleisiä resursseja.
 
-Jos tehtävä on kohdennettu roolille, jonka organisaatioyksikkö on eri kuin sopimusprojektin organisaatioyksikkö, eikä ryhmää ole luotu, päivitys luo roolille yleisen ryhmän jäsenen, mutta käyttää projektin sopimusyksikköä ryhmän jäsenen organisaatioyksikkönä. Viitaten esimerkkiin Project Z, sopimusorganisaatioyksikkö Contoso US ja toteutusvaiheen projektisuunnitelman testitehtävät on kohdennettu roolille tekninen konsultti organisaatioyksiköllä Contoso India. Integrointitestaustehtävä, joka suoritetaan toteutusvaiheen jälkeen, on kohdennettu roolille tekninen konsultti. Organisaatioyksikkö on Contoso US, eikä ryhmää ole luotu. Päivitys luo yhden yleisen ryhmän jäsenen, teknisen konsultin, jolle on määritetty tunnit kaikista kolmesta tehtävästä, sekä Contoso US -organisaatioyksikön, projektin sopimusorganisaatioyksikön.   
+Jos tehtävä on kohdennettu roolille, jonka organisaatioyksikkö on eri kuin sopimusprojektin organisaatioyksikkö, eikä ryhmää ole luotu, päivitys luo roolille yleisen ryhmän jäsenen, mutta käyttää projektin sopimusyksikköä ryhmän jäsenen organisaatioyksikkönä. Viitaten Project Z -esimerkkiin, sopimusorganisaatioyksikkö Contoso US ja toteutusvaiheen projektisuunnitelman testitehtävät on kohdennettu Tekninen konsultti -roolille organisaatioyksiköllä Contoso India. Integrointitestaustehtävä, joka suoritetaan toteutusvaiheen jälkeen, on kohdennettu roolille tekninen konsultti. Organisaatioyksikkö on Contoso US eikä ryhmää ole luotu. Päivitys luo yhden yleisen ryhmän jäsenen, eli teknisen konsultin, jolle on määritetty tunnit kaikista kolmesta tehtävästä, sekä Contoso US -organisaatioyksikön, eli projektin sopimusorganisaatioyksikön.   
  
 Oletusarvon muuttaminen eri resurssoiville organisaatioyksiköille luomattomille ryhmän jäsenille on se syy, miksi suosittelemme, että luot tai luot uudelleen ryhmän jokaiselle projektille, joka sisältää yleisiä resursseja ennen kuin päivität, jotta organisaatioyksikköjen kohdennuksia ei menetetä.
 

@@ -2,8 +2,6 @@
 title: Monivaluuttaskenaariot (versio 3.x)
 description: Tämä aihe sisältää tietoja monivaluuttaskenaarioista.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291705"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014787"
 ---
 # <a name="multiple-currency-scenarios"></a>Monivaluuttaskenaariot
 
@@ -72,8 +70,8 @@ Tässä osassa annetaan esimerkki projektista, jonka Contoso UK toimittaa japani
 
 1. GBP ja Japanin jeni (JPY) määritetään kohdassa **Asetukset** \> **Yrityksen hallinta** \> **Valuutat**. 
 2. Asiakastili nimeltään **Fabrikam – Japani** määritetään ja tilin valuutaksi valitaan JPY.
-3. **Contoso UK** - niminen organisaatioyksikkö määritetään, ja GBP valitaan sen valuutaksi.
-4. Luodaan projektisopimus, jossa **Contoso UK** määritetään sopimusyksiköksi **Fabrikam – Japani** asiakkaaksi.
+3. **Contoso UK** -niminen organisaatioyksikkö määritetään ja GBP valitaan sen valuutaksi.
+4. Luodaan projektisopimus, jossa **Contoso UK** määritetään sopimusyksiköksi ja **Fabrikam – Japan** asiakkaaksi.
 5. Projektin eri tapahtumaluokkien laskutusjärjestelyjen, kuten ajasta laskuttamisen ja kuluista laskuttamisen, perusteella luodaan projektisopimuksen rivejä.
 6. Luodaan projekti, jossa **Contoso UK** määritetään sopimusyksiköksi. Tämä projekti luodaan ja yhdistetään projektin sopimusriveihin.
 
