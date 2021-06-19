@@ -2,18 +2,16 @@
 title: Yritysten välisen laskutuksen yleiskatsaus
 description: Tässä aiheessa on tietoja ja esimerkkejä yritysten välisistä laskuista projekteissa.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287324"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002637"
 ---
 # <a name="intercompany-invoicing-overview"></a>Yritysten välisen laskutuksen yleiskatsaus
 
@@ -21,7 +19,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 Organisaatiolla voi olla useita osastoja, tytäryhtiöitä ja muita juridisia kohteita, jotka siirtävät tuotteita ja palveluja toisiinsa projekteissa. Palvelua tai tuotetta tarjoava yritys on nimeltään *lainaa antava yritys*. Palvelun tai tuotteen vastaanottava yritys on nimeltään *lainaa ottava yritys*.
 
-Seuraavassa kuvassa on tyypillinen skenaario, jossa kaksi yritystä, Contoso Robotics USA (lainaa ottava yritys) ja Contoso Robotics UK (lainaa antava yritys) jakavat resursseja toimittaakseen projektin asiakkaalle nimeltä Adventure works. Tässä skenaariossa contoso Robotics USA on tehnyt sopimuksen työn toimittamisesta Adventure Worksille.
+Seuraavassa kuvassa on esitetty tyypillinen skenaario, jossa kaksi yritystä, Contoso Robotics USA (lainaa ottava yritys) ja Contoso Robotics UK (lainaa antava yritys) jakavat resursseja keskenään toimittaakseen projektin asiakkaalle, eli Adventure Worksille. Tässä skenaariossa Contoso Robotics USA on palkattu toimittamaan työ Adventure Worksille.
 
 ![Konsernin sisäinen laskutus](./media/IntercompanyScenario.png) 
 

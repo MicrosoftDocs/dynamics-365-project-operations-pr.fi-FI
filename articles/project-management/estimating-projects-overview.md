@@ -2,18 +2,16 @@
 title: Taloudellista arviointia koskevat käsitteet
 description: Tässä aiheessa on tietoja projektien taloudellisista arvioista Project Operationsissa.
 author: rumant
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: 488b61ee1e81aac47fa92fff141f17b023e4f1c0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701732"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002592"
 ---
 # <a name="financial-estimation-concepts"></a>Taloudellista arviointia koskevat käsitteet
 

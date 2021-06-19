@@ -2,18 +2,16 @@
 title: suojausmalli
 description: Tässä aiheessa on tietoja suojausmallista Dynamics 365 Project Operationsissa.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951205"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002233"
 ---
 # <a name="security-model"></a>Suojausmalli
 

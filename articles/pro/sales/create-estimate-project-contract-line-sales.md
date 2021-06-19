@@ -2,18 +2,16 @@
 title: Projektipohjaisen sopimusrivin arviointi – lite
 description: Tässä aiheessa on tietoja projektipohjaisen sopimusrivin arvioinnista.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf7941a627375604dca778ab293756bed2536049
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: e745bb5cb8e620e54f236aabdc006414c21290d3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858073"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003381"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Projektipohjaisen sopimusrivin arviointi – lite
 
