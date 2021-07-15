@@ -1,0 +1,42 @@
+---
+title: Projektilaskuehdotusten luonnoksen kirjanpidon oikaisu
+description: Tässä aiheessa selostetaan, miten laskuluonnokseen liittyviä kirjanpitoon liittyviä tietoja oikaistaan.
+author: sigitac
+ms.date: 06/07/2021
+ms.topic: article
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 387dc9a81db9c22f170b664152cbafeddf72d149
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6251204"
+---
+# <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a><span data-ttu-id="8e608-103">Projektilaskuehdotusten luonnoksen kirjanpidon oikaisu</span><span class="sxs-lookup"><span data-stu-id="8e608-103">Correct the accounting on draft project invoice proposals</span></span>
+
+<span data-ttu-id="8e608-104">_**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_</span><span class="sxs-lookup"><span data-stu-id="8e608-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="8e608-105">Projektipäällikkö ylläpitää projektilaskujen *Toiminnallisia tietoja* proformalaskussa.</span><span class="sxs-lookup"><span data-stu-id="8e608-105">*Operational details* for project invoices are maintained by the project manager on a pro forma invoice.</span></span> <span data-ttu-id="8e608-106">Näitä tietoja ovat esimerkiksi tunteja, kuluja, materiaaleja tai välitavoitteita koskeva päätös, joka on laskutettava, hinnat sekä ennakkomaksujen ja maksuennakoiden käyttö.</span><span class="sxs-lookup"><span data-stu-id="8e608-106">These details include the decision about the hours, expenses, materials, or milestones that must be invoiced, the rates, and the application of advance and retainer amounts.</span></span> <span data-ttu-id="8e608-107">Kun olet vahvistanut alkuperäisen proformalaskun, voit oikaista toimintatietoja luomalla ja vahvistamalla [korjaavan proformalaskun](../proforma-invoicing/corrective-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="8e608-107">After you confirm the original pro forma invoice, you can adjust the operational details by creating and confirming a [corrective pro forma invoice](../proforma-invoicing/corrective-invoices.md).</span></span>
+
+<span data-ttu-id="8e608-108">Projektilaskujen *kirjanpitotietoja* ylläpidetään asiakaspuolen laskuasiakirjassa.</span><span class="sxs-lookup"><span data-stu-id="8e608-108">*Accounting details* for project invoices are maintained in a customer-facing invoice document.</span></span> <span data-ttu-id="8e608-109">Näitä tietoja ovat arvonlisäveron laskenta ja laskuun liittyvät taloushallinnon dimensiot.</span><span class="sxs-lookup"><span data-stu-id="8e608-109">These details include the sales tax calculation and the financial dimensions that are applied to the invoice.</span></span> <span data-ttu-id="8e608-110">Tässä aiheessa on tietoja siitä, miten näitä kirjanpitotietoja voi muuttaa projektilaskuluonnoksen perusteella.</span><span class="sxs-lookup"><span data-stu-id="8e608-110">This topic provides details about how these accounting details can be adjusted on a draft project invoice proposal.</span></span>
+
+## <a name="adjust-sales-tax"></a><span data-ttu-id="8e608-111">Arvonlisäveron korjaus</span><span class="sxs-lookup"><span data-stu-id="8e608-111">Adjust sales tax</span></span>
+
+<span data-ttu-id="8e608-112">Laskutuksen oletusarvonlisäveroryhmiä ja nimikkeen arvonlisäveroryhmiä voi muuttaa suoraan laskuehdotusasiakirjassa.</span><span class="sxs-lookup"><span data-stu-id="8e608-112">Default billing sales tax groups and item sales tax groups can be adjusted directly on the invoice proposal document.</span></span> <span data-ttu-id="8e608-113">Jos haluat muuttaa näitä ryhmiä, valitse **Muokkaa** ja kirjoita sitten kullakin projektilaskun ehdotusrivillä uusi arvo **Arvonlisäveroryhmä**- tai **Nimikkeen arvonlisäveroryhmä** -kenttään.</span><span class="sxs-lookup"><span data-stu-id="8e608-113">To adjust these groups, select **Edit**, and then, on each project invoice proposal line, enter a new value in the **Sales tax group** or **Item sales tax group** field.</span></span>
+
+## <a name="adjust-financial-dimensions"></a><span data-ttu-id="8e608-114">Taloushallinnon dimensioiden oikaisu</span><span class="sxs-lookup"><span data-stu-id="8e608-114">Adjust financial dimensions</span></span>
+
+<span data-ttu-id="8e608-115">Taloushallinnon dimensioita ei voi muokata suoraan projektilaskun ehdotusrivillä.</span><span class="sxs-lookup"><span data-stu-id="8e608-115">Financial dimensions can't be edited directly on a project invoice proposal line.</span></span> <span data-ttu-id="8e608-116">Seuraa sen sijaan näitä vaiheita oikaistaksesi taloushallinnon dimensioita projektilaskuehdotuksessa.</span><span class="sxs-lookup"><span data-stu-id="8e608-116">Instead, follow these steps to adjust financial dimensions on a project invoice proposal.</span></span>
+
+1. <span data-ttu-id="8e608-117">Valitse projektilaskuehdotuksessa **Poista kaikki**, jos haluat poistaa projektilaskun ehdotusrivit.</span><span class="sxs-lookup"><span data-stu-id="8e608-117">On the project invoice proposal, select **Delete all** to remove the project invoice proposal lines.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="8e608-118">**Poista kaikki** -painike on käytettävissä vasta, kun Järjestelmänvalvoja ottaa **Poista laskuehdotusrivit käyttöön käytettäessä Project Operations -toimintoa resurssipohjaisiin tai ei-varastoituihin skenaarioihin** -ominaisuuden **Ominaisuuksien hallinnan** työtilassa.</span><span class="sxs-lookup"><span data-stu-id="8e608-118">The **Delete all** button is available only after the system administrator enables the **Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios** feature in the **Feature management** workspace.</span></span>
+
+2. <span data-ttu-id="8e608-119">Taloushallinnon dimensioiden oikaisu:</span><span class="sxs-lookup"><span data-stu-id="8e608-119">Adjust the financial dimensions:</span></span>
+
+    - <span data-ttu-id="8e608-120">**Tilitapahtumat (laskutuksen välitavoitteet):** Siirry kohtaan  **Kaikki projektit** \> **Hallitse** \> **Tilitapahtumat** ja valitse välitavoite, jota on oikaistava.</span><span class="sxs-lookup"><span data-stu-id="8e608-120">**On-account transactions (billing milestones):** Go to **All projects** \> **Manage** \> **On-account transactions**, and select the milestone that requires adjustment.</span></span> <span data-ttu-id="8e608-121">Päivitä sitten arvot tarpeen mukaan **Taloushallinnon dimensiot**-välilehdessä.</span><span class="sxs-lookup"><span data-stu-id="8e608-121">Then, on the **Financial dimensions** tab, update the values as required.</span></span>
+    - <span data-ttu-id="8e608-122">**Aika-, kulu- ja materiaalitapahtumat:** Päivitä taloushallinnon dimensiot valitsemalla **Kirjatut projektitapahtumat** -sivulla **Oikaise kirjanpitoa**.</span><span class="sxs-lookup"><span data-stu-id="8e608-122">**Time, expense, and material transactions:** On the **Posted project transactions** page, select **Adjust accounting** to update the financial dimensions.</span></span>
+
+3. <span data-ttu-id="8e608-123">Kun olet oikaissut taloushallinnon dimension arvot, siirry kohtaan **Projektinhallinta ja kirjanpito** \> **Jaksoittainen** \> **Project Operations -integraatio** ja valitse **Tuo muuntotaulukosta** jaksoittaisen prosessin suorittamiseksi.</span><span class="sxs-lookup"><span data-stu-id="8e608-123">After you've finished adjusting the financial dimension values, go to **Project management and accounting** \> **Periodic** \> **Project Operations integration**, and select **Import from staging table** to run the periodic process.</span></span> <span data-ttu-id="8e608-124">Prosessi luo projektin laskun ehdotusrivit uudelleen päivitetyillä taloushallinnon dimension arvoilla.</span><span class="sxs-lookup"><span data-stu-id="8e608-124">That process uses the updated financial dimension values to re-create the project invoice proposal lines.</span></span> <span data-ttu-id="8e608-125">Päivitettyjä arvoja käytetään sitten projektin ali- ja pääkirjanpidossa, kun projektilasku kirjataan.</span><span class="sxs-lookup"><span data-stu-id="8e608-125">The updated values are then used in the project subledger and general ledger when the project invoice is posted.</span></span>
