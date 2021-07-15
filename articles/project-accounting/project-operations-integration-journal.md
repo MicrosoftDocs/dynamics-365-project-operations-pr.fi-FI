@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007137"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304252"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operationsin integroinnin kirjauskansio
 
@@ -26,7 +26,7 @@ Aika- ja kulumerkinnät luovat **todellisia** tapahtumia, ja nämä tapahtumat o
 Project Operationsin integroinnin kirjauskansion tietueet luodaan kausittaisella **Tuo valmistelutaulukosta** -prosessilla. Tämä prosessi suoritetaan valitsemalla **Dynamics 365 Finance** > **Projektinhallinta ja kirjanpito** > **Kausittainen** > **Project Operationsin Integrointi** > **Tuo valmistelutaulukosta**. Prosessin voi suorittaa vuorovaikutteisesti tai sen voi määrittää suoritettavaksi taustalla tarpeen mukaan.
 
 Jaksottaisen prosessin suorittamisen aikana löydetään sellaiset todelliset arvot, joita ei ole vielä lisätty Project Operationsin integroinnin kirjauskansioon. Kullekin todelliselle tapahtumalla luodaan kirjauskansion rivi.
-Järjestelmä ryhmittelee kirjauskansion rivit erillisiin kirjauskansioihin **Project Operationsin integroinnin kirjauskansion kausiyksikkö** -kentässä valitun arvon perusteella (**Finance** > **Projektinhallinta ja kirjanpito** > **Määritys** > **Projektinhallinnan ja kirjanpidon parametrit**, **Project Operations Dynamics 365 Customer Engagementissa** -välilehti). Tämän kentän mahdollisia arvoja:
+Järjestelmä ryhmittelee kirjauskansion rivit erillisiin kirjauskansioihin **Project Operationsin integroinnin kirjauskansion kausiyksikkö** -kentässä valitun arvon perusteella (**Taloushallinto** > **Projektinhallinta ja kirjanpito** > **Määritys** > **Projektinhallinnan ja kirjanpidon parametrit**, **Project Operations Dynamics 365 Customer Engagementissa** -välilehti). Tämän kentän mahdollisia arvoja:
 
   - **Päivät**: Todelliset arvot ryhmitetään tapahtumapäivän mukaan. Kullekin päivälle luodaan oma kirjauskansio.
   - **Kuukaudet**: Todelliset arvot ryhmitetään kalenterikuukauden mukaan. Kullekin kuukaudelle luodaan oma kirjauskansio.

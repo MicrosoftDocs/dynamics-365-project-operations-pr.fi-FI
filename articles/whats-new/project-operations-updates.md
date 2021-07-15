@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d19148c868aa5be77db59e70fcf1fb8b7de6868c
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 951ce2f277c0c2c447ee5b2e7add4febbc8486d9
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213441"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433559"
 ---
 # <a name="project-operations-updates"></a>Project Operationsin päivitykset
 
@@ -28,17 +28,17 @@ Dynamics 365 Project Operations koostuu kahdesta komponentista:
 - Dynamics 365 Finance -ympäristön projektinhallinta ja kirjanpito sisältää kulujenhallintaominaisuuksia, projektin kirjanpidon ja tuloutuksen. Finance and Operations -sovellusympäristöä käytetään Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa ja Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa.
 
 ## <a name="project-operations-release-notes"></a>Project Operationsin julkaisutiedot
-- Project Operations viimeisimmät julkaisutiedot aiheesta [Resurssi/ei-varastoitava](whats-new-may-2021-resource-based.md) -skenaario.
-- Project Operations viimeisimmät julkaisutiedot aiheesta [Lite-käyttöönotto](../pro/whats-new/whats-new-may-2021-lite.md) -skenaario.
-- Project Operations viimeisimmät julkaisutiedot aiheesta [varastoitava/tuotanto](../prod-pma/whats-new/whats-new-apr-2021-stocked.md) -skenaario.
+- Project Operations viimeisimmät julkaisutiedot aiheesta [Resurssi/ei-varastoitava](whats-new-july-2021-resource-based.md) -skenaario.
+- Project Operations viimeisimmät julkaisutiedot aiheesta [Lite-käyttöönotto](../pro/whats-new/whats-new-july-2021-lite.md) -skenaario.
+- Project Operations viimeisimmät julkaisutiedot aiheesta [varastoitava/tuotanto](../prod-pma/whats-new/whats-new-jul-2021-stocked.md) -skenaario.
 
 ## <a name="project-operations-latest-version"></a>Project Operationsin uusin versio
 
 | Project Operations Dataverse-ympäristössä | Projektinhallinta ja kirjanpito Finance and Operations -sovellusten ympäristössä | 
 | --- | --- |
-| 4.10.0.186 | 10.0.18 |
+| 4.12.0.148 | 10.0.20 |
 
-Project Operationsin resurssi-/ei-varastoitussa skenaariossa on suositeltavaa käyttää Dual Write Orchestration 2.2.2.60 tai uudempaa versiota.
+Project Operationsin resurssi-/ei-varastoitussa skenaariossa on suositeltavaa käyttää Dual Write Orchestration 2.2.2.83 tai uudempaa versiota.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Dataverse-ympäristön Project Operationsin julkaisuaikataulu
 
@@ -47,23 +47,25 @@ Dataverse-ympäristön Project Operationsin päivitykset ovat saatavana kuukausi
 | Asema | Alue | Nykyinen versionumero | Lite-käyttöönoton automaattiset päivitykset | Resurssin/ei-varastoitavan käyttöönoton automaattiset päivitykset | Seuraava versionumero | Seuraava yleisesti saatavilla oleva versio |
 |-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
 | Asema 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ensimmäinen julkaisu         |  4.10.0.186     | Suorita loppuun     | Suorita loppuun            | TBD                 | 28. toukokuuta 2021           |
+|   &nbsp;  | Ensimmäinen julkaisu         |  4.12.0.148     | Suorita loppuun     | 9. heinäkuuta 2021          | TBD                 | 06. elokuuta 2021        |
 | Asema 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Etelä-Amerikka         |  4.10.0.186     | Suorita loppuun     | Suorita loppuun            | TBD                 | 28. toukokuuta 2021           |
-|    &nbsp; | Kanada                |  4.10.0.186     | Suorita loppuun     | Suorita loppuun            | TBD                 | 28. toukokuuta 2021           |
-|   &nbsp;  | Intia                 |  4.10.0.186     | Suorita loppuun     | Suorita loppuun            | TBD                 | 28. toukokuuta 2021           |
-|   &nbsp;  | Ranska                |  4.10.0.186     | Suorita loppuun     | Suorita loppuun            | TBD                 | 28. toukokuuta 2021           |
-|   &nbsp;  | Arabiemiirikunnat  |  4.10.0.186     | Suorita loppuun     | Suorita loppuun            | TBD                 | 28. toukokuuta 2021           |
-|   &nbsp;  | Etelä-Afrikka          |  4.10.0.186     | Suorita loppuun     | Suorita loppuun            | TBD                 | 28. toukokuuta 2021           |
+|   &nbsp;  | Etelä-Amerikka         |  4.12.0.148     | 9. heinäkuuta 2021   | 16. heinäkuuta 2021          | TBD                 | 06. elokuuta 2021        |
+|    &nbsp; | Kanada                |  4.12.0.148     | 9. heinäkuuta 2021   | 16. heinäkuuta 2021          | TBD                 | 06. elokuuta 2021        |
+|   &nbsp;  | Intia                 |  4.12.0.148     | 9. heinäkuuta 2021   | 16. heinäkuuta 2021          | TBD                 | 06. elokuuta 2021        |
+|   &nbsp;  | Ranska                |  4.12.0.148     | 9. heinäkuuta 2021   | 16. heinäkuuta 2021          | TBD                 | 06. elokuuta 2021        |
+|   &nbsp;  | Arabiemiirikunnat  |  4.12.0.148     | 9. heinäkuuta 2021   | 16. heinäkuuta 2021          | TBD                 | 06. elokuuta 2021        |
+|   &nbsp;  | Etelä-Afrikka          |  4.12.0.148     | 9. heinäkuuta 2021   | 16. heinäkuuta 2021          | TBD                 | 06. elokuuta 2021        |
 | Asema 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japani                 |  4.10.0.186     | Suorita loppuun     | Suorita loppuun            | TBD                 | 4. kesäkuuta 2021          |
-|   &nbsp;  | Tyynenmeren Aasia          |  4.10.0.186     | Suorita loppuun     | Suorita loppuun            | TBD                 | 4. kesäkuuta 2021          |
-|   &nbsp;  | Iso-Britannia         |  4.10.0.186     | Suorita loppuun     | Suorita loppuun            | TBD                 | 4. kesäkuuta 2021          |
-|   &nbsp;  | Oseania               |  4.10.0.186     | Suorita loppuun     | Suorita loppuun            | TBD                 | 4. kesäkuuta 2021          |
+|   &nbsp;  | Japani                 |  4.11.0.164     | Suorita loppuun     | Suorita loppuun            | 4.12.0.148          | 9. heinäkuuta 2021          |
+|   &nbsp;  | Tyynenmeren Aasia          |  4.11.0.164     | Suorita loppuun     | Suorita loppuun            | 4.12.0.148          | 9. heinäkuuta 2021          |
+|   &nbsp;  | Iso-Britannia         |  4.11.0.164     | Suorita loppuun     | Suorita loppuun            | 4.12.0.148          | 9. heinäkuuta 2021          |
+|   &nbsp;  | Oseania               |  4.11.0.164     | Suorita loppuun     | Suorita loppuun            | 4.12.0.148          | 9. heinäkuuta 2021          |
 | Asema 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eurooppa                |  4.10.0.186     | Suorita loppuun     | Suorita loppuun            | TBD                 | 11. kesäkuuta 2021          |
+|   &nbsp;  | Eurooppa                |  4.11.0.164     | Suorita loppuun     | Suorita loppuun            | 4.12.0.148          | 16. heinäkuuta 2021          |
 | Asema 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pohjois-Amerikka         |  4.10.0.186     | Suorita loppuun     | 11. kesäkuuta 2021          | TBD                 | 18. kesäkuuta 2021          |
+|   &nbsp;  | Pohjois-Amerikka         |  4.11.0.164     | Suorita loppuun     | 9. heinäkuuta 2021          | 4.12.0.148          | 23. heinäkuuta 2021          |
+
+
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Finance and Operations -sovellusympäristön projektinhallinnan ja kirjanpidon julkaisuaikataulu
 
@@ -71,16 +73,16 @@ Projektinhallinnan ja kirjanpidon päivitykset julkaistaan kahdeksan kertaa vuod
 
 |          Tuettu versio          | Esikatselun saatavuus (PEAP) | Yleisesti saatavana (oma päivitys) | Automaattisen päivityksen aikataulun (LCS-päivitysasetusten kautta) tuotannon aloituspäivä |   Palvelun päättymispäivä   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.19          |        23. huhtikuuta 2021       |            18. kesäkuuta 2021           |                             2. heinäkuuta 2021                             | 17. syyskuuta 2021 |
 |          10.0.18          |        5. maaliskuuta 2021        |           16. huhtikuuta 2021          |                            30. huhtikuuta 2021                            |    16. heinäkuuta 2021   |
-|          10.0.17          |       1. helmikuuta 2021      |           19. maaliskuuta 2021          |                             2. huhtikuuta 2021                            |    11. kesäkuuta 2021   |
+
 
 Tavoitejulkaisupäivämäärät voivat muuttua. Lisätietoja on kohdassa [Palvelupäivityksen saatavuus](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |          Kohdeversio          | Esikatselun saatavuus (PEAP) | Yleisesti saatavana (oma päivitys) | Automaattisen päivityksen aikataulun (LCS-päivitysasetusten kautta) tuotannon aloituspäivä |   Palvelun päättymispäivä   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.19          |        23. huhtikuuta 2021       |            18. kesäkuuta 2021           |                             2. heinäkuuta 2021                             | 17. syyskuuta 2021 |
 |          10.0.20          |         28. toukokuuta 2021        |           16. heinäkuuta 2021           |                             30. heinäkuuta 2021                             |  22. lokakuuta 2021  |
-
+|          10.0.21          |         02. elokuuta 2021     |           17. syyskuuta 2021      |                             1. lokakuuta 2021                           |  10. joulukuuta 2021  |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

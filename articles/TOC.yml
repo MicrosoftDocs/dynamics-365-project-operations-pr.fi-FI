@@ -26,8 +26,10 @@
           items:
             - name: Määritystietojen käyttäminen Common Data Servicessa
               href: environment/resource-apply-pro-setup-config-data.md
-        - name: Ympäristöjen käyttöönottaminen
+        - name: Ympäristöjen käyttöönotto
           items:
+            - name: Project Operations Dataverse -sovelluksen manuaalinen käyttöönotto kaksoiskirjoituksen tuella
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Uuden ympäristön valmisteleminen
               href: environment/resource-provision-new-environment.md
             - name: Suojausmalli
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Uudet ominaisuudet
       items:
+        - name: Heinäkuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Kesäkuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: Toukokuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: Huhtikuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
@@ -282,7 +288,7 @@
           items:
             - name: Projektimallien kehittäminen Kopioi projekti -toiminnolla
               href: project-management/dev-copy-project.md
-            - name: Aikataulun ohjelmointirajapintojen käyttö (julkinen esiversio)
+            - name: Projektiaikataulun ohjelmointirajapintojen käyttö (julkinen esiversio)
               href: project-management/schedule-api-preview.md
     - name: Resurssien hallinta
       items:
@@ -434,10 +440,8 @@
           href: procurement/pending-vendor-invoices.md
     - name: Laskutus
       items:
-        - name: Laskujen käsittely (yleiskatsaus)
+        - name: Laskujen käsittelyn yleiskatsaus
           href: invoicing/post-project-invoices.md
-        - name: Projektin laskuehdotusten hallinta
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proformalaskutus
           items:
             - name: Keskeneräisen projektipohjaisen laskutuksen hallinta
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Projektipohjaisen laskuautomaation määrittäminen
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Projektin laskuehdotusten hallinta
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Asiakaslaskutus
+          items:
+            - name: Projektin laskuehdotusten hallinta
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Projektilaskuehdotusten luonnosten asianmukainen kirjanpito
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Yritysten välinen laskutus
+          items:
+            - name: Yritysten välisen laskutuksen yleiskatsaus
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konsernin sisäisen laskutuksen määrittäminen
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Yritysten välisten tapahtumien luominen
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Yritysten välisten asiakas- ja toimittajalaskujen luominen
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Projektin kirjanpito
       items:
         - name: Taloushallinnon dimension oletusarvot
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operationsin integroinnin kirjauskansio
           href: project-accounting/project-operations-integration-journal.md
-        - name: Konsernin sisäinen laskutus
-          items:
-            - name: Konsernin sisäisen laskutuksen yleiskatsaus
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Konsernin sisäisen laskutuksen määrittäminen
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Konsernin sisäisten tapahtumien luominen
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Konsernin sisäisten asiakas- ja toimittajalaskujen luominen
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Tuoton tunnistus
       items:
         - name: Tuoton tunnistuksen yleiskatsaus
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Uudet ominaisuudet
       items:
+        - name: Heinäkuun 2021 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Kesäkuun 2021 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: Toukokuun 2021 Lite-käyttöönoton uudet ominaisuudet
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Huhtikuun 2021 Lite-käyttöönoton uudet ominaisuudet
@@ -762,7 +774,7 @@
           items:
             - name: Projektimallien kehittäminen Kopioi projekti -toiminnolla
               href: project-management/dev-copy-project.md
-            - name: Aikataulun ohjelmointirajapintojen käyttö (julkinen esiversio)
+            - name: Projektiaikataulun ohjelmointirajapintojen käyttö (julkinen esiversio)
               href: project-management/schedule-api-preview.md
     - name: Resurssien hallinta
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Uudet ominaisuudet
       items:
+        - name: Heinäkuun 2021 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Toukokuun 2021 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Huhtikuun 2021 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Maaliskuun 2021 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
@@ -896,7 +912,7 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Projektinhallinnan ja kirjanpidon yleiskatsaus
       href: prod-pma/overview-project-management-accounting.md
-    - name: Konsernin sisäinen laskutus
+    - name: Yritysten välinen laskutus
       href: prod-pma/intercompany-invoicing.md
     - name: Konsernin sisäisen projektilaskutuksen määrittäminen
       href: prod-pma/tasks/configure-intercompany-project-invoicing.md
@@ -1034,6 +1050,10 @@
       items:
         - name: Project Service 3.x -päivitysten julkaisuaikataulu
           href: psa/version-history-ps.md
+        - name: 'Päivitysversion 33, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-33.md
+        - name: 'Päivitysversion 32.5, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Päivitysversion 32, V3 uudet ominaisuudet ja muutokset'
           href: psa/whats-new-ur-32.md
         - name: 'Päivitysversion 31, V3 uudet ominaisuudet ja muutokset'

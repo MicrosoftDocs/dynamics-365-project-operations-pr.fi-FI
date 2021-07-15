@@ -1,19 +1,19 @@
 ---
-title: Aikataulutuksen ohjelmointirajapintojen avulla voit suorittaa toimintoja aikataulutusentiteettien kanssa
-description: Tässä aiheessa on tietoja ja esimerkkejä aikataulun ohjelmointirajapintojen käyttämisestä.
+title: Projektiaikataulun ohjelmointirajapintojen käyttö toimintojen suorittamiseen aikataulutusentiteeteillä
+description: Tässä aiheessa on tietoja ja esimerkkejä projektiaikataulun ohjelmointirajapintojen käyttämisestä.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116793"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293223"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Aikataulutuksen ohjelmointirajapintojen avulla voit suorittaa toimintoja aikataulutusentiteettien kanssa
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projektiaikataulun ohjelmointirajapintojen käyttö toimintojen suorittamiseen aikataulutusentiteeteillä
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
@@ -22,9 +22,9 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 ## <a name="scheduling-entities"></a>Aikataulutusentiteetit
 
-Aikatalujen ohjelmointirajapinnat antavat mahdollisuuden luoda, päivittää ja poistaa toimintoja **Eikataulutusentiteettien** avulla. Näitä entiteettejä hallitaan verkkopohjaisessa Projectissa aikataulutusytimen kautta. Luonti-, päivitys- ja poisto-operaatioita **Aikataulutusentiteettien avulla** rajoitettiin aiemmissa Dynamics 365 Project Operations -julkaisuissa.
+Projektiaikataulun ohjelmointirajapintojen avulla voi luoda, päivittää ja poistaa toimintoja **aikataulutusentiteettien** avulla. Näitä entiteettejä hallitaan verkkopohjaisessa Projectissa aikataulutusytimen kautta. Luonti-, päivitys- ja poisto-operaatioita **Aikataulutusentiteettien avulla** rajoitettiin aiemmissa Dynamics 365 Project Operations -julkaisuissa.
 
-Seuraavassa taulukossa on täydellinen luettelo **Aikataulutusentiteeteistä**.
+Seuraavassa taulukossa on täydellinen luettelo Projektiaikataulu -entiteeteistä.
 
 | Entiteetin nimi  | Entiteetin looginen nimi |
 | --- | --- |
@@ -39,19 +39,19 @@ Seuraavassa taulukossa on täydellinen luettelo **Aikataulutusentiteeteistä**.
 
 OperationSet on työyksikkörakenne, jota voidaan käyttää, kun useita aikatauluihin vaikuttavia pyyntöjä on käsiteltävä tapahtumassa.
 
-## <a name="schedule-apis"></a>Aikataulutuksen ohjelmointirajapinnat
+## <a name="project-schedule-apis"></a>Projektiaikataulujen ohjelmointirajapinnat
 
-Seuraavassa on luettelo nykyisistä aikataulun ohjelmointirajapinnoista.
+Seuraavassa on luettelo nykyisistä Projektiaikataulun ohjelmointirajapinnoista.
 
 - **msdyn_CreateProjectV1**: Tämän ohjelmointirajapinnan avulla voidaan luoda projekti. Projekti ja projektin oletussäilö luodaan heti.
 - **msdyn_CreateTeamMemberV1**: Tämän ohjelmointirajapinnan avulla voidaan luoda projektiryhmän jäsen. Ryhmän jäsentietue luodaan heti.
 - **msdyn_CreateOperationSetV1**: Tämän ohjelmointirajapinnan avulla voidaan aikatauluttaa useita pyyntöjä, jotka on suoritettava tapahtumassa.
-- **msdyn_PSSCreateV1**: Tämän ohjelmointirajapinnan avulla voidaan luoda entiteetti. Entiteetti voi olla mikä tahansa luontitoimintoa tukeva aikataulutusentiteetti.
-- **msdyn_PSSUpdateV1**: Tämän ohjelmointirajapinnan avulla voidaan päivittää entiteetti. Entiteetti voi olla mikä tahansa päivitystoimintoa tukeva aikataulutusentiteetti.
-- **msdyn_PSSDeleteV1**: Tämän ohjelmointirajapinnan avulla voidaan poistaa entiteetti. Entiteetti voi olla mikä tahansa poistotoimintoa tukeva aikataulutusentiteetti.
+- **msdyn_PSSCreateV1**: Tämän ohjelmointirajapinnan avulla voidaan luoda entiteetti. Entiteetti voi olla mikä tahansa luontitoimintoa tukeva projektin aikataulutusentiteetti.
+- **msdyn_PSSUpdateV1**: Tämän ohjelmointirajapinnan avulla voidaan päivittää entiteetti. Entiteetti voi olla mikä tahansa päivitystoimintoa tukeva projektin aikataulutusentiteetti.
+- **msdyn_PSSDeleteV1**: Tämän ohjelmointirajapinnan avulla voidaan poistaa entiteetti. Entiteetti voi olla mikä tahansa poistotoimintoa tukeva projektin aikataulutusentiteetti.
 - **msdyn_ExecuteOperationSetV1**: Tämän ohjelmointirajapinnan avulla suoritetaan kaikki toiminnot tietyn toimintojoukon sisällä.
 
-## <a name="using-schedule-apis-with-operationset"></a>Aikataulutuksen ohjelmointirajapintojen käyttäminen OperationSetin kanssa
+## <a name="using-project-schedule-apis-with-operationset"></a>Projektiaikataulun ohjelmointirajapintojen käyttäminen OperationSetin kanssa
 
 Koska tietueet, joissa on sekä **CreateProjectV1** että **CreateTeamMemberV1** luodaan välittömästi, näitä ohjelmointirajapintoja ei voida käyttää suoraan **OperationSet** issä. Ohjelmointirajapinnan avulla voit kuitenkin luoda tarvittavat tietueet, luoda **OperationSet** in, ja käyttää sitten näitä aiemmin luotuja tietueita **OperationSet** issä.
 
@@ -257,7 +257,7 @@ Seuraavissa taulukoissa määritetään kentät, joita ei voi **luoda** ja **muo
 ## <a name="limitations-and-known-issues"></a>Rajoitukset ja tunnetut ongelmat
 Seuraavassa on luettelo rajoituksista ja tunnetuista ongelmista:
 
-- Aikataulutuksen ohjelmointirajapintoja voivat käyttää vain **käyttäjät, joilla on Microsoft Project -lisenssi.** Niitä eivät voi käyttää:
+- Projektiaikataulun ohjelmointirajapintoja voivat käyttää vain **käyttäjät, joilla on Microsoft Project -lisenssi**. Niitä eivät voi käyttää:
     - Sovelluksen käyttäjät
     - Järjestelmäkäyttäjät
     - Integrointikäyttäjät
@@ -271,7 +271,7 @@ Seuraavassa on luettelo rajoituksista ja tunnetuista ongelmista:
 ## <a name="error-handling"></a>Virheen käsittely
 
    - Voit tarkastella toimintojoukoista luotuja virheitä kohdassa **Asetukset** \> **Aikatauluta integrointi** \> **Toimintojoukot**.
-   - Voit tarkastella projektin aikataulutuspalvelun luomia virheitä valitsemalla **Asetukset** \> **Aikataulutuksen integrointi** \> **PSS-virhelokit**.
+   - Voit tarkastella Projektin aikataulupalvelussa luotuja virheitä valitsemalla **Asetukset** \> **Aikataulun integrointi** \> **PSS-virhelokit**.
 
 ## <a name="sample-scenario"></a>Näyteskenaario
 

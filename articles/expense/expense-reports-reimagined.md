@@ -2,7 +2,7 @@
 title: Uudistetut matkalaskut
 description: Tässä aiheessa selitetään kuluraporttien merkinnän uudistettu kokemus.
 author: suvaidya
-ms.date: 03/26/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76073d5c58398b2c296fdca05ba7bdf7f01951bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995347"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6251000"
 ---
 # <a name="expense-reports-reimagined"></a>Uudistetut matkalaskut
 
@@ -26,13 +26,13 @@ Kuluraporttimerkintä on uusittu, jotta prosessia voidaan yksinkertaistaa ja rap
 
 - Uusi kulujen hallinnan työtila, jonka avulla voit käyttää delegoidun henkilön kuluja.
 - Uusi kuitin täsmäytyskokemus, jotta voit paremmin näyttää otsikkotason kuitit ja yksinkertaistaa kuittien liittämistä kuluriveille.
-- Uusi vain luku -ruudukko, jonka avulla voit tarkastella useita kulurivejä ja muita tietosarakkeita. Nyt voit nähdä kaikki eritellyt ja jaetut rivit sekä niiden ylätason kulut.
+- Uusi vain luku -ruudukko, jonka avulla voit tarkastella useampia kulurivejä ja muita tietosarakkeita. Nyt voit nähdä kaikki eritellyt ja jaetut rivit sekä niiden ylätason kulut.
 - Yksinkertaistettu ruutu kulujen muokkaamista varten.
 - Uudelleensuunnitellut virhe-, varoitus- ja käytäntösanomat, jotka antavat oikean kontekstin ja tietoja ongelmasta ja sen ratkaisemisesta. Olemme poistaneet useita viestejä, jotka tulivat näkyviin, ennen kuin käyttäjät saattoivat suorittaa tehtävänsä ja käsitellä ongelmia.
 - Uusi sivu, joka määrittää pakolliset kentät, valinnaiset kentät ja kentät, joita ei pitäisi sisällyttää. Tämän sivun avulla voit vähentää määritettyjen kenttien määrää.
 - Kuluraporttien uusi ulkoasu, jotta raportit eivät enää vaikuta siltä kuin ne olisi suunniteltu kirjanpidon ammattilaisia varten.
 
-Voit ottaa uuden käyttökokemuksen käyttöön ottamalla käyttöön **Kuluraporttien uusi suunnittelu** -ominaisuuden **Ominaisuuksien hallinta**-työtilan avulla. Kun otat tämän ominaisuuden käyttöön, suoritetaan seuraavat toiminnot:
+Voit ottaa uuden käyttökokemuksen käyttöön **Ominaisuuksien hallinta** -työtilassa **Kuluraporttien uudelleen suunniteltu työtila** -ominaisuuden käyttöön ottamiseksi. Kun otat tämän ominaisuuden käyttöön, suoritetaan seuraavat toiminnot:
 
 - Aiemmin luotu Kulu-työtila korvataan uudella työtilalla.
 - Kulukentän näkyvyydelle lisätään uusi valikon vaihtoehto.
@@ -45,7 +45,7 @@ Voit ottaa uuden käyttökokemuksen käyttöön ottamalla käyttöön **Kulurapo
 
 | Uusi ominaisuus | Kuvaus |
 |---|----|
-| Kulu-kentän näkyvyys | Uuden asetussivun avulla voit määrittää, mitkä kentät on poistettava käytöstä organisaatiossa, mitkä kentät ovat pakollisia ja mitkä kentät on suositeltavia. |
+| Kulu-kentän näkyvyys | Uuden asetussivun avulla voit määrittää, mitkä kentät on syytä poistaa käytöstä organisaatiossa. Voit myös määrittää pakolliset kentät ja suositellut kentät. |
 | Pakolliset kentät | Uuden yksinkertaisen määrityksen avulla voit määrittää tietyt kentät pakolliseksi tarvitsematta käyttää käytäntökehystä. |
 | Valinnaiset kentät | Valinnaisten kenttien toinen sivu on lisätty. Näin työntekijät eivät tunne, että heidän täytyy määrittää kentät, mutta kentät ovat yhä helposti käytettävissä. |
 | Lisää liittämättömät kuitit | Mahdollisuus lisätä liittämättömiä kuitteja kuluraporttiin on näkyvämpi työtilassa ja kuluraportissa. |
@@ -57,13 +57,14 @@ Voit ottaa uuden käyttökokemuksen käyttöön ottamalla käyttöön **Kulurapo
 | Vaihtokurssilaskin | Lisätään valuuttakurssilaskin, jonka avulla voit laskea käteisellä maksettujen monivaluuttatapahtumien valuuttakursseja. |
 | Tallenna ja lisää uusia kulurivejä | **Tallenna**- ja **Uusi**-painikkeet ovat käytettävissä, kun uusia kuluja syötetään, joten voit nopeasti syöttää kulurivejä. |
 | Parempi näkyvyys jaetuille ja eritellyille riveille | Eritellyt ja jaetut rivit lisätään suoraan kululuetteloon näkyvyyden lisäämiseksi, ja niiden avulla voit helposti selvittää, onko virheitä. |
+| Eriteltyjen rivien aliluokan tietojen tarkasteleminen | Pääkulun eritellyissä riveissä näkyvät kuluraportin alaluokkien otsikot, mikä auttaa tarkistamaan rakeiset tiedot yhdellä silmäyksellä.|
 | Näytä kuitit erittelyn aikana | Kuitit voidaan näyttää erittelyn aikana. |
 | Käteisennakon valinta | Valitse vähintään yksi käteisennakko yhden kulutapahtuman täyttämiseksi. |
 | Käteisennakon saldo | Tarkista käteisennakon saldo reaaliajassa, kun luot kulutapahtuman hyväksyttyjä ja maksettuja käteisennakoita vastaan. |
 
 Alkuperäinen julkaisu keskittyy kulujen syöttämisen skenaarioihin. Kuluraporttien tarkistus- tai hyväksyntäskenaario jatkaa aiemmin luodun kulun syöttösivun käyttämistä.
 
-Reimagined Expense Workspace ei tue seuraavia ominaisuuksia:
+Seuraavia ominaisuuksia ei tueta Kuluraporttien uudelleen suunnitellussa työtilassa, mutta ne ovat suunnitelmissa tulevia julkaisuja varten: 
 
 - Matkustusehdotuksen integraatio
 - Päivärahakulukirjaus
