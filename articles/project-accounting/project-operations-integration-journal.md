@@ -26,7 +26,7 @@ Aika- ja kulumerkinnät luovat **todellisia** tapahtumia, ja nämä tapahtumat o
 Project Operationsin integroinnin kirjauskansion tietueet luodaan kausittaisella **Tuo valmistelutaulukosta** -prosessilla. Tämä prosessi suoritetaan valitsemalla **Dynamics 365 Finance** > **Projektinhallinta ja kirjanpito** > **Kausittainen** > **Project Operationsin Integrointi** > **Tuo valmistelutaulukosta**. Prosessin voi suorittaa vuorovaikutteisesti tai sen voi määrittää suoritettavaksi taustalla tarpeen mukaan.
 
 Jaksottaisen prosessin suorittamisen aikana löydetään sellaiset todelliset arvot, joita ei ole vielä lisätty Project Operationsin integroinnin kirjauskansioon. Kullekin todelliselle tapahtumalla luodaan kirjauskansion rivi.
-Järjestelmä ryhmittelee kirjauskansion rivit erillisiin kirjauskansioihin **Project Operationsin integroinnin kirjauskansion kausiyksikkö** -kentässä valitun arvon perusteella (**Taloushallinto** > **Projektinhallinta ja kirjanpito** > **Määritys** > **Projektinhallinnan ja kirjanpidon parametrit**, **Project Operations Dynamics 365 Customer Engagementissa** -välilehti). Tämän kentän mahdollisia arvoja:
+Järjestelmä ryhmittelee kirjauskansion rivit erillisiin kirjauskansioihin **Project Operationsin integroinnin kirjauskansion kausiyksikkö** -kentässä valitun arvon perusteella (**Finance** > **Projektinhallinta ja kirjanpito** > **Määritys** > **Projektinhallinnan ja kirjanpidon parametrit**, **Project Operations Dynamics 365 Customer Engagementissa** -välilehti). Tämän kentän mahdollisia arvoja:
 
   - **Päivät**: Todelliset arvot ryhmitetään tapahtumapäivän mukaan. Kullekin päivälle luodaan oma kirjauskansio.
   - **Kuukaudet**: Todelliset arvot ryhmitetään kalenterikuukauden mukaan. Kullekin kuukaudelle luodaan oma kirjauskansio.
