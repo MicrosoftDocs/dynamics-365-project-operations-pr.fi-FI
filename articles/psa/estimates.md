@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007587"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992382"
 ---
 # <a name="estimates"></a>Arviot
 
@@ -83,24 +83,24 @@ Jos olet lisännyt muokatun kentän tarjousrivin tietoihin ja haluat järjestelm
 1. Avaa PluginRegistrationTool ja muodosta yhteys online-esiintymään.
 2. Valitse **Hae** ja etsi päivitettävä laajennus.
 
-    ![Haun puuvalintaikkuna](media/basic-guide-19.png)
+    ![Haun puuvalintaikkuna.](media/basic-guide-19.png)
 
 3. Valitse laajennus ja valitse sitten pääsivulla **Valitse**.
 4. Valitse päivitettävän laajennuksen vaihe, napsauta hiiren kakkospainiketta ja valitse sitten **Päivitä**.
 
-    ![Vaiheen valitseminen laajennuksessa](media/basic-guide-20.png)
+    ![Vaiheen valitseminen laajennuksessa.](media/basic-guide-20.png)
 
 5. Valitse kolme pistettä sisältävä painike **(...)** valintaikkunan **Päivitä aiemmin luotu vaihe** kentästä **Suodatusmääritteet**:
  
-    ![Päivitä aiemmin luotu vaihe -valintaikkuna](media/basic-guide-21.png)
+    ![Päivitä aiemmin luotu vaihe -valintaikkuna.](media/basic-guide-21.png)
 
 6. Valitse **Valitse määritteet** -valintaikkunassa mukautettujen määritteiden valintaruudut.
 
-    ![Valitse määritteet -valintaikkuna](media/basic-guide-22.png)
+    ![Valitse määritteet -valintaikkuna.](media/basic-guide-22.png)
 
 7. Sulje valintaikkuna valitsemalla **OK** ja valitse sitten **Päivitä vaihe**.
  
-    ![Päivitä vaihe -painike](media/basic-guide-23.png)
+    ![Päivitä vaihe -painike.](media/basic-guide-23.png)
 
 8. Toista vaiheet 1–7 toisen laajennuksen osalta.
 9. Sulje PluginRegistrationTool.

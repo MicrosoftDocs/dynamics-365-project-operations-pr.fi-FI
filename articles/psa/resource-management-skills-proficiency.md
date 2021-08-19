@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008667"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990492"
 ---
 # <a name="skills-and-proficiency-models"></a>Taidot ja pätevyysmallit
 
@@ -33,7 +33,7 @@ Taidot ovat resurssien ominaisuuksia, jotka on jaettu Dynamics 365 Project Servi
 
 Ylläpitääksesi taitovarastoa sovelluksessa Project Service Automation, siirry kohtaan **Resurssit** \> **Resurssien taidot**. 
 
-> ![Resurssin taidot](media/Resource-Management-image84.png)
+> ![Resurssin osaamisalueet.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Pätevyysmallien käyttäminen resurssien tasojen määrittelyyn
 
@@ -43,7 +43,7 @@ Resurssien taidot on luokiteltu pätevyysmallien mukaan. Yksittäiset luokitukse
 2. Määritä uudessa luokitusmallissa pienin luokitusarvo, suurin luokitusarvo ja entiteetti, jota luokitellaan.
 3. **Luokitusarvot**-aliruudukossa voi määrittää eri luokitusarvot vähimmäisarvosta suurimpaan arvoon.
 
-> ![Vähimmäis-ja enimmäisluokitukset määritetty](media/Resource-Management-image85.png)
+> ![Vähimmäis-ja enimmäisluokitukset määritetty.](media/Resource-Management-image85.png)
 
 Nämä luokitusarvot näytetään **Resurssivaatimukset**, **Aikataulutaulukko** ja **Aikatauluavustaja** -suodattimissa.
 

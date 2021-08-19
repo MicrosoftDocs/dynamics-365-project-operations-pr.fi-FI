@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012582"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991031"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Laskutettavien projektien kirjanpidon määrittäminen
 
@@ -101,23 +101,23 @@ Luo uusi projektin kustannus- ja tuottoprofiili tekemällä seuraavat toimet.
 
 Aika ja materiaali – ei KET-töitä
 
-![Kustannus- ja tuottoprofiili: Aika ja materiaali – ei KET-töitä](media/time-material-no-wip.png)
+![Kustannus- ja tuottoprofiili: Aika ja materiaali – ei KET-töitä.](media/time-material-no-wip.png)
 
 Aika ja materiaalit – KET (tuotto)
 
-![Kustannus- ja tuottoprofiili: Aika ja materiaali – KET](media/time-material-with-wip.png)
+![Kustannus- ja tuottoprofiili: Aika ja materiaali – KET.](media/time-material-with-wip.png)
 
 Kiinteä hinta – ei KET-töitä
 
-![Kustannus- ja tuottoprofiili: Kiinteä hinta – ei KET-töitä](media/fixed-price-no-wip.png)
+![Kustannus- ja tuottoprofiili: Kiinteä hinta – ei KET-töitä.](media/fixed-price-no-wip.png)
 
 Kiinteä hinta – valmis sopimus
 
-![Kustannus- ja tuottoprofiili: Kiinteä hinta – valmis sopimus](media/fixed-price-completed-contract.png)
+![Kustannus- ja tuottoprofiili: Kiinteä hinta – valmis sopimus.](media/fixed-price-completed-contract.png)
 
 Kiinteä hinta – valmistumisprosentti
 
-![Kustannus- ja tuottoprofiili: Kiinteä hinta – valmistumisprosentti](media/fixed-price-completed-percentage.png)
+![Kustannus- ja tuottoprofiili: Kiinteä hinta – valmistumisprosentti.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Projektin kustannus- ja tuottoprofiilien näytteen kirjanpitotapahtumaesimerkit.

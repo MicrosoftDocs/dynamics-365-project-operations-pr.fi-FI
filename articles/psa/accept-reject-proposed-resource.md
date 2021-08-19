@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7cc49a846c98c0359ce4cd681c42ff57e16dc9bd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e5c0e53c7fbde92c0f0b445847d2499532626637cf66fa1bb556eccc1e6079ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011592"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992517"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Ehdotetun projektiresurssin hyväksyminen tai hylkääminen
 
@@ -33,14 +33,14 @@ Tässä aiheessa on tietoja ehdotettujen projektiresurssien hyväksymisestä tai
 
 Kun resurssipäällikkö ehdottaa nimettyä resurssia täyttämään projektin yleisen resurssipyynnön, yleisen ryhmänjäsenen **Pyynnön tila** -kenttä päivittyy arvoon **Tarkistettava**. Pyyntö lähetetään projektipäällikölle hyväksyttäväksi tai hylättäväksi.
 
-![Yleinen ryhmän jäsen ja ehdotus](media/RM-how-to-19.png)
+![Yleinen ryhmän jäsen ja ehdotus.](media/RM-how-to-19.png)
 
 **Projektiryhmän jäsen** -sivun **Ehdotetut resurssit** -välilehden ruudukossa näkyvät ehdotetun resurssin kulloisetkin varaukset. Kun ehdotus on hyväksytty, ruudukko päivitetään vastaamaan kyseistä varausta. 
 
 Jos haluat hyväksyä ehdotetun resurssin ja varata resurssin ryhmällesi, valitse **Hyväksy ehdotukset**.  
 Jos haluat hylätä ehdotuksen, valitse **Hylkää resurssi**.
 
-![Resurssiehdotuksen hyväksyminen](media/RM-how-to-20.png) 
+![Resurssiehdotuksen hyväksyminen.](media/RM-how-to-20.png) 
 
 Samoin kuin yleisen resurssipyynnön täyttämisessä suoraan nimetyllä resurssilla, yleinen resurssi korvataan ja kohdennetut tehtävät päivitetään nimetyllä ryhmän jäsenellä.
 
