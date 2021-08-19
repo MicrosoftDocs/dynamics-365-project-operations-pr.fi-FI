@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369687"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007502"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektinhallinnan ja kirjanpidon yleiskuvaus
 
@@ -34,14 +34,14 @@ Projekti on ryhmä aktiviteetteja, jotka on suunniteltu tarjoamaan palvelua, tuo
 ## <a name="projects-across-industries"></a>Projektit eri toimialoilla
 Projektinhallinta- ja kirjanpitotoimintoja voidaan käyttää useilla toimialoilla seuraavan kuvan osoittamalla tavalla.
 
-[![Projektit eri toimialoilla](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projektit eri toimialoilla.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Puhelukeskuksessa voi käyttää lippua, joka kuvaa puhelun ratkaisemiseksi tarvittavia toimintoja. Konsultointiyritykset, kuten johto tai tekniset konsultointiorganisaatiot tai mainostoimistot, viittaavat aktiviteetteihinsa projekteina. Markkinoinnissa kampanja tarkoittaa työjoukkoa, joka on toimitettava. Projektipohjaisessa tuotannossa tuotantotilauksessa on eri työt, jotka on tehtävä valmiiden tuotteiden tuottamiseksi. Riippumatta siitä, mitä nimeä niistä käytetään, näihin projekteihin liittyy resursseja, aikatauluja ja kustannuksia, ja projektinhallinta- ja kirjanpitotoiminnot voivat auttaa näiden projektien suunnittelussa, toteutuksessa ja analysoinnissa.
 
 ## <a name="project-phases"></a>Projektin vaiheet
 Vaikka seuraava prosessinkulku on suunnattu ulkoisille yhdelle tai useammalle asiakkaalle valmistuneille projekteille tai projektille, toiminto koskee myös sisäisiä, vain kustannuksia koskevia projekteja. 
 
-![Projektin kolme vaihetta](./media/3-stages-of-a-project.png) 
+![Projektin kolme vaihetta.](./media/3-stages-of-a-project.png) 
 
 Kuten edellisessä esimerkissä on esitetty, projektinhallinta ja kirjanpito voidaan jakaa kolmeen vaiheeseen:
 
@@ -50,7 +50,7 @@ Kuten edellisessä esimerkissä on esitetty, projektinhallinta ja kirjanpito voi
 3.  Analysoi
 
 ## <a name="initiate-the-project"></a>Projektin aloittaminen
-Projektin aloituksen aikana tapahtuu useita tärkeitä prosesseja. Voit käyttää projektitarjousta arvioitujen työntekijöiden, kulujen ja materiaalien välittämiseen asiakkaalle. Voit kirjata projektisopimukseen laskutusehdot, limiitit ja sopimukset. Töiden suunnitteluun ja arviointiin voidaan käyttää WBS-työrakennetta. Voit määrittää ennusteita ja budjetteja, jotka ohjaavat projektin toteutusta. Seuraavassa kuvassa on esitetty projektin rakenne.[![projektirakenne](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Projektin aloituksen aikana tapahtuu useita tärkeitä prosesseja. Voit käyttää projektitarjousta arvioitujen työntekijöiden, kulujen ja materiaalien välittämiseen asiakkaalle. Voit kirjata projektisopimukseen laskutusehdot, limiitit ja sopimukset. Töiden suunnitteluun ja arviointiin voidaan käyttää WBS-työrakennetta. Voit määrittää ennusteita ja budjetteja, jotka ohjaavat projektin toteutusta. Seuraavassa kuvassa on esitetty projektin rakenne.[![projektirakenne.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Projektitarjousten luominen
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433514"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008042"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Heinäkuun 2021 uudet ominaisuudet – Project Operations resurri/ei-varastoitavien skenaarioissa
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433514"
 
 Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
 
-   - Project Operations Microsoft Dataversessä ympäristöversio 4.12.0.148.
+   - Project Operations Microsoft Dataverse -ympäristön versiossa 4.12.0.148 tai 4.12.0.152.
    - Projektinhallinta ja kirjanpito Dynamics 365 Finance -ympäristön versiossa 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Tähän julkaisuun sisältyvät ominaisuudet
@@ -79,7 +79,7 @@ Jos kartan käynnistämisessä on ongelma, noudata kohdan [Puutuvat sarakkeet -o
 | Yhteiset                       | 2296857              | Pitkään suoritettavien töiden edistymisen seuranta.                                                                                                                                                                        |
 | Yhteiset                       | 2253682              | Project Operationsin kaksoiskirjoitusratkaisua ei pitäisi asentaa, kun kaksoiskirjoitusydin asennetaan ympäristöön, jossa ei ole kaksoiskirjoituksen hallintaratkaisua.                                                |
 | Yhteiset                       | 2316420              | Project Servicen ytimen valmistelu epäonnistuu, jos sovelluksen käyttäjän liiketoimintayksikköä muutetaan.                                                                                                                     |
-
+| Yhteiset                       | 2376405              | Julkaisijan korjaama päivitysongelma (laatupäivitys on saatavana versiossa 4.12.0.152)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Financen projektinhallinta ja kirjanpito
 
 | Ominaisuusalue                      | Viitenumero | Laatupäivitys                                                                                                                                                                                                                                                                                                                |

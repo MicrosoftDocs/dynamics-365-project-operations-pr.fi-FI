@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367887"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008222"
 ---
 # <a name="resource-management-modes-overview"></a>Resurssien hallintatilojen yleiskatsaus
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations tukee kahta tilaa, jotta voit suorittaa yleisen 
 ## <a name="central-mode"></a>Keskitetty tila
 Jos kyseessä on organisaatio, joka keskittää resurssien kohdistuksen projekteihin, keskitetyn tilan avulla voit varmistaa, että projektipäälliköt voivat määrittää resurssitarpeet projektitasolla. Resurssitarpeiden täyttäminen delegoidaan resurssipäällikölle. Projektipäälliköt voivat hyväksyä tai hylätä resurssipäällikön ehdottamat resurssit.
 
-![Keskitetty tila](./media/resource-management-central.png)
+![Keskitetty tila.](./media/resource-management-central.png)
 
 Jos haluat hallita resursseja keskitetyn tilan avulla, katso:
 
@@ -37,7 +37,7 @@ Jos haluat hallita resursseja keskitetyn tilan avulla, katso:
 ## <a name="hybrid-mode"></a>Hybriditila
 Organisaatioille, jotka tarvitsevat resurssien kohdentamisen joustavuutta, hybriditilan avulla sekä projekti päälliköt että resurssipäälliköt voivat varata resursseja.
 
-![Hybriditila](./media/resource-management-hybrid.png)
+![Hybriditila.](./media/resource-management-hybrid.png)
 
 Tuetun keskitetyn tilan prosessin lisäksi voit hallita kaikkia muita tuettuja varaustyönkulkuja hybriditilassa seuraavien aiheiden ohjeiden mukaisesti:
 

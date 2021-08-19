@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000027"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006287"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Projektiarvioiden ja toteutuneiden kustannusten integrointi
 
@@ -30,7 +30,7 @@ Arvioiden luominen edellyttää projektille kelvollista kirjanpitomääritystä.
 
 Projektipäällikkö tai henkilöstöpäällikkö luo työvoima-arviot, ja he myös delegoivat projektitehtävälle yleisen tai nimetyn resurssin. Resurssin määritystietueita voi tarkastella **Resurssimääritykset**-välilehden **Projektin tiedot** -sivulla Dataversessä. Resurssimääritykset Dataversessä luovat tuntiennustetietueet Finance and Operations -sovelluksissa, joissa käytetään **Project Operationsin integrointientiteettiä tuntiarvioita varten (msdyn\_resourceassignments)**.
 
-   ![Työvoima-arvioiden integrointi](./Media/DW4LaborEstimates.png)
+   ![Työvoima-arvioiden integrointi.](./Media/DW4LaborEstimates.png)
 
 Kaksoiskirjoitus synkronoi resurssien määritystietueet väliaikaiseen taulukkoon (**ProjCDSEstimateHoursImport**) kanssa ja käyttää sitten liiketoimintalogiikkaa tuntiennustetietueiden luomiseen ja päivittämiseen (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Projektin kirjanpitäjä arvioi Finance and Operations -sovelluksissa luodut tun
 
 Projektipäällikkö luo kuluarviot **Projektin tiedot** -sivun **Kuluarviot**-välilehdessä Dataversessä. Kuluarviotietueet tallennetaan **arviorivin** entiteettiin Dataversessä. Näillä arviotietueilla on tapahtumaluokka, **kulu** ja ne synkronoidaan Finance and Operations -sovellusten kuluennustetietueisiin käyttämällä **Project Operationsin integrointientiteettiä kuluarvioille (msdyn\_estimatelines)**.
 
-   ![Kuluarvioiden integrointi](./Media/DW4ExpenseEstimates.png)
+   ![Kuluarvioiden integrointi.](./Media/DW4ExpenseEstimates.png)
 
 Kaksoiskirjoitus synkronoi kuluarviotietueet väliaikaiseen taulukkoon (**ProjCDSEstimateExpenseImport**) kanssa ja käyttää sitten liiketoimintalogiikkaa kuluennustetietueiden luomiseen ja päivittämiseen (**ProjForecastCost**). Arvioriveillä säilytetään myyntiarvio- ja kustannusarviotietueet erikseen. Finance and Operations -sovellusten liiketoimintalogiikka täyttää yhden kuluennustetietueen käyttämällä tätä erittelyä valmistelutaulukossa.
 
@@ -50,7 +50,7 @@ Projektin kirjanpitäjä voi arvioida Finance and Operations -sovelluksissa luod
 
 Projektipäällikkö luo materiaaliarviot **Projektin tiedot** -sivun **Materiaaliarviot**-välilehdessä Dataversessä. Materiaaliarviotietueet tallennetaan **arviorivin** entiteettiin Dataversessä. Näillä arviotietueilla on tapahtumaluokka, **materiaali** ja ne synkronoidaan Finance and Operations -sovellusten nimike-ennustetietueisiin käyttämällä **Projektin integrointitaulukkoa materiaaliarvioille (msdyn\_estimatelines)**.
 
-   ![Materiaaliarvioiden integrointi](./Media/DW4MaterialEstimates.png)
+   ![Materiaaliarvioiden integrointi.](./Media/DW4MaterialEstimates.png)
 
 Kaksoiskirjoitus synkronoi materiaaliarviotietueet väliaikaiseen taulukkoon **ProjForecastSalesImpor** kanssa ja käyttää sitten liiketoimintalogiikkaa nimike-ennustetietueiden luomiseen ja päivittämiseen (**ForecastSales**). Arvioriveillä säilytetään myyntiarvio- ja kustannusarviotietueet erikseen. Finance and Operations -sovellusten liiketoimintalogiikka täyttää yhden nimike-ennustetietueen käyttämällä tätä erittelyä valmistelutaulukossa.
 
@@ -60,7 +60,7 @@ Projektin kirjanpitäjä voi arvioida Finance and Operations -sovelluksissa luod
 
 Toteutuneet projektit luodaan Dataversessä ajan, kulun, materiaalin ja laskutusaktiviteetin perusteella. Kaikki näiden tapahtumien toiminnalliset määritteet, kuten määrä, kustannushinta, myyntihinta ja projekti, tallennetaan tähän Dataverse-entiteettiin. Lue lisätietoja kohdasta [Todelliset arvot](../actuals/actuals-overview.md). Todelliset tiedot synkronoidaan Finance and Operations -sovelluksiin käyttämällä kaksoiskirjoitustaulukkokarttaa **Project Operationsin integrointien toteutuneet (msdyn\_actuals)** loppupään kirjanpitoa varten.
 
-   ![Todellisten kustannusten integrointi](./Media/DW4Actuals.png)
+   ![Todellisten kustannusten integrointi.](./Media/DW4Actuals.png)
 
 **Projektitoimintojen integroinnin toteutuneet** -taulukkokartta synkronoi kaikki tietueet **Toteutuneet kustannukset** -entiteetistä Dataversessä ja määritteen **Ohita synkronointi (vain sisäiseen käyttöön)** arvoksi on määritetty **Epätosi**. Tämä määritteen arvo määritetään Dataversessä automaattisesti, kun tietue luodaan. Esimerkkejä, joissa määritteen arvoksi on määritetty **Tosi**:
 

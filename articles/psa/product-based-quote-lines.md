@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998497"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008582"
 ---
 # <a name="product-based-quote-lines"></a>Tuotepohjaiset tarjousrivit
 
@@ -58,7 +58,7 @@ Jos määrität tämän kentän arvoksi **Korvaa hinnoittelu**, Dynamics 365 ei 
 
 Kun olet asentanut PSA:n, oletusmyyntihinnat syötetään tarjouksen tuoteperusteisille riveille. **Hinnoittelu** -kentän arvoksi määritetään sitten **Korvaa hinnoittelu**, jotta voit muokata tarjousrivien oletushintaa.
 
-> ![Hinnoittelun korvaamisen määritys](media/basic-guide-10.png)
+> ![Hinnoittelun korvaamisen määritys.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Tuotteiden määräkertoimet
 
@@ -78,7 +78,7 @@ Esimerkiksi Dynamics 365:llä voi olla seuraavat ominaisuudet:
 
 Ominaisuudet **Käyttäjät** ja **Kuukaudet** voidaan valita määräkertoimiksi muokkaamalla tuoterivin ominaisuuksia. 
 
-> ![Ominaisuuksien Käyttäjät ja Kuukaudet valinta määräkertoimiksi](media/basic-guide-11.png)
+> ![Ominaisuuksien Käyttäjät ja Kuukaudet valinta määräkertoimiksi.](media/basic-guide-11.png)
  
 
 
