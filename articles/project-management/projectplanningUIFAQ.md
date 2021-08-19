@@ -2,17 +2,17 @@
 title: Tehtäväruudukossa työskentelyn vianmääritys
 description: Tässä aihe sisältää vianmääritystietoja, joita tarvitaan tehtäväruudukossa.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213396"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989097"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Tehtäväruudukossa työskentelyn vianmääritys 
 
@@ -24,7 +24,7 @@ Tässä aiheessa kuvataan, miten Cost Managementin käytössä mahdollisesti koh
 
 Project Operations edellyttää, että kolmannen osapuolen evästeet on otettu käyttöön, jotta työrakenne voidaan hahmontaa. Kun kolmannen osapuolen evästeitä ei ole otettu käyttöön, tehtävien sijaan näet tyhjän sivun, kun valitset **Tehtävät**-välilehden **Projekti**-sivulla.
 
-![Tyhjä välilehti, kun kolmannen osapuolen evästeitä ei ole otettu käyttöön](media/blankschedule.png)
+![Tyhjä välilehti, kun kolmannen osapuolen evästeitä ei ole otettu käyttöön.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Ratkaisutapa
@@ -52,11 +52,22 @@ Seuraavissa ohjeissa kerrotaan, miten selainasetus päivitetään kolmannen osap
 Project Operations edellyttää, että projektiparametri viittaa PEX-päätepisteeseen. Tämän päätepisteen on oltava yhteydessä palveluun, jota käytetään työrakenteen hahmontamiseen. Jos parametria ei ole otettu käyttöön, näyttöön tulee seuraava virhe: "Projektiparametri on virheellinen". 
 
 ### <a name="workaround"></a>Ratkaisutapa
- ![PEX-päätepiste-kenttä projektiparametrissa](media/projectparameter.png)
 
 1. Lisää **PEX-päätepiste**-kenttä **Projektiparametrit**-sivulle.
-2. Päivitä kenttään seuraava arvo: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Poista kenttä **Projektiparametrit**-sivulta.
+2. Määritä tuotetyyppi, jota käytät. Tätä arvoa käytetään, kun PEX-päätepiste on määritetty. Noudettaessa tuotetyyppi on jo määritetty PEX-päätepisteeseen. Säilytä tämä arvo. 
+   
+    ![PEX-päätepiste-kenttä projektiparametrissa.](media/pex-endpoint.png)
+
+3. Päivitä kenttään seuraava arvo: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Tuotetyyppi                         | Syötä parametri |
+   |--------------------------------------|----------------|
+   | Project for the Web oletusorganisaatiossa   | laji=0         |
+   | Project for the Web CDS-nimetyssä organisaatiossa | laji=1         |
+   | Project Operations                   | laji=2         |
+   
+4. Poista kenttä **Projektiparametrit**-sivulta.
 
 ## <a name="privileges-for-project-for-the-web"></a>Projektin verkko-oikeudet
 
@@ -67,7 +78,7 @@ Project Operations luottaa ulkoiseen aikataulutuspalveluun. Palvelu edellyttää
 
 1. Valitse **Asetus > Suojaus > Käyttäjät > Sovelluksen käyttäjät**.  
 
-   ![Sovelluslukija](media/applicationuser.jpg)
+   ![Sovelluslukija.](media/applicationuser.jpg)
    
 2. Tarkista seuraavat seikat kaksoisnapsauttamalla sovelluksen käyttäjätietuetta:
 
@@ -76,7 +87,7 @@ Project Operations luottaa ulkoiseen aikataulutuspalveluun. Palvelu edellyttää
  
 3. Jos käyttäjää ei ole, voit luoda uuden käyttäjätietueen. Valitse **Uudet käyttäjät**. Vaihda syöttölomakkeeksi **Sovelluksen käyttäjä** ja lisää sitten **sovellustunnus**.
 
-   ![Sovelluksen käyttäjän tiedot](media/applicationuserdetails.jpg)
+   ![Sovelluksen käyttäjän tiedot.](media/applicationuserdetails.jpg)
 
 4. Tarkista, että käyttäjälle on määritetty oikea käyttöoikeus ja että palvelu on otettu käyttöön käyttöoikeuden palvelusuunnitelmissa.
 5. Tarkista, että käyttäjä voi avata osoitteen project.microsoft.com.

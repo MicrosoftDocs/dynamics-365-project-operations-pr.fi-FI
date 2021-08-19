@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1e9ca9407404274648f359be42d350137775ae55
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001062"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986532"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operationsin määritysten ja määritystietojen integrointi
 
@@ -24,7 +24,7 @@ Tässä aiheessa on tietoja Project Operationsin asetuksen ja määritysentiteet
 
 Projektisopimukset, sopimusrivit ja projektit luodaan Dataversessä ja synkronoidaan Finance and Operations -sovelluksiin lisälaskentaa varten. Entiteettien tietueita voi luoda ja poistaa vain Dataversessä. Finance and Operations -sovellusten näihin tietueisiin voidaan kuitenkin lisätä kirjanpitomääritteitä, kuten arvonlisäveroryhmän oletusarvoja ja taloushallinnon dimensioita.
 
-  ![Projektisopimuksen integrointikäsitteet](./media/1ProjectContract.jpg)
+  ![Projektisopimuksen integrointikäsitteet.](./media/1ProjectContract.jpg)
 
 Myyntiaktiviteettien liidejä, mahdollisuuksia ja tarjouksia seurataanDataversessä eikä niitä synkronoida Finance and Operations -sovelluksille, koska tähän aktiviteettiin ei liity kirjanpitoa.
 
@@ -51,7 +51,7 @@ Projektin sopimusrivejä voi tarkistaa Finance and Operations -sovellusten proje
 
 Kiinteähintaista laskutustapaa käyttävät projektisopimusrivit laskutetaan laskutuksen välitavoitteiden kautta. Laskutuksen välitavoitteet synkronoidaan Finance and Operations -sovellusten projektien tilitapahtumiin käyttämällä **Project Operationsin integrointisopimusrivin välitavoitteet (msdyn\_contractlinescheduleofvalues)** -taulukkokarttaa.
 
-  ![Laskutuksen välitavoitteiden integrointi](./media/2Milestones.jpg)
+  ![Laskutuksen välitavoitteiden integrointi.](./media/2Milestones.jpg)
 
 Kirjanpitäjä voi tarkastella tilitapahtumia ja oikaista näiden tapahtumien kirjanpitomääritteitä valitsemalla **Projektinhallinta ja kirjanpito** > **Projektisopimukset** > **Ylläpidä** > **Kirjanpitotapahtumat** tai **Projektinhallinta ja kirjanpito** > **Kaikki projektit** > **Ylläpidä** > **Kirjanpitotapahtumat**.
 
@@ -61,13 +61,13 @@ Kun luot laskutuksen välitavoitteen ensimmäiseksi projektisopimusriville, jär
 
 Projektitehtävät synkronoidaan Finance and Operations -sovelluksiin **projektitehtävien (msdyn\_projektien)** taulukkokartan kautta vain viitteeksi. Luonti-, päivitys- ja poistotoimintoja ei tueta Finance and Operations -sovellusten avulla.
 
-  ![Projektitehtävien integrointi](./media/3Tasks.jpg)
+  ![Projektitehtävien integrointi.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projektien resurssit
 
 **Projektiresurssiroolit**-kohde synkronoidaan Finance and Operations -sovelluksiin käyttämällä **Kaikkien yritysten projektiresurssiroolit (bookableresourcecategories)** -taulukkokarttaa vain tiedoksi. Koska resurssiroolit Dataversessä eivät ole yrityskohtaisia, järjestelmä luo automaattisesti sovelluksiin vastaavat yrityskohtaiset resurssiroolitietueet Finance and Operations -sovelluksissa automaattisesti kaikille kaksoiskirjoitusintegroinnin vaikutusalueeseen sisällytetyille juridisille entiteeteille.
 
-![Resurssiroolien integrointi](./media/5Resources.jpg)
+![Resurssiroolien integrointi.](./media/5Resources.jpg)
 
 Project Operationsin projektiresursseja ylläpidetään Dataversessä ja niitä ei synkronoida Finance and Operations -sovelluksiin.
 
@@ -75,6 +75,6 @@ Project Operationsin projektiresursseja ylläpidetään Dataversessä ja niitä 
 
 Tapahtumaluokkia ylläpidetään Dataversessä ja synkronoidaan Finance and Operations -sovelluksiin käyttämällä **projektitapahtumien luokkien (msdyn\_transactioncategories)** taulukkokarttaa. Kun tapahtumaluokkatietue on synkronoitu, järjestelmä luo automaattisesti neljä jaettua luokkatietuetta. Jokainen tietue vastaa sovellusten tapahtumatyyppiä Finance and Operationsissa ja linkittää ne tapahtumaluokkatietueeseen.
 
-![Tapahtumaluokkien integrointi](./media/4TransactionCategories.jpg)
+![Tapahtumaluokkien integrointi.](./media/4TransactionCategories.jpg)
 
 Arvioitujen ja toteutuneiden luokkien käyttäminen edellyttää, että projektin kirjanpitäjä tai järjestelmänvalvoja luo vastaavat projektiluokat kaikkiin juridisiin entiteetteihin. Lisätietoja on ohjeaiheessa [Projektiluokkien määrittäminen](../project-accounting/configure-project-categories.md).

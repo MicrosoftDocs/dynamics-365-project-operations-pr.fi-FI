@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993288"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987702"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Miten delegoin varattavissa olevan resurssin tehtävälle verkkosovelluksessa (Project Service -sovelluksen versio 2.x)?
 
@@ -43,7 +43,7 @@ Kun tämä tapa on käytössä resurssi lisätään projektiryhmään. Tämän j
 3.  Valitse **alku**- ja **loppupäivämäärät**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Kuvakaappaus ryhmän jäsenen lisäämisestä](media/FAQ-Resources-to-Tasks2-1.png "Kuvakaappaus ryhmän jäsenen lisäämisestä")
+    > ![Kuvakaappaus ryhmän jäsenen lisäämisestä.](media/FAQ-Resources-to-Tasks2-1.png "Kuvakaappaus ryhmän jäsenen lisäämisestä")
  
 4.  Valitse jokin seuraavista resurssin varauksen kohdistustavoista:
     - **Täysi kapasiteetti** varaa resurssin täyden kapasiteetin tietyn alku- ja loppupäivämäärän välille.
@@ -63,12 +63,12 @@ Kun tämä tapa on käytössä resurssi lisätään projektiryhmään. Tämän j
     3. Valitse **OK**. Ryhmän jäsen on nyt delegoitu tehtävälle.
 
     > [!div class="mx-imgBorder"] 
-    > ![Näyttökuva resurssien lisäämisestä työrakenteen avulla](media/FAQ-Resources-to-Tasks2-2.png "Näyttökuva resurssien lisäämisestä työrakenteen avulla")
+    > ![Näyttökuva resurssien lisäämisestä työrakenteen avulla.](media/FAQ-Resources-to-Tasks2-2.png "Näyttökuva resurssien lisäämisestä työrakenteen avulla")
  
 Ryhmän jäsenen ruudukon Delegoidut tunnit -kohdassa on resurssin delegoitujen tuntien kooste. Se on yhtä suuri tai pienempi kuin resurssin varatut tunnit. 
 
 > [!div class="mx-imgBorder"] 
-> ![Resurssin delegoitujen tuntien näyttökuva](media/FAQ-Resources-to-Tasks2-3.png "Resurssin delegoitujen tuntien näyttökuva")
+> ![Resurssin delegoitujen tuntien näyttökuva.](media/FAQ-Resources-to-Tasks2-3.png "Resurssin delegoitujen tuntien näyttökuva")
  
 Jos tehtävä, jota yrität delegoida resurssille, alkaa resurssin varausten loppupäivämäärän jälkeen, resurssi ei näy avattavassa luettelossa.
 
@@ -92,22 +92,22 @@ Tämä tapa varmistaa sen, että resursseilla on riittävästi tehtävien varauk
 4. Valitse **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Näyttökuva resurssin lisäämisestä työrakenteen avulla](media/FAQ-Resources-to-Tasks2-4.png "Näyttökuva resurssin lisäämisestä työrakenteen avulla")
+    > ![Näyttökuva resurssin lisäämisestä työrakenteen avulla.](media/FAQ-Resources-to-Tasks2-4.png "Näyttökuva resurssin lisäämisestä työrakenteen avulla")
  
 Kun roolit on delegoitu tehtäville työrakenteessa, valitse **Luo projektiryhmä**. Project Service luo vähimmäismäärän yleisen ryhmän jäseniä näiden roolien, resursointiorganisaation yksiköiden ja projektikalenterin perusteella yhdistämällä tehtävien delegoinnit.
 
 > [!div class="mx-imgBorder"] 
-> ![Kuvakaappaus projektiryhmän luomisesta](media/FAQ-Resources-to-Tasks2-5.png "Kuvakaappaus projektiryhmän luomisesta")
+> ![Kuvakaappaus projektiryhmän luomisesta.](media/FAQ-Resources-to-Tasks2-5.png "Kuvakaappaus projektiryhmän luomisesta")
  
 Ryhmän jäsenen ruudukossa näkyvät yleisen resurssityypin resurssit ja niiden rooli sekä sijainnin nimi. Jos roolissa on oltava kaksi resurssia, jotta työ voidaan tehdä valmiiksi, Luo ryhmä -toiminto luo kaksi ryhmän jäsentä ja erottelee ne toisistaan sijainnin nimen avulla.
 
 > [!div class="mx-imgBorder"] 
-> ![Näyttökuva kahden yleisen resurssin lisäämisestä](media/FAQ-Resources-to-Tasks2-6.png "Näyttökuva kahden yleisen resurssin lisäämisestä")
+> ![Näyttökuva kahden yleisen resurssin lisäämisestä.](media/FAQ-Resources-to-Tasks2-6.png "Näyttökuva kahden yleisen resurssin lisäämisestä")
  
 Voit avata yleisen ryhmän jäsenen taustalla olevan resurssitarpeen valitsemalla Resurssitarve-kohdan alla olevan linkin.
 
 > [!div class="mx-imgBorder"] 
-> ![Näyttökuva taustalla olevan resurssitarpeen avaamisesta](media/FAQ-Resources-to-Tasks2-7.png "Näyttökuva taustalla olevan resurssitarpeen avaamisesta")
+> ![Näyttökuva taustalla olevan resurssitarpeen avaamisesta.](media/FAQ-Resources-to-Tasks2-7.png "Näyttökuva taustalla olevan resurssitarpeen avaamisesta")
 
 Valitse yleisen resurssin **Varaa**-kohta. Tämän jälkeen voit etsiä todellisen resurssin ja varata sen aikataulutaulukon avulla. Voit myös lähettää tarpeen resurssipäällikön tekemälle toteutukselle valitsemalla **Lähetä pyyntö**.
 

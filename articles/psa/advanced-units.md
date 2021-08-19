@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009567"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987567"
 ---
 # <a name="unit-groups-and-units"></a>Yksikköryhmät ja yksiköt
 
@@ -44,7 +44,7 @@ Jos esimerkiksi **Aika**-yksikköryhmässä ensimmäisenä yksikkönä määrite
 
 Seuraavassa kuvassa esitetään esimerkkimääritys yksikölle **Päivä**, jossa **Määrä**-kentässä näkyy päivässä olevien tuntien määrä, ja yksikölle **Viikko**, jossa **Määrä**-kentässä näkyy viikossa olevien päivien määrä.
 
-> ![Yksikköryhmä: tietosivu](media/advanced-2.png)
+> ![Yksikköryhmä: tietosivu.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Yksikköjen ja yksikköryhmien käyttö
 

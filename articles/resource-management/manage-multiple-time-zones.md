@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997732"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988692"
 ---
 # <a name="manage-time-zones"></a>Aikavyöhykkeiden hallinta
 
@@ -32,13 +32,13 @@ Jotta saat tarkat ja ennustettavat tulokset, kun käytät **Laajenna varausta** 
 
 - Käyttäjän on määritettävä laitteensa aikavyöhyke vastaamaan järjestelmän **mukautusasetuksissa** määritettyä aikavyöhykettä.
  
-  ![Aikavyöhykeasetukset Windows 10:ssä](media/reconcile-assignments-03.png)
+  ![Aikavyöhykeasetukset Windows 10:ssä.](media/reconcile-assignments-03.png)
 
-  ![Aikavyöhykeasetukset mukautusasetuksissa](media/reconcile-assignments-04.png)
+  ![Aikavyöhykeasetukset mukautusasetuksissa.](media/reconcile-assignments-04.png)
  
 - Varattavissa olevalla resurssilla on oltava vähintään yksi minuutti työaikaa, joka on päällekkäinen pyydetyn laajennuksen määrittämiseen käytettävien tietojen kanssa. Esimerkiksi seuraavat resurssit ovat työaikoja, jotka ovat välillä 9:00–19:00. 
 
-  ![Resurssien muotojen vertailu](media/reconcile-assignments-05.png)
+  ![Resurssien muotojen vertailu.](media/reconcile-assignments-05.png)
 
 Seuraavassa taulukossa näkyy:
 
@@ -47,25 +47,25 @@ Seuraavassa taulukossa näkyy:
 - Resurssi B: Tämä resurssi sijaitsee eri aikavyöhykkeellä kuin projekti, ja projekti alkaa klo 7:00 resurssin aikavyöhykkeessä. Varaukset alkavat kuitenkin alkaen klo 9.00, koska se on määritysmallin varhaisin alkamisaika.
 - Resurssit C ja D: Resurssit sijaitsevat eri aikavyöhykkeillä, molemmat eri vyöhykkeillä verrattuna toisiinsa ja projektiin, ja resurssien varaukset alkavat aikaisintaan niiden käytettävissä olevina alkamisaikoina.
 
-|Entiteetti  |Kalenteri  |
+|Entity  |Kalenteri  |
 |-|-|
-|Projektin kalenterimalli   | ![projektikalenteri](media/reconcile-assignments-06.png) |
-|Resurssi A  | ![Resurssin A kalenteri](media/reconcile-assignments-06.png) |
-|Resurssi B  |  ![Resurssin B kalenteri](media/reconcile-assignments-07.png) |
-|Resurssi C  |  ![Resurssin C kalenteri](media/reconcile-assignments-08.png) |
-|Resurssi D  | ![Resurssin D kalenteri](media/reconcile-assignments-09.png)  |
+|Projektin kalenterimalli   | ![projektikalenteri.](media/reconcile-assignments-06.png) |
+|Resurssi A  | ![Resurssin A kalenteri.](media/reconcile-assignments-06.png) |
+|Resurssi B  |  ![Resurssin B kalenteri.](media/reconcile-assignments-07.png) |
+|Resurssi C  |  ![Resurssin C kalenteri.](media/reconcile-assignments-08.png) |
+|Resurssi D  | ![Resurssin D kalenteri.](media/reconcile-assignments-09.png)  |
  
 Kun siirryt **Täsmäytys**-näkymään, näkyviin tulevat resurssien delegoinnit ja niihin liittyvä varausvajeet.
 
-![Täsmäytysnäkymä ennen laajentamista](media/reconcile-assignments-10.png)
+![Täsmäytysnäkymä ennen laajentamista.](media/reconcile-assignments-10.png)
 
 Kun Laajenna varausta -toimintoa on käytetty kunkin resurssin kohdalla, varauksia laajennetaan onnistuneesti kullekin resurssille, koska kunkin resurssin työaika on päällekkäinen vajeen aikavälin kanssa.
 
-![Täsmäytysnäkymä varauksen laajentamisen jälkeen](media/reconcile-assignments-11.png) 
+![Täsmäytysnäkymä varauksen laajentamisen jälkeen.](media/reconcile-assignments-11.png) 
 
 Huomaa, että lähemmät tiedot varauksista osoittavat, miten varausten alkamisaika on erilainen. Varaus alkaa aikaisintaan delegoinnin aikavälin alussa ja aikaisintaan resurssin käytettävissäoloajan alkamisaikana.
 
-![Resurssien uudet varaukset aikataulutaulukossa](media/reconcile-assignments-12.png)
+![Resurssien uudet varaukset aikataulutaulukossa.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

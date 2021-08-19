@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007272"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985542"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Näytetietojen asennus Project Service -sovelluksessa
 
@@ -86,7 +86,7 @@ Tietokoneessa on oltava verkkoyhteys. **Asennus- tai viitetietojen** asentaminen
 Tietokoneen näytönsäästäjätoiminto tulee poistaa käytöstä. Muussa tapauksessa asennuksen istunnon tunnistetiedot menetetään, kun näytönsäästäjä menee päälle (ellet pidä istuntoa aktiivisena koko ajan).
 
 > [!div class="mx-imgBorder"]
-> ![Näytönsäästäjän asetusten näyttökuva, jossa näytönsäästäjä on poistettu käytöstä](media/sample-data-1.png)
+> ![Näytönsäästäjän asetusten näyttökuva, jossa näytönsäästäjä on poistettu käytöstä.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Lataaminen ja paketin purkaminen
 
@@ -142,7 +142,7 @@ Esittelytietopakettia varten tarvitaan kuusi käyttäjää. Paketti asennetaan o
 3. Avaa **PkgFolder** ja etsi ja avaa sitten **ImportUserMapFile.xml**. Päivitä **New=**-kentät järjestelmän käyttäjiä vastaaviksi sähköpostiosoitteiksi.
 
    > [!div class="mx-imgBorder"]
-   > ![Näyttökuva UserMapFile-tiedostosta](media/sample-data-7.png)
+   > ![Näyttökuva UserMapFile-tiedostosta.](media/sample-data-7.png)
 
 4. Jos "Spencer Low" -nimisen käyttäjän koko nimellä on eri käyttäjätunnus kuin **"spencerl"**, myös lisätiedosto on päivitettävä. Avaa **DemoDataPreImportConfig.xml** ja etsi **userstocreateandconfigure**-tunniste. Päivitä loginId (kirjainkoolla on merkitystä) **\<login\>**-tunnisteeseen. 
 

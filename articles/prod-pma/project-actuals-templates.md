@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999892"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988107"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkronoi projektin todelliset arvot suoraan Project Service Automationista projekti-integraation kirjauskansioon kirjausta varten Finance and Operationsissa
 
@@ -42,7 +42,7 @@ Project Service Automationin integrointiratkaisua Financeen käyttää tietojen 
 
 Seuraavassa kuvassa on esitetty, miten tiedot synkronoidaan Project Service Automationin ja Financen välillä.
 
-[![Työnkulku Project Service Automationin integroinnissa Finance and Operationsiin](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Työnkulku Project Service Automationin integroinnissa Finance and Operationsiin.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Projektin toteutuneet arvot Project Service Automationista
 
@@ -93,9 +93,9 @@ Voit päivittää lisätyn ehdollisen sarakkeen mallissa avaamalla yhdistämism�
 
 Seuraavassa kuvissa on esimerkki mallitehtävien yhdistämismäärityksessä tietojen integroinnissa. Yhdistämismäärityksessä näytetään kenttätiedot, jotka synkronoidaan Project Service Automationista Financeen.
 
-[![Mallien yhdistäminen ‑ toteutuneet](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Mallien yhdistäminen ‑ toteutuneet.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Mallien yhdistäminen - tapahtumayhteydet](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Mallien yhdistäminen - tapahtumayhteydet.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Tuominen väliaikaisesta taulukosta Project Service Automationin integroinnin jälkeen
 
@@ -135,9 +135,9 @@ Projektien toteutuneiden arvojen päivitysmallissa on käytettävä Power Query�
 
 Seuraavissa kuvissa on esimerkkejä mallitehtävien yhdistämismäärityksestä tietojen integroinnissa. Yhdistämismäärityksessä näytetään kenttätiedot, jotka synkronoidaan Financesta Project Service Automationiin.
 
-[![Mallien yhdistäminen ‑ toteutuneet päivitys](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Mallien yhdistäminen ‑ toteutuneet päivitys.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Mallien yhdistäminen ‑ Tapahtumat päivitys](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Mallien yhdistäminen ‑ Tapahtumat päivitys.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

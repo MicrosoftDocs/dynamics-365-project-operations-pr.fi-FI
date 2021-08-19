@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 715a8bdb9a1f38f71b4c42f5307ed4a5c7170ef6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 97483a53163edbbe6dfe383d6a6a60183a17e6e9df9ec3c47c9f33aef88aea3e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014247"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989142"
 ---
 # <a name="navigating-the-user-interface"></a>Käyttöliittymässä siirtyminen
 
@@ -23,37 +23,37 @@ Pääprojektilomake on erotettu useiksi välilehdiksi. Kukin välilehti edustaa 
 
 - **Yhteenveto**: Näyttää projektin kuvauksen ja kokoaa sekä suunnitellun että toteutuneen projektin tehokkuuden.
 
-    ![Yhteenveto-välilehti ja -kentät](media/navigation7.png)
+    ![Yhteenveto-välilehti ja -kentät.](media/navigation7.png)
 
 - **Tehtävät**: Sisältää ruudukkonäkymän, kaavionäkymän ja Gantt-kaavion työrakennetta koskevista tiedoista.
 
-    ![Tehtävä-välilehti ja -kentät](media/navigation8.png)
+    ![Tehtävä-välilehti ja -kentät.](media/navigation8.png)
 
 - **Ryhmä**: Sisältää projektin osallistujia koskevia tietoja. Kunkin ryhmän jäsenen delegoitu työmäärä on myös koottu tähän näkymään.
 
-    ![Ryhmä-välilehti ja -kentät](media/navigation9.png)
+    ![Ryhmä-välilehti ja -kentät.](media/navigation9.png)
 
 - **Resurssien delegoinnit**: Sisältää aikajaksopohjaisen näkymän projektin kunkin resurssin työmäärästä.
 
-    ![Resurssien delgoinnit -välilehti ja -kentät](media/navigation10.png)
+    ![Resurssien delgoinnit -välilehti ja -kentät.](media/navigation10.png)
 
 - **Resurssien täsmäytys**: Sisältää aikajaksopohjaisen näkymän kunkin nimetyn resurssin delegointien ja varausten eroista.
 
-    ![Resurssien täsmäytys -välilehti ja -kentät](media/navigation11.png)
+    ![Resurssien täsmäytys -välilehti ja -kentät.](media/navigation11.png)
 
 - **Arviot**: Sisältää aikajaksopohjaisen näkymän projektin kustannus- ja myyntiarvioista.
 
-    ![Arviot-välilehti ja -kentät](media/navigation12.png)
+    ![Arviot-välilehti ja -kentät.](media/navigation12.png)
 
 - **Seuranta**: Sisältää näkymän, joka näyttää töiden, kustannusten ja myynnin työnrakenteen tehtävien etenemisen.
 
-    ![Seuranta-välilehti ja -kentät](media/navigation13.png)
+    ![Seuranta-välilehti ja -kentät.](media/navigation13.png)
 
 - **Myynti**: Sisältää syvälinkit projektiin liittyviin tarjouksiin ja sopimuksiin.
 
 - **Kuluarviot**: Sisältää ruudukon, joka määrittää projektin kulut organisaation kululuokkien perusteella.
 
-    ![Kuluarviot-välilehti ja -kentät](media/navigation14.png)
+    ![Kuluarviot-välilehti ja -kentät.](media/navigation14.png)
 
 ## <a name="grid-controls"></a>Ruudukko-ohjausobjektit
 
@@ -63,43 +63,43 @@ Seuraavassa on lyhyt yleiskatsaus erilaisista projektisuunnittelun välilehdist�
 
 **Päivitä**: Noutaa uusimmat tiedot palvelimesta, jos ruudukon lataamisen jälkeen tapahtui muutoksia.
 
-![Päivitä-painike](media/navigation7.png)
+![Päivitä-painike.](media/navigation7.png)
 
 ### <a name="group-by"></a>Ryhmittele
 
 **Ryhmittele**: Päivittää ruudukon rivien ryhmittelyn niin, että se vastaa joko resursseja, rooleja tai luokkia käyttäjän tarpeiden mukaan.
 
-![Ryhmittele-painike](media/navigation6.png)
+![Ryhmittele-painike.](media/navigation6.png)
 
 ### <a name="previousnext"></a>Edellinen/Seuraava
 
 **Edellinen**/**Seuraava**: Päivitä aikajaksotettujen ruudukkojen näkyvät aikajaksot.
 
-![Edellinen- ja Seuraava-painikkeet](media/navigation2.png)
+![Edellinen- ja Seuraava-painikkeet.](media/navigation2.png)
 
 ### <a name="timescale"></a>Aikajakso
 
 **Aikajana**: Muuta aikajaksotettujen tietojen koosteita päivien, viikkojen, kuukausien ja vuosien välillä.
 
-![Aikajana-painike](media/navigation3.png)
+![Aikajana-painike.](media/navigation3.png)
 
 ### <a name="expand"></a>Laajenna
 
 **Laajenna**: Muodosta näkyvä ruudukko koko näytön kokoiseksi, jotta näet lisää rooleja.
 
-![Laajenna-painike](media/navigation4.png)
+![Laajenna-painike.](media/navigation4.png)
 
 ### <a name="time-phase-by"></a>Aikajaksoperuste
 
 **Aikajaksoperuste** : Päivitä ruudukon rivien ryhmittely vastaamaan myynti arvioiden kustannus arvioita. Tämä ohjausobjekti koskee myös arviokomentosarjaa ja seurantaruudukkoa.
 
-![Aikajaksoperuste-painike](media/navigation0.png)
+![Aikajaksoperuste-painike.](media/navigation0.png)
 
 ### <a name="add-column"></a>Lisää sarake
 
 **Lisää sarake**: Sallii käyttäjän määrittää ruudukon näkyvät sarakkeet. Vain käyttövalmiit sarakkeet voidaan lisätä **Projektisuunnittelu**-lomakkeen ruudukoihin.
 
-![Lisää sarake -painike](media/navigation5.png)
+![Lisää sarake -painike.](media/navigation5.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

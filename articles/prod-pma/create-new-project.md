@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006237"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985947"
 ---
 # <a name="create-a-new-project"></a>Luo uusi projekti
 
@@ -51,7 +51,7 @@ Voit myös määrittää resurssille luokkia tarpeen mukaan. Luokan tyyppi on jo
 
 Projektipäällikkö voi luoda projektin edellyttämiä rooleja projektin resusointitoiminnon avulla. Rooleja voidaan käyttää, jos vahvistetut resurssit ovat vielä tuntemattomia, kun resursseja varataan. Roolit voidaan varata väliaikaisesti suunnitelluiksi resursseiksi, jotta voit jatkaa projektin suunnitteluvaiheita.
 
-[![Esimerkki roolista](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Esimerkki roolista.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Skenaario:** Contoso palkattiin suorittamaan Aika ja materiaalit -projekti, jolla on hyväksytty projektin perustamisasiakirja. Aliprojektipäällikkö määrittää edelleen projektin vaikutusaluetta. Resurssipäällikkö on tällä hetkellä määrittämässä erityisiä resursseja, jotka varataan työskentelemään uudessa projektissa. Projektin kriittisen luonteen vuoksi projektin rahoittaja pyysi projektipäällikköä yhdeksi rooleista. Resurssipäällikön täytyy hankkia uusi resurssi ja määrittää se järjestelmässä, jos aliprojektipäällikkö tarvitsee resurssin tiedot projektisuunnittelun aikana.
 

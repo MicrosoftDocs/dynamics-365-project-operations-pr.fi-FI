@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995482"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988557"
 ---
 # <a name="provision-a-new-environment"></a>Uuden ympäristön valmisteleminen
 
@@ -52,12 +52,12 @@ Käytä seuraavia vaiheita, kun haluat ottaa käyttöön Project Operationsin au
 
 6. Valitse käyttöönoton ympäristötyyppi. Tilauspohjaisen kokeiluversion avulla voit käyttää CDS-ympäristöä 30 päivän ajan. 
 
-![Käyttööntoton asetukset](./media/1DeploymentSettings.png)
+![Käyttööntoton asetukset.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Valitse **Hyväksy**, kun hyväksyt palveluehdot, ja palaa sitten käyttöönottoasetuksiin valitsemalla **Valmis**.
 
-![Käyttöönoton suostumus](./media/2DeploymentConsent.png)
+![Käyttöönoton suostumus.](./media/2DeploymentConsent.png)
 
 7. Valinnainen - Käytä esittelytietoja ympäristössä. Valitse **Lisäasetukset**, valitse **Mukauta SQL-tietokannan määrityksiä** ja aseta **Määritä sovellustietokannan tietojoukko** -asetukseksi **Esittely**.
 
@@ -67,7 +67,7 @@ Käytä seuraavia vaiheita, kun haluat ottaa käyttöön Project Operationsin au
 
 9. Voit varmistaa, että ympäristön käyttöönotto onnistui, valitsemalla **Kirjaudu sisään** ja kirjautumalla ympäristöön.
 
-![-ympäristön tiedot](./media/3EnvironmentDetails.png)
+![Ympäristön tiedot.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Ota päivitykset käyttöön Finance-ympäristössä
 
@@ -77,19 +77,19 @@ Sinun täytyy ehkä ottaa käyttöön laatupäivityksiä Finance-ympäristössä
 
 1. Valitse LCS:n **Ympäristön tiedot** -sivun **Saatavilla olevat päivitykset** -kohdassa **Näytä päivitys**.
 
-![Näytä päivitykset](./media/5ViewUpdates.png)
+![Näytä päivitykset.](./media/5ViewUpdates.png)
 
 2. Valitse **Binaaripäivitykset**-sivulla **Tallenna paketti.**
 
-![Tallenna paketti](./media/6SavePackage.png)
+![Tallenna paketti.](./media/6SavePackage.png)
 
 3. Valitse **Valitse kaikki** ja sitten **Tallenna paketti**.
 
-![Päivitysten tarkistaminen ja tallentaminen](./media/7ReviewAndSaveUpdates.png)
+![Päivitysten tarkistaminen ja tallentaminen.](./media/7ReviewAndSaveUpdates.png)
 
 4. Kirjoita paketin nimi ja kuvaus ja valitse sitten **Tallenna**. Internet-yhteydestä riippuen tämä prosessi voi kestää jonkin aikaa.
 
-![Lataa paketti Resurssit-kirjastoon](./media/8UploadPackageToAssetsLibrary.png)
+![Lataa paketti Resurssit-kirjastoon.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Kun paketti on tallennettu, valitse **Valmis** ja tallenna paketti LCS-projektin Resurssit-kirjastoon.
 
@@ -97,15 +97,15 @@ Paketin tallentaminen ja tarkistaminen voi kestää noin 15 minuuttia.
 
 6. Voit ottaa päivityksen käyttöön siirtymällä LCS:n **Ympäristön tiedot** -sivulle ja valitsemalla **Ylläpidä** > **Ota päivitykset käyttöön**.
 
-![Ympäristöjen ylläpito](./media/9MaintainEnvironment.png)
+![Ympäristöjen ylläpito.](./media/9MaintainEnvironment.png)
 
 7. Valitse päivitysluettelosta luomasi paketti ja valitse sitten **Käytä**.
 
-![Päivitysten ottaminen käyttöön](./media/10ApplyUpdates.png)
+![Päivitysten ottaminen käyttöön.](./media/10ApplyUpdates.png)
 
 Ympäristön huolto kestää jonkin aikaa. Kun ympäristö on valmis, se palaa käyttöön otettuun tilaan.
 
-![Ympäristö otettu käyttöön](./media/11EnvironmentDeployed.png)
+![Ympäristö otettu käyttöön.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Kaksinkertaisen kirjoituksen yhteyden muodostaminen 
 
@@ -113,41 +113,41 @@ Ympäristön huolto kestää jonkin aikaa. Kun ympäristö on valmis, se palaa k
 2. **Common Data Service -ympäristön tiedot** -kohdassa **Linkitä CDS for Appsiin**.
 3. Kun linkki on valmis, valitse uudelleen **Linkitä CDS for Appsiin**. Sinut ohjataan Financen kaksoiskirjoitukseen.
 
-![Linkitä CDS:ään](./media/12LinktoCDS.png)
+![Linkitä CDS:ään.](./media/12LinktoCDS.png)
 
 4. Valitse **Käytä ratkaisua**, kun haluat käyttää entiteettejä, jotkan yhdistetään integrointiin.
 
-![Ota ratkaisut käyttöön](./media/13ApplySolutions.png)
+![Ota ratkaisut käyttöön.](./media/13ApplySolutions.png)
 
 5. Valitse molemmat ratkaisut, **Dynamics 365 Finance and Operations Kaksoiskirjoitusentiteetin yhdistämismääritys** ja **Dynamics 365 Project Operations Kaksoiskirjoitusentiteettien yhdistämismääritykset** ja valitse sitten **Käytä**.
 
-![Ratkaisujen vahvistaminen](./media/14ConfirmSolutions.png)
+![Ratkaisujen vahvistaminen.](./media/14ConfirmSolutions.png)
 
 Kun ratkaisut on otettu käyttöön, kaksoiskirjoituskohteet otetaan käyttöön ympäristössä.
 
-![Ratkaisujen käyttöönotto](./media/15ApplyingSolutions.png)
+![Ratkaisujen käyttöönotto.](./media/15ApplyingSolutions.png)
 
 Kun entiteetit otetaan käyttöön, kaikki käytettävissä olevat yhdistämismääritykset näkyvät ympäristössä.
 
-![Kaksoiskirjoituksen yhdistämismääritykset](./media/15DWMappings.png)
+![Kaksoiskirjoituksen yhdistämismääritykset.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Päivitä tietoentiteetit päivityksen jälkeen
 
 1. Siirry Financessa **Tietojen hallinta** -työtilaan.
 
-![Tietojen hallinnan työtila](./media/16DataManagement.png)
+![Tietojen hallinnan työtila.](./media/16DataManagement.png)
 
 2. Valitse **Kehyksen parametrit** -ruutu.
 
-![Kehyksen parametrit](./media/17FrameworkParameters.png)
+![Kehyksen parametrit.](./media/17FrameworkParameters.png)
 
 3. Valitse **Entiteetin asetukset** -sivulla **Päivitä entiteettiluettelo**.
 
-![Päivitä entiteettiluettelo](./media/18RefreshEntityList.png)
+![Päivitä entiteettiluettelo.](./media/18RefreshEntityList.png)
 
 Päivitys kestää noin 20 minuuttia. Saat ilmoituksen, kun se on valmis.
 
-![Päivityksen vahvistus](./media/19RefreshConfirmation.png)
+![Päivityksen vahvistus.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Suojausasetusten päivittäminen Dataversen Project Operationsissa
 
@@ -188,17 +188,17 @@ Päivitys kestää noin 20 minuuttia. Saat ilmoituksen, kun se on valmis.
 4. Jos haluat päivittää entiteetin, valitse yhdistämismäärityksen nimi ja valitse sitten **Päivitä entiteetit**. 
 
 
-![Päivitä yhdistämismääritys](./media/20RefreshMapping.png)
+![Päivitä yhdistämismääritys.](./media/20RefreshMapping.png)
 
 5. Suorita yhdistämismääritys, kun päivitys on valmis. Ennen kuin otat seuraavan yhdistämismäärityksen käyttöön, tarkista, että taulukon yhdistämismääritys on tilassa **Käynnissä**. Sellaisten yhdistämismääritysten suorittaminen, joissa on paljon edellytyksiä, voi kestää jonkin aikaa.
 
 Jos haluat suorittaa yhdistämismääritys ja edellytykset, ota käyttöön **Näytä liittyvät entiteetin yhdistämismääritykset** -valintapainike. Jos taulukko osoittaa **Edellytyksen ensimmäinen synkronointi** -kohdaas arvo **Ei**, tarkista, että **Ensimmäinen synkronointi** -merkintä on **Ei käytössä** kaikissa edellytysyhdistämismäärityksissä, ennen kuin suoritat sen.
 
-![Suorita yhdistämismääritys](./media/21RunMap.png)
+![Suorita yhdistämismääritys.](./media/21RunMap.png)
 
 6. Tarkista, että kaikki projektiin liittyvät yhdistämismääritykset ovat Käynnissä-tilassa.
 
-![Kaikki yhdistämismääritykset käynnissä](./media/22AllMapsRunning.png)
+![Kaikki yhdistämismääritykset käynnissä.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Määritystietojen ottaminen käyttöön Project Operationsin CDS:ssä (valinnainen)

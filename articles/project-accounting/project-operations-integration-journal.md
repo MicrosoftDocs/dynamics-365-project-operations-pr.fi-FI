@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304252"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987927"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operationsin integroinnin kirjauskansio
 
@@ -19,7 +19,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 Aika- ja kulumerkinnät luovat **todellisia** tapahtumia, ja nämä tapahtumat ovat operatiivinen näkymä projektin perusteella suoritetusta työstä. Dynamics 365 Project Operationsin avulla kirjanpitäjät saavat työkalun, jolla he voivat tarkistaa tapahtumia ja oikaista kirjanpitomääritteitä tarvittaessa. Kun tarkistus ja oikaisut on tehty, tapahtumat kirjataan projektin alakirjanpitoon ja pääkirjanpitoon. Kirjanpitäjä voi tehdä näitä toimintoja **Project Operationsin integroinnin** kirjauskansiossa (**Dynamics 365 Finance** > **Projektinhallinta ja kirjanpito** > **Kirjauskansiot** > **Project Operationsin integroinnin** kirjauskansio.
 
-![Työnkulku integroinnin kirjauskansiossa](./media/IntegrationJournal.png)
+![Työnkulku integroinnin kirjauskansiossa.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Tietueiden luominen Project Operationsin integroinnin kirjauskansiossa
 

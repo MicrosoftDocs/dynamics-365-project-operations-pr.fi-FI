@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0eebafe8b4ce54c6ad6ca64200caea8fa414f6cf
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3ca48b8d5d55b1b2178f9bd84e19d9599f057aa296a728cca57577c18fdaf307
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007542"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985767"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Mukautettujen kenttien lisääminen hinta- ja tapahtumaentiteetteihin 
 
@@ -47,7 +47,7 @@ Kun mukautettu hinnoitteludimensio perustuu asetusjoukkoon, lisää se kenttän�
 > [!IMPORTANT]
 > Kun lisäät kentän useisiin entiteetteihin, käytä niissä kaikissa samaa kentän nimeä. 
 
-> ![Resurssin työn sijainnin lisääminen Roolin hintaan](media/RWL-Field.png)
+> ![Resurssin työn sijainnin lisääminen Roolin hintaan.](media/RWL-Field.png)
 
 Projektin myynti- ja arviointivaiheissa arvioita työmäärästä, joka tarvitaan töiden **Paikallinen** ja **Asiakkaan tiloissa** suorittamiseen arvoissa **Tavalliset työtunnit** ja **Ylityötunnit**, käytetään tarjouksen/projektin arvon arviointiin. Kentät **Resurssin työn sijainti** ja **Resurssin työtunnit** lisätään arviointientiteetteihin **Tarjousrivin tiedot**, **Sopimusrivin tiedot**, **Projektitehtävä**, **Projektiryhmän jäsen** ja **Arviorivi**.
 
@@ -59,7 +59,7 @@ Projektin myynti- ja arviointivaiheissa arvioita työmäärästä, joka tarvitaa
 6. Toista vaiheet 1–5 lisätäksesi tämän kentän entiteetteihin **Projektin sopimusrivin tiedot**, **Projektitehtävä**, **Projektiryhmän jäsen** ja **Arviorivi**.
 7. Toista vaiheet 1–6 **Resurssin työtunnit** -asetusjoukon osalta. 
 
-> ![Resurssin työn sijainnin lisääminen Arvioriviin](media/RWL-Default-Value.png)
+> ![Resurssin työn sijainnin lisääminen Arvioriviin.](media/RWL-Default-Value.png)
 
 
 Toimitusta ja laskutusta varten suoritettu työ on hinnoiteltava oikein, jotta projektin todellisissa arvoissa voidaan valita suoritettiinko se arvolla **Paikallinen** vai **Asiakkaan tiloissa** ja arvolla **Tavalliset työtunnit** vai **Ylityötunnit**. Kentät **Resurssin työn sijainti** ja **Resurssin työtunnit** pitäisi lisätä entiteetteihin **Aikamerkintä**, **Todellinen arvo**, **Laskurivin tiedot** ja **Kirjauskansion rivi**.
@@ -72,7 +72,7 @@ Toimitusta ja laskutusta varten suoritettu työ on hinnoiteltava oikein, jotta p
 6. Toista vaiheet 1–5 lisätäksesi tämän kentän entiteetteihin **Todellinen arvo**, **Laskurivin tiedot** ja **Kirjauskansion rivi**.
 7. Toista vaiheet 1–6 **Resurssin työtunnit** -asetusjoukon osalta. 
 
-> ![Resurssin työn sijainnin lisääminen Aikamerkintään](media/RWL-time-entry.png)
+> ![Resurssin työn sijainnin lisääminen Aikamerkintään.](media/RWL-time-entry.png)
 
 Tämä täydentää asetusjoukkoperusteisiin mukautettuihin dimensioihin vaadittavat rakennemuutokset.
 
@@ -85,7 +85,7 @@ Kun mukautettu hinnoitteludimensio on entiteetti, lisäät 1:N-suhteita dimensio
 3. Laajenna entiteetti **Vakionimike** ja valitse **1:N-suhteet**.
 4. Napsauta **Uusi** luodaksesi uuden 1:N-suhteen nimellä **Vakionimikkeestä Varattavissa olevaan resurssiin**. Syötä tarvittavat tiedot ja napsauta **Tallenna**.
 
-> ![Vakionimikkeen lisääminen viitekentäksi Varattavissa olevaan resurssiin](media/ST-BR.png)
+> ![Vakionimikkeen lisääminen viitekentäksi Varattavissa olevaan resurssiin.](media/ST-BR.png)
 
 Vakionimike on lisättävä myös Project Servicen hinnoitteluentiteetteihin **Roolin hinta** ja **Roolin hinnankorotus**. Tämä toteutetaan myös käyttämällä 1:N-suhteita entiteettien **Vakionimike** ja **Roolihinta** ja entiteettien **Vakionimike** ja **Roolin hinnankorotus** välillä.
 
@@ -104,13 +104,13 @@ Projektin myynti- ja arviointivaiheissa tarjouksen/projektin hinnoittelua varten
 
 5. Toista vaiheet 1–5 luodaksesi 1:n-suhteita arvosta **Vakionimike** entiteetteihin **Tarjousrivin tiedot**, **Projektin sopimusrivin tiedot**, **Projektitehtävä**, **Projektiryhmän jäsen** ja **Arviorivi**.
 
-> ![Vakionimikkeen lisääminen viitekentäksi Arvioriviin](media/ST-Estimate-Line.png)
+> ![Vakionimikkeen lisääminen viitekentäksi Arvioriviin.](media/ST-Estimate-Line.png)
 
 Toimitus- ja laskutusvaiheissa kunkin vakionimikkeen suorittama työ on hinnoiteltava oikein projektin todellisissa arvoissa. Tämä tarkoittaa, että tarvitaan 1:N-suhteita arvosta **Vakionimike** entiteetteihin **Aikamerkintä**, **Todellinen arvo**, **Laskurivin tiedot** ja **Kirjauskansion rivi**.
 
 6. Toista vaiheet 1–6 luodaksesi 1:N-suhteita arvosta **Vakionimike** entiteetteihin **Aikamerkintä**, **Todellinen arvo**, **Laskurivin tiedot** ja **Kirjauskansion rivi**.
 
-> ![Vakionimikkeen lisääminen viitekentäksi Aikamerkintään](media/ST-Mapping.png)
+> ![Vakionimikkeen lisääminen viitekentäksi Aikamerkintään.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Dimension arvon vakioinnin määritys ympäristön yhdistämismääritystoimintojen avulla
 Aikamäärityksen osalta olisi hyödyllistä, jos järjestelmä hakee aikamerkinnän vakionimikkeen oletusarvon aikamerkinnän tekevästä varattavissa olevasta resurssista. Noudata seuraavia vaiheita lisätäksesi kenttien yhdistämismäärityksiä 1:N-suhteeseen arvosta **Varattavissa oleva resurssi** arvoon **Aikamerkintä**.
@@ -120,7 +120,7 @@ Aikamäärityksen osalta olisi hyödyllistä, jos järjestelmä hakee aikamerkin
 3. Kaksoisnapsauta **Varattavissa olevasta resurssista Aikamerkintään**. Napsauta **Suhde**-sivulla **Käytä kenttien yhdistämismäärityksiä**. 
 4. Napsauta **Uusi** luodaksesi uuden kenttien yhdistämismäärityksen **Varattavissa oleva resurssi** -entiteetin **Vakionimike**-kentän ja **Aikamerkintä**-entiteetin **Vakionimike**-viitekentän välille. 
 
-> ![Kenttien yhdistämismääritysten luominen sen mahdollistamiseksi, että kentän Vakionimike oletusarvoiseksi yhdistämismääritykseksi otetaan Varattavissa olevasta resurssista Aikamerkintään](media/ST-Mapping2.png)
+> ![Kenttien yhdistämismääritysten luominen sen mahdollistamiseksi, että kentän Vakionimike oletusarvoiseksi yhdistämismääritykseksi otetaan Varattavissa olevasta resurssista Aikamerkintään.](media/ST-Mapping2.png)
 
 
 Tämä täydentää entiteettiperusteisiin mukautettuihin dimensioihin vaadittavat rakennemuutokset.

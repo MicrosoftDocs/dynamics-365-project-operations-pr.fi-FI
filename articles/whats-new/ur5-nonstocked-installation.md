@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011052"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986757"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Project Operationsin päivittäminen Finance-ympäristössä
 
@@ -33,7 +33,7 @@ Tässä aiheessa on tietoja Dynamics 365 Project Operationsin päivittämisestä
 4. Tarkista, että ympäristö on käytössä. Jos sitä ei ole käynnistetty, käynnistä ympäristö.
 5. Valitse **Saatavilla olevat päivitukset** -kohdan alla olevasta **Uusi versio** -kohdasta **Näytä päivitys** versiolle 10.0.15.
 
-![Näytä päivitys -painike](media/view-update.png)
+![Näytä päivitys -painike.](media/view-update.png)
 
 6. Valitse **Binaaripäivitykset**-sivulla **Tallenna paketti**.
 7. Valitse **Tarkista ja tallenna päivitykset**-sivulla **Tallenna paketti**.
@@ -47,11 +47,11 @@ Tässä aiheessa on tietoja Dynamics 365 Project Operationsin päivittämisestä
 2. Valitse luettelosta aiemmin tallennettu paketti ja valitse sitten **Käytä**.
 3. Vahvista paketin käyttöönotto valitsemalla **Kyllä**.
 
-![Vahvista paketin käyttöönotto -valintaikkuna](media/confirm-package-deployment.png)
+![Vahvista paketin käyttöönotto -valintaikkuna.](media/confirm-package-deployment.png)
 
 4. Vahvista sovelluksen päivitys valitsemalla **Kyllä**.
 
-![Vahvista sovelluksen päivitys -valintaikkuna](media/confirm-application-update.png)
+![Vahvista sovelluksen päivitys -valintaikkuna.](media/confirm-application-update.png)
 
 Käyttöönotto ja sovelluspäivitys käynnistyy. 
 
@@ -84,7 +84,7 @@ UR5-päivityksessä tarvitaan seuraavat entiteettien suojausoikeuksien päivityk
 
 1. Valitse Dataverse-ympäristössä **Asetukset** ja valitse sitten **Järjestelmä**-ryhmästä **Suojaus**.
 
-![Dataverse -ympäristön asetukset](media/Picture21.png)
+![Dataversen ympäristöasetukset.](media/Picture21.png)
 
 2. **Käyttöoikeusroolien** valitseminen
 3. Valitse rooliluettelosta **kaksoiskirjoitussovelluksen käyttäjä** ja valitse **Mukautetut entiteetit** -välilehti. 
@@ -121,7 +121,7 @@ UR5-päivityksessä tarvitaan seuraavat entiteettien suojausoikeuksien päivityk
 6. Valitse määritysluettelosta **Tapahtumarekisteri (msdyn_ledgers)** -määritys ja kaikki edellytykset ja valitse sitten **Ensimmäinen synkronointi** -valintaruutu. 
 7. Valitse **Ensimmäisen synkronoinnin pääkohde** -kentässä **Finance and Operations -sovellukset** ja valitse sitten **Suorita**.
  
- ![Kirjanpitomäärityksen synkronointi](media/DW6.png)
+ ![Kirjanpitomäärityksen synkronointi.](media/DW6.png)
  
 
 

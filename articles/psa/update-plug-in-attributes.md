@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012807"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988782"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Päivitä laajennusmääritteet sisältämään uudet hinnoitteludimensiot
 
@@ -42,25 +42,25 @@ Seuraavissa vaiheissa selitetään, miten laajennukset rekisteröidään.
 1. Avaa **PluginRegistrationTool** ja muodosta yhteys online-ilmentymään.
 2. Napauta **Hae** ja etsi päivitettävä laajennus.
 
- ![Kuvakaappaus hakupuusta](media/PRT-1.png)
+ ![Kuvakaappaus hakupuusta.](media/PRT-1.png)
 
 3. Kun laajennus löytyy, valitse se ja napauta sitten **Valitse päälomakkeessa**.
 
 4. Valitse päivitettävän laajennuksen vaihe, napsauta hiiren kakkospainiketta ja valitse sitten **Päivitä**.
 
- ![Päivitettävän laajennuksen kuvakaappaus](media/PRT-2.png)
+ ![Päivitettävän laajennuksen kuvakaappaus.](media/PRT-2.png)
  
 5. Napauta päivitysikkunassa painiketta, jossa on kolme pistettä (**...**) suodatusmääritteissä.
 
- ![Kuvakaappaus määrittelytiedoista Nykyisen vaiheen päivittämiselle](media/PRT-3.png)
+ ![Kuvakaappaus määrittelytiedoista Nykyisen vaiheen päivittämiselle.](media/PRT-3.png)
  
 6. Valitse hinnoittelumääritteiden valintaruudut.
 
- ![Kuvakaappaus, jossa valintaruutu valitaan hinnoittelumääritteille](media/PRT-4.png)
+ ![Kuvakaappaus, jossa valintaruutu valitaan hinnoittelumääritteille.](media/PRT-4.png)
 
 7. Napauta **OK** sulkeaksesi sivun ja valites sitten **Päivitysvaihe**.
 
- ![Kuvakaappaus, jossa näkyy "Päivitysvaihe"-painike](media/PRT-5.png)
+ ![Kuvakaappaus, jossa näkyy "Päivitysvaihe"-painike.](media/PRT-5.png)
  
 8. Toista tämä prosessi toiselle laajennukselle **PreOperationQuoteLineDetail - Päivitä msdyn_quotelinetransaction**.
 
