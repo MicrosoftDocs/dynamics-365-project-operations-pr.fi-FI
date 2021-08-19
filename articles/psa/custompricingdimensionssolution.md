@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012312"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995262"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Mukautettujen ratkaisujen luominen hinnoitteludimensioille
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012312"
 1. Valitse **Asetukset** > **Ratkaisut** ja valitse sitten **Uusi**. 
 2. Anna ratkaisulle nimeksi **organisaation \<your organization name> hinnoitteludimensiot**, anna muut tarvittavat tiedot ja valitse **Tallenna**.
 
-> ![Mukautetun ratkaisun luominen hinnoitteludimensioille](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Mukautetun ratkaisun luominen hinnoitteludimensioille.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Kaikkien tarvittavien entiteettien ja niihin liittyvien komponenttien lisääminen hinnoitteludimensioratkaisuun
 Sinun on lisättävä seuraavat Project Service -entiteetit hinnoitteluratkaisuusi. Tämän toimintosarjan vaiheet suorittamalla voit tehdä tärkeitä rakennemuutoksia hinnoitteluratkaisuun, jotta entiteetit ottavat uudet hinnoitteludimensiot huomioon.
@@ -54,9 +54,9 @@ Sinun on lisättävä seuraavat Project Service -entiteetit hinnoitteluratkaisuu
 - Roolin hinta 
 - Aikamerkintä 
 
-> ![Aiemmin luotujen entiteettien lisääminen hinnoitteludimensioratkaisuun](media/Existing-entities-to-PD-solution.png)
+> ![Aiemmin luotujen entiteettien lisääminen hinnoitteludimensioratkaisuun.](media/Existing-entities-to-PD-solution.png)
 
-> ![Valitse ratkaisun osat](media/Dimension-Components.png)
+> ![Valitse ratkaisun osat.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Varmista, että lisäät kaikkien valittujen entiteettien kaikki lomakkeet ja näkymät.

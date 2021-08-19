@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008892"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995127"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Täsmäytä varaukset ja tehtävät
 
@@ -51,11 +51,11 @@ Joissakin tapauksissa, kun **Aikajana**-kenttä on asetettu korkeammalle tasolle
 
 Korkeammilla aikatasoilla tarkasteltaessa **Tasmäytys**-välilehti näyttää soluilmaisimen, joka ilmoittaa, että alemmilla aikatasoilla on eroja. Esimerkiksi seuraavassa kuvassa solun ilmaisin näkyy 2018 lokakuun solussa resurssille nimeltä Liisa Järvinen. Siten on nähtävissä, että vaikka resurssin varaukset ja kohdennukset ovat yhtä suuria, kun ne kootaan **Kuukauden** tasolla, ne eivät täsmää alemmilla tasoilla.
 
-![Varaukset ja tehtävät eivät täsmää kuukausitasolla](media/reconcile-assignments-01.JPG)
+![Varaukset ja tehtävät eivät täsmää kuukausitasolla.](media/reconcile-assignments-01.JPG)
 
 Kaksoisnapsauttamalla solua voit lähentää seuraavalle alemmalle tasolle ja tarkastella eroa. Esimerkiksi jos kaksoisnapsautat lokakuun 2018 eroa Liisa Järviselle, poraudut alas **Viikko**-tasolle. Tämän jälkeen on nähtävissä, että resurssilla on 16 tuntia varauksia mutta ei kohdennuksia lokakuun kahden ensimmäisen viikon aikana ja 16 tuntia kohdennuksia, mutta ei varauksia lokakuun kolmannella viikolla.
 
-![Varaukset ja tehtävät eivät täsmää viikkotasolla](media/reconcile-assignments-02.JPG)
+![Varaukset ja tehtävät eivät täsmää viikkotasolla.](media/reconcile-assignments-02.JPG)
 
 Voit loitontaa seuraavaa ylemmälle tasolle napsauttamalla solua hiiren kakkospainikkeella. Voit myös poistaa solun ilmaisimen käytöstä valitsemalla **Asetukset**-painikkeen. 
 
@@ -68,13 +68,13 @@ Jotta voidaan varmistaa tarkat ja ennakoitavat tulokset, kun käytetään Laajen
 
 - Käyttäjän on määritettävä laitteen aikavyöhyke vastaamaan järjestelmän mukautusasetuksissa määritettyä aikavyöhykettä.
  
-  ![Aikavyöhykeasetukset Windows 10:ssä](media/reconcile-assignments-03.png)
+  ![Aikavyöhykeasetukset Windows 10:ssä.](media/reconcile-assignments-03.png)
 
-  ![Aikavyöhykeasetukset mukautusasetuksissa](media/reconcile-assignments-04.png)
+  ![Aikavyöhykeasetukset mukautusasetuksissa.](media/reconcile-assignments-04.png)
  
 - Varattavissa olevalla resurssilla on oltava vähintään yksi minuutti työaikaa, joka on päällekkäinen pyydetyn laajennuksen määrittämiseen käytettävien tietojen kanssa. Seuraavassa on esimerkiksi tarkistusresurssit, joiden työaika on 9.00–19.00. 
 
-  ![Resurssien muotojen vertailu](media/reconcile-assignments-05.png)
+  ![Resurssien muotojen vertailu.](media/reconcile-assignments-05.png)
 
 Seuraavassa taulukossa näkyy:
 
@@ -83,22 +83,22 @@ Seuraavassa taulukossa näkyy:
 - Resurssi B: Tämä resurssi sijaitsee eri aikavyöhykkeellä kuin projekti, ja resurssi aloittaa klo 7.00 omalla aikavyöhykkeellään. Varaukset alkavat kuitenkin alkaen klo 9.00, koska se on määritysmallin varhaisin alkamisaika.
 - Resurssit C ja D: Resurssit sijaitsevat myös eri aikavyöhykkeillä, jotka eroavat toisistaan ja projektista, ja niiden varaukset alkavat aikaisintaan niiden käytettävissä olevan alkamisajan mukaan.
 
-|Entiteetti  |Kalenteri  |
+|Entity  |Kalenteri  |
 |-|-|
-|Projektin kalenterimalli   | ![projektikalenteri](media/reconcile-assignments-06.png) |
-|Resurssi A  | ![Resurssin A kalenteri](media/reconcile-assignments-06.png) |
-|Resurssi B  |  ![Resurssin B kalenteri](media/reconcile-assignments-07.png) |
-|Resurssi C  |  ![Resurssin C kalenteri](media/reconcile-assignments-08.png) |
-|Resurssi D  | ![Resurssin D kalenteri](media/reconcile-assignments-09.png)  |
+|Projektin kalenterimalli   | ![projektikalenteri.](media/reconcile-assignments-06.png) |
+|Resurssi A  | ![Resurssin A kalenteri.](media/reconcile-assignments-06.png) |
+|Resurssi B  |  ![Resurssin B kalenteri.](media/reconcile-assignments-07.png) |
+|Resurssi C  |  ![Resurssin C kalenteri.](media/reconcile-assignments-08.png) |
+|Resurssi D  | ![Resurssin D kalenteri.](media/reconcile-assignments-09.png)  |
  
 Kun siirryt täsmäytysnäkymään, resurssivaraukset ja niihin liittyvät varauspuutteet tulevat näkyviin.
- ![Täsmäytysnäkymä ennen laajentamista](media/reconcile-assignments-10.png)
+ ![Täsmäytysnäkymä ennen laajentamista.](media/reconcile-assignments-10.png)
 
 Kun Laajenna varausta -toiminto on suoritettu jokaisessa resurssissa, varauksia on laajennettu kullekin resurssille. Tämä johtuu siitä, että kunkin resurssin työaika on päällekkäinen tarpeen rajojen kanssa.
- ![Täsmäytysnäkymä varauksen laajentamisen jälkeen](media/reconcile-assignments-11.png) 
+ ![Täsmäytysnäkymä varauksen laajentamisen jälkeen.](media/reconcile-assignments-11.png) 
 
 Varauksen yksityiskohdissa huomataan kuitenkin eroja varasuten aloitusajoissa. Varaukset alkavat aikaisintaan varauksen rajojen alkamishetkellä ja aikaisintaan resurssin käytettävissä olevana alkamisaikana.
- ![Resurssien uudet varaukset aikataulutaulukossa](media/reconcile-assignments-12.png)
+ ![Resurssien uudet varaukset aikataulutaulukossa.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

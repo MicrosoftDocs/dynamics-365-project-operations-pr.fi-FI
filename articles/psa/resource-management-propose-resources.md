@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997957"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995037"
 ---
 # <a name="propose-project-resources"></a>Projektiresurssien ehdottaminen
 
@@ -32,13 +32,13 @@ Resurssipäälliköt voivat ehdottaa resurssia projektipäällikölle resurssipy
 1. Valitse pyyntöruudukosta tai itse pyynnöstä **Etsi resursseja**.
 2. Valitse resurssi **Aikatauluavustaja**-sivulta, ja valitse sen jälkeen **Luo resurssivaraus** -ruudusta **Varaustila**-kentästä **Varaa**.
 
-    ![Ehdotettu resurssi valittu](media/Resource-Management-image62.png)
+    ![Ehdotettu resurssi valittu.](media/Resource-Management-image62.png)
 
 Seuraavat tilapäivitykset toteutuvat:
 
 - **Aikatauluavustaja** -sivulla tilailmaisimet päivittyvät ilmaisemaan, että varaus on ehdotettu eikä sitova.
 
-    ![Ehdotetun varauksen tilailmaisimet Aikatauluavustaja -sivulla](media/Resource-Management-image63.png)
+    ![Ehdotetun varauksen tilailmaisimet Aikatauluavustaja -sivulla.](media/Resource-Management-image63.png)
 
 - Resurssipyynnössä tilaksi vaihtuu **Tarvitsee tarkistusta**.
 
@@ -70,7 +70,7 @@ Käytön laskennassa käytetään seuraavia kaavoja:
 
 **Resurssien käyttöaste** -näkymä on **Resurssit**-ruudussa.
 
-![Resurssien käyttöaste -näkymä](media/Resource-Management-image65.png)
+![Resurssin käytetyn ajan näkymä.](media/Resource-Management-image65.png)
 
 Kukin ruudukon solu kuvaa resurssin laskutettavaa käyttöprosenttia kauden, esimerkiksi päivän, viikon tai kuukauden, aikana. Solujen värittämiseen käytetään seuraavia kaavoja:
 
@@ -84,7 +84,7 @@ Ruudukko edellyttää, että määrität kohteen käytön joko roolille tai yksi
 
 Lisäksi jokaiselle varattavissa olevalle resurssille on määritettävä oletusrooli. Siirry kohtaan **Resurssit** \> **Resurssit**. Varmista **Project Service**-välilehdellä, että resurssin rooli on määritetty, ja että **Onko oletus** -kentän arvo on **Kyllä**. Voit llisätä muita rooleja, joiden **Onko oletus = Ei**. Roolia, jossa **Onko oletus = Kyllä** käytetään määrittämään resurssin käyttöaste tavoitteen mukaisesti.
 
-![Oletusrooli asetettu](media/Resource-Management-image67.png)
+![Oletusrooli asetettu.](media/Resource-Management-image67.png)
 
 **Project Service** -välilehdellä voit myös määrittää yksittäisen tavoitekäytön resurssille. Käytön laskenta käyttää sen jälkeen tätä tavoitekäyttöastetta määrittääkseen resurssin tavoitteen resurssin oletusroolin tavoitteen asemesta.
 
@@ -96,21 +96,21 @@ On tärkeää, että resurssipäälliköt voivat tarkastella resurssien saatavuu
 
 Resurssin työaikaa käytetään perusteena resurssin saatavuuden laskennassa. Resurssivaraukset kuluttavat resurssien kapasiteettia.
 
-![Aikataulutaulukko](media/Resource-Management-image68.png)
+![Schedule-board.](media/Resource-Management-image68.png)
 
 Aikataulutaulukko käyttää värejä ja varjostusta, kun se näyttää varauksia, saatavuutta ja ylivarauksia sekä varausten tilan. Aikataulutaulukon asetusten avulla voit näyttää selitteen.
 
 Jos yksittäisen varattavan resurssin vieressä näkyy oikealle osoittava nuoli aikataulutaulukossa, resurssi voidaan laajentaa niin, että siinä näkyvät sen työn tiedot, johon resurssi on varattu.
 
-![Varattava resurssi laajennettuna aikataulutaulukossa](media/Resource-Management-image69.png)
+![Varattava resurssi laajennettuna aikataulutaulukossa.](media/Resource-Management-image69.png)
 
 Koska Dynamics 365 Project Service Automation käyttää Universal Resource Scheduling -moottoria, jos sinulla on myös Dynamics 365 Field Service asennettuna,voit katsella resurssivarausten tietoja projekteille, työtilauksille ja mille tahansa muille kohteille, joihin olet laajentanut aikatauluttamisen.
 
-![Projektien ja työtilausten resurssivarausten tiedot](media/Resource-Management-image70.png)
+![Projektien ja työtilausten resurssivarausten tiedot.](media/Resource-Management-image70.png)
 
 Jos haluat tarkastella lisätietoja yksittäisestä resurssista, avaa resurssikortti napsauttamalla sitä hiiren kakkospainikkeella.
 
-![Resurssikortti](media/Resource-Management-image71.png)
+![Resurssikortti.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
