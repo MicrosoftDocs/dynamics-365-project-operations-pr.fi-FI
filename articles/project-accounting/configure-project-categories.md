@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995167"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997107"
 ---
 # <a name="configure-project-categories"></a>Projektiluokkien määrittäminen
 
@@ -23,7 +23,7 @@ Seuraavassa kaaviossa on kuvattu tapahtumaluokkien, jaettujen luokkien ja projek
 
 Tapahtumaluokat ovat projektitapahtumien perusryhmittely. Kyseisessä ryhmittelyssä on joukko jaettuja luokkia, jotka voidaan jakaa eri sovelluksissa ja moduuleissa. Tarkemmalla tasolla projektiluokat ovat kaikkein täsmällisimpiä luokkia. Projektiluokat ovat yritys-, moduuli- ja sovelluskohtaisia.
 
-![Tapahtumaluokkien, jaettujen luokkien ja projektiluokkien väliset vastaavuudet](media/project-categories.png)
+![Tapahtumaluokkien, jaettujen luokkien ja projektiluokkien väliset vastaavuudet.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Tapahtumaluokat
 

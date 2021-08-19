@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002772"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995802"
 ---
 # <a name="intercompany-invoicing"></a>Konsernin sisäinen laskutus
 
@@ -33,7 +33,7 @@ Organisaatiolla voi olla useita osastoja, tytäryhtiöitä ja muita juridisia ko
 
 Seuraavassa kuvassa on tyypillinen skenaario, jossa kaksi yritystä, SI FR (lainauksen tekevä yritys) ja SI USA (lainaava yritys) jakavat resursseja asiakkaan A projektin toimittamiseksi. Tässä skenaariossa SI FR toimittaa työn asiakkaalle A. 
 
-[![Konsernin sisäinen laskutusesimerkki](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Konsernin sisäinen laskutusesimerkki.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Tavoitteena on helpottaa konserniyritysten välisten projektitapahtumien kustannusten hallintaa, tuottojen tunnustamista, veroja ja siirtohintaa. Lisäksi käytettävissä ovat seuraavat ominaisuudet:
 

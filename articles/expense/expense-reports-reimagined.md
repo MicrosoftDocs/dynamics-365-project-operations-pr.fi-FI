@@ -2,7 +2,7 @@
 title: Uudistetut matkalaskut
 description: Tässä aiheessa selitetään kuluraporttien merkinnän uudistettu kokemus.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251000"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997827"
 ---
 # <a name="expense-reports-reimagined"></a>Uudistetut matkalaskut
 
@@ -57,12 +57,13 @@ Voit ottaa uuden käyttökokemuksen käyttöön **Ominaisuuksien hallinta** -ty�
 | Vaihtokurssilaskin | Lisätään valuuttakurssilaskin, jonka avulla voit laskea käteisellä maksettujen monivaluuttatapahtumien valuuttakursseja. |
 | Tallenna ja lisää uusia kulurivejä | **Tallenna**- ja **Uusi**-painikkeet ovat käytettävissä, kun uusia kuluja syötetään, joten voit nopeasti syöttää kulurivejä. |
 | Parempi näkyvyys jaetuille ja eritellyille riveille | Eritellyt ja jaetut rivit lisätään suoraan kululuetteloon näkyvyyden lisäämiseksi, ja niiden avulla voit helposti selvittää, onko virheitä. |
-| Eriteltyjen rivien aliluokan tietojen tarkasteleminen | Pääkulun eritellyissä riveissä näkyvät kuluraportin alaluokkien otsikot, mikä auttaa tarkistamaan rakeiset tiedot yhdellä silmäyksellä.|
+| Eriteltyjen rivien aliluokan tietojen tarkasteleminen | Pääkulujen eritellyillä riveillä näkyy kuluraportin alaluokkien tunnisteet. Erittelyn avulla voit tarkastella hajautettuja tietoja yhdellä silmäyksellä.|
 | Näytä kuitit erittelyn aikana | Kuitit voidaan näyttää erittelyn aikana. |
 | Käteisennakon valinta | Valitse vähintään yksi käteisennakko yhden kulutapahtuman täyttämiseksi. |
 | Käteisennakon saldo | Tarkista käteisennakon saldo reaaliajassa, kun luot kulutapahtuman hyväksyttyjä ja maksettuja käteisennakoita vastaan. |
 
 Alkuperäinen julkaisu keskittyy kulujen syöttämisen skenaarioihin. Kuluraporttien tarkistus- tai hyväksyntäskenaario jatkaa aiemmin luodun kulun syöttösivun käyttämistä.
+
 
 Seuraavia ominaisuuksia ei tueta Kuluraporttien uudelleen suunnitellussa työtilassa, mutta ne ovat suunnitelmissa tulevia julkaisuja varten: 
 

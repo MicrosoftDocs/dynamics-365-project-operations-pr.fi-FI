@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368877"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998457"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Hinnoittelu- ja kustannusdimensioiden aloitussivu
 
@@ -41,7 +41,7 @@ Kun otetaan huomioon näiden töiden ja työn suorittamiseen tarvittavien henkil
 
 PSA sisältää oletusjoukon hinnoitteludimensioita. Niitä voi tarkastella siirtymällä kohtaan **Project Service** > **Parametrit**. Varmista parametritietueen **Summaperusteiset hinnoitteludimensiot** -välilehdellä, että roolin **msdyn_resourcecategory** ja resursoivan organisaatioyksikön **msdyn_organizationalunit** kenttien **Sovelletaan myyntiin** ja **Sovelletaan kustannuksiin** arvona on **Kyllä**. Tällöin voit määrittää jokaisen roolin ja organisaatioyksikön hinnan ja kustannuksen.
 
-![Näyttökuva Project Service -parametreista, joissa Sovelletaan myyntiin on korostettu](media/PS-OOB-parameters.png)
+![Näyttökuva Project Service -parametreista, joissa Sovelletaan myyntiin on korostettu.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Jos olet käyttänyt valmiita roolin ja organisaatioyksikön kenttiä hinnoitteludimensioina ennen PSA;n versiota 3, muutoksia ei ole havaittavissa. Voit jatkaa Project Servicen käyttöä tavalliseen tapaan. 
