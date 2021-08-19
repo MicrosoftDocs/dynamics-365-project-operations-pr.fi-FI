@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993142"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002957"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Miten voin mukauttaa Projektin vaiheet -liiketoimintaprosessin?
 
@@ -60,11 +60,11 @@ Jos version päivittäminen ei ole vaihtoehto, voit mukauttaa projektin entiteet
 1. Lisää oletusmääritykseen vaiheita samalla, kun säilytät englanninkieliset nimet **Quote**-, **Plan**- ja **Close**-vaiheille.
 
 
-![Oletusmäärityksen vaiheiden lisäämisen näyttökuva](media/FAQ-Customize-BPF-1.png)
+![Oletusmäärityksen vaiheiden lisäämisen näyttökuva.](media/FAQ-Customize-BPF-1.png)
  
 2. Luo oma liiketoimintaprosessi ja tee siitä projektin entiteetin ensisijainen liiketoimintaprosessi. Tällöin voit antaa vaiheille haluamasi nimet. Jos kuitenkin haluat käyttää samoja projektin vakiovaiheita eli **Quote**-, **Plan**- ja **Close**-vaiheita, sinun on tehtävä joitakin mukautuksia, jotka saadaan mukautetuista vaiheiden nimistä. Projektin sulkeminen sisältää monimutkaisempaa logiikkaa. Voit kuitenkin käynnistää sen poistamalla projektitietueen aktivoinnin.
 
-![Liiketoimintaprosessin mukauttaminen](media/FAQ-Customize-BPF-2.png)
+![Liiketoimintaprosessin mukauttaminen.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Erityisiä huomioita Project Service -sovelluksen versiosta 2.4.4.30 tai aiemmista versioista ympäristössä 9.0
 
@@ -80,11 +80,11 @@ Voit luoda oman liiketoimintaprosessin projektin entiteettiä varten seuraavasti
 
 1. Siirry kohtaan **Asetukset** > **Prosessikeskus**. Älä kopioi Projektin vaiheet -liiketoimintaprosessia, koska silloin myös Project Service -sovelluksen liiketoimintalogiikka kopioidaan.
 
-  ![Luo prosessi](media/FAQ-Customize-BPF-3.png)
+  ![Luo prosessi.](media/FAQ-Customize-BPF-3.png)
 
 2. Luo haluamasi vaiheiden nimet prosessin suunnitteluohjelman avulla. Jos haluat samat toiminnot kuin **Quote**-, **Plan**- ja **Close**-oletusvaiheissa on, luonnin on perustuttava mukautetun liiketoimintaprosessin vaiheiden nimiin.
 
-   ![Liiketoimintaprosessin mukautuksessa käytettävän prosessin suunnitteluohjelman näyttökuva](media/FAQ-Customize-BPF-4.png) 
+   ![Liiketoimintaprosessin mukautuksessa käytettävän prosessin suunnitteluohjelman näyttökuva.](media/FAQ-Customize-BPF-4.png) 
 
 3. Tee mukautetusta liiketoimintaprosessista projektin entiteetin ensisijainen liiketoimintaprosessi valitsemalla prosessin suunnitteluohjelmassa **Prosessin järjestys** -kohta. Siirrä projektin entiteetti Projektin vaiheet -liiketoimintaprosessin yläpuolelle luettelon yläosaan.
 
@@ -95,15 +95,15 @@ Voit luoda oman liiketoimintaprosessin projektin entiteettiä varten seuraavasti
 
 4. Lisää uusi mukautettu kenttä projektin entiteettiin ja sieppaa mukautetut vaiheet mukautettuun liiketoimintaprosessiin. Lisää liiketoimintalogiikka (laajennus/työnkulku) ja päivitä tämä kenttä, kun mukautetun liiketoimintaprosessin vaihe päivitetään.
 
-   ![Projektin entiteetin mukautuksen näyttökuva](media/FAQ-Customize-BPF-6-720.png)
+   ![Projektin entiteetin mukautuksen näyttökuva.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Muokkaa **Projekti vaiheen mukaan** -kaaviota, kun haluat käyttää vaiheiden uutta mukautettua kenttää.
 
-   ![Projekti vaiheen mukaan -kaavion käyttämisen näyttökuva](media/FAQ-Customize-BPF-7-720.png)
+   ![Projekti vaiheen mukaan -kaavion käyttämisen näyttökuva.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Muokkaa projektin entiteetin näkymiä ja sisällytä vaiheiden uusi mukautettu kenttä.
 
-   ![Projektin entiteetin näkymien muokkaamisen näyttökuva](media/FAQ-Customize-BPF-8-720.png)
+   ![Projektin entiteetin näkymien muokkaamisen näyttökuva.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

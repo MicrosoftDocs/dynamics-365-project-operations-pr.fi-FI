@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025770"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003812"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations -kaksoiskirjoituksen karttaversiot
 
@@ -32,7 +32,7 @@ Project Operations -ratkaisun edellytykset ovat seuraavat kartat. Suorita seuraa
 
 1. Valitse määritysluettelosta Tapahtumarekisteri **(msdyn\_ledgers)** -määritys ja kaikki edellytykset ja valitse sitten **Ensimmäinen synkronointi** -valintaruutu. Valitse **Perusmuoto alkusynkronointia varten** -kentässä **Finance and Operations -sovellukset**  sekä kirjanpitokarttoja että kaikkia tarvittavat tietokarttoja varten. Valitse **Suorita**.
 
-![Kirjanpitomäärityksen synkronointi](media/DW6.png)
+![Kirjanpitomäärityksen synkronointi.](media/DW6.png)
 
 2. Noudata edellä olevassa taulukossa mainittuja muita taulukkokarttoja samojen vaiheiden mukaisesti. Älä valitse **Ensimmäinen synkronointi** -valintaruutua, kun käytät näitä karttoja.
 
@@ -65,7 +65,7 @@ Suorita luettelossa olevat kartat seuraavien vaiheiden mukaisesti.
 
 1. Ota projektiresurssiroolit käyttöön **kaikissa yrityksissä (bookableresourcecategories)** -taulukkokartassa, koska tämä kartta edellyttää ensimmäistä synkronointia. Valitse **Perusmuoto synkronoitavaksi** -kentässä **Common data service**. 
 
- ![Resurssiroolitaulukkokartan synkronointi](media/6ResourceInitialSync.jpg)
+ ![Resurssiroolitaulukkokartan synkronointi.](media/6ResourceInitialSync.jpg)
 
  Odota, kunnes kartan tila on **Käynnissä**, ennen kuin siirryt seuraavaan vaiheeseen.
 

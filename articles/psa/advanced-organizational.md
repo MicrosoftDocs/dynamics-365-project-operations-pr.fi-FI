@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009612"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005072"
 ---
 # <a name="organizational-units"></a>Organisaatioyksiköt 
 
@@ -53,7 +53,7 @@ Organisaatioyksiköllä on PSA:ssa kaksi roolia:
 - **Sopimusyksikkö** – organisaatioyksikkö, joka edustaa sitä yrityksen ryhmää tai osastoa, joka on pääasiallisesti vastuussa myynnin parantamisesta ja työn ja palvelujen asiakkaalle toimittamisen hallinnasta. Sopimusyksikkö määritetään sivujen **Mahdollisuus**, **Tarjous**, **Projektisopimus** ja **Projekti** otsikko-osion kentässä **Sopimusyksikkö**.
 - **Resursointiyksikkö** – organisaatioyksikkö, johon resurssi kuuluu tai jolle se on kohdennettu. Organisaatioyksikkö voi antaa resurssejaan joihinkin rooleihin työnkuvauksissa ja projekteissa, jotka sopimusyksikkö omistaa.
 
-> ![Sopimus- ja resursointiyksiköt](media/advanced-1.png)
+> ![Sopimus- ja resursointiyksiköt.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Organisaatioyksikön usein kysytyt kysymykset
 

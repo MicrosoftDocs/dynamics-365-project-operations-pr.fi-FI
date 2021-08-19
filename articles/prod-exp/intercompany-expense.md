@@ -1,8 +1,8 @@
 ---
 title: Konsernin sisäiset kulut
 description: Tämä aihe sisältää tietoja siitä, miten konsernin sisäisiä kuluja käytetään työntekijän kulujen kohdistamiseksi sille yritykselle, jolle työ on tehty.
-author: ShylaThompson
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2cdba8d5368a8b26bf4d98226bda76a58261cf0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005067"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001202"
 ---
 # <a name="intercompany-expenses"></a>Konsernin sisäiset kulut
 
@@ -34,5 +34,17 @@ Ennen kuin työntekijä voi luoda ja lähettää konsernin sisäisiä kuluja, si
 Ennen kuin voit käyttää lainan myöntävään (lähde) yritykseen liittyviä veroryhmiä lainan ottavan (kohde) yrityksen sijaan kuluraportissa, sinun on otettava käyttöön toiminto pääkirjan arvonlisäveroasetuksissa. Kun **Yritys konsernin sisäistä verokirjausta varten** -parametriksi on asetettu **Lähde** ja **Käytä arvonlisäveron verotussääntöjä** -asetukseksi on valittu **Ei**, lainan myöntävän yrityksen veroyhdistelmää käytetään. Kun sama parametri on asetettu **kohteeseen**, käytetään lainaavan yrityksen veroyhdistelmää. Jos kyseessä on Yhdysvaltalainen yritys, kun parametrin arvoksi on määritetty **lähde**, **arvonlisäverosaatavat**-kentän asetukset on määritettävä myös uuden **kirjanpidon kirjausryhmät** -sivulla. Kirjanpitomoduuli käyttää tämän kentän tietoja veroihin liittyvään kirjanpitomerkintään.   
 Toiminta on yhdenmukainen projektin kanssa tai ei-kirjattujen kulurivien kanssa.  
 
+## <a name="new-expense-expression-builder"></a>Uusi kululausekkeen muodostin
+
+Uusi kustannuslausekkeen muodostin käsittelee ongelmia, jotka liittyvät projekteja käyttäviin yritysten välisiin kuluskenaarioihin. Tämä ominaisuus varmistaa, että kun luot konsernin kulun, kulukäytäntö tarkistetaan oikein kulurivillä valittua projektia vastaan, ja että kuluraportin voi lähettää onnistuneesti.
+
+Jotta kululausekkeen muodostintoiminto toimisi, se on otettava käyttöön. Lisäksi on määritettävä kulukäytäntö, jolla on projektitunnus.
+
+Jos olet jo määrittänyt käytäntöjä, jotka tarkistavat projektin tunnuksen kulurivillä, nämä käytännöt on otettava pois käytöstä. Tämän jälkeen voit ottaa ominaisuuden käyttöön ja määrittää käytännöt uudelleen.
+
+Voit ottaa toiminnon käyttöön seuraavien ohjeiden mukaisesti.
+
+1. Siirry kohtaan **Työtilat** \> **Ominaisuuksien hallinta**.
+2. Valitse luettelosta **Uusi kustannusilmoituksen rakennustyökalu, joka käsittelee projekteja käyttävien yritysten välisten kuluskenaarioiden ongelmia.** Valitse sitten **Ota käyttöön nyt**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

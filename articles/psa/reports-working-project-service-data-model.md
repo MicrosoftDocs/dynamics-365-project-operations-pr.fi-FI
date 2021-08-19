@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008802"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002417"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Project Service Automation -tietomallin käsitteleminen
 
@@ -53,7 +53,7 @@ PSA lisää myös uusia tarjoukseen liittyviä entiteettiä Dynamics 365- tietom
 
 Muita entiteettejä, joita PSA lisää tarjouksiin, ovar **Tarjousrivin projektihinnasto**, **Tarjousrivin resurssiluokka** ja **Tarjousrivin tapahtumaluokka**.
 
-![Kaavio, jossa näkyvät tarjous, tarjousrivi ja projektisuhteet](media/PS-Reporting-image2.png "Kaavio, jossa näkyvät tarjous, tarjousrivi ja projektisuhteet")
+![Kaavio, jossa näkyvät tarjous, tarjousrivi ja projektisuhteet.](media/PS-Reporting-image2.png "Kaavio, jossa näkyvät tarjous, tarjousrivi ja projektisuhteet")
 
 ## <a name="reporting-on-project-contracts"></a>Projektisopimuksista raportointi
 
@@ -69,7 +69,7 @@ PSA lisää myös uusia entiteettejä, jotka on suunniteltu projektisopimuksia v
 
 Muita entiteettejä, joita PSA lisää sopimuksiin, ovat **Projektisopimusrivin projektihinnasto**, **Projektisopimusrivin resurssiluokka** ja **Projektisopimusrivin tapahtumaluokka**.
 
-![Kaavio, jossa näkyvät tilaus, tilausrivi ja projektisuhteet](media/PS-Reporting-image3.png "Kaavio, jossa näkyvät tilaus, tilausrivi ja projektisuhteet")
+![Kaavio, jossa näkyvät tilaus, tilausrivi ja projektisuhteet.](media/PS-Reporting-image3.png "Kaavio, jossa näkyvät tilaus, tilausrivi ja projektisuhteet")
 
 ## <a name="reporting-on-projects"></a>Projekteista raportointi
 
@@ -81,7 +81,7 @@ Muita entiteettejä, joita PSA lisää sopimuksiin, ovat **Projektisopimusrivin 
 - **Resurssitarve** – tämä kohde sisältää vaatimukset mahdollisille yleisille resurssiryhmän jäsenille.
 - **Arvio** ja **Arviorivi** – näillä entiteeteillä on otsikko/rivi-suhde, ja ne sisältävät kuluarvioita projektille. Tehtävien arviot tallennetaan **Resurssiarvio**-entiteettiin.
 
-![Kaavio, jossa näkyvät resurssitarve ja projektisuhteet](media/PS-Reporting-image4.png "Kaavio, jossa näkyvät resurssitarve ja projektisuhteet")
+![Kaavio, jossa näkyvät resurssitarve ja projektisuhteet.](media/PS-Reporting-image4.png "Kaavio, jossa näkyvät resurssitarve ja projektisuhteet")
 
 ## <a name="reporting-on-resources"></a>Resursseista raportointi
 
@@ -92,7 +92,7 @@ Projektiresurssit käyttävät **Varattava resurssi** entiteettejä kohteesta Un
 - **Varattavan resurssin luokka** – tämä entiteetti edustaa varattavan resurssin roolia.
 - **Varattavan resurssin varaukset** – tämä entiteetti edustaa aikaa, joka on varattu projekteihin tälle resurssille. Jokaisella varauksella on sekä otsikkoentiteetti että rivientiteettejä, ja jokaisella rivillä on tila, joka edustaa varauksen tilaa.
 
-![Kaavio, jossa näkyvät varattavien resurssien ominaisuuksien suhteet](media/PS-Reporting-image5.png "Kaavio, jossa näkyvät varattavien resurssien ominaisuuksien suhteet")
+![Kaavio, jossa näkyvät varattavien resurssien ominaisuuksien suhteet.](media/PS-Reporting-image5.png "Kaavio, jossa näkyvät varattavien resurssien ominaisuuksien suhteet")
 
 ## <a name="reporting-on-actual-transactions"></a>Todellisten tapahtumien raportointi
 
@@ -120,7 +120,7 @@ Kun käsittelet **Todellista** entiteettiä, on tärkeää, että ymmärrät, mi
 
 **Tapahtuman alkuperä** -entiteetti tallentaa **Todellisen** tietueen alkuperän, ja **Tapahtuman yhteys** -entiteetti tallentaa liittyvät tietueet **Todelliselle** tietueelle. Lisäksi **Todellinen** tietue sisältää viittauksia projektiin, projektisopimukseen (tilaus), varattavissa olevaan resurssiin ja asiakkaaseen.
 
-![Kaavio, jossa näkyvät tapahtuman yhteys, alkuperä ja toteutuneet suhteet](media/PS-Reporting-image6.png "Kaavio, jossa näkyvät tapahtuman yhteys, alkuperä ja toteutuneet suhteet")
+![Kaavio, jossa näkyvät tapahtuman yhteys, alkuperä ja toteutuneet suhteet.](media/PS-Reporting-image6.png "Kaavio, jossa näkyvät tapahtuman yhteys, alkuperä ja toteutuneet suhteet")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

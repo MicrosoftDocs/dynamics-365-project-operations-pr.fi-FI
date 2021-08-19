@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004707"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003587"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi
 
@@ -42,11 +42,11 @@ Jotta kentästä tulisi hinnoitteludimensio, sen on oltava:
 
 - Luotu rivinä **Hinnoitteludimensio** -taulukkoon. Voit esimerkiksi lisätä hinnoitteludimension rivejä seuraavan kuvan osoittamalla tavalla. 
 
-![Summaan perustuvat hinnoitteludimensioiden rivit](media/Amt-based-PD.png)
+![Summaan perustuvat hinnoitteludimensioiden rivit.](media/Amt-based-PD.png)
 
 Tesurssin työaika (**msdyn_resourceworkhours**) on lisätty hinnankorotuspohjaiseen dimensioon, ja se on lisätty **Hinnankorotuspohjainen hinnoitteludimensio** -välilehden ruudukkoon.
 
-![Hinnankorotukseen perustuvat hinnoitteludimensioiden rivit](media/Markup-based-PD.png)
+![Hinnankorotukseen perustuvat hinnoitteludimensioiden rivit.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]

@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000522"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003632"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Mukautettujen kenttien ja entiteettien luominen hinnoitteludimensioina
 
@@ -44,7 +44,7 @@ Voit luoda entiteettipohjaisia dimensioita seuraamalla näitä vaiheita:
 3. Valitse **Uusi**, jos haluat luoda uuden entiteetin nimellä **Vakio-otsikko**. 
 4. Syötä muut tarvittavat tiedot ja valitse **Tallenna**.
 
-> ![Vakio-otsikko-entiteetin määritys](media/Standard-Title-entity-definition.png)
+> ![Vakio-otsikko-entiteetin määritys.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Asetusjoukkoperusteiset dimensiot 
 Voit luoda kaksi asetusjoukkoperusteista dimensiota. 
@@ -54,11 +54,11 @@ Voit luoda kaksi asetusjoukkoperusteista dimensiota.
 
 Seuraavassa kuvassa on **Resurssin työsijainti** -dimension näkymä. 
 
-> ![Asetusjoukkoperusteinen hinnoitteludimensio nimeltään Resurssin työn sijainti](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Asetusjoukkoperusteinen hinnoitteludimensio nimeltään Resurssin työn sijainti.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Seuraavassa kuvassa on **Resurssin työtunnit** -dimension näkymä. 
 
-> ![Asetusjoukkoperusteinen hinnoitteludimensio nimeltään Resurssin työntunnit](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Asetusjoukkoperusteinen hinnoitteludimensio nimeltään Resurssin työntunnit.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Siirry kohtaan **Asetukset** > **Ratkaisut** ja kaksoisnapsauta **organisaation \<your organization name> hinnoitteludimensio** -kohtaa. 
 2. Valitse vasemman siirtymisruudun Ratkaisunhallinnassa **Asetusjoukot**. 
@@ -74,7 +74,7 @@ Voit luoda tietoja entiteettiperusteisille dimensioille manuaalisesti tai käytt
 4. Sulje sivu. 
 5. Luo toinen vakionimike Vanhemmalle järjestelmäinsinöörille toistamalla vaiheet 1–3.
 
-> ![Esimerkkitietoja Vakionimike-entiteetille](media/ST-data.png)
+> ![Esimerkkitietoja Vakionimike-entiteetille.](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
