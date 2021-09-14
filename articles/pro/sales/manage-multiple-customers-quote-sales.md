@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001652"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440773"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Useiden asiakkaiden hallinta projektitarjouksissa – lite
 
@@ -37,7 +37,7 @@ Tarjouksen asiakas voidaan luoda, päivittää tai poistaa **Tarjous**-sivun **T
 
 | **Kenttä** | **Sijainti** | **Kuvaus** | **Loppupään vaikutus** |
 | --- | --- | --- | --- |
-| Tili | **Tarjouksen asiakkaat** -välilehden muokattava ruudukko sekä tarjousasiakkaan **Päälomake** ja **Pikaluontilomake**. | Näyttää kaikki aktiiviset asiakkuudet. Tämä kenttä lukitaan sen jälkeen, kun tietue on luotu. Jos haluat päivittää sen, poista tietue ja luo se uudelleen. Jos olet kirjannut toteutuneita arvoja tai jos tarjouksen asiakastietue on ensisijainen asiakas, voit poistaa tietueen. | Tarjousasiakkaat kopioidaan tarjousrivin asiakkaina, kun tarjousrivi luodaan. Tarjousasiakkaat kopioidaan myös projektisopimusasiakkaisiin, kun tarjous on voitettu. |
+| Tili | **Tarjouksen asiakkaat** -välilehden muokattava ruudukko sekä tarjousasiakkaan **Päälomake** ja **Pikaluontilomake**. | Näyttää kaikki aktiiviset asiakkuudet. Tämä kenttä lukitaan sen jälkeen, kun tietue on luotu. Jos haluat päivittää sen, poista tietue ja luo se uudelleen. Jos olet tallentanut toteutuneita arvoja tai jos tarjouksen asiakastietue on ensisijainen asiakas, et voi poistaa tietuetta. | Tarjousasiakkaat kopioidaan tarjousrivin asiakkaina, kun tarjousrivi luodaan. Tarjousasiakkaat kopioidaan myös projektisopimusasiakkaisiin, kun tarjous on voitettu. |
 | Laskutuksen jakoprosentti | **Tarjouksen asiakkaat** -välilehden muokattava ruudukko sekä tarjousasiakkaan **Päälomake** ja **Pikaluontilomake**. | Ilmaisee kunkin laskuttamaton myyntitapahtuman prosenttiosuuden, joka kohdistetaan tähän tarjousasiakkaaseen. | Kopioidaan uusiin tarjousriveihin ja projektisopimusasiakkaisiin. |
 | Laskutusyhteyshenkilön nimi | **Tarjouksen asiakkaat** -välilehden muokattava ruudukko sekä tarjousasiakkaan **Päälomake** ja **Pikaluontilomake**. | Tämä on tekstikenttä, ja sitä tulisi käyttää tämän asiakkaan laskun yhteyshenkilön määrittämiseen. Nämä tulevat oletusarvona liittyvästä asiakastietueesta | Kopioidaan projektisopimusasiakkaisiin, kun tarjous on voitettu, ja puolestaan asiakkaalle luodun laskun Laskutusyhteyshenkilön nimi -kenttään. |
 | Laskutusosoitteen nimi | **Tarjouksen asiakkaat** -välilehden muokattava ruudukko sekä tarjousasiakkaan **Päälomake** ja **Pikaluontilomake**. | Tätä tekstikenttää tulisi käyttää tämän asiakkaan laskun yhteyshenkilön määrittämiseen. | Kopioidaan projektisopimusasiakkaisiin, kun tarjous on voitettu, ja puolestaan asiakkaalle luodun laskun **Laskutusyhteyshenkilön** nimi -kenttään. |

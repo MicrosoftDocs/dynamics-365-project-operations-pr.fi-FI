@@ -4,6 +4,8 @@
   items:
     - name: Käyttöönottotyypin määrittäminen
       href: environment/determine-deployment-type.md
+    - name: Hanki Project Operationsin kokeiluversio
+      href: environment/admin-trials.md
     - name: Project Operationsin päivitykset
       href: whats-new/project-operations-updates.md
 - name: Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Uudet ominaisuudet
       items:
+        - name: Elokuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: Heinäkuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Kesäkuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
@@ -418,6 +422,8 @@
       items:
         - name: Hyväksyntöjen yleiskatsaus
           href: approvals/approvals-overview.md
+        - name: Hyväksyntäjoukot
+          href: approvals/approval-sets.md
         - name: Kehittäjän huomautukset
           items:
             - name: Hyväksyntöjä koskevat kehittäjän huomautukset
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Uudet ominaisuudet
       items:
+        - name: 'Uudet ominaisuudet 2021, aalto 2, early access – lite-käyttöönotto'
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Elokuun 2021 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Heinäkuun 2021 Lite-käyttöönoton uudet ominaisuudet
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Kesäkuun 2021 Lite-käyttöönoton uudet ominaisuudet
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Alihankintasopimusten hallinta Project Operationsissa
       items:
-        - name: Alihankintasopimusten hallinnan yleiskatsaus
+        - name: Alihankintasopimusten hallinta Project Operationsissa
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: 'Alihankkijat, lokakuun 2021 Early Access'
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Alihankinnan keskeiset käsitteet
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Toimittajien ja projektihinnastojen hallinta
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Alihankkijat varattavissa olevina resursseina
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Alihankkijasopimusten otsikkotiedot
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Alihankinnan aikarivit
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Alihankinnan kulurivit
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Alihankinnan tuoterivit
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Alihankintarivien resurssit
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Alihankintarivien välitavoitteet
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Aika
       items:
         - name: Ajan yleiskatsaus
@@ -868,6 +892,8 @@
       items:
         - name: Hyväksyntöjen yleiskatsaus
           href: approvals/approvals-overview.md
+        - name: Hyväksyntäjoukot
+          href: approvals/approval-sets.md
         - name: Kehittäjän huomautukset
           items:
             - name: Hyväksyntöjä koskevat kehittäjän huomautukset
@@ -1060,6 +1086,8 @@
       items:
         - name: Project Service 3.x -päivitysten julkaisuaikataulu
           href: psa/version-history-ps.md
+        - name: 'Päivitysversion 35, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-35.md
         - name: 'Päivitysversion 34, V3 uudet ominaisuudet ja muutokset'
           href: psa/whats-new-ur-34.md
         - name: 'Päivitysversion 33, V3 uudet ominaisuudet ja muutokset'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Viikoittaisen aikamerkinnän mukauttaminen
               href: psa/time-entry-extensibility-v3.md
-            - name: Hyväksyntäjoukot
+            - name: Hyväksyntäjoukot Project Service Automationissa
               href: psa/approval-set.md
     - name: Usein kysytyt kysymykset ja vianmääritys (3.x)
       items:
