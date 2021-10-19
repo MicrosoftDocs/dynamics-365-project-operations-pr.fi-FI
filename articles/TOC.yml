@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Uudet ominaisuudet
       items:
+        - name: Lokakuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: Syyskuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: Elokuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Heinäkuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
@@ -292,7 +296,7 @@
           items:
             - name: Projektimallien kehittäminen Kopioi projekti -toiminnolla
               href: project-management/dev-copy-project.md
-            - name: Projektiaikataulun ohjelmointirajapintojen käyttö (julkinen esiversio)
+            - name: Projektiaikataulun ohjelmointirajapintojen käyttäminen
               href: project-management/schedule-api-preview.md
     - name: Resurssien hallinta
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Ei-varastoitujen materiaalien hankkiminen projekteille käyttämällä odottavia toimittajan laskuja
           href: procurement/pending-vendor-invoices.md
+        - name: Ei-varastoitujen materiaalien tilaaminen projekteille käyttämällä projektien ostotilauksia
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Toimittajan säilytys
+          items:
+            - name: Toimittajan säilytyksen yleiskatsaus
+              href: procurement/vendor-retention-overview.md
+            - name: Toimittajan säilytyksen määrittäminen
+              href: procurement/set-up-vendor-retention.md
     - name: Laskutus
       items:
         - name: Laskujen käsittelyn yleiskatsaus
@@ -528,6 +540,10 @@
       items:
         - name: 'Uudet ominaisuudet 2021, aalto 2, early access – lite-käyttöönotto'
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Lokakuun 2021 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Syyskuun 2021 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Elokuun 2021 Lite-käyttöönoton uudet ominaisuudet
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Heinäkuun 2021 Lite-käyttöönoton uudet ominaisuudet
@@ -784,7 +800,7 @@
           items:
             - name: Projektimallien kehittäminen Kopioi projekti -toiminnolla
               href: project-management/dev-copy-project.md
-            - name: Projektiaikataulun ohjelmointirajapintojen käyttö (julkinen esiversio)
+            - name: Projektiaikataulun ohjelmointirajapintojen käyttäminen
               href: project-management/schedule-api-preview.md
     - name: Resurssien hallinta
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Alihankinnan aikarivit
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Alihankinnan kulurivit
+        - name: Alihankinnan kululuokkien rivit
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Alihankinnan tuoterivit
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Project Service 3.x -päivitysten julkaisuaikataulu
           href: psa/version-history-ps.md
+        - name: 'Päivitysversion 36, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-36.md
         - name: 'Päivitysversion 35, V3 uudet ominaisuudet ja muutokset'
           href: psa/whats-new-ur-35.md
         - name: 'Päivitysversion 34, V3 uudet ominaisuudet ja muutokset'
