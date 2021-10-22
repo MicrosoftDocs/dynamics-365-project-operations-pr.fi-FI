@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323457"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501367"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Elokuun 2021 uudet ominaisuudet – Project Operations resurssien/ei-varastoitavien skenaarioissa
 
@@ -31,7 +31,7 @@ Tähän julkaisuun sisältyvät seuraavat ominaisuudet:
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operationsin kaksoiskirjoituskarttojen päivitys
 
-Tässä julkaisussa ei ole päivityksiä Project Operationsin kaksoiskirjoituskartoille. 
+Tässä versiossa ei ole päivityksiä Project Operationsin kaksoiskirjoituskartoille.
 
 Project Operationsin kaksoiskirjoituskarttojen luettelo ja versiot ovat kohdassa [Project Operationsin kaksi kaksoiskirjoituskarttojen versiot](../environment/resource-dual-write-maps.md).
 

@@ -2,17 +2,17 @@
 title: Ei-varastoivien materiaalien ostaminen käyttämällä odottavaa toimittajan laskua
 description: Tässä aihe, miten odottavat toimittajan laskut tallennetaan.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009032"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547285"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Ei-varastoivien materiaalien ostaminen käyttämällä odottavaa toimittajan laskua
 
@@ -20,7 +20,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 Kun yritys hankkii ei-varastoitavaa materiaalia projektia varten, kustannukset voidaan kirjata projektiin heti. 
 
-Esimerkiksi Contoso Robotics US on suorittamassa laitteiden uusimisprojektia, ja se tarvitsee ohjelmiston käyttöoikeuksia. Nämä käyttöoikeudet hankitaan ulkopuoliselta toimittajalta.  Dynamics 365 Financen avulla ostoreskontra kirjaa odottavan toimittajan laskuasiakirjan ja määrittää käyttöoikeuskustannukset suoraan välineiden uusimisprojektiin. 
+Esimerkiksi Contoso Robotics US tekee välineiden uusimisprojektin ja tarvitsee ohjelmistojen käyttöoikeuksia. Nämä käyttöoikeudet hankitaan ulkopuoliselta toimittajalta.  Dynamics 365 Financen avulla ostoreskontra kirjaa odottavan toimittajan laskuasiakirjan ja määrittää käyttöoikeuskustannukset suoraan välineiden uusimisprojektiin. 
 
 > [!IMPORTANT]
 > Ennen kuin käytät tässä aiheessa kuvattuja toimintoja, tarkista ja ota käyttöön tarvittavat määritykset. Lisätietoja on ohjeaiheessa [Ei-varastoivien materiaalien ja odottavien toimittajan laskujen ottaminen käyttöön](configure-materials-nonstocked.md). 
@@ -45,4 +45,5 @@ Odottavat toimittajan laskut voidaan tallentaa **Odottavat toimittajan laskut** 
     - Toimittajan saldon summa.
     - Arvonlisäveron summa.
     - Projektiin kohdistuvat kustannukset kirjataan integrointia varten integrointitilille.
-    - Projektin todellinen tapahtuma kohteessa Dataverse. Tätä tapahtumaa käsitellään lisää [Project Operations Integration -kirjauskansion](../project-accounting/project-operations-integration-journal.md) avulla. Tämän kirjauksen kirjaaminen siirtää summan integroinnin lisäkulutililtä projektikustannustilille.
+    - Projektin toteutuneiden kustannusten tapahtuma Dataversessa.  Tätä tapahtumaa käsitellään lisää [Project Operations Integration -kirjauskansion](../project-accounting/project-operations-integration-journal.md) avulla. Tämän kirjauksen kirjaaminen siirtää summan integroinnin lisäkulutililtä projektikustannustilille. 
+    - Ostot, jotka laskutetaan projektiasiakkaalta käyttämällä aika ja materiaali -laskutustapaa. Lisäksi ostoille luodaan laskuttamattomat myyntitapahtumat Dataversessa. Dataversessa olevaa tuotehinnastoa käytetään laskuttamattoman myyntitapahtuman myyntihintoja ja määriä varten.

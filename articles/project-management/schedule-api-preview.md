@@ -2,23 +2,22 @@
 title: Projektiaikataulun ohjelmointirajapintojen käyttö toimintojen suorittamiseen aikataulutusentiteeteillä
 description: Tässä aiheessa on tietoja ja esimerkkejä projektiaikataulun ohjelmointirajapintojen käyttämisestä.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008762"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487681"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projektiaikataulun ohjelmointirajapintojen käyttö toimintojen suorittamiseen aikataulutusentiteeteillä
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-> [!IMPORTANT] 
-> Kaikki tai osa tässä aiheessa käsitellyistä toiminnoista ovat saatavilla esiversiojulkaisun osana. Sisältö ja toiminnot voivat muuttua. 
+
 
 ## <a name="scheduling-entities"></a>Aikataulutusentiteetit
 

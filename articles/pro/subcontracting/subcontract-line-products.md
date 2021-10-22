@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c0ddc39638ae9830eacc57f3e1def75aa36e6553
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: cda2db2b6beafb943738b35857d091f7ad17390d
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323682"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558543"
 ---
 # <a name="subcontract-lines-for-products"></a>Tuotteiden alihankintarivit
 
@@ -30,25 +30,25 @@ Luo Project Operationsissa tuotteiden alihankintarivi seuraavien vaiheiden mukai
 
 Seuraavassa taulukossa on tietoa kentistä **Alihankintarivin tiedot** -sivulla ja **Pikaluonti**-sivulla, koska ne ovat oleellisia tuotteiden ostamisessa.
 
-| Kenttä | Kuvaus |
-| ----- | ----------- |
-| Nimi | Alihankintarivin nimi. |
-| Kuvaus | Lyhyt kuvaus alihankintarivillä tilatuista tuotteista. |
-| Rivityyppi | Tämän kentän oletusarvo on **Määräpohjainen**. |
-| Laskutustapa |  Alihankintarivin laskutustapa. Kiinteähintaisia laskutusmenetelmiä varten on käytettävissä välitavoitteeseen perustuva laskuaikataulu. |
-| Tapahtumaluokka | Tämän kentän oletusarvo on **Aika**. Jos haluat luoda alihankintarivejä tuotteiden ostamista varten, valitse **Tapahtumaluokka**-kentässä **Materiaali**. Tämä valinta osoittaa, että alihankintarivillä tallennetaan projekteissa käytettävät tuotteet. |
-| Valitse tuote | Valitse, ylläpidetäänkö ostettavaa tuotetta tuoteluettelossa vai onko se käsin lisätty tuote. |
-| Tuote | Valitse aktiivinen tuote luettelosta. Tämä kenttä on käytettävissä vain, jos **Valitse tuote** on valittuna arvoon **Olemassa**. |
-| Käsin lisätty tuote | Syötä käsin lisätyn tuotteen nimi. Tämä kenttä on käytettävissä vain, jos **Valitse tuote** on valittuna arvoon **Käsin lisätty**.  |
-| Pyydetty toimituspäivä | Valitse tuotteiden vaadittu toimituspäivä. Tätä päivämäärää käytetään myös projektin hinnaston valitsemiseen projektin hinnastoista, jotka on liitetty alihankkijaan. Tämän jälkeen alihankintarivillä oleva tuotteen kustannus tulee oletusarvona tästä hinnastosta. |
-| Sopimuksessa mainittu toimituspäivä | Valitse päivämäärä, jolloin tuotteet on sovittu toimitettavaksi.  |
-| Tilattu määrä | Anna toimittajalta ostettavan tuotteen määrä. Jos projektipäällikkö ylittää tämän määrän, siitä tulee varoitus. |
-| Yksikköryhmä | Tämä arvo on oletusarvo vain luettelotuotteille. Kun sekä **Tuote** että **Pyydetty toimituspäivä** on valittu, järjestelmä valitsee soveltuvan hinnaston toimituspäivän perusteella. Liittyvän hinnaston nimikkeistä haetaan vastaava tuote. Yksikkö- ja yksikköryhmäarvojen oletusarvot ovat hinnaston nimiketietueen asetuksissa. |
-| Yksikkö | Tämä arvo käyttää hinnaston nimiketietueen yksikköasetusten oletusarvoa. Voit vaihtaa tämän toiseen yksikköön tarpeen mukaan. Tuotteen ja yksikön yhdistelmää käytetään aiemmin luotujen tuoteluettelotuotteiden yksikköhinnan oletusarvona alihankintarivillä. |
-| Yksikköhinta | Yksikköhinnan oletusarvo tulee käyttämällä tuotteen ja yksikön yhdistelmää hintaluettelonimikkeistä, jotka liittyvät projektin hinnastoon, joka soveltuu alihankintarivin pyydettyyn toimituspäivään.  |
-| Välisumma | Tämä vain luku -kenttä lasketaan muodossa Määrä x Yksikköhinta, jos molempiin kenttiin on syötetty arvot. Jos **Määrä**-kenttä, **Yksikköhinta**-kenttä tai molemmat ovat tyhjät, voit syöttää arvon manuaalisesti.  |
-| Arvonlisävero | Anna arvonlisäveron arvo. |
-| Loppusumma | Tässä laskennallisessa kentässä näkyy alihankintarivin kokonaissumma verot mukaan lukien. Tämän kentän arvo lasketaan muodossa välisumma + vero. |
+| Kenttä | Kuvaus | Toiminnallinen vaikutus|
+| ----- | ----------- | ----------- |
+| Nimi | Alihankintarivin nimi tunnistamisen helpottamiseksi. |Tämä näkyy kaikkien hakujen ensimmäisenä sarakkeena alihankintarivien perusteella.
+| Kuvaus | Lyhyt kuvaus alihankintarivillä tilatuista tuotteista. | Ei ole |
+| Rivityyppi | Tämän kentän oletusarvo on **Määräpohjainen**. |Ei ole |
+| Laskutustapa | Tämä on asetusjoukko, joka edustaa kahta pääsopimusmallia, joita Project Operations tukee: **Kiinteä hinta** ja **Aika ja materiaali**. | Valitun laskutustavan perusteella välitavoitteeseen perustuva laskuaikataulu on käytettävissä alihankintariveillä, joilla on kiinteähintainen laskutustapa. |
+| Tapahtumaluokka |Tämän kentän oletusarvo on **Aika**. Jos haluat luoda alihankintarivejä tuotteiden ostamista varten, määritä **Tapahtumaluokka**-kenttä arvoon **Materiaali**.  | Tämä osoittaa, että alihankintariviä käytetään projekteissa käytettävien tuotteiden ostojen kirjaamista varten. |
+| Valitse tuote | Valitse, ylläpidetäänkö ostettavaa tuotetta tuoteluettelossa vai onko se käsin lisätty tuote. |Ei ole |
+| Tuote | Valitse aktiivinen tuote luettelosta. Tämä kenttä on käytettävissä vain, jos **Valitse tuote** on valittuna arvoon **Olemassa**. |**Tuotteen** ja **Yksikön** yhdistelmää käytetään alihankintarivin yksikköhinnan oletusarvona tai laskettuna arvona.
+| Käsin lisätty tuote | Syötä käsin lisätyn tuotteen nimi. Tämä kenttä on käytettävissä vain, jos **Valitse tuote** on valittuna arvoon **Käsin lisätty**.  |Ostohintaa ei täytetä automaattisesti käsin lisätyille tuotteille.|
+| Pyydetty toimituspäivä | Anna tuotteiden vaadittu toimituspäivä.| Tätä päivämäärää käytetään myös projektin hinnaston valitsemiseen projektin hinnastoista, jotka on liitetty alihankkijaan. Tämän jälkeen alihankintarivillä oleva tuotteen kustannus tulee oletusarvona tästä hinnastosta. |
+| Sopimuksessa mainittu toimituspäivä | Anna päivämäärä, jolloin tuotteet on sopimuksen mukaan sovittu toimitettavaksi.  |Ei ole|
+| Tilattu määrä | Anna toimittajalta ostettavan tuotteen määrä.| Tätä käytetään varoitusten näyttämiseen, kun projektipäällikkö ylikäyttää tätä määrää.|
+| Yksikköryhmä | Tämä arvo on oletusarvo vain luettelotuotteille. |Kun sekä **Tuote** että **Pyydetty toimituspäivä** on valittu, järjestelmä valitsee soveltuvan hinnaston toimituspäivän perusteella. Liittyvän hinnaston nimikkeistä haetaan vastaava tuote. Yksikkö- ja yksikköryhmäarvojen oletusarvot ovat hinnaston nimiketietueen asetuksissa. |
+| Yksikkö | Tämä arvo on oletusarvo hinnaston nimikkeen yksikkömääritystä varten. Voit vaihtaa tämän toiseen yksikköön tarpeen mukaan.| Tuotteen ja yksikön yhdistelmää käytetään aiemmin luotujen tuoteluettelotuotteiden yksikköhinnan oletusarvona alihankintarivillä. |
+| Yksikköhinta | Yksikköhinnan oletusarvo tulee käyttämällä tuotteen ja yksikön yhdistelmää hintaluettelonimikkeistä, jotka liittyvät projektin hinnastoon, joka soveltuu alihankintarivin pyydettyyn toimituspäivään.  |Ei ole |
+| Välisumma | Tämä vain luku -kenttä lasketaan muodossa Määrä x Yksikköhinta, jos molempiin kenttiin on syötetty arvot. Jos **Määrä**-kenttä, **Yksikköhinta**-kenttä tai molemmat ovat tyhjät, voit syöttää arvon manuaalisesti.  |Ei ole |
+| Arvonlisävero | Anna arvonlisäveron arvo. |Ei ole |
+| Loppusumma | Tässä laskennallisessa kentässä näkyy alihankintarivin kokonaissumma verot mukaan lukien. Tämän kentän arvo lasketaan muodossa välisumma + vero. |Ei ole |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

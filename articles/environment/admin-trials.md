@@ -2,16 +2,16 @@
 title: Hanki Project Operationsin kokeiluversio
 description: Tässä aiheessa on tietoja Dynamics 365 Project Operations -kokeiluversion käyttöönotosta.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418453"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599209"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Hanki Project Operationsin kokeiluversio 
 
@@ -85,15 +85,9 @@ Kirjaudu ennen aloittamista selaimeen käyttäjän työtilillä vuokraajassa, jo
 
    Valmistelun käynnistymisen jälkeen sinut ohjataan ympäristöluetteloon Power Platform -hallintakeskuksessa. Valmistelun aikana ympäristön tila on **PreparingInstance**.
  
-  Kun valmistelu on valmis, ympäristön tila on **Valmis**.
+  Kun valmistelu on valmis, ympäristön tila on **Valmis**. Ympäristön valmisteluun sisältyy esittelytietojen käyttöönotto.
  
-4.  Kun valmistelu on valmis, valitse vastaava Microsoft Dataverse -URL-osoite ja Finance and Operations -sovellusten URL-osoitteet vahvistaaksesi käyttöönoton.
-
-## <a name="demo-data-installation"></a>Tietojen asennuksen esittely
-
-Seuraavien linkkien avulla voit käyttää tietojen esittelypaketteja sekä ei-varastoitavia materiaaleja että lite-käyttöönottoskenaarioita varten. 
-- [Ei-varastoitavien materiaalien esittelytiedot](resource-apply-pro-setup-config-data.md)
-- [Lite-esittelytiedot](lite-apply-demo-setup-config-data.md)
+4.  Tarkista käyttöönotto valitsemalla vastaava Microsoft Dataverse-URL-osoite ja Finance and Operations -sovellusten URL-osoitteet.
 
 ## <a name="configuring-dual-write"></a>Kaksoiskirjoituksen määrittäminen
 Määrittele kaksoiskirjoituksen yhdistäminen vain, jos kyseessä on ei-varastoitavien materiaalien käyttöönotto. Lisätietoja on ohjeaiheessa [Project Operationsin kaksoiskirjoituksen yhdistämisversiot](resource-dual-write-maps.md).

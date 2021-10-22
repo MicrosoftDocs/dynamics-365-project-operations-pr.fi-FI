@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 181032b27ee67591a3bb40ab080477c51c1e34a46e9aac20039e4e5df3a5ab1d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000932"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487636"
 ---
 # <a name="define-project-calendars"></a>Projektikalenterien määrittäminen
 
@@ -46,7 +46,7 @@ Organisaation kalenterimallin luomiselle on kaksi tärkeää avainvaatimusta:
 
 1. Siirry kohtaan **Resurssit** \> **Resurssit**.
 2. Luo uusi resurssi, jota haluat käyttää kalenterimallissa, tai valitse aiemmin luotu resurssi.
-3. Valitse **resurssin työaika** -välilehti ja noudata ohjeita kohdasta [Resurssin työaikojen määrittäminen](/dynamics365/field-service/set-work-hours-resource.md) kalenterisääntöjen määrittämiseksi.
+3. Valitse **resurssin työaika** -välilehti ja noudata ohjeita kohdasta [Resurssin työaikojen määrittäminen](/dynamics365/field-service/set-work-hours-resource) kalenterisääntöjen määrittämiseksi.
 
 **Luo uusi kalenterimalli**
 

@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323772"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558498"
 ---
 # <a name="subcontract-line-milestones"></a>Alihankintarivin välitavoitteet
 
@@ -50,15 +50,15 @@ Alihankintarivin kiinteähintaiset välitavoitteet voi luoda manuaalisesti, jos 
 3. Valitse **Alihankintarivin välitavoitteet** -välilehden aliruudukosta **+ Uusi alihankintarivin välitavoite**.
 4. Syötä **Uusi alihankintarivin välitavoite** -sivulla tarvittavat tiedot seuraavan taulukon mukaisesti.
 
-    | Kenttä | Kuvaus |
-    | --- | --- |
-    | Välitavoitteen nimi | Välitavoitteen nimi. |
-    | Kuvaus | Välitavoitteen kuvaus.  |
-    | Välitavoitteen päivämäärä | Päivämäärä, jolloin automaattisen laskun luontiprosessin tulisi etsiä tämän välitavoitteen tila, jotta se voidaan ottaa huomioon laskutuksessa. Tämä arvo sisältyy toimittajan laskuriviin, kun tästä alihankinnasta laskutetaan. |
-    | Summa | Asiakkaalta laskutettavan välitavoitteen summa tai arvo. Tämä arvo sisältyy toimittajan laskuriviin, kun tästä alihankinnasta laskutetaan. |
-    | Vero | Välitavoitteessa käytetty verosumma. Tämä arvo sisältyy toimittajan laskuriviin, kun tästä alihankinnasta laskutetaan. |
-    | Verollinen summa | Tämä vain luku -kenttä lasketaan muodossa summa + vero. Tämä arvo sisältyy toimittajan laskuriviin, kun tästä alihankinnasta laskutetaan. |
-    | Laskun tila | Kun välitavoite on luotu, tämä tila määritetään aina arvoon **Ei valmis laskutukseen**.  Kun tila on **Valmis laskutukseen**, toimittajan laskun luonti sisällyttää tämä välitavoitteen toimittajan laskuun. |
+    | Kenttä | Kuvaus |Toiminnallinen vaikutus|
+    | --- | --- |----------------------|
+    | Välitavoitteen nimi | Välitavoitteen nimi. |Tämä näkyy kaikkien hakujen ensimmäisenä sarakkeena alihankintarivin välitavoitteiden perusteella. Tähän välitavoitteeseen perustuva toimittajan laskurivi käyttää myös alihankintarivin välitavoitteen nimeä toimittajan laskurivin oletusnimenä.|
+    | Kuvaus | Välitavoitteen kuvaus. |Tähän välitavoitteeseen perustuva toimittajan laskurivi käyttää myös alihankintarivin välitavoitteen kuvausta toimittajan laskurivin oletuskuvauksena.|
+    | Välitavoitteen päivämäärä | Päivämäärä, jolloin automaattisen laskun luontiprosessin tulisi etsiä tämän välitavoitteen tila, jotta se voidaan ottaa huomioon laskutuksessa.| Tätä arvoa käytetään toimittajan laskurivin oletuspäivämääränä, kun tätä alihankintariviä laskutetaan. |
+    | Summa | Asiakkaalta laskutettavan välitavoitteen summa tai arvo. |Tätä arvoa käytetään toimittajan laskurivin oletusmääränä, kun tätä alihankintariviä laskutetaan. |
+    | Vero | Välitavoitteessa käytetty verosumma.| Tätä arvoa käytetään toimittajan laskurivin oletusveromääränä, kun tätä alihankintariviä laskutetaan. |
+    | Verollinen summa | Tämä vain luku -kenttä lasketaan muodossa summa + vero.|Tätä arvoa käytetään toimittajan laskurivin oletusarvona, kun tätä alihankintariviä laskutetaan. |
+    | Laskun tila | Kun välitavoite on luotu, tämä tila määritetään aina arvoon **Ei valmis laskutukseen**.|  Kun tila on **Valmis laskutukseen**, toimittajan laskun luonti sisällyttää tämä välitavoitteen toimittajan laskuun. |
 
 5. Valitse **Tallenna ja sulje**.
 

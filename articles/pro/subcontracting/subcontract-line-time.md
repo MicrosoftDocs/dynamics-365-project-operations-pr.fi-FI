@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323862"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547240"
 ---
 # <a name="subcontract-lines-for-time"></a>Alihankinnan aikarivit
 
@@ -30,23 +30,22 @@ Luo Project Operationsissa alihankinnan aikarivi seuraavien vaiheiden mukaisesti
 
   Seuraavassa taulukossa on tietoja kentistä **Alihankintarivi**-sivulla ja **Pikaluonti**-sivulla.
 
-| **Kenttä** | **Kuvaus** |
-| --- | --- |
-| Nimi | Alihankintarivin nimi. |
-| Kuvaus | Lyhyt kuvaus alihankintarivillä ostettavista palveluista. | 
-| Rivityyppi | Tämä kenttä on oletusarvo.  |
-| Laskutustapa | Valitse laskutustapa. Viitatun alihankintarivin laskutustavan perusteella välitavoitteeseen perustuva laskuaikataulu tulee käytettäväksi kiinteähintaiselle laskutustavalle. |
-| Tapahtumaluokka | Tämä kenttä on oletusarvo, joka osoittaa, käytetäänkö alihankintariviä tallentamaan ajan ostamista alihankkijalta. |
-| Rooli | Niiden alihankintaresurssien, joiden aikaa ostetaan, rooli. Alihankintaresursseille määritetty rooli määrittää oston kustannukset. |
-| Pyydetty alku | Päivämäärä, jolloin alihankkijaresurssit tarvitaan, jotta työt voidaan aloittaa. Pyydettyä alkua käytetään myös projektin hinnaston valitsemiseen projektin hinnastoista, jotka on liitetty alihankkijaan. Tämän jälkeen alihankintarivillä oleva roolin kustannus tulee oletusarvona tästä hinnastosta. |
-| Pyydetty loppu | Päivämäärä, jolloin alihankkijaresurssien käyttäminen päättyy. Tätä päivämäärää käytetään varoitusten näyttämiseen, kun projektipäällikkö käyttää tätä kapasiteettia tehtäviin, jotka tapahtuvat kyseisen päivämäärän jälkeen. |
-| Tilattu määrä | Toimittajalta ostettavien roolituntien määrä. Tätä arvoa käytetään varoitusten näyttämiseen, kun projektipäällikkö ylittää tämän kapasiteetin resurssivaatimukset täyttääkseen. |
-| Yksikköryhmä | Tämä kenttä käyttää Aika-yksikköryhmän oletusarvoa, eikä sitä voi muuttaa.  |
-| Yksikkö | Tämä kenttä käyttää Aika-yksikköryhmän tuntiperusyksikön oletusarvoa. Voit muuttaa tätä arvoa, jos haluat ostaa minkä tahansa Aika-yksikköryhmän yksikön, kuten päivän tai viikon. Roolin ja yksikön yhdistelmää käytetään alihankintarivin yksikköhinnan laskemiseen. |
-| Yksikköhinta | Yksikköhinnan oletusarvo tulee käyttämällä roolin ja yksikön yhdistelmää projektin hintaluettelosta, joka soveltuu alihankintarivin pyydettyyn alkamispäivään. Kun soveltuvassa projektin hinnastossa hinta on määritetty eri yksikköön kuin alihankintarivillä, järjestelmä laskee yksikköhinnan yksikkömuunnoksen avulla. |
-| Välisumma | Tämä on vain luku -kenttä, joka lasketaan automaattisesti muodossa **Määrä x Yksikköhinta**, jos sekä määrän että yksikköhinnan arvot on syötetty. Jos joko määrä, yksikköhinta tai molemmat ovat tyhjät, voit syöttää arvon kenttään. |
-| Arvonlisävero |  Anna arvonlisäveron summa. |
-| Loppusumma | Mukaan tulee alihankintarivin kokonaissumma verot mukaan lukien. |
-
+| **Kenttä** | **Kuvaus** | **Toiminnallinen vaikutus** |
+| --- | --- | --- |
+| Nimi | Alihankintarivin nimi tunnistamisen helpottamiseksi. | Tämä näkyy kaikkien hakujen ensimmäisenä sarakkeena alihankintarivien perusteella. |
+| Kuvaus | Lyhyt kuvaus alihankintarivillä ostettavista palveluista. |Ei ole |
+| Rivityyppi |   Tämän kentän oletusarvo on **Määräpohjainen**.| Ei ole |
+| Laskutustapa | Tämä on asetusjoukko, joka edustaa kahta pääsopimusmallia, joita Project Operations tukee: **Kiinteä hinta** ja **Aika ja materiaali**. | Valitun laskutustavan perusteella välitavoitteeseen perustuva laskuaikataulu on käytettävissä alihankintariveillä, joilla on kiinteähintainen laskutustapa. |
+| Tapahtumaluokka | Oletusarvo on **Aika**. | Tämä osoittaa, että alihankintariviä käytetään alihankinnan ajan oston kirjaamiseen. |
+| Rooli | Valitse niiden alihankinnan resurssien rooli, joiden aikaa ostetaan. | Alihankintaresurssien suorittama rooli määrittää oston kustannukset. |
+| Pyydetty alku | Anna päivämäärä, jona alihankintaresurssit on oltava käytössä, jotta työ voidaan aloittaa. | Tämän avulla voidaan valita projektihinnasto alihankintaan liitetyistä projektihinnastoista. Alihankintarivin roolin kustannus on peräisin tästä hinnastosta. |
+| Pyydetty loppu | Anna päivämäärä, jona alihankintaresurssin tehtävä päättyy. | Tätä käytetään varoitusten näyttämiseen, kun projektipäällikkö käyttää kapasiteettia resurssivaatimuksiin, jotka tapahtuvat kyseisen päivämäärän jälkeen. |
+| Tilattu määrä | Määritä toimittajalta ostettavan roolin tuntien määrä. | Tätä käytetään varoitusten näyttämiseen, kun projektipäällikkö ylikäyttää tätä kapasiteettia resurssivaatimuksiin. |
+| Yksikköryhmä | Oletusarvo on **Aika-yksikköryhmä**, eikä sitä voi muuttaa. | Ei ole|
+| Yksikkö | Tämän kentän oletusarvo on tuntien perusyksikkö kohteesta **Aika-yksikköryhmä**. Voit muuttaa tätä arvoa, jos haluat ostaa minkä tahansa **Aika-yksikköryhmä**-yksikön, kuten päivän tai viikon. | **Roolin** ja **Yksikön** yhdistelmää käytetään alihankintarivin yksikköhinnan oletusarvona tai laskettuna arvona. |
+| Yksikköhinta | Yksikköhinnan oletusarvo käyttää **Roolin** ja **Yksikön** yhdistelmää projektihinnastosta, joka soveltuu alihankintarivin **Pyydetty alkaminen** -päivämäärään. | Kun soveltuvassa projektin hinnastossa hinta on määritetty eri yksikköön kuin alihankintarivillä, järjestelmä laskee yksikköhinnan yksikkömuunnoksen avulla. |
+| Välisumma |    Tämä on vain luku -kenttä, joka lasketaan muodossa määrä x yksikköhinta, jos sekä määrä- että yksikköhinta-arvot on syötetty. Jos joko määrä, yksikköhinta tai molemmat ovat tyhjät, voit syöttää arvon kenttään. | Ei ole|
+| Arvonlisävero |   Anna arvonlisäveron summa. |Ei ole |
+| Loppusumma | Alihankintarivin kokonaissumma verot mukaan lukien. Tämä kenttä lasketaan muodossa välisumma + arvonlisävero.|Ei ole |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

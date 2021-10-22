@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003812"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547105"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations -kaksoiskirjoituksen karttaversiot
 
@@ -49,8 +49,8 @@ Project Operations -ratkaisun edellytyksenä ovat seuraavat kartat. Kaksoiskirjo
 | Project Operationsin materiaaliarvioiden integrointitaulukko (msdyn\_estimatelines) | 1.0.0.0 | Ei vaadita valmistelua varten. |
 | Projektin laskuehdotukset V2 (laskut) | 1.0.0.3 | Ei vaadita valmistelua varten. |
 | Project Operations -integroinnin todelliset arvot (msdyn_actuals) | 1.0.0.14 | Ei vaadita valmistelua varten. |
-| Project Operations -integroinnin sopimusrivin välitavoitteet (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Ei vaadita valmistelua varten. |
-| Project Operations -integrointikohde kuluarvioita varten (msdyn_estimateslines) | 1.0.0.2 | Ei vaadita valmistelua varten. |
+| Project Operations -integraation sopimusrivien välitavoitteet (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Ei vaadita valmistelua varten. |
+| Project Operations -integraation entiteetti kuluarvioita varten (msdyn_estimatelines) | 1.0.0.2 | Ei vaadita valmistelua varten. |
 | Project Operations -integrointikohde tuntiarvioita varten (msdyn_resourceassignments) | 1.0.0.5 | Ei vaadita valmistelua varten. |
 | Project Operations -integroinnin projektikululuokkien vientientiteetti (msdyn_expensecategories) | 1.0.0.1 | Ei vaadita valmistelua varten. |
 | Project Operations -integroinnin projektikulujen vientientiteetti (msdyn_expenses) | 1.0.0.2 | Ei vaadita valmistelua varten. |

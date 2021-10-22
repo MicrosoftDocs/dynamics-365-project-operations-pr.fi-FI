@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323817"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506095"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Alihankinnan kululuokkarivit
 
@@ -29,23 +29,23 @@ Luo Project Operationsissa alihankinnan kululuokkarivi seuraavien vaiheiden muka
 
 Seuraavassa taulukossa on tietoja kentistä **Alihankintarivi**-tietosivulla ja **Pikaluonti**-sivulla.
 
-| **Kenttä** |  **Kuvaus** |
-| ----------| ---------------- |
-| Nimi | Alihankintarivin nimi. |
-| Kuvaus | Lyhyt kuvaus alihankintarivillä ostettavista palvelu- tai tuoteluokista. |
-| Rivityyppi | Tämän kentän oletusarvo on **Määräpohjainen**.  |
-| Laskutustapa | Alihankintarivin laskutustapa. Alihankintarivin laskutustavan perusteella välitavoitteeseen perustuva laskuaikataulu tulee käytettäväksi kiinteähintaiselle laskutustavalle.  |
-| Tapahtumaluokka | Tämän kentän oletusarvo on **Aika**. Jos haluat luoda alihankintarivejä tuotteiden ostamista varten, määritä **Tapahtumaluokka**-kenttä arvoon **Kulu**. Kentän arvo osoittaa, että alihankintarivillä tallennetaan projektissa käytettävien tuote- tai palveluluokkien ostot. |
-| Tapahtumakategoria | Valitse tapahtumaluokka. |
-| Pyydetty alku | Päivämäärä, jolloin ostoluokkien on oltava saatavissa toimittajalta. Pyydettyä alkua käytetään myös projektin hinnaston valitsemiseen projektin hinnastoista, jotka on liitetty alihankkijaan. Tämän jälkeen alihankintarivillä oleva luokan kustannus tulee oletusarvona tästä hinnastosta. |
-| Pyydetty loppu | Päivämäärä, jolloin ostoluokkia ei enää tarvita. Tämä päivämäärä kutsuu varoituksen, jos projektipäällikkö liittää tämän alihankintarivin tiettyihin kuluarvioihin projekteissa, jotka on päivätty tämän päivämäärän jälkeen. |
-| Tilattu määrä | Toimittajalta ostettavan luokan määrä. Kun projektipäällikkö ylittää ostetun määrän, siitä tulee varoitus.  |
-| Yksikköryhmä | Tämän kentän oletusarvo perustuu oletusyksikköryhmään, joka on määritetty valitulle luokalle. |
-| Yksikkö | Tämän kentän oletusarvo perustuu valitun luokan oletusyksikköryhmään. Luokan ja yksikön yhdistelmää käytetään alihankintarivin yksikköhinnan oletusarvoksi asettamiseen. |
-| Yksikköhinta | Yksikköhinnan kentän arvon oletusarvo tulee käyttämällä luokan ja yksikön yhdistelmää luokkahinnoista, jotka liittyvät projektin hinnastoon, jota voi soveltaa alihankintarivin pyydettyyn alkuun.  |
-| Välisumma | Tämä vain luku -kenttä lasketaan automaattisesti määrän yksikköhintana, jos sekä määrän että yksikköhinnan arvot on syötetty. Jos toinen kenttä on tyhjä tai molemmat kentät ovat tyhjät, voit syöttää tähän kenttään arvon manuaalisesti.  |
-| Arvonlisävero | Anna arvonlisäveron summa.  |
-| Loppusumma | Alihankintarivin kokonaissumma verot mukaan lukien. Tämä kenttä lasketaan muodossa välisumma + arvonlisävero.  |
+| **Kenttä** | **Kuvaus** | **Toiminnallinen vaikutus** |
+| --- | --- | --- |
+| Nimi | Alihankintarivin nimi tunnistamisen helpottamiseksi. | Tämä näkyy kaikkien hakujen ensimmäisenä sarakkeena alihankintarivien perusteella. |
+| Kuvaus | Alihankintarivillä ostettavien kululuokkien lyhyt kuvaus. | Ei ole |
+|Rivityyppi | Tämän kentän oletusarvo on **Määräpohjainen**. |Ei ole |
+| Laskutustapa | Tämä on asetusjoukko, joka edustaa kahta pääsopimusmallia, joita Project Operations tukee: **Kiinteä hinta** ja **Aika ja materiaali**. | Välitavoitteeseen perustuva laskuaikataulu on käytettävissä alihankintariveillä, jos kiinteähintainen laskutustapa on valittuna. |
+| Tapahtumaluokka | Tämän kentän oletusarvo on **Aika**. Jos haluat luoda alihankintarivejä tuotteiden ostamista varten, määritä **Tapahtumaluokka**-kenttä arvoon **Kulu**.  | Tämä osoittaa, että alihankintariviä käytetään projektissa käytettävien kululuokkien ostojen kirjaamista varten. |
+| Tapahtumakategoria | Näyttää luettelon järjestelmän aktiivisista tapahtumaluokista. |Ei ole |
+| Pyydetty alku | Määritä päivämäärä, jona ostoluokkien on oltava käytettävissä toimittajalta. | Pyydettyä alkamista käytetään projektin hinnaston valitsemiseen alihankintaan liitetyistä projektihinnastoista. Alihankintarivin luokan kustannus on peräisin tästä hinnastosta. |
+| Pyydetty loppu | Anna päivämäärä, jona ostoluokkia ei enää tarvita. | Tätä käytetään varoitusten näyttämiseen, kun projektipäällikkö liittää tämän alihankintarivin projektin tiettyihin kuluarvioihin, jotka ovat pakollisia tämän päivämäärän jälkeen. |
+| Tilattu määrä | Toimittajalta ostettavan luokan määrä. | Tätä käytetään varoitusten näyttämiseen, kun projektipäällikkö ylikäyttää tätä määrää.|
+| Yksikköryhmä | Oletusarvo perustuu oletusyksikköryhmään, joka on määritetty valitulle luokalle. |Ei ole |
+| Yksikkö | Oletusarvo perustuu oletusyksikköön, joka on määritetty valitulle luokalle.  | **Luokan** ja **Yksikön** yhdistelmää käytetään alihankintarivin yksikköhinnan oletusarvona tai laskettuna arvona.  |
+| Yksikköhinta | Oletusarvo käyttää **Luokan** ja **Yksikön** yhdistelmää luokkahinnoista, jotka liittyvät projektihinnastoon, joka soveltuu alihankintarivin pyydettyyn alkamiseen. |Ei ole |
+| Välisumma | Tämä on vain luku -kenttä, joka lasketaan muodossa määrä x yksikköhinta, jos sekä määrä- että yksikköhinta-arvot on syötetty. Jos jompikumpi tai molemmat kentät ovat tyhjiä, voit syöttää tähän kenttään arvon. |Ei ole |
+| Arvonlisävero | Anna arvonlisäveron summa. |Ei ole |
+| Loppusumma | Alihankintarivin kokonaissumma verot mukaan lukien. Tämä kenttä lasketaan muodossa välisumma + arvonlisävero. |Ei ole |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
