@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Toimittajalaskutuksen integrointi
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Poista Dynamics 365 Project Operations -asennus
+          href: environment/uninstall-project-operations.md
     - name: Uudet ominaisuudet
       items:
         - name: Lokakuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Projektiaikataulun ohjelmointirajapintojen käyttäminen
               href: project-management/schedule-api-preview.md
+            - name: Projektiaikataulun ohjelmointirajapinnan suorituskyky
+              href: project-management/project-schedule-api-performance.md
     - name: Resurssien hallinta
       items:
         - name: Keskeiset käsitteet
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Projektiaikataulun ohjelmointirajapintojen käyttäminen
               href: project-management/schedule-api-preview.md
+            - name: Projektiaikataulun ohjelmointirajapinnan suorituskyky
+              href: project-management/project-schedule-api-performance.md
     - name: Resurssien hallinta
       items:
         - name: Keskeiset käsitteet
@@ -1102,6 +1108,8 @@
       items:
         - name: Project Service 3.x -päivitysten julkaisuaikataulu
           href: psa/version-history-ps.md
+        - name: 'Päivitysversion 37, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-37.md
         - name: 'Päivitysversion 36, V3 uudet ominaisuudet ja muutokset'
           href: psa/whats-new-ur-36.md
         - name: 'Päivitysversion 35, V3 uudet ominaisuudet ja muutokset'

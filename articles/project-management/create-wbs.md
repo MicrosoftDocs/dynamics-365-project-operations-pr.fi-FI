@@ -2,16 +2,16 @@
 title: Työrakenteen luominen
 description: Tässä aiheeessa selostetaan, miten luodaan työrakenne (WBS) sisältäen perusohjausobjektit uudessa aikataulutuksen käyttöliittymässä.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998727"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655413"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Työrakenteen (WBS) luominen
 
@@ -117,5 +117,26 @@ Tämä tehtävätila ei vaikuta edeltävien/riippuvaisten tehtävien alkamis- ja
 
 **Aikataulut**-ruudukko on täysin käytettävissä, ja siinä voidaan käyttää näytönlukijoita (esim. Narrator, JAWS tai NVDA). Voit siirtyä ruudukkoalueella nuolinäppäimillä (kuten Microsoft Excelissä), voit käyttää sarkainnäppäintä siirtyäksesi vuorovaikutteisten käyttöliittymäelementtien välillä ja voit käyttää alanuolinäppäintä, Enter-näppäintä tai välilyöntiä valitaksesi ja avataksesi avattavia valikkoja.
 
+## <a name="project-limitations"></a>Projektirajoitukset 
+Ota huomioon seuraavat rajoitukset, jos käytät Project Operationsin työrakennetta. Nämä rajoitukset koskevat projekteja ja tehtäviä. Lisätietoja on ohjeaiheessa [Project for the webin rajoitukset ja rajat](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Kenttä**                                          |  **Raja**           |
+|----------------------------------------------------|----------------------|
+| Projektin tehtävien enimmäismäärä                  | 500                  |
+| Projektin keston enimmäismäärä               | 3650 päivää (10 vuotta) |
+| Projektin resurssien enimmäismäärä              | 150                  |
+| Projektin linkkien enimmäismäärä (vain seuraaja) | 600                  |
+| Projektin mukautettujen linkkien enimmäismäärä          | 10                   |
+
+**Tehtävärajoitukset**
+
+| **Kenttä**                               |   **Raja**           |
+|-----------------------------------------|-----------------------|
+| Hierarkian enimmäistaso                 | 10 tasoa             |
+| Linkkien enimmäismäärä (seuraaja + edeltäjä) | 20                    |
+| Lehtitehtävän enimmäiskesto           | 1250 päivää             |
+| Yhteenvetotehtävän enimmäiskesto      | 3650 päivää (10 vuotta)  |
+| Tehtävään kohdennettujen resurssien enimmäismäärä    | 20 resurssia          |
+| Tehtävän tuettu päivämääräväli         | 1.1.2000 - 31.12.2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

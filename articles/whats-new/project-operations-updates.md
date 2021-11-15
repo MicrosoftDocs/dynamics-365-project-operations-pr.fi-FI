@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623324"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783419"
 ---
 # <a name="project-operations-updates"></a>Project Operationsin päivitykset
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations koostuu kahdesta komponentista:
 
 | Project Operations Dataverse-ympäristössä | Projektinhallinta ja kirjanpito Finance and Operations -sovellusten ympäristössä | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 Project Operationsin resurssi-/ei-varastoitussa skenaariossa on suositeltavaa käyttää Dual Write Orchestration 2.2.2.83 tai uudempaa versiota.
 
@@ -47,23 +47,23 @@ Dataverse-ympäristön Project Operationsin päivitykset ovat saatavana kuukausi
 | Asema | Alue | Nykyinen versionumero | Lite-käyttöönoton automaattiset päivitykset | Resurssin/ei-varastoitavan käyttöönoton automaattiset päivitykset | Seuraava versionumero | Seuraava yleisesti saatavilla oleva versio |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Asema 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ensimmäinen julkaisu         |  4.25.0.91      | Suorita loppuun           | Suorita loppuun            | TBD                 | 29. lokakuuta 2021    |
+|   &nbsp;  | Ensimmäinen julkaisu         |  4.26.0.145     | 12. marraskuuta 2021  | 19. marraskuuta 2021   | TBD                 | 03. joulukuuta 2021   |
 | Asema 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Etelä-Amerikka         |  4.25.0.91      | Suorita loppuun           | 15. lokakuuta 2021    | TBD                 | 29. lokakuuta 2021    |
-|   &nbsp;  | Kanada                |  4.25.0.91      | Suorita loppuun           | 15. lokakuuta 2021    | TBD                 | 29. lokakuuta 2021    |
-|   &nbsp;  | Intia                 |  4.25.0.91      | Suorita loppuun           | 15. lokakuuta 2021    | TBD                 | 29. lokakuuta 2021    |
-|   &nbsp;  | Ranska                |  4.25.0.91      | Suorita loppuun           | 15. lokakuuta 2021    | TBD                 | 29. lokakuuta 2021    |
-|   &nbsp;  | Etelä-Afrikka          |  4.25.0.91      | Suorita loppuun           | 15. lokakuuta 2021    | TBD                 | 29. lokakuuta 2021    |
+|   &nbsp;  | Etelä-Amerikka         |  4.26.0.145     | 12. marraskuuta 2021  | 19. marraskuuta 2021   | TBD                 | 03. joulukuuta 2021   |
+|   &nbsp;  | Kanada                |  4.26.0.145     | 12. marraskuuta 2021  | 19. marraskuuta 2021   | TBD                 | 03. joulukuuta 2021   |
+|   &nbsp;  | Intia                 |  4.26.0.145     | 12. marraskuuta 2021  | 19. marraskuuta 2021   | TBD                 | 03. joulukuuta 2021   |
+|   &nbsp;  | Ranska                |  4.26.0.145     | 12. marraskuuta 2021  | 19. marraskuuta 2021   | TBD                 | 03. joulukuuta 2021   |
+|   &nbsp;  | Etelä-Afrikka          |  4.26.0.145     | 12. marraskuuta 2021  | 19. marraskuuta 2021   | TBD                 | 03. joulukuuta 2021   |
 | Asema 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japani                 |  4.25.0.91      | 15. lokakuuta 2021   | 22. lokakuuta 2021    | TBD                 | 05. marraskuuta 2021   |
-|   &nbsp;  | Tyynenmeren Aasia          |  4.25.0.91      | 15. lokakuuta 2021   | 22. lokakuuta 2021    | TBD                 | 05. marraskuuta 2021   |
-|   &nbsp;  | Iso-Britannia         |  4.25.0.91      | 15. lokakuuta 2021   | 22. lokakuuta 2021    | TBD                 | 05. marraskuuta 2021   |
-|   &nbsp;  | Oseania               |  4.25.0.91      | 15. lokakuuta 2021   | 22. lokakuuta 2021    | TBD                 | 05. marraskuuta 2021   |
-|   &nbsp;  | Arabiemiirikunnat  |  4.25.0.91      | 15. lokakuuta 2021   | 22. lokakuuta 2021    | TBD                 | 05. marraskuuta 2021   |
+|   &nbsp;  | Japani                 |  4.26.0.145     | 12. marraskuuta 2021  | 19. marraskuuta 2021   | TBD                 | 10. joulukuuta 2021   |
+|   &nbsp;  | Tyynenmeren Aasia          |  4.26.0.145     | 12. marraskuuta 2021  | 19. marraskuuta 2021   | TBD                 | 10. joulukuuta 2021   |
+|   &nbsp;  | Iso-Britannia         |  4.26.0.145     | 12. marraskuuta 2021  | 19. marraskuuta 2021   | TBD                 | 10. joulukuuta 2021   |
+|   &nbsp;  | Oseania               |  4.26.0.145     | 12. marraskuuta 2021  | 19. marraskuuta 2021   | TBD                 | 10. joulukuuta 2021   |
+|   &nbsp;  | Arabiemiirikunnat  |  4.26.0.145     | 12. marraskuuta 2021  | 19. marraskuuta 2021   | TBD                 | 10. joulukuuta 2021   |
 | Asema 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eurooppa                |  4.14.0.99      | Suorita loppuun           | Suorita loppuun            | 4.25.0.91           | 15. lokakuuta 2021    |
+|   &nbsp;  | Eurooppa                |  4.25.0.91      | Suorita loppuun           | Suorita loppuun            | 4.26.0.145          | 12. marraskuuta 2021   |
 | Asema 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pohjois-Amerikka         |  4.14.0.99      | Suorita loppuun           | 8. lokakuuta 2021    | 4.25.0.91           | 22. lokakuuta 2021    |
+|   &nbsp;  | Pohjois-Amerikka         |  4.25.0.91      | Suorita loppuun           | Suorita loppuun            | 4.26.0.145          | 19. marraskuuta 2021   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Finance and Operations -sovellusympäristön projektinhallinnan ja kirjanpidon julkaisuaikataulu
@@ -72,14 +72,15 @@ Projektinhallinnan ja kirjanpidon päivitykset julkaistaan kahdeksan kertaa vuod
 
 |Tuettu versio| Esikatselun saatavuus (PEAP) | Yleisesti saatavana (oma päivitys) | Automaattisen päivityksen aikataulun (LCS-päivitysasetusten kautta) tuotannon aloituspäivä |   Palvelun päättymispäivä   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      3. syyskuuta 2021      |        22. lokakuuta 2021           |                          5. marraskuuta 2021                            | 14. tammikuuta 2022   |
 |    10.0.21      |         02. elokuuta 2021     |           17. syyskuuta 2021      |                             1. lokakuuta 2021                          |  10. joulukuuta 2021 |
-|    10.0.20      |         28. toukokuuta 2021        |           16. heinäkuuta 2021           |                             30. heinäkuuta 2021                            |  22. lokakuuta 2021  |
+
 
 Tavoitejulkaisupäivämäärät voivat muuttua. Lisätietoja on kohdassa [Palvelupäivityksen saatavuus](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Kohdeversio | Esikatselun saatavuus (PEAP) | Yleisesti saatavana (oma päivitys) | Automaattisen päivityksen aikataulun (LCS-päivitysasetusten kautta) tuotannon aloituspäivä |   Palvelun päättymispäivä   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      3. syyskuuta 2021      |          22. lokakuuta 2021         |                           5. marraskuuta 2021                           |  14. tammikuuta 2022  |
 |     10.0.23     |      15. lokakuuta 2021       |        10. joulukuuta 2021          |                          31. joulukuuta 2021                           | 18. maaliskuuta 2022     |
+|     10.0.24     |      3. joulukuuta 2021       |        14. tammikuuta 2022           |                          4. helmikuuta 2022                            | 15. huhtikuuta 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
