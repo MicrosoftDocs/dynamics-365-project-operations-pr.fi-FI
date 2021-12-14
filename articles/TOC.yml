@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Uudet ominaisuudet
       items:
+        - name: Marraskuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Lokakuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: Syyskuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Projektiaikataulun ohjelmointirajapinnan suorituskyky
               href: project-management/project-schedule-api-performance.md
+            - name: Projektin aikataulutuslokit
+              href: project-management/schedule-api-logs.md
     - name: Resurssien hallinta
       items:
         - name: Keskeiset käsitteet
@@ -544,6 +548,8 @@
       items:
         - name: 'Uudet ominaisuudet 2021, aalto 2, early access – lite-käyttöönotto'
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Marraskuun 2021 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Lokakuun 2021 Lite-käyttöönoton uudet ominaisuudet
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Syyskuun 2021 Lite-käyttöönoton uudet ominaisuudet
@@ -952,6 +958,10 @@
   items:
     - name: Uudet ominaisuudet
       items:
+        - name: Lokakuun 2021 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Syyskuun 2021 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Heinäkuun 2021 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Toukokuun 2021 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
@@ -1108,6 +1118,8 @@
       items:
         - name: Project Service 3.x -päivitysten julkaisuaikataulu
           href: psa/version-history-ps.md
+        - name: 'Päivitysversion 37.5, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Päivitysversion 37, V3 uudet ominaisuudet ja muutokset'
           href: psa/whats-new-ur-37.md
         - name: 'Päivitysversion 36, V3 uudet ominaisuudet ja muutokset'

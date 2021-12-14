@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
-ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
+ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "7773574"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892171"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x -päivitysjulkaisujen aikataulu
 
@@ -37,7 +37,7 @@ ms.locfileid: "7773574"
 
 | Ratkaisu  | Viimeisin versio |
 |-------|----|
-| Project Service Automation    | 3.10.58.120 |
+| Project Service Automation    | 3.10.58.130 |
 | Project Service Automation -työpöytälaajennus                | 3.15          |
 
 Tietoja Project Servicen päivityksistä saat siirtymällä sivulle [Dynamics 365:n julkaisusuunnitelmat](/dynamics365/release-plans/). 
@@ -55,18 +55,18 @@ Tietoja Project Servicen päivityksistä saat siirtymällä sivulle [Dynamics 36
 | | <i>saksa</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10. joulukuuta 2021
 | | <i>Sveitsi</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10. joulukuuta 2021
 |<strong>Asema 3</strong> | |  |  | |
-| | <i>Japani</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12. marraskuuta 2021
-| | <i>Aasian Tyynenmeren alue</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12. marraskuuta 2021
-| | <i>Iso-Britannia</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12. marraskuuta 2021
-| | <i>Oseania</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12. marraskuuta 2021
-| | <i>Arabiemiirikunnat</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12. marraskuuta 2021
+| | <i>Japani</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17. joulukuuta 2021
+| | <i>Aasian Tyynenmeren alue</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17. joulukuuta 2021
+| | <i>Iso-Britannia</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17. joulukuuta 2021
+| | <i>Oseania</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17. joulukuuta 2021
+| | <i>Arabiemiirikunnat</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17. joulukuuta 2021
 |<strong>Asema 4</strong> | |  |  | |
-| | <i>Eurooppa</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 19. marraskuuta 2021
+| | <i>Eurooppa</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 07. tammikuuta 2022
 |<strong>Asema 5</strong> | |  |  | |
-| | <i>Pohjois-Amerikka</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03. joulukuuta 2021
+| | <i>Pohjois-Amerikka</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14. tammikuuta 2022
 |<strong>Asema 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03. joulukuuta 2021
-| | <i>Varatut skaalausryhmät</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 10. joulukuuta 2021
+| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14. tammikuuta 2022
+| | <i>Varatut skaalausryhmät</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 10. joulukuuta 2021
 
 
 

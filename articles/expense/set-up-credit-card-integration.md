@@ -2,7 +2,7 @@
 title: Luottokortin integroinnin määrittäminen
 description: Tässä aiheessa kerrotaan, miten kuluihin liittyviä luottokorttitapahtumia käsitellään.
 author: suvaidya
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51c364dff41d856e493581e1b87fd29571f641c70e7233bdebb910efbc64b983
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996207"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826252"
 ---
 # <a name="set-up-credit-card-integration"></a>Luottokortin integroinnin määrittäminen
 
@@ -50,10 +50,18 @@ Valitse vähintään yksi luottokorttitapahtuma ja valitse sitten **Määritä t
 
 ## <a name="delete-credit-card-transactions"></a>Luottokorttitapahtumien poistaminen 
 
-Joskus luottokorttitapahtumien tuonnin jälkeen jotkin tapahtumat on ehkä poistettava. Tämä voi johtuu siitä, että tapahtumat ovat kaksoiskappaleita tai siitä, että tiedot eivät ehkä ole oikeita. Järjestelmänvalvojat voivat käyttää **Luottokorttitapahtumien poistaminen** -toimintoa valitakseen ja poistaakseen luottokorttitapahtumia, joita **ei ole liitetty** kuluraporttiin. 
+Joskus luottokorttitapahtumien tuonnin jälkeen jotkin tapahtumat on ehkä poistettava. Tämä voi johtuu siitä, että tapahtumat ovat kaksoiskappaleita tai koska tiedot eivät pidä paikkansa. Järjestelmänvalvojat voivat käyttää **Luottokorttitapahtumien poistaminen** -toimintoa valitakseen ja poistaakseen luottokorttitapahtumia, joita **ei ole liitetty** kuluraporttiin. 
 
 1. Siirry kohtaan **Jaksoittaiset tehtävät** > **Poista luottokorttitapahtumia**.
 2. Valitse **Suodata** ja anna sisällytettävät tietueet tunnistavat tiedot.
 3. Voit poistaa tietueet valitsemalla **OK**. 
+
+## <a name="storing-credit-card-numbers"></a>Tallentaa luottokorttinumeroita
+
+Luottokortin numero voidaan tallentaa kolmella eri tavalla. Luottokortin numerot tallennetaan **Kulunhallinnan parametrit** -sivulle.
+
+- **Kortin numeron syöttämisen estäminen** – luottokorttinumeroita ei tallenneta.
+- **Hajautuskoodikortin numerot (myymälän viimeiset 4 numeroa)** – Luottokortin numeroiden neljä viimeistä numeroa tallennetaan salatussa muodossa.
+- **Kortin tallennusnumerot** – luottokortin numerot tallennetaan salaamattomaan muotoon. Tämä vaihtoehto ei ole DSS (Payment Card Industry, PCI) Data Security Standard (DSS) -standardin mukainen. Jotta organisaatio olisi PCI DSS -määräysten mukainen, organisaation järjestelmänvalvojien on valittava, että luottokorttinumeroita ei tallenneta tai hajautuskoodikortin numeroita säilytetään.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
