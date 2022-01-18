@@ -2,16 +2,16 @@
 title: Työrakenteen luominen
 description: Tässä aiheeessa selostetaan, miten luodaan työrakenne (WBS) sisältäen perusohjausobjektit uudessa aikataulutuksen käyttöliittymässä.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655413"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928611"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Työrakenteen (WBS) luominen
 
@@ -95,7 +95,7 @@ Järjestelmänvalvojana voit määrittää tehtäväentiteetin mukautettuja kent
 
 ## <a name="staffing-attributes"></a>Henkilöstömääritteet
 
-Henkilöstömääritteitä käytetään aikataulun **Resurssit**-kentän kautta. Voit joko hakea olemassa olevaa resurssia tai valita **Luo** ja lisätä projektiryhmän jäsenen uudeksi resurssiksi **Pikaluonti**-ruudussa.
+Henkilöstömääritteitä käytetään aikataulun **Resurssit**-kentän kautta. Voit joko hakea olemassa olevaa resurssia tai valita **Luo** ja lisätä projektiryhmän jäsenen uudeksi resurssiksi **Pikaluonti**-ruudussa.  Kun haet resurssia käyttäen tehtäväruudukossa, taulunäkymässä tai gantt-kaaviossa olevaa resurssivalitsinta, haku palauttaa joko olemassa olevat ryhmän jäsenet tai aktiiviset varattavat resurssit.
 
 Kenttiä **Rooli**, **Resursointiyksikkö** ja **Toimen nimi** käytetään tehtävän henkilöstötarpeiden kuvaamiseen. Näitä henkilöstömääritteitä käytetään yhdessä tehtävän aikataulun kanssa käytettävissä olevien resurssien hakemiseen tehtävälle.
 
@@ -127,10 +127,11 @@ Ota huomioon seuraavat rajoitukset, jos käytät Project Operationsin työrakenn
 | Projektin resurssien enimmäismäärä              | 150                  |
 | Projektin linkkien enimmäismäärä (vain seuraaja) | 600                  |
 | Projektin mukautettujen linkkien enimmäismäärä          | 10                   |
+| Tarkistusluettelon kohteiden enimmäismäärä tehtävää kohden                   | 20                   |
 
 **Tehtävärajoitukset**
 
-| **Kenttä**                               |   **Raja**           |
+| **Field**                               |   **Raja**           |
 |-----------------------------------------|-----------------------|
 | Hierarkian enimmäistaso                 | 10 tasoa             |
 | Linkkien enimmäismäärä (seuraaja + edeltäjä) | 20                    |

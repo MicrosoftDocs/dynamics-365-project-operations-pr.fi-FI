@@ -1,8 +1,8 @@
 ---
-title: Uudistetut matkalaskut
+title: Uudistetut matkalaskut (sisältää videon)
 description: Tässä aiheessa selitetään kuluraporttien merkinnän uudistettu kokemus.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997827"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941026"
 ---
 # <a name="expense-reports-reimagined"></a>Uudistetut matkalaskut
 
@@ -58,6 +58,7 @@ Voit ottaa uuden käyttökokemuksen käyttöön **Ominaisuuksien hallinta** -ty�
 | Tallenna ja lisää uusia kulurivejä | **Tallenna**- ja **Uusi**-painikkeet ovat käytettävissä, kun uusia kuluja syötetään, joten voit nopeasti syöttää kulurivejä. |
 | Parempi näkyvyys jaetuille ja eritellyille riveille | Eritellyt ja jaetut rivit lisätään suoraan kululuetteloon näkyvyyden lisäämiseksi, ja niiden avulla voit helposti selvittää, onko virheitä. |
 | Eriteltyjen rivien aliluokan tietojen tarkasteleminen | Pääkulujen eritellyillä riveillä näkyy kuluraportin alaluokkien tunnisteet. Erittelyn avulla voit tarkastella hajautettuja tietoja yhdellä silmäyksellä.|
+|Toistuvien kulujen nopea erittely | Kulujen uuden työtilan avulla on mahdollista eritellä toistuvat kulut nopeasti lisäämällä alaluokan, alkamispäivän ja määrän. Määrällä tarkoitetaan sitä, kuinka monta kertaa veloitus toistetaan keskeytyksettä. |
 | Näytä kuitit erittelyn aikana | Kuitit voidaan näyttää erittelyn aikana. |
 | Käteisennakon valinta | Valitse vähintään yksi käteisennakko yhden kulutapahtuman täyttämiseksi. |
 | Käteisennakon saldo | Tarkista käteisennakon saldo reaaliajassa, kun luot kulutapahtuman hyväksyttyjä ja maksettuja käteisennakoita vastaan. |
