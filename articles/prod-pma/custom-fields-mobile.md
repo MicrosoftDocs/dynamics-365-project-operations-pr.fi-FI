@@ -2,9 +2,11 @@
 title: Ota Microsoft Dynamics 365 Project Timesheet -mobiilisovelluksen mukautetut kentät käyttöön iOS:ssä ja Androidissa
 description: Tässä aiheessa on yleisiä ohjeita, joiden avulla voit käyttää laajennuksia mukautettujen kenttien toteuttamiseen.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005747"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270989"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Ota Microsoft Dynamics 365 Project Timesheet -mobiilisovelluksen mukautetut kentät käyttöön iOS:ssä ja Androidissa
 
@@ -153,13 +155,13 @@ Tämä ominaisuus määrittää, missä järjestyksessä mukautetut kentät näk
 
 Alla on kuvakaappaus tuntilomakemerkinnän luomisesta mobiilisovelluksessa. Siinä näkyy valmiit kentät ja mukautettu kenttä tuntimerkintäosassa nimeltään Test String ja luettelointiarvo Second Option jo asetettu.
 
-![Testimerkkijonon mukautettu kenttä sovelluksessa.](media/timesheet-entry.jpg)
+![Testimerkkijonon mukautettu kenttä sovelluksessa](media/timesheet-entry.jpg)
 
 
 
 Alla on näyttökuva, joka on käyttäjän mobiilisovelluksessa, kun valitaan jokin "testimerkkijonon" mukautetulle kentälle käytettävissä olevista luettelointivaihtoehdoista.  Kaksi vaihtoehtoa ovat ensimmäinen vaihtoehto ja toinen vaihtoehto, joka näkyy valintapainikkeina. Toinen vaihtoehto on tällä hetkellä valittuna.
 
-![Valintanappi (radionappi) testimerkkijonon mukautetulle kentälle.](media/enum-option.jpg)
+![Valintanappi (radionappi) testimerkkijonon mukautetulle kentälle](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ Huomaa, että mukautettujen kenttien ei tarvitse olla tukitietokannan tietueita.
 
 Alla on Visual Studio -sovellusobjektipuusta otettu näyttökuva. Se näyttää TSTimesheetLine-taulukon laajennuksen, jossa TestLineString-kenttä on lisätty mukautettuna kenttänä.
 
-![Rivimerkkijono.](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Rivimerkkijono](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Käytä komentoketjua TSTimesheetSettings-luokan buildCustomFieldList-menetelmässä, kun haluat näyttää kentän tuntilomakemerkinnän osassa
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 Alla on kuvakaappaus mobiilisovelluksesta, jossa käyttäjä tarkastelee tuntilomaketta. Lisätietoja-painike on valittu oikeassa yläkulmassa, jotta näkyviin tulee Näytä lisätiedot -vaihtoehto.  
 
-![Näytä lisätietoja -komento.](media/show-more.png)
+![Näytä lisätietoja -komento](media/show-more.png)
 
 Alla on kuvakaappaus mobiilisovelluksen tuntilomakkeen Lisää-osasta. Työaikaraportin otsikko-osaan on lisätty mukautettu kenttä, jonka nimi on tämän tuntilomakkeen käyttöaste (laskettu mukautettu kenttä). Mukautettu kenttä määrittää vain luku -arvon 0.667.
 
-![Lisää-osa.](media/more-section.jpg)
+![Lisää-osa](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>TSTimesheetTable-taulukon laajentaminen siten, että siinä on mukautettu kenttä
 
@@ -414,7 +416,7 @@ Työaikaraportin toimintojen aiemmin luotu logiikka tietokantatasolla toimii sil
 
 Projektiparametreistä voit luoda valmiita kenttiä vain luku -muodossa tai piilotettuina mobiilisovelluksessa. Määritä asetukset **projektinhallinta- ja kirjanpitoparametrit**-sivun **tuntilomake**-välilehden **mobiilituntilomakkeet**-kohdassa.
 
-![Projektin parametrit.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Projektin parametrit](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Valintaan käytettävissä olevien aktiviteettien muuttaminen laajennusten kautta
 

@@ -2,6 +2,8 @@
 title: Laskutusjonon tarkasteleminen projekteissa ja projektisopimuksissa
 description: Tässä aiheessa on tietoja ajan, kulujen ja tuotteiden jonojen tarkastelusta sekä siitä, miten ne voidaan merkitä laskutusvalmiiksi.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006962"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150484"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Laskutusjonon tarkasteleminen projekteissa ja projektisopimuksissa
 
@@ -40,7 +42,7 @@ Laskuttamattoman myynnin nykyarvot edustavat laskutusjonoa, ja niiden laskutusti
 
 Tarkastellaksesi laskutusjonoa aikaa ja materiaaleja varten, siirry kohtaan **Myynti** \> **Laskutus** \> **Ajan ja materiaalien laskutuksen jono**. Valitse kaikki laskuttamattomat myynnin nykyarvot, jotka ovat valmiita laskutettaviksi, ja valitse sitten **Laskutusvalmis**. Näiden nykyarvojen laskutustilaksi vaihtuu **Laskutusvalmis**.
 
-![Keskeneräiset ajan ja materiaalin laskutukset.](media/TMBacklog.png)
+![Ajan ja materiaalien laskutuksen jono](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Tarkastele tuotteiden laskutuksen jonoa
 
@@ -48,7 +50,7 @@ Kun projekti opimuksessa on PSA-järjestelmässä tuotepohjaisia sopimusrivejä,
 
 Jos haluat tarkastella tuotteiden laskutusjonoa, siirry kohtaan **Myynti**\>**Laskutus**\>**Tuotteiden laskutuksen jono**. Valitse kaikki tuotepohjaiset sopimusrivit, jotka ovat valmiita laskutettaviksi, ja valitse sitten **Laskutusvalmis**. Näiden rivien laskutustilaksi vaihtuu **Laskutusvalmis**.
 
-![Tuotteiden keskeneräiset laskutukset.](media/ProductBacklog.png)
+![Tuotteiden laskutuksen jono](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Kiinteähintaisten palvelusopimusten laskutuksen välitavoitteiden tarkasteleminen
 
@@ -56,7 +58,4 @@ Jokaiselle projektisopimusrivin, jolla on kiinteähintainen laskutusmenetelmä, 
 
 Voit tarkastella laskutuksen välitavoitteita siirtymällä kohtaan **Myynti**\> **Laskutus**\> **Kiinteän hinnan välitavoitteet**. Valitse kaikki välitavoitteet, jotka ovat valmiita laskutettaviksi, ja valitse sitten **Laskutusvalmis**. Näiden välitavoitteiden laskutustilaksi vaihtuu **Laskutusvalmis**.
 
-![Kiinteän hinnan välitavoitteet.](media/FPBacklog.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Kiinteän hinnan välitavoitteet](media/FPBacklog.png)

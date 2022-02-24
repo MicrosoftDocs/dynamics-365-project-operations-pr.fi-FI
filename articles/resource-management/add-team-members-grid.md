@@ -2,16 +2,18 @@
 title: Ryhmän jäsenien lisääminen Ryhmän jäsen -ruudukosta
 description: Tässä aiheessa on tietoja Ryhmän jäsen -resurssien hallinnasta.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008402"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121529"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Ryhmän jäsenien lisääminen Ryhmän jäsen -ruudukosta
 
@@ -198,6 +200,3 @@ Aikaa korkeilla tasoilla tarkasteltaessa **Täsmäytys**-välilehden soluissa on
 Tilanteissa, joissa resurssille on kohdennuksia mutta ei varauksia, voit valita varauspuutteen **Projektit**-lomakkeen **Täsmäytys**-välilehdessä ja valita sitten **Laajenna varausta**. Näkyviin tulee **Laajenna varausta** -valintaikkuna, jota tarvitaan resurssin puutteen käsittelemiseen. Valintaikkunassa näkyvät myös resurssin olemassa olevat varaukset kaikissa projekteissa tai muissa ajoitettavissa entiteeteissä. Jos valitset **OK** luodaksesi varauksen resurssille sen käytettävyydestä riippumatta, voit aiheuttaa ylivarauksen.
 
 Projektipäällikkö tai resurssipäällikkö voi sitten käyttää aikataulutustaulua hallitakseen tilanteita, joissa resurssin varaukset ylittävät kapasiteetin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

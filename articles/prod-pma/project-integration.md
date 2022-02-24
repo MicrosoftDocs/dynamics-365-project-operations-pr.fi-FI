@@ -2,9 +2,11 @@
 title: Microsoft Project Client -integraatio
 description: Projektin aikataulun suunnitteleminen ja ylläpitäminen voi olla haastavaa, joten projektipäälliköiden on käytettävä työkaluja, joiden avulla he voivat hallita tätä tehtävää. Microsoft Project Clientiin integrointi tukee projektin työrakenteen avaamista ja hallintaa.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988017"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075409"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client -integraatio
 
@@ -125,13 +127,3 @@ Voit luoda uuden työrakenteen Microsoft Project Client -ohjelmalla ja korvata o
 8.  Valitse resursoinnissa käytettävä **kalenteri**.
 
 11. Valitse **OK**.
-
-> [!NOTE]
-> Project Client -apuohjelma ei tue seuraavia merkkejä projektitunnuksen muotoilussa:
-> 
->   - Alaviiva
->   - Piste
->   - Välilyönti
->   - Kauttaviiva
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

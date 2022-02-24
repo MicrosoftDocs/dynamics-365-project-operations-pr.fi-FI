@@ -2,16 +2,18 @@
 title: Muokkaa varauksia
 description: Tässä aiheessa on tietoja varausten päivittämisestä ja muuttamisesta.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008312"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841330"
 ---
 # <a name="edit-bookings"></a>Muokkaa varauksia
 
@@ -31,6 +33,3 @@ Kun projektiin tehdään muutoksia, jotka edellyttävät aiemmin luotujen varaus
 ## <a name="schedule-board"></a>Aikataulutaulukko
 
 **Aikataulutaulukossa** resurssipäälliköllä on organisaation kaikkien varausten koottu näkymä. Tästä näkymästä resurssipäällikkö voi laajentaa, lyhentää tai siirtää aiemmin luotuja varauksia samalla tavoin kuin **Varausten ylläpitäminen** -näkymässä. Resurssipäällikkö voi myös korvata tiettyyn varaukseen aiemmin varatut resurssit napsauttamalla hiiren kakkospainikkeella varausta ja valitsemalla **Korvaa resurssi**. Resurssipäälliköt voivat myös muokata aiemmin luotujen varausten jaksottumisia napsauttamalla varausta hiiren kakkospainikkeella ja valitsemalla **Muokkaa**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

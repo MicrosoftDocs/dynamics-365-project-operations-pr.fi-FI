@@ -2,22 +2,24 @@
 title: Hinnastojen kopioiminen
 description: Tämä aihe tarjoaa tietojen kopioinnista Project Operationsin tuotehinnastoista.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003722"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181493"
 ---
 # <a name="copy-price-lists"></a>Hinnastojen kopioiminen
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Voit luoda kopioita hinnastoista Dynamics 365 Project Operationsissa. Voit esimerkiksi luoda hinnastoja tulevalle vuodelle käyttämällä kuluvan vuoden hinnastoa.  Voit myös kopioida hinnastoista hintaluettelon laskuhinnoista ja myyntihinnoista. 
+Voit luoda hinnastojen kopioita Dynamics 365 Project Operationsissa. Voit esimerkiksi luoda hinnastoja tulevalle vuodelle käyttämällä kuluvan vuoden hinnastoa.  Voit myös kopioida hinnastoista hintaluettelon laskuhinnoista ja myyntihinnoista. 
 
 Jos haluat tehdä kopion hinnastosta, tee seuraavat toimet.
 
@@ -41,6 +43,3 @@ Jos haluat tehdä kopion hinnastosta, tee seuraavat toimet.
 1. Hinnankorotuksen voi käyttöön kaikissa aliruudukon hinnoissa valitsemalla hinnaston **Rooli**-, **Luokka**- ja **Hinnaston nimike** -välilehdissä **Päivitä hinnat**. 
 2. Kirjoita avautuvaan valintaikkunaan korotus. Voit myös määrittää negatiivisen korotusprosentin, jolloin hinnat laskevat tietyllä prosenttiosuudella. 
 3. Valitse valintaruudussa **OK** ja varmista sitten, että aliruudukon hinnat vastaavat tehtyjä muutoksia.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,19 @@
 title: Projektin myyntihinnastojen ohittaminen
 description: Tässä aiheessa on tietoja mukautettujen myyntihinnastojen luomisesta.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009572"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672227"
 ---
 # <a name="override-project-sales-price-lists"></a>Projektin myyntihinnastojen ohittaminen
 
@@ -50,6 +52,3 @@ Voit käyttää näitä hinnastoja ja päivittää työn (roolin hinta) ja kuluj
 Projektisopimuksen projektihinnoittelun oletusarvona on aina mukautettu hinnasto, jossa on sopimuksen nimi ja jonka nimeen on lisätty luontipäivä- ja aikaleima. Tämä pitää paikkansa riippumatta siitä. luontiinko sopimus silloin, kun tarjous voitettiin, vai luotiinko sopimus alusta alkaen. Voit tarvittaessa poistaa tämän liitoksen mukautettuun hinnastoon ja liittää sen sijaan vakiohinnaston projektisopimukseen.
 
 Jos liität vakiohinnaston tarjouksen tai sopimuksen projektihinnastoihin, hinnaston hintoihin tehdyt muutokset vaikuttavat kaikkiin hinnastoa käyttäviin tarjouksiin ja sopimuksiin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

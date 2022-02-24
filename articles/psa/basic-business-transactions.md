@@ -2,6 +2,8 @@
 title: Liiketoimintatapahtumat
 description: Tässä aiheessa on tietoja liiketoimintatapahtumista.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987522"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149899"
 ---
 # <a name="business-transactions"></a>Liiketoimintatapahtumat
 
@@ -88,7 +90,7 @@ Yhdessä entiteetit Tapahtuman alkuperä ja Tapahtuman yhteys auttavat liiketoim
 
 Seuraavassa esimerkissä esitellään aikamerkintöjen tyypillinen käsittely PSA-projektin elinkaaren aikana.
 
-> ![Aikamerkintöjen käsitteleminen Project Service -elinkaaren aikana.](media/basic-guide-17.png)
+> ![Aikamerkintöjen käsitteleminen Project Service -elinkaaren aikana](media/basic-guide-17.png)
  
 1. Aikamerkinnän lähettäminen johtaa kahden kirjauskansion rivin luomiseen: yksi kustannuksia ja toinen laskuttamatonta myyntiä varten.
 2. Aikamerkinnän hyväksyminen taas johtaa kahden todellisen arvon luomiseen: yksi kustannuksia ja toinen laskuttamatonta myyntiä varten.
@@ -147,6 +149,3 @@ Seuraavassa taulukossa esitetään edeltävässä työnkulussa käytettävän Ta
 | Laskuluonnoksen korjaus       | Laskurivin tapahtuman GUID | Korvaava          | msdyn_invoicelinetransaction | Laskutetun myynnin GUID            | Alkuperäinen           | msdyn_actual       |
 | Laskun korjauksen vahvistaminen     | Laskutetun myynnin palautuksen GUID    | Palauttava          | msdyn_actual                 | Laskutetun myynnin GUID            | Alkuperäinen           | msdyn_actual       |
 | Uuden laskuttamattoman myynnin todellisen arvon GUID | Korvaava                     | msdyn_actual       | Laskutetun myynnin GUID            | Alkuperäinen                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

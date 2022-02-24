@@ -2,16 +2,18 @@
 title: Azure-tilauksen lisääminen LCS-projektiin
 description: Tässä aiheessa on tietoja siitä, miten Azure-tilauksen voi yhdistää LCS-projektiin.
 author: sigitac
+manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986667"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880534"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure-tilauksen lisääminen LCS-projektiin
 
@@ -23,35 +25,35 @@ Pilvipalvelussa isännöidyt ympäristöt on otettava käyttöön aiemmin luodun
 
 1. Valitse LCS-projektissa **Ympäristöt**-osassa **Microsoft Azure -asetukset**.
 
-![Microsoft Azure -asetukset.](./media/1MicrosoftAzureSettings.png)
+![Microsoft Azure -asetukset](./media/1MicrosoftAzureSettings.png)
 
 2. Valitse **Projektin asetukset**-sivun **Azure-yhdistimet** -välilehdessä **Valtuuta**. Näin ympäristöt voidaan ottaa käyttöön tässä projektissa.
 
-![Azure-yhdistimet.](./media/2AzureConnectors.png)
+![Azure-yhdistimet](./media/2AzureConnectors.png)
 
 3. Anna järjestelmänvalvojan suostumus valitsemalla uudelleen **Valtuuta**.
 
-![Myönnä järjestelmänvalvojan suostumus.](./media/3GrantAdminConsent.png)
+![Myönnä järjestelmänvalvojan suostumus](./media/3GrantAdminConsent.png)
 
 4. Hyväksy käyttöoikeuspyyntö.
 
-![Hyväksy käyttöoikeuspyyntö.](./media/4AcceptPermissionRequest.png)
+![Hyväksy käyttöoikeuspyyntö](./media/4AcceptPermissionRequest.png)
 
 Valtuutus on nyt valmis. 
 
-![Valtuutus onnistui.](./media/5AuthorizationComplete.png)
+![Valtuutus onnistui](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Dynamics Deployment Services -käyttöoikeuksien antaminen Azure-tilaukselle
 
 1. Siirry kohtaan [Microsoft Azure -laskutus](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) ja valitse tilaus. Dynamics Deployment Services -palveluiden on voitava käyttää tätä tilausta, jotta se voi ottaa ympäristöjä käyttöön.
 
-![Azure-tilauksen tiedot.](./media/6AzureSubscription.png)
+![Azure-tilauksen tiedot](./media/6AzureSubscription.png)
 
 2. Valitse siirtymisruudusta **Käyttöoikeuksien hallinta (IAM)** ja valitse sitten **Lisää roolin delegointi**.
 3. Valitse oikealla puolella olevasta liukusäätimestä **Osallistuja-rooli**  etsi ja valitse näkyviin tulevasta luettelosta **Dynamics Deployment Services**. 
 4. Valitse **Tallenna**.
 
-![Tilauksen käyttöoikeudet.](./media/7SubscriptionAccess.png)
+![Tilauksen käyttöoikeudet](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Tilausyhdistimen lisääminen LCS-projektiin
 

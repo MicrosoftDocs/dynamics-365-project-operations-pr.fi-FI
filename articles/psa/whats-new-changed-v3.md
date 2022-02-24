@@ -1,6 +1,8 @@
 ---
 title: Uutuudet ja muutokset Project Service Automation -versiossa 3
 description: Tässä aiheessa on tietoja Project Service Automation -version 3 uusista ja muuttuneista ominaisuuksista.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987072"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150664"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Uutuudet ja muutokset Project Service Automation -versiossa 3
 
@@ -36,7 +38,7 @@ Tässä aiheessa on tietoja Project Service Automation -sovelluksen käyttöliit
 ## <a name="project-scheduling"></a>Projektien aikatauluttaminen
 Projektinaikataulu, joka tunnettiin aiempien versioiden WBS (Work Breakdown Structure) -rakenteena, on nimetty uudelleen Aikatauluksi, ja sitä käytetään valitsemalla **Aikataulu** -välilehti. 
 
-![Projektiaikataulu.](media/psa-schedule-01.png)
+![Projektiaikataulu](media/psa-schedule-01.png)
 
 Aikataulussa on nyt uusi käyttöliittymä, joka on sekä moderni että helppokäyttöinen. Pohjana oleva Project Service Automationin ajoitusmoduuli ei kuitenkaan ole muuttunut. Aikataulutaulukon toimintopalkki mahdollistaa aikataulun käytön samalla tavalla kuin Project Service Automationin edellisessä versiossa. Muita aikatauluun tehtyjä muutoksia ovat:
 
@@ -95,22 +97,22 @@ Kun siirrät aiemmin luodun projektin aikataulua eteenpäin, tapahtuu seuraavaa:
 ## <a name="estimates"></a>Arviot
 Arviot on jaettu kahdelle välilehdelle, **Resurssikohdennukset** ja **Arviot**. **Resurssin kohdennus** -välilehti sisältää työmääräarviot ja näyttää resurssien kohdennukset tehtäviin aikavaiheisessa näkymässä. Voit muokata arvioita sen perusteella, mitä aikataulutusmoottori on tuottanut.
 
-![Resurssien kohdennukset -välilehti näyttää työmääräarviot ja resurssien kohdennukset tehtäviin.](media/resource-assignments-tab-02.png)
+![Resurssien kohdennukset -välilehti näyttää työmääräarviot ja resurssien kohdennukset tehtäviin](media/resource-assignments-tab-02.png)
 
 **Arviot** -välilehdellä näkyvät resurssien kohdennusten kustannus- ja myyntisummat. Summat ovat vain luku-tilassa. Kustannuslaskenta ja myyntihinnoittelu perustuvat nyt aikataulun ryhmän jäsenten varauksiin. Tämä tarkoittaa sitä, että kohdentamaton tehtävä näkyy kohdentamattoman segmentin alla. Tämä tarkoittaa myös sitä, että ilman **Roolia**, joka on oletushinnoitteludimensio, ei ole arvioitua kustannusta tai myyntiä, jos olemassa on projektiin liittyvä asiakas tai sopimus/tarjous. 
 
-![Arviot-välilehti, jolla näkyvät kustannus- ja myyntisummat.](media/estimates-tab-03.png)
+![Arviot-välilehti, jolla näkyvät kustannus- ja myyntisummat](media/estimates-tab-03.png)
   
 Luokkaa tuetaan myös aikataulunäkymän tehtävissä. Arvioiden ryhmittely luokan mukaan aikavaiheistetussa arvionäkymässä antaa paremman kokemuksen, varsinkin silloin, kun projektissa on myös kuluarvioita. Kuluarviot syötetään ruudukon avulla erilliselle välilehdelle. 
 
 Kuluarviot voidaan syöttää **Kuluarviot** -väli ehden ruudukkoon. 
 
-![Kuluarviot-välilehti, jolla näkyy kuluarvioiden ruudukko.](media/expense-estimates-tab-04.png)
+![Kuluarviot-välilehti, jolla näkyy kuluarvioiden ruudukko](media/expense-estimates-tab-04.png)
 
-## <a name="resource-management"></a>Resurssien hallinta
+## <a name="resource-management"></a>Resurssienhallinta
 Project Service Automation -versiossa 3, jossa on uusi Unified Client -käyttöliittymä ja muutoksia varausten ja kohdennusten välisessä suhteessa, projektin miehittäminen yleisillä tai todellisilla resursseilla on muuttunut dramaattisesti versiosta 2 ja versiosta 1. Varattavissa olevien resurssien käsitteet **todellinen** ja **yleinen** pysyvät kuitenkin samoina, samoin kuin ryhmän jäsenet, vaatimukset, kohdennukset ja varaukset.   
 
-![Resurssivalitsimen käyttäminen.](media/resource-management-05.png)
+![Resurssivalitsimen käyttäminen](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Todellisen varattavissa olevan resurssin kohdentaminen 
 Project Service Automation -versiossa 3 varaukset ja tehtävämääritykset eivät ole yhtä tiiviisti sidoksissa toisiinsa kuin Project Service Automationin aiemmissa versioissa. Ryhmänruudukon avulla voit varata **todellisen** ryhmän jäsenen, joka on samanlainen kuin in-market.
@@ -151,19 +153,19 @@ Tässä osassa on tietoja Project Service Automationin version 3 ajan, kulun ja 
 ### <a name="landing-page"></a>Saapumissivu
 Ei-laajennettava mukautettu ajansyöttökokemus on vanhentunut versiossa 3. Sen tilalla on nyt laajennettava ja käytettävissä oleva luonnollinen ruudukkokokemus. Voit käyttää ajan syötön toimintoja vasemmalla olevan sivustokartan avulla. Tämän muutoksen ansiosta et voi enää syöttää aikaa yhdelle viikolle kerrallaan. Sen sijaan jokaiselle ruudukon päivälle on luotava aikamerkintä. Muutaman merkinnän luomisen jälkeen käyttäjät voivat luoda useita aikamerkintöjä kerralla **Kopiointi**-toiminnon avulla, josta kerrotaan myöhemmin lisää tässä aiheessa. 
 
-![Ajan syötön saapumissivu.](media/time-entry-landing-page-07.png)
+![Ajan syötön saapumissivu](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Uusien aikamerkintöjen luominen 
 Napauta **Uusi** tehtäväpalkissa avataksesi aikamerkinnälle pikaluontisivun, jolla syötetään kesto minuuteissa, tunneissa tai päivissä. Voit tehdä tämän kirjoittamalla vain h, m tai d sekä määrän.  
 
-![Aikamerkinnän pikaluonti.](media/quick-create-time-entry-08.png)
+![Aikamerkinnän pikaluonti](media/quick-create-time-entry-08.png)
 
 Järjestelmänäkymät tukevat valintakenttiä. Kun olet esimerkiksi kirjoittanut projektin tiedot, **Projekti tehtävä** -kenttä määritetään oletusarvoisesti **Omat avoimet projektitehtävät** -näkymään. Jos haluat luoda aikamerkintöjä tehtäville, joita ei ole kohdennettu käyttäjälle, valitse **Vaihda näkymää** valintaruudussa, ja valitse sen jälkeen **Kaikki aktiiviset projektitehtävät** -näkymä. Kun aikamerkintä on luotu ja näkyvissä ruudukossa, voit muokata rivin arvoja suoraan ruudukossa.  
 
 ### <a name="bulk-createcopy"></a>Joukkoluonti/kopiointi 
 Sen jälkeen, kun muutama aikamerkintä on luotu, voit käyttää kopiointitoimintoa luodaksesi kerralla useita aikamerkintöjä. Napauta **Kopioi** avataksesi **Kopioi**-dialogin. Aseta päivämääräväli, jolta ajan jaksoja on kopioitava kohdassa **Lähdejakso: Alkamispäivä**. Määritä päivämäärä, jolle aikamerkinnät on luotava kohdassa **Kohdejakso: alkamispäivä**. Valitse **Kopioi**, jos haluat kopioida aikamerkinnät vastaavalle viikonpäivälle **Kohdejaksossa**. Esimerkiksi edellisen viikon maanantain aikakirjaus kopioidaan sen viikon maanantaille, joka on määritetty **Kohdejaksossa**. 
 
-![Kopioi useita aikamerkintöjä.](media/bulk-copy-time-entry-09.png)
+![Kopioi useita aikamerkintöjä](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Tuo tiedot 
 Kohdennukset ja vaihto noudattavat samaa käyttöliittymämääritelmää, joka antaa käyttäjän määritellä päivämäärävälin, jolta varaukset on tuotava. Sen jälkeen on valittava varaukset, jotka tulisi kopioida **Luonnos** -aikamerkinnöiksi. Versiossa 3 ei enää näy **Ehdotettuja** aikamerkintöjä ruudukossa ja kalenterissa.  
@@ -179,7 +181,7 @@ Versiossa 3 olemme siirtyneet pois mukautetun kalenterin ohjausobjektista ja kä
 
 **Kerää tietoja mukautetuista aijan ja kulujen syöttökentistä ja lisää ne lähetys- ja hyväksyntävuota tukeviin entiteetteihin** - aikamerkintöjen tyypillinen käsittely näkyy seuraavassa kaaviossa.
 
-![Ajan syötön työnkulku.](media/process-time-entries-10.png)
+![Ajan syötön työnkulku](media/process-time-entries-10.png)
 
 Jos liiketoimintavaatimukset määrittävät, että aika- ja kuluentiteettejä varten on tallennettava mukautettuja hinnoitteludimensioita ja kopioitava aika- ja kuluresurssin asettamat arvot mukautettuun hinnoitteludimensioon kaikkien edellisessä kuvassa olevien entiteettien kautta, katso aihetta [Määritä mukautettuja kenttiä hinnoitteludimensioiksi](set-up-pricing-dimensions.md)
 
@@ -236,7 +238,7 @@ Versioissa 1 ja 2 roolien ja luokkien veloitusasetukset erityisille tarjouksille
 
 Versiosta 3 alkaen veloitusasetusten asettaminen roolien ja kululuokkien mukaan tehdään tarjouksen tai sopimusrivin tasolla. Hinnoitteluasetukset ovat erillään veloitusasetuksista. Voit tarkastella **Laskutettavia rooleja** ja **Laskutettavia luokkia** **Tarjousrivin** ja **Sopimusrivin** välilehtinä ilman, että sinun tarvitsee käyttää yläsiirtymistoimintoa.
 
-![Veloitettavat roolit.](media/chargeable-12.png)
+![Veloitettavat roolit](media/chargeable-12.png)
  
 Veloitettavien roolien ja Veloitettavien luokkien asetuksissa hyödynnetään myös valmiina olevaa, muokattavaa ruudukko-ohjausobjektia. Jokaista roolia ja luokkaa varten tuettavat asetukset laskutustyypille Tarjous- ja Sopimus-vaiheen aikana säilyvät muuttumattomina edellisistä versioista, ja ovat **Veloitettava** ja **Ei-veloitettava**. **Veloitukseton** ei ole tuettu tyyppi Tarjous- tai Sopimus-vaiheen aikana **Veloituksetonta** tuetaan vain Ajan tai Kulujen hyväksynnässä.  
  
@@ -247,14 +249,11 @@ Versiosta 3 alkaen mukautetun projektihinnaston luominen ja käyttäminen Projec
   
 Seuraavassa kuvassa on tilanne ennen kuin mukautetut hinnastot on luotu.
 
-![Ennen muokattuja hinnastoja.](media/before-custom-price-lists-13.png)
+![Ennen muokattuja hinnastoja](media/before-custom-price-lists-13.png)
 
 Seuraavassa kuvassa on tilanne sen jälkeen kun mukautetut hinnastot on luotu.
 
-![Muokattujen hinnastojen jälkeen.](media/after-custom-price-lists-14.png)
+![Muokattujen hinnastojen jälkeen](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Lyhyt viive on mahdollinen **Luo mukautettu hinnoittelu** -painikkeen napauttamisen ja hinnaston luomisen välillä. Suosittelemme, että päivität ruudukon sen sijaan, että napauttaisit useita kertoja. Mukautettu hinnasto on luotu, jos siihen liitetyssä hinnaston nimessä on tarjouksen nimi tai siihen on liitetty projektisopimuksen nimi.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,61 +2,39 @@
 title: Keskeneräisen laskutuksen hallinta
 description: Tässä aiheessa on tietoja siitä, miten laskutusruuhkaa voidaan tarkastella ja käsitellä Project Operationsissa.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e839c1f32248fff6d97271796666b5031f66490ccd98574045b770100bf379f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991077"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122339"
 ---
-# <a name="manage-billing-backlog"></a>Keskeneräisen laskutuksen hallinta
+# <a name="manage-the-billing-backlog"></a>Keskeneräisen laskutuksen hallinta
 
-**Käytetään**: Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+_**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Dynamics 365 Project Operationsissa on näkymiä, jotka on tarkoitettu nimenomaan keskeneräisen laskutuksen hallintaan. Keskeneräistä laskutusta voi hallita valitsemalla linkkejä **Myynti**-alueen **Laskutus**-kohdassa. 
-
-Seuraavat näkymät ovat käytettävissä:
-
-- Ennakkomaksut ja ennakot
-- Käytettävissä olevat ennakkomaksut ja ennakot
-- Kiinteän hinnan välitavoitteet
-- Keskeneräiset ajan ja materiaalin laskutukset
-
-## <a name="retainers-and-advances"></a>Ennakkomaksut ja ennakot
-
-**Ennakkomaksut ja ennakot** -näkymässä luetellaan ennakkomaksut ja ennakot kaikista projektisopimuksista. Kun ennakkomaksu tai ennakko on laskutettu, ennakon summa vapautuu käytettäväksi.
-
-## <a name="available-retainers-and-advances"></a>Käytettävissä olevat ennakkomaksut ja ennakot
-
-**Käytettävissä olevat ennakkomaksut ja ennakot** -näkymässä luetellaan kaikki käytettävissä olevat ennakkomaksut ja ennakot kaikista projektisopimuksista. Kun ennakkomaksu tai ennakko on laskutettu, ennakon summa vapautuu käytettäväksi ja se lisätään luetteloon. Kun ennakkomaksu on käytetty kokonaan, se poistuu luettelosta.
+Dynamics 365 Project Operationsilla on kaksi erillistä näkymää, joiden avulla voit käsitellä ja hallita laskutuksen ruuhkaa. Ne ovat **kiinteähintaisia välitavoitteita** sekä **aika- ja materiaalilaskutuksen tilauskanta**, jos haluat valita näkymän, valitse projektitoimintojen **myynti**-alueessa vasemmalla siirtymissivulla **laskutus**. Laskutuksen ruuhkan linkit tallennetaan tähän.
 
 ## <a name="fixed-price-milestones"></a>Kiinteän hinnan välitavoitteet
 
-**Kiinteän hinnan välitavoitteet** -näkymässä luetellaan kaikki kaikkien projektisopimusrivien kiinteän hinnan välitavoitteet. Tässä näkymässä yhden tai usean välitavoitteen voi merkitä **Valmiina laskutettavaksi** tai **Ei valmis laskutettavaksi**. Kun välitavoitteen merkintänä on **Valmis laskutettavaksi**, se voidaan sijoittaa luonnoslaskuun.
+Tässä näkymässä näkyvät kaikki järjestelmän projektisopimusrivien kiinteät hinnan välitavoitteet. Yhden tai usean välitavoitteen voi merkitä **valmiiksi laskutettaviksi** tai **ei valmis laskutettavaksi** tästä näkymästä. Kun merkitset välitavoitteen **valmiiksi laskutettavaksi**, välitavoite on käytettävissä laskuluonnoksena.
 
-Jos usean asiakkaan sopimusrivien laskutapana on kiinteä hinta, kullekin sopimusrivin asiakkaalle luodaan välitavoite. Välitavoite voidaan luoda ja sitten jakaa yksittäisiin asiakaskohtaisiin välitavoitetietueisiin. Tämä jako on sisäinen ja se noudattaa kullekin asiakkaalle sopimusrivillä määritettyä laskutuksen jakoprosenttia. Yksittäiset asiakaskohtaiset välitavoitetietueet ovat näkyvissä **Kiinteän hinnan välitavoitteet** -näkymässä. Kukin näistä välitavoitetietueista voidaan merkitä **valmiiksi laskutettavaksi** erillään tästä näkymästä. Kun yksi tai useampi liittyvistä välitavoitteista merkitään **Valmis laskutettavaksi**, otsikon tila päivittyy arvoksi **Käynnissä** tilasta **Ei aloitettu**. Kun kaikki välitavoitteet on laskutettu, otsikon välitavoitteen tilaksi päivittyy **Valmis**.
+Kun usean asiakkaan sopimusriveillä on kiinteämääräinen laskutusmenetelmä, jokaiselle sopimusrivin asiakkaalle luodaan yksi välitavoite. Käyttäjä luo välitavoitteen ja välitavoite on jaettu asiakkaaseen = tietyt välitavoitetietueet sisäisesti kunkin sopimusrivin asiakkaan kullekin asiakkaalle määrittämän laskutusprosentin mukaan. **Kiinteähintaiset välitavoitteet** -näkymässä näkyvät yksittäiset asiakaskohtaiset välitavoitetietueet. Kukin näistä välitavoitetietueista voidaan merkitä **valmiiksi laskutettavaksi** erillään tästä näkymästä. Kun vähintään yksi toisiinsa liittyvä välitavoitteen jako on merkitty **valmiiksi laskutettavaksi**, otsikko siirtää sen tilaan, jossa se on **keskeneräinen** tilasta **ei aloitettu**. Kun kaikki välitavoitteen jaot on laskutettu, otsikon välitavoitteen tila on **valmis**.
 
-Tässä näkymässä näkyy luonnoslaskun välitavoite, joka sisältää **luodun asiakaslaskun** laskutuksen tilan. Kun luonnoslasku vahvistetaan, tietueen laskutuksen tilaksi päivitetään **Asiakaslasku kirjattu**. 
-
-> [!NOTE] 
-> Älä päivitä tätä tila-arvoa käyttämällä mukautettua koodia. Project Operations ei toimi oikein, jos nämä tila-arvot päivitetään mukautetulla koodilla.
+Tässä näkymässä näkyy luonnoslaskun välitavoite, joka sisältää **luodun asiakaslaskun** laskutuksen tilan. Kun luonnoslasku on vahvistettu, tämän tietueen laskutuksen tila päivittyy laskuun, joka on **kirjattu**. Tämän tilan arvon päivittämistä mukautettua koodia käyttämällä ei suositella. Project Operations ei toimi oikein, jos näihin tila-arvoihin päivitetään mukautettua koodia.
 
 ## <a name="time-and-material-billing-backlog"></a>Keskeneräiset ajan ja materiaalin laskutukset
 
-**Keskeneräiset ajan ja materiaalin laskutukset** -näkymässä on luettelo sellaisista järjestelmässä olevista kaikkien projektien laskuttamattomista myynnin todellisista arvoista, joita ei ole laskutettu. Yhden tai usean laskuttamattoman toteutuneen myynnin voi merkitä **valmiiksi laskutettaviksi** tai **ei valmis laskutettavaksi** tästä näkymästä. Laskuttamattomien myynti todellisten tietojen merkitseminen **valmiiksi laskutettavaksi** mahdollistaa sen, että se voidaan siirtää luonnoslaskuun.
+Tässä näkymässä luetellaan kaikki laskuttamattomat myynnin todelliset arvot, joita ei ole laskutettu kaikissa järjestelmässä olevissa projektisopimuksissa. Yhden tai usean laskuttamattoman toteutuneen myynnin voi merkitä **valmiiksi laskutettaviksi** tai **ei valmis laskutettavaksi** tästä näkymästä. Laskuttamattomien myynti todellisten tietojen merkitseminen **valmiiksi laskutettavaksi** mahdollistaa sen, että se voidaan siirtää luonnoslaskuun.
 
-Sellaisiin laskuttamattomiin myynnin todellisiin arvoihin, joiden **Ei-ylitettävän rajoitus** -tila on **Epäonnistui**, ei voi käyttää merkintää **Valmis laskutettavaksi**. Jos todelliset arvot on merkittävä **Valmis laskutettavaksi**, nollaa muiden vahvistettujen todellisten arvojen tila sopimusrivillä ja arvioi sitten uudelleen **Älä ylitä** -tila.
+Laskuttamattomia toteutuneita myyntejä, joiden **ei saa ylittää** -tila on **epäonnistunut** voi merkitä **valmiiksi laskutettavaksi**. Jos nämä toteutuneet arvot on merkittävä sellaisenaan, palauta niiden sopimusrivin muiden todellisten arvojen tila, jotka on vahvistettu, ja arvioi sitten **ei saa ylittää** -tila.
 
-Jos monen asiakkaan sopimusrivien laskutustapana on aika ja materiaali, aikaa ja kuluja hyväksyttäessä yksi laskuttamaton myynnin todellinen arvo luodaan kullekin sopimusrivin asiakkaalle kullekin asiakkaalle määritetyn laskutuksen jakoprosentin mukaisesti. Nämä yksittäiset asiakaskohtaiset laskuttamattomat myynnin todelliset arvot näkyvät **Keskeneräiset ajan ja materiaalin laskutukset** -näkymässä. Kukin näistä laskuttamattomista toteutuneista myynneistä voidaan merkitä **valmiiksi laskutettavaksi** erillään tästä näkymästä.
+Jos kyseessä on usean asiakkaan sopimusrivi, jolla on ajan ja materiaalin laskutustapa, kun ajan ja kulujen hyväksyminen on tehty, jokaiselle sopimusrivillä olevalle asiakkaalle luodaan laskuttamaton todellisen myynnin sopimusrivi kullekin asiakkaalle määritetyn laskutusprosentin mukaan. **Aika- ja materiaalilaskutuksen ruuhkan** näkymässä näkyvät yksittäiset asiakaskohtaiset laskuttamattomat toteutuneet myynnit. Kukin näistä laskuttamattomista toteutuneista myynneistä voidaan merkitä **valmiiksi laskutettavaksi** erillään tästä näkymästä.
 
-Laskuluonnokseen merkitty laskuttamaton myynti näkyy tässä näkymässä laskutustilassa **Luotu asiakaslasku**. Kun luonnoslasku on vahvistettu, tämän tietueen laskutuksen tilaksi päivittyy **Asiakaslasku kirjattu**. 
-
-> [!NOTE] 
-> Älä päivitä tätä tila-arvoa käyttämällä mukautettua koodia. Project Operations ei toimi oikein, jos nämä tila-arvot päivitetään mukautetulla koodilla.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Tässä näkymässä näkyy luonnoslaskun välitavoite, joka sisältää **luodun asiakaslaskun** **laskutuksen tilan**. Kun luonnoslasku on vahvistettu, tämän tietueen laskutuksen tilaksi päivittyy **Asiakaslasku kirjattu**. Tämän tilan arvon päivittämistä, kun se on tässä tilassa, mukautettua koodia käyttämällä ei suositella. Project Operations ei toimi oikein, kun näihin tila-arvoihin päivitetään mukautettua koodia.

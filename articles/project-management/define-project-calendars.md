@@ -2,9 +2,11 @@
 title: Projektikalenterien määrittäminen
 description: Tässä aiheessa on tietoja siitä, miten kalenterimallia käytetään projektissa projektin aikataulun seuraamiseen.
 author: ruhercul
+manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487636"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981296"
 ---
 # <a name="define-project-calendars"></a>Projektikalenterien määrittäminen
 
@@ -46,7 +48,7 @@ Organisaation kalenterimallin luomiselle on kaksi tärkeää avainvaatimusta:
 
 1. Siirry kohtaan **Resurssit** \> **Resurssit**.
 2. Luo uusi resurssi, jota haluat käyttää kalenterimallissa, tai valitse aiemmin luotu resurssi.
-3. Valitse **resurssin työaika** -välilehti ja noudata ohjeita kohdasta [Resurssin työaikojen määrittäminen](/dynamics365/field-service/set-work-hours-resource) kalenterisääntöjen määrittämiseksi.
+3. Valitse **resurssin työaika** -välilehti ja noudata ohjeita kohdasta [Resurssin työaikojen määrittäminen](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) kalenterisääntöjen määrittämiseksi.
 
 **Luo uusi kalenterimalli**
 

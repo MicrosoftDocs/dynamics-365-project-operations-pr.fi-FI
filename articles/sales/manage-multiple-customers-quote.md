@@ -2,16 +2,18 @@
 title: Useiden asiakkaiden hallinta projektitarjouksessa
 description: Tässä aiheessa on tietoja siitä, miten käsitellään tarjouksia, joissa käsitellään useita asiakkaita, jotka rahoittavat projektia.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991977"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181988"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Useiden asiakkaiden hallinta projektitarjouksessa
 
@@ -21,7 +23,7 @@ Projektitarjoukset tukevat skenaariota, joissa ehdotukseen liittyy useita asiakk
 
 Kaikki tarjouksen asiakkaat projektitarjouksen **Asiakkaat**-välilehdessä ovat projektitarjouksen rivin oletusarvona tarjousta varten luoduille **uusille** projektipohjaisille tarjousriveille. Aiemmin luodut projektipohjaiset tarjousrivit eivät peri uusia tarjouksen asiakastietueita, jotka on luotu niiden jälkeen.
 
-Tarjouksen asiakkaat ja tarjousrivin asiakkaat voidaan lisätä, päivittää tai poistaa milloin tahansa, ennen kuin tarjous on voitettu. Tarjouksen kelvollinen asiakas täytyy määrittää asiakkaaksi omistavan yrityksen tai oikeushenkilön **Asiakkaat**-sivulla. Yrityksen määritetään **Projektinhallinta ja kirjanpito** -moduulissa Dynamics 365 Project Operationsissa, ja ne ovat käytettävissä yrityksinä **Projektimyynnit- ja toimitus** -moduuleissa Project Operationsissa.
+Tarjouksen asiakkaat ja tarjousrivin asiakkaat voidaan lisätä, päivittää tai poistaa milloin tahansa, ennen kuin tarjous on voitettu. Tarjouksen kelvollinen asiakas täytyy määrittää asiakkaaksi omistavan yrityksen tai oikeushenkilön **Asiakkaat**-sivulla. Yritykset määritetään Dynamics 365 Project Operationsin **Projektinhallinta ja kirjanpito** -moduulissa, ja ne ovat käytettävissä yrityksinä Project Operationsin **Projektimyynti ja toimitus** -moduuleissa.
 
 ## <a name="concept-of-a-primary-customer"></a>Ensisijaisen asiakkaan käsite
 
@@ -49,6 +51,3 @@ Tarjouksen asiakas voidaan luoda, päivittää tai poistaa **Tarjous**-sivun **T
 Voit muokata laskutuksen jakoprosentteja käyttämällä rivin sisäistä ruudukonmuokkauskokemusta. Kun laskutuksen jakoprosentit eivät ole yhteensä 100 %, virhe tapahtuu. Kun olet päivittänyt laskutuksen jakamisprosentit, voit poistaa virheen päivittämällä sivun.
 
 Voit kokeilla myös **Jaa tasaisesti** -vaihtoehdon valintaa tarjouksen asiakkaiden aliruudukossa. Tämä toiminto kohdistaa laskutuksen jaot kaikkiin tarjousasiakkaisiin. Jos pyöristyskerroin on, se lisätään pyöristysasiakkaaseen. Yksi tarjouksen asiakkaista merkitään aina pyöristysasiakkaaksi. Tämä tarkoittaa sitä, että tarjousasiakastietueessa on **Pyöristys**-merkinnän arvoksi määritetty **Kyllä**. Tämä on yleensä tarjouksen ensisijainen asiakas, mutta sitä voi muuttaa.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

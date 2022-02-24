@@ -2,9 +2,11 @@
 title: Roolien määrittäminen työrakennemalleihin
 description: Tässä aiheessa on tietoja roolitietojen määrittämisestä työn erittelyrakenteiden malleissa.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008897"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075328"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Roolien määrittäminen työrakennemalleihin
 
@@ -89,7 +91,7 @@ Työrakenteeseen on lisätty lisäasetuksia, jotta resursointitoimintoa voidaan 
 
 4. Määritä päivämäärät ja työmäärä (tuntia) seuraavassa kuvassa näkyvällä tavalla.
 
-    [![Päivämäärien ja työmäärän määrittäminen.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Päivämäärien ja työmäärän määrittäminen](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Valitse **Aloitus**-tehtävärivi ja sitten **Rooli**-kentässä **Projektipäällikkö**.
 6. Valitse **Julkaise**.
@@ -105,6 +107,3 @@ Työrakenteeseen on lisätty lisäasetuksia, jotta resursointitoimintoa voidaan 
     > Et saa varoitusta siitä, että määritetty resurssi on nyt 2, koska resurssien määränä säilyy 1.
 
 14. Vahvista työrakenteen resurssimääritys **Työrakenne**-sivulla ja valitse sitten **Tallenna**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

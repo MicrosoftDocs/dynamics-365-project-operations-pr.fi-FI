@@ -2,16 +2,18 @@
 title: Tapahtumaluokan käyttäminen hinnoitteludimensiona
 description: Tässä aiheessa on tietoja tapahtumaluokan käyttämisestä hinnoitteludimensiona.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996117"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513978"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Tapahtumaluokan käyttäminen hinnoitteludimensiona
 
@@ -48,6 +50,3 @@ Seuraavassa taulukossa on luettelo kaikista sisällytetyistä lomakkeista ja nä
 2. Varmista **Parametrit**-sivun **Määrään perustuvat hinnoitteludimensiot** -välilehdellä, että ruudukko näyttää tietueet **Hinnoitteludimensiot**-entiteetissä.
 3. Lisää tähän luetteloon **Tapahtumaluokka** ja aseta **Sovelletaan kustannuksiin** ja **Sovelletaan myyntiin** -kenttien arvoksi **Kyllä**.
 4. Valitse **Dimensiotyyppi**-kentässä **Määrään perustuva**, ja valitse sitten **Tapahtumaluokan** prioriteetti kustannuksiin ja myynteihin liittyen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

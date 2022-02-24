@@ -2,10 +2,12 @@
 title: Laskutus Project Service Automationissa
 description: Tässä aiheessa on tietoja laskutuksesta.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985497"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151384"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Laskutus Project Service Automationissa
 
@@ -50,7 +52,7 @@ Tietylle projektisopimukselle luodaan lasku seuraavalla tavalla.
 
 - Avaa projektisopimus **Projektisopimukset**-luettelosivulla ja valitse sitten **Luo lasku**.
 
-    ![Projektilaskujen luominen tietylle projektisopimukselle.](media/CreateProjectInvoicesOneByOne.png)
+    ![Projektilaskujen luominen tietylle projektisopimukselle](media/CreateProjectInvoicesOneByOne.png)
 
     Lasku luodaan kaikille valitun projektisopimuksen tapahtumille, joiden tila on **Laskutusvalmis**. Näitä tapahtumia ovat aika, kulut, välitavoitteet ja projektiperusteiset sopimusrivit.
 
@@ -58,7 +60,7 @@ Laskuja luodaan joukoittain seuraavalla tavalla.
 
 1. Valitse **Projektisopimukset**-luettelosivulla vähintään yksi projektisopimus, jolle on luotava lasku, ja valitse sitten **Luo projektilaskuja**.
 
-    ![Projektilaskujen luonti joukoittain.](media/CreateProjectInvoicesBulk.png)
+    ![Projektilaskujen luonti joukoittain](media/CreateProjectInvoicesBulk.png)
 
     Varoitusviesti ilmoittaa sinulle, että laskujen luontia voi edeltää viive. Myös prosessi on näkyvissä.
 
@@ -115,6 +117,3 @@ Kun vahvistat korjaavan laskun, alkuperäinen laskutetun myynnin todellinen arvo
 
 - Laskutetun myynnin todellisen arvon kuudelle tunnille.
 - Laskuttamattoman myynnin todellisen arvon kahdelle jäljelle jääneelle tunnille. Tämä tapahtuma voidaan joko laskuttaa myöhemmin tai merkitä ei-veloitettavaksi riippuen siitä, mitä asiakkaan kanssa sovitaan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

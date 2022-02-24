@@ -2,6 +2,8 @@
 title: Projektin kustannukset ja tuotto
 description: Tässä aiheessa on tietoja projektin kustannusten ja tuoton arvioinnista.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002552"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148324"
 ---
 # <a name="project-costs-and-revenue"></a>Projektin kustannukset ja tuotto
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002552"
 
 Projektin arviot tarjoavat taloudellisen näkymän työhän, joka on arvioitu ja aikataulutettu projektin aikataulussa. **Arviot**-välilehti **Projektit**-sivulla näyttää suunnittelemasi työn kustannus- ja tuottovaikutukset. Se sisältää myös tietoja monista esimääritetyistä dimensioista. 
 
-> ![Arviot-välilehti.](media/project-5.png)
+> ![Arviot-välilehti](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Projektin kustannus- ja myyntiarvot
 
@@ -66,13 +68,13 @@ Jos järjestelmä ei löydä roolille hintaa, myyntihinta arviorivillä asetetaa
 
 **Arviot**-välilehdellä on ruudukkonäkymä, jossa näkyvät arviorivit. Ruudukossa on yksikkö-, kokonaiskustannushinta- ja kokonaismyyntihinta-sarakkeet, jotka on esitetty seuraavassa kuvassa. 
 
-> ![Arviot-välilehden ruudukkonäkymä.](media/project-6.png)
+> ![Arviot-välilehden ruudukkonäkymä](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Projektin arvioiden aikavaiheistettu näkymä
 
 Projektiarvioiden aikajaksoittain tarkasteltavaan näkymään on määritetty valitsemasi aikajanan arviotiedot, jotka näkyvät aikajanalla ruudukkonäkymässä. Oletusarvoisesti arviotiedot siirretään **Rooli**-dimensioon.
 
-> ![Projektin arvioiden aikavaiheistettu näkymä.](media/project-7.png)
+> ![Projektin arvioiden aikavaiheistettu näkymä](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Arvioidun työmäärän kohdennus tehtävätilaan perustuen
 
@@ -95,6 +97,3 @@ Voit valita sekä ruudukkonäkymässä että aikavaiheisessa näkymässä näyte
 ## <a name="expense-estimates"></a>Kulujen arviot
 
 **Lisää uusi kuluarvio** -painike ruudukkonäkymässä mahdollistaa sellaisten projektin kulujen kirjaamisen, jotka eivät suoraan liity työvoimaan. Voit kirjata tietyn tehtävän tai koko projektin kuluarviot. Valitse kul luokat ja alustava päivämäärä, jolloin oletat kulun tapahtuvan. Jos liitetyllä kustannushinnastolla ja myyntihinnastolla on oletushinnat (tai hinnankorotuksen prosenttiosuudet määritetään kululuokille), ne asetetaan automaattisesti arvioriville, kun liittäminen tapahtuu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

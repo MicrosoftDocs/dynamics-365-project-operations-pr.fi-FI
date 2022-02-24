@@ -2,6 +2,8 @@
 title: Projektin edistyminen ja toteutuneet kustannukset
 description: Tässä aiheessa on tietoja projektin edistymisen ja kustannusten toteutumisen seurannasta.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987162"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148009"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projektin edistyminen ja toteutuneet kustannukset
 
@@ -96,6 +98,3 @@ Seurantatiedot **Työmäärän seuranta**- ja **Kustannusten seuranta** -näkymi
 **Projektin kokonaistila** -kenttä on muokattava kenttä, joka näyttää projektin kokonaistilan. Se käyttää värikoodausta, kuten vihreää, keltaista ja punaista, osoittamaan lisääntyvää riskiä. **Kommentit** -kentän avulla projektipäällikkö voi syöttää tilaan liittyviä kommentteja. **Tila päivitetty** -kenttää ei voi muokata, ja sen arvo on aik leima, joka ilmaisee, milloin tila on viimeksi päivitetty.
 
 **Aikataulun tehokkuus** - ja **Kustannustehokkuus**-kentät määritetään seurantapäivänä. Kun aikataulun ja kustannusten varianssi juurisolmussa **Työmäärän seuranta** -näkymässä ovat positiivisia, voit asettaa näiden kenttien arvoksi **Edellä**. Kun pääsolmun aikataulun ja kustasten varianssi juurisolmussa on negatiivinen, voit määrittää niiden arvoksi **Jäljessä**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

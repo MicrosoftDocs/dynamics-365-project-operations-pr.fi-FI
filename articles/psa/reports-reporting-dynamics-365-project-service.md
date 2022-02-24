@@ -2,9 +2,10 @@
 title: Raportoinnin kotisivu
 description: Tässä aiheessa on tietoja raportoinnista sovelluksessa Dynamics 365 Project Service Automation.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,28 +18,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4e60fc8c3788f4a2997d894e79d0d510d63209dd1570d79f1c43c2814d8ab819
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998277"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147694"
 ---
-# <a name="reporting-home-page"></a>Raportoinnin aloitussivu
+# <a name="reporting-home-page"></a>Raportoinnin kotisivu
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation mahdollistaa projektiperusteisille organisaatioille niiden liiketoimintojen tehokkaan hallinnan. Ryhmän jäsenten on kaikissa projekteissa hallinnnoitava mahdollisuuksia ja tarjouksia sekä suunniteltava työ, resursoitava projektit, hallittava työtä suunnitelman mukaan, laskutettava työstä ja tehtävä työ projektin valmistumiseksi. Kyky raportoida toiminnoista on avainasemassa organisaation terveyden määrittämistä varten ja mahdollisesti tarvittavien korjaavien toimenpiteiden suorittamiseksi. PSA käyttää Microsoft Dynamics 365 -raportointimenetelmää ja -teknologiaa kaikkeen raportointiinsa. Lisätietoja raportointivaihtoehdoista on [Dynamics 365 Customer Engagement (on-premises) -version 9 raportinkirjoitusoppaassa](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoftin Dynamics 365 Project Service Automation mahdollistaa projektiperusteisille organisaatioille niiden liiketoimintojen tehokkaan hallinnan. Ryhmän jäsenten on kaikissa projekteissa hallinnnoitava mahdollisuuksia ja tarjouksia sekä suunniteltava työ, resursoitava projektit, hallittava työtä suunnitelman mukaan, laskutettava työstä ja tehtävä työ projektin valmistumiseksi. Kyky raportoida toiminnoista on avainasemassa organisaation terveyden määrittämistä varten ja mahdollisesti tarvittavien korjaavien toimenpiteiden suorittamiseksi. PSA käyttää Microsoft Dynamics 365 -raportointimenetelmää ja -teknologiaa kaikkeen raportointiinsa. Lisätietoja raportointivaihtoehdoista on [Dynamics 365 Customer Engagement (on-premises) -version 9 raportinkirjoitusoppaassa](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Ohjattu raportin luominen
 
-Ohjatun raportin luomisen avulla ei-kehittäjät voivat luoda yksinkertaisia raportteja. Koska sovellus on luotu olemassa olevalle alustalle, käyttökokemus on sama kuin oppaassa [Luo tai muokkaa raporttia ohjatun raportointitoiminnon avulla](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard) kuvattu. Siinä käytetään kuitenkin Project Service Automation -kohtaisia entiteettejä.
+Ohjatun raportin luomisen avulla ei-kehittäjät voivat luoda yksinkertaisia raportteja. Koska sovellus on luotu olemassa olevalle alustalle, käyttökokemus on sama kuin oppaassa [Luo tai muokkaa raporttia ohjatun raportointitoiminnon avulla](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard) kuvattu. Siinä käytetään kuitenkin Project Service Automation -kohtaisia entiteettejä.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>Mukautetut SQL Server Reporting Services -raportit
 
-Jos yrityksesi edellyttää tiettyä raporttia, jota ei voi luoda ohjatulla raportinluontitoiminnolla, voit luoda mukautetun raportin. Microsoft Visual Studio on oltava asennettuna, samoin kuin soveltuvat Microsoft SQL Server Data Tools ja Report Authoring Extensions. Lisätietoja työkaluista ja versioista on aiheessa [Raporttien kirjoitusympäristö työkalua SQL Server Data Tools käyttäen](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Lisätietoja mukautetun raportin luomisesta on aiheessa [Uuden raportin luominen työkalua SQL Server Data Tools käyttäen](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools)
+Jos yrityksesi edellyttää tiettyä raporttia, jota ei voi luoda ohjatulla raportinluontitoiminnolla, voit luoda mukautetun raportin. Microsoft Visual Studio on oltava asennettuna, samoin kuin soveltuvat Microsoft SQL Server Data Tools ja Report Authoring Extensions. Lisätietoja työkaluista ja versioista on aiheessa [Raporttien kirjoitusympäristö työkalua SQL Server Data Tools käyttäen](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Lisätietoja mukautetun raportin luomisesta on aiheessa [Uuden raportin luominen työkalua SQL Server Data Tools käyttäen](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools)
 
 ## <a name="power-bi-insights-apps"></a>Power BI Insights -sovellukset
 
@@ -51,6 +52,3 @@ Katso lisätietoja raportoinnista PSA:ssa seuraavista aiheista:
 - [Project Service -tietomallin käsitteleminen](reports-working-project-service-data-model.md)
 - [Koontinäytöt](reports-dashboards.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

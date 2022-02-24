@@ -2,16 +2,18 @@
 title: Project Operationsissa siirtyminen
 description: Tässä aiheessa on tietoja Project Operationsin käyttämisestä Lifecycle Servicesessa.
 author: sigitac
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994587"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642044"
 ---
 # <a name="navigate-project-operations"></a>Project Operationsissa siirtyminen
 
@@ -28,14 +30,11 @@ Kun Project Operations on valmisteltu tässä aiheessa kuvatulla tavalla, Projec
 
 Siirry Project Operationsiin CDS-ympäristössä käyttämällä ympäristön nimeä kohdassa **Common Data Servicen ympäristön nimi**. 
 
-  ![Common Data Service -ympäristön nimi.](./media/environment-name.PNG)
+  ![Common Data Service -ympäristön nimi](./media/environment-name.PNG)
 
 Siirry Financessa **Projektinhallinta ja kirjanpito** -moduuliin valitsemalla **Kirjautuminen** > **Kirjautuminen ympäristöön**.  
 
-   ![Kirjautuminen Financeen.](./media/environment-login.PNG)
+   ![Kirjautuminen Financeen](./media/environment-login.PNG)
 
 > [!NOTE]
 > Project Operationsia voi käyttää Common Data Servicessa ja **Projektinhallinta ja kirjanpito** -moduulissa suoraan kummankin URL-osoitteen avulla. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

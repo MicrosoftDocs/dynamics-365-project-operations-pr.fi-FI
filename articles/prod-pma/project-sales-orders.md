@@ -2,9 +2,11 @@
 title: Projektien myyntitilaukset aika- ja materiaaliprojekteille
 description: Tässä aiheessa selitetään, miten projektiin perustuvia myyntitilauksia luodaan aika- ja materiaaliprojekteille.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992832"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075333"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projektien myyntitilaukset aika- ja materiaaliprojekteille
 
@@ -39,6 +41,3 @@ Voit luoda projektiperusteisia myyntitilauksia kahdella seuraavalla tavalla.
 - Siirry projektiin itseensä. Valitse toimintoruudussa **Hallitse > Nimiketehtävät > Myyntitilaus**. Projektitiedot siirtyvät oletusarvoiksi projektin myyntitilaukseen. Jos projektisopimuksessa on useita rahoituslähteitä, sinun on valittava rahoituslähde, jotta voit määrittää asiakkaan myyntitilaukselle. Jos projektille on vain yksi rahoituslähde, asiakas määritetään automaattisesti.
 - Siirry **Kaikki myyntitilaukset**-luettelosivulle ja luo uusi myyntitilaus. Sinun on valittava projekti myyntitilausta varten. Kun projekti on valittu, asiakas määritetään rahoituslähteen perusteella tai sinun on valittava rahoituslähde, jos projektisopimuksessa on useita rahoituslähteitä.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

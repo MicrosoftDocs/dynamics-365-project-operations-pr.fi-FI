@@ -1,6 +1,8 @@
 ---
 title: Resurssipyynnön lähettäminen
 description: Tässä aiheessa on tietoja projektiresurssinpyynnön lähettämisestä.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985002"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149719"
 ---
 # <a name="submitting-a-resource-request"></a>Resurssipyynnön lähettäminen
 
@@ -34,11 +36,8 @@ Voit lähettää luodun resurssivaatimuksen resurssipyyntönä. Pyyntö lähetet
 1. Napauta Project Service Automation (PSA) **Projektit**-sivulla **Ryhmä**-välilehteä nähdäksesi varattavissa olevat resurssit. 
 2. Valitse luettelosta yleinen resurssi, jolla on resurssitarve, ja valitse sitten **Lähetä pyyntö.**
 
-![Resurssipyynnön lähettäminen.](media/RM-how-to-18.png)
+![Resurssipyynnön lähettäminen](media/RM-how-to-18.png)
 
 Yleisen ryhmän jäsenen pyynnön tila muuttuu tilaksi **Lähetetty**.
 
 Kun resurssipäällikkö on täyttänyt pyynnön, yleinen resurssi korvataan nimetyllä resurssilla, jos resurssipäällikkö täyttää pyynnön nimetyn resurssin varauksella. Muussa tapauksessa yleinen resurssi säilyy ryhmässä ja pyynnön tilaksi muuttuu **Vaatii tarkistusta**, jos resurssipäällikkö on ehdottanut nimettyä resurssia.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

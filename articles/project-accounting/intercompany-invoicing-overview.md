@@ -2,17 +2,18 @@
 title: Yritysten välisen laskutuksen yleiskatsaus
 description: Tässä aiheessa on tietoja ja esimerkkejä yritysten välisistä laskuista projekteissa.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005387"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595459"
 ---
 # <a name="intercompany-invoicing-overview"></a>Yritysten välisen laskutuksen yleiskatsaus
 
@@ -20,9 +21,9 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 Organisaatiolla voi olla useita osastoja, tytäryhtiöitä ja muita juridisia kohteita, jotka siirtävät tuotteita ja palveluja toisiinsa projekteissa. Palvelua tai tuotetta tarjoava yritys on nimeltään *lainaa antava yritys*. Palvelun tai tuotteen vastaanottava yritys on nimeltään *lainaa ottava yritys*.
 
-Seuraavassa kuvassa on esitetty tyypillinen skenaario, jossa kaksi yritystä, Contoso Robotics USA (lainaa ottava yritys) ja Contoso Robotics UK (lainaa antava yritys) jakavat resursseja keskenään toimittaakseen projektin asiakkaalle, eli Adventure Worksille. Tässä skenaariossa Contoso Robotics USA on palkattu toimittamaan työ Adventure Worksille.
+Seuraavassa kuvassa on tyypillinen skenaario, jossa kaksi yritystä, Contoso Robotics USA (lainaa ottava yritys) ja Contoso Robotics UK (lainaa antava yritys) jakavat resursseja toimittaakseen projektin asiakkaalle nimeltä Adventure works. Tässä skenaariossa contoso Robotics USA on tehnyt sopimuksen työn toimittamisesta Adventure Worksille.
 
-![Yritysten välinen laskutus.](./media/IntercompanyScenario.png) 
+![Konsernin sisäinen laskutus](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations käyttää seuraavaa työnkulkua yritysten välisten tapahtumien käsittelyyn:
 
@@ -35,13 +36,10 @@ Dynamics 365 Project Operations käyttää seuraavaa työnkulkua yritysten väli
 
 Seuraavassa kaaviossa on kuvattu yritysten välinen laskutus siltä osin, kun se liittyy kirjanpitotapahtumiin ja odotettuihin yleisen tapahtumarekisterin kirjauksiin.
 
-![Yritysten välinen työnkulku.](./media/IntercompanyFlow.png)
+![Yritysten välinen työnkulku](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Lisäresurssit
 
-- [Konsernin sisäisen laskutuksen määrittäminen](configure-intercompany-invoicing.md)
+- [Yritysten välisen laskutuksen määrittäminen](configure-intercompany-invoicing.md)
 - [Yritysten välisten tapahtumien tallentaminen](create-intercompany-transactions.md)
 - [Yritysten välisten asiakas- ja toimittajalaskujen luominen](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

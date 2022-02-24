@@ -1,25 +1,29 @@
 ---
-title: Automaattisen laskun luonnin määrittäminen
-description: Tässä aiheessa on tietoja proformalaskujen automaattisen luomisen määrittämisestä.
+title: Automaattisen laskun luonnin määrittäminen – lite
+description: Tässä ohjeaiheessa on tietoja proformalaskun automaattisen luomisen määrityksestä.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997512"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176562"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Automaattisen laskun luonnin määrittäminen 
+# <a name="configure-automatic-invoice-creation---lite"></a>Automaattisen laskun luonnin määrittäminen – lite
  
-_**Koskee:** Lite-käyttöönotto - kaupasta proformalaskutukseen, Project Operationsin resurssiin/ei-varastointiin perustuvia skenaarioita_
+_**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
 Voit määrittää automaattisen laskun luonnin Dynamics 365 Project Operationsissa. Järjestelmä luo proformalaskun, joka perustuu kunkin projektisopimuksen ja sopimusrivin laskuaikatauluun. Laskuaikataulut määritetään sopimusrivin tasolla. Kullakin palvelusopimuksen rivillä voi olla erillinen laskuaikataulu, tai sama laskuaikataulu voidaan sisällyttää palvelusopimuksen jokaiseen riviin.
 
-Kun luot laskun, järjestelmä luo aina vähintään yhden laskun projektisopimusta kohden. Joissakin tapauksissa voidaan luoda useita laskuja. Jos palvelusopimuksessa on esimerkiksi useita asiakkaita, samalla luodaan sama määrä laskuja kuin niiden asiakkaiden määrä, joilla on laskutettavia tapahtumia kyseisessä projektisopimuksessa.
+Kun luot laskun, järjestelmä luo aina vähintään yhden laskun projektisopimusta kohden. Joissakin tapauksissa voidaan luoda useita laskuja.
+
+Jos palvelusopimuksessa on esimerkiksi useita asiakkaita, samalla luodaan sama määrä laskuja kuin niiden asiakkaiden määrä, joilla on laskutettavia tapahtumia kyseisessä projektisopimuksessa.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Tietoja siitä, miten tapahtumat sisällytetään laskuun 
 
@@ -87,6 +91,3 @@ Laskujen luomisen erätyö on toistuva työ. Jos tämä erätyö suoritetaan use
 
 > [!NOTE]
 > Erälaskutus suoritetaan vain sellaisille Project Operations -toiminnoille, jotka on määritetty laskun aikataulun mukaan. Jos sopimusrivillä on kiinteähintainen laskutusmenetelmä, sillä on oltava määritettyinä välitavoitteet. Jos projektisopimusrivillä on aika- ja materiaalipohjainen laskutusmenetelmä, sille on määritettävä päivämäärään perustuva laskutusaikataulu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

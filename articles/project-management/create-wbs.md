@@ -2,16 +2,18 @@
 title: Työrakenteen luominen
 description: Tässä aiheeessa selostetaan, miten luodaan työrakenne (WBS) sisältäen perusohjausobjektit uudessa aikataulutuksen käyttöliittymässä.
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928611"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841331"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Työrakenteen (WBS) luominen
 
@@ -91,11 +93,9 @@ Seuraavassa taulukossa on esitetty lisää aikataulun määritteitä.
 | Nimi | Tehtävän nimi. |
 | Tunnus | Näyttää työrakenteen tehtävän tunnuksen. |
 
-Järjestelmänvalvojana voit määrittää tehtäväentiteetin mukautettuja kenttiä. Kenttiä ei kuitenkaan voi näyttää aikatauluruudukossa. Voit tarkastella mukautettuja kenttiä lisäämällä ne **Projektitehtävä**-tietosivulle.
-
 ## <a name="staffing-attributes"></a>Henkilöstömääritteet
 
-Henkilöstömääritteitä käytetään aikataulun **Resurssit**-kentän kautta. Voit joko hakea olemassa olevaa resurssia tai valita **Luo** ja lisätä projektiryhmän jäsenen uudeksi resurssiksi **Pikaluonti**-ruudussa.  Kun haet resurssia käyttäen tehtäväruudukossa, taulunäkymässä tai gantt-kaaviossa olevaa resurssivalitsinta, haku palauttaa joko olemassa olevat ryhmän jäsenet tai aktiiviset varattavat resurssit.
+Henkilöstömääritteitä käytetään aikataulun **Resurssit**-kentän kautta. Voit joko hakea olemassa olevaa resurssia tai valita **Luo** ja lisätä projektiryhmän jäsenen uudeksi resurssiksi **Pikaluonti**-ruudussa.
 
 Kenttiä **Rooli**, **Resursointiyksikkö** ja **Toimen nimi** käytetään tehtävän henkilöstötarpeiden kuvaamiseen. Näitä henkilöstömääritteitä käytetään yhdessä tehtävän aikataulun kanssa käytettävissä olevien resurssien hakemiseen tehtävälle.
 
@@ -116,28 +116,3 @@ Tämä tehtävätila ei vaikuta edeltävien/riippuvaisten tehtävien alkamis- ja
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Helppokäyttötoiminnot ja pikanäppäimet
 
 **Aikataulut**-ruudukko on täysin käytettävissä, ja siinä voidaan käyttää näytönlukijoita (esim. Narrator, JAWS tai NVDA). Voit siirtyä ruudukkoalueella nuolinäppäimillä (kuten Microsoft Excelissä), voit käyttää sarkainnäppäintä siirtyäksesi vuorovaikutteisten käyttöliittymäelementtien välillä ja voit käyttää alanuolinäppäintä, Enter-näppäintä tai välilyöntiä valitaksesi ja avataksesi avattavia valikkoja.
-
-## <a name="project-limitations"></a>Projektirajoitukset 
-Ota huomioon seuraavat rajoitukset, jos käytät Project Operationsin työrakennetta. Nämä rajoitukset koskevat projekteja ja tehtäviä. Lisätietoja on ohjeaiheessa [Project for the webin rajoitukset ja rajat](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Kenttä**                                          |  **Raja**           |
-|----------------------------------------------------|----------------------|
-| Projektin tehtävien enimmäismäärä                  | 500                  |
-| Projektin keston enimmäismäärä               | 3650 päivää (10 vuotta) |
-| Projektin resurssien enimmäismäärä              | 150                  |
-| Projektin linkkien enimmäismäärä (vain seuraaja) | 600                  |
-| Projektin mukautettujen linkkien enimmäismäärä          | 10                   |
-| Tarkistusluettelon kohteiden enimmäismäärä tehtävää kohden                   | 20                   |
-
-**Tehtävärajoitukset**
-
-| **Field**                               |   **Raja**           |
-|-----------------------------------------|-----------------------|
-| Hierarkian enimmäistaso                 | 10 tasoa             |
-| Linkkien enimmäismäärä (seuraaja + edeltäjä) | 20                    |
-| Lehtitehtävän enimmäiskesto           | 1250 päivää             |
-| Yhteenvetotehtävän enimmäiskesto      | 3650 päivää (10 vuotta)  |
-| Tehtävään kohdennettujen resurssien enimmäismäärä    | 20 resurssia          |
-| Tehtävän tuettu päivämääräväli         | 1.1.2000 - 31.12.2149 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

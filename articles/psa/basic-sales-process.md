@@ -2,6 +2,8 @@
 title: Myyntiprosessit
 description: Tämä aihe sisältää tietoja perustason myyntiprosesseista.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000527"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145174"
 ---
 # <a name="sales-processes"></a>Myyntiprosessit
 
@@ -39,7 +41,7 @@ Projektiperusteisessa organisaatiossa käytettävät myyntiprosessit eroavat tuo
 
 Seuraavassa kuvassa näkyy projektiperusteisen organisaation tyypillinen myyntiprosessi.
 
-> ![Myyntiprosessi projektiperusteisessa organisaatiossa.](media/basic-guide-1.png)
+> ![Myyntiprosessi projektiperusteisessa organisaatiossa](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Myynnin arviointi
 Myynnin arvo voidaan arvioida aiemmin toimitettujen projektien ja projektin monimutkaisuuden perusteella. Jos projektiin liittyy laajennuksia aiempaan projektiin tai projektin toimittajan asiantuntemus on korkeatasoista ja siinä käytetään tuttuja työmalleja, voidaan käyttää yksinkertaisempaa arviointiprosessia. Monimutkaisissa projekteissa ostoprosessi on yleensä pidempi. Siksi myös myynninarviointiprosessissa on enemmän vaiheita. Projektin alussa myyntiryhmä käyttää asiakkuuspäällikköjen ja aihealueen asiantuntijoiden panosta päästäkseen alkuun ylätason arvioinnin luomisessa kullekin erilliselle tarjoukseen sisältyvälle työkomponentille. Tarjousrivit edustavat näitä työkomponentteja. 
@@ -50,7 +52,7 @@ Voit luoda projektille useita tarjouksia ja koota ne yksittäisen mahdollisuusen
 
 Voit myös luoda vaihtoehtoisia tarjouksia yhden mahdollisuusentiteettityypin alle tai määrittää järjestelmän siten, että projektisopimus luodaan, kun tarjous voitetaan. Tällöin voit liittää projektisopimuksen tietueeseen Word-asiakirjan, joka edustaa työnkuvausta.
 
-![Tarjouksen sulkeminen projektisopimuksen luomista varten.](media/basic-guide-2.png)
+![Tarjouksen sulkeminen projektisopimuksen luomista varten](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Myyntiprosessin määrittäminen
 Voit määrittää myyntiprosessisi käyttämällä Microsoft Dynamics 365:n liiketoimintaprosesseja. Liiketoimintaprosessit tarjoavat myyntihenkilöstölle opastetun visuaalisen liittymän, jota se voi käyttää siirtääkseen kauppoja yrityksellesi tyypillisten vaiheiden läpi.
@@ -66,7 +68,7 @@ Yrityksen myyntiprosessissa voi olla esimerkiksi seuraavat kuusi vaihetta:
 
 Nuolenkärkipainikkeet (\>), jotka valitaan laajennettavaksi kussakin luotavassa mahdollisuusentiteettityypissä, edustavat näitä kuutta vaihetta.
 
-![Liiketoimintaprosessien määritys Dynamics 365:ssä.](media/basic-guide-3.png)
+![Liiketoimintaprosessien määritys Dynamics 365:ssä](media/basic-guide-3.png)
  
 Organisaatiossasi saatetaan käyttää eri entiteettejä edustamaan samaa kauppaa sen muuttuessa. Aikaisin myyntiprosessissa kauppaa edustaa Mahdollisuus-entiteetti. Ajan myötä ja kaupan tarkentuessa saatetaan käyttää ylätason arvioita yhden tai useamman tarjouksen luomiseen. Jos sisäiset ja asiakkaan sidosryhmät tarkistavat yhden näistä tarjouksista, kauppaa edustaa Tarjous-entiteetti. Kun asiakas on hyväksynyt tarjouksen, kauppaa edustaa projektisopimus tai työnkuvaus. Näiden toimintojen tukemiseksi jokainen prosessin vaihe on liiketoimintaprosessien rakenteessa linkitetty eri tietokantataulukkoon.
 
@@ -77,7 +79,7 @@ Kun siirrät kauppoja vaiheiden läpi, järjestelmä pyytää sinua luomaan asia
 > [!NOTE]
 > PSA:ssa on omat sivunsa entiteeteille Mahdollisuus, Tarjous, Tilaus ja Lasku. Sinun on luotava projektipalvelun mahdollisuuksia, tarjouksia, tilauksia ja laskuja käyttämällä näiden entiteettien projektitietosivuja. Jos käytät tietueen luonnissa muuta sivua, et voi avata tietuetta **Projektitiedot**-sivun kautta. Jos haluat avata tietueen **Projektitiedot**-sivulta, sinun on poistettava tietue ja luotava se uudelleen käyttäen **Projektitiedot**-sivua. **Projektitiedot**-sivulla näiden entiteettityyppien liiketoimintalogiikat varmistavat, että tietueen **Tyyppi**-kenttä määritetään oikein ja että kaikki pakolliset konseptit alustetaan asianmukaisesti.
 
-> ![Uuden tilauksen projektitiedot.](media/basic-guide-4.png)
+> ![Uuden tilauksen projektitiedot](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Erot Project Service Automationin ja Salesin välillä
 Vaikka PSA:n myyntiprosessissa käytetään Salesin myyntiprosessin perusominaisuuksia, niiden välillä on keskeisiä eroja projektiperusteisten organisaatioiden liiketoimintakäytännöissä esiintyvien vaihteluiden vuoksi. Seuraavassa on joitakin esimerkkejä.
@@ -91,6 +93,3 @@ PSA:ssa tarjoukseen tehtyjä muutoksia ei voi jäljittää. Sen sijaan kulloisen
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Tarjousten ja projektisopimusten kommenttien ja hyväksyntöjen seuraaminen
 Voit hallita tarjousten ja projektisopimusten arviointia ja hyväksymistä tietueseinän ja viestien avulla. Organisaatiosi voi luoda mukautettuja työnkulkuja ja laajennuksia kohdentamaan, uudelleenohjaamaan ja hallitsemaan arvioinnin ja hyväksynnän työkohteiden ilmoituksia.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

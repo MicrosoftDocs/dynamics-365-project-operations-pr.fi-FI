@@ -2,9 +2,11 @@
 title: Project Timesheet -mobiilisovellus
 description: Tässä aiheessa on tietoja Microsoft Dynamics 365 Project Timesheet -mobiilisovellukselta. Project Timesheet -mobiilisovelluksen avulla käyttäjät voivat lähettää ja hyväksyä projektien aikaraportteja mobiililaitteillaan.
 author: abruer
+manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997197"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075521"
 ---
 # <a name="project-timesheet-mobile-application"></a>Project Timesheet -mobiilisovellus
 
@@ -94,6 +96,3 @@ Lähetä aikaraportti hyväksynnän työkulkuun valitsemalla **Lähetä**.
 ## <a name="review-timesheets"></a>Aikaraporttien tarkistaminen
 
 Valikossa on käytettävissä luettelo aikaraporteista, jotka on tarkistettava. Tämä vaihtoehto on käytettävissä vain, jos sinut on määritetty työnkulun hyväksyjäksi. Sekä otsikko- että rivihyväksyntä ovat tuettuja. Rivitason hyväksyntä tarjoaa mahdollisuuden merkitä yhden tai useamman rivin hyväksyntää varten. Kun olet tarkistanut aikaraportin tiedot, jatka työnkulkua valitsemalla **Hyväksy**, **Delegoi** tai **Palaa**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

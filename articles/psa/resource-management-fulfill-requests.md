@@ -2,6 +2,8 @@
 title: Resurssivaatimusten täyttäminen
 description: Tässä aiheessa on tietoja resurssivaatimusten täyttämisestä.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 858662b62e511f80413e2354832bf2b0bcfc3fc5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996837"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147604"
 ---
 # <a name="fulfilling-resource-requests"></a>Resurssipyyntöjen täyttäminen
 
@@ -33,17 +35,14 @@ Resurssivaatimukset voidaan lähettää resurssipyyntöinä resursspäälikköll
 
 Resurssipyynnöt näkyvät luettelomuodossa näkymässä **Aktiiviset resurssipyynnöt**.
 
-> ![Luettelo resurssipyynnöistä.](media/Resource-Management-image59.png)
+> ![Luettelo resurssipyynnöistä](media/Resource-Management-image59.png)
 
 Voit täyttää pyynnön valitsemalla sen luettelosta ja valitsemalla sen jälkeen **Etsi resurssit**. Vaihtoehtoisesti voit kaksoisnapauttaa riviä pyynnön avaamiseksi. Voit valita sen jälkeen **Resurssivaatimus**-välilehden tarkastellaksesi vaatimuksia tälle pyynnölle. Jos haluat aloittaa pyynnön toteuttamisen, valitse **Etsi resurssit**.
 
-> ![Resursspyynnön tiedot.](media/Resource-Management-image60.png)
+> ![Resursspyynnön tiedot](media/Resource-Management-image60.png)
 
 Aikatauluavustaja tulee näkyviin, ja se suodatetaan vaatimusten mukaan. Valitse ensin resurri ja sitten **Varaa**.
 
-> ![Resurssi valittu.](media/Resource-Management-image61.png)
+> ![Resurssi valittu](media/Resource-Management-image61.png)
 
 Yleinen ryhmän jäsen korvataan sitovalla projektiryhmän nimetyn resurssin varauksella ja tehtäväkohdennuksilla projektiaikataulussa.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

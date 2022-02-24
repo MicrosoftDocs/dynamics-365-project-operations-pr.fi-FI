@@ -2,9 +2,11 @@
 title: Tuotteet
 description: Tässä aiheessa on tietoja tuoteluettelosta, jonka avulla annetaan tietoja asiakkaille organisaation tuotteista ja hinnoittelusta.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986847"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121259"
 ---
 # <a name="products"></a>Tuotteet
 
@@ -122,6 +124,3 @@ Käytettävissä voivat olla esimerkiksi seuraavat ominaisuudet:
 - **Tuote-SKU** 
 
 **Käyttäjät**- ja **Kuukaudet**-ominaisuudet voidaan valita määräkertoimiksi muokkaamalla tuoterivin ominaisuuksia. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

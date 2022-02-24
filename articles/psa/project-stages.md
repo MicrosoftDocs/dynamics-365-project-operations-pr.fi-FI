@@ -2,6 +2,8 @@
 title: Projektin vaihetyypit
 description: Tässä aiheessa on tietoja projektin vaiheista.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e4f50d12b4f0bf1586d0a5702bcd38b891590bffe0d3f9661d7f5d170877b54e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996882"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148099"
 ---
 # <a name="project-stage-types"></a>Projektin vaihetyypit 
 
@@ -63,6 +65,3 @@ Kun projektin työ on valmis, projektipäällikkö voi päivittää vaiheen **va
 ## <a name="close"></a>Sulje
 
 Kun kaikki tapahtumat on kirjattu projektille, projektipäällikkö voi päivittää vaiheen **suljetuksi**. Tässä vaiheessa tapahtumia ei voi tallentaa, ja projekti on määritetty vain luku -tilaan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

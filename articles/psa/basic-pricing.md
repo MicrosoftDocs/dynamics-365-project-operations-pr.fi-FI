@@ -2,6 +2,8 @@
 title: Projektien hinnoittelu
 description: Tässä aiheessa on tietoja hinnoittelusta Dynamics 365 Project Service Automationissa.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000572"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148909"
 ---
 # <a name="project-pricing"></a>Projektien hinnoittelu 
 
@@ -46,7 +48,7 @@ Hinnasto-entiteetillä on kolme toisiinsa liittyvää hintoja sisältävää tau
   - **Tapahtumaluokan hinta** –Tämä taulukko sisältää tapahtumaluokkakohtaisia hintoja, ja sitä käytetään määrittämään kululuokkien hintoja.
   - **Hinnaston nimikkeet** – Tämä taulukko sisältää luettelotuotteiden hintoja.
 
-> ![Hintojen määrittäminen hinnaston avulla.](media/basic-guide-12.png)
+> ![Hintojen määrittäminen hinnaston avulla](media/basic-guide-12.png)
  
 Hinnasto on ilmoitushinnasto. Ilmoitushinnasto on yhdistelmä Hintaluettelo-entiteetistä ja siihen liittyvistä riveistä taulukoissa Roolin hinta, Tapahtumaluokan hinta ja Hinnaston nimikkeet.
 
@@ -58,7 +60,7 @@ Henkilöresurssien ajan hinta perustuu yleensä siihen rooliin, joka resurssilla
 
 **Aika**-yksikköryhmä luodaan PSA:n asennuksen yhteydessä. Sen oletusyksikkönä on **Tunti**. **Aika**-yksikköryhmän tai **Tunti**-yksikön määritteitä ei voi poistaa, nimetä uudelleen eikä muokata. **Aika**-yksikköryhmään voi kuitenkin lisätä muita yksikköjä. Jos yrität poistaa **Aika**-yksikköryhmää tai **Tunti**-yksikköä, PSA:n liiketoimintalogiikassa voi aiheutua virheitä.
 
-> ![Hintojen määrittäminen roolien mukaan.](media/basic-guide-13.png)
+> ![Hintojen määrittäminen roolien mukaan](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Tapahtuma- ja kululuokat
 
@@ -68,7 +70,7 @@ Matka- ja muut kulut, jotka aiheutuvat projektin konsulteille, laskutetaan yleen
 - **Hinnankorotusprosentti** – Asiakkaalta laskutettava todellisen kustannuksen ylittävä prosenttiosuus. 
 - **Yksikköhinta** – Kullekin kululuokan yksikölle määritetään laskutushinta. Asiakkaalta laskutettava summa lasketaan konsultin ilmoittamien kuluyksikköjen määrän perusteella. Kilometrikorvauksessa käytetään yksikkökohtaista hinnoittelutapaa. Kilometrikorvausten kululuokan hinnaksi voidaan määrittää esimerkiksi 30 Yhdysvaltojen dollaria (USD) päivää kohden tai 2 USD mailia kohden. Kun konsultti ilmoittaa projektin kilometrikorvaukset, laskutettava summa lasketaan konsultin ilmoittamien mailien perusteella.
 
-> ![Kululuokkien hinnoittelun määritys.](media/basic-guide-14.png)
+> ![Kululuokkien hinnoittelun määritys](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projektien myyntihinnoittelu ja hintojen korvaaminen
 
@@ -114,7 +116,7 @@ Tarjouksessa kuitenkin voidaan käyttää päähinnastoa. Vaihtoehtoisesti voit 
 
 Kun luot mukautetun projektihinnaston, ainoastaan hinnaston projektikomponentit kopioidaan. Toisin sanoen uusi hinnasto luodaan kopiona tarjoukseen liitetystä projektihinnastosta, ja tässä uudessa hinnastossa on vain liittyviä roolin hintoja ja tapahtumaluokan hintoja.
 
-> ![Projektisopimuksen mukautetun hinnoittelun tarkastelu ja määritys.](media/basic-guide-15.png)
+> ![Projektisopimuksen mukautetun hinnoittelun tarkastelu ja määritys](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Kustannusten seuranta
 
@@ -129,6 +131,3 @@ Laskutushintojen lailla myös henkilöresurssien kustannushinnat määritetään
     1. Organisaatioyksikköön liitetty kustannushinnasto.
     2. Projektin palveluparametreihin liitetty kustannushinnasto. Koska projektin palveluparametreihin voidaan liittää kustannushinnastoja monissa eri valuutoissa, PSA täsmäyttää projektin, sopimuksen tai tarjouksen sopimusorganisaatioyksikön valuutan ja kustannushinnaston valuutan.
     3. Kulujen osalta hinnoittelutapoja kustannusten mukaan ja hinnankorotus prosentteina kustannuksista ei voi käyttää kustannushinnastoissa. Vaikka näitä hinnoittelutapoja käytettäisiin kustannushinnaston riveillä tapahtumaluokan kustannusten määrittämiseen, järjestelmä jättää ne huomioimatta eikä oletusarvoista kustannushintaa määritetä.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

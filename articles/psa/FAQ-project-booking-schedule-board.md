@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987612"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992962"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Projektivarauksen luominen aikataulutaulukosta
 
@@ -43,7 +43,7 @@ Voit luoda yleisen resurssin ja kohdentaa sille projektissa yhden tehtävän tai
 
 1.  Aikataulutaulukossa tämä resurssi näkyy **Avoimet tarpeet** -välilehdessä. Jos avoimia tarpeita on useita, ruudukossa kannattaa käyttää sarakesuodattimia. 
 
-    ![Aikataulutaulukon Avoimet tarpeet -välilehti.](media/FAQ-Project-Booking-Schedule-Board-1.png "Varausten ja delegointien taulukon näyttökuva")
+    ![Aikataulutaulukon Avoimet tarpeet -välilehti](media/FAQ-Project-Booking-Schedule-Board-1.png "Varausten ja delegointien taulukon näyttökuva")
 
 2. Valitse tarve. **Etsi saatavuus** -välilehti tulee näkyviin valitun rivin yläosassa.
  
@@ -53,7 +53,7 @@ Voit luoda yleisen resurssin ja kohdentaa sille projektissa yhden tehtävän tai
 
     Kun valitset **Varaa**, resurssi varataan projektiryhmälle.
 
-![Resurssivarauspaneelin luominen.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Resurssivarauspaneelin luominen](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Varaus ensisijaisesta tarpeesta
@@ -62,7 +62,7 @@ Kun Project Service -sovelluksessa luodaan projekti, luodaan myös resurssitarve
 
 1. Jos haluat varata resurssin aikataulutaulukon Ensisijainen tarve -kohdassa, valitse **Projekti**-välilehti. Jos projekteja on useita, kannattaa käyttää **Projekti**-sarakkeen sarakesuodatinta.
 
-   ![Sarakesuodattimet aikataulutaulukossa.](media/FAQ-Project-Booking-Schedule-Board-2.png "Varausten ja delegointien taulukon näyttökuva")
+   ![Sarakesuodattimet aikataulutaulukossa](media/FAQ-Project-Booking-Schedule-Board-2.png "Varausten ja delegointien taulukon näyttökuva")
 
 2. Valitse tarve, jonka nimi on projektin nimi ja jonka kesto on 0 (nolla).
 

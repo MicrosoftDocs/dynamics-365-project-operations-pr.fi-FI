@@ -2,9 +2,11 @@
 title: Toimittajan maksu, kun maksettu -maksujen määrittäminen ja käyttäminen
 description: Tässä aiheessa kerrotaan, miten luodaan maksullisten maksujen (PWP) ehtoja, jotta voit vapauttaa osittaisen toimittajan maksut asiakasmaksujen perusteella.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008852"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075327"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Toimittajan maksu, kun maksettu -maksujen määrittäminen ja käyttäminen
 
@@ -78,6 +80,3 @@ Kun toimittaja suorittaa projektissa työnsä ja lähettää sinulle laskun, tar
 2. Jos kyseessä on **toimittajan lasku, joka maksetaan kun on maksettu** -sivu, kirjoita hakukenttään arvot löytääksesi toimittajan laskun, jota haluat tarkastella, ja valitse sitten **Hae**.
 3. Valitse **toimittajan laskun rivit** -pikavälilehden rivit, joita haluat muuttaa.
 4. Jos laskun rivillä **maksetaan, kun maksu ehdot täyttyvät**, valitse **Vapauta toimittajan maksu**. **Maksu, kun maksettu** -asetus on poistettu, ja **valmis maksettavaksi** -kentän arvoksi vaihdetaan **Kyllä**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

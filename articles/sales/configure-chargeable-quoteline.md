@@ -2,16 +2,18 @@
 title: Projektiin perustuvan tarjousrivin laskutettavien komponenttien määrittäminen
 description: Tässä aiheessa on tietoja projektiin perustuvien tarjousrivien sisällytetyistä, laskutettavista ja ei-laskutettavista komponenteista.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003992"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642539"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Projektiin perustuvan tarjousrivin laskutettavien komponenttien määrittäminen
 
@@ -51,6 +53,3 @@ Arvioitu tai toteutunut kulu voi olla laskutettava ainoastaan, jos kulu on sisä
 | No | Kyllä | Ei voida määrittää | Ei veloitettava | Laskutus toteutuneesta ajasta: Ei saatavilla </br>Laskutustyyppi tosiasiallisesta kustannuksesta: Ei veloitettava |
 | Kyllä | No | Veloitettava | Ei voida määrittää | Laskutus toteutuneesta ajasta: Laskutettava </br>Laskutustyyppi tosiasiallisesta kustannuksesta: Ei saatavilla |
 | Kyllä | No | Ei veloitettava | Ei voida määrittää | Laskutus toteutuneesta ajasta: Ei veloitettava </br> Laskutustyyppi tosiasiallisesta kustannuksesta: Ei saatavilla |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

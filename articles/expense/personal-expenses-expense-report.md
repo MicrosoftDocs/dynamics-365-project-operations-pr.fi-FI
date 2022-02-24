@@ -2,17 +2,19 @@
 title: Matkalaskun henkilökohtaisten kulujen käsittely
 description: Tässä aiheessa on tietoja siitä, miten työntekijöiden työmatkoihin liittyvät henkilökohtaiset kulut voidaan käsitellä.
 author: suvaidya
-ms.date: 05/11/2021
+manager: tfehr
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 5e1162133eec5a85675bf686855d420c50de0eaf045d81c4b417b6fe66ee19fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993147"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727949"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Matkalaskun henkilökohtaisten kulujen käsittely
 
@@ -26,15 +28,3 @@ Työntekijän henkilökohtaiset kulut voidaan käsitellä kahdella tavalla:
   - **Yrityksen maksama**: organisaatio maksaa yrityksen luottokorttilaskun kokonaan ja veloittaa sitten työntekijän tililtä henkilökohtaiset kulut.
 
 Voit valita menetelmän, jota organisaatiosi käyttää **kulun hallinnan parametrit** -sivulla.
-
-
-## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Ota käyttöön kulujen jakotoiminto, kun henkilökohtaisen summan kentässä on arvo
-
-**Ota käyttöön kulujen jakotoiminto, kun henkilökohtaisen summan kentässä on arvo** -ominaisuus koskee vain kuluraportteja, jotka on hyväksytty käyttämällä rivitason työnkulkua. Raportit hyväksytään kohdasta **Käsittele kuluraportit** > **Minulle liitetyt kuluraportit** > **Avaa kuluraportti**. 
-
-Jos haluat ottaa tämän ominaisuuden käyttöön, avaa **Työtilat** > **Ominaisuuksien hallinta**, valitse **Ota käyttöön kulujen jakotoiminto, kun henkilökohtaisen summan kentässä on arvo** ja valitse sitten **Ota käyttöön nyt**. 
-
-Kun ominaisuus on käytössä, tätä toimintoa käyttävät kulurivit luovat kaksi riviä, kun raportti lähetetään. Nämä kaksi riviä luodaan, jotta hyväksyjä voit hyväksyä ne molemmat erikseen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Oletushinnastot
 description: Tämä aihe tarjoaa tietoja oletusmyynti- ja tuotehinnastoista Project Operationsissa.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989862"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130934"
 ---
 # <a name="default-price-lists"></a>Oletushinnastot
 
@@ -19,7 +21,7 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 ## <a name="sales-price-lists"></a>Myyntihinnastot
 
-Jokainen Dynamics 365 Project Operationsissa oleva projektitarjous ja sopimus sisältää oletusmyyntihinnaston. 
+Jokainen Dynamics 365 Project Operationsin projektitarjous ja palvelusopimus sisältää oletusmyyntihinnaston. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Oletushinnasto projektitarjouksille
 Järjestelmä viimeistelee seuraavan prosessin määrittäen projektitarjouksen oletushinnaston:
@@ -55,6 +57,3 @@ Kustannushinnastot eivät ole oletusarvoisesti missään Project Operationsin en
 5. Seuraavaksi järjestelmä tarkastelee niiden hinnastojen päivämäärää, jotka vastaavat saapuvan arvion tai todellisen rivin päivämäärää. 
 6. Jos tulevan arvion tai todellisen päivämäärän kohdalla on useita tehokkaita hinnastoja, viimeksi luotu hinnasto on valittuna.
 7. Jos projektiparametreihin, jotka vastaavat valuuttaa ja voimaantulopäivää, ei ole liitetty kustannushinnastoja, järjestelmäoletusarvona on, että kustannushinta on nolla (0) saapuvassa arviossa tai todellisella rivillä.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

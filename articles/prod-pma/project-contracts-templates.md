@@ -2,9 +2,11 @@
 title: Synkronoi projektisopimukset ja projektit suoraan Project Service Automationista Financeen
 description: Tässä aiheessa kuvataan malli ja sen pohjana olevat tehtävät, joita käytetään projektisopimusten ja projektien synkronoimiseen suoraan Microsoft Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001067"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764815"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synkronoi projektisopimukset ja projektit suoraan Project Service Automationista Financeen 
 
@@ -42,7 +44,7 @@ Project Service Automationin integrointiratkaisua Financeen käyttää tietojen 
 
 Seuraavassa kuvassa on esitetty, miten tiedot synkronoidaan Project Service Automationin ja Financen välillä.
 
-[![Tietovuo Project Service Automationin Financeen integroinnissa.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Tietovuo Project Service Automationin Financeen integroinnissa](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Mallit ja tehtävät
 
@@ -107,8 +109,8 @@ Kun käytetään Project Service Automationin Finenceen integroinnin ratkaisua, 
 ## <a name="prerequisites-and-mapping-setup"></a>Edellytykset ja yhdistämismääritykset
 
 - Tilit on synkronoitava, ennen kuin projektisopimuksia ja projekteja voi esiintyä.
-- Lisää yhteysjoukkoosi integrointiavaimen kenttämääritys kohteelle **msdyn\_organizationalunits** to **msdyn\_name \[Nimi\]**. Sinun täytyy ehkä ensin lisätä projekti yhteysjoukkoon. Lisätietoja [Tietojen integrointi Common Data Serviceen sovelluksille](/powerapps/administrator/data-integrator).
-- Lisää yhteysjoukkoosi integrointiavaimen kenttämääritys kohteelle **msdyn\_projects** to **msdynce\_projectnumber \[Projektinumero\]**. Sinun täytyy ehkä ensin lisätä projekti yhteysjoukkoon. Lisätietoja [Tietojen integrointi Common Data Serviceen sovelluksille](/powerapps/administrator/data-integrator).
+- Lisää yhteysjoukkoosi integrointiavaimen kenttämääritys kohteelle **msdyn\_organizationalunits** to **msdyn\_name \[Nimi\]**. Sinun täytyy ehkä ensin lisätä projekti yhteysjoukkoon. Lisätietoja [Tietojen integrointi Common Data Serviceen sovelluksille](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Lisää yhteysjoukkoosi integrointiavaimen kenttämääritys kohteelle **msdyn\_projects** to **msdynce\_projectnumber \[Projektinumero\]**. Sinun täytyy ehkä ensin lisätä projekti yhteysjoukkoon. Lisätietoja [Tietojen integrointi Common Data Serviceen sovelluksille](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID**, jotta projektisopimukset ja projektit voidaan päivittää eri arvoon tai poistaa yhdistämismäärityksestä. Mallin oletusarvo on **Project Service Automation**.
 - **PaymentTerms**-yhdistämismääritys on päivitettävä vastaamaan kelvollisia maksuehtoja Financessa. Voit myös poistaa yhdistämismäärityksen projektitehtävästä. Oletusarvon yhdistämismäärityksissä on esittelytietojen oletusarvoja. Seuraavassa taulukossa esitetään arvot Project Service Automationissa.
 
@@ -129,7 +131,7 @@ Microsoft Power Query for Excelin avulla voit suodattaa tietoja, jos seuraavat e
 Jos sinun on käytettävä Power Queryä, noudata seuraavia ohjeita:
 
 - Projektien ja sopimusten (PSA:sta Fin:iin ja Ops:iin) mallissa on oletussuodatin, joka sisältää vain tyypin **Työkohde (msdyn\_ordertype = 192350001)** myyntitilauksia. Tämän suodattimen avulla voidaan varmistaa, että myyntitilauksille ei luoda projektisopimuksia Financessa. Jos luot oman mallin, tämä suodatin on lisättävä.
-- Luo Power Query -suodatin, joka sisältää vain sopimusorganisaatiot, jotka synkronoidaan integroinnin yhteysjoukon yritykseen. Esimerkiksi projektisopimukset, joiden organisaatioyksikkö on Contoso US, on synkronoitava USSI-yritykseen, mutta projektisopimukset, jotka sinulla on Contoso Globalin sopimusorganisaatioyksikön kanssa, synkronoidaan USMF-yritykseen. Jos et lisää tätä suodatinta tehtävien yhdistämismääritykseen, kaikki projektisopimukset synkronoidaan yhteysjoukolle määritettyyn oikeushenkilöön sopimusorganisaatioyksiköstä riippumatta.
+- Luo Power Query -suodatin, joka sisältää vain sopimusorganisaatiot, jotka synkronoidaan integroinnin yhteysjoukon yritykseen. Esimerkiksi projektisopimukset, jotka sinulla on Contoso US:n sopimusorganisaatioyksikön kanssa, pitäisi synkronoida USSI-oikeushenkilöön, mutta projektisopimukset, jotka sinulla on Contoso Globalin sopimusorganisaatioyksikön kanssa, pitäisi synkronoida USMF-oikeushenkilöön. Jos et lisää tätä suodatinta tehtävien yhdistämismääritykseen, kaikki projektisopimukset synkronoidaan yhteysjoukolle määritettyyn oikeushenkilöön sopimusorganisaatioyksiköstä riippumatta.
 
 ## <a name="template-mapping-in-data-integration"></a>Mallien yhdistämismääritys tietojen integroinnissa
 
@@ -140,17 +142,14 @@ Jos sinun on käytettävä Power Queryä, noudata seuraavia ohjeita:
 
 Seuraavissa kuvissa on esimerkkejä mallitehtävien yhdistämismäärityksestä tietojen integroinnissa. Yhdistämismäärityksessä näytetään kenttätiedot, jotka synkronoidaan Project Service Automationista Financeen.
 
-[![Palvelusopimusmallin yhdistäminen.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Palvelusopimusmallin yhdistäminen](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Projektimallin yhdistäminen.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Projektimallin yhdistäminen](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Palvelusopimusrivimallien yhdistäminen.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Palvelusopimusrivimallien yhdistäminen](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Palvelusopimusrivivälitavoitemallin yhdistäminen.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Palvelusopimusrivivälitavoitemallin yhdistäminen](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Projektisopimusten rivien välitavoitteiden yhdistämismääritys Projektit ja sopimukset -mallissa (PSA 3.x:stä Dynamicsiin) – v2-malli:
 
-[![Palvelusopimusrivivälitavoitemallin yhdistäminen version kaksi mallilla.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Palvelusopimusrivivälitavoitemallin yhdistäminen version kaksi mallilla](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

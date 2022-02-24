@@ -2,9 +2,11 @@
 title: Synkronoi projektitehtäviä suoraan Project Service Automationista Finance and Operationsiin
 description: Tässä aiheessa kuvataan malli ja sen pohjana oleva tehtävä, jota käytetään projektitehtävien synkronoimiseen suoraan Microsoft Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992787"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075330"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronoi projektitehtäviä suoraan Project Service Automationista Finance and Operationsiin
 
@@ -39,7 +41,7 @@ Project Service Automationin integrointiratkaisua Financeen käyttää tietojen 
 
 Seuraavassa kuvassa on esitetty, miten tiedot synkronoidaan Project Service Automationin ja Financen välillä.
 
-[![Tietovuo Project Service Automationin Financeen integroinnissa.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Tietovuo Project Service Automationin Financeen integroinnissa](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Malli ja tehtävä
 
@@ -80,7 +82,4 @@ Jos sinun on käytettävä Power Queryä, noudata seuraavaa ohjetta:
 
 Seuraavassa kuvissa on esimerkki mallitehtävien yhdistämismäärityksestä tietojen integroinnissa. Yhdistämismäärityksessä näytetään kenttätiedot, jotka synkronoidaan Project Service Automationista Financeen.
 
-[![Yhdistelmämääritysmalli.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Yhdistelmämääritysmalli](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)

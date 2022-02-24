@@ -2,6 +2,8 @@
 title: Projektiaikataulut
 description: Tässä aiheessa on tietoja aikataulun luomisesta.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998412"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148414"
 ---
 # <a name="project-schedules"></a>Projektiaikataulut 
 
@@ -94,7 +96,7 @@ Painikkeet **Siirrä ylöspäin** ja **Siirrä alaspäin** muuttavat tehtävän 
 
 Tehtävän nimi kuvaa työtä, joka on suoritettava. PSA:ssa tehtävään yhdistetyt määritteet kuvaavat tehtävän aikataulua ja henkilöstötarpeita.
 
-> ![Tehtävän määritteet.](media/project-2.png)
+> ![Tehtävän määritteet](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Aikataulun määritteet
 
@@ -147,6 +149,3 @@ Oletusarvoisesti lehtisolmutehtävän alkamispäiväksi määritetään projekti
 ### <a name="manual-scheduling"></a>Manuaalinen aikataulutus
 
 Jos automaattisen aikataulutuksen säännöt eivät vastaa tarpeitasi, voit määrittää tehtävätilaksi **Manuaalisesti aikataulutettu**. Tämä asetus estää aikataulutusmoduulia laskemasta muiden ajoitusmääritteiden arvoja. Tehtävätilasta riippumatta edeltäjän määrittäminen tehtävälle vaikuttaa aina riippuvaisen tehtävän alkamispäivään.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

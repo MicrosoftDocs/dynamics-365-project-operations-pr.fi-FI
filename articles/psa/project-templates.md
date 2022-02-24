@@ -2,6 +2,8 @@
 title: Projektimallit
 description: Tässä aiheessa on tietoja projektimallien käyttämisestä projektien nopeaan määrittämiseen.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002507"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148054"
 ---
 # <a name="project-templates"></a>Projektimallit 
 
@@ -47,7 +49,7 @@ Projektin voi luoda projektimallista useilla tavoilla:
 
 - Kun luot projektin tarjouksesta voit valita projektimallin **Nopea projektin luonti** -dialogiruudusta.
 
-> ![Pikaluonti: projektin dialogiruutu.](media/project-11.png)
+> ![Pikaluonti: projektin dialogiruutu](media/project-11.png)
 
 - Kun luot projektin valitsemalla **Uusi projekti**, **Projekti**-sivu ilmestyy ennen tietueen tallennusta. Valitse **Valitse malli** -kentässä jokin organisaation esimääritetyistä projektimalleista.
 - Käytä **Luo projekti mallista** -toimintoa **Mallikohde**-sivulla.
@@ -67,6 +69,3 @@ Kopioitaessa projektiarviorivien välillä hinnastot päivitetään. Kustannushi
 ### <a name="copying-a-project-team"></a>Projektiryhmän kopioiminen
 
 Kun projektiryhmä kopioidaan projektimallista projektiin, kopioidaan yleiset resurssit, samoin kuin mallissa määritetyt taidot ja osaamisalueet. Yleisten resurssien kohdennukset myös säilytetään sellaisina, kuin ne olivat projektimallissa. Nimettyjä resursseja ei tueta projektimalleissa.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

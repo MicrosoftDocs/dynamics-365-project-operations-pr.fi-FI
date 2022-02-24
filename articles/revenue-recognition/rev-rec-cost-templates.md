@@ -2,16 +2,18 @@
 title: Kustannusmallien määrittäminen
 description: Tässä aiheessa on tietoja kustannusmallien luomisesta ja käyttämisestä Project Operationsissa.
 author: sigitac
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993552"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642719"
 ---
 # <a name="set-up-cost-templates"></a>Kustannusmallien määrittäminen
 
@@ -77,6 +79,3 @@ Luo kustannusmalleja suorittamalla seuraavat vaiheet:
 7. Valitse **Luokat**-välilehdellä projektiluokat, jotka sisällytetään kustannusmalliriville.
 8. Valitse **Yleiset**-välilehdelle, sisällytetäänkö tämä rivi valmistumisprosentin laskentaan.
 9. Valitse valmistumisprosentin laskennassa käytettävä valmistumiskustannusmenetelmä.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

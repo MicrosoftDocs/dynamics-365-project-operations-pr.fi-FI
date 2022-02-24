@@ -2,9 +2,11 @@
 title: Synkronoi projektikulujen luokat Finance and Operationsin ja Project Service Automationin välillä
 description: Tässä aiheessa kuvataan malleja ja sen pohjana olevia tehtäviä, jota käytetään projektin kululuokkien synkronoimiseen suoraan Microsoft Dynamics 365 Financen ja Dynamics 365 Project Service Automationin välillä.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001112"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075487"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synkronoi projektikulujen luokat Finance and Operationsin ja Project Service Automationin välillä
 
@@ -56,7 +58,7 @@ Jos projektin kululuokkia hallitaan Project Service Automationissa, integrointi 
 
 Seuraavassa kuvassa on esitetty, miten tiedot synkronoidaan Project Service Automationin ja Financen välillä.
 
-[![Tietovuo Project Service Automationin Financeen integroinnissa.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Tietovuo Project Service Automationin Financeen integroinnissa](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Projektikululuokkien synkronointi Financen ja Project Service Automationin välillä
 
@@ -93,7 +95,7 @@ Kun synkronoit Project Service Automationin, sinun täytyy käyttää Microsoft 
 
 Seuraavassa kuvissa on esimerkki mallitehtävien yhdistämismäärityksissä tietojen integroinnissa. Yhdistämismäärityksessä näytetään kenttätiedot, jotka synkronoidaan Financesta Project Service Automationiin.
 
-[![Projektikululuokka Project Service Automationin malliyhdistämiseen.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Projektikululuokka Project Service Automationin malliyhdistämiseen](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Projektikululuokkien synkronointi Project Service Automationista Financeen
 
@@ -121,7 +123,4 @@ Seuraavassa kuvissa on esimerkki mallitehtävien yhdistämismäärityksissä tie
 > [!NOTE]
 > Yhdistämismäärityksessä näytetään kenttätiedot, jotka synkronoidaan Project Service Automationista Financeen.
 
-[![Project Service Automationista Financen malliyhdistämiseen.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Project Service Automationista Financen malliyhdistämiseen](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)

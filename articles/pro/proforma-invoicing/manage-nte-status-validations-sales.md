@@ -2,16 +2,18 @@
 title: Ei-ylitettävän tilan ja vahvistusten hallinta
 description: Tässä aiheessa on tietoja Project Operationsissa suorittavista ei-ylitettävän rajoituksen tarkistuksesta.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b08a6834fa0bc5254f4baab15b40c7f733d0dc6ec7e6c4fceea2836e5e4c656a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09dea414e91a365f33bd23089c427b5f63f55c8e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003497"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129989"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Ei-ylitettävän tilan ja vahvistusten hallinta 
 
@@ -19,7 +21,7 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 ## <a name="not-to-exceed-on-approvals"></a>Ei-ylitettävät rajoitukset hyväksynnöissä
 
-Kun ajan, kulun tai materiaalin käytön merkintä lähetetään, luodaan hyväksyntätietue. Jos hyväksyntä on veloitettava ja yhdistetään ajan ja materiaalin sopimusriville, järjestelmä suorittaa ei-ylitettävän vahvistustarkastuksen seuraavilla tasoilla:
+Kun aika- tai kulumerkintä lähetetään, hyväksyntätietue luodaan. Jos hyväksyntä on veloitettava ja yhdistetään ajan ja materiaalin sopimusriville, järjestelmä suorittaa ei-ylitettävän vahvistustarkastuksen seuraavilla tasoilla:
 
   - Tarkistus projektin sopimusrivillä asiakkaalle määritetyn rajan perusteella
   - Tarkistus sopimusrivillä määritetyn rajan perusteella
@@ -32,11 +34,11 @@ Jos tarkistus läpäistään, hyväksynnän vahvistuksen tila on **Onnistui**.
 
 Jos tarkistusta ei läpäistä, hyväksynnän vahvistuksen tila on **Epäonnistui**. Ei-ylitettävän rajoituksen tarkistuksen tiedot ilmaisevat käyttäjälle, millä tasolla vahvistus epäonnistui.
 
-Kun lähetettyä aikaa, kulua tai materiaalin käyttöä ei katsota laskutettavaksi, ei-ylitettävän vahvistuksen tilaksi määritetään **Ei käytettävissä** ja tarkistustiedot ovat **Ei käytettävissä**.
+Jos lähetetty aika- tai kulumerkintä on ei-veloitettava, ei-ylitettävän rajoituksen tarkistuksen tilaksi on määritetty **Ei käytettävissä** ja tarkistuksen tieto on **Ei käytettävissä**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Laskuttamattomien myynnin todellisten arvojen ei-ylitettävä rajoitus
 
-Kun ajan, kulun tai materiaalin käyttötapahtuma hyväksytään, luodaan kustannukset ja laskuttamattomat myynnin toteutuneiden arvojen tietueet. Jos luotava laskuttamaton myynnin todellinen arvo on veloitettava ja yhdistetään ajan ja materiaalin sopimusriville, sovellus suorittaa ei-ylitettävän rajoituksen vahvistustarkastuksen seuraavilla tasoilla:
+Kun aika- tai kulumerkintä hyväksytään, kustannusten ja laskuttamattomien myynnin todellisten arvojen tietueet luodaan. Jos luotava laskuttamaton myynnin todellinen arvo on veloitettava ja yhdistetään ajan ja materiaalin sopimusriville, sovellus suorittaa ei-ylitettävän rajoituksen vahvistustarkastuksen seuraavilla tasoilla:
 
   - Tarkistus projektin sopimusrivin asiakkaalle määritetyn rajan perusteella
   - Tarkistus sopimusrivillä määritetyn rajan perusteella
@@ -53,9 +55,9 @@ Kun laskuttamattoman myynnin todellinen arvo on ei-veloitettava tai ilmainen ja 
 
 ## <a name="reset-the-not-to-exceed-status"></a>Ei-ylitettävän rajoituksen tilan nollaaminen
 
-Ei-ylitettävän rajoituksen voi nollata joukkotoiminnolla. Projektipäälliköt voivat oikaista ei-ylitettävää tarkistusta, jotta tietyn työ-, aika-, kulu- tai materiaalikäytön laskutus voidaan priorisoida muiden suhteen, jotka on jo käytetty saatavilla olevasta summasta, jota ei saa ylittää.
+Ei-ylitettävän rajoituksen voi nollata joukkotoiminnolla. Tällä tavoin projektipäälliköt voivat muokata ei-ylitettävän rajoituksen tarkistusta ja priorisoida tietyn työn, ajan tai kulujen laskutusta muiden käytettävissä olevasta ei-ylitettävästä rajoitussummasta jo vahvistettujen ohitse.
 
-Kun laskuttamattomien myynnin todellisten arvojen ei-ylitettävien rajoitusten tila nollataan, vahvistettua summaa pienennetään. Projektipäällikkö voi valita toisen työ-, aika-, kulu- tai materiaalikäyttömerkinnän, joka ei ole aiemmin läpäissyt ei-ylitettävää vahvistusta, ja arvioida sen uudelleen. Kun sidottu summa on pienentynyt, nämä toteutuneet summat ohittavat nyt oikeellisuustarkistuksen, mikä auttaa projektipäällikköä hallitsemaan enemmän laskutettavia tapahtumia kyseiseltä jaksolta.
+Kun laskuttamattomien myynnin todellisten arvojen ei-ylitettävien rajoitusten tila nollataan, vahvistettua summaa pienennetään. Projektipäällikkö voi valita toisen työn, ajan tai kulun, joka ei aiemmin läpäissyt ei-ylitettävän rajoituksen tarkistusta, ja arvioida ne uudelleen. Kun vahvistettu summa pienenee, nämä todelliset arvot läpäisevät nyt vahvistuksen. Tällä tavoin projektipäällikkö voi hallita tarkemmin kyseisen kauden laskutettavissa olevia tapahtumia.
 
 Voit nollata ei-ylitettävän rajoituksen tilan valitsemalla vähintään yhden todellisen arvon **Keskeneräiset ajan ja materiaalin laskutukset**- tai **Todelliset arvot** -näkymässä ja valitse sitten **Nollaa ei-ylitettävän rajoituksen tila**.
 
@@ -71,6 +73,3 @@ Ei-ylitettävän rajoituksen voi arvioida uudelleen joukkotoiminnolla. Ei-ylitet
 Voit arvioida ei-ylitettävän rajoituksen tilan uudelleen valitsemalla vähintään yhden todellisen arvon **Keskeneräiset ajan ja materiaalin laskutukset**- tai **Todelliset arvot** -näkymässä ja valitse sitten **Arvioi ei-ylitettävän rajoituksen tila uudelleen**.
 
 Kaikki soveltuvat todelliset arvot, joissa on ei-ylitettävä rajoitus, arvioidaan ei-ylitettävien rajoitusten asetusten perusteella. Todelliset arvot, jotka liittyvät ei-ylitettävän rajoituksen tila uudelleenarviointiin, ovat laskuttamattomia myynnin todellisia arvoja, joita ei ole laskutettu, jotka eivät ole laskuluonnoksia ja jotka on merkitty veloitettavaksi. Kaikki muut valitut todelliset arvot ohitetaan.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

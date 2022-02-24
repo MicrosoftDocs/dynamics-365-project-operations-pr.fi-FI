@@ -2,16 +2,18 @@
 title: Useiden asiakkaiden hallinta projektisopimuksissa – lite
 description: Tässä aiheessa on tietoja useiden asiakkaiden hallinnasta projektisopimuksissa.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001742"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181313"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Useiden asiakkaiden hallinta projektisopimuksissa – lite
 
@@ -50,6 +52,3 @@ Sopimuksen asiakas voidaan luoda, päivittää tai poistaa **Projektisopimus**-s
 Laskutuksen jakoprosenttia voidaan muokata ruudukon muokkaustoiminnolla. Jos laskutuksen jakoprosenttien yhteissumma ei ole 100 prosenttia, seurauksena on virhe. Kun laskutuksen jakoprosentteja on muokattu, hylkää virhe päivittämällä sivu.
 
 Voit myös valita **Jaa tasaisesti** **Sopimuksen asiakkaat** -aliruudukossa, jolloin laskutus jaetaan tasaisesti kaikille sopimuksen asiakkaille. Mahdollinen pyöristyskerron lisätään pyöristysasiakkaaseen. Yksi sopimuksen asiakkaista merkitään aina **pyöristysasiakkaaksi**, minkä vuoksi sopimuksen asiakastietueen pyöristysmerkintänä on **Kyllä**. Yleensä kyse on sopimuksen ensisijaisesta asiakkaasta, mutta se voidaan vaihtaa.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

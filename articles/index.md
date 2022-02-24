@@ -2,43 +2,43 @@
 title: Dynamics 365 Project Operations
 description: Tässä aiheessa on tietoja Dynamics 365:n projektitoiminnoista.
 author: stsporen
+manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.search.scope: ''
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: ''
 ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6646379fb421796a083bc321542daef4f58dcddfc67915d68403c2a370ba90c4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988377"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120809"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations -sovellus yhdistää myynti-, resursointi-, projektinhallinta- ja rahoitustiimit yhteen sovellukseen voittaakseen enemmän tarjouksia, nopeuttaakseen projektien toimittamista ja maksimoidakseen kannattavuuden.
+Microsoft Dynamics 365 Project Operations yhdistää myynnin, resurssoinnin, projektinhallinnan ja taloushallinnon tiimit yhteen sovellukseen, joka voittaa enemmän tarjouksia, nopeuttaa projektien toimitusta ja maksimoi kannattavuuden.
 
 -   **Johtajat saavat liiketoiminnan näkemyksiä** lisätäkseen näkyvyyttä kaikkiin tiimeihin, tietoihin ja prosesseihin sekä tekoälyominaisuudet parempien ja nopeampien liiketoimintapäätösten tekemiseen.
 -   **Myynti voi voittaa** enemmän kauppoja ja nopeuttaa myyntisykliä hyödyntäen nopeiden ja tarkkojen tarjousten, joustavan hinnoittelun ja saumattoman siirtymisen arviosta toteutukseen etuja.
--   **Resurssointi on määritetty optimoimaan** resurssien käyttö kohdistamalla oikeat henkilöt oikeilla taidoilla oikeisiin projekteihin. Tämä tasaus parantaa laatua ja auttaa pysymään parhaiden suoriutujien joukossa.
+-   **Resurssointi on määritetty optimoimaan** resurssien käyttö kohdistamalla oikeat henkilöt oikeilla taidoilla oikeisiin projekteihin. Tämä parantaa laatua ja auttaa säilyttämään huippuosaajat.
 -   **Projektipäälliköt voivat nopeuttaa** projektien toimittamista käyttämällä uusinta, sisäänrakennettua projektinhallintaa, joka käyttää tuttuja ja helppokäyttöisiä Microsoft Project -toimintoja.
 -   **Ryhmän jäsenet voivat parantaa tuottavuutta**, yhteistyötä ja näkyvyyttä integroimalla Microsoft Teamsiin ja lähettämällä aikaa ja kuluja mistä tahansa.
 -   **Taloushallinto voi yksinkertaistaa projektin kirjanpitoa** ajan ja kulujen seurannan hallinnan, projektin kustannuslaskennan, budjetoinnin, laskutuksen, tuottojen kirjaamisen, vaatimustenmukaisuuden ja näkyvyyden mittareiden mukaan.
 
-Projektitoiminnot ovat tehokkaita itsellään, mutta Dynamics 365:stä lisäominaisuuksia tarvitsevat asiakkaat voivat laajentaa projektitoimintoja. Näitä ominaisuuksia ovat markkinointi, henkilöstöresurssit, asiakaspalvelu ja paljon muuta. Riippumatta siitä, haluatko toisen Dynamics 365 -sovelluksen lisätyn toiminnan vai lisätä sen mukana luotuun mukautettuun Power Apps -sovellukseen, kaikki toimii yhdessä ja toimii niin kuin oletat, koska niillä on yhteinen perusta suojatulle, yksityiselle ja yhteensopivalle pilvipohjaiselle ratkaisulle.
+Project Operations on tehokas sellaisenaan, mutta sitä voidaan laajentaa asiakkaille, jotka tarvitsevat Dynamics 365:n lisätoimintoja. Laajentaa voi esimerkiksi sovelluksilla Marketing, Human Resources tai Customer Service. Jos haluat käyttää toisen Dynamics 365 -sovelluksen lisätoimintoja tai jos haluat lisätä Power Appsilla toteutetun mukautetun sovelluksen, kaikki toimii yhdessä ja toimii odotetulla tavoin, koska ne jakavat suojatun, yksityisen ja yhteensopivan pilvipohjaisen ratkaisun yhteisen perustan.
 
 Lisätietoja:
 
 - [Project Operationsin yleiskatsaus](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Katsaus vuoden 2020 Dynamics 365 Project Operations -julkaisuaallosta 1](/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Dynamics 365 Project Operationsin vuoden 2020 1. julkaisuaallon yleiskatsaus](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

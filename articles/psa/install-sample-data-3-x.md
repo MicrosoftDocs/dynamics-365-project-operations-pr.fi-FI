@@ -3,6 +3,7 @@ title: Näytetietojen asennus
 description: Tässä aiheessa on tietoja näytetietojen asentamisesta Project Service Automationin avulla.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -10,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985542"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144499"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Näytetietojen asennus Project Service -sovelluksessa
 
@@ -86,7 +87,7 @@ Tietokoneessa on oltava verkkoyhteys. **Asennus- tai viitetietojen** asentaminen
 Tietokoneen näytönsäästäjätoiminto tulee poistaa käytöstä. Muussa tapauksessa asennuksen istunnon tunnistetiedot menetetään, kun näytönsäästäjä menee päälle (ellet pidä istuntoa aktiivisena koko ajan).
 
 > [!div class="mx-imgBorder"]
-> ![Näytönsäästäjän asetusten näyttökuva, jossa näytönsäästäjä on poistettu käytöstä.](media/sample-data-1.png)
+> ![Näytönsäästäjän asetusten näyttökuva, jossa näytönsäästäjä on poistettu käytöstä](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Lataaminen ja paketin purkaminen
 
@@ -135,20 +136,20 @@ Esittelytietopakettia varten tarvitaan kuusi käyttäjää. Paketti asennetaan o
     - Käytä asiakaspäällikkönä käyttäjää Fullname="Molly Clark"   
     - Käytä käytäntö- ja projektipäällikkönä käyttäjää Fullname="Spencer Low"  
     - Käytä tiimin jäsenenä käyttäjää Fullname="Veronica Quek"   
-    - Käyttäjä kokonimi="Aulis Contoso"
+    - Käyttäjä Fullname="William Contoso"
   
 2. Määritä edellä mainituille kuudelle käyttäjälle järjestelmänvalvojan rooli esittelytietojen tuontia varten, jotta näytetiedot tuodaan oikein. 
 
 3. Avaa **PkgFolder** ja etsi ja avaa sitten **ImportUserMapFile.xml**. Päivitä **New=**-kentät järjestelmän käyttäjiä vastaaviksi sähköpostiosoitteiksi.
 
    > [!div class="mx-imgBorder"]
-   > ![Näyttökuva UserMapFile-tiedostosta.](media/sample-data-7.png)
+   > ![Näyttökuva UserMapFile-tiedostosta](media/sample-data-7.png)
 
 4. Jos "Spencer Low" -nimisen käyttäjän koko nimellä on eri käyttäjätunnus kuin **"spencerl"**, myös lisätiedosto on päivitettävä. Avaa **DemoDataPreImportConfig.xml** ja etsi **userstocreateandconfigure**-tunniste. Päivitä loginId (kirjainkoolla on merkitystä) **\<login\>**-tunnisteeseen. 
 
 5. Ensimmäisen käyttäjän kalenterin (joka on **userstocreateandconfigure**-tunnisteessa) avulla lisätään kaikkien varattavien resurssien työtunnit esittelytietoja tuotaessa. Valitse **Asetukset** > **Suojaus** > **Käyttäjät**, etsi käyttäjä Spencer Low ja avaa Työtunnit-asetus. Muokkaa nykyisiä työtunteja valitsemalla **Koko viikoittain toistuva aikataulu alusta loppuun** -asetus. Varmista, että **työtunneiksi on määritetty 8.00–17.00 (9 tuntia) maanantaista perjantaihin ja aikavyöhykkeeksi on määritetty Tyynenmeren normaaliaika (USA ja Kanada)**. Tällä tavoin varmistaa, että projekti- ja aikataulutaulukko näkyvät odotetusti.
 
-**Suositus:** Organisaatiolle kannattaa luoda varmuuskopio nyt siltä varalta, että asennuksessa on palattava aloituskohtaan. Näin saattaa käydä, jos näytetietojen asennuksen aikana tapahtuu virhe. Lisätietoja on kohdassa [Ilmentymien varmuuskopiointi ja palautus](/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Suositus:** Organisaatiolle kannattaa luoda varmuuskopio nyt siltä varalta, että asennuksessa on palattava aloituskohtaan. Näin saattaa käydä, jos näytetietojen asennuksen aikana tapahtuu virhe. Lisätietoja on kohdassa [Ilmentymien varmuuskopiointi ja palautus](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Suorita Package Deployer
 
@@ -296,6 +297,3 @@ Valitse käyttäjä (esimerkiksi Spencer Low) ja muuta käyttäjän työtunnit. 
 
 > [!div class="mx-imgBorder"]
 > ![Aktiivisten varattavissa olevien resurssien näyttökuva](media/sample-data-6.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

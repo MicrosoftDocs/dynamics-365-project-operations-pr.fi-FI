@@ -2,16 +2,18 @@
 title: Projektin kustannusten seuranta
 description: Tässä aiheessa tietoja siitä, miten Project Operations seuraa edistymistä suhteessa työvoimakustannuksiin ja kuluihin projektissa.
 author: rumant
+manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d37df64db1808722b7851c952c20be731aa2d670fe066c02ef90386712487407
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 28cb692c61ae4137a28973dc1bd70ffd989dd535
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987792"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5711040"
 ---
 # <a name="labor-cost-tracking-on-projects"></a>Projektien työvoimakustannusten seuranta
 

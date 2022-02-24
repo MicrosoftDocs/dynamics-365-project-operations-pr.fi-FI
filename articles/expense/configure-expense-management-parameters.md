@@ -2,16 +2,18 @@
 title: Kulujen hallintaparametrien määrittäminen
 description: Tässä aiheessa kuvataan parametreja, joilla hallitaan yleistä toimintaa kulujen hallinnassa.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007772"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121034"
 ---
 # <a name="configure-expense-management-parameters"></a>Kulujen hallintaparametrien määrittäminen
 
@@ -81,6 +83,3 @@ Tässä aiheessa kuvataan parametreja, joilla hallitaan yleistä toimintaa kuluj
 | Näytä korruption vastainen todistus   | Valitse tämä vaihtoehto, jos haluat näyttää korruption vastaisen tekstin, kun kuluraportti luodaan. Tällöin voidaan ottaa käyttöön tietyt kululuokat, jotka edellyttävät, että kuluraporttiin valitaan korruption vastainen todistus. Esimerkiksi hallituksen virallisiin kuluihin liittyvä lahjaluokka voi edellyttää, että työntekijä vahvistaa, että kulu vastaa hallituksen virkamiehiin liittyvää käytäntöä. |
 | Korruption vastainen sanoma lähettäjälle | Kirjoita teksti, joka näytetään kuluraporttia luovalle työntekijälle. Jos haluat lisätä kielikohtaisen tekstin, joka näkyy käyttäjän kielen mukaan, valitse **Käännökset**. |
 | Korruption vastainen sanoma hyväksyjälle  | Kirjoita teksti, joka näytetään hyväksyjälle, kun kuluraportti luodaan. Jos haluat lisätä kielikohtaisen tekstin, joka näkyy käyttäjän kielen mukaan, valitse **Käännökset**. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

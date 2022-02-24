@@ -2,16 +2,18 @@
 title: Ennakkomaksun tai ennakkomaksuun perustuvan maksun laskuttaminen
 description: Tässä aiheessa on tietoja siitä, miten pidätyksiä tai ennakoita laskutetaan Project Operationsissa.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997467"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596188"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Ennakkomaksun tai ennakon laskuttaminen
 
@@ -49,6 +51,3 @@ Tämän voi nähdä **Kohdistetut pidätykset ja ennakot** -ruudukossa **lasku**
 | Käytetty summa | **Kohdistetut ennakot ja pidätykset** -ruudukossa **projektilasku**-sivulla  | Tässä vain luku -kentässä on laskettu arvo, joka sisältää yhteenvedon siitä, kuinka paljon ennakkomaksua on käytetty. | Tämä kenttä voidaan näyttää asiakkaalle painetussa laskussa ilmoittamaan pidätyksen tai ennakon määrä, joka on jo käytetty. |
 | Koko summa | **Kohdistetut ennakot ja pidätykset** -ruudukossa **projektilasku**-sivulla  | Tässä muokattavassa kentässä on tässä projektilaskussa käytössä oleva pidätyksen tai ennakon määrä. Tämä summa ei voi olla suurempi kuin se, joka on käytettävissä etukäteen. Järjestelmä laskee tämän automaattisesti ruudukon **summa**- ja **käytetty summa** -kenttien erotuksena. Voit pienentää tätä määrää, jos haluat käyttää vähemmän kuin mitä on käytettävissä, mutta et voi kasvattaa määrää, joka käyttää enemmän kuin mitä on käytettävissä. | Tämä kenttä voidaan näyttää asiakkaalle painetussa laskussa ilmoittamaan pidätyksen tai ennakon määrä, joka on jo käytössä laskussa. |
 | Saldon ennakkomaksusumma. | **Kohdistetut ennakot ja pidätykset** -ruudukossa **projektilasku**-sivulla  | Tämä vain luku -kenttä sisältää arvon siitä, kuinka paljon maksun pidätystä tai ennakkoa jää laskun vahvistuksen jälkeen. | Tämä kenttä voidaan näyttää asiakkaalle painetussa laskussa ilmoittamaan summa, joka jää jäljelle tästä pidätyksestä tai ennakosta laskun vahvistamisen ja maksamisen jälkeen. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

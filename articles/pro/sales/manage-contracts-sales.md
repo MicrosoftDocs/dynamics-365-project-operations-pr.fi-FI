@@ -2,16 +2,18 @@
 title: Projektisopimusten hallinta
 description: Tässä aiheessa on tietoja projektipohjaisten sopimusten tarkastelemisesta.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001832"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177327"
 ---
 # <a name="manage-project-contracts"></a>Projektisopimusten hallinta
 
@@ -31,6 +33,3 @@ Luettelo kaikista projektisopimuksista, jotka näkyvät **Sopimukset**-luettelos
 2. Valitse muita suodatettuja näkyviä valitsemalla **Näkymävalitsin** (näkymän nimen vieressä oleva avattavan luettelon nuoli). Voit luoda omia näkymiä mukautetuilla suodatusehdoilla.
 
 Sopimuksia voidaan luoda tai poistaa tällä luettelosivulla tai tietosivuilla.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

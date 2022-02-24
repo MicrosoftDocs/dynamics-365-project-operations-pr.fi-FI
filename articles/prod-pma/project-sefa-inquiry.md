@@ -2,9 +2,11 @@
 title: Federal Awards -tutkimuksen kulujen aikataulu
 description: Tässä aiheessa on tietoja Federal Awards -tutkimuksen kulujen aikataulusta.
 author: velofog
+manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -18,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007232"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075332"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Federal Awards -tutkimuksen kulujen aikataulu
 
@@ -60,7 +62,7 @@ Sinun on määritettävä CFDA-numerot, jotka voidaan lisätä apurahoihin ja si
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Määritä apurahat, jotka raportoivat Federal Awards -tutkimuksen kulujen aikataulusta
 
 1. Siirry kohtaan **projektin hallinta ja kirjan pito \> avustukset \> avustukset** ja valitse olemassa oleva avustus.
-2. Määritä **Asetukset**-pikavälilehden **Federal Domestic Assistance- luettelo** -kentän luettelossa CFDA-numero. Apurahan CFDA-numero määrittää CFDA-klusterin raportointia varten.
+2. Määritä **Asetukset**-pikavälilehden  **Federal Domestic Assistance- luettelo** -kentän luettelossa CFDA-numero. Apurahan CFDA-numero määrittää CFDA-klusterin raportointia varten.
 3. Kirjoita **yhteyshenkilön tiedot** -pikavälilehden myöntäjä-tiedot seuraavasti:
 
     1. Kirjoita **Avustusasiakas**-kenttään avustuksesta vastaava asiakas. Jos kyseessä on olemassa oleva apuraha, nämä tiedot on ehkä jo syötetty.
@@ -77,8 +79,8 @@ Liittohallitus rahoitti valtion infrastruktuurihanketta. Liittohallitus antoi ra
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Älä sisällytä avustuksia SEFA-raportointiin avustustyypin perusteella
 
-1. Siirry kohtaan **Projektinhallinta ja kirjanpito \> Määritys \> Avustukset \> Avustustyypit**.
-2. Valitse **Oletustiedot**-pikavälilehdessä **Ohita Federal Awards -ohjelman kulut** -valintaruutu.
+1. Siirry kohtaan **Projektinhallinta ja kirjanpito \> Määritys \> Avustukset \> Avustustyypit**.
+2. Valitse **Oletustiedot**-pikavälilehdessä  **Ohita Federal Awards -ohjelman kulut** -valintaruutu.
 3. Tallenna muutokset valitsemalla **Tallenna**.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Aja Federal Awards -tutkimuksen kulujen aikataulukysely
@@ -102,6 +104,3 @@ Federal Awards -tutkimuksen kulujen aikataulu sisältää seuraavat sarakkeet:
 - Federal Domestic Assistance -luettelo
 - Kuitit
 - Menot
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

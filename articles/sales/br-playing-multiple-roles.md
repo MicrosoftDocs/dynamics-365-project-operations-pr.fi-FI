@@ -2,16 +2,18 @@
 title: Projektin myynnin ja kustannusten arvioiminen, kun varattavissa oleva resurssi täyttää useita rooleja projektissa
 description: Tässä aiheessa kerrotaan, miten hinnoitteludimensioita käytetään sellaisen resurssin hinnoittelu- ja kostannusarvioiden tukemiseen, joka täyttää useita rooleja projektissa.
 author: rumant
+manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990132"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531415"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Projektin myynnin ja kustannusten arvioiminen, kun varattavissa oleva resurssi täyttää useita rooleja projektissa 
 
@@ -104,6 +106,3 @@ Kun laajennat kyseisen ryhmän jäsen tietueen riviä, voit nähdä ryhmän jäs
 ### <a name="estimates-grid"></a>Arvioruudukko 
 
 **Arviot**-ruudukossa saman resurssin eri määritykset hinnoitellaan eri tavalla. Resurssin varaus tehtävässä **Tehtävä A** on hinnoiteltu käyttäen **Rooli**-määritteen arvoa **Consulting Lead**. Saman resurssin varaus tehtävässä **Tehtävä B** on hinnoiteltu käyttäen **Rooli**-määrityksen arvoa **Network Technician**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

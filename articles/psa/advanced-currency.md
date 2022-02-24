@@ -2,6 +2,8 @@
 title: Monivaluuttaskenaariot (versio 3.x)
 description: Tämä aihe sisältää tietoja monivaluuttaskenaarioista.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005117"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145669"
 ---
 # <a name="multiple-currency-scenarios"></a>Monivaluuttaskenaariot
 
@@ -70,8 +72,8 @@ Tässä osassa annetaan esimerkki projektista, jonka Contoso UK toimittaa japani
 
 1. GBP ja Japanin jeni (JPY) määritetään kohdassa **Asetukset** \> **Yrityksen hallinta** \> **Valuutat**. 
 2. Asiakastili nimeltään **Fabrikam – Japani** määritetään ja tilin valuutaksi valitaan JPY.
-3. **Contoso UK** -niminen organisaatioyksikkö määritetään ja GBP valitaan sen valuutaksi.
-4. Luodaan projektisopimus, jossa **Contoso UK** määritetään sopimusyksiköksi ja **Fabrikam – Japan** asiakkaaksi.
+3. **Contoso UK** - niminen organisaatioyksikkö määritetään, ja GBP valitaan sen valuutaksi.
+4. Luodaan projektisopimus, jossa **Contoso UK** määritetään sopimusyksiköksi **Fabrikam – Japani** asiakkaaksi.
 5. Projektin eri tapahtumaluokkien laskutusjärjestelyjen, kuten ajasta laskuttamisen ja kuluista laskuttamisen, perusteella luodaan projektisopimuksen rivejä.
 6. Luodaan projekti, jossa **Contoso UK** määritetään sopimusyksiköksi. Tämä projekti luodaan ja yhdistetään projektin sopimusriveihin.
 
@@ -103,6 +105,3 @@ Dynamics 365 käsittelee eri valuutoissa olevien summien koonnit automaattisesti
 | Kulut           | Laskuttamaton myynti   | 17. kesä | Jali  | Auton vuokraus           | 1 kpl     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Projektin laskuttamattoman myynnin kokonaissumman laskemista varten voidaan luoda **Summa**-kentän koontikenttä kaikille asiaan liittyville laskuttamattomille myynnin todellisille arvoille. Koontikenttä on Dynamics 365:n rakenne, jonka avulla voidaan luoda pikakaavioita toisiinsa liittyville tietueille.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: Mukautettujen kenttien ja entiteettien luominen
 description: Tässä aiheessa selitetään, miten Power Apps-ympäristön omassa ratkaisussasi luodaan asetusjoukkoja ja entiteettejä.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992427"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144859"
 ---
 # <a name="create-custom-fields-and-entities"></a>Mukautettujen kenttien ja entiteettien luominen 
 
@@ -43,7 +45,7 @@ Hinnoitteludimensio voi olla asetusjoukko tai entiteetti. Molemmat on luotava hi
 2. Valitse vasemman siirtymisruudun Ratkaisunhallinnassa **Entiteetit**.
 3. Napsauta **Uusi**, jos haluat luoda uuden entiteetin nimellä **Vakio-otsikko**. Syötä muut tarvittavat tiedot ja napsauta **Tallenna**.
 
-> ![Vakio-otsikko-entiteetin määritys.](media/Standard-Title-entity-definition.png)
+> ![Vakio-otsikko-entiteetin määritys](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Asetusjoukkoperusteiset dimensiot 
@@ -54,9 +56,9 @@ Voit luoda kaksi asetusjoukkoperusteista dimensiota. Käytä asetusjoukkoa **Res
 2. Valitse vasemman siirtymisruudun Ratkaisunhallinnassa **Asetusjoukot**. 
 3. Napsauta **Uusi** luodaksesi uuden asetusjoukon, syötä muut tarvittavat tiedot ja napsauta **Tallenna**.
 
-> ![Asetusjoukkoperusteinen hinnoitteludimensio nimeltään Resurssin työn sijainti.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Asetusjoukkoperusteinen hinnoitteludimensio nimeltään Resurssin työn sijainti ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Asetusjoukkoperusteinen hinnoitteludimensio nimeltään Resurssin työntunnit.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Asetusjoukkoperusteinen hinnoitteludimensio nimeltään Resurssin työntunnit ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Tietojen luominen entiteettiperusteisia dimensioita varten
@@ -68,9 +70,6 @@ Voit luoda tietoja entiteettiperusteisille dimensioille manuaalisesti tai käytt
 3. Sulje lomake. 
 4. Luo toinen vakionimike Vanhemmalle järjestelmäinsinöörille toistamalla vaiheet 1–3.
 
-> ![Esimerkkitietoja Vakionimike-entiteetille.](media/ST-data.png)
+> ![Esimerkkitietoja Vakionimike-entiteetille ](media/ST-data.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

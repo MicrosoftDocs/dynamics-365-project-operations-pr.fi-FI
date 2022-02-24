@@ -2,17 +2,19 @@
 title: Tammikuun 2021 uudet ominaisuudet Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 description: Tässä aiheessa on tietoja Project Operationsin resursseihin/ei-varastoitaviin perustuvien skenaarioiden tammikuun 2021 version päivityksessä olevista laatupäivityksistä.
 author: sigitac
+manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
+ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008087"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4958905"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Tammikuun 2021 uudet ominaisuudet Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 
@@ -86,7 +88,4 @@ Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja 
 
 ## <a name="regulatory-updates"></a>Säännöstenmukaisuuspäivitykset
 
-Lisätietoja Finance and Operations -sovellusten säännöstenmukaisuuspäivityksistä on kohdassa [Säännöstenmukaisuuspäivitykset](/dynamics365/finance/localizations/regulatory-updates). Voit myös kirjautua LCS:ään ja tutustua suunniteltuihin säännöstenmukaisuuspäivityksiin käyttämällä versiohakutyökalua. Versiohaussa voit käyttää hakuehtona maata, ominaisuustyyppiä ja versiota.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Lisätietoja Finance and Operations -sovellusten säännöstenmukaisuuspäivityksistä on kohdassa [Säännöstenmukaisuuspäivitykset](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Voit myös kirjautua LCS:ään ja tutustua suunniteltuihin säännöstenmukaisuuspäivityksiin käyttämällä versiohakutyökalua. Versiohaussa voit käyttää hakuehtona maata, ominaisuustyyppiä ja versiota.

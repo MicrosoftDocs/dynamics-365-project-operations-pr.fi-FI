@@ -2,16 +2,18 @@
 title: Projektin laskuehdotusten hallinta
 description: Tässä aiheessa on tietoja asiakkaille suunnattujen laskujen käsittelystä Project Operationsissa resurssi-/ei-varastoitavissa skenaarioissa.
 author: sigitac
-ms.date: 04/12/2021
+manager: Annbe
+ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989907"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089233"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projektin laskuehdotusten hallinta
 
@@ -78,8 +80,7 @@ Kiinteähintaista laskutustapaa käyttävät projektisopimusrivit laskutetaan [k
     - **Asiakas** käyttää asiakkaan laskutuksen arvonlisäveroryhmää aina oletusarvona.
     - **Haku**: etsii kaikista tämän luettelon entiteeteistä ja valitsee ensimmäisen käytettävissä olevan arvon. Haku alkaa **Projekti**-entiteetistä, sitten **Projektisopimus**-entiteetistä ja sitten **Asiakas**-entiteetistä.
 
-- **Kiinteähintaisen välitavoitteen nimikkeen arvonlisäveroryhmää** käytetään oletusarvona laskutuksen välitavoitteen **Nimikkeen arvonlisäveroryhmä** -kentässä. Kirjanpitäjä voi tarkastella ja muokata tätä arvoa **Asiakastapahtumat**-sivulla. Järjestelmä käyttää asiakastapahtuman arvoa luodessaan projektilaskun ehdotusriviä.
- 
+- **Kiinteähintaisen välitavoitteen nimikkeen arvonlisäveroryhmää** käytetään **Nimikkeen arvonlisäveroryhmä** -kentän oletusarvona.
 
 ### <a name="financial-dimensions"></a>Taloushallinnon dimensiot
 
@@ -131,7 +132,7 @@ Projektin kirjanpitäjä voi mukauttaa projektin laskun tulostetta käyttämäll
 
 Tulostuksen hallinta käyttää erilaisia raporttitiedostoja laskun tulostamiseen, kohteiden määrittämiseen ja laskun alatunnistetekstin mukauttamiseen. Tulostuksen hallinnan voi määrittää moduulitasolla, mutta nämä asetukset voidaan ohittaa tietylle asiakkaalle, palvelusopimukselle tai laskuehdotukselle. Jos haluat käyttää tätä toimintoa **Projektilaskuehdotus**-sivulla, valitse **Tulosta** > **Tulostuksen hallinta**.
 
-Tulostuksen hallinnan asetukset näkyvät puunäkymänä, jossa jokaisella solmutasolla näkyy muutettavissa olevat asiakirjat. Voit delegoida mukautettuja tulosteita moduuli-, asiakas-, palvelusopimus- tai laskuehdotusasiakirjatasolla. Jos haluat muokata alkuperäistä asiakirjan tulostetta, laajenna haluamasi solmu ja valitse **Alkuperäinen nimike**. Valitse **Raportin muoto** -kentässä tulostuksessa käytettävä raportin muoto. Voit käyttää mukautettuja raportin muotoja [Business Document Management -kehyksen](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) avulla.
+Tulostuksen hallinnan asetukset näkyvät puunäkymänä, jossa jokaisella solmutasolla näkyy muutettavissa olevat asiakirjat. Voit delegoida mukautettuja tulosteita moduuli-, asiakas-, palvelusopimus- tai laskuehdotusasiakirjatasolla. Jos haluat muokata alkuperäistä asiakirjan tulostetta, laajenna haluamasi solmu ja valitse **Alkuperäinen nimike**. Valitse **Raportin muoto** -kentässä tulostuksessa käytettävä raportin muoto. Voit käyttää mukautettuja raportin muotoja [Business Document Management -kehyksen](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) avulla.
 
 ## <a name="post-invoice-proposals"></a>Laskuehdotusten kirjaus
 
@@ -142,6 +143,3 @@ Jos haluat tarkastella laskua ennen kirjausta, poista **Kirjaus**-valintaruudun 
 **Laskuehdotus**-sivun lisäksi laskuehdotukset voi kirjata myös suorittamalla kausittaisen työn **Laskuehdotusten kirjaus**. Tämä työ löytyy kohdasta **Projektinhallinta ja kirjanpito** > **Kausittainen** > **Projektilaskut** > **Laskuehdotusten kirjaus**.
 
 Tällä sivulla näkyvät kaikki laskuehdotukset, jotka ovat valmiita kirjattaviksi. Voit aikatauluttaa laskuehdotusten kirjauksen valitsemalla **Erä**. Aseta **erän käsittelyparametriksi** **Kyllä** ja määritä erän käsittelyn toistuminen valitsemalla **Toistuminen**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

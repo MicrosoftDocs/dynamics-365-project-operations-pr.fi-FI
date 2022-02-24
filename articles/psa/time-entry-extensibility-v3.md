@@ -2,6 +2,8 @@
 title: Viikoittaisen ajan syöttämisen mukauttaminen
 description: Tässä aiheessa on tietoja yrityksen käytäntöjä tukevien mukautettujen liiketoimintasääntöjen toteuttamisesta.
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -16,14 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002282"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149629"
 ---
-# <a name="customize-weekly-time-entry"></a>Viikoittaisen aikamerkinnän mukauttaminen 
+# <a name="customize-weekly-time-entry"></a>Viikoittaisen ajan syöttämisen mukauttaminen 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -130,6 +132,3 @@ Käytä laajennusvahvistuksia kaikkiin vahvistuksiin, jotka edellyttävät enemm
 
 > [!IMPORTANT] 
 > Tällä hetkellä tunnettu ongelma TBX-sivuilla estää käyttäjiä korjaamasta tietoja ja uudelleenvalitsemista Valmis, kun päivitys epäonnistuu laajennuksen tarkistuksessa. Voit kiertää ongelman määrittämällä liiketoimintasäännön vahvistuksia, jotka estävät tilanteen mahdollisimman hyvin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

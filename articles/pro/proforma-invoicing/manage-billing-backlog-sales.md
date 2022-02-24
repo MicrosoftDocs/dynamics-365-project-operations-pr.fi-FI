@@ -1,19 +1,21 @@
 ---
-title: Keskeneräisen projektilaskutuksen hallinta
-description: Tässä aiheessa on tietoja erilaisista näkymistä, jotka ovat käytettävissä projektien laskutuksen jonon hallinnassa.
+title: Keskeneräisen laskutuksen hallinta – lite
+description: Tässä aiheessa on tietoja keskeneräisen laskutuksen hallinnassa käytettävissä olevista näkymistä.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988287"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176967"
 ---
-# <a name="manage-project-billing-backlog"></a>Keskeneräisen projektilaskutuksen hallinta 
+# <a name="manage-the-billing-backlog---lite"></a>Keskeneräisen laskutuksen hallinta – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
@@ -58,6 +60,3 @@ Sellaisiin laskuttamattomiin myynnin todellisiin arvoihin, joiden **Ei-ylitettä
 Jos monen asiakkaan sopimusrivien laskutustapana on aika ja materiaali, aikaa ja kuluja hyväksyttäessä yksi laskuttamaton myynnin todellinen arvo luodaan kullekin sopimusrivin asiakkaalle kullekin asiakkaalle määritetyn laskutuksen jakoprosentin mukaisesti. Nämä yksittäiset asiakaskohtaiset laskuttamattomat myynnin todelliset arvot näkyvät **Keskeneräiset ajan ja materiaalin laskutukset** -näkymässä. Kukin näistä laskuttamattomista toteutuneista myynneistä voidaan merkitä **valmiiksi laskutettavaksi** erillään tästä näkymästä.
 
 Luonnoslaskussa olevan laskuttamattoman myynnin todellisen arvon laskutuksen tilana näytetään tässä näkymässä **Asiakaslasku luotu**. Kun luonnoslasku on vahvistettu, tämän tietueen laskutuksen tilaksi päivittyy **Asiakaslasku kirjattu**. Älä päivitä tätä tila-arvoa mukautetulla koodilla. Project Operations ei toimi oikein, jos nämä tila-arvot päivitetään mukautetulla koodilla.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

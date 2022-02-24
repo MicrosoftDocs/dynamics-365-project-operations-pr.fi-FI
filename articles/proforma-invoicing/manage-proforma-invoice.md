@@ -1,19 +1,21 @@
 ---
-title: Proformamuotoisen projektipohjaisen laskun hallinta
-description: Tässä aiheessa on tietoja proformamuotoisten projektipohjaisten laskujen hallinnasta ja niiden parissa työskentelystä.
+title: Proformalaskun hallinta
+description: Tässä aiheessa on tietoja proformalaskujen hallinnasta ja käyttämisestä.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cba74c14f6d039dce0650f25ee04cbe35ec8f668b774cdaaa3bbf1aab99cb44d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2f3aab57f159dbb522ebe5d24dc3693034f6f81f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989322"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181448"
 ---
-# <a name="manage-a-proforma-project-based-invoice"></a>Proformamuotoisen projektipohjaisen laskun hallinta
+# <a name="manage-a-proforma-invoice"></a>Proformalaskun hallinta
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
@@ -26,117 +28,110 @@ Dynamics 365 Project Operationsissa proformalaskut muodostetaan Dynamics 365 Sal
 
 Project Operationsin proformalaskun otsikossa on seuraavat tiedot.
 
-| Kenttä | Sijainti | Kuvaus |
-| --- | --- | --- | 
-| **Laskun tunnus** | **Yhteenveto**-välilehti | Tämä tunnus luodaan automaattisesti, kun proformalasku luodaan. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. Tätä kenttää käytetään kunkin proformalaskun viitteenä. |
-| **Nimi** | **Yhteenveto**-välilehti | Arvoksi määritetään oletusarvoisesti projektisopimuksen nimi. Tätä kenttää voi muokata. | 
-| **Valuutta** | **Yhteenveto**-välilehti | Arvoksi määritetään oletusarvoisesti projektisopimuksen valuutta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
-| **Hinnasto** | **Yhteenveto**-välilehti | Arvoksi määritetään oletusarvoisesti projektisopimuksen hinnasto. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Mahdollisuus** | **Yhteenveto**-välilehti | Viittaus linkitettyyn mahdollisuuteen. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Palvelusopimus** | **Yhteenveto**-välilehti | Viittaus linkitettyyn projektisopimukseen. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Asiakas** | **Yhteenveto**-välilehti | Viittaus linkitettyyn projektisopimukseen. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
-| **Kuvaus** | **Yhteenveto**-välilehti | Laskua kuvaava tekstikenttä. Tätä kenttää voi muokata. | 
-| **Laskutusosoite**- ja liittyvät kentät | **Yhteenveto-välilehti** | Oletusarvot määritetään projektisopimuksen asiakkaasta. Tätä kenttää voi muokata.  | 
-| **Tila** | **Yhteenveto**-välilehti | Määrittää seuraavat vaihtoehdot: **Aktiivinen**, **Suljettu**, **Maksettu** ja **Peruutettu**, ja sitä voi muokata. Project Operations ei tue seuraavia tietoja: **Suljettu** ja **Peruutettu**. </br> Tilaksi määritetään **Aktiivinen**, kun lasku luodaan. </br>**Maksettu**-tila on syytä määrittää vastan, kun lasku on vahvistettu.  | 
-| **Projektin laskun tila** | **Yhteenveto**-välilehti | Määrittää seuraavat vaihtoehdot: **Luonnos**, **Tarkistuksessa**, **Vahvistettu**, ja sitä voi muokata. Laskua voi muokata sekä **Luonnos**- että **Tarkistettavana**-tilassa. Laskua ei voi muokata sen jälkeen, kun se on vahvistettu. | 
-| **Eritelty summa** | **Yhteenveto**-välilehti | Kaikkien laskurivien yhteenlaskettu summa ennakoiden ja vähennysten jälkeen. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata.  Lopullinen summa lasketaan tämän kentän avulla. | 
-| **Alennus (%)** | **Yhteenveto**-välilehti | Tätä kenttää voi muokata antamalla alennusprosentti. Project Operations -toiminnot eivät tue tätä kenttää. Tämä kenttää ei tueta.|  
-| **Alennussumma** | **Yhteenveto**-välilehti | Tätä kenttää voi muokata antamalla alennussumma. Project Operations -toiminnot eivät tue tätä kenttää. Tämä kenttää ei tueta. |  
-| **Summa ilman rahtikuluja** | **Yhteenveto-välilehti** | Laskun kokonaissumma alennusten jälkeen. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. Lopullinen summa lasketaan tämän kentän avulla.  | 
-| **Rahti** | **Yhteenveto**-välilehti | Tätä kenttää voi muokata antamalla rahti. Project Operations -toiminnot eivät tue tätä kenttää. Tämä kenttää ei tueta. |
-| **Vero yhteensä** | **Yhteenveto**-välilehti | Laskun kaikkien laskurivien vero yhteensä. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Loppusumma** | **Yhteenveto**-välilehti | Yhteenlaskettu summa alennusten ja verojen jälkeen. Yhteenlaskettu summa on summa, joka asiakkaan on maksettava. | 
+| Field | Sijainti | Kuvaus | Loppupään vaikutus |
+| --- | --- | --- | --- |
+| **Laskun tunnus** | **Yhteenveto**-välilehti | Tämä tunnus luodaan automaattisesti, kun proformalasku luodaan. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Tätä kenttää käytetään kunkin proformalaskun viitteenä. |
+| **Nimi** | **Yhteenveto**-välilehti | Arvoksi määritetään oletusarvoisesti projektisopimuksen nimi. Käyttäjä voi muokata tätä kenttää. | &nbsp;  |
+| **Valuutta** | **Yhteenveto**-välilehti | Arvoksi määritetään oletusarvoisesti projektisopimuksen valuutta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |&nbsp; |
+| **Hinnasto** | **Yhteenveto**-välilehti | Arvoksi määritetään oletusarvoisesti projektisopimuksen hinnasto. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Mahdollisuus** | **Yhteenveto**-välilehti | Viittaus linkitettyyn mahdollisuuteen. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp;  |
+| **Palvelusopimus** | **Yhteenveto**-välilehti | Viittaus linkitettyyn projektisopimukseen. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Asiakas** | **Yhteenveto**-välilehti | Viittaus linkitettyyn projektisopimukseen. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |&nbsp;  |
+| **Kuvaus** | **Yhteenveto**-välilehti | Laskua kuvaava tekstikenttä. Käyttäjä voi muokata tätä kenttää. | &nbsp; |
+| **Laskutusosoite**- ja liittyvät kentät | **Yhteenveto-välilehti** | Oletusarvot määritetään projektisopimuksen asiakkaasta. Käyttäjä voi muokata tätä kenttää.  | &nbsp; |
+| **Tila** | **Yhteenveto**-välilehti | Määrittää seuraavat vaihtoehdot: **Aktiivinen**, **Suljettu**, **Maksettu** ja **Peruutettu**. Käyttäjä voi muokata. | Project Operations ei tue seuraavia tietoja: **Suljettu** ja **Peruutettu**. </br> Tilaksi määritetään **Aktiivinen**, kun lasku luodaan. </br>**Maksettu**-tila on syytä määrittää vastan, kun lasku on vahvistettu. |
+| **Projektin laskun tila** | **Yhteenveto**-välilehti | Määrittää seuraavat vaihtoehdot: **Luonnos**, **Tarkistettavana** ja **Vahvistettu**. Käyttäjä voi muokata. | Laskua voi muokata sekä **Luonnos**- että **Tarkistettavana**-tilassa. Laskua ei voi muokata sen jälkeen, kun se on vahvistettu. |
+| **Eritelty summa** | **Yhteenveto**-välilehti | Kaikkien laskurivien yhteenlaskettu summa ennakoiden ja vähennysten jälkeen. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Lopullinen summa lasketaan tämän kentän avulla. |
+| **Alennus (%)** | **Yhteenveto**-välilehti | Tätä kenttää voi muokata antamalla alennusprosentti. Project Operations -toiminnot eivät tue tätä kenttää. | Tämä kenttää ei tueta. |
+| **Alennussumma** | **Yhteenveto**-välilehti | Tätä kenttää voi muokata antamalla alennussumma. Project Operations -toiminnot eivät tue tätä kenttää. | Tämä kenttää ei tueta. |
+| **Summa ilman rahtikuluja** | **Yhteenveto-välilehti** | Laskun kokonaissumma alennusten jälkeen. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Lopullinen summa lasketaan tämän kentän avulla. |
+| **Rahti** | **Yhteenveto**-välilehti | Tätä kenttää voi muokata antamalla rahti. Project Operations -toiminnot eivät tue tätä kenttää. | Tämä kenttää ei tueta. |
+| **Vero yhteensä** | **Yhteenveto**-välilehti | Laskun kaikkien laskurivien vero yhteensä. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Ei mitään. |
+| **Loppusumma** | **Yhteenveto**-välilehti | Yhteenlaskettu summa alennusten ja verojen jälkeen. | Yhteenlaskettu summa on summa, joka asiakkaan on maksettava. |
 
 ## <a name="project-based-invoice-lines"></a>Projektipohjaiset laskurivit
 
 Project Operationsissa jokaisella projektisopimusrivillä on aina yksi laskurivi. Laskurivi luodaan, vaikka todellisia arvoja ei olisi. Proformalaskurivillä on seuraavat tiedot.
 
-| Kenttä | Sijainti | Kuvaus | 
-| --- | --- | --- |
-| **Laskun tunnus** | **Yleiset**-välilehti | Viittaus laskun tunnukseen. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. Laskun tunnuksen linkin avulla voi siirtyä takaisin laskun otsikkoon. | 
-| **Nimi** | **Yleiset**-välilehti | Laskurivin nimi määritetään oletusarvoisesti sopimusrivin nimestä. Tätä kenttää voi muokata. |
-| **Project** | **Yleiset**-välilehti | Liittyvän projektin sopimusrivillä oleva projekti. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. Projektiin voi siirtyä projektin linkin avulla. | 
-| **Laskutustapa** | **Yleiset**-välilehti | Liittyvän projektin sopimusrivillä oleva laskutustapa. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
-| **Sopimusrivin summa** | **Yleiset**-välilehti | Liittyvän projektin sopimusrivillä olevan sopimuksen summa. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Laskutettu päivämäärään** | **Yleiset**-välilehti | Tämän laskun kaikkien laskurivien tietojen yhteenlasketut summat. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Summa** | **Yleiset**-välilehti | Tämän laskun kaikkien veloitettavien laskurivien tietojen yhteenlasketut summat. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. Laskun otsikon lopullinen summa lasketaan tämän kentän avulla. | 
-| **Vero** | **Yleiset**-välilehti | Tämän laskurivin kaikkien laskurivin tietojen yhteenlasketut verosummat. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. Laskun otsikon lopullinen verosumma lasketaan tämän kentän avulla. | 
-| **Koko summa** | **Yleiset**-välilehti | Tämän laskurivin kaikkien veloitettavien laskurivin tietojen yhteenlasketut kokonaissummat (**vero + summat)**. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. Laskun otsikon lopullinen summa lasketaan tämän kentän avulla. |
+| Field | Sijainti | Kuvaus | Loppupään vaikutus |
+| --- | --- | --- | --- |
+| **Laskun tunnus** | **Yleiset**-välilehti | Viittaus laskun tunnukseen. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Laskun tunnuksen linkin avulla voi siirtyä takaisin laskun otsikkoon. |
+| **Nimi** | **Yleiset**-välilehti | Laskurivin nimi määritetään oletusarvoisesti sopimusrivin nimestä. Käyttäjä voi muokata tätä kenttää. | &nbsp; |
+| **Project** | **Yleiset**-välilehti | Liittyvän projektin sopimusrivillä oleva projekti. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Projektiin voi siirtyä projektin linkin avulla. |
+| **Laskutustapa** | **Yleiset**-välilehti | Liittyvän projektin sopimusrivillä oleva laskutustapa. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Sopimusrivin summa** | **Yleiset**-välilehti | Liittyvän projektin sopimusrivillä olevan sopimuksen summa. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Laskutettu päivämäärään** | **Yleiset**-välilehti | Tämän laskun kaikkien laskurivien tietojen yhteenlasketut summat. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Summa** | **Yleiset**-välilehti | Tämän laskun kaikkien veloitettavien laskurivien tietojen yhteenlasketut summat. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Laskun otsikon lopullinen summa lasketaan tämän kentän avulla. |
+| **Vero** | **Yleiset**-välilehti | Tämän laskurivin kaikkien laskurivin tietojen yhteenlasketut verosummat. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Laskun otsikon lopullinen verosumma lasketaan tämän kentän avulla. |
+| **Koko summa** | **Yleiset**-välilehti | Tämän laskurivin kaikkien veloitettavien laskurivin tietojen yhteenlasketut kokonaissummat (**vero + summat)**. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Laskun otsikon lopullinen summa lasketaan tämän kentän avulla. |
 
 ## <a name="invoice-line-details"></a>Laskurivin tiedot
 
 Jokainen projektilaskun laskurivi sisältää laskurivin tiedot. Nämä rivitiedot liittyvät laskuttamattomaan toteutuneeseen myyntiin ja niihin sopimusriviin liittyviin välitavoitteisiin, joihin laskurivi viittaa. Kaikissa näissä tapahtumissa on merkintä **Valmis laskuttamista varten**.
 
-**Aika- ja materiaalilasku** -rivillä laskun tiedot on ryhmitelty ryhmiin **Laskutettava**, **Ei-laskutettava** ja **Ilmainen** sivulla **Laskurivi**. **Veloitettavan laskurivin** tiedot listään laskurivin kokonaissummaan. **Ilmaisia** ja **ei-veloitettavia toteutuneita** ei lisätä laskurivin kokonaissummaan.
+**Aika ja materiaali -laskun** rivillä laskurivin tiedot ryhmitetään **Laskurivi**-sivulla seuraaviin ryhmiin: **Veloitettava**, **Ei-veloitettava** ja **Ilmainen**. **Veloitettavan laskurivin** tiedot listään laskurivin kokonaissummaan. **Ilmaisia** ja **ei-veloitettavia toteutuneita** ei lisätä laskurivin kokonaissummaan.
 
-**Kiinteähintainen lasku** -riviä varten laskurivin tiedot luodaan välitavoitteista, jotka on merkitty **Valmis laskutettavaksi** liittyvällä sopimusrivillä. Kun laskurivin tiedot on luotu välitavoitteesta, välitavoitteen laskutustilaksi päivitetään **Asiakaslasku luotu**.
+**Kiinteä hinta -laskun** rivin osalta laskurivin tiedot luodaan välitavoitteista, joiden merkintänä liittyvällä sopimusrivillä on **Valmis laskuttamista varten**. Kun laskurivin tiedot on luotu välitavoitteesta, välitavoitteen laskutustilaksi päivitetään **Asiakaslasku luotu**.
 
 ### <a name="edit-invoice-line-details"></a>Laskurivin tietojen muokkaaminen
 
 Seuraavat kentät ovat käytettävissä laskun rivin tiedossa, joka perustuu laskuttamattomaan toteutuneeseen myyntiin.
 
-| Kenttä | Kuvaus |
-| --- | --- | 
-| **Laskurivi** | Viittaus **laskurivin tunnukseen**. Tätä kenttää on vain luku -muotoa, eikä sitä voi muokata. Tämän linkin avulla voi siirtyä takaisin laskun otsikkoon. | 
-| **Kuvaus** | Laskurivin tiedon kuvaus. Määritetään oletusarvoisesti **Aikamerkintä**-kohdan **Sisäiset kommentit** -kentästä ja **Kulumerkintä**-kohdan **Kuvaus**-kentästä. Kenttää voi muokata.| 
-| **Ulkoinen kuvaus** | Laskurivin tiedon kuvaus. Määritetään oletusarvoisesti **Aikamerkintä**-kohdan **Ulkoiset kommentit** -kentästä ja **Kulumerkintä**-kohdan **Kuvaus**-kentästä. Kenttää voi muokata. Tällä kuvauksella voidaan määrittää, mitä asiakkaalle lähetettävään laskuun tulostetaan. Project Operationsin proformalaskussa ei ole kaikkia tarvittavia toimintoja laskun tulostusasetusten määrittämiseen. | 
-| **Aloituspäivämäärä** | Tämä on vain luku -kenttä, joka määritetään oletusarvoisesti lähteen todellisesta arvosta. |
-| **Project** | Tämä on vain luku -kenttä, joka määritetään oletusarvoisesti lähteen todellisesta arvosta projektiin liittyvällä sopimusrivillä. |  
-| **Tehtävä** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
-| **Tapahtumaluokka** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Rooli** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |  
-| **Varattavissa oleva resurssi** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Resursoiva yritys** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Resursointiyksikkö** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Määrä** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |  
-| **Yksikön aikataulutus** | Ajan laskurivin tiedoksi on aina määritetty aika, eikä sitä voi muokata. Kulujen arvo määritetään oletusarvoisesti lähteen toteutuneesta kulusta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Yksikkö** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |  
-| **Hinta** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
-| **Valuutta** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Summa** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Vero** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Kenttää voi muokata.| 
-| **Koko summa** | Laskennallinen kenttä, joka lasketaan kaavalla **Summa + Vero**. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Laskutustyyppi** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Kenttää voi muokata. Kun **Veloitettava** valitaan, rivi lisätään laskurivin kokonaissummaan. **Ilmainen** ja **Ei-veloitettava** jättävät rivin pois laskurivin kokonaissummasta.| 
-| **Valitse tuote** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
-| **Tuote** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Tuotteen nimi** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |  
-| **Käsin lisätty kuvaus** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
-| **Tapahtumatyyppi** | Tämä on vain luku -kenttä, joka määritetään oletusarvoisesti lähteen todellisesta arvosta **Laskutettuihin myynteihin**. |  
-| **Tapahtumaluokka** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
+| Field | Kuvaus | Loppupään vaikutus |
+| --- | --- | --- |
+| **Laskurivi** | Viittaus **laskurivin tunnukseen**. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Tämän linkin avulla voi siirtyä takaisin laskun otsikkoon. |
+| **Kuvaus** | Laskurivin tiedon kuvaus. Määritetään oletusarvoisesti **Aikamerkintä**-kohdan **Sisäiset kommentit** -kentästä ja **Kulumerkintä**-kohdan **Kuvaus**-kentästä. Käyttäjä voi muokata kenttää.| &nbsp; |
+| **Ulkoinen kuvaus** | Laskurivin tiedon kuvaus. Määritetään oletusarvoisesti **Aikamerkintä**-kohdan **Ulkoiset kommentit** -kentästä ja **Kulumerkintä**-kohdan **Kuvaus**-kentästä. Käyttäjä voi muokata kenttää. | Tällä kuvauksella voidaan määrittää, mitä asiakkaalle lähetettävään laskuun tulostetaan. Project Operationsin proformalaskussa ei ole kaikkia tarvittavia toimintoja laskun tulostusasetusten määrittämiseen. |
+| **Aloituspäivämäärä** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Tätä kenttää voi muokata uudessa laskurivin tiedossa, joka ei perustu lähteen todelliseen arvoon. |
+| **Project** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Arvoksi määritetään oletusarvoisesti liittyvällä sopimusrivillä oleva projekti. |
+| **Tehtävä** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Kenttää voi muokata uudessa laskurivin tiedossa, joka ei perustu lähteen todelliseen arvoon. Avattava luettelo sisältää kaikki liittyvään projektin sopimusriviin liitetyt tehtävät.  |
+| **Tapahtumaluokka** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Kenttää voi muokata uudessa laskurivin tiedossa, joka ei perustu toteutuneeseen lähteeseen. |
+| **Rooli** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Kenttää voi muokata uudessa laskurivin tiedossa, joka ei perustu lähteen todelliseen arvoon. |
+| **Varattavissa oleva resurssi** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Kenttää voi muokata uudessa laskurivin tiedossa, joka ei perustu toteutuneeseen lähteeseen. |
+| **Resursoiva yritys** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Kenttää voi muokata uudessa laskurivin tiedossa, joka ei perustu lähteen todelliseen arvoon. |
+| **Resursointiyksikkö** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Kenttää voi muokata uudessa laskurivin tiedossa, joka ei perustu lähteen todelliseen arvoon. |
+| **Määrä** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Kenttää voi muokata uudessa laskurivin tiedossa, joka ei perustu lähteen todelliseen arvoon. |
+| **Yksikön aikataulutus** | Ajan laskurivin tiedoksi on aina määritetty aika, eikä sitä voi muokata. Kulujen arvo määritetään oletusarvoisesti lähteen toteutuneesta kulusta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Uuden laskurivin tiedon arvoksi määritetään oletusarvoisesti **Aika**, kun perusteena ei ole todellinen arvo. |
+| **Yksikkö** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Kenttää voi muokata uudessa laskurivin tiedossa, joka ei perustu lähteen todelliseen arvoon |
+| **Hinta** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Kenttää voi muokata uudessa laskurivin tiedossa, joka ei perustu lähteen todelliseen arvoon. Jos arvoa ei anneta, se määritetään oletusarvoksi **Tallenna**-valinnan jälkeen. |
+| **Valuutta** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Arvo määritetään oletusarvoisesti laskun otsikosta, kun uusi laskun tieto luodaan ilman, että perustuu todelliseen arvoon.  Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
+| **Summa** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Lasketaan kaavalla **Määrä \* Hinta**, jos uusi laskun tieto luodaan ilman, että sen perusteena on todellinen arvo. Arvo lasketaan **Tallenna**-valinnan jälkeen. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
+| **Vero** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Käyttäjä voi muokata kenttää | Käyttäjä voi muokata kenttää luotaessa uutta laskurivin tietoa ilman, että perustuu todelliseen arvoon. |
+| **Koko summa** | Laskennallinen kenttä, joka lasketaan kaavalla **Summa + Vero**. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Laskutustyyppi** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Käyttäjä voi muokata kenttää. | Kun **Veloitettava** valitaan, rivi lisätään laskurivin kokonaissummaan. **Ilmainen** ja **Ei-veloitettava** jättävät rivin pois laskurivin kokonaissummasta. |
+| **Tapahtumatyyppi** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Arvoksi määritetään oletusarvoisesti **Laskutettu myynti**, ja se on lukittu, kun luodaan uusi **Laskurivin tieto**, joka ei perustu todelliseen arvoon.  |
+| **Tapahtumaluokka** | Määritetään oletusarvoisesti lähteen todellisesta arvosta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Arvo määritetään oletusarvoisesti sen perusteella, onko käyttäjän valitsema laskurivin tieto **Aika**, **Kulu** vai **Maksu** samalla, kun luodaan sellainen uusi **Laskurivin tieto**, jonka perusteena ei ole todellinen arvo. Muokkaus estetty lukituksella. |
 
-Seuraavat kentät ovat käytettävissä laskurivin tiedossa, joka perustuu välitavoitteeseen.
+Seuraavat kentät ovat käytettävissä laskurivin tiedossa, joka perustuu välitavoitteeseen:
 
-| Kenttä | Kuvaus |
-| --- | --- | 
-| **Laskurivi** | Viittaus **laskurivin tunnukseen**. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. Linkin avulla voi siirtyä takaisin laskun otsikkoon.  | 
-| **Kuvaus** | Laskurivin tiedon kuvaus. Arvo määritetään oletusarvoisesti lähteen välitavoitteen kuvauksesta. | 
-|**Ulkoinen kuvaus** | Sen laskurivin tiedon kuvaus, joka on määritetty oletusarvoisesti lähteen välitavoitteen kuvauksesta. Tämän kentän avulla voidaan määrittää, mitä asiakkaalle lähetettävään laskuun tulostetaan. Project Operationsin proformalaskussa ei ole kaikkia tarvittavia toimintoja laskun tulostusasetusten määrittämiseen. | 
-| **Aloituspäivämäärä** | Arvo määritetään oletusarvoisesti lähteen välitavoitteen **Välitavoite**-päivämäärästä. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Project** | Määritetään oletusarvoisesti lähteen välitavoitteesta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
-| **Tehtävä** | Määritetään oletusarvoisesti lähteen välitavoitteesta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Tapahtumaluokka** | Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
-| **Rooli** | Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Varattavissa oleva resurssi** | Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Resursointiyksikkö** | Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Yksikön aikataulutus** | Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Yksikkö** | Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Hinta** | Arvo määritetään oletusarvoisesti lähteen välitavoitteen summasta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
-| **Valuutta** | Määritetään oletusarvoisesti lähteen välitavoitteesta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
-| **Summa** | Arvo määritetään oletusarvoisesti lähteen välitavoitteen summasta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Vero** | Arvo määritetään oletusarvoisesti lähteen välitavoitteen verosummasta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
-| **Koko summa** | Arvo määritetään oletusarvoisesti lähteen välitavoitteen koko summasta. Kenttää voi muokata. | 
-| **Laskutustyyppi** | Arvo määritetään oletusarvoisesti aina **Veloitettava**. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |
-| **Tapahtumatyyppi** | Määritetään oletusarvoisesti lähteen välitavoitteesta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
-| **Tapahtumaluokka** | Määritetään oletusarvoisesti lähteen välitavoitteesta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | 
+| Field | Kuvaus | Loppupään vaikutus |
+| --- | --- | --- |
+| **Laskurivi** | Viittaus **laskurivin tunnukseen**. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | Linkin avulla voi siirtyä takaisin laskun otsikkoon. |
+| **Kuvaus** | Laskurivin tiedon kuvaus. Arvo määritetään oletusarvoisesti lähteen välitavoitteen kuvauksesta. | &nbsp; |
+|**Ulkoinen kuvaus** | Sen laskurivin tiedon kuvaus, joka on määritetty oletusarvoisesti lähteen välitavoitteen kuvauksesta. | Tämän kentän avulla voidaan määrittää, mitä asiakkaalle lähetettävään laskuun tulostetaan. Project Operationsin proformalaskussa ei ole kaikkia tarvittavia toimintoja laskun tulostusasetusten määrittämiseen. |
+| **Aloituspäivämäärä** | Arvo määritetään oletusarvoisesti lähteen välitavoitteen **Välitavoite**-päivämäärästä. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Project** | Määritetään oletusarvoisesti lähteen välitavoitteesta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Tehtävä** | Määritetään oletusarvoisesti lähteen välitavoitteesta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Tapahtumaluokka** | Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Rooli** | Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Varattavissa oleva resurssi** | Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Resursointiyksikkö** | Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Yksikön aikataulutus** | Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Yksikkö** | Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Hinta** | Arvo määritetään oletusarvoisesti lähteen välitavoitteen summasta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Valuutta** | Määritetään oletusarvoisesti lähteen välitavoitteesta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. |&nbsp; |
+| **Summa** | Arvo määritetään oletusarvoisesti lähteen välitavoitteen summasta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Vero** | Arvo määritetään oletusarvoisesti lähteen välitavoitteen verosummasta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Koko summa** | Arvo määritetään oletusarvoisesti lähteen välitavoitteen koko summasta. Käyttäjä voi muokata kenttää | &nbsp; |
+| **Laskutustyyppi** | Arvo määritetään oletusarvoisesti aina **Veloitettava**. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Tapahtumatyyppi** | Määritetään oletusarvoisesti lähteen välitavoitteesta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
+| **Tapahtumaluokka** | Määritetään oletusarvoisesti lähteen välitavoitteesta. Lukittu vain luku -muotoinen kenttä, jota ei voi muokata. | &nbsp; |
 
 ## <a name="refresh-invoice-transactions"></a>Laskutapahtumien päivittäminen
 
 Jos todellisia arvoja saadaan laskun luomisen jälkeen, nämä todelliset arvot voidaan sisällyttää laskuun.
 
 1. Lisää tietoihin **keskeneräisen laskutuksen näkymässä** merkintä **Valmis laskuttamista varten**.   
-2. Avaa proformalaskuluonnos ja valitse **Toiminnot**-valintanauhasta **Päivitä laskurivin tapahtumat**.
+2. Avaa proformalaskun luonnos ja valitse **Toiminnot**-valintanauhassa **Päivitä laskurivin tapahtumat**.
 
-  Laskurivin tiedot luodaan toteutuneille arvoille, jotka on päivätty menneisyyteen ja merkitty **Valmiina laskutettavaksi**, mutta joita ei ole laskussa.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+  Tällä tavoin voidaan luoda laskurivin tiedot todelliselle arvolle, jonka päivämäärä on menneisyydessä ja jossa on merkintä **Valmis laskuttamista varten** mutta jota ei ole sisällytetty laskuun.

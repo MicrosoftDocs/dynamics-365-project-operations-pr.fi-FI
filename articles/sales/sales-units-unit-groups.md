@@ -1,10 +1,12 @@
 ---
 title: Yksiköt ja yksikköryhmät
-description: Tässä aiheessa on tietoja yksikköjen ja yksikköryhmien luomisesta Dynamics 365 Project Operationsissa.
+description: Tässä aiheessa on tietoja yksiköiden ja yksikköryhmien luomisesta Dynamics 365 Project Operationsissa.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999537"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131024"
 ---
 # <a name="units-and-unit-groups"></a>Yksiköt ja yksikköryhmät
 
@@ -44,6 +46,3 @@ Jos haluat viimeistellä tämän aiheen vaiheet, varmista, että sinulle on anne
 3. Syötä **Määrä**-kenttään yksikön sisältämä määrä. Jos laatikossa on esimerkiksi kaksi kappaletta, syötä 2. 
 4. Valitse **Perusyksikkö**-kentässä perusyksikkö, joka määrittää yksikön pienimmän mittayksikön. Voit valita esimerkiksi Kappale.
 5. Valitse **Tallenna**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
