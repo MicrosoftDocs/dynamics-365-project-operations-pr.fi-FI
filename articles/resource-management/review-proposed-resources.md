@@ -2,11 +2,9 @@
 title: Ehdotettujen resurssien tarkasteleminen
 description: Tässä aiheessa on tietoja projektiresurssien ehdottamisesta.
 author: ruhercul
-manager: AnnBe
 ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: a9d3f7b9194b29859ee1479fea8158067e22e819e8f190ef1659e14b7c0cd6b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401169"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998007"
 ---
 # <a name="review-proposed-resources"></a>Ehdotettujen resurssien tarkasteleminen
 
@@ -58,7 +56,10 @@ Aikataulutaulukko käyttää värejä ja varjostusta, kun se näyttää varauksi
 
 Jos yksittäisen varattavan resurssin vieressä näkyy oikealle osoittava nuoli aikataulutaulukossa, resurssi voidaan laajentaa niin, että siinä näkyvät sen työn tiedot, johon resurssi on varattu.
 
-Koska Dynamics 365 Project Operations käyttää Universal Resource Scheduling -ohjelmaa, jos myös Dynamics 365 Field Service on asennettu,voit katsella resurssivarausten tietoja projekteille, työtilauksille ja mille tahansa muille kohteille, joihin olet laajentanut aikatauluttamisen.
+Koska Dynamics 365 Project Operations käyttää Universal Resource Scheduling -moottoria, jos sinulla on myös Dynamics 365 Field Service asennettuna,voit katsella resurssivarausten tietoja projekteille, työtilauksille ja mille tahansa muille kohteille, joihin olet laajentanut aikatauluttamisen.
 
 Jos haluat tarkastella lisätietoja yksittäisestä resurssista, avaa resurssikortti napsauttamalla sitä hiiren kakkospainikkeella.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

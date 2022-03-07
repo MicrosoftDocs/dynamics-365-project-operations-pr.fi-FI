@@ -2,24 +2,22 @@
 title: Työn laskutushintojen määrittäminen – lite
 description: Tämä aihe sisältää tietoja työvoiman laskutushinnoista Project Operationsissa.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 26c3743283dd9032e044071b3127a2885ad5ae49
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181177"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004257"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Työn laskutushintojen määrittäminen – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Jokaisella hinnastolla on joukkoroolien hintoja tai työvoimahintoja, jotka ovat voimassa sen kontekstin ja päivämäärän mukaan, joka sisältyy hinnasto-otsikkoon. Dynamics 365 Project Operationsin laskutushinnat voidaan määrittää vain yhdessä valuutassa, joka on hinnasto-otsikon valuutta.
+Jokaisella hinnastolla on joukkoroolien hintoja tai työvoimahintoja, jotka ovat voimassa sen kontekstin ja päivämäärän mukaan, joka sisältyy hinnasto-otsikkoon. Dynamics 365 Project Operationsin laskutushinnat ajan osalta voidaan määrittää vain yhdessä valuutassa, joka on hinnasto-otsikossa käytetty valuutta.
 
 1. Jos haluat määrittää myyntihinnaston työvoimalaskujen hinnat, luo hinnasto-otsikon perusteella hinnasto. 
 2. Valitse **roolien hinnat** -välilehden aliruudukossa **+ Uusi roolien hinta**. 
@@ -55,3 +53,6 @@ Esimerkiksi Yhdysvalloissa työskentelevä Fabrikam Intian kehittäjä laskuttaa
     | Developer | Fabrikam US | 150 $ |
 
 3. Liitä myyntihinnasto **Fabrikam USA:n laskuhinnat** projektisopimuksen projektihinnastoon tai tietylle tilille.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

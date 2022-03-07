@@ -2,11 +2,9 @@
 title: Konsernin sisäinen laskutus
 description: Tässä artikkelissa on tietoja ja esimerkkejä projektien laskutuksesta konsernin sisällä.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270764"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995802"
 ---
 # <a name="intercompany-invoicing"></a>Konsernin sisäinen laskutus
 
@@ -35,7 +33,7 @@ Organisaatiolla voi olla useita osastoja, tytäryhtiöitä ja muita juridisia ko
 
 Seuraavassa kuvassa on tyypillinen skenaario, jossa kaksi yritystä, SI FR (lainauksen tekevä yritys) ja SI USA (lainaava yritys) jakavat resursseja asiakkaan A projektin toimittamiseksi. Tässä skenaariossa SI FR toimittaa työn asiakkaalle A. 
 
-[![Konsernin sisäinen laskutusesimerkki](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Konsernin sisäinen laskutusesimerkki.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Tavoitteena on helpottaa konserniyritysten välisten projektitapahtumien kustannusten hallintaa, tuottojen tunnustamista, veroja ja siirtohintaa. Lisäksi käytettävissä ovat seuraavat ominaisuudet:
 

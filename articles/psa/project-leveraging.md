@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 87dc72b76ec4f88684ef2c702718e1ab631ff936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148369"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283904"
 ---
 # <a name="sales-estimates-and-projects"></a>Myyntiarviot ja projektit
 
@@ -54,3 +54,6 @@ Voit määrittää työmäärän ja aikataulutuksen arviot käyttämällä **Aik
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Arvioiden tuominen projektista tarjoukseen
 
 Kun olet määrittänyt projektin arviot, voit tuoda ne tarjousriviin. Valitse **Tarjousrivin tiedot** -sivulla tehtäväpalkissa **Tuo arvioista** luodaksesi yhteenvedon projektin arvioista tapahtumatyypin, roolin tai tehtävän tason mukaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

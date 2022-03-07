@@ -2,8 +2,6 @@
 title: Tarkastele ja muokkaa projektien arvioita
 description: Projektien arvioiden tarkasteleminen ja muokkaaminen Project Servicessä
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f31327df6be375dd82c615b2a9e8194145fcd19c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4c31f4eb6fb9ee94c6da52311439a8661d46f056bc10ae4a16dd53642e2338fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144049"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999987"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Tarkastele ja muokkaa projektien arvioita (Project Service)
 
@@ -45,3 +43,6 @@ ms.locfileid: "5144049"
   
 ### <a name="see-also"></a>Katso myös  
  [Projektipäällikön opas](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

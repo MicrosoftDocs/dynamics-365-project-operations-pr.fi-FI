@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1eedd912bedc43b1d5e847c574b5f1d5233cd038
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663905"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180908"
 ---
-# <a name="header-details-for-project-contracts"></a>Projektisopimusten otsikkotiedot
+# <a name="project-contract-settings---lite"></a>Projektin palvelusopimuksen asetukset – lite
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
 Tässä aiheessa on tietoja koko projektisopimusta koskevista kentistä, mukaan lukien asetukset, jotka vaikuttavat kaikkiin sopimusriveihin. Mukana on myös tietoja palvelusopimuksesta, joka on koottu kaikkiin rivikohteisiin projektisopimuksen suorituskykyilmaisimien mukaan.
 
-Seuraavassa taulukossa on luettelo projektisopimuksen kentistä, jotka ovat yksilöllisiä Dynamics 365 Project Operationsissa tai joiden myyntitilausten toimintatavoissa on tärkeitä muutoksia Dynamics 365 Salesissa.
+Seuraavassa taulukossa on esitetty projektisopimuksen kentät, jotka löytyvät vain Dynamics 365 Project Operationsista tai joissa on merkittäviä muutoksia verrattuna myyntisopimuksiin Dynamics 365 Salesissa.
 
 | Field | Sijainti | Kuvaus | Loppupään vaikutus |
 | --- | --- | --- | --- |
@@ -57,6 +57,3 @@ Seuraavat suorituskykyilmaisimet ovat käytettävissä projektisopimuksen **sopi
 | Aiheutuneet kulut | Tuotepohjaiset rivit | Kaikkien tuotepohjaiseen sopimusriviin kirjattujen kustannustodistusten summa. |
 | Käyttökate | Projektipohjaiset rivit | Laskutettu määrä - kustannukset, jotka ovat syntyneet asti päivä määrä/laskutettu summa |
 | Odotettu kate | Tuotepohjaiset rivit | (Sopimusrivin arvo - sopimusrivin arvioidut kustannukset)/sopimusrivin arvo |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

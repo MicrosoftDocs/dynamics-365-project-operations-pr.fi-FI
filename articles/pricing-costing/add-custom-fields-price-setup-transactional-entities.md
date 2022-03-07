@@ -2,11 +2,9 @@
 title: Pakollisten mukautettujen kenttien lisääminen hintamääritys- ja tapahtumaentiteetteihin
 description: Tässä aihessa on tietoja pakollisten mukautettujen kenttien viittausten lisäämisestä entiteettiin sekä lomakkeisiin ja näkymiin.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: 36c95913cc72e293c3015e1b9d3055aac476eebb4cf7d7993741d3cb61de0e13
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590897"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006152"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Pakollisten mukautettujen kenttien lisääminen hintamääritys- ja tapahtumaentiteetteihin
 
@@ -49,7 +47,7 @@ Kun mukautettu hinnoitteludimensio perustuu asetusjoukkoon, lisää se kenttän�
 > [!IMPORTANT]
 > Kun lisäät kentän useisiin entiteetteihin, käytä niissä kaikissa samaa kentän nimeä. 
 
-> ![Resurssin työn sijainnin lisääminen Roolin hintaan](media/RWL-Field.png)
+> ![Resurssin työn sijainnin lisääminen Roolin hintaan.](media/RWL-Field.png)
 
 Projektin myynti- ja arviointivaiheissa arvioita työmäärästä, joka tarvitaan töiden **Paikallinen** ja **Asiakkaan tiloissa** suorittamiseen arvoissa **Tavalliset työtunnit** ja **Ylityötunnit**, käytetään tarjouksen/projektin arvon arviointiin. Kentät **Resurssin työn sijainti** ja **Resurssin työtunnit** lisätään arviointientiteetteihin **Tarjousrivin tiedot**, **Sopimusrivin tiedot**, **Projektiryhmän jäsen** ja **Arviorivi**.
 
@@ -61,7 +59,7 @@ Projektin myynti- ja arviointivaiheissa arvioita työmäärästä, joka tarvitaa
 6. Toista vaiheet 1–5 lisätäksesi tämän kentän entiteetteihin **Projektin sopimusrivin tiedot**, **Projektiryhmän jäsen** ja **Arviorivi**.
 7. Toista vaiheet 1–6 **Resurssin työtunnit** -asetusjoukon osalta. 
 
-> ![Resurssin työn sijainnin lisääminen Arvioriviin](media/RWL-Default-Value.png)
+> ![Resurssin työn sijainnin lisääminen Arvioriviin.](media/RWL-Default-Value.png)
 
 Toimitusta ja laskutusta varten suoritettu työ on hinnoiteltava oikein, jotta projektin todellisissa arvoissa voidaan valita suoritettiinko se arvolla **Paikallinen** vai **Asiakkaan tiloissa** ja arvolla **Tavalliset työtunnit** vai **Ylityötunnit**. Kentät **Resurssin työn sijainti** ja **Resurssin työtunnit** pitäisi lisätä entiteetteihin **Aikamerkintä**, **Todellinen arvo**, **Laskurivin tiedot** ja **Kirjauskansion rivi**.
 
@@ -73,7 +71,7 @@ Toimitusta ja laskutusta varten suoritettu työ on hinnoiteltava oikein, jotta p
 6. Toista vaiheet 1–5 lisätäksesi tämän kentän entiteetteihin **Todellinen arvo**, **Laskurivin tiedot** ja **Kirjauskansion rivi**.
 7. Toista vaiheet 1–6 **Resurssin työtunnit** -asetusjoukon osalta. 
 
-> ![Resurssin työn sijainnin lisääminen Aikamerkintään](media/RWL-time-entry.png)
+> ![Resurssin työn sijainnin lisääminen Aikamerkintään.](media/RWL-time-entry.png)
 
 Tämä täydentää asetusjoukkoperusteisiin mukautettuihin dimensioihin vaadittavat rakennemuutokset.
 
@@ -86,7 +84,7 @@ Kun mukautettu hinnoitteludimensio on entiteetti, lisäät 1:N-suhteita dimensio
 3. Laajenna entiteetti **Vakionimike** ja valitse **1:N-suhteet**.
 4. Valitse **Uusi** ja luo uusi 1:N-suhde nimellä **Varattavissa olevan resurssin vakio-otsikko**. Syötä tarvittavat tiedot ja valitse **Tallenna**.
 
-> ![Vakionimikkeen lisääminen viitekentäksi Varattavissa olevaan resurssiin](media/ST-BR.png)
+> ![Vakionimikkeen lisääminen viitekentäksi Varattavissa olevaan resurssiin.](media/ST-BR.png)
 
 Vakionimike on lisättävä myös hinnoitteluentiteetteihin **Roolin hinta** ja **Roolin hinnankorotus**. Tämä toteutetaan myös käyttämällä 1:N-suhteita entiteettien **Vakionimike** ja **Roolihinta** ja entiteettien **Vakionimike** ja **Roolin hinnankorotus** välillä.
 
@@ -104,13 +102,13 @@ Projektin myynti- ja arviointivaiheissa tarjouksen/projektin hinnoittelua varten
 
 5. Toista vaiheet 1–5 luodaksesi 1:n-suhteita arvosta **Vakionimike** entiteetteihin **Tarjousrivin tiedot**, **Projektin sopimusrivin tiedot**, **Projektiryhmän jäsen** ja **Arviorivi**.
 
-> ![Vakionimikkeen lisääminen viitekentäksi Arvioriviin](media/ST-Estimate-Line.png)
+> ![Vakionimikkeen lisääminen viitekentäksi Arvioriviin.](media/ST-Estimate-Line.png)
 
   Toimitus- ja laskutusvaiheissa kunkin vakionimikkeen suorittama työ on hinnoiteltava oikein projektin todellisissa arvoissa. Tämä tarkoittaa, että tarvitaan 1:N-suhteita arvosta **Vakionimike** entiteetteihin **Aikamerkintä**, **Todellinen arvo**, **Laskurivin tiedot** ja **Kirjauskansion rivi**.
 
 6. Toista vaiheet 1–6 luodaksesi 1:N-suhteita arvosta **Vakionimike** entiteetteihin **Aikamerkintä**, **Todellinen arvo**, **Laskurivin tiedot** ja **Kirjauskansion rivi**.
 
-> ![Vakionimikkeen lisääminen viitekentäksi Aikamerkintään](media/ST-Mapping.png)
+> ![Vakionimikkeen lisääminen viitekentäksi Aikamerkintään.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Dimension arvon vakioinnin määritys ympäristön yhdistämismääritystoimintojen avulla
 Aikamäärityksen osalta olisi hyödyllistä, jos järjestelmä hakee aikamerkinnän vakionimikkeen oletusarvon aikamerkinnän tekevästä varattavissa olevasta resurssista. Noudata seuraavia vaiheita lisätäksesi kenttien yhdistämismäärityksiä 1:N-suhteeseen arvosta **Varattavissa oleva resurssi** arvoon **Aikamerkintä**.
@@ -120,7 +118,7 @@ Aikamäärityksen osalta olisi hyödyllistä, jos järjestelmä hakee aikamerkin
 3. Kaksoisnapsauta **Varattavissa olevasta resurssista Aikamerkintään**. Valitse **Suhde**-sivulla **Käytä kenttien yhdistämismäärityksiä**. 
 4. Valitse **Uusi** ja luo uusi kenttien yhdistämismääritys **Varattavissa oleva resurssi** -entiteetin **Vakio-otsikko**-kentän ja **Aikamerkintä**-entiteetin **Vakio-otsikko**-viitekentän välille. 
 
-> ![Kenttien yhdistämismääritysten luominen sen mahdollistamiseksi, että kentän Vakionimike oletusarvoiseksi yhdistämismääritykseksi otetaan Varattavissa olevasta resurssista Aikamerkintään](media/ST-Mapping2.png)
+> ![Kenttien yhdistämismääritysten luominen sen mahdollistamiseksi, että kentän Vakionimike oletusarvoiseksi yhdistämismääritykseksi otetaan Varattavissa olevasta resurssista Aikamerkintään.](media/ST-Mapping2.png)
 
 Tämä täydentää entiteettiperusteisiin mukautettuihin dimensioihin vaadittavat rakennemuutokset.
 
@@ -146,3 +144,6 @@ Seuraavassa luettelossa esitetään kattava entiteettiperusteinen luettelo niist
 |  Todellinen|• Tiedot<br>• Aktiiviset todelliset arvot|• Todellisten arvojen liitetty näkymä|
 
 Mukautettuja kenttiä voi määrityksistäsi riippuen olla tarpeen lisätä myös liiketoimintasääntöihin. Yksi valmis esimerkki on liiketoimintasääntöä **Aikamerkinnän muokattavuus tilan perusteella** varten. Tämä sääntö määrittää, mitkä kentät on lukittava, kun Aikamerkintä-tila on tilassa, jota ei voi muokata, kuten **Hyväksytty**. Lisää kenttiä tähän liiketoimintasääntöön, jotta kenttiä ei voi muokata, kun Aikamerkinnän tila on muu kuin **Luonnos** tai **Palautettu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

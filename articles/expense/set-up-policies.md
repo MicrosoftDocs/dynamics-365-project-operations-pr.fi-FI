@@ -2,11 +2,9 @@
 title: Kulukäytäntöjen määrittäminen
 description: Voit määrittää kulukäytäntöjä, joita työntekijöiden on seurattava kuluraporttien ja matkustusehdotusten syöttämisessä ja lähettämisessä.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fa108db9aa0d2a22c35d2d046917ddae1f3842c1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128414"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001872"
 ---
 # <a name="define-expense-policies"></a>Kulukäytäntöjen määrittäminen
 
@@ -53,3 +51,6 @@ Seuraavassa kerrotaan muutamia ehdotuksia, jotka voivat auttaa kulujen hallinnan
 ## <a name="when-to-evaluate-policies"></a>Käytäntöjen arvioimisajankohta
 
 Voit valita kulujen hallinnan parametreissa kulujen hallintakäytäntöjen arvioimisen, kun rivi on tallennettu tai kun kuluraportti on lähetetty. Jos haluat tehdä arvioinnin rivin tallennuksen yhteydessä, käyttäjät näkevät suoritettavat toiminnot aiemmin ja voivat viimeistellä kuluraportin kerralla. Muussa tapauksessa voit viivästyttää käytännön arviointia ja säästää aikaa suorittamalla tarkistuksen lopussa työnkulun lähettämisen aikana.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075334"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289095"
 ---
 # <a name="project-resourcing-home-page"></a>Projektin resursoinnin kotisivu
 
@@ -50,8 +50,11 @@ Seuraavissa ohjeaiheissa on tietoja tehtävistä, jotka on suoritettava, kun ty�
 - [Resurssien pätevyyksien hallinta](manage-resource-competencies.md)
 - [Luo uusi projekti](create-new-project.md)
 - [Roolipohjaisen hinnoittelun määrittäminen](set-up-role-based-pricing.md)
-- [Projektitiimin luominen](create-project-team.md)
+- [Luo projektiryhmä](create-project-team.md)
 - [Resurssin kapasiteetin synkronointi](synchronize-resource-capacity.md)
 - [Projektin resurssien aikataulutuksen suorituskyky](project-scheduling-performance.md)
 - [Roolien määrittäminen työrakennemalleihin](set-up-roles-wbs-template.md)
 - [Resurssien täyttäminen suunniteltujen resurssien osalta](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

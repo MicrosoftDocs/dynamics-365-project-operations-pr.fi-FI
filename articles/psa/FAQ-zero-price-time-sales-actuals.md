@@ -2,8 +2,6 @@
 title: Miksi toteutuneen ajan myynnin oletushinta on nolla?
 description: Tee vianmääritys ja selvitä, miksi toteutuneen ajan myynnin hinnan oletusarvo on 0.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f72e0db94392a35fee9fdcf2c4adb8a08feef13
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e32b4c8113afdc18d9b220b1a8daf5007be93ac8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146209"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011637"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Miksi toteutuneen ajan myynnin oletushinta on nolla?
 
@@ -57,3 +55,6 @@ Jos toteutuneen ajan myynnin hinnoitteludimensioiden roolin hinnan ruudukossa ei
 
 Jos toteutuneen ajan myynnillä ei ole sallittua hintaa näiden kolmen edellä mainitun tarkistuksen jälkeen ole sallittu, kirjaa tukipyyntö. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

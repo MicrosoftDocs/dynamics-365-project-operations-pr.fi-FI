@@ -2,6 +2,8 @@
 title: Miten resurssivaraukset ja tehtävien delegoinnit liittyvät toisiinsa
 description: Tässä aiheessa on tietoja siitä, miten hallita nimettyjä resursseja, resurssien varauksia ja resurssien delegointeja ja siitä, miten ne liittyvät toisiinsa.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -16,16 +18,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 72c741d8a0644589004ba20afbcd0baff7cfcb06
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993187"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124994"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Miten resurssivaraukset ja tehtävien delegoinnit liittyvät toisiinsa
 
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Nimettyjä resursseja voidaan varata projektiryhmälle ja delegoiduille projektitehtäville kahdella tavalla:
 
@@ -66,6 +67,3 @@ Koska varauksia ja delegointeja ei ole yhdistetty tiiviisti, on mahdollista vara
 > [!NOTE]
 > Jos siirrät tehtävän, jolle olet määrittänyt jaksottumisen itse, jaksottumisia ei ylläpidetä. Jaksotukset luodaan projektikalenterin mukaan. Niiden avulla otetaan huomioon työajan ja lomien muutokset. Tämä on tarkoituksellista, koska järjestelmä ei tunnista alkuperäisen jaksottumisen tarkoitusta eikä pysty määrittämään sitä, kannattaako jaksottuminen säilyttää uudella ajanjaksolla. Koska varauksia ja delegointeja ei ole yhdistetty, varaukset säilytetään alkuperäisten varausten jaksottumisissa. Tällöin varaus on peruutettava ja tehtävä varaus uudelleen uuden delegoinnin jaksottumiseen.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

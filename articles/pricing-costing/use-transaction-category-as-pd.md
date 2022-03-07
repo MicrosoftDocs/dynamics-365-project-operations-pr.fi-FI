@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: c84d3aaf7cd7577dcd15311f225c82b538586445
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513978"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274589"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Tapahtumaluokan käyttäminen hinnoitteludimensiona
 
@@ -50,3 +50,6 @@ Seuraavassa taulukossa on luettelo kaikista sisällytetyistä lomakkeista ja nä
 2. Varmista **Parametrit**-sivun **Määrään perustuvat hinnoitteludimensiot** -välilehdellä, että ruudukko näyttää tietueet **Hinnoitteludimensiot**-entiteetissä.
 3. Lisää tähän luetteloon **Tapahtumaluokka** ja aseta **Sovelletaan kustannuksiin** ja **Sovelletaan myyntiin** -kenttien arvoksi **Kyllä**.
 4. Valitse **Dimensiotyyppi**-kentässä **Määrään perustuva**, ja valitse sitten **Tapahtumaluokan** prioriteetti kustannuksiin ja myynteihin liittyen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

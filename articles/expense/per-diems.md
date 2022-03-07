@@ -2,18 +2,16 @@
 title: Päivärahat
 description: Tässä aiheessa on tietoja kulujen hallinnassa käytettävistä päivärahasäännöistä.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128504"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986397"
 ---
 # <a name="per-diems"></a>Päivärahat
 
@@ -31,3 +29,6 @@ Päiväraha on palkka, joka maksetaan työhön matkustavalle työntekijälle. Ku
     
 ## <a name="submit-expenses-using-per-diem"></a>Kulujen lähettäminen päivärahan avulla
 Jos haluat lähettää kuluja käyttäen päivärahoja, käytä **Päiväraha**-kululuokkaa, kun luot kuluraporttia. Anna **Päivärahan alkupäivämäärä**-, **Päivärahan loppupäivämäärä** ja **Päivärahan sijainti**. Summa lasketaan valitun sijainnin päivärahahintojen perusteella, ja ateriavähennys lasketaan päivärahatasojen perusteella.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Projektin resurssien aikataulutuksen suorituskyky
 description: Tässä aiheessa on tietoja siitä, miten voidaan parantaa resurssien aikatauluttamisen tehokkuutta useissa projekteissa.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075331"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007277"
 ---
 # <a name="project-resource-scheduling-performance"></a>Projektin resurssien aikataulutuksen suorituskyky
 
@@ -69,3 +67,6 @@ Jos haluat ottaa käyttöön resurssien aikataulutuksen tehokkuuden parantamisen
 
 > [!NOTE]
 > Tämä jakaa yleiset tiedot **ResRollup**-taulukkoon kaikissa ympäristössäsi olevissa yrityksissä, joten eräajo on suoritettava vain yhdessä yrityksessä. Tätä eräajoa tarvitaan kaikissa **resurssin käytettävyys** -näkymissä. Jos tätä eräajoa ei suoriteta, **ResRollup**-tiedot luodaan lennossa, mikä voi viedä aikaa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

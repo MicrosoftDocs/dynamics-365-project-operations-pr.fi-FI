@@ -2,18 +2,16 @@
 title: Varattavissa olevan resurssin käyttäminen hinnoitteludimensiona
 description: Tässä aiheessa on tietoja varattavissa olevan resurssin käyttämisestä hinnoitteludimensiona.
 author: Rumant
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0c5cb85f7c43f7b2fd9c367d7f7ac9c3250e0a1
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643079"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011187"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Varattavissa olevan resurssin käyttäminen hinnoitteludimensiona
 
@@ -78,3 +76,6 @@ Hinnoitteludimensiotietueelle koskien kohdetta **msydn_bookableresource** on ilm
 5. Lisää **msdyn_bookableresourceid** **Kentän nimeen**.
 
  ![Uuden hinnoitteludimension kentän nimen lomake](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

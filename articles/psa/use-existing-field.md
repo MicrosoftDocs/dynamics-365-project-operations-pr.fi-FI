@@ -2,12 +2,10 @@
 title: Käytä aiemmin luotua kenttää Project Servicessa hinnoitteludimensiona
 description: Tässä aiheessa on tietoja aiemmin luotujen Project Service -kenttien käyttämisestä hinnoitteludimensioina.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8bc3a1df7669dac43b45d781448ed5c795a65be4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 075461042724c92e480e0df5ba976baf58542f479661f4c615aa442a150d0f8a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144149"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004577"
 ---
 # <a name="use-an-existing-field-in-project-service-as-a-pricing-dimension"></a>Käytä aiemmin luotua kenttää Project Servicessa hinnoitteludimensiona
 
@@ -31,3 +29,6 @@ ms.locfileid: "5144149"
 Project Service Automation (PSA) sisältää monta kenttää **Nykyarvot**-entiteetissä, joita voidaan käyttää hinnoitteludimensioina resurssipohjaisessa hinnoittelussa projektiorganisaatioissa. Esimerkiksi yksi yhteinen kenttä on **Varattavissa oleva resurssi**. Pienemmät yritykset, joissa on alle 20-30 laskutettavaa resurssia, voivat huomata, että laskutus- ja kustannushintojen määrittely erikseen kullekin resurssille on yksinkertaisempaa. Koska laskutettava työvoima kuitenkin kasvaa, tietyt hinnat voivat muuttua epärealistisiksi ylläpitää, kun resurssien kustannukset ja laskutushinnat alkavat vaihdella, kun resursseja ylennetään, he kerryttävät lisää kokemusta, tai saavat uusia taitoja. Koska tämä lähestymistapa toimii edelleen tietyn kokoisia yrityksiä varten, katso [Käytä varattavaa resurssia hinnoitteludimensiona](bookable-resource-pricing-dimension.md) ymmärtääksesi, kuinka olemassa olevaa Project Service -kenttää voidaan käyttää hinnoitteludimensiona.
 
 Toinen esimerkki on tapahtumaluokka. Asiakkaat ja toteuttajat ovat käyttäneet PSA:N tapahtumaluokkaa työn luokittelemiseksi ja hinnan sekä kustannusten määrittelyä varten työn luokan perusteella. Lisätietoja on aiheessa [Tapahtumaluokan käyttäminen hinnoitteludimensiona](transaction-category-pricing-dimension.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

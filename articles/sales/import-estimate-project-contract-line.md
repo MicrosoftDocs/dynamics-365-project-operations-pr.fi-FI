@@ -2,24 +2,22 @@
 title: Arvion tuonti projektipohjaiselle sopimusriville
 description: Tässä aiheessa on tietoja siitä, miten projektin arviot tuodaan sopimusriville.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: ea513ca8126eadbf563f3c6cb3e966f81703ae805d12881f865cdc1dd77e191d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4075583"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990087"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Arvion tuonti projektipohjaiselle sopimusriville
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Dynamics 365 Project Operationsissa voit tuoda arvioita projektista projektipohjaiseen sopimusriviin.
+Voit tuoda arvioita projektista projektipohjaiselle sopimusriville Dynamics 365 Project Operations -sovelluksessa.
 
 1. Tarkista, että projektipohjaisen sopimusrivin **Projekti**-kenttä on täytetty.
 2. Valitse **Sopimusrivin tiedot** -välilehdessä aliruudukossa **Tuo projektiarviosta**. Näkyviin tulee keskustelusivu, jossa on yhteenvetovaihtoehtoja. Saatavilla olevat yhteenvedon vaihtoehdot ovat **tapahtumaluokka**, **luokka**, **rooli** ja **projektitehtävä**. Yhteenvedon valintojen perusteella kopioidaan projektin arvio kaikista tämän sopimusrivin sisältämistä tapahtumaluokista. 
@@ -59,3 +57,6 @@ Kun käyttäjä valitsee summauksen **tapahtumaluokan**, **luokan** ja **lehtiso
 | Tehtävä A | Lentoliput | 1.10.2020 | 4 | 400 | 1600 |
 | Tehtävä B | Hotelli | 1.10.2020 | 4 | 200 | 800 |
 | Tehtävä C | Hotelli | 1.11.2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

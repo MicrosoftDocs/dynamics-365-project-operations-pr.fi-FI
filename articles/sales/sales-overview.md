@@ -2,24 +2,23 @@
 title: Myyntiprosessin yleiskatsaus
 description: Tämä aihe sisältää tietoja perustason myyntiprosesseista.
 author: rumant
-manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177597"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991842"
 ---
 # <a name="sales-process-overview"></a>Myyntiprosessin yleiskatsaus
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Projektiperusteisessa organisaatiossa käytettävät myyntiprosessit eroavat tuoteperusteisessa organisaatiossa käytettävistä myyntiprosesseista. Tämä ero johtuu siitä, että projektiperusteisten organisaatioiden myyntisyklit ovat pidempiä ja edellyttävät mukautettuja arviointimenetelmiä tarjousten analysoimiseksi ja luomiseksi kullekin kaupalle. Dynamics 365 Project Operations käyttää joitakin seuraavia samoja toimintoja kuin myyntiprosessit:
+Projektiperusteisessa organisaatiossa käytettävät myyntiprosessit eroavat tuoteperusteisessa organisaatiossa käytettävistä myyntiprosesseista. Tämä ero johtuu siitä, että projektiperusteisten organisaatioiden myyntisyklit ovat pidempiä ja edellyttävät mukautettuja arviointimenetelmiä tarjousten analysoimiseksi ja luomiseksi kullekin kaupalle. Dynamics 365 Project Operations käyttää joitakin seuraavista toimintoja, joita käytetään myyntiprosessissa:
 
 - Myyntiprosessin seurannassa käytetään Liidi-tietuetta.
 - Hyväksyttyjä liidejä seurataan mahdollisuuksina.
@@ -63,3 +62,6 @@ Project Operationsissa tarjoukseen tehtyjä muutoksia ei voi jäljittää. Sen s
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Tarjousten ja projektisopimusten kommenttien ja hyväksyntöjen seuraaminen
 Voit hallita tarjousten ja projektisopimusten arviointia ja hyväksymistä tietueseinän ja viestien avulla. Organisaatiosi voi luoda mukautettuja työnkulkuja ja laajennuksia kohdentamaan, uudelleenohjaamaan ja hallitsemaan arvioinnin ja hyväksynnän työkohteiden ilmoituksia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

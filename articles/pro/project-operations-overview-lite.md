@@ -2,24 +2,22 @@
 title: Lite-käyttöönoton yleiskatsaus
 description: Tässä aiheessa on tietoja Dynamics 365 Project Operationsin Lite-käyttöönotosta.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 9f09cb447d314cb172161ad3501a154285d9b636
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365460"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003807"
 ---
 # <a name="lite-deployment-overview"></a>Lite-käyttöönoton yleiskatsaus
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Dynamics 365 Project Operationsin Lite-käyttöönottotyypissä on seuraavat projektipohjaisten yritysten ominaisuudet:
+Dynamics 365 Project Operationsin Lite-käyttöönottotyypillä on seuraavat projektipohjaisten yritysten ominaisuudet:
 
 - Projektin suunnittelu Microsoft Project -verkkoversion avulla
 - Työresurssien moniulotteinen hinnoittelu ja kustannuslaskenta
@@ -37,3 +35,6 @@ Käytä tätä käyttöönottoa, jos Project Operationsia odotetaan käyttävän
 - Integroitu järjestelmä, joka hallitsee aikataulujen ja taloustietojen sisäisiä ja laskutettavia projekteja projektimyynnistä laskutukseen.
 - Project Operationsin kanssa integroitava kolmannen osapuolen toiminnanohjaus (ERP)- tai kirjanpitojärjestelmä.
 - Kolmannen osapuolen järjestelmä arvonlisäverojen, vaihtokurssien, kulukorvausten ja muiden kuin projektikulujen käsittelemiseen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

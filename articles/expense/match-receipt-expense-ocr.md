@@ -2,11 +2,9 @@
 title: Kuitin sieppaaminen OCR:n avulla
 description: Tässä aiheessa on tietoja kuittien optisesta merkintunnistuksesta (OCR).
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499847"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798036"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Kuitin sieppaaminen OCR:n avulla
 
@@ -87,7 +85,18 @@ Ei. Microsoft on rakentanut yleisen koneoppiminen mallin kuittien käsittelypalv
 
 **Missä tämä toiminto on käytettävissä ja missä sitä käsitellään?**
 
-Tällä hetkellä tuetaan käyttöä Yhdysvalloissa.
+Tämän ominaisuuden käytettävyys eri alueilla on nähtävissä seuraavassa taulukossa. Jos aluettasi ei tueta tällä hetkellä, lähetä pyyntö, joka priorisoi OCR-palvelun käytettävyyden alueellasi. 
+
+| Alue | Tuettu                         |
+|--------|-----------------------------------|
+| USA    | Kyllä                               |
+| CAN    | Kyllä                               |
+| Yhdistynyt kuningaskunta     | Kyllä                               |
+| AUS    | Kyllä                               |
+| EU     | Osittain. Vain englanninkieliset vastaanotot. |
+| Aasia   | No                                |
+| Japani  | No                                |
+| Afrikka | No                                |
 
 **Minne kuitit siirretään?**
 

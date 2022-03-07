@@ -2,11 +2,9 @@
 title: Projektihinnastojen hallinta tarjouksessa
 description: Tässä aiheessa on tietoja projektin hinnastoentiteetistä.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177192"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003902"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Projektihinnastojen hallinta tarjouksessa
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Dynamics 365 Project Operations laajentaa Dynamics 365 Salesin hinnastoentiteetin"". 
+Dynamics 365 Project Operations laajentaa Dynamics 365 Salesin Hinnasto-entiteettiä. 
 
 ## <a name="key-entities"></a>Avainentiteetit
 
@@ -120,3 +118,6 @@ Laskutushintojen lailla myös henkilöresurssien kustannushinnat määritetään
     1. Organisaatioyksikköön liitetty kustannushinnasto.
     2. Project Operationsin parametreihin liitetty kustannushinnasto. Koska parametreihin voidaan liittää kustannushinnastoja monissa eri valuutoissa, projektin, sopimuksen tai tarjouksen sopimusorganisaatioyksikön valuutan ja kustannushinnaston valuuttojen vastaavuus määritetään.
     3. Kulujen osalta hinnoittelutapoja kustannusten mukaan ja hinnankorotus prosentteina kustannuksista ei voi käyttää kustannushinnastoissa. Vaikka näitä hinnoittelutapoja käytettäisiin kustannushinnaston riveillä tapahtumaluokan kustannusten määrittämiseen, järjestelmä jättää ne huomioimatta eikä oletusarvoista kustannushintaa määritetä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

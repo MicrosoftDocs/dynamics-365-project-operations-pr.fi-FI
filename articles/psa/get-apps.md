@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 059409398d7dc3074f0ec852a8e295b2c3d5504f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947965"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284444"
 ---
 # <a name="get-the-apps-project-service"></a>Hae sovellus (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5947965"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Jos haluat syöttää työajan ja kulusi mobiililaitteessa, [Hae ja asenna Dynamics 365 puhelimille ja tableteille](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
+Jos haluat syöttää työajan ja kulusi mobiililaitteessa, [Hae ja asenna Dynamics 365 puhelimille ja tableteille](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
   
  Project Finder Mobile -sovelluksen avulla voit myös etsiä uutta projektia puhelimestasi ja hakea sitä. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Etsi seuraava projektisi Project Finder Mobile -sovelluksella](../psa/find-next-project-finder-mobile-app.md) 
   

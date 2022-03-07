@@ -2,8 +2,6 @@
 title: Nimettyjen varattavissa olevien resurssien varaaminen projektiryhmälle ja tehtävien kohdennus
 description: Tässä aiheessa on tietoja miten nimetyt resurssit varataan projektiryhmille ja miten ne kohdennetaan tehtäville.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8a49b6ae8423cb99c710e40704475b4a71d3724
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e0f3957936e699fb2a9f570b9789924c55e12cc2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145354"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009342"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Nimettyjen varattavissa olevien resurssien varaaminen projektiryhmälle ja tehtävien kohdennus 
 
@@ -68,3 +66,6 @@ Voit käyttää **Täsmäytys**-välilehden varauksenlaajennustoimintoa tai koht
 ![Ryhmän jäsenen varausten laajentaminen resurssin täsmäyksen välilehdessä](media/RM-how-to-7.png)
 
 Kun ryhmän jäsen on varattu projektillesi, voit käyttää niiden varausten hallitsemiseen varausten ylläpitoa tai aikataulutaulukkoa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

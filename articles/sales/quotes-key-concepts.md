@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 488c57527e6cc153093014438453001170f311dc
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 42ea1eb71b3285159b3fdf79ba34a562f948fd6e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663681"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075514"
 ---
-# <a name="concepts-unique-to-project-based-quotes"></a>Projektipohjaisten tarjousten yksilölliset käsitteet
+# <a name="quotes---key-concepts"></a>Tarjoukset - keskeiset käsitteet
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Dynamics 365 Project Operationsissa on kahdenlaisia tarjouksia: projekti- ja myyntitarjouksia. Nämä kaksi tarjoustyyppiä eroavat toisistaan seuraavasti:
+Dynamics 365 Project Operations -sovelluksessa on kaksi tarjoustyyppiä, jotka ovat projekti ja myynti. Nämä kaksi tarjoustyyppiä eroavat toisistaan seuraavasti:
 
 - **Rivinimikkeiden ruudukot**: Myyntitarjouksessa rivinimikkeille on vain yksi ruudukko. Projektitarjouksessa rivinimikkeille on kaksi ruudukkoa. Yksi ruudukko on projektiriveille ja toinen tuoteriveille.
 - **Aktivointi ja muokkaukset**: Myyntitarjoukset tukevat aktivointia ja muokkauksia. Projektitarjous ei tue näitä prosesseja.
@@ -128,6 +128,3 @@ Kiinteähintaisessa tarjousrivissä voit käyttää **Laskutusaikataulu**-ruuduk
 - Voit luoda tasan jaettuja laskutuksen välitavoitteita valitsemalla laskutusvälin, antamalla laskutuksen aloituspäivän tarjousrivissä ja valitsemalla tarjoukselle arvon **Pyydetty suorituspäivä** tarjousotsikon **Yhteenveto**-osassa. Valitse sitten **Luo jaksoittaiset välitavoitteet** luodaksesi tasaisesti jaettuja välitavoitteita valitun laskutusvälin perusteella. 
 - Voit luoda kertasummaisen laskutuksen välitavoitteen luomalla välitavoitteen ja määrittämällä tarjousrivin aroksi välitavoitteen summan.
 - Voit luoda tiettyihin projektisuunnitelman tehtäviin perustuvia laskutuksen välitavoitteita luomalla välitavoitteen ja yhdistämällä sen projektiaikataulun elementtiin laskutuksen välitavoitteen käyttöliittymässä.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

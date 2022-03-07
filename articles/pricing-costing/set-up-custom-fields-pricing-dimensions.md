@@ -2,11 +2,9 @@
 title: Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi
 description: Tässä aiheessa on tietoja hinnoitteludimensioiden määrittämisestä mukautettujen kenttien avulla.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650202"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003587"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi
 
@@ -44,11 +42,11 @@ Jotta kentästä tulisi hinnoitteludimensio, sen on oltava:
 
 - Luotu rivinä **Hinnoitteludimensio** -taulukkoon. Voit esimerkiksi lisätä hinnoitteludimension rivejä seuraavan kuvan osoittamalla tavalla. 
 
-![Summaan perustuvat hinnoitteludimensioiden rivit](media/Amt-based-PD.png)
+![Summaan perustuvat hinnoitteludimensioiden rivit.](media/Amt-based-PD.png)
 
 Tesurssin työaika (**msdyn_resourceworkhours**) on lisätty hinnankorotuspohjaiseen dimensioon, ja se on lisätty **Hinnankorotuspohjainen hinnoitteludimensio** -välilehden ruudukkoon.
 
-![Hinnankorotukseen perustuvat hinnoitteludimensioiden rivit](media/Markup-based-PD.png)
+![Hinnankorotukseen perustuvat hinnoitteludimensioiden rivit.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -80,7 +78,7 @@ Hinnoitteludimensioita on kahta tyyppiä:
 |             | Contoso US   |Paikallinen             |                    |Ylityö                 |20     |
 
 
-Jos resurssi Contoso Indialta, jonka perushinta on 100 US-dollaria työskentelee asiakkaan tiloissa, ja hän merkitsee 8 tuntia tavallista työaikaa ja 2 tuntia ylityötä aikamerkintäänsä, hinnoittelumoottori käyttää perushintaa 100 kahdeksalle tunnille ja tallentaa 800 USD. Kahdelle ylityötunnille käytetään 15 % hinnankorotusta, joka lasketaan perushinnalle 100, jotta saadaan yksikköhinta 115 US-dollaria, ja kokonaiskustannukseksi tallennetaan 230 US-dollaria.
+Jos Contoso Indian resurssi, jonka perushinta on 100 dollaria, työskentelee asiakkaan tiloissa ja merkitsee 8 tuntia tavallista työaikaa ja 2 tuntia ylityötä aikamerkintäänsä, hinnoittelumoduuli käyttää 100 dollarin perushintaa 8 tunnille ja tallentaa arvoksi 800 USD. Kahdelle ylityötunnille käytetään 15 % hinnankorotusta, joka lasketaan perushinnalle 100, jotta saadaan yksikköhinta 115 US-dollaria, ja kokonaiskustannukseksi tallennetaan 230 US-dollaria.
 
 ### <a name="applicable-to-cost"></a>Sovelletaan kustannuksiin 
 Jos tämän arvo on **Kyllä**, se osoittaa, että dimension arvoa syötekontekstista tulisi käyttää yhdistämään **Roolihinta** ja **Roolihinnan korotus**, kun haetaan kustannuksia ja hinnankorotusten arvoja.
@@ -96,3 +94,6 @@ Dimension prioriteetin määrittäminen auttaa hinnoittelua tuottamaan hinnan jo
 
 - **Kustannusprioriteetti**: dimension kustannusprioriteetin arvo osoittaa kyseisen dimension painon, kun sitä verrataan kustannushintojen asetuksiin. **Kustannusprioriteetin** arvon tulee olla yksilöivä niissä dimensioissa, joita **Sovelletaan kustannuksiin**.
 - **Myyntiprioriteetti**: dimension myyntiprioriteetin arvo osoittaa kyseisen dimension painon, kun sitä verrataan myyntihintojen tai laskutushintojen asetuksiin. **Myyntiprioriteetin** arvon tulee olla yksilöivä niissä dimensioissa, joita **Sovelletaan myyntiin**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

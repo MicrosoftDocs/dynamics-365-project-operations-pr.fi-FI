@@ -2,8 +2,6 @@
 title: Yleisten varattavissa olevien resurssien kohdentaminen tehtävälle ja projektiryhmälle
 description: Tässä aiheessa on tietoja yleisten resurssien varaamisesta tehtäville ja projektiryhmille.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 684167f0a68872ef871fbaa06c5161e78045c9a5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a1e22337d3fd3e7ff4147a9547fd3c272f4185d3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145399"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009387"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Yleisten varattavissa olevien resurssien kohdennus tehtävälle ja resurssitarpeiden luominen 
 
@@ -59,3 +57,6 @@ Voit myös napsauttaa ryhmäruudukon **Resurssitarve**-linkkiä avataksesi tarpe
 
 ![Resurssitarve](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

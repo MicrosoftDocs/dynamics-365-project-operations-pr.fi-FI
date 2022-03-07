@@ -1,8 +1,6 @@
 ---
 title: Työrakenteen päivitykseen liittyvät seikat
 description: Tässä aihe on tietoja työrakenteen päivittämisestä Project Service Automation 2.x:n ja 3.x:n välillä.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149539"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992337"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Työrakenteen päivitykseen liittyvät seikat
 
@@ -34,20 +32,20 @@ Tässä aihe on tietoja työrakenteen päivittämisestä Project Service Automat
 ## <a name="key-entities"></a>Avainentiteetit
 Seuraavat entiteetit vaaditaan tarkkaa työrakennetta varten, jossa on jo resursseja:
 
-- [Projekti](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Projektiryhmä](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Projektin tehtävä](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Resurssimääritykset](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Projektitehtävän riippuvuus](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Varattavissa olevat resurssit](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projekti](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Projektiryhmä](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Projektin tehtävä](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Resurssimääritykset](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Projektitehtävän riippuvuus](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Varattavissa olevat resurssit](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Voit määrittää työrakenteen, jossa on resurssit, tekemällä seuraavat toimet:
 
-1. Luo uusi projekti. Lisätietoja uuden projektin luomisesta on aiheessa [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Luo yksi tai useampia tehtäviä. Lisätietoja tehtävän luomisesta on aiheessa [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Määritä tehtäväriippuvuudet. Lisätietoja on kohdassa [projektitehtävien riippuvuus](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Kohdenna projektiryhmän jäsenet projektiin. Lisätietoja on aiheessa [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Kohdenna projektiryhmän jäsenet tehtäviin. Lisätietoja on aiheessa [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Luo uusi projekti. Lisätietoja uuden projektin luomisesta on aiheessa [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Luo yksi tai useampia tehtäviä. Lisätietoja tehtävän luomisesta on aiheessa [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Määritä tehtäväriippuvuudet. Lisätietoja on kohdassa [projektitehtävien riippuvuus](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Kohdenna projektiryhmän jäsenet projektiin. Lisätietoja on aiheessa [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Kohdenna projektiryhmän jäsenet tehtäviin. Lisätietoja on aiheessa [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Projektiryhmän suhteet
 
@@ -96,3 +94,6 @@ Onnistuneen päivityksen varmistamiseksi seuraavat suhteet on säilytettävä oi
 
 - Kaikkien projektitehtäväriippuvuuksien on liityttävä samaan projektiin.
 - Samaan tehtävän riippuvuuteen ei voi viitata useammin kuin kerran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

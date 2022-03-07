@@ -2,24 +2,22 @@
 title: Resurssien hallinnan keskeiset käsitteet
 description: Tämä aihe tarjoaa tietoja Microsoft Dynamics Project Operationsin resurssinhallintatoiminnosta.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123869"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994812"
 ---
 # <a name="resource-management-key-concepts"></a>Resurssien hallinnan keskeiset käsitteet
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Resurssit ovat palvelupohjaisen organisaation tärkeimpiä varoja. Mahdollisuus löytää oikeat resurssit oikeaan aikaan, varata resurssit projekteihin ja pitää ne käytössä, auttaa organisaatiota täyttämään tulotavoitteet ja asiakastyytyväisyystavoitteet. Dynamics 365 Project Operations resursointitoimintojen avulla voit tehdä seuraavat tehtävät:
+Resurssit ovat palvelupohjaisen organisaation tärkeimpiä varoja. Mahdollisuus löytää oikeat resurssit oikeaan aikaan, varata resurssit projekteihin ja pitää ne käytössä, auttaa organisaatiota täyttämään tulotavoitteet ja asiakastyytyväisyystavoitteet. Dynamics 365 Project Operations (PSA) -ohjelman resursointi-toiminnon avulla voit tehdä seuraavat tehtävät:
 
 - Luo projektiryhmiä varaamalla vapaita ja päteviä resursseja.
 - Luo yleisiä ryhmänjäsentietueita ja määritä niiden roolit ja resurssiorganisaatioyksikkö.
@@ -35,3 +33,6 @@ Resurssit ovat palvelupohjaisen organisaation tärkeimpiä varoja. Mahdollisuus 
 
 
 Voit miehittää projektisi ryhmällä yleisiä tai nimettyjä resursseja Project Operationsissa. Voit käyttää useita tapoja ryhmän jäsenten lisäämiseen ja kohdentamiseen ja heidän varaustensa ja kohdennustensa hallintaan. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

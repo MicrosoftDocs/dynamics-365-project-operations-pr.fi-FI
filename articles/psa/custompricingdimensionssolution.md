@@ -2,12 +2,10 @@
 title: Mukautettujen ratkaisujen luominen hinnoitteludimensioille
 description: Tässä aiheessa kerrotaan, miten luodaan mukautettu ratkaisu, kun luodaan mukautettuja hinnoitteludimensioita.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144635"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995262"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Mukautettujen ratkaisujen luominen hinnoitteludimensioille
 
@@ -34,7 +32,7 @@ ms.locfileid: "5144635"
 1. Valitse **Asetukset** > **Ratkaisut** ja valitse sitten **Uusi**. 
 2. Anna ratkaisulle nimeksi **organisaation \<your organization name> hinnoitteludimensiot**, anna muut tarvittavat tiedot ja valitse **Tallenna**.
 
-> ![Mukautetun ratkaisun luominen hinnoitteludimensioille](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Mukautetun ratkaisun luominen hinnoitteludimensioille.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Kaikkien tarvittavien entiteettien ja niihin liittyvien komponenttien lisääminen hinnoitteludimensioratkaisuun
 Sinun on lisättävä seuraavat Project Service -entiteetit hinnoitteluratkaisuusi. Tämän toimintosarjan vaiheet suorittamalla voit tehdä tärkeitä rakennemuutoksia hinnoitteluratkaisuun, jotta entiteetit ottavat uudet hinnoitteludimensiot huomioon.
@@ -56,9 +54,9 @@ Sinun on lisättävä seuraavat Project Service -entiteetit hinnoitteluratkaisuu
 - Roolin hinta 
 - Aikamerkintä 
 
-> ![Aiemmin luotujen entiteettien lisääminen hinnoitteludimensioratkaisuun](media/Existing-entities-to-PD-solution.png)
+> ![Aiemmin luotujen entiteettien lisääminen hinnoitteludimensioratkaisuun.](media/Existing-entities-to-PD-solution.png)
 
-> ![Valitse ratkaisun osat](media/Dimension-Components.png)
+> ![Valitse ratkaisun osat.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Varmista, että lisäät kaikkien valittujen entiteettien kaikki lomakkeet ja näkymät.
@@ -68,3 +66,6 @@ Sinun on lisättävä seuraavat Project Service -entiteetit hinnoitteluratkaisuu
 > ![Älä lisää kaikkia liittyviä komponentteja.](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

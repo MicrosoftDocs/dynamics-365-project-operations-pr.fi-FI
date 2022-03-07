@@ -2,18 +2,16 @@
 title: Useiden asiakkaiden hallinta projektipohjaisilla tarjousriveillä
 description: Tässä aiheessa on tietoja siitä, miten projektipohjaisilla tarjousriveillä hallitaan useita asiakkaita.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118559"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992022"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Useiden asiakkaiden hallinta projektipohjaisilla tarjousriveillä
 
@@ -44,3 +42,6 @@ Seuraavassa taulukossa näkyy projektipohjaisen tarjousrivin Tarjousrivin asiaka
 Voit muokata laskutuksen jakoprosentteja suoraan rivillä. Kun laskutuksen jakoprosentit eivät ole yhteensä 100 %, virhe tapahtuu. Kun olet muonkannut laskutuksen jakamisprosentit, voit poistaa virheen päivittämällä tarjousrivin sivun.
 
 Käytä tasaisen jaon toimintoa tarjousrivin asiakkaiden aliruudukossa, jotta voit kohdistaa laskutuksen jaot kaikille tarjousrivin asiakkaille. Jos pyöristyskerroin on, se lisätään pyöristysasiakkaaseen. Yksi tarjousrivin asiakkaista merkitään aina pyöristysasiakkaaksi, jolloin tarjousrivin asiakastietueen pyöristysmerkinnän arvoksi on asetettu **Kyllä**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

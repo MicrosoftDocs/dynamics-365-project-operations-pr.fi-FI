@@ -2,18 +2,16 @@
 title: Useiden asiakkaiden hallinta projektipohjaisilla sopimusriveillä
 description: Tässä aiheessa on tietoja sopimusrivien ja useita asiakkaita sisältävien sopimusten käyttämisestä.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b302368bcb476527c94d48f7693058d2044c74b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181898"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996427"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Useiden asiakkaiden hallinta projektipohjaisilla sopimusriveillä
 
@@ -44,3 +42,6 @@ Seuraavat projektipohjaisen sopimusrivin sopimusrivin asiakastietueen kentät ka
 Laskutuksen jakoprosenttia voidaan muokata ruudukossa. Jos laskutuksen jakoprosenttien yhteissumma ei ole 100 prosentti, seurauksena on virhe. Kun laskutuksen jakoprosentteja on muokattu, poista virhe päivittämällä sivu.
 
 Voit kokeilla myös **Jaa tasaisesti** -vaihtoehdon valintaa sopimusrivin asiakkaan aliruudukossa. Tämä toiminto jakaa laskutuksen jaot tasaisesti kaikille sopimusrivin asiakkaille. Mahdollinen pyöristyskerron lisätään pyöristysasiakkaaseen. Yksi sopimusrivin asiakas merkitään aina **Pyöristys**-asiakkaaksi määrittämällä **Pyöristys**-merkinnän arvoksi **Kyllä**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

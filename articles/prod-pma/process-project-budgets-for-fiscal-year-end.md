@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075481"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289725"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Projektibudjettien siirtäminen tilikauden lopussa
 
@@ -98,3 +98,6 @@ Kun käsitellään jäljellä olevia budjettisummia, voit luoda pääkirjanpitoo
 5. Jos haluat käsitellä kutakin käsiteltävää projektia, valitse vaihtoehto projektirivin alussa. 
 6. Valitse **prosessi**, jos haluat siirtää valittujen projektien jäljellä olevat budjettisummat valittuun tilikauteen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

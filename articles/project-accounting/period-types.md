@@ -2,18 +2,16 @@
 title: Kausityypit
 description: Tässä aiheessa on tietoja tuoton arvioinnin kausityyppien määrittämisestä.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 07cc9cde5fab10accb1fd6efede58926918f614c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531413"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013482"
 ---
 # <a name="period-types"></a>Kausityypit
 
@@ -34,3 +32,6 @@ Jos haluat luoda ja käsitellä kausityyppejä, suorita seuraavat vaiheet:
 4. Valitse kausityyppitietue ja valitse sitten **Luo kaudet** luodaksesi kausityypille kaudet. Valitsemasi kausitiheyden perusteella voi olla mahdollista määrittää alkamispäivä tai kuinka monta kautta luodaan.
 5. Valitse **Kaudet** tarkastellaksesi luotuja kausia.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

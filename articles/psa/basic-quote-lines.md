@@ -2,8 +2,6 @@
 title: Tarjoukset ja tarjousrivit
 description: Tässä aiheessa on tietoja tarjouksista ja tarjousriveistä.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145114"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995442"
 ---
 # <a name="quotes-and-quote-lines"></a>Tarjoukset ja tarjousrivit
 
@@ -86,7 +84,7 @@ Asiantuntijapalveluja myyvät organisaatiot tekevät asiakkailleen tarjouksia ja
 
 Kullekin tarjousriville voidaan kohdentaa yksi tai useampi tällainen tapahtumaluokka. Kun tarjous on voitettu, tapahtumaluokan ja tarjousrivin välinen yhdistämismääritys siirretään sopimusriville.
  
-> ![Näyttökuva tapahtumatyyppien yhdistämismäärityksestä tarjous- ja sopimusriveihin](media/basic-guide-5.png)
+> ![Näyttökuva tapahtumatyyppien yhdistämismäärityksestä tarjous- ja sopimusriveihin.](media/basic-guide-5.png)
   
 Tarjous voi sisältää esimerkiksi seuraavat kaksi tarjousriviä: 
 - Konsultointityö, jossa käytetään aika ja materiaalit -laskutusmenetelmää, jossa voidaan soveltaa tapahtumaluokkia Aika ja Maksu. Esimerkiksi kaikki esimerkkiprojektin **Dynamics AX:n käyttöönotto** aika- ja maksutapahtumat laskutetaan asiakkaalta käytetyn ajan ja käytettyjen materiaalien perusteella. 
@@ -131,3 +129,6 @@ Kiinteähintaisessa tarjousrivissä voit käyttää **Laskutusaikataulu**-ruuduk
 - Voit luoda tasan jaettuja laskutuksen välitavoitteita valitsemalla laskutusvälin, antamalla laskutuksen aloituspäivän tarjousrivissä ja valitsemalla tarjoukselle arvon **Pyydetty suorituspäivä** tarjousotsikon **Yhteenveto**-osassa. Valitse sitten **Luo jaksoittaiset välitavoitteet** luodaksesi tasaisesti jaettuja välitavoitteita valitun laskutusvälin perusteella. 
 - Voit luoda kertasummaisen laskutuksen välitavoitteen luomalla välitavoitteen ja määrittämällä tarjousrivin aroksi välitavoitteen summan.
 - Voit luoda tiettyihin projektisuunnitelman tehtäviin perustuvia laskutuksen välitavoitteita luomalla välitavoitteen ja yhdistämällä sen projektiaikataulun elementtiin laskutuksen välitavoitteen käyttöliittymässä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

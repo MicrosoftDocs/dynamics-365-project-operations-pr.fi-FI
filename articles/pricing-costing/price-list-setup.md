@@ -2,18 +2,16 @@
 title: Hinnastojen määrittäminen
 description: Tämä aihe tarjoaa tietoja kulu- ja myyntihintaluetteloiden määrittämisestä.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180188"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009482"
 ---
 # <a name="set-up-price-lists"></a>Hinnastojen määrittäminen
 
@@ -40,3 +38,6 @@ Seuraavassa taulukossa on esitetty niiden hinnastojen **yleiset**-välilehden ke
 | Valuutta | **Yleiset**-välilehti ja **pikaluonti**-lomakkeet | Tämän kentän avulla määritetään oletusvaluutta kullekin tähän hinnastoon liittyvälle roolille, luokalle tai hinnaston nimikeriville. | **Myynti**-hinnastoja, rooleja, luokkia tai hinnaston nimikerivejä ei voi luoda mihinkään muuhun valuuttaan kuin tähän valuuttaan. **Kustannus**-hinnastoissa voit luoda roolihintarivin mihin tahansa valuuttaan. Tässä määritettyä valuuttaa käytetään oletusarvona. Käyttäjäasetukset, jotka liittyvät roolien hintoihin, voivat ohittaa tämän arvon ja ottaa työvoimakustannushinnan asetukset käyttöön missä tahansa valuutassa. Luokan kustannushinnat ja hinnaston nimikekustannukset voidaan määrittää vain tässä määritetyssä valuutassa. |
 | Aikayksikkö | **Yleiset**-välilehti ja **pikaluonti**-lomakkeet | Tämän kentän avulla määritetään oletusaikayksikkö kullekin tähän hinnastoon liittyvälle roolille. | Tätä kentän arvoa käytetään vain liittyvien roolien hinta-asetuksissa. **Kustannus**- ja **Myynti**-hinnastoissa voit luoda roolihintarivin mihin tahansa aikayksikköön. Tässä määritettyä aikayksikköä käytetään oletusarvona. Käyttäjäasetuksiin liittyvät roolihinnat voivat ohittaa tämän arvon, jotta työvoimakustannukset ja laskukurssi voidaan määrittää millä tahansa aikayksiköllä. |
 | Kuvaus | **Yleiset**-välilehti ja **pikaluonti**-lomakkeet | Tämän tekstikentän avulla voit antaa hinnaston monirivisen kuvauksen. | Tämä kenttä näkyy hinnastossa **liittyvissä** näkymissä eri kohteissa, joissa on toisiinsa liittyviä hinnastoja. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

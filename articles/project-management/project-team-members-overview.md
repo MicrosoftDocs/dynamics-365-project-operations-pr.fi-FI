@@ -2,18 +2,17 @@
 title: Projektiryhmän jäsenet
 description: Tässä aiheessa on tietoja siitä, miten voit käsitellä projektiryhmän jäsenen tietoja, määritteitä ja aikataulutusta.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: f46b71ece5f2573108def22224801dd960df00ae
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127424"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369237"
 ---
 # <a name="project-team-members"></a>Projektiryhmän jäsenet
 
@@ -60,3 +59,6 @@ Ryhmän jäsen -ruudukosta voidaan tehdä seuraavat toiminnot:
 
 - **Uusi**: Sen lisäksi, että projektipäälliköt voivat lisätä resursseja suoraan aikataulusta, he voivat lisätä uusia nimettyjä tai yleisiä ryhmän jäseniä Ryhmän jäsen -ruudukosta.
 - **Poista**: Valitsemalla yhden tai useita ryhmän jäseniä projektipäällikkö voi poistaa resursseja, jotka eivät enää osallistu projektiin. Ryhmän jäsenen poistaminen poistaa myös kaikki liittyvät resurssimääritykset ja peruuttaa kaikki aiemmin luodut varaukset.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

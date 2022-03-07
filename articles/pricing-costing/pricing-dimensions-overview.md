@@ -2,19 +2,18 @@
 title: Hinnoitteludimensioiden yleiskatsaus
 description: Tässä aiheessa on tietoja hinnoitteludimensioista Dynamics 365 Project Operationsissa.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.custom: intro-internal
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650183"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001967"
 ---
 # <a name="pricing-dimensions-overview"></a>Hinnoitteludimensioiden yleiskatsaus
 
@@ -34,7 +33,7 @@ Tämän vuoksi käytettävissä on seuraavat kaksi hinnoitteludimensioarvoa:
 
 Dynamics 365 Project Operationsin kanssa toimitetaan hinnoitteludimensioiden oletusjoukko. Hinnoitteludimensioita voi tarkastella siirtymällä kohtaan **Project Operations** > **Parametrit**. Varmista parametritietueen **Summaperusteiset hinnoitteludimensiot** -välilehdellä, että roolin **msdyn_resourcecategory** ja resursoivan organisaatioyksikön **msdyn_organizationalunit** kenttien **Sovelletaan myyntiin** ja **Sovelletaan kustannuksiin** arvona on **Kyllä**. Näiden käytössä olevien kenttien avulla voit määrittää jokaisen roolin ja organisaatioyksikön hinnan ja kustannuksen.
 
-![Näyttökuva Project Service -parametreista, joissa Sovelletaan myyntiin on korostettu](media/PS-OOB-parameters.png)
+![Näyttökuva Project Service -parametreista, joissa Sovelletaan myyntiin on korostettu.](media/PS-OOB-parameters.png)
 
 Jos sinun on määritettävä resurssiesi hintoja tai kustannuksia lisämääritteitä käyttäen, voit luoda mukautettuja kenttiä, entiteettejä ja dimensioita. Lisätietoja on seuraavissa aiheissa. 
   
@@ -61,13 +60,16 @@ Seuraavassa esimerkissä esitetään laskutushintoja, jotka määritetään rool
 
 | Rooli        | Organisaatioyksikkö    |Yksikkö      |Hinta      |Valuutta  |
 | ------------|-------------|----------|----------:|----------|
-| Kehittäjä   | Contoso US  |Hour | 200|USD     |
-| Kehittäjä   | Contoso India |Hour|   112|USD     |
+| Kehittäjä   | Contoso US  |tunti | 200|USD     |
+| Kehittäjä   | Contoso India |tunti|   112|USD     |
 
 
 **Esimerkkikustannushinnat**
 
 | Palkkaluokat     | Organisaatioyksikkö    |Yksikkö      |Hinta      |Valuutta  |
 | ----------------|-------------|----------|----------:|----------|
-| Oma company_Band1 | Contoso US  |Hour | 145|USD     |
-| Oma company_Band2 | Contoso India |Hour|   67|USD     |
+| Oma company_Band1 | Contoso US  |tunti | 145|USD     |
+| Oma company_Band2 | Contoso India |tunti|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,16 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764905"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075228"
 ---
 # <a name="expense-home-page"></a>Kulujen aloitussivu
 
@@ -29,7 +28,7 @@ Project Operationsissa on kaksi tuettua kulujen käyttöönoton mallia:
 - **Perusratkaisu**: Peruskäyttöönotto on käytettävissä seuraaville: **Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa** ja **Lite-käyttöönotto – kauppa proformalaskutukseen**.
 
 ## <a name="full"></a>Täydellinen 
-Täysi kulujen käyttöönotto tarjoaa täydellisen käytännön täytäntöönpanon, joka sisältää mahdollisuuden luoda käytäntöjä, kuten:
+Täysi kulujen käyttöönotto tarjoaa täydellisen käytännön pakottamisen, joka sisältää mahdollisuuden luoda käytäntöjä, kuten:
 
   - Kululuokkien rajat
   - Matka

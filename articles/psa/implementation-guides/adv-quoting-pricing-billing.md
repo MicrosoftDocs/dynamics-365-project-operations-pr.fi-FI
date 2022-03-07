@@ -2,8 +2,6 @@
 title: Vaativampi tarjousten tekeminen, hinnoittelu ja laskutus
 description: Tämä aihe sisältää tietoja tarjousten tekemisestä, laskutuksesta ja hinnoittelusta Project Service Automationissa.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ef2698b52bd5a89a10ff0be6aff3d98e6917e95c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4e589c83b8d9b0946f331b5ad03f4946fcddf6813a1529fb65d9b86f8ebf3a07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149179"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985632"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Vaativampi tarjous-, hinnoittelu- ja laskutusopas
 
@@ -52,3 +50,6 @@ Tässä aiheessa aiemmin ollut PDF-linkki on poistettu ja tiedoston sisältö on
 
 > [!NOTE]
 > Tämä aihe poistetaan myöhemmässä dokumentaatiopäivityksessä. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

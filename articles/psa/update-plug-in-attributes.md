@@ -2,11 +2,9 @@
 title: Päivitä laajennusmääritteet sisältämään uudet hinnoitteludimensiot
 description: Tässä aiheessa on tietoja laajennusmääritteiden päivittämisestä hinnoitteludimensioille.
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147064"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988782"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Päivitä laajennusmääritteet sisältämään uudet hinnoitteludimensiot
 
@@ -44,27 +42,30 @@ Seuraavissa vaiheissa selitetään, miten laajennukset rekisteröidään.
 1. Avaa **PluginRegistrationTool** ja muodosta yhteys online-ilmentymään.
 2. Napauta **Hae** ja etsi päivitettävä laajennus.
 
- ![Kuvakaappaus hakupuusta](media/PRT-1.png)
+ ![Kuvakaappaus hakupuusta.](media/PRT-1.png)
 
 3. Kun laajennus löytyy, valitse se ja napauta sitten **Valitse päälomakkeessa**.
 
 4. Valitse päivitettävän laajennuksen vaihe, napsauta hiiren kakkospainiketta ja valitse sitten **Päivitä**.
 
- ![Päivitettävän laajennuksen kuvakaappaus](media/PRT-2.png)
+ ![Päivitettävän laajennuksen kuvakaappaus.](media/PRT-2.png)
  
 5. Napauta päivitysikkunassa painiketta, jossa on kolme pistettä (**...**) suodatusmääritteissä.
 
- ![Kuvakaappaus määrittelytiedoista Nykyisen vaiheen päivittämiselle](media/PRT-3.png)
+ ![Kuvakaappaus määrittelytiedoista Nykyisen vaiheen päivittämiselle.](media/PRT-3.png)
  
 6. Valitse hinnoittelumääritteiden valintaruudut.
 
- ![Kuvakaappaus, jossa valintaruutu valitaan hinnoittelumääritteille](media/PRT-4.png)
+ ![Kuvakaappaus, jossa valintaruutu valitaan hinnoittelumääritteille.](media/PRT-4.png)
 
 7. Napauta **OK** sulkeaksesi sivun ja valites sitten **Päivitysvaihe**.
 
- ![Kuvakaappaus, jossa näkyy "Päivitysvaihe"-painike](media/PRT-5.png)
+ ![Kuvakaappaus, jossa näkyy "Päivitysvaihe"-painike.](media/PRT-5.png)
  
 8. Toista tämä prosessi toiselle laajennukselle **PreOperationQuoteLineDetail - Päivitä msdyn_quotelinetransaction**.
 
 9. Sulje laajennuksen rekisteröintityökalu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Project Operations -kaksoiskirjoituksen karttaversiot
 description: Tässä aiheessa on luettelo kaksoiskirjoituskartoista, joita tarvitaan Dynamics 365 Project Operationsissa.
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938974"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003812"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations -kaksoiskirjoituksen karttaversiot
 
@@ -34,40 +32,40 @@ Project Operations -ratkaisun edellytykset ovat seuraavat kartat. Suorita seuraa
 
 1. Valitse määritysluettelosta Tapahtumarekisteri **(msdyn\_ledgers)** -määritys ja kaikki edellytykset ja valitse sitten **Ensimmäinen synkronointi** -valintaruutu. Valitse **Perusmuoto alkusynkronointia varten** -kentässä **Finance and Operations -sovellukset**  sekä kirjanpitokarttoja että kaikkia tarvittavat tietokarttoja varten. Valitse **Suorita**.
 
-![Kirjanpitomäärityksen synkronointi](media/DW6.png)
+![Kirjanpitomäärityksen synkronointi.](media/DW6.png)
 
-1. Noudata edellä olevassa taulukossa mainittuja muita taulukkokarttoja samojen vaiheiden mukaisesti. Älä valitse **Ensimmäinen synkronointi** -valintaruutua, kun käytät näitä karttoja.
+2. Noudata edellä olevassa taulukossa mainittuja muita taulukkokarttoja samojen vaiheiden mukaisesti. Älä valitse **Ensimmäinen synkronointi** -valintaruutua, kun käytät näitä karttoja.
 
 ## <a name="project-operations-dual-write-maps"></a>Project Operationsin kaksoiskirjoituskartat
 
-Project Operations -ratkaisun edellytyksenä ovat seuraavat kartat.
+Project Operations -ratkaisun edellytyksenä ovat seuraavat kartat. Kaksoiskirjoituksen karttaversiot on kuvattu luettelossa alkaen toukokuun 2021 Project Operations -päivityksen versiosta 4.10.0.186.
 
 | **Entiteetin yhdistämismääritys** | **Viimeisin versio** | **Ensimmäinen synkronointi** |
 | --- | --- | --- |
 | Projektitapahtuman integrointikohdesuhteet (msdyn\_transactionconnections) | 1.0.0.0 | Ei vaadita valmistelua varten. |
 | Projektisopimusotsikot (myyntitilaukset) | 1.0.0.1 | Ei vaadita valmistelua varten. |
 | Projektin sopimusrivit (salesorderdetails) | 1.0.0.0 | Ei vaadita valmistelua varten. |
-| Projektin rahoituslähde (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | Ei vaadita valmistelua varten. |
+| Projektin rahoituslähde (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Ei vaadita valmistelua varten. |
 | Project Operationsin materiaaliarvioiden integrointitaulukko (msdyn\_estimatelines) | 1.0.0.0 | Ei vaadita valmistelua varten. |
-| Projektin laskuehdotukset V2 (laskut) | 1.0.0.2 | Ei vaadita valmistelua varten. |
+| Projektin laskuehdotukset V2 (laskut) | 1.0.0.3 | Ei vaadita valmistelua varten. |
 | Project Operations -integroinnin todelliset arvot (msdyn_actuals) | 1.0.0.14 | Ei vaadita valmistelua varten. |
 | Project Operations -integroinnin sopimusrivin välitavoitteet (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Ei vaadita valmistelua varten. |
 | Project Operations -integrointikohde kuluarvioita varten (msdyn_estimateslines) | 1.0.0.2 | Ei vaadita valmistelua varten. |
 | Project Operations -integrointikohde tuntiarvioita varten (msdyn_resourceassignments) | 1.0.0.5 | Ei vaadita valmistelua varten. |
-| Project Operations -integroinnin projektikululuokkien vientientiteetti (msdyn_expensecategories) | 1.0.0.2 | Ei vaadita valmistelua varten. |
+| Project Operations -integroinnin projektikululuokkien vientientiteetti (msdyn_expensecategories) | 1.0.0.1 | Ei vaadita valmistelua varten. |
 | Project Operations -integroinnin projektikulujen vientientiteetti (msdyn_expenses) | 1.0.0.2 | Ei vaadita valmistelua varten. |
 | Project Operationsin integrointiprojektin toimittajalaskun vientientiteetti (msdyn_projectvendorinvoices) | 1.0.0.0 | Ei vaadita valmistelua varten. |
-| Project Operationsin integrointiprojektin toimittajalaskurivin vientientiteetti (msdyn_projectvendorinvoicelines) | 1.0.0.0 | Ei vaadita valmistelua varten. |
+| Project Operationsin integrointiprojektin toimittajalaskurivin vientientiteetti (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Ei vaadita valmistelua varten. |
 | Kaikkien yritysten projektiresurssiroolit (bookableresourcecategories) | 1.0.0.1 | Edellyttää taulukon kartan ensimmäistä synkronointia, jotta Dynamics 365 Dataverse -ympäristössä valmistelun aikana täytetään Projektipäällikkö- ja Ryhmän jäsen -resurssiroolit. Dataverse on ensimmäisen synkronoinnin päälähde. |
 | Projektitehtävät (msdyn_projecttasks) | 1.0.0.4 | Ei vaadita valmistelua varten. |
 | Projektin tapahtumaluokat (msdyn_transactioncategories) | 1.0.0.0 | Ei vaadita valmistelua varten. |
-| Projektit V2 (msdyn_projects) | 1.0.0.1 | Ei vaadita valmistelua varten. |
+| Projektit V2 (msdyn_projects) | 1.0.0.2 | Ei vaadita valmistelua varten. |
 
 Suorita luettelossa olevat kartat seuraavien vaiheiden mukaisesti.
 
 1. Ota projektiresurssiroolit käyttöön **kaikissa yrityksissä (bookableresourcecategories)** -taulukkokartassa, koska tämä kartta edellyttää ensimmäistä synkronointia. Valitse **Perusmuoto synkronoitavaksi** -kentässä **Common data service**. 
 
- ![Resurssiroolitaulukkokartan synkronointi](media/6ResourceInitialSync.jpg)
+ ![Resurssiroolitaulukkokartan synkronointi.](media/6ResourceInitialSync.jpg)
 
  Odota, kunnes kartan tila on **Käynnissä**, ennen kuin siirryt seuraavaan vaiheeseen.
 

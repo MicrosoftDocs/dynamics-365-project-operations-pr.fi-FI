@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: dff8107864f95c87d25a421dfeeafe9081e98e25
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131069"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279990"
 ---
 # <a name="book-to-a-project"></a>Projektin varaaminen
 
@@ -66,3 +66,6 @@ Projektipäällikön täytyy ehkä varata resurssi projektiin, mutta vain tietä
 
 > [!NOTE]
 > Tämä menetelmä ei luo varauksia resurssille. Sen sijaan se lisää resurssin ryhmään. Kun ryhmän jäsen on lisätty projektiin, projektipäällikkö voi ylläpitää varauksia tai laajentaa varauksia, jotta tarvittavat varaukset voidaan lisätä resurssiin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

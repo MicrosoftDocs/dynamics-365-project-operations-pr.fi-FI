@@ -1,27 +1,25 @@
 ---
-title: Projektin palvelusopimusten keskeiset käsitteet – lite
+title: Projektin palvelusopimusten keskeiset käsitteet
 description: Tässä aiheessa on tietoja projektitarjousten avainkonsepteista.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75c4b90e47c0b90ed3fea8dce1533057aa6137b9
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 66d6b72b19a90ecc9161cd16ce9d4dd22798803b
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663770"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075254"
 ---
-# <a name="concepts-unique-to-project-contracts"></a>Projektisopimusten yksilölliset käsitteet
+# <a name="key-concepts-of-project-contracts"></a>Projektin palvelusopimusten keskeiset käsitteet
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-Tämä aihe sisältää tärkeimmät käsitteet, jotka on otettava huomioon, ennen kuin aloitat projektisopimusten käyttämisen Dynamics 365 Project Operationsissa:
+Tässä aiheessa on avainkäsitteitä, jotka kannattaa tietää ennen projektisopimusten käytön aloittamista Dynamics 365 Project Operationsissa:
 
 ## <a name="contracting-unit"></a>Sopimusyksikkö
 
@@ -93,6 +91,3 @@ Project Operationsin palvelusopimukset perustuvat Dynamics 365 Sales -sopimuksii
 - Project Operations -sopimuksilla on omat lomake- ja käyttöliittymäelementit, liiketoimintasäännöt, laajennusten liiketoimintalogiikka ja asiakaspuolen komentosarjat, jotka tekevät niistä erilaisia kuin Sales-sopimuksista.
 
 Näistä syistä sinun ei tule käyttää myyntitilausta ja Project Operationsin sopimusta samassa merkityksessä.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

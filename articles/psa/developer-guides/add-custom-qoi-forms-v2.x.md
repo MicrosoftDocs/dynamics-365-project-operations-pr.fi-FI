@@ -2,12 +2,10 @@
 title: Uusien mukautettujen entiteettilomakkeiden lisääminen (Project Service Automation 2. x)
 description: Tämä aihe sisältää tietoja mukautettujen entiteettilomakkeiden lisäämisestä mahdollisuuksille, tarjouksille tai laskuille Dynamics 365 Project Service Automationin versiossa 2.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144589"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995217"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Uusien mukautettujen entiteettilomakkeiden lisääminen (Project Service Automation 2. x)
 
@@ -59,7 +57,7 @@ Voit luoda mukautetun version **Projektitiedot**-lomakkeesta seuraavalla tavalla
     - Vie **Omat projektitiedot** lomake hallitsemattoman ratkaisun osana ja etsi sitten **formId** -arvo viedyn ratkaisun customization.xml-tiedostosta.
     - Avaa lomake **Omat projektitiedot** lomake-editorissa ja etsi sitten **fromid** -parametrin vieressä URL-osoitteessa oleva GUID-tunnus seuraavassa kuvassa näkyvällä tavalla.
 
-    ![Uuden lomakkeen formId-arvo URL-osoitteessa](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Uuden lomakkeen formId-arvo URL-osoitteessa.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Luo **msdyn\_ordertype** -yhdistämismääritys **formId**-arvolle muokkaamalla verkkoresurssia msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Poista koodi resurssista ja korvaa se seuraavalla koodilla.
 
@@ -96,3 +94,6 @@ Voit luoda mukautetun version **Projektitiedot**-lomakkeesta seuraavalla tavalla
     ```
 
 6. Tallenna ja julkaise mukautukset.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

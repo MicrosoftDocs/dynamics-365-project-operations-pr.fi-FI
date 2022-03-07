@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270899"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4075488"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automationin integrointiparametrit
 
@@ -47,6 +47,3 @@ Avaa **Project Service Automationin integrointiparametrit** -sivu kohdasta **Pro
 | Laskutustyypin oletusravot  | Laskutustyyppi         | Valitse **Uusi**, kun haluat lisätä rivin, jolla voit valita laskutustyypin, jolle määritetään oletusarvoinen riviominaisuus. Tietty laskutustyyppi voidaan valita vain kerran määrityksessä. |
 |                        | Riviominaisuus        | Valitse valitulle laskutustyypille oletusarvoinen riviominaisuus. Kun uusia työaika-arvioita, uusia kuluarvioita tai uusia toteutuneita arvoja synkronoidaan Project Service Automationista, **Riviominaisuus**-kentän arvoksi määritetään laskutustyypin oletusarvo. |
 | Toimintojen lukitus  | Ei käytettävissä       | Valitse Financen toiminta, joka poistetaan käytöstä projekteilla ja sopimuksilla, jotka ovat peräisin Project Service Automationista. Voit esimerkiksi poistaa käytöstä mahdollisuuden muokata sopimuksia ja projekteja, luoda työrakenteita ja kirjata aikaraportteja Financessa. Kirjan pitoon liittyvät kentät ovat edelleen käytössä, vaikka ne eivät parametriasetuksen mukaan olisi käytettävissä. Kaikki toiminnot ovat oletusarvoisesti käytössä. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: dda8bc58c00082a9ef3835ea293003c63013983f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643162"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277964"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Useiden asiakkaiden hallinta projektisopimuksissa
 
@@ -47,3 +47,6 @@ Sopimusasiakas voidaan luoda, päivittää tai poistaa **Sopimusasiakkaat**-väl
 Laskutuksen jakoprosenttia voidaan muokata ruudukossa. Jos laskutuksen jakoprosenttien yhteissumma ei ole 100 prosentti, seurauksena on virhe. Kun laskutuksen jakoprosenttia on muokattu, päivitä **Projektisopimus**-sivu virheen poistamiseksi.
 
 Voit kokeilla myös **Jaa tasaisesti** -vaihtoehdon valintaa projektisopimusasiakkaiden aliruudukossa. Laskutuksen jakoprosentit kohdistetaan tasaisesti kaikille projektisopimuksen asiakkaille. Mahdollinen pyöristyskerron lisätään pyöristysasiakkaaseen. Jonkin sopimusasiakkaan **Pyöristys** lipun arvon on aina oltava **Kyllä**. Tämä asiakas on pyöristysasiakas. Yleensä pyöristysasiakas on myös palvelusopimuksen ensisijainen asiakas, mutta se ei ole pakollista.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

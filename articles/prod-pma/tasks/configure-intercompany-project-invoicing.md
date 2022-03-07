@@ -2,11 +2,9 @@
 title: Konsernin sisäisen projektilaskutuksen määrittäminen
 description: Tämä aihe osoittaa, miten projektilaskutus määritetään kahden yrityksen välille organisaatiossa.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfb804945d15476fad29ce93d3f21adfbf2d950ace7b58f30911b36e494ff0c1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075407"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989411"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konsernin sisäisen projektilaskutuksen määrittäminen
 
@@ -64,3 +62,6 @@ Tämä aihe osoittaa, miten projektilaskutus määritetään kahden yrityksen v�
 32. Kirjoita **Hinnoittelu**-kenttään numero.
 33. Valitse **Tallenna**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

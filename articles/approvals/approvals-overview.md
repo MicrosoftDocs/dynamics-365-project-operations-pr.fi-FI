@@ -3,53 +3,50 @@ title: Hyväksyntöjen yleiskatsaus
 description: Tämä aihe tarjoaa tietoja hyväksymisten käsittelemisestä Project Operationsissa.
 author: stsporen
 manager: Annbe
-ms.date: 03/31/2021
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852495"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123824"
 ---
 # <a name="approvals-overview"></a>Hyväksyntöjen yleiskatsaus
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Ajan, kulun ja materiaalin käytön lähetykset liikkuvat hyväksynnän työnkulun läpi. Kun tapahtumat on hyväksytty, tapahtumat kirjataan toteutuneisiin tai aika varataan aikataulussa.
+Ajan ja kulujen lähetykset siirtyvät hyväksymisen työnkulun läpi. Kun tapahtumat on hyväksytty, tapahtumat kirjataan toteutuneisiin tai aika varataan aikataulussa.
 
 ## <a name="approvals-workflow"></a>Hyväksyntätyönkulku
-Kun luot ja lähetät ajan, kulun tai materiaalin käytön merkinnän, luodaan hyväksyntätietue. Projektin hyväksyjä tai esimies arvioi ja hyväksyy merkinnän. Jos merkintä liittyy projektiin, toteutuneet arvot luodaan, kun se hyväksytään. Tämä sallii kustannusten ja laskutuksen seurannan.
+Kun luot ja lähetät aika- tai kulutapahtuman, järjestelmä luo hyväksymismerkinnän. Projektin hyväksyjä tai esimies tarkistaa ja hyväksyy merkinnän. Jos merkintä liittyy projektiin, todelliset arvot luodaan, kun se on hyväksytty. Tämä sallii kustannusten ja laskutuksen seurannan. 
 
 ## <a name="approve-an-entry"></a>Merkinnän hyväksyminen
-**Hyväksynnät**-sivulla voit siirtyä eri näkymien välillä niin, että voit tarkastella erityyppisiä hyväksyntöjä.
+**Hyväksynnät**-lomakkeen avulla voit siirtyä eri näkymien välillä niin, että voit tarkastella eri hyväksyntöjen tyyppejä.
   
-1. Siirry **Hyväksynnät**-sivulle ja valitse **Kulut**, **Aika**, **Materiaalin käyttö** tai **Peruutukset**.
+1. Siirry **Hyväksynnät**-lomakkeeseen ja valitse **Kulut**, **Aika** tai **Peruutukset**.
 2. Tarkista kukin hyväksyntä ja valitse ne, jotka haluat hyväksyä.
 3. Hyväksy valitut tapahtumat valitsemalla **Hyväksy**.
-Järjestelmä käsittelee nämä merkinnät ja luo toteutuneet arvot.
+Järjestelmä käsittelee nämä merkinnät ja luo toteutuneet arvot tai varauksen.
 
 ## <a name="reject-an-entry"></a>Tietueen hylkääminen
 Projektin hyväksyjänä sinun täytyy ehkä lähettää tapahtuma uudelleen käyttäjälle korjausta varten.
   
-1. Siirry **Hyväksynnät**-sivulle ja valitse hylättävä merkintä. 
+1. Siirry **Hyväksynnät**-lomakkeeseen ja valitse hylättävä tapahtuma. 
 2. Valitse **Hylkää**.
-3. Valinnaisesti voit lisätä kommentin **Hylkäyskommemmentit**-valintaikkunaan ja ilmoittaa käyttäjälle, miksi merkintä hylätään.
+3. Valinnainen – Voit lisätä kommentin **Hylkäyksen kommentit** -valintaikkunaan ja ilmoittaa käyttäjälle, miksi merkintä hylätään.
 4. Valitse **OK**. Tapahtuma palautetaan käyttäjälle.
   
-## <a name="cancel-approval"></a>Peruuta hyväksyntä
-Joissakin tapauksissa aiemmin hyväksytty merkintä on ehkä peruutettava. Aiemmin hyväksytyn merkinnän peruuttaminen vaikuttaa taloustietoihin. 
-
-## <a name="approving-recall-requests"></a>Peruutuspyyntöjen hyväksyminen
-Joissakin tapauksissa konsultin on ehkä syytä peruuttaa aiemmin hyväksytty merkintä. Aiemmin hyväksytyn merkinnän peruuttaminen vaikuttaa taloustietoihin. Projektin hyväksyjän on hyväksyttävä peruutus, jotta tapahtuma voidaan kumota toteutuneissa arvoissa.
+## <a name="recall-entries"></a>Merkintöjen peruuttaminen
+Jossakin vaiheessa on ehkä peruutettava lähetetty tapahtuma. Jos tapahtumaa ei ole hyväksytty, se palautetaan heti. Hyväksytyllä tapahtumalla voi kuitenkin olla merkittävä vaikutus. Projektin hyväksyjän on hyväksyttävä peruutus, jotta tapahtuma voidaan palauttaa toteutuneissa arvoissa.
 
 ## <a name="specify-project-approvers"></a>Määritä projektin hyväksyjät
 Kullakin projektilla on useita projektiryhmän jäseniä. Voit määrittää, mitkä ryhmän jäsenet ovat myös projektin hyväksyjiä.
 
-1. Siirry **Projektit**-sivulle ja avaa projekti luettelosta.
+1. Siirry **Projektit**-lomakkeeseen ja avaa projekti luettelosta.
 2. Valitse **Ryhmä**-välilehdestä ryhmän jäsen, josta tulee projektin hyväksyjä, ja valitse sitten **Muokkaa**.
 3. Valitse **Projektin hyväksyjä** -kentässä **Kyllä**.
 4. Valitse **Tallenna**.
@@ -62,6 +59,3 @@ Kullakin projektilla on useita projektiryhmän jäseniä. Voit määrittää, mi
 3. Valitse **Tallenna**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

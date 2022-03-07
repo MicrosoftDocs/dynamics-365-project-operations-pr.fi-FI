@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009212"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433649"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Heinäkuun 2021 Project Operations lite-käyttöönoton uudet ominaisuudet
 
@@ -20,7 +20,7 @@ _Käytetään: Lite-käyttöönotto – kauppa proformalaskutukseen_
 
 Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
 
-  - Project Operations Dataversessä ympäristöversio 4.12.0.148 tai 4.12.0.152.
+  - Project Operations Dataverse-ympäristön versiossa 4.12.0.148.
 
 ## <a name="quality-updates"></a>Laatupäivitykset
 | **Ominaisuusalue**              | **Viitenumero** | **Laatupäivitys**                                                                                                                                                                                             |
@@ -59,4 +59,3 @@ Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja 
 | Yhteiset                       | 2296857              | Pitkään suoritettavien töiden edistymisen seuranta.                                                                                                                                                                        |
 | Yhteiset                       | 2253682              | Project Operationsin kaksoiskirjoitusratkaisua ei pitäisi asentaa, kun kaksoiskirjoitusydin asennetaan ympäristöön, jossa ei ole kaksoiskirjoituksen hallintaratkaisua.                                                |
 | Yhteiset                       | 2316420              | Project Servicen ytimen valmistelu epäonnistuu, jos sovelluksen käyttäjän liiketoimintayksikköä muutetaan.                                                                                                                     |
-| Yhteiset                       | 2376405              | Julkaisijan korjaama päivitysongelma (laatupäivitys on saatavana versiossa 4.12.0.152)                                                                                                                     |

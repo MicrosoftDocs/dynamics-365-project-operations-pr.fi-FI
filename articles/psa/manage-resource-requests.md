@@ -2,8 +2,6 @@
 title: Hallitse resurssipyyntöjä
 description: Resurssipyyntöjen hallinta Project Servicessä
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149854"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985137"
 ---
 # <a name="manage-resource-requests-project-service"></a>Hallitse resurssipyyntöjä (Project Service)
 
@@ -45,9 +43,12 @@ Asiakaspäälliköt ja projektipäälliköt pyytävät säännöllisesti resurss
   
    -   Valitsemalla **Suodatin** näyttöön tulee **Suodatin**-ruutu, jonka avulla voit suodattaa tuloksia organisaatioyksikön, roolin, osaamisalueen tai muiden määritteiden mukaan.  
   
-       ![Project Servicen Resurssipyynnöt-näyttö](../psa/media/project-service-resource-request-screen.png "Project Servicen Resurssipyynnöt-näyttö.").  
+       ![Project Servicen Resurssipyynnöt-näyttö.](../psa/media/project-service-resource-request-screen.png "Project Servicen Resurssipyynnöt-näyttö")  
   
 3. Haluamasi resurssin kalenterissa valitse ajanjakso resurssin varaamista varten ja varaa resurssi valitsemalla joko **Varaa** resurssi tai ehdota varausta valitsemalla **Ehdota varausta** ja anna pyytäjän hyväksyä se. Voit varata resurssin alustavasti tai sitovasti.  
   
 ### <a name="see-also"></a>Katso myös  
  [Resurssipäällikön opas](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

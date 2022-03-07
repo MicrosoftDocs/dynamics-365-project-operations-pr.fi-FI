@@ -2,18 +2,16 @@
 title: Projektipohjaisten tarjousten kopiointi
 description: Tämä aihe tarjoaa tietoja Project Operationsin projektitpohjaisten tarjousten kopioimisesta.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181808"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992157"
 ---
 # <a name="copy-project-based-quotes"></a>Projektipohjaisten tarjousten kopiointi
 
@@ -45,3 +43,6 @@ Kun valitset dialogisivulla **OK**, järjestelmä luo projektitarjouksesta kopio
 > - Projektiviittaus projektipohjaisilla tarjousriveillä – asiakasbudjetin tiedot
 >
 >Koska nämä tiedot ovat hyvin tarjouskohtaisia, näitä kenttiä ja tietueita ei kopioida. Projektien ja tuotteiden tarjousrivit, tarjousrivien tietojen arviot ja tarjoustason ei-ylitettävät arvot kopioidaan. Hinta- ja kustannushintaoletukset määräytyvät **Kopioi parametrit** -valintaikkunassa valitun **Kopioi hinnoittelu** -asetuksen mukaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

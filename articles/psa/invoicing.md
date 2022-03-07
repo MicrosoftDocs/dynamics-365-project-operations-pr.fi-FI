@@ -2,12 +2,10 @@
 title: Laskutus Project Service Automationissa
 description: Tässä aiheessa on tietoja laskutuksesta.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151384"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015057"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Laskutus Project Service Automationissa
 
@@ -117,3 +115,6 @@ Kun vahvistat korjaavan laskun, alkuperäinen laskutetun myynnin todellinen arvo
 
 - Laskutetun myynnin todellisen arvon kuudelle tunnille.
 - Laskuttamattoman myynnin todellisen arvon kahdelle jäljelle jääneelle tunnille. Tämä tapahtuma voidaan joko laskuttaa myöhemmin tai merkitä ei-veloitettavaksi riippuen siitä, mitä asiakkaan kanssa sovitaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

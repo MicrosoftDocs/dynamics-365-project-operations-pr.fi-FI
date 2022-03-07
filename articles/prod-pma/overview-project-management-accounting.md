@@ -2,11 +2,9 @@
 title: Projektinhallinnan ja kirjanpidon yleiskuvaus
 description: Projektinhallinta- ja kirjanpitotoimintoja voi käyttää useilla toimialoilla palvelun tarjoamiseen, tuotteen tuottamiseen tai tuloksen saavuttamiseen.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a6d3b9eb97fce836e5b2310714d8f731b2c09e6c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075491"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008127"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektinhallinnan ja kirjanpidon yleiskuvaus
 
@@ -205,7 +203,7 @@ Voit tilata nimikkeitä yrityksen varastosta projektin kulutusta varten. Vaihtoe
 
 Kohteiden tilaustapa määräytyy sen mukaan, mistä tilaat ne:
 
--   Jotta voit tilata nimikkeitä yrityksen varastosta, sinun täytyy syöttää tilaus nimiketarpeeksi. Jos käytät **Nimiketarpeet**-sivua, voit määrittää tarpeen niin, että vastaanotat nimikkeitä osittaisena toimituksena. Siksi voit lykätä nimikkeiden määrän kulutusta, kunnes nimikkeet ovat pakollisia.
+-   Jotta voit tilata nimikkeitä yrityksen varastosta, sinun täytyy syöttää tilaus nimiketarpeeksi. Jos käytät **Nimiketarpeet**-sivua, voit määrittää tarpeen niin, että vastaanotat nimikkeitä osittaisena toimituksena. Siksi voit lykätä nimikkeiden määrän kulutusta, kunnes nimikkeet ovat pakollisia.
 -   Jos haluat tilata nimikkeitä ulkoiselta toimittajalta, tilaus on luotava ostotilauksena **Ostotilaus**-sivulla.
 
 > [!NOTE] 
@@ -227,7 +225,7 @@ Projektityyppi määrittää, mitä laskutusmenettelyä tulisi käyttää. Vain 
 Ennen kuin luot projektille myyntilaskun, voit luoda alustavan laskun tai laskuehdotuksen. Laskuehdotuksessa voit valita projektilaskuun sisällytettävän projektin tapahtumat. Tämän jälkeen voit tarkastella laskun tietoja, ennen kuin kirjaat projektilaskun ja lähetät sen asiakkaalle tai muulle rahoituslähteelle. 
 
 
-Lisätietoja projektilaskutuksen käsittelystä on aiheessa [Projektilaskutus](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Lisätietoja projektilaskutuksen käsittelystä on aiheessa [Projektilaskutus](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Projektin valmistumiskustannusten laskeminen
@@ -300,7 +298,7 @@ Voit ennustaa valitun projektin kassavirrat oman asetuksen perusteella. Jos proj
 -   **Projektin päivämäärä:** 5. maaliskuuta 2012.
 -   **Laskun päivämäärä:** 31. maaliskuuta 2012. Tämä päivämäärä määräytyy laskun taajuuden mukaan. Tässä esimerkissä laskun toistumisväli määritetään nykyiselle kuukaudelle. Siksi kaikki tapahtumat, jotka on kirjattu maaliskuun aikana, laskutetaan kuukauden viimeisenä päivänä.
 -   **Määrä päivä:** 14. huhtikuuta 2012. Tämä päivämäärä määräytyy projektille määritettyjen maksuehtojen perusteella. Tässä esimerkissä valitaan maksuehdot 14 päivältä. Tämän vuoksi laskun päivämäärään lisätään 14 päivää, jotta se saapuu 14. huhtikuuta 2012.
--   **Odotettu myyntimaksupäivä:** 27. huhtikuuta 2012. Tämä päivämäärä lasketaan laskemalla yhteen **projektinhallinta ja kirjanpitoparametrit**  -sivun **yleiset puskuripäivät** -kentän päivien määrä **Projektisopimukset**-sivun **yksittäisten puskuripäivien** välillä ja lisäämällä kokonaissumma **määräpäivä**-kentän päivien lukumäärään . Tässä esimerkissä kirjoitit **3** **Yleiset puskuripäivät** -kenttään ja **10** **Yksittäiset puskuripäivät** -kenttään. Siksi eräpäivään lisätään 13 päivää odotetun myyntipäivän, 27. huhtikuuta 2012, saavuttamiseksi.
+-   **Odotettu myyntimaksupäivä:** 27. huhtikuuta 2012. Tämä päivämäärä lasketaan laskemalla yhteen **projektinhallinta ja kirjanpitoparametrit** -sivun **yleiset puskuripäivät** -kentän päivien määrä **Projektisopimukset**-sivun **yksittäisten puskuripäivien** välillä ja lisäämällä kokonaissumma **määräpäivä**-kentän päivien lukumäärään. Tässä esimerkissä kirjoitit **3** **Yleiset puskuripäivät** -kenttään ja **10** **Yksittäiset puskuripäivät** -kenttään. Siksi eräpäivään lisätään 13 päivää odotetun myyntipäivän, 27. huhtikuuta 2012, saavuttamiseksi.
 
 Yleiset puskuripäivät voivat joko korvata yksittäiset puskuripäivät tai ne voidaan lisätä yksittäisiin puskuripäiviin:
 
@@ -440,3 +438,6 @@ Kun tiliote on laskettu, voit tarkastella seuraavia tietoja **Projektitiliotteet
 -   **Kulutus** – Tietoja tuntien, nimikkeiden, kulujen ja palkanlaskennan tapahtumien kulutuksesta.
 -   **Lasku** – Tietoja laskuista ja ennakkolaskutuksesta.
 -   **Tuntihinta** – Tuotto- ja kustannustileille kirjattujen tuntien tuntihinnat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

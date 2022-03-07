@@ -2,11 +2,9 @@
 title: Työrakenteiden yleiskatsaus
 description: Työrakenne (WBS) on niiden töiden kuvaus, jotka projektissa tehdään. Se on tehtävähierarkia, joka edustaa projektiryhmän tietämystä työn koostumuksesta sekä kunkin osan tai tehtävän koosta, kustannuksista ja kestosta.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 713e38f4218b980c4256e433e90c12adccd70e11
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075323"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012222"
 ---
 # <a name="work-breakdown-structures-overview"></a>Työrakenteiden yleiskatsaus
 
@@ -316,3 +314,6 @@ Voit myös korjata aikataulutusvirheet yksitellen napsauttamalla kunkin tehtäv�
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

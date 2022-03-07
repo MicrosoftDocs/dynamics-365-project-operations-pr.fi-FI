@@ -2,18 +2,17 @@
 title: Resurssin käytön yleiskatsaus
 description: Tässä aiheessa on tietoja resurssin käytöstä Project Operationsissa.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.custom: intro-internal
+ms.openlocfilehash: c9464b1de87211f8317a39a1d749e619769309ae
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401372"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6367932"
 ---
 # <a name="resource-utilization-overview"></a>Resurssin käytön yleiskatsaus
 
@@ -45,3 +44,6 @@ Lisäksi jokaiselle varattavissa olevalle resurssille on määritettävä oletus
 **Project Service** -välilehdellä voit myös määrittää yksittäisen tavoitekäytön resurssille. Käytön laskenta käyttää sen jälkeen tätä tavoitekäyttöastetta määrittääkseen resurssin tavoitteen resurssin oletusroolin tavoitteen asemesta.
 
 Resurssin käyttöaste näytetään ainoastaan, jos resurssilla on hyväksyttyä laskutettavaa aikaa sen jakson aikana, joka näkyy ruudukossa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

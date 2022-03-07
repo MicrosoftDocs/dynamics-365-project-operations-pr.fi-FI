@@ -2,8 +2,6 @@
 title: Projektiresurssikeskuksen käyttöopas
 description: Projektiresurssikeskuksen loppukäyttäjän opas Project Servicessä
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948135"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987252"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Projektiresurssikeskuksen käyttöopas
 
@@ -51,14 +49,14 @@ Laitteeseesi on ladattava mobiilisovellus, ennen kuin aloitat projektiresurssike
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 puhelimille ja tableteille -sovelluksen asentaminen](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Siirtymisen perustoiminnot
-1.  Kun kirjaudut sisään mobiilisovellukseen, näkyvissä on Omat sovellukset -sivu ja käytettävissäsi olevien sovellusten luettelo. 
+1.  Kun kirjaudut sisään mobiilisovellukseen, näkyvissä on MyApps-sivu ja käytettävissäsi olevien sovellusten luettelo. 
 2.  Valitse **Projektiresurssikeskus**.
 
-![Valitse sovellus](media/chooseApp_1.png "Valitse sovellus")
+![Valitse sovellus.](media/chooseApp_1.png "Valitse sovellus")
 
 **Siirtymispalkki**
 
-Siirtymispalkin avulla voit siirtyä työalueellesi, luoda uuden tietueen, hakea ja tehdä muita tehtäviä. Voit käyttää lisäkomentoja napauttamalla ![Lisää-painiketta](media/MoreButton.png "Lisää-painike").
+Siirtymispalkin avulla voit siirtyä työalueellesi, luoda uuden tietueen, hakea ja tehdä muita tehtäviä. Voit käyttää lisäkomentoja napauttamalla ![Lisää-painiketta.](media/MoreButton.png "Lisää-painike")
 
 ![Siirtymispalkki](media/NavBar_2.png "Siirtymispalkki")
 
@@ -66,16 +64,16 @@ Siirtymispalkin avulla voit siirtyä työalueellesi, luoda uuden tietueen, hakea
 
 Suosikkien ja viimeksi käytettyjen osien avulla voit avata tietueet, näkymät ja koontinäytöt nopeasti. 
 
-- Voit käyttää näitä osia valitsemalla siirtymispalkin **Valikko** ![Valikko-painike](media/MenuButton.png "Valikkopainike") -painikkeen ja valitsemalla sitten **Suosikit ja viimeisimmät** ![Suosikit-painike](media/FavButton.png "Suosikkipainike")-painikkeen.
+- Voit avata nämä osat napauttamalla **Valikko** ![Valikko-painiketta.](media/MenuButton.png "Valikkopainike") -painiketta siirtymispalkissa ja napauta sitten **Suosikit- ja Viimeisimmät** ![Suosikki-painike](media/FavButton.png "Suosikkipainike") -painiketta.
 
 - Voit kiinnittää kohteen suosikiksi napauttamalla nastaa **Viimeksi käytetyt** -kohteiden luettelossa. Kohde kiinnitetään ja siirretään suosikkeihin.
 
   ![Suosikit ja viimeisimmät kohteet](media/Favs_3.png "Suosikit ja viimeisimmät kohteet")
  
-## <a name="enter-time"></a>Ajan lisääminen
+## <a name="enter-time"></a>Ajan merkitseminen
 Anna työtunnit vähintään viikoittain (tai esimiehesi pyytämällä taajuudella) varmistaaksesi, että asiakkaita laskutetaan ja laskut hyvitetään oikein.
 
-1. Valitse valikkopainike ![Valikkopainike](media/MenuButton.png "Valikkopainike") ja valitse sitten **Aikamerkinnät**. Tämä tuo näyttöön kalenterisi.
+1. Napauta valikko ![valikkopainiketta.](media/MenuButton.png "Valikkopainike") -painiketta ja sitten **Aikamerkinnät**. Tämä tuo näyttöön kalenterisi.
 
 2. Kalenterin edellisen tai seuraavan viikon saat näkyviin napauttamalla **Edellinen**- tai **Seuraava**-painiketta. Napauta **Tänään**-kohtaa, kun haluat palata kuluvaan viikkoon.
 

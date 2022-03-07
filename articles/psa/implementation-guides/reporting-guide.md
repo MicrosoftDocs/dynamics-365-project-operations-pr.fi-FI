@@ -2,8 +2,6 @@
 title: Raportointiopas
 description: Tässä aiheessa on linkkejä raportointia koskeviin tietoihin.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 02/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 10f4a6cbd741008b696ae9dd147307413b5b7936
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dbfcbc724842a0c2dd507da63b45608f3a18b9eae489f72e2ec0bd50f9fd2f24
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150799"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985408"
 ---
 # <a name="reporting-guide"></a>Raportointiopas
 
@@ -41,3 +39,6 @@ Tässä aiheessa aiemmin ollut PDF-linkki on poistettu ja tiedoston sisältö on
 
 > [!NOTE]
 > Tämä aihe poistetaan myöhemmässä dokumentaatiopäivityksessä. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

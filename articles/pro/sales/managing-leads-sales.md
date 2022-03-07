@@ -2,18 +2,16 @@
 title: Liidien hallinta – lite
 description: Tässä aiheessa on tietoja projektipohjaisten liidien hallinnasta (pro).
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 67480459478ffb8a157a2943af919dc63721b779
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272834"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994717"
 ---
 # <a name="manage-leads---lite"></a>Liidien hallinta – lite
 
@@ -55,7 +53,7 @@ Liidejä, joiden **Tyyppi**-arvoksi on määritetty **Työperusteinen**, kutsuta
 - Asiakkaaseen liittyvä yhteyshenkilötietue, joka perustuu liidin **Etunimi**- ja **Sukunimi**-kenttien arvoihin.
 - Projektipohjainen mahdollisuus, jonka **Tyyppi**-kentän arvo on **Työperusteinen**.
 
-Lisätietoja liidien hyväksymisestä on aiheessa [Liidien hyväksyminen tai muuntaminen](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Lisätietoja liidien hyväksymisestä on aiheessa [Liidien hyväksyminen tai muuntaminen](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Projektiin perustuvien tarjousten liiketoimintaprosessi
 

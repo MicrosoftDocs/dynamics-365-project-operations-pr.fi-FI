@@ -2,18 +2,16 @@
 title: Uudet ominaisuudet marraskuussa 2020 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 description: Tässä aiheessa on tietoja Project Operationsin resursseihin ja ei-varastoitaviin perustuvien skenaarioiden marraskuun 2020 version päivityksissä olevia laatupäivityksiä.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
+ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367261"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007952"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Uudet ominaisuudet marraskuussa 2020 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 
@@ -67,4 +65,7 @@ Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja 
 | Projektin kirjanpito  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Useiden sopimusrivien toiminnon käyttöönottaminen ei ole mahdollista CDS-integrointia.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Säännöstenmukaisuuspäivitykset
-Lisätietoja Finance and Operations -sovellusten säännöstenmukaisuuspäivityksistä on kohdassa [Säännöstenmukaisuuspäivitykset](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Voit myös kirjautua LCS:ään ja tutustua suunniteltuihin säännöstenmukaisuuspäivityksiin käyttämällä versiohakutyökalua. Versiohaussa voit käyttää hakuehtona maata, ominaisuustyyppiä ja versiota.
+Lisätietoja Finance and Operations -sovellusten säännöstenmukaisuuspäivityksistä on kohdassa [Säännöstenmukaisuuspäivitykset](/dynamics365/finance/localizations/regulatory-updates). Voit myös kirjautua LCS:ään ja tutustua suunniteltuihin säännöstenmukaisuuspäivityksiin käyttämällä versiohakutyökalua. Versiohaussa voit käyttää hakuehtona maata, ominaisuustyyppiä ja versiota.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

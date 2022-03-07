@@ -2,18 +2,16 @@
 title: Työn kustannushintojen määrittäminen
 description: Tämä aihe sisältää tietoja siitä, miten työvoimakustannukset määritetään Project Operationsissa
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180593"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986172"
 ---
 # <a name="set-up-labor-cost-rates"></a>Työn kustannushintojen määrittäminen
 
@@ -40,7 +38,7 @@ Seuraavassa taulukossa on joitakin kenttiä, jotka ovat tärkeitä luotaessa ty�
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Siirrä hinnoittelu ja kustannukset resursseille, jotka eivät kuulu jaostoosi tai oikeushenkilöösi
 
-Projektipohjaisissa yrityksissä on tavallista käyttää projektiin eri oikeushenkilöiden tai osastojen työntekijöitä. Projektin voi toteuttaa yksi oikeushenkilö, mutta projektissa työskentelevät työntekijät tai konsultit voivat tulla samalta oikeushenkilöltä tai toiselta, tai molemmat voivat olla yhdistettyjä. Dynamics 365 Project Operationsissa oikeushenkilö, joka omistaa projektin toimituksen, kutsutaan **omistajayritykseksi** ja jaosta, joka omistaa toimituksen, kutsutaan **sopimusyksiköksi**. Muita resursseja toimittavien oikeushenkilöiden nimenä on **resursointiyritys**, ja resursseja tuottavia osastoja kutsutaan **resursointiyksiköiksi**. Useimmissa maissa yritysten on varmistettava, että resurssipäällikkö tai -osasto veloittaa omistettavaa yritystä ja hankintayksikköä resurssien käytöstä.
+Projektipohjaisissa yrityksissä on tavallista käyttää projektiin eri oikeushenkilöiden tai osastojen työntekijöitä. Projektin voi toteuttaa yksi oikeushenkilö, mutta projektissa työskentelevät työntekijät tai konsultit voivat tulla samalta oikeushenkilöltä tai toiselta, tai molemmat voivat olla yhdistettyjä. Dynamics 365 Project Operationsissa projektin toimituksen omistava yritys on **Omistava yritys** ja toimituksen omistava yritys on **Sopimusyksikkö**. Muita resursseja toimittavien oikeushenkilöiden nimenä on **resursointiyritys**, ja resursseja tuottavia osastoja kutsutaan **resursointiyksiköiksi**. Useimmissa maissa yritysten on varmistettava, että resurssipäällikkö tai -osasto veloittaa omistettavaa yritystä ja hankintayksikköä resurssien käytöstä.
 
 Esimerkiksi Fabrikam Corporationin on varmistettava, että Fabrikam Intia-Robotics on neuvotellut kustannushintakortin Fabrikam US-Roboticsin tai Fabrikam UK-Roboticsin kanssa.
 
@@ -84,3 +82,6 @@ Fabrikam UK-Roboticsin kustannushinnastossa kustannushinnat voidaan ilmaista seu
 | Developer | Fabrikam UK | 115 GBP |
 
 Kustannushinnastossa voi olla työvoimahinnat useissa valuutoissa. Kun projektin kustannusarvio luodaan, Project Operations muuntaa nämä kustannusprosentit projektivaluuttaan ja näyttää ne käyttäjälle. Kun ajankohta on hyväksytty ja todellinen kustannus luodaan, todellinen kustannushinta on hinnoiteltu vastaavan roolihintarivin valuutassa kustannushinnastossa. Yksittäisen projektin kustannusten toteutuneet kustannukset voidaan kirjata useina valuuttoina. Kun kuitenkin kootaan tai tiivistetään todelliset työvoimakustannukset projektitasolla, Project Operations muuntaa kaikki työvoimakustannussummat projektin valuutaksi, jonka käyttäjä voi tarkastella.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

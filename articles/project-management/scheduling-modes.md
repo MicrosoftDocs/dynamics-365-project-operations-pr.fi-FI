@@ -2,18 +2,16 @@
 title: Aikataulutustilat
 description: Tässä aiheessa on tietoja aikataulutustiloista.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981431"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116703"
 ---
 # <a name="scheduling-modes"></a>Aikataulutustilat
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations tarjoaa organisaatioille mahdollisuuden määrit
 Project Operationsissa on käytettävissä kolme aikataulutustilaa:
 
   - Kiinteä kesto (tämä on oletustila)
-  - Kiinteä työ
+  - Kiinteä työmäärä (*Työ*)
   - Kiinteät yksiköt
 
 Tietyn aikataulutustilan määrityksen vaikutukset määräytyvät seuraavan kaavan mukaan:
 
-  Työmäärä (*työ*) = Kesto x yksiköt
+  Työmäärä = Kesto x yksiköt
 
 Kun määrität projektin aikataulutustilan, määrität yhden näistä arvoista, joita ei voi muuttaa. Jos tämä arvo pidetään asetinarvona, arvoksi tulee prioriteetti, joka ilmoittaa, että järjestelmä ei halua muuttaa arvoa, kun muut arvot muuttuvat. Seuraavassa taulukossa on tietoja tietyn tilan valitsemisen vaikutuksista.
 

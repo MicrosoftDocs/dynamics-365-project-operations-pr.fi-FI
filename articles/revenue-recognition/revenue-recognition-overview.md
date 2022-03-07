@@ -2,18 +2,17 @@
 title: Tuoton kirjaamisen yleiskatsaus
 description: Tässä aiheessa on tietoja tuoton kirjaamisesta Project Operationsissa.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6844f4c5d4cda8a6a901b0302448f70f4c597f5d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.custom: intro-internal
+ms.openlocfilehash: ab9b36b71223b1bcfe48de5f9b68b6fb6a98f388
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531410"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368022"
 ---
 # <a name="revenue-recognition-overview"></a>Tuoton kirjaamisen yleiskatsaus
 
@@ -60,3 +59,6 @@ Dynamics 365 Project Operationsissa tuoton kirjaamisperiaatteet vaihtelevat proj
 [Myyntituottoarvioiden hallinta](rev-rec-completed-contract-method.md)
 
 [Valmistumiskustannusmenetelmät](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

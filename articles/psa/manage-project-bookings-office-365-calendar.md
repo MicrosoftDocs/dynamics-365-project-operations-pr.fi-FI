@@ -2,8 +2,6 @@
 title: Projektien ja varausten hallinta Office 365 -kalenterissa
 description: Projektien ja varausten hallintatapa Office 365 -kalenterissa
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144454"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985318"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Projektien ja varausten hallinta kalenterissa (Project Service)
 
@@ -52,7 +50,7 @@ Voit tarkastella henkilökohtaisia tapaamisia, projektityön varauksia ja Field 
   
 - Tarvitset [!INCLUDE[pn_office_365](../includes/pn-office-365.md)]:n yleisen järjestelmänvalvojan tai järjestelmänvalvojan tunnistetiedot.  
   
-- Järjestelmänvalvojan on määritettävä sähköpostipalvelinprofiili ja jokaisen käyttäjän on määritettävä postilaatikkonsa. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sähköpostin käsittelyn asettaminen palvelinpään synkronoinnille](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Järjestelmänvalvojan on määritettävä sähköpostipalvelinprofiili ja jokaisen käyttäjän on määritettävä postilaatikkonsa. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sähköpostin käsittelyn asettaminen palvelinpään synkronoinnille](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Synkronoinnin ottaminen käyttöön organisaatiossa (järjestelmänvalvojan tehtävä)  
   
@@ -91,3 +89,6 @@ Voit tarkastella henkilökohtaisia tapaamisia, projektityön varauksia ja Field 
   
 ### <a name="see-also"></a>Katso myös  
  [Aika-, kulu- ja yhteistyöopas](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
