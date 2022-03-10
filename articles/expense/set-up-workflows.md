@@ -2,11 +2,9 @@
 title: Kulujen hallinnan työnkulkujen määrittäminen
 description: Voit määrittää työnkulkuprosessin, jota käytetään matka- ja kuluasiakirjojen tarkistukseen ja hyväksyntään.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 883e871b434c910747e45904cc9dc0c46bb4e2df788f503b848ad41984884edd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075375"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997737"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Kulujen hallinnan työnkulkujen määrittäminen
 
@@ -48,3 +46,6 @@ Seuraavassa taulukossa on esitetty työnkulkutyypit, jotka **kulun hallinnan** a
 |       <strong>Matkustusehdotus</strong>       |          Luo matkaehdotusten hyväksyntätyönkulkuja.           |
 |      <strong>Käteisennakkopyyntö</strong>      |         Luo hyväksyntätyönkulut käteisennakkopyynnöille.          |
 |        <strong>ALV:n palautus</strong>        | Voit luoda hyväksyntätyönkulkuja arvonlisäveron palautusta varten.  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

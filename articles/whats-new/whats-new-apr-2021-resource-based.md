@@ -2,19 +2,17 @@
 title: uudet ominaisuudet huhtikuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 description: Tässä aiheessa on tietoja Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa huhtikuun 2021 julkaisussa saatavilla olevista laatupäivityksistä.
 author: sigitac
-manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867989"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008132"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>uudet ominaisuudet huhtikuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 
@@ -33,8 +31,26 @@ Tähän julkaisuun sisältyvät seuraavat ominaisuudet:
   - Ei-varastoitavien materiaalien arviointi ja hinnoittelu projektin myyntikierron aikana. Lisätietoja on kohdassa [Luettelotuotteiden kustannus- ja myyntihintojen määrittäminen – lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Ei-varastoitavien materiaalien käytön seuranta projektin toimituksen aikana. Lisätietoja on kohdassa [Materiaalikäytön kirjaaminen projekteihin ja projektitehtäviin](../material/material-usage-log.md).
   - Laskutuksessa käytettiin ei-varastoitavan materiaalin kustannuksia. Lisätietoja on kohdassa [Laskutuksen jonon hallinta](../proforma-invoicing/manage-billing-backlog.md).
+  - Tietoja tämän ominaisuuden määrittämisestä on aihessa [Ei-varastoivien materiaalien ja odottavien toimittajan laskujen määrittäminen](../procurement/configure-materials-nonstocked.md)
 - Tehtäväpohjainen laskutus: Lisäsi mahdollisuuden liittää projektitehtäviä projektisopimusriveille ja siten käyttää samaa laskutustapaa, laskutusväliä ja asiakkaita kuin sopimusrivillä. Tämä liitos varmistaa tarkan laskutuksen, kirjanpidon sekä myyntituoton arvioinnin ja kirjaamisen, jotta se toimisi tämän projektitehtävien määritysten mukaisesti.
 - Uudet ohjelmointirajapinnat Dynamics 365 Dataversessä sallivat toimintojen luomisen, päivittämisen ja poistamisen **Aikataulutusentiteettien** avulla. Lisätietoja on kohdassa [Aikataulutuksen ohjelmointirajapintojen käyttö toimintojen suorittamiseen ajoitusentiteeteillä](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Project Operationsin kaksoiskirjoituskarttojen päivitys
+
+Seuraavassa luettelossa on esitetty kaksoiskirjoituskarttoja, joita on muokattu tai lisätty Project Operationsin huhtikuussa 2021 julkaistuun julkaisuun.
+
+| **Entiteetin yhdistämismääritys** | **Päivitetty versio** | **Kommentit** |
+| --- | --- | --- |
+| Project Operations -integroinnin todelliset arvot (msdyn\_actuals) | 1.0.0.14 | Kartta on muokattu synkronoimaan materiaaliprojektien toteutuneet kulut. |
+| Project Operations -integrointikohde kuluarvioita varten (msdyn\_estimateslines) | 1.0.0.2 | Lisätty projektisopimusrivin synkronointi Finance and Operations -sovelluksiin tehtäväpohjaisen laskutuksen tuen osalta. |
+| Project Operations -integrointikohde tuntiarvioita varten (msdyn\_resourceassignments) | 1.0.0.5 | Lisätty projektisopimusrivin synkronointi Finance and Operations -sovelluksiin tehtäväpohjaisen laskutuksen tuen osalta. |
+| Project Operationsin materiaaliarvioiden integrointitaulukko (msdyn\_estimatelines) | 1.0.0.0 | Uusi taulukkokartta, joka synkronoi materiaaliarvioita Dataversestä Finance and Operations -sovelluksiin. |
+| Project Operationsin integrointiprojektin toimittajalaskun vientientiteetti (msdyn\_projectvendorinvoices) | 1.0.0.0 | Uusi taulukkokartta, joka synkronoi toimittajalaskujen ylätunnisteita Finance and Operations -sovelluksista Dataverseen. |
+| Project Operationsin integrointiprojektin toimittajalaskurivin vientientiteetti (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Uusi taulukkokartta, joka synkronoi toimittajalaskujen rivejä Finance and Operations -sovelluksista Dataverseen. |
+
+Suorita aina ympäristön uusin versio ja ota käyttöön kaikki taulukkokartat, kun päivität Project Operations Dataverse -ratkaisua ja Finance and Operations -ratkaisuversiota. Tietyt ominaisuudet ja toiminnot eivät ehkä toimi oikein, jos kartan uusinta versiota ei ole aktivoitu. Kartan aktiivinen versio näkyy **Kaksoiskirjoitus**-sivun **Versio**-sarakkeessa. Voit aktivoida kartan uuden version valitsemalla **taulukkokartan versiot**, valitsemalla uusimman ja tallentamalla valitun version. Jos olet mukauttanut valmiin taulukkokartan, kohdista muutokset uudelleen. Lue lisätietoja kohdasta [Ratkaisun elinkaaren hallinta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Jos kartan käynnistykssä ilmenee ongelmia, noudata kaksoiskirjoituksen vianmääritysoppaan ohjeita kohdasta [Karttojen puuttuvat taulukkosarakkeet -ongelma](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
 ## <a name="quality-updates"></a>Laatupäivitykset
 
@@ -67,7 +83,7 @@ Tähän julkaisuun sisältyvät seuraavat ominaisuudet:
 
 | **Ominaisuusalue** | **Viitenumero** | **Laatupäivitys** |
 | --- | --- | --- |
-| Projektinhallinta ja kirjanpito | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Arvion poiston peruutus ei toimi **Kausittaisena**.  |
+| Projektinhallinta ja kirjanpito | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Käänteisen arvion poistaminen ei toimi **Kausittainen**-osassa.  |
 | Projektinhallinta ja kirjanpito | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | **Kirjanpidon oikaisu** -toiminto luo ongelman kirjanpitotileille, joille on valittu **Älä salli manuaalista syöttöä**. |
 | Projektinhallinta ja kirjanpito | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Lisätty liiketoimintalogiikka korjauslaskujen, mukaan lukien ennakkomaksun summan tai käytetyn ennakkomaksun summan, käsittelemiseen. |
 | Projektinhallinta ja kirjanpito | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | KET-myyntiarvon kirjaaminen yritysten välisessä projektilaskutuksessa poimii odottamattoman tilin. |
@@ -82,7 +98,7 @@ Tähän julkaisuun sisältyvät seuraavat ominaisuudet:
 | Matka ja kulut | [482041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=482041) | Eriteltyjen yritysten välisten kuluraporttien veroja ei lasketa oikein. |
 | Matka ja kulut | [483469](https://fix.lcs.dynamics.com/Issue/Details/?bugId=483469) | Projekteihin liittyvät lisäkentät näkyvät uudelleen suunnitellulla **yritysten välisten kuluraporttien** sivulla. |
 | Matka ja kulut | [486592](https://fix.lcs.dynamics.com/Issue/Details/?bugId=486592) | Kuluraporttien otsikkokuittauksissa näkyy virheellinen virhesanoma. |
-| Matka ja kulut | [487971](https://fix.lcs.dynamics.com/Issue/Details/?bugId=487971) | Kuluraportti on kirjattu virheellisesti yritysten välisessä skenaariossa, jos myyntivero on kirjattu kohdeyritykseen. |
+| Matka ja kulut | [487971](https://fix.lcs.dynamics.com/Issue/Details/?bugId=487971) | Kuluraportti on kirjattu virheellisesti yritysten välisessä skenaariossa, jos arvonlisävero on kirjattu kohdeyritykseen. |
 | Matka ja kulut | [505696](https://fix.lcs.dynamics.com/Issue/Details/?bugId=505696) | Raportin lähetyspäivämääriä ei tulosteta hyväksyttyihin kuluraportteihin. |
 | Matka ja kulut | [508726](https://fix.lcs.dynamics.com/Issue/Details/?bugId=508726) | **Hyväksymispäivä** - ja **Hylkäyspäivä** -kentät eivät täyty, kun kulu hyväksytään. |
 | Matka ja kulut | [509913](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509913) | Yhdelle työntekijälle luotua matkustuspyyntöä voi käyttää toisen työntekijän kuluraportissa. |
@@ -95,6 +111,6 @@ Tähän julkaisuun sisältyvät seuraavat ominaisuudet:
 | Matka ja kulut | [527218](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527218) | Myyntihinta lasketaan väärin kuluraporteissa, jotka on luotu ulkomaisena valuuttana käyttämällä tuotuja luottokorttitapahtumia ja jotka on liitetty projektiin. |
 | Matka ja kulut | [542927](https://fix.lcs.dynamics.com/Issue/Details/?bugId=542927) | Peruutettiin **TrvRequisitionLine**-tietoentiteetti ja siihen liittyvä yksilöllinen indeksi. |
 | Matka ja kulut | [543239](https://fix.lcs.dynamics.com/Issue/Details/?bugId=543239) | Lisätty instrumentointi **SOURCEDOCUMENTLINE**-luontiin. |
-| Matka ja kulut | [544323](https://fix.lcs.dynamics.com/Issue/Details/?bugId=544323) | Väärä alikirjanpidon kirjauskansio näytetään yritysten välisessä skenaariossa, jos myyntivero on kirjattu kohdeyritykseen. |
+| Matka ja kulut | [544323](https://fix.lcs.dynamics.com/Issue/Details/?bugId=544323) | Väärä alikirjanpidon kirjauskansio näytetään yritysten välisessä skenaariossa, jos arvonlisävero on kirjattu kohdeyritykseen. |
 | Matka ja kulut | [546877](https://fix.lcs.dynamics.com/Issue/Details/?bugId=546877) | Kuluarvioita ei poisteta Project Operationsissa Financesta, kun ne poistetaan Dataversestä. |
 | Matka ja kulut | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Kun kululuokka on muu kuin projektiluokka, **Kulu**-sivulla valittuja taloushallinnon dimensioita ei kopioida kuluraporttiin. |

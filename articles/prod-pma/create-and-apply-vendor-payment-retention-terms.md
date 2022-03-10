@@ -2,11 +2,9 @@
 title: Toimittajan maksun pidätysehtojen luominen ja käyttäminen
 description: Tässä aiheessa on tietoja toimittajamaksujen säilytysehtojen määrittämisestä ja ylläpidosta.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4ff725512aa0bcc87ff4670d6bb072f3bf780786c1f71b332914887f4d4ccf13
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075485"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991212"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Toimittajan maksun pidätysehtojen luominen ja käyttäminen
 
@@ -65,3 +63,6 @@ Kun olet luonut toimittajan pidätysehdot, voit kohdistaa ehdot projektiin.
 6. Jos projektilla on myös toimittajalle määritetty maksu, kun maksettu (PWP) -ehdot, kirjoita projektin kynnysprosentti **PWP-kynnysprosentti**-kenttään.
 
 Toimittajan säilytysehdot näkyvät myös toimittajalle luotavien ostotilausten yhteydessä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

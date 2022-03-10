@@ -2,11 +2,9 @@
 title: Projektitapahtumien muokkaaminen
 description: Tässä tehtäväoppaassa kerrotaan, miten projektin tapahtumaa voi muuttaa.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c2cd38c37ef22b9b174c9732e829f6fb4ebf687
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92f5f998d7ecaed724298be16ff8680e56ee77d77a4ee3b7ba83fa5a8a1a4787
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288510"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985902"
 ---
 # <a name="adjust-project-transactions"></a>Projektitapahtumien muokkaaminen
 

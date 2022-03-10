@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015057"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985497"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Laskutus Project Service Automationissa
 
@@ -50,7 +50,7 @@ Tietylle projektisopimukselle luodaan lasku seuraavalla tavalla.
 
 - Avaa projektisopimus **Projektisopimukset**-luettelosivulla ja valitse sitten **Luo lasku**.
 
-    ![Projektilaskujen luominen tietylle projektisopimukselle](media/CreateProjectInvoicesOneByOne.png)
+    ![Projektilaskujen luominen tietylle projektisopimukselle.](media/CreateProjectInvoicesOneByOne.png)
 
     Lasku luodaan kaikille valitun projektisopimuksen tapahtumille, joiden tila on **Laskutusvalmis**. Näitä tapahtumia ovat aika, kulut, välitavoitteet ja projektiperusteiset sopimusrivit.
 
@@ -58,7 +58,7 @@ Laskuja luodaan joukoittain seuraavalla tavalla.
 
 1. Valitse **Projektisopimukset**-luettelosivulla vähintään yksi projektisopimus, jolle on luotava lasku, ja valitse sitten **Luo projektilaskuja**.
 
-    ![Projektilaskujen luonti joukoittain](media/CreateProjectInvoicesBulk.png)
+    ![Projektilaskujen luonti joukoittain.](media/CreateProjectInvoicesBulk.png)
 
     Varoitusviesti ilmoittaa sinulle, että laskujen luontia voi edeltää viive. Myös prosessi on näkyvissä.
 

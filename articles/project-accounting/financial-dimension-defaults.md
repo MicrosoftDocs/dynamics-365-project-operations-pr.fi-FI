@@ -2,18 +2,16 @@
 title: Taloushallinnon dimension oletusarvot
 description: Tässä aiheessa on tietoja taloushallinnon dimension oletusarvojen määrittämisestä.
 author: sigitac
-manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642359"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922934"
 ---
 # <a name="financial-dimension-defaults"></a>Taloushallinnon dimension oletusarvot
 
@@ -21,7 +19,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations käyttää [Taloushallinnon dimensiot](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) kehystä Dynamics 365 Financessa antamaan lisää merkityksellisiä tietoja projektin alitapahtumarekisterin ja yleisen tapahtumarekisterin tapahtumista.
+Dynamics 365 Project Operations käyttää [Taloushallinnon dimensiot](/dynamics365/finance/general-ledger/financial-dimensions) kehystä Dynamics 365 Financessa antamaan lisää merkityksellisiä tietoja projektin alitapahtumarekisterin ja yleisen tapahtumarekisterin tapahtumista.
 
 Taloushallinnon oletusdimensiot voidaan määrittää asiakkaassa, projektin rajoituslähteessä, välitavoitteessa, projektin sopimusrivillä tai projektissa.
 
@@ -62,3 +60,15 @@ Projektit luodaan ja niitä ylläpidetään ssa (CDS). Projektien kirjanpitomä�
 4. Määritä taloushallinnon dimension oletusarvot. Huomaa, että taloushallinnon dimensioiden oletusarvo saadaan asiakastililtä. Jos projekti on liitetty sopimusriviin, jossa on useita projektisopimuksen asiakkaita, ensisijaista asiakasta käytetään taloushallinnon dimensioiden oletusarvona.
 
 Projektin taloushallinnon oletusdimensioita käytetään määrittämään aika-, kulu- ja maksutapahtumien kirjauskansioiden rivin oletusarvot **Project Operationsin integroinnin kirjauskansiossa** ja liittyvillä projektilaskuriveillä.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Taloushallinnon dimensioiden käyttäminen projektin aikamerkintöjä varten
+Kun käytät taloushallinnon dimensioita projektin aikamerkintöjä varten, huomaa, että dimension oletusarvo perustuu seuraavaan järjestykseen:
+
+1. Resurssi
+2. Project
+3. Rahoituslähde
+
+Jos oletusdimensio on esimerkiksi määritetty resurssissa, sitä käytetään projektissa määritetyn oletusarvon sijaan. Vastaavasti projektin oletusdimensiota käytetään rahoituslähteessä määritetyn oletusarvon sijaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

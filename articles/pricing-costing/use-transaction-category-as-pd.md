@@ -2,18 +2,16 @@
 title: Tapahtumaluokan käyttäminen hinnoitteludimensiona
 description: Tässä aiheessa on tietoja tapahtumaluokan käyttämisestä hinnoitteludimensiona.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c84d3aaf7cd7577dcd15311f225c82b538586445
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274589"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996117"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Tapahtumaluokan käyttäminen hinnoitteludimensiona
 

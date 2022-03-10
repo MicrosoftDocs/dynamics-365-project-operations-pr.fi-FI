@@ -2,8 +2,6 @@
 title: Projektin edistyminen ja toteutuneet kustannukset
 description: Tässä aiheessa on tietoja projektin edistymisen ja kustannusten toteutumisen seurannasta.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73b23aad2976c8ccbb542fc2dda1d96dd9f5714b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283634"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987162"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projektin edistyminen ja toteutuneet kustannukset
 

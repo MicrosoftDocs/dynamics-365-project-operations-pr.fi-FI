@@ -2,19 +2,17 @@
 title: Maaliskuun 2021 Project Operations Lite -käyttöönoton uudet ominaisuudet
 description: Tässä aiheessa on tietoja Project Operations Lite -käyttöönoton maaliskuun 2021 version päivityksessä olevista laatupäivityksistä.
 author: sigitac
-manager: tfehr
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bd1518ef8f5645bace63a222b92cfd16d9c19a21
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 8e0d9b9e8fc130e73ae931eb32e2a04c2d53c4113191b44afe8df6dc4678b25d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499994"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009122"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>Maaliskuun 2021 Project Operations Lite -käyttöönoton uudet ominaisuudet
 

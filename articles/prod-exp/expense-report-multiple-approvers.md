@@ -2,11 +2,9 @@
 title: Matkalaskun monta hyväksyjää
 description: Tässä aiheessa on tietoja kuluraporteista, jotka vaativat usean henkilön hyväksynnän.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpensesReportList
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b6d07f00fd6c1ba2d860787665d95f95f7b1a89
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 437f782d6a30cb6369fb7c7a2b79e59509ef603446098389ce946be6427dee9d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960603"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995892"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Matkalaskun monta hyväksyjää
 
@@ -40,3 +38,6 @@ Jos päätät vaatia kuluraportille useita hyväksyjiä, voit lisätä työnkulk
 
     1. Työntekijän esimies hyväksyy kuluraportin.
     2. Budjetin omistaja hyväksyy kuluraportin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

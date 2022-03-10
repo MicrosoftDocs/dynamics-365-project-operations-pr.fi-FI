@@ -1,12 +1,10 @@
 ---
 title: Projektikalenterien määrittäminen
-description: Tässä aiheessa on tietoja projektikalenterin käyttämisestä projektin aikataulun seuraamisessa.
+description: Tässä aiheessa on tietoja siitä, miten kalenterimallia käytetään projektissa projektin aikataulun seuraamiseen.
 author: ruhercul
-manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,38 +15,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286964"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487636"
 ---
 # <a name="define-project-calendars"></a>Projektikalenterien määrittäminen
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Määritä projektin aikataulun luomista varten projektikalenteri, joka määrittää päivittäisten työtuntien määrän ja mahdolliset yrityksen kiinnioloajat. Projektikalenterimallin luomiseksi työmalli liitetään projektin **Kalenterimalli**-kenttään. Luo työmalli seuraavien vaiheiden mukaisesti.
+Projektia voi luoda ja hallita käyttämällä projektissa kalenterimallia. Kalenterimalli määrittää seuraavat projektimääritteet:
 
-1. Valitse siirtymisruudun **Resurssit**. 
-2. Avaa **Resurssit**-listaussivulla käyttäjän tietue, ja valitse sitten **Näytä työtunnit**.
+- Työaika, mukaan lukien alkamis- ja päättymisaika
+- Työpäivät
+- Kalenteripoikkeukset, kuten muut kuin työpäivät
 
-  > [!NOTE]
-  > Varmista, että ponnahdusikkunat on sallittu selaimen sivulla. Näin näet resurssille määritetyt työtunnit.
-  
-3. Valitse **Kuukausinäkymä**-välilehdessä **Määritä**. Kolme vaihtoehtoa sisältävä lista tulee näkyviin: 
+Projektiin käytettävä kalenterimalli on kopio organisaation asetuksissa määritetystä kalenterimallista.
 
-  - Uusi viikkoaikataulu
-  - Yhden päivän työaikataulu
-  - Poissaolo
+> [!NOTE]
+> Jos muutat kalenterimallia, muutokset eivät leviä projektin työaikaan. Jotta projektin työaikaa voidaan muuttaa, on otettava käyttöön uusi malli.
 
-4. Valise **Uusi viikkoaikataulu**, ja määritä sen jälkeen tiedot tälle resurssiaikataululle. Voit määrittää toistuvan viikoittaisen aikataulun, päivittäiset tuntiparametrit, yrityksen kiinnioloajat ja muita seikkoja.
-5. Määritä päivämääräväli, valitse **Tallenna**, ja valitse sen jälkeen **Sulje**. 
-6. Palaa **Resurssit**-luettelosivulle ja valitse resurssi, jolle määrität työtunnit. 
-7. Valitse **Määritä kalenteri** määrittääksesi työmallin. 
-8. Syötä **Työmalli**-dialogilaatikossa työmallin nimi, ja valitse sen jälkeen **Käytä**. 
+Organisaation kalenterimallin luomiselle on kaksi tärkeää avainvaatimusta:
+
+- Määritä mallin haluttu työaika käyttämällä uutta tai aiemmin luotua varattavissa olevaa resurssia.
+- Luo uusi kalenterimalli ja liitä malli varattavaan resurssiin.
+
+**Määritä mallin työaika**
+
+1. Siirry kohtaan **Resurssit** \> **Resurssit**.
+2. Luo uusi resurssi, jota haluat käyttää kalenterimallissa, tai valitse aiemmin luotu resurssi.
+3. Valitse **resurssin työaika** -välilehti ja noudata ohjeita kohdasta [Resurssin työaikojen määrittäminen](/dynamics365/field-service/set-work-hours-resource) kalenterisääntöjen määrittämiseksi.
+
+**Luo uusi kalenterimalli**
+
+1. Valitse **Asetukset** \> **Kalenterimalli**.
+2. Valitse **Uusi** ja kirjoita nimi, kuvaus ja malliresurssi.
+
+> [!NOTE]
+> Kun resurssiin viitataan kalenterimallissa, kalenterimalliin liitetään resurssin kalenterin kopio. Jos kopioidun mallin työajat muuttuvat, nämä muutokset eivät levitä kalenterimalliin.
 
 Voit nyt liittää työmallin projektin kalenterimalliin.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

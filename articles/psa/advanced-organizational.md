@@ -2,8 +2,6 @@
 title: Organisaatioyksiköt
 description: Tässä aiheessa on tietoja Dynamics 365 Project Service Automationin organisaatioyksiköistä.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145625"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005072"
 ---
 # <a name="organizational-units"></a>Organisaatioyksiköt 
 
@@ -55,7 +53,7 @@ Organisaatioyksiköllä on PSA:ssa kaksi roolia:
 - **Sopimusyksikkö** – organisaatioyksikkö, joka edustaa sitä yrityksen ryhmää tai osastoa, joka on pääasiallisesti vastuussa myynnin parantamisesta ja työn ja palvelujen asiakkaalle toimittamisen hallinnasta. Sopimusyksikkö määritetään sivujen **Mahdollisuus**, **Tarjous**, **Projektisopimus** ja **Projekti** otsikko-osion kentässä **Sopimusyksikkö**.
 - **Resursointiyksikkö** – organisaatioyksikkö, johon resurssi kuuluu tai jolle se on kohdennettu. Organisaatioyksikkö voi antaa resurssejaan joihinkin rooleihin työnkuvauksissa ja projekteissa, jotka sopimusyksikkö omistaa.
 
-> ![Sopimus- ja resursointiyksiköt](media/advanced-1.png)
+> ![Sopimus- ja resursointiyksiköt.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Organisaatioyksikön usein kysytyt kysymykset
 
@@ -124,7 +122,7 @@ Ei. PSA:n nykyisessä versiossa organisaatioyksiköt eivät ole hierarkkisia. T�
 Kun sinulla on monimutkainen kustannuspaikkojen, osastojen, laskutuspaikkojen jne. hierarkia, määritä kyseisen hierarkian lehtisolmut erillisiksi organisaatioyksiköiksi.
 Seuraavassa esimerkissä esitetään tyypillinen hierarkia:
 
-**Contoso India**
+**ContosoIntia**
 
   - SAP-käytäntö 
 
@@ -167,3 +165,6 @@ Jos yritys toimii yhtenä yksikkönä, jolla on yksi kustannushinnasto, sille ei
 Kun projekti luodaan itsenäisenä, projektin oletusarvoinen sopimusyksikkö perustuu projektin luoneeseen käyttäjään. Kyseinen käyttäjä on myös oletusarvoinen projektipäällikkö. Jos projekti on yhdistetty myyntientiteettiin, kuten tarjoukseen tai projektisopimukseen, projektin sopimusyksikkö perustuu kyseiseen myyntientiteettiin. Tässä tapauksessa projektiarviot lasketaan mahdollisesti uudelleen, koska kustannushinnastoa käytetään kustannusarvion muutosten laskemiseen, jos sopimusyksikkö muuttuu. Myyntihinnastoa käytetään muutettavien myyntiarvioiden laskemiseen, jotta ne vastaavat tarjouksessa olevaa projektin hinnastoa.
 
 Projektin kenttiä **Sopimusyksikkö** ja **Valuutta** ei voi muokata, koska niiden on vastattava sen myyntientiteetin (tarjous tai projektisopimus) arvoja, joihin projekti on yhdistetty.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008532"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006962"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Laskutusjonon tarkasteleminen projekteissa ja projektisopimuksissa
 
@@ -40,7 +40,7 @@ Laskuttamattoman myynnin nykyarvot edustavat laskutusjonoa, ja niiden laskutusti
 
 Tarkastellaksesi laskutusjonoa aikaa ja materiaaleja varten, siirry kohtaan **Myynti** \> **Laskutus** \> **Ajan ja materiaalien laskutuksen jono**. Valitse kaikki laskuttamattomat myynnin nykyarvot, jotka ovat valmiita laskutettaviksi, ja valitse sitten **Laskutusvalmis**. Näiden nykyarvojen laskutustilaksi vaihtuu **Laskutusvalmis**.
 
-![Ajan ja materiaalien laskutuksen jono](media/TMBacklog.png)
+![Keskeneräiset ajan ja materiaalin laskutukset.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Tarkastele tuotteiden laskutuksen jonoa
 
@@ -48,7 +48,7 @@ Kun projekti opimuksessa on PSA-järjestelmässä tuotepohjaisia sopimusrivejä,
 
 Jos haluat tarkastella tuotteiden laskutusjonoa, siirry kohtaan **Myynti**\>**Laskutus**\>**Tuotteiden laskutuksen jono**. Valitse kaikki tuotepohjaiset sopimusrivit, jotka ovat valmiita laskutettaviksi, ja valitse sitten **Laskutusvalmis**. Näiden rivien laskutustilaksi vaihtuu **Laskutusvalmis**.
 
-![Tuotteiden laskutuksen jono](media/ProductBacklog.png)
+![Tuotteiden keskeneräiset laskutukset.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Kiinteähintaisten palvelusopimusten laskutuksen välitavoitteiden tarkasteleminen
 
@@ -56,7 +56,7 @@ Jokaiselle projektisopimusrivin, jolla on kiinteähintainen laskutusmenetelmä, 
 
 Voit tarkastella laskutuksen välitavoitteita siirtymällä kohtaan **Myynti**\> **Laskutus**\> **Kiinteän hinnan välitavoitteet**. Valitse kaikki välitavoitteet, jotka ovat valmiita laskutettaviksi, ja valitse sitten **Laskutusvalmis**. Näiden välitavoitteiden laskutustilaksi vaihtuu **Laskutusvalmis**.
 
-![Kiinteän hinnan välitavoitteet](media/FPBacklog.png)
+![Kiinteän hinnan välitavoitteet.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

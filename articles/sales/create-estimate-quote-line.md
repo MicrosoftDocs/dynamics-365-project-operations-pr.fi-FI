@@ -2,11 +2,9 @@
 title: Arvioiden luominen tarjousrivillä
 description: Tässä aiheessa on tietoja siitä, miten projektin tarjousriville luodaan arvio.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278459"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996432"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Arvioiden luominen tarjousrivillä
 

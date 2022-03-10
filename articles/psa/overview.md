@@ -2,10 +2,9 @@
 title: Mikä on Dynamics 365 Project Service Automation?
 description: Project Servicen esittely ja yleiskatsaus
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19599fe13964aea2c25bc1774063c13cf79703d0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128009"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000257"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Mikä on Dynamics 365 Project Service Automation?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
@@ -45,10 +46,10 @@ Lisäksi auttaakseen sinua valvomaan ja hallitsemaan projektipohjaisen työsi ku
 ## <a name="whats-new-in-psa"></a>PSA:n uudet ominaisuudet
 Ryhmä on innoissaan voidessaan ilmoittaa uusimmat päivitykset! Päivitykset sisältävät muun muassa käyttöliittymän parannuksia, virheiden korjauksia ja uusia ominaisuuksia ja toimintoja. Olemme ottaneet saamamme palautteen huomioon.
 
-Tutustu [lokakuun 2019 julkaisutietoihin](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) nähdäksesi uusimmat parannukset ja lisäykset.
+Tutustu [lokakuun 2019 julkaisutietoihin](/dynamics365-release-plan/2019wave2/index) nähdäksesi uusimmat parannukset ja lisäykset.
 
 ### <a name="in-development"></a>Kehityksessä
-Jos haluat nähdä, mitä meillä on lähitulevaisuuden suunnitelmissa, suuntaa [Dynamics 365: Vuoden 2020 1. julkaisuaallon suunnitelmaan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Jos haluat nähdä, mitä meillä on lähitulevaisuuden suunnitelmissa, suuntaa [Dynamics 365: Vuoden 2020 1. julkaisuaallon suunnitelmaan](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Ohje PSA:n versiolle 3.x
 Etsitkö resursseja, joiden avulla voit suunnitella toteutuksen? Tutustu näihin ladattaviin oppaisiin.
@@ -78,9 +79,12 @@ Etsitkö resursseja, joiden avulla voit suunnitella toteutuksen? Tutustu näihin
 
  [Tekniset raportit (sovellusversio 2.x tai 1.x)](../psa/white-papers.md)
 
- [Kehittäjille suunnatut muistiinpanot (sovelluksen versio 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [Kehittäjille suunnatut huomautukset (sovelluksen versio 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Katso 2-minuuttinen yleiskatsausvideo
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

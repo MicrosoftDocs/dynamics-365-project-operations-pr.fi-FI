@@ -1,21 +1,20 @@
 ---
-title: Projektipohjaiset tarjousrivit
-description: Tässä aiheessa on tietoja projektipohjaisten tarjousrivien käyttämisestä projektityöhön.
+title: Projektin tarjousrivien yleiskatsaus
+description: Tässä aiheessa on tietoja projektin tarjousrivien käytöstä projektityöhön.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: c0a4d2d4b9e958ba14badda5a945e0522abba336c82128bfe7539663e0b90f1e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075215"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997917"
 ---
-# <a name="project-based-quote-lines"></a>Projektipohjaiset tarjousrivit
+# <a name="project-quote-lines-overview"></a>Projektin tarjousrivien yleiskatsaus
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
@@ -31,10 +30,10 @@ Projektipohjaiset tarjousrivit on suunniteltu auttamaan projektityön arvioinnis
 
 Seuraavassa taulukossa on tietoja projektipohjaisen tarjousrivin **Yleiset**-välilehden kentistä. Näiden kenttien avulla voit määrittää perustan projektityön yksityiskohtaiselle alhaalta ylöspäin -arvioinnille.
 
-| **Kenttä** | **Relevanssi, tarkoitus ja opastus** | **Loppupään vaikutus** |
+| **Kenttä** | **Kuvaus** | **Loppupään vaikutus** |
 | --- | --- | --- |
 | Nimi | Tarjousrivin nimi, jonka avulla voit määrittää arvioidun tarjouksen erillisen osan. | Kopioidaan tästä tarjousrivistä luotuun projektisopimusriviin, kun tarjous on voitettu. |
-| Laskutustapa | Kun mahdollisuudesta luodaan tarjous, tämä arvo kopioidaan mahdollisuusrivin vastaavasta kentästä. Tämä kenttä sisältää kaksi tärkeintä Dynamics 365 Project Operationsin tukemaa sopimusmallia:</br>– Kiinteä hinta</br>– Aika ja materiaali.| Tämän kentän arvo kopioidaan tästä tarjousrivistä luotuun projektisopimusriviin, kun tarjous on voitettu. |
+| Laskutustapa | Kun mahdollisuudesta luodaan tarjous, tämä arvo kopioidaan mahdollisuusrivin vastaavasta kentästä. Tässä kentässä on kaksi pääasiallista palvelusopimusmallia, joita Dynamics 365 Project Operationsissa tuetaan:</br>– Kiinteä hinta</br>– Aika ja materiaali.| Tämän kentän arvo kopioidaan tästä tarjousrivistä luotuun projektisopimusriviin, kun tarjous on voitettu. |
 | Project | Tämän valinnaisen kentän avulla voit määrittää projektin, jota käytetään tämän tehtävän töiden toimittamiseen. Kun projekti yhdistetään tarjousriviin, se auttaa määrittämään laskutettavia tehtäviä ja tuomaan projektipohjaisen arvion tarjousriviin tarjousrivin tietoina. Kun projektia ei ole yhdistetty projektipohjaiseen tarjousriviin, arvio tulisi luoda manuaalisesti luomalla kukin tarjousrivin tieto. | Tämän kentän arvo kopioidaan tästä tarjousrivistä luotuun projektisopimusriviin, kun tarjous on voitettu. |
 | Sisällytä aika | **Kyllä**/**Ei**-merkintä osoittaa, onko valitun projektin aikatapahtumat tai työvoimakustannukset sisällytettävä tämän tarjousrivin arvioon. **Ei**-arvo osoittaa, että aikatapahtumia tai työvoimakustannuksia ei sisällytetä tämän tarjousrivin arvioon. **Kyllä**-arvo osoittaa, että aikatapahtumat ja työvoimakustannukset sisällytetään tämän tarjousrivin arvioon. | Tämän kentän arvo kopioidaan tästä tarjousrivistä luotuun projektisopimusriviin, kun tarjous on voitettu. |
 | Sisällytä kulu | **Kyllä**/**Ei**-merkintä osoittaa, onko valitun projektin kulujen kustannukset sisällytettävä tämän tarjousrivin arvioon. **Ei**-arvo osoittaa, että kulujen kustannuksia ei sisällytetä tämän tarjousrivin arvioon. **Kyllä**-arvo osoittaa, että kulujen kustannukset sisällytetään tämän tarjousrivin arvioon. | Tämän kentän arvo kopioidaan tästä tarjousrivistä luotuun projektisopimusriviin, kun tarjous on voitettu. |
@@ -635,3 +634,6 @@ Ei kelpaa </p>
     </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

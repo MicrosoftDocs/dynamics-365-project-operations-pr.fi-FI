@@ -2,12 +2,11 @@
 title: Hinnoittelu- ja kustannusdimensioiden aloitussivu
 description: Tämä aihe sisältää yleiskatsauksen hinnoitteludimensioihin.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151294"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998457"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Hinnoittelu- ja kustannusdimensioiden aloitussivu
 
@@ -42,7 +41,7 @@ Kun otetaan huomioon näiden töiden ja työn suorittamiseen tarvittavien henkil
 
 PSA sisältää oletusjoukon hinnoitteludimensioita. Niitä voi tarkastella siirtymällä kohtaan **Project Service** > **Parametrit**. Varmista parametritietueen **Summaperusteiset hinnoitteludimensiot** -välilehdellä, että roolin **msdyn_resourcecategory** ja resursoivan organisaatioyksikön **msdyn_organizationalunit** kenttien **Sovelletaan myyntiin** ja **Sovelletaan kustannuksiin** arvona on **Kyllä**. Tällöin voit määrittää jokaisen roolin ja organisaatioyksikön hinnan ja kustannuksen.
 
-![Näyttökuva Project Service -parametreista, joissa Sovelletaan myyntiin on korostettu](media/PS-OOB-parameters.png)
+![Näyttökuva Project Service -parametreista, joissa Sovelletaan myyntiin on korostettu.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Jos olet käyttänyt valmiita roolin ja organisaatioyksikön kenttiä hinnoitteludimensioina ennen PSA;n versiota 3, muutoksia ei ole havaittavissa. Voit jatkaa Project Servicen käyttöä tavalliseen tapaan. 
@@ -67,13 +66,16 @@ Seuraavassa esimerkissä esitetään laskutushintoja, jotka määritetään rool
 
 | Rooli        | Organisaatioyksikkö    |Yksikkö      |Hinta      |Valuutta  |
 | ------------|-------------|----------|----------:|----------|
-| Kehittäjä   | Contoso US  |Hour | 200|USD     |
-| Kehittäjä   | Contoso India |Hour|   112|USD     |
+| Kehittäjä   | Contoso US  |tunti | 200|USD     |
+| Kehittäjä   | Contoso India |tunti|   112|USD     |
 
 
 **Esimerkkikustannushinnat**
 
 | Palkkaluokat     | Organisaatioyksikkö    |Yksikkö      |Hinta      |Valuutta  |
 | ----------------|-------------|----------|----------:|----------|
-| Oma company_Band1 | Contoso US  |Hour | 145|USD     |
-| Oma company_Band2 | Contoso India |Hour|   67|USD     |
+| Oma company_Band1 | Contoso US  |tunti | 145|USD     |
+| Oma company_Band2 | Contoso India |tunti|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

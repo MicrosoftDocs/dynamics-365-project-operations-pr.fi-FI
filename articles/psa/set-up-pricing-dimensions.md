@@ -2,12 +2,10 @@
 title: Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi
 description: Tässä aiheessa on tietoja mukautettujen hinnoitteludimensioiden määrittämisestä.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150349"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002327"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi 
 
@@ -43,11 +41,11 @@ Jotta kentästä tulisi hinnoitteludimensio, sen on oltava:
 - Luotu kenttänä **Roolihinta** ja **Roolihinnan hinnankorotus** -entiteeteissä. Lisätietoja on aiheessa [Mukautettujen kenttien lisääminen hinnanmäärittely- ja tapahtumaentiteetteihin](field-references.md).
 - Luotu rivinä **Hinnoitteludimensio** -taulukkoon. Voit esimerkiksi lisätä hinnoitteludimension rivejä seuraavan kuvan osoittamalla tavalla. 
 
-![Summaan perustuvat hinnoitteludimensioiden rivit](media/Amt-based-PD.png)
+![Summaan perustuvat hinnoitteludimensioiden rivit.](media/Amt-based-PD.png)
 
 Huomaa, että resurssin työaika (**msdyn_resourceworkhours**) on lisätty hinnankorotuspohjaiseen dimensioon, ja se on lisätty **Hinnankorotuspohjainen hinnoitteludimensio** -välilehden ruudukkoon.
 
-![Hinnankorotukseen perustuvat hinnoitteludimensioiden rivit](media/Markup-based-PD.png)
+![Hinnankorotukseen perustuvat hinnoitteludimensioiden rivit.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Mikä tahansa muutos hinnoitteludimensiotietoihin tässä taulukossa, olemassa oleva tai uusi, kopioidaan Project Servicen hinnoittelun liiketoimintalogiikkaan vasta sitten, kun välimuisti päivitetään. Välimuistin päivitys voi kestää 10 minuuttia. Salli tämän verran aikaa nähdäksesi ne muutokset hintojen oletusarvojen logiikassa, jotka seuraavat muutoksista hinnoitteludimensiotietoihin.
@@ -78,7 +76,7 @@ Hinnoitteludimensioita on kahta tyyppiä:
 |             | Contoso US   |Paikallinen             |                    |Ylityö                 |20     |
 
 
-Jos resurssi Contoso Indialta, jonka perushinta on 100 US-dollaria työskentelee asiakkaan tiloissa, ja hän merkitsee 8 tuntia tavallista työaikaa ja 2 tuntia ylityötä aikamerkintäänsä, Project Servicen hinnoittelumoottori käyttää perushintaa 100 kahdelsalle tunnille ja tallentaa 800 USD. Kahdelle ylityötunnille käytetään 15 % hinnankorotusta, joka lasketaan perushinnalle 100, jotta saadaan yksikköhinta 115 US-dollaria, ja kokonaiskustannukseksi tallennetaan 230 US-dollaria.
+Jos Contoso India resurssi, jonka perushinta on 100 dollaria, työskentelee asiakkaan tiloissa ja merkitsee 8 tuntia tavallista työaikaa ja 2 tuntia ylityötä aikamerkintäänsä, Project Servicen hinnoittelumoduuli käyttää 100 dollarin perushintaa 8 tunnille ja tallentaa arvoksi 800 USD. Kahdelle ylityötunnille käytetään 15 % hinnankorotusta, joka lasketaan perushinnalle 100, jotta saadaan yksikköhinta 115 US-dollaria, ja kokonaiskustannukseksi tallennetaan 230 US-dollaria.
 
 ### <a name="applicable-to-cost"></a>Sovelletaan kustannuksiin 
 Jos tämän arvo on **Kyllä**, se osoittaa, että dimension arvoa syötekontekstista tulisi käyttää yhdistämään **Roolihinta** ja **Roolihinnan korotus**, kun haetaan kustannuksia ja hinnankorotusten arvoja.
@@ -94,3 +92,6 @@ Dimension prioriteetin määrittäminen auttaa Project Servicen hinnoittelua tuo
 
 - **Kustannusprioriteetti**: dimension kustannusprioriteetin arvo osoittaa kyseisen dimension painon, kun sitä verrataan kustannushintojen asetuksiin. **Kustannusprioriteetin** arvon tulee olla yksilöivä niissä dimensioissa, joita **Sovelletaan kustannuksiin**.
 - **Myyntiprioriteetti**: dimension myyntiprioriteetin arvo osoittaa kyseisen dimension painon, kun sitä verrataan myyntihintojen tai laskutushintojen asetuksiin. **Myyntiprioriteetin** arvon tulee olla yksilöivä niissä dimensioissa, joita **Sovelletaan myyntiin**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,22 @@
 title: Aikamerkintöjen laajentaminen
 description: Tässä aiheesa on tietoja siitä, miten kehittäjät voivat laajentaa aikamerkinnän ohjausobjektia.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124634"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993327"
 ---
 # <a name="extending-time-entries"></a>Aikamerkintöjen laajentaminen
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Dynamics 365 Project Operations sisältää laajennettavan ja mukautetun aikamerkinnän ohjausobjektin. Tämä ohjausobjekti sisältää seuraavat ominaisuudet:
+Dynamics 365 Project Operations sisältää laajennettavan ajansyötön mukautetun ohjausobjektin. Tämä ohjausobjekti sisältää seuraavat ominaisuudet:
 
 - Syötä aika vaaka suunnassa koko viikolle
 - Summat päivän, rivin tai viikon mukaan
@@ -144,3 +142,6 @@ Käytä laajennusvahvistuksia kaikkiin vahvistuksiin, jotka edellyttävät enemm
 
 ### <a name="copying-time-entries"></a>Aikamerkintöjen kopiointi
 Voit määrittää aikamerkinnän aikana kopioitavien kenttien luettelon käyttämällä **Näytä kopiointiajan syöttö** -sarakkeita. **Päivämäärä** ja **kesto** ovat pakollisia kenttiä, eikä niitä pitäisi poistaa näkymästä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

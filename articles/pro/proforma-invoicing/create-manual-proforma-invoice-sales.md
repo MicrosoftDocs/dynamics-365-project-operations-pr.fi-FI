@@ -1,36 +1,102 @@
 ---
-title: Manuaalisen proformalaskun luominen – lite
-description: Tämä aihe tarjoaa tietoja Project Operationsin manuaalisen proformalaskun luomisesta.
+title: Proformamuotoiset projektilaskut
+description: Tässä aiheessa on tietoja proformamuotoisista projektilaskuista Project Operationsissa.
 author: rumant
-manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/06/2021
 ms.topic: article
-ms.service: project-operations
+ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 3d02728ce682781eb8816e0c2239cf62f88adfa8c5d2a0aab280be053c2a5ae6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176382"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992922"
 ---
-# <a name="create-a-manual-proforma-invoice---lite"></a>Manuaalisen proformalaskun luominen – lite
+# <a name="proforma-project-pnvoices"></a>Proformamuotoiset projektilaskut
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Dynamics 365 Project Operationsissa voidaan luoda proformalaskuja manuaalisesti tarpeen mukaan. Voit luoda proformalaskun manuaalisesti **Projektisopimuksen** luettelosivulta tai **Projektisopimuksen** tiedot-sivulta.
+Proformamuotoinen projektilaskutus tarjoaa projektipäälliköille toisen hyväksyntätason ennen laskujen luomista asiakkaille. Ensimmäinen hyväksyntätaso on valmis, kun projektiryhmän jäsenten toimittamat aika-, kulu- ja materiaalimerkinnät on hyväksytty.
 
-##  <a name="project-contracts-list-page"></a>Projektisopimusten luettelosivu
+Dynamics 365 Project Operations Lite -käyttöönottoa ei ole suunniteltu asiakkaiden laskujen tuottamiseen. Seuraavassa luettelossa on esitetty, miksi laskuja ei voi luoda:
 
-Valitse **projektisopimusten** luettelosivulta vähintään yksi projektisopimus ja luo laskut kaikille valituille tietueille.
+- Ei sisällä verotietoja.
+- Muita valuuttoja ei voi muuntaa laskutusvaluutaksi.
+- Laskujen muotoileminen tulostusta varten ei onnistu oikein.
 
-Järjestelmä tarkistaa, mikä valituista projektisopimuksista on **valmis laskutukseen**, joka on päivätty ennen kuluvan päivän päivämäärää. Näistä palvelusopimuksista järjestelmä luo luonnokset proformalaskuiksi. Jos projektisopimuksessa on useita asiakkaita, asiakasta kohden voi olla yksi lasku ja useita laskuja projektisopimusta kohden.
+Sen sijaan voit käyttää talous- tai kirjanpitojärjestelmää luomaan asiakkaille suunnattuja laskuja, joissa käytetään luotujen laskuehdotusten tietoja.
 
-Kaikki luodut projektilaskut ovat käytettävissä **Myynti**-alueen **laskutus**-osan **lasku**-sivulla.
+## <a name="creating-project-invoices"></a>Projektilaskujen luominen
 
-## <a name="project-contract-details-page"></a>Projektisopimuksen tiedot-sivu
+Projektilaskuja voidaan luoda yksi kerrallaan tai joukkoina. Voit luoda niitä manuaalisesti tai ne voidaan määrittää siten, että ne luodaan automaattisesti.
 
-Proformalasku voidaan luoda myös **Projekti sopimuksen** tiedot-sivulla, joka luo laskun kyseisestä projektisopimuksesta. Järjestelmä varmistaa, että projektisopimuksella on **valmis laskutukseen** -varaus, joka on päivätty ennen kuluvan päivän päivämäärää. Näistä palvelusopimuksista järjestelmä luo proformalaskujen luonnokset kunkin sopimusrivin asiakkaiden määrän perusteella.
+### <a name="manually-create-project-invoices"></a>Projektilaskujen manuaalinen luominen 
 
-Kun luodaan yksittäinen proformalasku, näkyviin tulee **lasku**-sivu. Jos kyseiselle projektisopimukselle on luotu useita laskuja, näkyviin tulee **laskut**-luettelosivu, jossa näkyvät kaikki luodut laskut.
+**Projektisopimukset**-luettelosivulla voit luoda projektilaskuja erikseen kullekin projektisopimukselle tai voit luoda laskuja joukoittain useille projektisopimuksille.
+
+   - Avaa **Projektisopimukset**-luettelosivulla projektisopimus, jolle haluat luoda laskun, ja valitse sitten **Luo lasku**.
+
+   Lasku luodaan kaikille valitun projektisopimuksen tapahtumille, joiden tila on **Laskutusvalmis**. Näitä tapahtumia ovat aika, kulut, materiaalit, välitavoitteet, tuotepohjaiset sopimusrivit ja muut laskuttamattomat myyntikirjauskansion rivit, jotka on mahdollisesti vahvistettu.
+
+Usean laskun luominen yhtä aikaa:
+
+1. Valitse **Projektisopimukset**-luettelosivulla vähintään yksi projektisopimus, jolle luodaan lasku, ja valitse sitten **Luo projektilaskuja**.
+2. Varoitusviesti ilmoittaa sinulle, että laskujen luontia voi edeltää viive. Myös prosessi on näkyvissä. Sulje viesti-ikkuna valitsemalla **OK**.
+
+   Lasku luodaan kaikille sopimusrivin tapahtumille, joiden tila on **Laskutusvalmis**. Näitä tapahtumia ovat aika, kulut, materiaalit, välitavoitteet, tuotepohjaiset sopimusrivit ja muut laskuttamattomat myyntikirjauskansion rivit, jotka on mahdollisesti vahvistettu.
+
+3. Tarkastele luotuja laskuja siirtymällä kohtaan **Myynti** \> **Laskutus** \> **Laskut**. Näet yhden laskun kullekin projektisopimukselle.
+
+### <a name="set-up-automated-creation-of-project-invoices"></a>Projektilaskujen automaattisen luomisen määrittäminen 
+
+Automaattinen laskujen luominen määritetään seuraavalla tavalla.
+
+1. Siirry kohtaan **Asetukset** \> **Erätyöt**.
+2. Luo erätyö ja anna sille nimeksi **Project Operationsin laskujen luominen**. Eräajon nimen on sisällettävä käsite "Luo laskuja".
+3. Valitse **Työtyyppi**-kentässä **Ei mitään**. Asetusten **Päivittäin** ja **On aktiivinen** oletusarvo on **Kyllä**.
+4. Valitse **Suorita työnkulku**. **Valitse tietue** -valintaikkunassa näkyy seuraavat työnkulut:
+
+    - ProcessRunCaller
+    - ProcessRunner
+    - UpdateRoleUtilization
+
+5. Valitse **ProcessRunCaller** ja sitten **Lisää**.
+6. Valitse seuraavassa valintaikkunassa **OK**. **Lepo**-työnkulkua seuraa **Käsittely**-työnkulku.
+
+    Vaiheessa 5 voit myös valita **ProcessRunner**. Kun tämän jälkeen valitset **OK**, **Käsittely**-työnkulkua seuraa **Lepo**-työnkulku.
+
+Työnkulut **ProcessRunCaller** ja **ProcessRunner** luovat laskuja. Työnkulku **ProcessRunCaller** kutsuu työnkulun **ProcessRunner**. **ProcessRunner** on se työnkulku, joka luo laskut. Tämä työnkulku käy läpi kaikki sopimusrivit, joille on luotava laskuja, ja luo kyseiset laskut. Työnkulku tarkistaa sopimusrivien laskujen suorituspäiviä määrittääkseen ne sopimusrivit, joille on luotava laskuja. Jos yhteen sopimukseen kuuluvilla sopimusriveillä on sama laskujen suorituspäivä, tapahtumat yhdistetään yhteen laskuun, jolla on kaksi laskutusriviä. Jos laskujen luomista edellyttäviä tapahtumia ei ole, laskuja ei luoda.
+
+Kun **ProcessRunner** on valmis, se kutsuu työnkulun **ProcessRunCaller**, antaa päättymisajan ja sulkeutuu. **ProcessRunCaller** käynnistää sitten ajastimen, joka kestää 24 tuntia määritetystä päättymisajasta eteenpäin. Ajastimen loputtua, **ProcessRunCaller** sulkeutuu.
+
+Laskujen luomisen erätyö on toistuva työ. Jos tämä erätyö suoritetaan useita kertoja, siitä luodaan useita esiintymiä, mikä voi aiheuttaa virheitä. Tämän estämiseksi erätyö kannattaa käynnistää vain kerran ja käynnistää uudelleen vain, jos se pysähtyy.
+
+> [!NOTE]
+> Erälaskutus suoritetaan vain sellaisille projektisopimusriveille, jotka on määritetty laskun aikataulun mukaan. Jos sopimusrivillä on kiinteähintainen laskutusmenetelmä, sillä on oltava määritettyinä välitavoitteet. Jos projektisopimusrivillä on aika- ja materiaalipohjainen laskutusmenetelmä, sille on määritettävä päivämäärään perustuva laskutusaikataulu. Sama koskee myös projektipohjaista sopimusriviä.      
+ 
+### <a name="edit-a-draft-invoice"></a>Laskuluonnoksen muokkaaminen
+
+Kun luot projektilaskuluonnoksen, kaikki aika- ja kulumerkintöjen hyväksymisen yhteydessä luodut laskuttamattomat myyntitapahtumat tuodaan laskuun. Voit tehdä seuraavia muutoksia, kun lasku on edelleen luonnosvaiheessa:
+
+- Laskurivin tietojen poistaminen tai muokkaaminen.
+- Määrän ja laskutustyypin muokkaaminen.
+- Ajan, kulun, materiaalin ja maksujen lisäys tapahtumina suoraan laskuun. Voit käyttää tätä toimintoa, jos laskurivi on yhdistetty sopimusriviin, joka salli nämä tapahtumaluokat.
+
+Vahvista lasku valitsemalla **Vahvista**. Tämä toiminto on yksisuuntainen toiminto. Kun valitset **Vahvista**, lasku muuttuu vain luku -muotoon ja luo laskutetun myynnin todellisia arvoja kullekin laskuriville kunkin laskurivin tietojen perusteella. Jos laskurivin tiedot viittaavat laskuttamattomaan myynnin todelliseen arvoon, laskuttamattoman myynnin todellinen arvo kumotaan. Kaikki ajasta, kulusta tai materiaalin käytöstä luodut laskun rivin tiedot viittaavat laskuttamattomaan myyntitapahtumaan. Kirjanpitointegrointijärjestelmät voivat tämän peruutuksen avulla peruuttaa käynnissä olevan projektin työn (KET) kirjanpitoa varten.
+
+### <a name="correct-a-confirmed-invoice"></a>Vahvistetun laskun korjaaminen
+
+Vahvistettuja laskuja voidaan muokata. Kun korjaat vahvistettua laskua, luodaan uusi korjaava laskuluonnos. Koska oletuksena on, että haluat kumota kaikki alkuperäisen laskun tapahtumat ja määrät, tämä korjaava lasku sisältää kaikki alkuperäisen laskun tapahtumat ja kaikki siinä olevat määrät ovat nollia.
+
+Jos on tapahtumia, jotka eivät ei vaadi korjausta, voit poistaa ne korjaavasta laskuluonnoksesta. Jos haluat kumota tai palauttaa vain osamäärän, voit muokata rivin tietojen **Määrä**-kenttää. Voit tarkastella alkuperäisen laskun määrää avaamalla laskurivin tiedot. Tämän jälkeen voit muokata nykyisen laskun määrää siten, että se ylittää tai alittaa alkuperäisen laskun määrän.
+
+Kun vahvistat korjaavan laskun, alkuperäinen laskutetun myynnin todellinen arvo kumotaan ja uusi laskutetun myynnin todellinen arvo luodaan. Jos määrää vähennettiin, ero aiheuttaa myös uuden laskuttamattoman myynnin todellisen arvon luomisen. Jos alkuperäinen laskutettu myynti esimerkiksi oli kahdeksan tuntia ja korjaavien laskurivien tietojen määrä on vain kuusi tuntia, alkuperäisen laskutetun myynnin rivi peruutetaan ja seuraavat kaksi uutta todellista arvoa luodaan:
+
+- Laskutetun myynnin todellisen arvon kuudelle tunnille.
+- Laskuttamattoman myynnin todellisen arvon kahdelle jäljelle jääneelle tunnille. Tämä tapahtuma voidaan joko laskuttaa myöhemmin tai merkitä ei-laskutettavaksi riippuen siitä, mitä asiakkaan kanssa sovitaan.
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

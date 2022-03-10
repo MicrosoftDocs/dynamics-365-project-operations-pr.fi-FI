@@ -2,11 +2,9 @@
 title: Kulujen hallintasovellus
 description: Tässä aiheessa on tietoja Kulujen hallinta -mobiilityötilasta.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2cbce8fbfa622a143f3ebfc34d7d60a7da4a9171
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950882"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818179"
 ---
 # <a name="mobile-expense-app"></a>Kulujen hallintasovellus
 
@@ -49,42 +47,9 @@ Voit käyttää myös seuraavia toimintoja:
 - Lähetä kuluraportti hyväksyntää ja korvausta varten.
 - Hyväksy tai hylkää kuluraportit, joiden hyväksyjäksi sinut on määritetty.
 
-## <a name="prerequisites"></a>Edellytykset
-Edellytykset vaihtelevat organisaatiossa käyttöön otetun version mukaan.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Edellytykset käytettäessä Dynamics 365 Financea
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Edellytykset käytettäessä Dynamics 365 Financea 
 Jos organisaatiossasi on otettu käyttöön Finance, järjestelmänvalvojan on julkaistava **Kulujen hallinta** -mobiilityötila. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Edellytykset, jos käytössä on versio 1611 ja Platform Update 3 tai uudempi
-Jos organisaatiossasi on otettu käyttöön versio 1611, jossa on Platform Update 3 tai uudempi, järjestelmänvalvoja on täytettävä seuraavat edellytykset. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Edellytykset</th>
-<th>Rooli</th>
-<th>Kuvaus</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Tietokannan 4019015 käyttöönotto.</td>
-<td>Järjestelmänvalvoja</td>
-<td>Tietokanta 4019015 on X++-päivitys tai metatietojen hotfix-korjaus, joka sisältää <strong>Kulujen hallinta</strong> -mobiilityötilan. Tietokannan 4019015 käyttöönottoa varten järjestelmänvalvojasi on suoritettava seuraavat vaiheet.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Päivitysten lataaminen Lifecycle Servicesestä</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Metatietojen hotfix-korjauksen asentaminen</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Sellaisen käyttöönotettavan paketin luominen</a>, joka sisältää <strong>ApplicationSuite</strong>- ja <strong>ExpenseMobile</strong>-mallit, ja sitten käyttöönotettavan paketin lataaminen LCS-palveluun.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Käyttöönotettavan paketin käyttöönotto</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Julkaise <strong>Kulujen hallinta</strong> -mobiilityötila.</td>
-<td>Järjestelmänvalvoja</td>
-<td>Katso <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobiilityötilan julkaiseminen </a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Dynamics 365 Unified Ops -mobiilisovelluksen lataaminen ja asentaminen
 Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
@@ -105,11 +70,11 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
 3. Valitse **Ota valokuva** tai **Valitse kuva**.
 4. Valitse jokin seuraavista vaiheista:
 
-   - Jos valitsit **Ota valokuva** -kohdan, toimi seuraavasti:
+    - Jos valitsit **Ota valokuva** -kohdan, toimi seuraavasti:
 
-      1. Mobiililaitteen kamera avautuu ja voit ottaa kuvan kuitista. 
-      2. Kun olet ottanut valokuvan, hyväksy se valitsemalla **OK**.
-      3. Valinnainen: Anna valokuvalle nimi ja syötä mahdolliset muistiinpanot.
+        1. Mobiililaitteen kamera avautuu ja voit ottaa kuvan kuitista. 
+        2. Kun olet ottanut valokuvan, hyväksy se valitsemalla **OK**.
+        3. Valinnainen: Anna valokuvalle nimi ja syötä mahdolliset muistiinpanot.
 
     - Jos valitsit **Valitse kuva** -kohdan, toimi seuraavasti:
 
@@ -135,20 +100,20 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
 
 10. Valitse **Valmis**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Hyväksy kuluraportti Kulun hallinta -mobiilityötilan avulla (jos käytössä on heinäkuun 2017 päivitys)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Kuluraportin hyväksyminen kulujen hallinnan mobiilityötilassa
 
 1. Avaa mobiililaitteessa **Kulujen hallinta** -työtila.
 2. **Kulujen hyväksynnät** näyttää sinulle hyväksyttäväksi delegoitujen kuluraporttien määrän. Määrä päivitetään noin 30 minuutin välein. Valitse **Kulun hyväksynnät**.
 
     Näkyviin tulee sinulle hyväksyttäväksi delegoitujen kuluraporttien määrä.
-    
+
 3. Valitse kuluraportti, jonka kulun tietoja haluat tarkastella.
 4. Valitse kulu, jonka tietoja haluat tarkastella. Näkyvissä olevia kulun tietoja ovat kaikki kuitin, vieraan ja erittelyn tiedot.
 5. Siirry takaisin **Kuluraportti**-sivulle ja valitse kuluraportin hyväksyntä tai hylkäys.
 6. Anna mahdolliset hyväksyntätoimintoa koskevat kommentit.
 7. Valitse **Valmis**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Luo uusi kuluraportti ja lähetä se hyväksyttäväksi Kulun hallinta -mobiilityötilan avulla (jos käytössä on heinäkuun 2017 päivitys)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Uuden kuluraportin luominen ja sen lähettäminen hyväksyminen kulujen hallinnan mobiilityötilassa
 
 1. Avaa mobiililaitteessa **Kulujen hallinta** -työtila.
 2. Valitse **Kulun syöttö**.
@@ -186,12 +151,12 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
                     1. Valitse luettelosta kuva.
                     2. Valinnainen: Anna kuvalle nimi ja syötä mahdolliset muistiinpanot.
 
-            3.  Valitse **Valmis**.
+            3. Valitse **Valmis**.
 
         - Jos valitsit **Liitä kuitti** -kohdan, toimi seuraavasti:
 
-            1.  Valitse luettelosta vähintään yksi kuva.
-            2.  Valitse **Valmis**.
+            1. Valitse luettelosta vähintään yksi kuva.
+            2. Valitse **Valmis**.
 
     3. Valitse **Takaisin**-painike, jos haluat palata kulun tietoihin.
 
@@ -237,5 +202,30 @@ Voit ladata asentaa Dynamics 365 Unified Ops -mobiilisovelluksen seuraavasti:
 23. Anna mahdolliset hyväksyjää koskevat kommentit.
 24. Valitse **Valmis**.
 
+## <a name="frequently-asked-questions"></a>Usein kysyttyjä kysymyksiä
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Miksi Expense Mobile -sovellus ei määritä maksutapaa oletusarvoisesti?
+
+Organisaatiot voivat mukauttaa **oletusmaksutapa**-asetuksen kullekin kululuokalle sitä mukaa kuin se on luotu. Kun määrität maksutapoja, voit myös määrittää **Oletusmaksutapa**-kentän arvoksi **Vain tuonti**.
+
+Kun **Vain tuonti** on käytössä maksutapaa varten, maksutapaa ei oletusarvon mukaan tule. Se on tyhjä kululuokissa, joissa tämä maksutapa on määritetty. Tämä toiminta on yhdenmukaista sekä verkkokäyttökokemuksen että mobiilikokemuksen kanssa.
+    
+Jos **Vain tuonti** ei ole käytössä maksutapaa varten, määrityksen arvo määritetään oletusarvoisesti kululuokille, joissa tämä maksutapa on määritetty. On kuitenkin tunnettu ongelma, jossa oletusarvoa ei ole syötetty Expense Mobile -sovellukseen. Voit ratkaista ongelman valitsemalla maksutavan manuaalisesti ennen kuluraportin tallentamista. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Miksi en voi lisätä tai muokata taloushallinnon dimensioita Kulu-mobiilisovelluksessa?
+
+Dimensioiden ja jakojen syöttöä ei tueta. Voit kiertää tämän rajoituksen määrittämällä nämä kentät oletusarvoisesti mobiilisovelluksessa määrittämällä taloushallinnon oletusdimensiot projektia tai työntekijää kohden.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Miksi näkyviin tulee joskus synkronointivirhe Kulu-mobiilisovelluksessa?
+
+Jos kulurivit eivät vastaa käytäntövaatimuksia ja käyttäjä lähettää kuluraportin käsittelemättä käytäntövaroitusta, mobiilitietoja ei synkronoida palvelimeen ja synkronointi epäonnistuu. Kaikki synkronointivirheen jälkeen lähetetyt kuluraportit säilyvät epäonnistuneena ja aiheuttavat enemmän synkronointivirheitä. Ongelman voi korjata vain poistamalla synkronointiilmoitukset manuaalisesti. Tämä ongelma on ratkaistu pysäyttämällä kuluraporttien lähettäminen silloin, kun käytäntövaroituksia ei ole käsitelty, jotta synkronointivirheet voidaan välttää.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Miksi projektin ja luokan tarkistus ei näy oikein Kulu-mobiilisovelluksessa?
+
+Tätä vahvistusta ei tueta tällä hetkellä. Tukea voidaan kuitenkin lisätä myöhemmin. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Mitä asiakirjatyyppejä Kulu-mobiilisovelluksessa tuetaan?
+
+Kulu-mobiilisovellus tukee vain kuvia. Se ei tällä hetkellä tue PDF-dokumentteja tai muita asiakirjoja.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

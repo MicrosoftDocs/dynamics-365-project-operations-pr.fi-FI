@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0f3957936e699fb2a9f570b9789924c55e12cc2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8568921dd16472f10a7043c5fe3f58b9f5cd3989ad39e3a3bdf269b0c7203ae2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009342"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998637"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Nimettyjen varattavissa olevien resurssien varaaminen projektiryhmälle ja tehtävien kohdennus 
 
@@ -34,14 +34,14 @@ Voit lisätä nimetyn resurssin projektiryhmään varaamalla sen suoraan ryhmä�
 1. Siirry Project Service Automationissa kohtaan **Projektit** ja avaa projekti, jota varten teet varausta.
 2. Napsauta **Projekti**-sivun **Tyhmä**-välilehdessä **Uusi**. 
 
-![Ryhmän jäsenen lisääminen ryhmävälilehdestä](media/RM-how-to-1.png)
+![Ryhmän jäsenen lisääminen ryhmävälilehdestä.](media/RM-how-to-1.png)
 
 3. Valitse varattavissa oleva resurssi **Projektiryhmän jäsenen pikaluonti** -valintaikkunassa. **Rooli**-kenttä täytetään resurssin oletusroolilla, jos sillä sellainen on. Voit muuttaa roolia tarvittaessa. 
 4. Valitse alkamis- ja päättymispäivä resurssin tarpeelle ja valitse resurssin kapasiteetin kohdennustapa. 
 5. Jos haluat ryhmän jäsenen olevan projektin hyväksyjä, valitse **Projektin hyväksyjä** -kentässä **Kyllä**. Tämä tarkoittaa, että ryhmän jäsen voi tässä projektissa hyväksyä toimitettuja aika- ja kulumerkintöjä. 
 6. Valitse **Tallenna**.
 
-![Ryhmän jäsenen lisääminen pikaluontilomakkeessa](media/RM-how-to-2.png)
+![Ryhmän jäsenen lisääminen pikaluontilomakkeessa.](media/RM-how-to-2.png)
 
 
 Voit nyt kohdentaa varatun resurssin projektin tehtäville. Napsauta **Projekti** -sivulla **Aikataulut**-välilehteä kohdentaaksesi tehtäviä uudelle resurssille. Tehtäväruudukon **Resurssit**-kentästä käynnistettävä resurssinvalitsin näyttää ne ryhmän jäsenet, jotka voidaan valita.
@@ -51,19 +51,19 @@ Voit nyt kohdentaa varatun resurssin projektin tehtäville. Napsauta **Projekti*
 Project Service Automationin (PSA) versiossa 3 resurssivaraukset ja tehtäväkohdennukset eivät ole tiiviissä yhteydessä toisiinsa. Tämä tarkoittaa, että voit aikataulun resurssinvalitsinta käyttäessäsi kohdentaa ryhmän jäsenille tehtäviä, joiden tuntimäärä ylittää heidän varaustensa projektissa kattaman tuntimäärän.
 Voit tarkastella ryhmän jäsenen varausten ja kohdennusten välisiä eroja **Ryhmä**- tai **Resurssin täsmäytys** -välilehdellä. Voit myös täsmäyttää resurssien varauksia ja kohdennuksia yksityiskohtaisemmalla tasolla.
 
-![Resurssin täsmäytys -välilehti](media/RM-how-to-4.png)
+![Resurssin täsmäytys -välilehti.](media/RM-how-to-4.png)
 
 Voit myös käyttää **Aikataulut**-välilehden resurssinvalitsinta etsiäksesi ja valitaksesi varattavissa olevia resursseja, jotka eivät vielä kuulu projektiryhmään. Nämä näkyvät resurssinvalitsimessa nimellä **Muut resurssit**.
 
-![Ryhmään kuulumattoman resurssin kohdentaminen tehtävälle](media/RM-how-to-5.png)
+![Ryhmään kuulumattoman resurssin kohdentaminen tehtävälle.](media/RM-how-to-5.png)
 
 Kun teet näin, resurssi lisätään projektiryhmään ja se kohdennetaan tehtävällä, mutta varauksia ei luoda.
 
-![Ryhmän jäsen, jolla on kohdennuksia muttei varauksia](media/RM-how-to-6.png)
+![Ryhmän jäsen, jolla on kohdennuksia muttei varauksia.](media/RM-how-to-6.png)
 
 Voit käyttää **Täsmäytys**-välilehden varauksenlaajennustoimintoa tai kohtaa **aikataulutaulukko** varataksesi resurssin kapasiteettia projektille.
 
-![Ryhmän jäsenen varausten laajentaminen resurssin täsmäyksen välilehdessä](media/RM-how-to-7.png)
+![Ryhmän jäsenen varausten laajentaminen resurssin täsmäyksen välilehdessä.](media/RM-how-to-7.png)
 
 Kun ryhmän jäsen on varattu projektillesi, voit käyttää niiden varausten hallitsemiseen varausten ylläpitoa tai aikataulutaulukkoa.
 

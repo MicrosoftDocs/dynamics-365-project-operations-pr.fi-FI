@@ -2,8 +2,6 @@
 title: Myyntiarviot ja projektit
 description: Tässä aiheessa on tietoja siitä, miten aikataulua ja arvioita voidaan hyödyntää myyntiprosessissa.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 87dc72b76ec4f88684ef2c702718e1ab631ff936
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283904"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995172"
 ---
 # <a name="sales-estimates-and-projects"></a>Myyntiarviot ja projektit
 
@@ -37,11 +35,11 @@ Voit luoda myyntiarvioita myyntiprosessin aikana linkittämällä projektin myyn
 
 Kun luot projektipohjaisen tarjousrivin, voit luoda uuden projektin tai liittää aiemmin luodun projektin **tarjousrivi**-sivulle. 
 
-> ![Tarjousrivilomake](media/project-8.png)
+> ![Tarjousrivilomake.](media/project-8.png)
  
 Kun luot uuden projektin tarjousrivin tiedoista, voit hyödyntää projektimalleja. Projektimallit ovat malliprojekteja, jotka edustavat organisaation kannalta tyypillisiä, tavallisia projektisuunnitelmia ja talousarvioita. Ne voivat myös edustaa aiempien projektien projektisuunnitelmien ja arvioiden kopioita.
 
-> ![Tarjousrivin tiedot](media/project-9.png)
+> ![Tarjousrivin tiedot.](media/project-9.png)
   
 Luomalla projektin tarjouksesta projekti liitetään automaattisesti tarjouksen riviin.
 

@@ -2,18 +2,18 @@
 title: Kulujen yleiskatsaus
 description: Tämä aihe tarjoaa tietoja Project Operationsin kulutoiminnoista.
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.prod: ''
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 7ba4d090e15bffa687d69d3d8e5733d2519668e2879249e1d6dc6aba26f7fbf6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075228"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988467"
 ---
 # <a name="expense-home-page"></a>Kulujen aloitussivu
 
@@ -28,7 +28,7 @@ Project Operationsissa on kaksi tuettua kulujen käyttöönoton mallia:
 - **Perusratkaisu**: Peruskäyttöönotto on käytettävissä seuraaville: **Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa** ja **Lite-käyttöönotto – kauppa proformalaskutukseen**.
 
 ## <a name="full"></a>Täydellinen 
-Täysi kulujen käyttöönotto tarjoaa täydellisen käytännön pakottamisen, joka sisältää mahdollisuuden luoda käytäntöjä, kuten:
+Täysi kulujen käyttöönotto tarjoaa täydellisen käytännön täytäntöönpanon, joka sisältää mahdollisuuden luoda käytäntöjä, kuten:
 
   - Kululuokkien rajat
   - Matka
@@ -43,3 +43,6 @@ Lisätietoja on kohdassa [Kulumerkintä (lite)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>Kulujen käyttöönoton määritys
 Jos haluat selvittää, onko käytössä kulujen hallinnan peruskäyttöönotto, tarkista, että URL-osoite päättyy **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

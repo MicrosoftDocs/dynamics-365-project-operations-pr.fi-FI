@@ -2,8 +2,6 @@
 title: Projektivarauksen luominen aikataulutaulukosta
 description: Tässä aiheessa on tietoja projektivarauksen luomisesta aikataulutaulukosta.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7032af78168c742ac64cb2a7174cabcbda579ff8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146524"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987612"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Projektivarauksen luominen aikataulutaulukosta
 
@@ -45,7 +43,7 @@ Voit luoda yleisen resurssin ja kohdentaa sille projektissa yhden tehtävän tai
 
 1.  Aikataulutaulukossa tämä resurssi näkyy **Avoimet tarpeet** -välilehdessä. Jos avoimia tarpeita on useita, ruudukossa kannattaa käyttää sarakesuodattimia. 
 
-    ![Aikataulutaulukon Avoimet tarpeet -välilehti](media/FAQ-Project-Booking-Schedule-Board-1.png "Varausten ja delegointien taulukon näyttökuva")
+    ![Aikataulutaulukon Avoimet tarpeet -välilehti.](media/FAQ-Project-Booking-Schedule-Board-1.png "Varausten ja delegointien taulukon näyttökuva")
 
 2. Valitse tarve. **Etsi saatavuus** -välilehti tulee näkyviin valitun rivin yläosassa.
  
@@ -55,7 +53,7 @@ Voit luoda yleisen resurssin ja kohdentaa sille projektissa yhden tehtävän tai
 
     Kun valitset **Varaa**, resurssi varataan projektiryhmälle.
 
-![Resurssivarauspaneelin luominen](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Resurssivarauspaneelin luominen.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Varaus ensisijaisesta tarpeesta
@@ -64,7 +62,7 @@ Kun Project Service -sovelluksessa luodaan projekti, luodaan myös resurssitarve
 
 1. Jos haluat varata resurssin aikataulutaulukon Ensisijainen tarve -kohdassa, valitse **Projekti**-välilehti. Jos projekteja on useita, kannattaa käyttää **Projekti**-sarakkeen sarakesuodatinta.
 
-   ![Sarakesuodattimet aikataulutaulukossa](media/FAQ-Project-Booking-Schedule-Board-2.png "Varausten ja delegointien taulukon näyttökuva")
+   ![Sarakesuodattimet aikataulutaulukossa.](media/FAQ-Project-Booking-Schedule-Board-2.png "Varausten ja delegointien taulukon näyttökuva")
 
 2. Valitse tarve, jonka nimi on projektin nimi ja jonka kesto on 0 (nolla).
 
@@ -91,3 +89,6 @@ Resurssi voidaan varata uudesta resurssitarpeesta seuraavasti.
 
 4. Nyt kun resurssi on varattu, tehtävät on kohdennettava manuaalisesti.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

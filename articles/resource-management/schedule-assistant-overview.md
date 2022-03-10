@@ -2,18 +2,17 @@
 title: Ajoitusavustajan yleiskatsaus
 description: Tässä aiheessa on tietoja resurssien varaamisesta ajoitusavustajan avulla.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125624"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990222"
 ---
 # <a name="schedule-assistant-overview"></a>Ajoitusavustajan yleiskatsaus
 
@@ -25,7 +24,7 @@ Kun tarvittavat resurssit on tunnistettu, resurssi- tai projektipäällikkö voi
 
 ## <a name="prerequisites"></a>Edellytykset
 
-Ajoitusavustaja on osa Universal Resource Scheduling -ratkaisua. Tämä ratkaisu sisältyy ja asennetaan Dynamics 365 Project Operationsin, Dynamics 365 Field Servicee ja Dynamics 365 Customer Servicen kanssa.
+Ajoitusavustaja on osa Universal Resource Scheduling -ratkaisua. Tämä ratkaisu sisältyy ja se asennetaan Dynamics 365 Project Operationsin, Dynamics 365 Field Servicen ja Dynamics 365 Customer Servicen kanssa.
 
 ## <a name="matching-requirements-and-resources"></a>Vastaavat tarpeet ja resurssit
 
@@ -57,3 +56,6 @@ Suodatusruudussa näkyvät työhön liittyvät asetukset, kuten seuraavat:
 -   Resursoiva yritys
 -   Resurssityypit
 -   Ensisijaiset resurssit
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

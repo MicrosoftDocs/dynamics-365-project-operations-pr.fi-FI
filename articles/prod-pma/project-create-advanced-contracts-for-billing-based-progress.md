@@ -2,11 +2,9 @@
 title: Etenemiseen perustuvien edistyksellisten hinnoittelusopimusten luominen
 description: Tässä aiheessa kerrotaan, miten projektisopimuksia luodaan, jotta asiakkaille voidaan luoda laskuja valmiin työn prosenttimäärän perusteella.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4075477"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000977"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Etenemiseen perustuvien edistyksellisten hinnoittelusopimusten luominen
 [!include [banner](../includes/banner.md)]
@@ -103,3 +101,6 @@ Budjettiluokkia käytetään laskettaessa laskusummat kullekin luokalle valmistu
 8. Valinnainen: voit delegoida laskutussäännön lisäprojekteille. Valitse **projekti**-pikavälilehden **käytettävissä olevat projektit** -osasta ja valitse sitten oikea nuolipainike, kun haluat lisätä projektin **Valitut projektit** -osaan.
 9. Valinnainen: Laske sen prosenttimäärän summa, jonka asiakas pidättää maksuista laskulla. Valitse **maksun pidätysehdot** -pikavälilehdessä rahoituslähde ja kirjoita sitten **pidätysprosentti** -kenttään pidätysprosentti.
 10. Toista nämä vaiheet, kun haluat luoda projektisopimukselle lisää laskutussääntöjä.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

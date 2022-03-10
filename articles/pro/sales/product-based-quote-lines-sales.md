@@ -2,18 +2,17 @@
 title: Tuotepohjaisten tarjousrivien yleiskatsaus – lite
 description: Tässä aiheessa on tietoja tuotepohjaisten tarjousrivien käyttämisestä.
 author: rumant
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f6aa428c486f149308ad078f9d7a80a0be0f0f04
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 871597b38d72d2b670c375d2a1711a6022e3446ba3955a3d2a233a6486d85f5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178184"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003317"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>Tuotepohjaisten tarjousrivien yleiskatsaus – lite
 
@@ -46,3 +45,6 @@ Jos tarjousrivi perustuu tuoteluetteloon, voit korvata myyntihinnan suoraan tarj
 Jos valitset **Ohita hinnoittelu**, oletushintaa ei määritetä. Tuotteelle on sen sijaan annettava hinta tarjousrivillä. Jos valitset **Käytä oletusta**, oletusmyyntihintaa käytetään ja kenttä lukitaan, joten sitä ei voi muokata.
 
 Oletusmyyntihinnat annetaan tarjouksen tuotepohjaisilla riveillä. **Hinnoittelu** -kentän arvoksi määritetään sitten **Ohita hinnoittelu**, jotta voit muokata tarjousrivien oletushintaa. Tämä on Project Operations -kohtainen Dynamics 365 Salesin tuotepohjaisen rivitoiminnan ohitus.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

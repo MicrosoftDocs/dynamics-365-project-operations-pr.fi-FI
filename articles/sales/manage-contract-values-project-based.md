@@ -2,18 +2,16 @@
 title: Projektipohjaisten sopimusrivien käyttäminen
 description: Tässä aiheessa on tietoja projektipohjaisista sopimusriveistä.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181711"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990042"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Projektipohjaisten sopimusrivien käyttäminen
 
@@ -57,3 +55,6 @@ Sääntö: projekti ja tietty tapahtumaluokka voidaan sisällyttää vain yhdell
 | S1       | SR2           | K1      | No           | Kyllä             | No          | Kelvollinen           | SR1 sisältää projektin P1 ajan ja maksut. SR2 sisältää projektin P1 kulun. </br>   Siinä, mitä kummallekin sopimusriville sisällytetään, ei ole päällekkäisyyttä, joten kelpaa.  |
 | S1       | SR1           | K1      | Kyllä          | Kyllä             | Kyllä         | Ei kelpaa       | Rikkoo sääntöä. Projektin P1 aika, kulu ja maksut sisältyvät kahden sopimuksen riveille.                                                                                               |
 | SR2      | SR2           | K1      | Kyllä          | Kyllä             | Kyllä         | Ei kelpaa       | Rikkoo sääntöä. Projektin P1 aika, kulu ja maksut sisältyvät kahden sopimuksen riveille.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

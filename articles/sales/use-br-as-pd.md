@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011187"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996252"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Varattavissa olevan resurssin käyttäminen hinnoitteludimensiona
 
@@ -64,18 +64,18 @@ Hinnoitteludimensiotietueelle koskien kohdetta **msydn_bookableresource** on ilm
 1. Kaksoisnapauta riviä **Hinnoitteludimensiot**-ruudukossa avataksesi dimensiosivun kohteelle **msdyn_bookableresource**.
 2. Valitse dimensiosivun **Liittyvät**-välilehdellä **Hinnoitteludimension kenttänimet**.
 
-  ![Hinnoitteludimension kenttien nimet](media/PD-fieldname.png)
+  ![Hinnoitteludimension kenttien nimet.](media/PD-fieldname.png)
 
 3. Valitse aukeavassa näkymässä **Lisää uusi hinnoitteludimension kentän nimi**.
 
-  ![Uusien hinnoitteludimension kentän nimien lisääminen](media/Add-NewPD-fieldname.png)
+  ![Uusien hinnoitteludimension kentän nimien lisääminen.](media/Add-NewPD-fieldname.png)
 
   Näkyviin tulee **msdyn_bookableresource**-kentän **Uusi hinnoitteludimension kentän nimi** -sivu 
 
 4. Lisää **Uusi hinnoitteludimension kentän nimi** -sivulla **msdyn_projectteam** kohtaan **Entiteetin looginen nimi**.
 5. Lisää **msdyn_bookableresourceid** **Kentän nimeen**.
 
- ![Uuden hinnoitteludimension kentän nimen lomake](media/PD-fieldname-Added.png)
+ ![Uuden hinnoitteludimension kentän nimen lomake.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

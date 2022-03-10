@@ -2,27 +2,25 @@
 title: Projektitarjouksen asetukset
 description: Tässä aiheessa on tietoja projektitarjouksiin vaikuttavista tiedoista ja asetuksista.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 3f11188a47c6f0c7de9fb591fd3be3e22f8f7d842fb6d075c1f43d9baea4d225
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180233"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993462"
 ---
-# <a name="project-quote-settings"></a>Projektitarjouksen asetukset
+# <a name="header-details-for-project-based-quotes"></a>Projektipohjaisten tarjousten otsikkotiedot
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
 
 Tässä artikkelissa selitetään projektitarjousta koskevat tiedot. Tämä sisältää kaikkiin tarjousriveihin vaikuttavat asetukset sekä tiedot tarjouksesta, joka on koottu yhteen kaikkien rivinimikkeiden kanssa, jotta projektitarjouksen suorituskykyilmaisimia voidaan tuottaa.
 
-Seuraavassa taulukossa on esitetty projektitarjouksen yhteenvedon tietokentät, jotka löytyvät vain Dynamics 365 Project Operationsista tai joissa on merkittäviä muutoksia verrattuna Dynamics 365 Salesiin.
+Seuraavassa taulukossa on luettelo projektitarjouksen yhteenvetotietokentistä, jotka ovat yksilöllisiä Dynamics 365 Project Operationsissa tai joiden toimintatavoissa on tärkeitä muutoksia Dynamics 365 Salesin tarjouksista.
 
 | **Kenttä** | **Sijainti** | **Kuvaus** | **Loppupään vaikutus** |
 | --- | --- | --- | --- |
@@ -43,3 +41,6 @@ Alla on projektitarjouksessa käytettävissä olevat välilehdet ja suorituskyky
 | Kannattavuusanalyysi | Tarjouksen välilehti | Välilehedessä näkyvät seuraavat mittarit:</br>– Veloitettavat kokonaiskustannukset</br></br>– Ei-veloitettavat kokonaiskustannukset</br>– Kokonaistuotto</br>– Kokonaistuotto (perusvaluutta)</br>– Käyttökate</br>– Muutettu käyttökate|
 | Vertailu asiakasodotuksiin | Tarjouksen välilehti | Tässä välilehedessä näkyvät seuraavat mittarit:</br>– Arvioitu valmistuminen</br>– Pyydetty valmistuminen</br>– Asiakasbudjetti</br>– Tarjouksen arvo |
 | Tarjousanalyysi | Tarjouksen välilehti | Tässä välilehdessä on yhteenveto projektitarjouksen tärkeimmistä suorituskykyilmaisimista</br>– Asiakkaiden odotusten vertailu budjettiin ja aikatauluun</br>– Käyttökate</br>– Muutettu käyttökate |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

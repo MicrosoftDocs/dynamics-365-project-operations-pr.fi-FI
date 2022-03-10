@@ -2,24 +2,22 @@
 title: Project Operations -integroinnin määrittäminen oikeushenkilöä kohden
 description: Tämä aihe sisältää tietoja integroinnin määrittämisestä yrityksen mukaan Project Operationsissa.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122879"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999402"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Project Operations -integroinnin määrittäminen oikeushenkilöä kohden 
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Tässä aihe käy läpi vaiheet, joita tarvitaan Dynamics 365 Project Operationsin määrittämiseen yrityksen mukaan.
+Tässä aiheessa kuvaillaan Dynamics 365 Project Operationsin yrityskohtaisen määrittämisen vaiheita.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Ota käyttöön ominaisuusavaimet Dynamics 365 Financessa
 
@@ -51,3 +49,6 @@ Jokainen yritys, joka käyttää projektitoimintoja Dynamics 365 Customer Engage
   - **Laskutustyyppioletukset**: Project Operations käyttää kiinteää joukkoa laskutustyyppioletusarvoja, jotka on yhdistettävä rivin ominaisuuksiin Financessa. Tietueen luominen kullekin laskutustyypille: **ei määritetty**, **Laskutettava**, **Ei-laskutettava**, **maksuton** ja **ei käytettävissä**.
   - **Projektiluokan oletusarvot**: Valitse kullekin tapahtumatyypille käytettävät oletusprojektiluokat. Näitä oletusarvoja käytetään **Projektitoimintojen integrointikirjauskansiossa** ja arvioissa, joissa projektin toteutumiselle ei ole määritetty tapahtumaluokkaa.
   - **Ennusteet**: Valitse ennustemalli, jota käytetään aika- ja kuluarvioille.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

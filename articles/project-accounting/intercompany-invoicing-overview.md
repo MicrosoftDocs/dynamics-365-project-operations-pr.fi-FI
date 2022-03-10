@@ -6,12 +6,13 @@ ms.date: 11/19/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002637"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005387"
 ---
 # <a name="intercompany-invoicing-overview"></a>Yritysten välisen laskutuksen yleiskatsaus
 
@@ -21,7 +22,7 @@ Organisaatiolla voi olla useita osastoja, tytäryhtiöitä ja muita juridisia ko
 
 Seuraavassa kuvassa on esitetty tyypillinen skenaario, jossa kaksi yritystä, Contoso Robotics USA (lainaa ottava yritys) ja Contoso Robotics UK (lainaa antava yritys) jakavat resursseja keskenään toimittaakseen projektin asiakkaalle, eli Adventure Worksille. Tässä skenaariossa Contoso Robotics USA on palkattu toimittamaan työ Adventure Worksille.
 
-![Konsernin sisäinen laskutus](./media/IntercompanyScenario.png) 
+![Yritysten välinen laskutus.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations käyttää seuraavaa työnkulkua yritysten välisten tapahtumien käsittelyyn:
 
@@ -34,11 +35,11 @@ Dynamics 365 Project Operations käyttää seuraavaa työnkulkua yritysten väli
 
 Seuraavassa kaaviossa on kuvattu yritysten välinen laskutus siltä osin, kun se liittyy kirjanpitotapahtumiin ja odotettuihin yleisen tapahtumarekisterin kirjauksiin.
 
-![Yritysten välinen työnkulku](./media/IntercompanyFlow.png)
+![Yritysten välinen työnkulku.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Lisäresurssit
 
-- [Yritysten välisen laskutuksen määrittäminen](configure-intercompany-invoicing.md)
+- [Konsernin sisäisen laskutuksen määrittäminen](configure-intercompany-invoicing.md)
 - [Yritysten välisten tapahtumien tallentaminen](create-intercompany-transactions.md)
 - [Yritysten välisten asiakas- ja toimittajalaskujen luominen](create-intercompany-customer-vendor-invoices.md)
 

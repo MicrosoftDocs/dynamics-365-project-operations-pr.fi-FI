@@ -2,26 +2,24 @@
 title: Projektin palvelusopimuksen asetukset – lite
 description: Tässä aiheessa on tietoja kentistä, jotka vaikuttavat sopimusriveihin, sekä sopimustietoihin, joista on tehty yhteenveto kaikille rivinimikkeille.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180908"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995937"
 ---
-# <a name="project-contract-settings---lite"></a>Projektin palvelusopimuksen asetukset – lite
+# <a name="header-details-for-project-contracts"></a>Projektisopimusten otsikkotiedot
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
 Tässä aiheessa on tietoja koko projektisopimusta koskevista kentistä, mukaan lukien asetukset, jotka vaikuttavat kaikkiin sopimusriveihin. Mukana on myös tietoja palvelusopimuksesta, joka on koottu kaikkiin rivikohteisiin projektisopimuksen suorituskykyilmaisimien mukaan.
 
-Seuraavassa taulukossa on esitetty projektisopimuksen kentät, jotka löytyvät vain Dynamics 365 Project Operationsista tai joissa on merkittäviä muutoksia verrattuna myyntisopimuksiin Dynamics 365 Salesissa.
+Seuraavassa taulukossa on luettelo projektisopimuksen kentistä, jotka ovat yksilöllisiä Dynamics 365 Project Operationsissa tai joiden myyntitilausten toimintatavoissa on tärkeitä muutoksia Dynamics 365 Salesissa.
 
 | Field | Sijainti | Kuvaus | Loppupään vaikutus |
 | --- | --- | --- | --- |
@@ -57,3 +55,6 @@ Seuraavat suorituskykyilmaisimet ovat käytettävissä projektisopimuksen **sopi
 | Aiheutuneet kulut | Tuotepohjaiset rivit | Kaikkien tuotepohjaiseen sopimusriviin kirjattujen kustannustodistusten summa. |
 | Käyttökate | Projektipohjaiset rivit | Laskutettu määrä - kustannukset, jotka ovat syntyneet asti päivä määrä/laskutettu summa |
 | Odotettu kate | Tuotepohjaiset rivit | (Sopimusrivin arvo - sopimusrivin arvioidut kustannukset)/sopimusrivin arvo |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

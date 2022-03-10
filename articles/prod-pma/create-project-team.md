@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006192"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005792"
 ---
 # <a name="create-a-project-team"></a>Projektitiimin luominen
 
@@ -33,7 +33,7 @@ Näkymäasetuksia voi myös mukauttaa paremman kuvan antamiseksi resurssien käy
 
 Projektipäällikkö voi valita sivulla roolin ja sitten, jos vaatimuksen täyttävä resurssi on käytettävissä, päättää varata resurssin täyttämään kyseinen rooli. Huomaa, että resursseja ei tarvitse varata tässä kohtaa suunnitteluvaihetta. Kun luot työrakennemallin, voit korvata roolit projektin henkilöresursseilla. Jos roolit korvataan työrakenteessa henkilöresursseilla, resurssien määritys päivittää automaattisesti projektitiimiluettelon ja aikataulutuksen.
 
-[![Projektitiimin luettelo, joka sisältää sekä roolit että todelliset resurssit](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Projektitiimin luettelo, joka sisältää sekä roolit että todelliset resurssit.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Projektipäälliköllä on useita vaihtoehtoja resurssin varaamiseen projektia varten, kuten **Jäljellä oleva kapasiteetti**, **Koko kapasiteetti**, **Prosenttiosuus kapasiteetista** ja **Työtuntien määritys**. Nämä varausvaihtoehdot voidaan peruuttaa milloin tahansa, jos resurssiosoitukset muuttuvat. Kahdenlaisia varauksia tuetaan:
 

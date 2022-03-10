@@ -2,8 +2,6 @@
 title: Hanki Dynamics 365 Project Finder Mobile -sovellukset | MicrosoftDocs
 description: Dynamics 365 Project Finder Mobile -sovellusten hankkiminen
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.date: 8/03/2018
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 059409398d7dc3074f0ec852a8e295b2c3d5504f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: df9842c9a3f148d6a6d902ef8013f7a17bc36b04ab3f98c0c770b6509ea3e25e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284444"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985687"
 ---
 # <a name="get-the-apps-project-service"></a>Hae sovellus (Project Service)
 
@@ -30,7 +28,7 @@ ms.locfileid: "5284444"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Jos haluat syöttää työajan ja kulusi mobiililaitteessa, [Hae ja asenna Dynamics 365 puhelimille ja tableteille](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
+Jos haluat syöttää työajan ja kulusi mobiililaitteessa, [Hae ja asenna Dynamics 365 puhelimille ja tableteille](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
   
  Project Finder Mobile -sovelluksen avulla voit myös etsiä uutta projektia puhelimestasi ja hakea sitä. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Etsi seuraava projektisi Project Finder Mobile -sovelluksella](../psa/find-next-project-finder-mobile-app.md) 
   
