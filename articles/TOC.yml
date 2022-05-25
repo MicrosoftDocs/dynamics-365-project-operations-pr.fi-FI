@@ -58,10 +58,18 @@
               href: environment/resource-dual-write-expense.md
             - name: Toimittajalaskutuksen integrointi
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Poista Dynamics 365 Project Operations -asennus
+        - name: Dynamics 365 Project Operationsin asennuksen poistaminen
           href: environment/uninstall-project-operations.md
     - name: Uudet ominaisuudet
       items:
+        - name: Toukokuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: Huhtikuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: Maaliskuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: Helmikuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: Joulukuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: Marraskuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuutta
               href: sales/sales-currency.md
+            - name: Organisaatioyksiköt
+              href: sales/OrgUnits.md
         - name: Projektin liidien hallinta
           href: sales/manage-leads.md
         - name: Projektimahdollisuuksien hallinta
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Projektien työvoiman tuoton seuranta
               href: project-management/project-sales-tracking.md
-            - name: Valmistumisen kustannusarvion päivittäminen
-              href: project-management/update-completed-estimate.md
         - name: Projektiryhmän jäsenet
           items:
             - name: Projektiryhmän jäsenten yleiskatsaus
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: Projektiaikataulun ohjelmointirajapintojen käyttäminen
               href: project-management/schedule-api-preview.md
+            - name: Projektiaikataulun ohjelmointirajapintojen käyttäminen Power Automatella
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Projektiaikataulun ohjelmointirajapinnan suorituskyky
               href: project-management/project-schedule-api-performance.md
             - name: Projektin aikataulutuslokit
@@ -382,7 +392,7 @@
               href: time/customize-weekly-time-entry-grid.md
     - name: Kulu
       items:
-        - name: Kulun yleiskatsaus
+        - name: Kulujen yleiskatsaus
           href: expense/expense-overview.md
         - name: Uusi kulukokemus
           items:
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: Käteisennakko
           href: expense/cash-advance.md
-        - name: Päivärahat
-          href: expense/per-diems.md
+        - name: Päivärahakulut
+          href: expense/per-diem-expenses.md
         - name: Kulujen mobiilisovellus
           href: expense/expense-using-mobile.md
         - name: Taloushallinto
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Hyväksyntäjoukot
           href: approvals/approval-sets.md
+        - name: Aiemmin hyväksyttyjen tapahtumien hyväksynnän peruuttaminen
+          href: approvals/cancelapproval.md
+        - name: Aiemmin hyväksyttyjen tapahtumien palauttaminen
+          href: approvals/recall-cancel.md
         - name: Kehittäjän huomautukset
           items:
             - name: Hyväksyntöjä koskevat kehittäjän huomautukset
               href: approvals/dev-notes-approvals.md
     - name: Todelliset arvot
       items:
+        - name: Project Operationsin liiketoimintatapahtumat
+          href: actuals/businesstransactions.md
         - name: Todellisten arvojen yleiskatsaus
           href: actuals/actuals-overview.md
-        - name: Todellisten arvojen linkittäminen alkuperäisiin tietueisiin
+        - name: Tapahtuman alkuperät – Todellisten arvojen linkittäminen lähteeseen
           href: actuals/linkingactuals.md
-        - name: Oikaisukirjauskansiot
+        - name: Tapahtuman yhteydet – Eri tapahtumatyyppien todellisten arvojen linkittäminen
+          href: actuals/connectingactuals.md
+        - name: Kirjauskansiot
           items:
+            - name: Merkintöjen kirjauskansioiden luominen ja vahvistaminen
+              href: actuals/create-confirm-entry-journals.md
             - name: Oikaisukirjauskansioiden luominen ja vahvistaminen
               href: actuals/create-confirm-correction-journals.md
     - name: Hankinta
       items:
         - name: Ei-varastoitujen materiaalien ja odottavien toimittajan laskujen määrittäminen
           href: procurement/configure-materials-nonstocked.md
-        - name: Ei-varastoitujen materiaalien hankkiminen projekteille käyttämällä odottavia toimittajan laskuja
+        - name: Projektien hankintaluokkien määrittäminen
+          href: procurement/configure-procurement-categories.md
+        - name: Tavaroiden ja palvelujen hankkiminen projekteille käyttämällä odottavia toimittajan laskuja
           href: procurement/pending-vendor-invoices.md
-        - name: Ei-varastoitujen materiaalien tilaaminen projekteille käyttämällä projektien ostotilauksia
+        - name: Tavaroiden ja palvelujen tilaaminen projekteille käyttämällä projektien ostotilauksia
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Toimittajan säilytys
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Myyntituottoarvioiden hallinta
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Lisämääritykset
+      items:
+        - name: Täysin laskutettujen laskutuksen välitavoitteiden siirtäminen valmistelusiirron aikana
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Päivitys
+      items:
+        - name: Modernien hyväksyntien päivityksessä huomioitavat asiat
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations -sovellukset
+      items:
+        - name: Project Operationsin ryhmän jäsen -sovellus
+          href: team-member/project-operations-team-member.md
     - name: Vianmääritys
       items:
         - name: Projektin myyntiprosessi
@@ -562,6 +596,14 @@
       items:
         - name: 'Uudet ominaisuudet 2021, aalto 2, early access – lite-käyttöönotto'
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Toukokuun 2022 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: Huhtikuun 2022 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: Maaliskuun 2022 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: Helmikuun 2022 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: Joulukuun 2021 Lite-käyttöönoton uudet ominaisuudet
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Marraskuun 2021 Lite-käyttöönoton uudet ominaisuudet
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuutta
               href: sales/sales-currency.md
+            - name: Organisaatioyksiköt
+              href: sales/OrgUnits.md
         - name: Projektin liidien hallinta
           href: pro/sales/managing-leads-sales.md
         - name: Projektimahdollisuuksien hallinta
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Projektien työvoiman tuoton seuranta
               href: project-management/project-sales-tracking.md
-            - name: Valmistumisen kustannusarvion päivittäminen
-              href: project-management/update-completed-estimate.md
         - name: Projektiryhmän jäsenet
           items:
             - name: Projektiryhmän jäsenten yleiskatsaus
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: Projektiaikataulun ohjelmointirajapintojen käyttäminen
               href: project-management/schedule-api-preview.md
+            - name: Projektiaikataulun ohjelmointirajapintojen käyttäminen Power Automatella
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Projektiaikataulun ohjelmointirajapinnan suorituskyky
               href: project-management/project-schedule-api-performance.md
     - name: Resurssien hallinta
@@ -886,12 +930,10 @@
           items:
             - name: Resurssin käytön yleiskatsaus
               href: resource-management/resource-utilization-overview.md
-    - name: Alihankintasopimusten hallinta Project Operationsissa
+    - name: Alihankinnan hallinta
       items:
         - name: Alihankintasopimusten hallinta Project Operationsissa
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: 'Alihankkijat, lokakuun 2021 Early Access'
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Alihankinnan keskeiset käsitteet
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Toimittajien ja projektihinnastojen hallinta
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: Alihankinnan tilan siirtymät
           href: pro/subcontracting/subcon-states.md
+    - name: Projektin toimittajan laskut
+      items:
+        - name: Toimittajan laskutus – Konsepti ja luonti
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Toimittajalaskujen otsikkotiedot
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Toimittajalaskun ajan rivit
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Toimittajalaskun tuotteiden rivit
+          href: pro/subcontracting/vi-line-material.md
+        - name: Toimittajalaskun välitavoitteiden rivit
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Toimittajalaskun kululuokkien rivit
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Hyväksyttyjä todellisia arvoja sisältävien toimittajalaskujen tarkistus
+          href: pro/subcontracting/VI-Verification.md
+        - name: Projektin toimittajalaskun peruuttaminen
+          href: pro/subcontracting/cancel-vi.md
+        - name: Projektin toimittajalaskun vahvistaminen
+          href: pro/subcontracting/confirm-vi.md
+        - name: Toimittajalaskun tilan siirtymät
+          href: pro/subcontracting/vi-state-model.md
     - name: Aika
       items:
         - name: Ajan yleiskatsaus
@@ -938,7 +1002,7 @@
               href: time/customize-weekly-time-entry-grid.md
     - name: Kulu
       items:
-        - name: Kulun yleiskatsaus
+        - name: Kulujen yleiskatsaus
           href: expense/expense-overview.md
         - name: Kulun merkintä (lite)
           href: expense/basic-expense.md
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Hyväksyntäjoukot
           href: approvals/approval-sets.md
+        - name: Aiemmin hyväksyttyjen tapahtumien hyväksynnän peruuttaminen
+          href: approvals/cancelapproval.md
+        - name: Aiemmin hyväksyttyjen tapahtumien palauttaminen
+          href: approvals/recall-cancel.md
         - name: Kehittäjän huomautukset
           items:
             - name: Hyväksyntöjä koskevat kehittäjän huomautukset
               href: approvals/dev-notes-approvals.md
     - name: Todelliset arvot
       items:
+        - name: Project Operationsin liiketoimintatapahtumat
+          href: actuals/businesstransactions.md
         - name: Todellisten arvojen yleiskatsaus
           href: actuals/actuals-overview.md
-        - name: Todellisten arvojen linkittäminen alkuperäisiin tietueisiin
+        - name: Tapahtuman alkuperät – Todellisten arvojen linkittäminen lähteeseen
           href: actuals/linkingactuals.md
-        - name: Oikaisukirjauskansiot
+        - name: Tapahtuman yhteydet – Eri tapahtumatyyppien todellisten arvojen linkittäminen
+          href: actuals/connectingactuals.md
+        - name: Kirjauskansiot
           items:
+            - name: Merkintöjen kirjauskansioiden luominen ja vahvistaminen
+              href: actuals/create-confirm-entry-journals.md
             - name: Oikaisukirjauskansioiden luominen ja vahvistaminen
               href: actuals/create-confirm-correction-journals.md
     - name: Proformalaskutus
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Laskuautomaation määrittäminen
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Päivitys
+      items:
+        - name: Modernien hyväksyntien päivityksessä huomioitavat asiat
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations -sovellukset
+      items:
+        - name: Project Operationsin ryhmän jäsen -sovellus
+          href: team-member/project-operations-team-member.md
 - name: Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
   items:
     - name: Uudet ominaisuudet
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Projektinhallinnan ja kirjanpidon yleiskatsaus
       href: prod-pma/overview-project-management-accounting.md
-    - name: Yritysten välinen laskutus
-      href: prod-pma/intercompany-invoicing.md
-    - name: Konsernin sisäisen projektilaskutuksen määrittäminen
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Työn ja kulujen vakiokustannusten määrittäminen
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Toimittajan maksun pidätysehtojen luominen ja käyttäminen
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: 'Toimittajan maksa, kun maksettu -maksujen määrittäminen ja käyttäminen'
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Projektin kustannuskertymä ostovastaanotoissa
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Projektin laskutus
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Projektin laskuehdotusten suorituskyky
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Projektisopimukset
-      href: prod-pma/project-contracts.md
-    - name: Etenemiseen perustuvien edistyksellisten hinnoittelusopimusten luominen
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Projektiennusteet ja -budjetit
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Ennustemallien luominen projektibudjeteille
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Projektibudjettien siirtäminen tilikauden lopussa
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Projektin myyntitilaukset
-      href: prod-pma/project-sales-orders.md
-    - name: Projektin ostotilaukset
-      href: prod-pma/project-purchase-orders.md
-    - name: Projektitarjoukset
-      href: prod-pma/project-quotations.md
-    - name: 'Projektitarjouksen vahvistaminen, päivittäminen ja lähettäminen'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Tarjouksen siirtäminen projektiin
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Projektien resursointi
+    - name: Projektin myyntiprosessi
+      items:
+        - name: Projektitarjoukset
+          href: prod-pma/project-quotations.md
+        - name: 'Projektitarjouksen vahvistaminen, päivittäminen ja lähettäminen'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Tarjouksen siirtäminen projektiin
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Projektisopimukset
+          href: prod-pma/project-contracts.md
+        - name: Projektimäärärahat
+          href: prod-pma/project-grants.md
+    - name: Hinnoittelu ja kustannuslaskenta
+      items:
+        - name: Työn ja kulujen vakiokustannusten määrittäminen
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Projektinhallinta
+      items:
+        - name: Työrakenteiden yleiskatsaus
+          href: prod-pma/work-breakdown-structures.md
+        - name: Microsoft Project Client -integraatio
+          href: prod-pma/project-integration.md
+        - name: Projektin mobiilisovellusten yleiskatsaus
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Mobiilityötila projektin aikamerkinnälle
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Projektin työaikaraportin mobiilisovellus
+          href: prod-pma/project-timesheet.md
+        - name: Projektin työaikaraportit mobiililaitteessa
+          href: prod-pma/mobile-timesheets.md
+        - name: Mukautettujen kenttien ottaminen käyttöön projektin työaikaraportin mobiilisovelluksessa
+          href: prod-pma/custom-fields-mobile.md
+    - name: Resurssien hallinta
       items:
         - name: Projektin resursoinnin yleiskatsaus
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Resurssien täyttäminen suunniteltujen resurssien osalta
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Nimikkeiden vastaanotto nimiketarpeeseen perustuvan ostotilauksen perusteella
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Työrakenteet
+    - name: Projektibudjetit ja -ennusteet
       items:
-        - name: Työrakenteiden yleiskatsaus
-          href: prod-pma/work-breakdown-structures.md
-        - name: Microsoft Project Client -integraatio
-          href: prod-pma/project-integration.md
-        - name: Projektin mobiilisovellusten yleiskatsaus
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Mobiilityötila projektin aikamerkinnälle
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Projektin työaikaraportin mobiilisovellus
-          href: prod-pma/project-timesheet.md
-        - name: Projektin työaikaraportit mobiililaitteessa
-          href: prod-pma/mobile-timesheets.md
-        - name: Mukautettujen kenttien ottaminen käyttöön projektin työaikaraportin mobiilisovelluksessa
-          href: prod-pma/custom-fields-mobile.md
-    - name: Projektimäärärahat
-      href: prod-pma/project-grants.md
-    - name: Projektiarvion poistaminen
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Projektiennusteet ja -budjetit
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Ennustemallien luominen projektibudjeteille
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Projektibudjettien siirtäminen tilikauden lopussa
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Aika
+      items:
+        - name: Projektin aikamerkintöjen taloushallinnon oletusdimensiot
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Kulu
+      items:
+        - name: Kulujen yleiskatsaus
+          href: expense/expense-overview.md
+        - name: Uusi kulukokemus
+          items:
+            - name: Uudistetut matkalaskut
+              href: expense/expense-reports-reimagined.md
+            - name: 'Kuitin sieppaaminen OCR:n avulla'
+              href: expense/match-receipt-expense-ocr.md
+        - name: Määritys ja asetukset
+          items:
+            - name: Käytäntöjen määrittäminen
+              href: expense/set-up-policies.md
+            - name: Työnkulkujen määritteleminen
+              href: expense/set-up-workflows.md
+            - name: Delegoinnin hallinta
+              href: expense/manage-delegation.md
+            - name: Kulujen hallintaparametrien määrittäminen
+              href: expense/configure-expense-management-parameters.md
+            - name: Luottokortin integroinnin määrittäminen
+              href: expense/set-up-credit-card-integration.md
+            - name: Kululuokkien määrittäminen
+              href: expense/set-up-expense-categories.md
+            - name: Kilometrikorvauksen määrittäminen kilometrikorvaustasojen perusteella
+              href: expense/set-up-mileage.md
+        - name: Kulujen erittely
+          href: prod-exp/expense-itemization.md
+        - name: Henkilökohtaiset kulut
+          href: expense/personal-expenses-expense-report.md
+        - name: Konsernin sisäiset kulut
+          href: prod-exp/intercompany-expense.md
+        - name: Matkalaskujen luominen
+          items:
+            - name: Matkalaskun jakelut
+              href: expense/distributions-expense-report.md
+        - name: Matkalaskujen hyväksyminen
+          items:
+            - name: Matkalaskut ja monta hyväksyjää
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Matkalaskujen kirjaaminen
+          href: expense/posting-expense-reports.md
+        - name: Matkustusehdotus
+          href: expense/travel-requisition.md
+        - name: Käteisennakko
+          href: expense/cash-advance.md
+        - name: Päivärahakulut
+          href: expense/per-diem-expenses.md
+        - name: Kulujen mobiilisovellus
+          href: expense/expense-using-mobile.md
+        - name: Taloushallinto
+          items:
+            - name: 'ALV:n palautus'
+              href: expense/vat-recovery.md
+    - name: Hankinta
+      items:
+        - name: Projektin ostotilaukset
+          href: prod-pma/project-purchase-orders.md
+        - name: Projektin kustannuskertymä ostovastaanotoissa
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Nimikkeiden vastaanotto nimiketarpeeseen perustuvan ostotilauksen perusteella
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: 'Toimittajan maksa, kun maksettu -maksujen määrittäminen ja käyttäminen'
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Toimittajan maksun pidätysehtojen luominen ja käyttäminen
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Projektin laskutus
+      items:
+        - name: Projektin laskutus
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Projektin laskuehdotusten suorituskyky
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Etenemiseen perustuvien edistyksellisten hinnoittelusopimusten luominen
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Projektin myyntitilaukset
+          href: prod-pma/project-sales-orders.md
+        - name: Useita rahoituslähteitä sisältävien projektisopimusten nimikevaatimukset
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Yritysten välinen laskutus
+      items:
+        - name: Yritysten välinen laskutus
+          href: prod-pma/intercompany-invoicing.md
+        - name: Konsernin sisäisen projektilaskutuksen määrittäminen
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Tuoton tunnistus
+      items:
+        - name: Projektiarvion poistaminen
+          href: prod-pma/eliminate-project-estimate.md
 - name: Kulujen hallinta
   items:
     - name: Kulujen hallinnan yleiskatsaus
@@ -1134,7 +1290,7 @@
       href: expense/cash-advance.md
     - name: Päivärahat
       href: expense/per-diems.md
-    - name: Kulujen hallintasovellus
+    - name: Kulujen mobiilisovellus
       href: expense/expense-using-mobile.md
     - name: Taloushallinto
       items:
@@ -1148,6 +1304,16 @@
       items:
         - name: Project Service 3.x -päivitysten julkaisuaikataulu
           href: psa/version-history-ps.md
+        - name: 'Päivitysversion 43, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur43.md
+        - name: 'Päivitysversion 42, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-42.md
+        - name: 'Päivitysversion 41, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-41.md
+        - name: 'Päivitysversion 40, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-40.md
+        - name: 'Päivitysversion 39, V3 uudet ominaisuudet ja muutokset'
+          href: psa/whats-new-ur-39.md
         - name: 'Päivitysversion 38, V3 uudet ominaisuudet ja muutokset'
           href: psa/whats-new-ur-38.md
         - name: 'Päivitysversion 37.5, V3 uudet ominaisuudet ja muutokset'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Päivittäminen Project Service Automationista Project Operationsin Lite-versioon
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Ominaisuuksien muutokset Project Service Automationista Project Operationsiin siirryttäessä
+      href: psa/psa-project-operations-changes.md
     - name: Project Service Automation -päivitys (sovelluksen versio 3.x)
       items:
         - name: Project Service Automation -päivitys
