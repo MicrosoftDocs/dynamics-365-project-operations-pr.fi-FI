@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 449cab5880c29cf110c9c5a266cbb4b102b5fc83
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818468"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576036"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Project Operationsin lokakuun 2021 uudet tai muuttuneet ominaisuudet varastoitavissa ja tuotantopohjaisissa skenaarioissa
 
@@ -20,7 +20,7 @@ _**Koskee:** Project Operations varastoitavien ja tuotantopohjaisten skenaariois
 
 Tämä aihe koskee seuraavia Microsoft Dynamics 365 Project Operationsin osia ja versioita:
 
-- Projektinhallinta ja kirjanpito Dynamics 365 Finance -ympäristöversiossa 10.0.22
+- Projektinhallinta ja kirjanpito Dynamics 365 Finance -ympäristön versiossa 10.0.22
  
 ## <a name="quality-updates"></a>Laatupäivitykset
 
@@ -80,6 +80,6 @@ Tämä aihe koskee seuraavia Microsoft Dynamics 365 Project Operationsin osia ja
 
 ### <a name="regulatory-updates"></a>Säännöstenmukaisuuspäivitykset
 
-Lisätietoja Finance and Operations -sovellusten säännöstenmukaisuuspäivityksistä on kohdassa [Säännöstenmukaisuuspäivitykset](/dynamics365/finance/localizations/regulatory-updates). Voit myös kirjautua Microsoft Dynamics Lifecycle Services (LCS) -palveluihin ja tarkastella suunniteltuja säädöksen päivityksiä Ongelma-hakutyökalulla. Ongelmahaun avulla voit tehdä haun maan tai alueen, toiminnon tyypin ja julkaisun mukaan.
+Tietoja talous- ja toimintosovellusten säädöspäivityksistä on ohjeaiheessa [Säädöspäivitykset](/dynamics365/finance/localizations/regulatory-updates). Voit myös kirjautua Microsoft Dynamics Lifecycle Services (LCS) -palveluihin ja tarkastella suunniteltuja säädöksen päivityksiä Ongelma-hakutyökalulla. Ongelmahaun avulla voit tehdä haun maan tai alueen, toiminnon tyypin ja julkaisun mukaan.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

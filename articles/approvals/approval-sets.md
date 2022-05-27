@@ -2,18 +2,16 @@
 title: Hyväksyntäjoukot
 description: Tässä aiheessa selitetään, miten näiden toimintojen hyväksyntäjoukkoja, pyyntöjä ja alijoukkoja käsitellään.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323232"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576220"
 ---
 # <a name="approval-sets"></a>Hyväksyntäjoukot
 
@@ -27,6 +25,18 @@ Hyväksyntäjoukot osoittavat niihin liittyvien tietueiden käsittelyn kokonaist
 Hyväksynnät, jotka on lisätty jonoon käsittelyä varten, näytetään **Käsittelyssä olevat hyväksynnät** -näkymässä. Järjestelmä käsittelee kaikki merkinnät useita kertoja asynkronisesti, muun muassa yrittää hyväksyntää uudelleen, jos aiemmat yritykset epäonnistuivat.
 
 **Hyväksyntäjoukon elinkaari** -kenttä sisältää jäljellä olevien käsittely-yritysten määrän ennen kuin joukko merkitään epäonnistuneeksi.
+
+Hyväksyntäjoukot käsitellään jaksottaisen aktivoinnin kautta perustuen **pilvityönkulkuun** nimeltä **Project Service - Aikatauluta projektin hyväksyntäjoukot toistuvasti**. Tämä löytyy **Project Operations** -nimisestä **ratkaisusta**. 
+
+Varmista, että työnkulku on aktivoitu seuraavien vaiheiden mukaisesti.
+
+1. Kirjaudu järjestelmänvalvojana sisään osoitteeseen [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Siirry oikeassa yläkulmassa ympäristöön, jossa käytössäsi on Dynamics 365 Project Operations.
+3. Valitse **Ratkaisut**, jos haluat luetteloida ympäristöön asennetut ratkaisut.
+4. Valitse ratkaisuluettelossa **Project Operations**.
+5. Vaihda suodatin **Kaikki**-arvosta **Pilvityönkulut**-arvoksi.
+6. Tarkista, että **Project Service – Aikatauluta projektin hyväksyntäjoukot toistuvasti** -työnkulku on **Käytössä**. Jos se ei ole, valitse työnkulku ja valitse sitten **Ota käyttöön**.
+7. Tarkista, että käsittely tapahtuu viiden minuutin välein, tarkistamalla Project Operationsin Dataverse-ympäristön **Asetukset**-alueen **Järjestelmätyöt**-luettelo.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Epäonnistuneet hyväksynnät ja hyväksyntäjoukot
 **Epäonnistuneet hyväksynnät** -näkymä luetteloi kaikki hyväksynnät, jotka vaativat käyttäjän toimia. Avaa asiaan liittyvät hyväksyntäjoukon lokit selvittääksesi virheen syyn.

@@ -2,16 +2,16 @@
 title: Projektilaskuehdotusten luonnoksen kirjanpidon oikaisu
 description: Tässä aiheessa selostetaan, miten laskuluonnokseen liittyviä kirjanpitoon liittyviä tietoja oikaistaan.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999312"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575070"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Projektilaskuehdotusten luonnoksen kirjanpidon oikaisu
 
@@ -27,12 +27,21 @@ Laskutuksen oletusarvonlisäveroryhmiä ja nimikkeen arvonlisäveroryhmiä voi m
 
 ## <a name="adjust-financial-dimensions"></a>Taloushallinnon dimensioiden oikaisu
 
+### <a name="header-dimensions"></a>Otsikkodimensiot
+
+Laskun taloushallinnon dimensiot johdetaan oletusarvoisesti laskuttamattomista projektitapahtumatietueista, joita ollaan laskuttamassa. Järjestelmäasetusten avulla voit kuitenkin kirjata asiakkaiden saldot projektilaskuehdotusten otsikon taloushallinnon dimensioiden avulla. Voit ottaa tämän toiminnon käyttöön valitsemalla **Projektinhallinnan ja kirjanpidon parametrit**-sivun **Taloustiedot**-välilehdessä **Salli myyntireskontran projektidimensioiden päivitykset**.
+
+Laskun otsikoiden taloushallinnon dimensioita voi muokata ennen laskun kirjaamista. Siirry **Projektilaskuehdotus**-sivulla **Otsikko**-näkymään ja muokkaa sitten **Taloushallinnon dimensiot** -välilehden arvoja.
+
+**Otsikko**-näkymä on käytettävissä vasta, kun järjestelmänvalvoja ottaa käyttöön **Käytä projektilaskuehdotuksen ja laskukirjauskansion lomakkeita Otsikko- ja Rivit-näkymän kanssa** -toiminnon **Ominaisuuksien hallinta** -työtilassa. Tämä ominaisuus edellyttää Finance-päivitystä 10.0.25 tai uudempaa.
+
+### <a name="line-dimensions"></a>Rividimensiot
+
 Taloushallinnon dimensioita ei voi muokata suoraan projektilaskun ehdotusrivillä. Seuraa sen sijaan näitä vaiheita oikaistaksesi taloushallinnon dimensioita projektilaskuehdotuksessa.
 
 1. Valitse projektilaskuehdotuksessa **Poista kaikki**, jos haluat poistaa projektilaskun ehdotusrivit.
 
-    > [!NOTE]
-    > **Poista kaikki** -painike on käytettävissä vasta, kun Järjestelmänvalvoja ottaa **Poista laskuehdotusrivit käyttöön käytettäessä Project Operations -toimintoa resurssipohjaisiin tai ei-varastoituihin skenaarioihin** -ominaisuuden **Ominaisuuksien hallinnan** työtilassa.
+    **Poista kaikki** -painike on käytettävissä vasta, kun Järjestelmänvalvoja ottaa **Poista laskuehdotusrivit käyttöön käytettäessä Project Operations -toimintoa resurssipohjaisiin tai ei-varastoituihin skenaarioihin** -ominaisuuden **Ominaisuuksien hallinnan** työtilassa.
 
 2. Taloushallinnon dimensioiden oikaisu:
 

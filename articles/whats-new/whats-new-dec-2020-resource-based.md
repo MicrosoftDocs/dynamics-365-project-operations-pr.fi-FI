@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984867"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579854"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Uudet ominaisuudet joulukuussa 2020 – Project Operations resursseihin/ei-varastoitaviin perustuvissa skenaarioissa
 
@@ -61,12 +61,12 @@ Tähän julkaisuun sisältyvät seuraavat ominaisuudet:
 | Projektin   suunnittelu ja seuranta | 2057197          | Arviorivin kopiota, jossa on tehtäväviittaus, ei tueta                                                                                                     |
 | Projektin   suunnittelu ja seuranta | 2060687          | Aikavyöhykevaroitus poistuu nyt määritetyn ajan kuluttua                                                                                                      |
 | Resurssien   hallinta           | 1832887          | Oletusresurssiluokan tunnuksen on oltava staattinen toistettavan tietojen hakemisen varmistamiseksi Dataverse- ja Finance-ympäristöistä                                                 |
-| Aika ja   kulu              | 2081793          | **Kululuokan nimi** on yhdistettävä **Kululuokan kuvaus** -kenttään Finance and Operations -sovelluksissa                                                  |
+| Aika ja   kulu              | 2081793          | **Kululuokan nimi** täytyy yhdistää talous- ja toimintosovellusten **Kululuokan kuvaus** -kenttään                                                  |
 | Aika ja   kulu              | 2034882          | **Uusi**-painike näkyy aikamerkinnöille kaksi kertaa komentopalkissa, kun Dynamics 365 Field Service on asennettu                                          |
 | Aika ja   kulu              | 2056028          | Päivitä **Ajan muokkaus** -sivu sisältämään aikajanan                                                                                                              |
 | Aika ja   kulu              | 1983747          | Ajansyöttökaavio näyttää lisätietoja                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Financen projektinhallinta ja kirjanpito
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektinhallinta ja kirjanpito Dynamics 365 Financessa
 
 | Ominaisuusalue                        | Viitenumero | Laatupäivitys                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Tähän julkaisuun sisältyvät seuraavat ominaisuudet:
 | Aika   ja kulut                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Kuluraportin automaattinen kirjaustyönkulku on valmis, mutta laskua ei kirjata                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Säännöstenmukaisuuspäivitykset
-Lisätietoja Finance and Operations -sovellusten säännöstenmukaisuuspäivityksistä on kohdassa [Säännöstenmukaisuuspäivitykset](/dynamics365/finance/localizations/regulatory-updates). Voit myös kirjautua LCS:ään ja tutustua suunniteltuihin säännöstenmukaisuuspäivityksiin käyttämällä versiohakutyökalua. Versiohaussa voit käyttää hakuehtona maata, ominaisuustyyppiä ja versiota.
+Tietoja talous- ja toimintosovellusten säädöspäivityksistä on ohjeaiheessa [Säädöspäivitykset](/dynamics365/finance/localizations/regulatory-updates). Voit myös kirjautua LCS:ään ja tutustua suunniteltuihin säännöstenmukaisuuspäivityksiin käyttämällä versiohakutyökalua. Versiohaussa voit käyttää hakuehtona maata, ominaisuustyyppiä ja versiota.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

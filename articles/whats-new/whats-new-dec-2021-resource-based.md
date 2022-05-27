@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c4869f3ab06ec80d620ec51bb4f0429412cd4d00
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943019"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579808"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Uudet ominaisuudet joulukuussa 2021 – Project Operations resursseihin/ei-varastoitaviin perustuvissa skenaarioissa
 
@@ -20,8 +20,8 @@ ms.locfileid: "7943019"
 
 Tämä aihe koskee seuraavia Microsoft Dynamics 365 Project Operationsin osia ja versioita:
 
-- Project Operations Dataversessa ympäristöversio 4.27.0.195, 4.27.0.242
-- Projektinhallinta ja kirjanpito Dynamics 365 Finance -ympäristöversiossa 10.0.23
+- Project Operations Dataversessa ympäristöversio 4.27.0.195, 4.27.0.242, 4.27.0.244
+- Projektinhallinta ja kirjanpito Dynamics 365 Finance -ympäristön versiossa 10.0.23
 
 ## <a name="features-included-in-this-release"></a>Tähän julkaisuun sisältyvät ominaisuudet
 
@@ -48,7 +48,7 @@ Jos kartan käynnistämisen yhteydessä tulee ongelma, seuraa ohjeita [Puuttuvie
 | Aika ja kulu | 2468188 | Korjattu ongelma, joka syntyy, kun lokiteksti ylittää enimmäismäärän **notetext**-määritteessä **Huomautus**-entiteetissä. |
 | Laskutus ja hinnoittelu | 2488698 | Päivitetty virhesanoma, joka tulee, kun ympäristömäärityksestä puuttuu kirjanpitoentiteetin tietueita, jotka täytetään Financesta. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Financen projektinhallinta ja kirjanpito
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektinhallinta ja kirjanpito Dynamics 365 Financessa
 
 | **Ominaisuusalue** | **Viitenumero** | **Laatupäivitys** |
 | --- | --- | --- |

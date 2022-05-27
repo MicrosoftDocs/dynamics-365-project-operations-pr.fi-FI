@@ -4,14 +4,14 @@ description: Tässä aiheessa on tietoja projektitarjouksiin vaikuttavista tiedo
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ddc85d8c475dc7cdbe910fad31b5a6d8b617512c8a19cbae9543cb7a3e1d409e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 267978da59ba1c916272ec0c9ff9044ed0d81f50
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989637"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574886"
 ---
 # <a name="header-details-for-project-quotes"></a>Projektitarjousten otsikkotiedot
 
@@ -23,7 +23,7 @@ Seuraavassa taulukossa on luettelo projektitarjouksen yhteenvetotietokentistä, 
 
 | **Kenttä** | **Sijainti** | **Kuvaus** | **Loppupään vaikutus** |
 | --- | --- | --- | --- |
-| Laji | Yhteenveto-välilehti (piilotettu) | Tässä asetusjoukkokentässä on seuraavat vaihtoehdot:</br>– Työperusteinen (käytettävissä vain, kun Project Operations on asennettu)</br>– Nimikepohjainen (käytettävissä vain, kun Project Operations ja Sales on asennettu)</br>– Palvelun ylläpitoon perustuva (käytettävissä, kun Dynamics 365 Field Service on asennettu) | Kun käytät Project Operations -sovellusta, tämän kentän arvoksi määritetään automaattisesti **Työperusteinen**. Tämä luokittelee tarjouksen projektipohjaksi tarjoukseksi. Tarjouksen on oltava projektipohjainen, jotta kaikki projektikohtaiset laajennukset ja toiminnot voidaan ottaa käyttöön. |
+| Laji | Yhteenveto-välilehti (piilotettu) | Tässä asetusjoukkokentässä on seuraavat vaihtoehdot:</br>- Työperusteinen (käytettävissä vain, kun Project Operations on asennettu)</br>- Nimikepohjainen (käytettävissä vain, kun Project Operations ja Sales on asennettu)</br>- Palvelun ylläpitoon perustuva (käytettävissä, kun Dynamics 365 Field Service on asennettu) | Kun käytät Project Operations -sovellusta, tämän kentän arvoksi määritetään automaattisesti **Työperusteinen**. Tämä luokittelee tarjouksen projektipohjaksi tarjoukseksi. Tarjouksen on oltava projektipohjainen, jotta kaikki projektikohtaiset laajennukset ja toiminnot voidaan ottaa käyttöön. |
 | Mahdollinen asiakas | Yhteenveto-välilehti | Viittaus asiakkaan yritykseen tai asiakastietueeseen. Kun mahdollisuudesta luodaan tarjous, tämä kenttä kopioidaan mahdollisuuden vastaavasta kentästä. | Projektitarjouksen valuuttana käytetään oletusarvona asiakkaan valuuttaa. Tätä ei voi kuitenkaan muuttaa ennen kuin tarjous on tallennettu. |
 | Asiakaspäällikkö | Yhteenveto-välilehti | Tämä sopimuksen asiakaspäällikön nimi. Kun mahdollisuudesta luodaan tarjous, tämä kenttä kopioidaan mahdollisuuden vastaavasta kentästä. | Asiakkuuspäällikkö vastaa asiakassuhteen hallinnasta koko projektin elinkaaren ajan. Asiakkuuspäällikköön sidotun varattavan resurssin tietueen perusteella sopimusyksikön oletusarvona on projektitarjous. |
 | Sopimusyksikkö | Yhteenveto-välilehti | Organisaatioyksikkö, joka on vastuussa tähän tarjoukseen liittyvän projektin tai liittyvien projektien toimituksesta. Kun mahdollisuudesta luodaan tarjous, tämä kenttä kopioidaan mahdollisuuden vastaavasta kentästä. | Sopimusyksikkö on sen yrityksen osasto, joka suorittaa projektit, kun sopimus on tehty. Jokaisella sopimusyksiköllä on valuutta, ja tätä valuuttaa käytetään projektin toteutuksen aikana arvioitujen ja todellisten kustannusten raportoimiseen. |
@@ -36,9 +36,9 @@ Alla on projektitarjouksessa käytettävissä olevat välilehdet ja suorituskyky
 
 | **Kenttä** | **Sijainti** | **Kuvaus** |
 | --- | --- | --- |
-| Kannattavuusanalyysi | Tarjouksen välilehti | Välilehedessä näkyvät seuraavat mittarit:</br>– Veloitettavat kokonaiskustannukset</br></br>– Ei-veloitettavat kokonaiskustannukset</br>– Kokonaistuotto</br>– Kokonaistuotto (perusvaluutta)</br>– Käyttökate</br>– Muutettu käyttökate|
-| Vertailu asiakasodotuksiin | Tarjouksen välilehti | Tässä välilehedessä näkyvät seuraavat mittarit:</br>– Arvioitu valmistuminen</br>– Pyydetty valmistuminen</br>– Asiakasbudjetti</br>– Tarjouksen arvo |
-| Tarjousanalyysi | Tarjouksen välilehti | Tässä välilehdessä on yhteenveto projektitarjouksen tärkeimmistä suorituskykyilmaisimista</br>– Asiakkaiden odotusten vertailu budjettiin ja aikatauluun</br>– Käyttökate</br>– Muutettu käyttökate |
+| Kannattavuusanalyysi | Tarjouksen välilehti | Välilehedessä näkyvät seuraavat mittarit:</br>- Veloitettavat kokonaiskustannukset</br></br>- Ei-veloitettavat kokonaiskustannukset</br>- Kokonaistuotto</br>- Kokonaistuotto (perusvaluutta)</br>- Käyttökate</br>- Muutettu käyttökate|
+| Vertailu asiakasodotuksiin | Tarjouksen välilehti | Tässä välilehedessä näkyvät seuraavat mittarit:</br>- Arvioitu valmistuminen</br>- Pyydetty valmistuminen</br>- Asiakasbudjetti</br>- Tarjouksen arvo |
+| Tarjousanalyysi | Tarjouksen välilehti | Tässä välilehdessä on yhteenveto projektitarjouksen tärkeimmistä suorituskykyilmaisimista</br>- Asiakkaiden odotusten vertailu budjettiin ja aikatauluun</br>- Käyttökate</br>- Muutettu käyttökate |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

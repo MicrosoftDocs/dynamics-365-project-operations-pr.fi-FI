@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000257"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580176"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Mikä on Dynamics 365 Project Service Automation?
 
@@ -42,14 +43,6 @@ Project Service Automation (PSA) -sovelluksen avulla organisaatiot voivat tehokk
 - ...ja lisää
 
 Lisäksi auttaakseen sinua valvomaan ja hallitsemaan projektipohjaisen työsi kuluja, asiantuntijat syöttävät ja seuraavat projektiin kulunutta aikaa ja kuluja helposti joko mobiilisti tai verkkoselaimella.
-
-## <a name="whats-new-in-psa"></a>PSA:n uudet ominaisuudet
-Ryhmä on innoissaan voidessaan ilmoittaa uusimmat päivitykset! Päivitykset sisältävät muun muassa käyttöliittymän parannuksia, virheiden korjauksia ja uusia ominaisuuksia ja toimintoja. Olemme ottaneet saamamme palautteen huomioon.
-
-Tutustu [lokakuun 2019 julkaisutietoihin](/dynamics365-release-plan/2019wave2/index) nähdäksesi uusimmat parannukset ja lisäykset.
-
-### <a name="in-development"></a>Kehityksessä
-Jos haluat nähdä, mitä meillä on lähitulevaisuuden suunnitelmissa, suuntaa [Dynamics 365: Vuoden 2020 1. julkaisuaallon suunnitelmaan](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Ohje PSA:n versiolle 3.x
 Etsitkö resursseja, joiden avulla voit suunnitella toteutuksen? Tutustu näihin ladattaviin oppaisiin.
@@ -80,10 +73,6 @@ Etsitkö resursseja, joiden avulla voit suunnitella toteutuksen? Tutustu näihin
  [Tekniset raportit (sovellusversio 2.x tai 1.x)](../psa/white-papers.md)
 
  [Kehittäjille suunnatut huomautukset (sovelluksen versio 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>Katso 2-minuuttinen yleiskatsausvideo
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 

@@ -4,14 +4,14 @@ description: Tässä aiheessa on tietoja Dynamics 365 Project Operationsin asenn
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b87c9324b1c95c10ef1e18b0fbf4572bdbe76827
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e2600c770477ad32cebb66f33a8ca31502a6da3d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783639"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575852"
 ---
 # <a name="uninstall-dynamics-365-project-operations"></a>Dynamics 365 Project Operations -ohjelman poistaminen 
 
@@ -35,8 +35,8 @@ Jos haluat poistaa Dynamics 365 Project Operations -asennuksen, sinulle on annet
     | 6 | ProjectServiceCore_Patch                           | Ei muuta huomioitavaa.                                                                         |
     | 7 | ProjectServiceCore                                 | Ei muuta huomioitavaa.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Jos ratkaisua ei löydy, ohita tämä ratkaisu.                                                            |
-    | 9 | FieldServiceCommon                                 | Tarvitaan kaksoiskirjoitusta varten Dynamics 365 Financessa tai Dynamics 365 Supply Chain Managementissa.   |
-    | 10 | msdyn_AssetCommon                                  | Tarvitaan kaksoiskirjoitusta varten Dynamics 365 Financessa tai Dynamics 365 Supply Chain Managementissa.   |
+    | 9 | FieldServiceCommon                                 | Vaaditaan kaksoiskirjoitukselle – Dynamics 365 Finance tai Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Vaaditaan kaksoiskirjoitukselle – Dynamics 365 Finance tai Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Vaaditaan Dynamics 365 Field Servicessä.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Vaaditaan Dynamics 365 Field Servicessä.                                                     |
     | 13 | msdyn_TESA                                         | Vaaditaan Dynamics 365 Field Servicessä.                                                     |

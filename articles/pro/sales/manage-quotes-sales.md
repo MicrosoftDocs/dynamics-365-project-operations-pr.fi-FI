@@ -4,14 +4,14 @@ description: Tässä aiheessa on tietoja projektitarjouksista.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001517"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579578"
 ---
 # <a name="manage-project-quotes"></a>Projektitarjousten hallinta
 
@@ -31,6 +31,9 @@ Luettelo kaikista projektitarjouksista, jotka näkyvät **Tarjoukset**-luettelos
 2. Valitse tarjousten suodatettu näkymä valitsemalla **Näkymävalitsin**. Omat näkymät ja siirtymisvaihtoehdot voidaan määrittää mukautetuilla suodatusehdoilla.
 
 Tarjouksia voidaan luoda tai poistaa tällä luettelosivulla tai tietosivuilla.
+
+ > [!NOTE]
+ > Tarjouksia, joissa on projekteja, tehtäviä, arvioita, kirjauksia ja/tai toteutuneita arvoja, ei voi poistaa. Kun tarjous suljetaan voitettuna tai hävittynä, sitä ei voi enää poistaa tai muokata. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

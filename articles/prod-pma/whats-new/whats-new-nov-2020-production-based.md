@@ -4,14 +4,14 @@ description: Tässä aiheessa on tietoja Project Operationsin varastoitavien ja 
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24796eb70f5da6fa181ef7e88ec5d4d4fddbb436
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003182"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576588"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Marraskuun 2020 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
 
@@ -23,7 +23,7 @@ Saat lisätietoja tähän päivitykseen sisältyvistä korjauksista kirjautumall
 
 ## <a name="regulatory-updates"></a>Säännöstenmukaisuuspäivitykset
 
-Lisätietoja Dynamics 365 Finance and Operations -sovellusten säännöstenmukaisuuspäivityksistä on kohdassa [Säännöstenmukaisuuspäivitykset](/dynamics365/finance/localizations/regulatory-updates). Voit myös kirjautua LCS:ään ja tutustua suunniteltuihin säännöstenmukaisuuspäivityksiin käyttämällä versiohakutyökalua. Versiohaussa voit käyttää hakuehtona maata, ominaisuustyyppiä ja versiota.
+Tietoja Dynamics 365:n talous- ja toimintosovellusten säädöspäivityksistä on ohjeaiheessa [Säädöspäivitykset](/dynamics365/finance/localizations/regulatory-updates). Voit myös kirjautua LCS:ään ja tutustua suunniteltuihin säännöstenmukaisuuspäivityksiin käyttämällä versiohakutyökalua. Versiohaussa voit käyttää hakuehtona maata, ominaisuustyyppiä ja versiota.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
