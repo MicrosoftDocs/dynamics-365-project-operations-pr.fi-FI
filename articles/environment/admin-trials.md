@@ -2,22 +2,22 @@
 title: Hanki Project Operationsin kokeiluversio
 description: Tässä aiheessa on tietoja Dynamics 365 Project Operations -kokeiluversion käyttöönotosta.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901613"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584270"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Hanki Project Operationsin kokeiluversio 
 
 _**Koskee:** Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa, Lite-käyttöönotto – kaupasta proformalaskutukseen, Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Tässä aiheessa selostetaan, miten kumppanin ennakkotarjous tilataan ja miten Dynamics 365 Project Operations -ympäristö otetaan käyttöön.
 
@@ -36,7 +36,6 @@ Seuraavassa taulukossa on esitetty uuden kokeiluversion tarjouksen tiedot.
 | Tarjouksen käyttö                    | Kerran vuokraajaa kohden                          |
 | Tarjouksen kesto               | 30 kalenteripäivää                             |
 | Lunastukset vuokraajaa kohden       | 1                                            |
-| Käyttäjien määrä              | 25                                           |
 | Laajennus                    | 1 laajennus, 30 kalenteripäivää               |
 | Kokeiluympäristöjen määrä | 3                                            |
 
@@ -87,7 +86,7 @@ Kirjaudu ennen aloittamista selaimeen käyttäjän työtilillä vuokraajassa, jo
  
   Kun valmistelu on valmis, ympäristön tila on **Valmis**. Ympäristön valmisteluun sisältyy esittelytietojen käyttöönotto.
  
-4.  Tarkista käyttöönotto valitsemalla vastaava Microsoft Dataverse-URL-osoite ja Finance and Operations -sovellusten URL-osoitteet.
+4.  Tarkista käyttöönotto valitsemalla vastaava Microsoft Dataversen URL-osoite ja talous- ja toimintosovellusten URL-osoitteet.
 
 ## <a name="configuring-dual-write"></a>Kaksoiskirjoituksen määrittäminen
 - Jos haluat määrittää kaksoiskirjoituksen käyttöoikeusroolit, katso kohta [Project Operationsin tietoturva-asetusten päivittäminen Dataversessa](resource-provision-new-environment.md).
@@ -97,7 +96,7 @@ Kirjaudu ennen aloittamista selaimeen käyttäjän työtilillä vuokraajassa, jo
 
 Tarvitset järjestelmänvalvojan käyttöoikeudet organisaatiosi Microsoft 365 -portaaliin, jotta voit suorittaa seuraavat vaiheet.
 
-1. Siirry [Microsoft 365 -hallintakeskukseen](https://portal.office.com/) delegoidaksesi käyttöoikeudet käyttäjille.
+1. Siirry [Microsoft 365 -hallintakeskukseen](https://portal.office.com/) ja määritä käyttöoikeudet käyttäjille.
 
    ![Hallintakeskuksen aloitussivu](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Seuraavissa resursseissa on hyödyllisiä ohjeita Project Operationsin käytön 
 
 ## <a name="frequently-asked-questions"></a>Usein kysyttyjä kysymyksiä
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Entä jos tarvitsen ALM:n tai ELM:n Finance and Operations -sovellusympäristölle?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Entä jos edellytän ALM- tai ELM-käytäntöjä talous- ja toimintosovellusten ympäristössä?
 
 - Kumppanit, jotka tarvitsevat täydet ympäristön elinkaaren hallintaominaisuudet, saavat tietoa kohdasta [Kumppanin eristyskäyttöoikeuspyyntö](https://experience.dynamics.com/requestlicense), jossa voi tutustua uuteen kumppanitarjoukseen. 
 - Kumppanit, jotka etsivät lisätietoja sisäisistä käyttöoikeuksista, saavat tietoa kohdasta [Sisäinen käyttöoikeuspilvi ja ohjelmistoetu (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

@@ -2,16 +2,16 @@
 title: Aikamerkintöjen laajentaminen
 description: Tässä aiheesa on tietoja siitä, miten kehittäjät voivat laajentaa aikamerkinnän ohjausobjektia.
 author: stsporen
-ms.date: 10/08/2020
+ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993327"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582982"
 ---
 # <a name="extending-time-entries"></a>Aikamerkintöjen laajentaminen
 
@@ -43,7 +43,7 @@ Aikamerkinnät ovat perusentiteetti, jota käytetään useissa skenaarioissa. Hu
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Aikamerkinnät ja Ajan lähde -entiteetti
-Kukun aikamerkintä liitetään aikalähteen tietueeseen. Tämä tietue määrittää, miten ja mitkä sovellukset käsittelevät aikamerkinnän.
+Kukun aikamerkintä liitetään aikalähteen tietueeseen. Tämä tietue määrittää, mitkä sovellukset käsittelevät aikamerkinnän ja miten.
 
 Aikamerkinnät ovat aina yksi yhtenäinen aikalohko, johon on linkitetty alku, loppu ja kesto.
 
@@ -55,7 +55,7 @@ Logiikka päivittää aikamerkinnän tietueen automaattisesti seuraavissa tilant
     - **msdyn_end**
     - **msdyn_duration**
 
-- Kentät **msdyn_start** ja **msdyn_end** ovat aikavyöhykeriippuvaisia.
+- Kentät **msdyn_start** ja **msdyn_end** ovat tietoisia aikavyöhykkeestä.
 - Aikamerkinnät, jotka on luotu vain **msdyn_date**- ja **msdyn_duration**-määrityksillä, alkavat keskiyöllä. **msdyn_start**- ja **msdyn_end**-kentät päivittyvät vastaavasti.
 
 #### <a name="time-entry-types"></a>Aikamerkinnän tyypit
@@ -72,73 +72,63 @@ Aikamerkinnän tietueisiin on liitetty tyyppi, joka määrittää käyttäytymis
 |Loma   | 192,350,002|
 
 
-
 ## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Viikoittaisen aikamerkinnän ohjausobjektin mukauttaminen
 Sovelluskehittäjät voivat lisätä muita kenttiä ja hakuja muihin kohteisiin sekä ottaa käyttöön mukautettuja liiketoimintasääntöjä liiketoimintaskenaarioiden tueksi.
 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Sellaisten mukautettujen kenttien lisääminen, joilla on hakuja muihin kohteisiin
 Mukautetun kentän lisäämisessä viikoittaiseen ajansyöttöruudukkoon on kolme päävaihetta.
 
-1. Lisää mukautettu kenttä pikaluonti-valintaikkunaan.
+1. Lisää mukautettu kenttä **Pikaluonti**-valintaikkunaan.
 2. Määritä ruudukko näyttämään mukautettu kenttä.
-3. Lisää mukautettu kenttä rivin muokkaamisen tai solun muokkauksen työnkulkuun.
+3. Lisää mukautettu kenttä **rivinmuokkaus**- tai **aikamerkinnän muokkaus** -sivulle tarpeen mukaan.
 
-Varmista, että uudella kentällä on tarpeelliset kelpoisuustarkistukset rivin tai solun muokkauksen työnkulussa. Tässä vaiheessa lukitse kenttä aikamerkinnän tilan perusteella.
+Varmista, että uudella kentällä on tarpeelliset kelpoisuustarkistukset **rivinmuokkauksen** tai **aikamerkinnän muokkauksen** sivulla. Tässä tehtävässä kenttä täytyy lukita aikamerkinnän tilan perusteella.
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Lisää mukautettu kenttä pikaluonti-valintaikkunaan.
-Lisää mukautettu kenttä **Aikamerkinnän pikaluonti** -valintaikkunaan. Tämän jälkeen, kun aikatiedot lisätään, arvo voidaan syöttää valitsemalla **Uusi**.
+Kun lisäät mukautetun kentän **Aikamerkintä**-ruudukkoon ja luot sitten aikamerkinnät suoraan ruudukkoon, näiden merkintöjen mukautettu kenttä määritetään automaattisesti niin, että se vastaa riviä. 
+
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Lisää mukautettu kenttä Pikaluonti-valintaikkunaan
+Lisää mukautettu kenttä **Aikamerkinnän pikaluonti** -valintaikkunaan. Käyttäjät voivat kirjoittaa arvon, kun he lisäävät aikamerkintöjä valitsemalla **Uusi**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Määritä ruudukko näyttämään mukautettu kenttä.
-Mukautettu kenttä voidaan lisätä viikoittaiseen ajansyöttöruudukkoon kahdella eri tavalla:
+Mukautettu kenttä voidaan lisätä **viikoittaiseen ajansyöttö** -ruudukkoon kahdella eri tavalla.
 
-  - Näkymän mukauttaminen ja mukautetun kentän lisääminen
-  - Uuden mukautetun oletusaikamerkinnän luominen 
+- Mukauta **Omat viikoittaiset aikamerkinnät** -näkymää lisäämällä siihen mukautetun kentän. Voit määrittää mukautetun kentän sijainnin ja koon ruudukossa muokkaamalla näitä näkymän ominaisuuksia.
+- Luo uusi mukautettu ajansyöttönäkymä ja määritä se oletusnäkymäksi. Tässä näkymässä tulisi olla kentät **Kuvaus** ja **Ulkoiset huomautukset** niiden sarakkeiden lisäksi, joita haluat ruudukkoon. Voit määrittää mukautetun kentän sijainnin, koon ja oletuslajittelujärjestyksen ruudukossa muokkaamalla näitä näkymän ominaisuuksia. Määritä seuraavaksi tämän näkymän mukautettu ohjausobjekti siten, että se on **Ajansyöttöruudukon** ohjausobjekti. Lisää tämä ohjausobjekti näkymään ja valitse se **verkolle**, **puhelimelle** ja **tabletille**. Määritä seuraavaksi **viikoittaisen ajansyöttö** -ruudukon parametrit. Aseta **Alkamispäivä**-kentäksi **msdyn\_date**, aseta **Kesto**-kentäksi **msdyn\_duration** ja aseta **Tila**-kentäksi **msdyn\_entrystatus**. **Vain luku -tilaluettelo** -kentän arvoksi on määritetty **192350002 (hyväksytty)**, **192350003 (lähetetty)**, or **192350004 (Palautusta pyydetty)**.
 
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Mukautetun kentän lisääminen asianmukaiseen muokkaussivuun
+Sivut, joilla muokataan aikakirjauksia tai aikamerkintärivejä, löytyvät kohdasta **Lomakkeet**. Ruudukon **Muokkaa merkintää** -painike avaa **Muokkaa merkintää** -sivun ja **Muokkaa riviä** -painike avaa **Rivin muokkaus** -sivun. Voit muokata näitä sivuja niin, että niissä on mukautettuja kenttiä.
 
-#### <a name="customize-a-view-and-add-a-custom-field"></a>Näkymän mukauttaminen ja mukautetun kentän lisääminen
+Molemmat vaihtoehdot poistavat joitakin valmiina olevia suodattimia entiteeteistä **Projekti** ja **Projektitehtävä**, joten kaikki valintanäkymät ovat näkyvissä näille entiteeteille. Vain merkitykselliset valintanäkymät ovat näkyvissä valmiina.
 
-Mukauta **Omat viikoittaiset aikamerkinnät** -näkymää lisäämällä siihen mukautetun kentän. Voit valita mukautetun kentän sijainnin ja koon ruudukossa muokkaamalla näkymän ominaisuuksia.
+Sinun täytyy määrittää mukautetulle kentälle asianmukainen sivu. Jos olet lisännyt kentän ruudukkoon, sen pitäisi todennäköisesti siirtyä siihen **Rivin muokkaus** -sivuun, jota käytetään kentissä, jotka koskevat koko aikamerkintäriviä Jos mukautetulla kentällä on ainutkertainen arvo rivillä joka päivä (kuten mukautetulla kentällä Päättymisaika), sen pitäisi siirtyä **aikamerkinnän muokkaus** -sivulle.
 
-#### <a name="create-a-new-default-custom-time-entry"></a>Uuden mukautetun oletusaikamerkinnän luominen
-
-Tässä näkymässä tulisi olla kentät **Kuvaus** ja **Ulkoiset huomautukset** niiden sarakkeiden lisäksi, joita haluat ruudukkoon. 
-
-1. Valitse mukautetun kentän sijainti, koko ja oletuslajittelujärjestys ruudukossa muokkaamalla näitä näkymän ominaisuuksia. 
-2. Määritä tämän näkymän mukautettu ohjausobjekti siten, että se on **Ajansyöttöruudukon** ohjausobjekti. 
-3. Lisää tämä ohjausobjekti näkymään ja valitse se verkolle, puhelimelle ja tabletille. 
-4. Määritä viikoittaisen ajansyöttöruudukon parametrit. 
-5. Aseta **Alkamispäivä**-kentäksi **msdyn_date**, aseta **Kesto**-kentäksi **msdyn_duration** ja aseta **Tila**-kentäksi **msdyn_entrystatus**. 
-6. Oletusnäkymäksi **vain luku -tilaluettelo** -kentän arvoksi on määritetty **192350002,192350003,192350004**. **Rivin muokkauksen tehtävänkulku** -kentän arvoksi on määritetty **msdyn_timeentryrowedit**. **Solun muokkauksen tehtävänkulku** -kentän arvoksi on määritetty **msdyn_timeentryedit**. 
-7. Voit mukauttaa näitä kenttiä, jos haluat lisätä tai poistaa vain luku -tilan tai käyttää toista tehtäväpohjaista kokemusta (TBX) rivien tai solujen muokkaamiseen. Nämä kentät on nyt sidottu staattiseen arvoon.
-
-
-> [!NOTE] 
-> Molemmat vaihtoehdot poistavat joitakin valmiina olevia suodattimia entiteeteistä **Projekti** ja **Projektitehtävä**, joten kaikki valintanäkymät ovat näkyvissä näille entiteeteille. Vain merkitykselliset valintanäkymät ovat näkyvissä valmiina.
-
-Määrittää mukautetulle kentälle asianmukainen työnkulku. Jos olet lisännyt kentän ruudukkoon, sen pitäisi siirtyä siihen rivimuokkauksen työnkulkuun, jota käytetään kentissä, jotka koskevat koko aikamerkintäriviä Jos mukautetulla kentällä on ainutkertainen arvo joka päivä, kuten mukautetulla kentällä **Päättymisaika**, sen pitäisi siirtyä solunmuokkauksen työnkulkuun.
-
-Jos haluat lisätä mukautetun kentän työnkulkuun, vedä **Kenttä**-elementti asianmukaiseen kohtaan sivulla ja valitse sitten kentän ominaisuudet. Määritä **Lähde**-ominaisuudeksi **Aikamerkintä** ja aseta **Tietokenttä**-ominaisuus muokatulle kentälle. **Kenttä**-ominaisuus määrittää TBX-sivun näyttönimen. Valitse **Käytä**, jos haluat tallentaa muutokset kenttään, ja valitse sitten **Päivitä**, jos haluat tallentaa muutokset sivulla.
-
-Jos haluat käyttää uutta mukautettua TBX-sivua, luo uusi prosessi. Määritä luokaksi **Liiketoimintaprosessin kulku**, aseta entiteetiksi **Aikakirjaus**, ja aseta liiketoimintaprosessityypiksi **Aja prosessi työnkulkuna**. **Ominaisuuksissa** **Sivun nimi** -ominaisuuden tulisi olla asetettu sivun näyttönimeksi. Lisää kaikki tarvittavat kentät TBX-sivulle. Tallenna ja aktivoi prosessi. Päivitä sitten kyseisen tehtävänkulun mukautetun ohjausobjektin ominaisuusprosessin **Nimen** arvoksi.
+Jos haluat lisätä mukautetun kentän sivuun, vedä **Kenttä**-elementti asianmukaiseen kohtaan sivulla ja valitse sitten sen ominaisuudet.
 
 ### <a name="add-new-option-set-values"></a>Lisää uusia asetusjoukkoarvoja
-Jos haluat lisätä asetusjoukkoarvoja valmiina olevaan kentään, avaa kentän muokkaussivu ja valitse sen jälkeen **Kirjoita**-kohdassa **Muokkaa** asetusjoukon vieressä. Lisää uusi asetus, jolla on mukautettu selite ja väri. Jos haluat lisätä uuden aikamerkinnän tilan, valmiin kentän nimi on  **Merkinnän tila**, ei **Tila**.
+Jos haluat lisätä asetusjoukon arvot käyttövalmiiseen kenttään, toimi seuraavasti.
+
+1. Avaa kentän muokkaussivu ja valitse sen jälkeen **Kirjoita**-kohdassa **Muokkaa** asetusjoukon vieressä.
+2. Lisää uusi asetus, jolla on mukautettu selite ja väri. Jos haluat lisätä uuden aikamerkinnän tilan, valmiin kentän nimi on **Merkinnän tila**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Uuden aikakirjaustilan määrittäminen vain luku -tilaan
-Jos haluat määrittää uuden aikamerkinnän tilaksi vain luku, lisää uuden aikamerkinnän arvo **Vain luku -tilaluettelo** -ominaisuuteen. Ajansyöttöruudukon muokattava osa lukitaan riveille, joilla on uusi tila.
-Lisää seuraavaksi liiketoimintasäännöt lukitaksesi kaikki kentät **Aikamerkintärivin muokkaus** -ja **Aikamerkinnän muokkaus** -TBX-sivuilla. Pääset sivujen liiketoimintasääntöihin avaamalla sivun liiketoimintaprosessieditorin ja valitsemalla sitten **Liiketoimintasäännöt**. Voit lisätä uuden tilan aiemmin luotujen liiketoimintasääntöjen ehtoon tai voit lisätä uuden liiketoimintasäännön uutta tilaa varten.
+Jos haluat määrittää uuden aikamerkinnän tilaksi vain luku, lisää uuden aikamerkinnän arvo **Vain luku -tilaluettelo** -ominaisuuteen. Muista lisätä numeroa, älä otsikkoa. Ajansyöttöruudukon muokattava osa lukitaan nyt riveille, joilla on uusi tila. Jos haluat määrittää **Vain luku -tilaluettelo** -ominaisuuden eri **aikamerkinnän** näkymissä, lisää **ajan merkintä** -ruudukko näkymän **Mukautetut ohjausobjektit** -osaan ja määritä parametrit tarpeen mukaan.
+
+Lisää seuraavaksi liiketoimintasäännöt lukitaksesi kaikki kentät **Rivin muokkaus** -ja **Aikamerkinnän muokkaus** -sivuilla. Pääset sivujen liiketoimintasääntöihin avaamalla kunkin sivun lomake-editorin ja valitsemalla sitten **Liiketoimintasäännöt**. Voit lisätä uuden tilan aiemmin luotujen liiketoimintasääntöjen ehtoon tai voit lisätä uuden liiketoimintasäännön uutta tilaa varten.
 
 ### <a name="add-custom-validation-rules"></a>Mukautettujen vahvistussääntöjen lisääminen
-Voit lisätä viikoittaiseen aikamerkinnän ruudukkokokemukseen kahdentyyppisiä tarkistussääntöjä:
+Voit lisätä kahdentyyppisiä tarkistussääntöjä **viikoittaiseen ajanmerkinnän** ruudukkokokemukseen:
 
-- Asiakaspuolen liiketoimintasäännöt, jotka toimivat pikaluontivalintaikkunoissa ja TBX-sivuilla.
-- Palvelinpuolen laajennuksen tarkistukset, jotka koskevat kaikkia aikamerkinnän päivityksiä.
+- Sivuilla toimivat asiakaspuolen liiketoimintasäännöt
+- Palvelinpuolen laajennuksen tarkistukset, jotka koskevat kaikkia aikamerkinnän päivityksiä
 
-#### <a name="business-rules"></a>Liiketoimintasäännöt
-Liiketoimintasääntöjen avulla voit lukita ja vapauttaa kenttiä, kirjoittaa oletusarvoja kenttiin ja määrittää vahvistuksia, jotka edellyttävät tietoja vain nykyisestä ajansyöttötietueesta. Pääset TBX-sivun liiketoimintasääntöihin avaamalla sivun liiketoimintaprosessieditorin ja valitsemalla sitten **Liiketoimintasäännöt**. Voit sitten muokata aiemmin luotuja liiketoimintasääntöjä tai lisätä uuden liiketoimintasäännön. Voit käyttää liiketoimintasääntöä ajamaan JavaScriptiä luodaksesi vielä mukautetumpia vahvistuksia.
+#### <a name="client-side-business-rules"></a>Asiakaspuolen liiketoimintasäännöt
+Liiketoimintasääntöjen avulla voit lukita ja vapauttaa kenttiä, kirjoittaa oletusarvoja kenttiin ja määrittää vahvistuksia, jotka edellyttävät tietoja vain nykyisestä ajansyöttötietueesta. Pääset sivun liiketoimintasääntöihin avaamalla lomake-editorin ja valitsemalla sitten **Liiketoimintasäännöt**. Voit sitten muokata aiemmin luotuja liiketoimintasääntöjä tai lisätä uuden liiketoimintasäännön.
 
-#### <a name="plug-in-validations"></a>Laajennusvahvistukset
-Käytä laajennusvahvistuksia kaikkiin vahvistuksiin, jotka edellyttävät enemmän kontekstia kuin on käytettävissä yksittäisessä aikakirjaustietueessa, tai kaikkiin vahvistuksiin, jotka haluat suorittaa tekstisidonnaisina päivityksinä ruudukossa. Viimeistele vahvistus luomalla mukautettu laajennus **Aikakirjaus**-entiteettiin.
+#### <a name="server-side-plug-in-validations"></a>Palvelinpuolen laajennuksen vahvistukset
+Käytä laajennusvahvistuksia kaikkiin vahvistuksiin, jotka edellyttävät enemmän kontekstia kuin on käytettävissä yksittäisessä aikakirjaustietueessa. Käytä niitä myös kaikkiin vahvistuksiin, jotka haluat suorittaa tekstisidonnaisina päivityksinä ruudukossa. Viimeistele vahvistukset luomalla mukautettu laajennus **Aikakirjaus**-entiteettiin.
+
+### <a name="limits"></a>Rajoitukset
+Tällä hetkellä **ajan syöttö** -ruudukon kokorajoitus on 500 riviä. Jos rivejä on yli 500, ylimääräisiä rivejä ei näy. Tätä kokorajoitusta ei voi suurentaa.
 
 ### <a name="copying-time-entries"></a>Aikamerkintöjen kopiointi
 Voit määrittää aikamerkinnän aikana kopioitavien kenttien luettelon käyttämällä **Näytä kopiointiajan syöttö** -sarakkeita. **Päivämäärä** ja **kesto** ovat pakollisia kenttiä, eikä niitä pitäisi poistaa näkymästä.

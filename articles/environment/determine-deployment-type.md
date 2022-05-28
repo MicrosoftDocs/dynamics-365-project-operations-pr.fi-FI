@@ -4,14 +4,14 @@ description: Tässä aiheessa on tietoja Project Operationsin oikean käyttöön
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994632"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584132"
 ---
 # <a name="determine-your-deployment-type"></a>Käyttöönottotyypin määritys
 
@@ -25,7 +25,7 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Olemassa olevat Dynamics-asiakkaat, jotka käyttvät Dynamics 365 Project Service Automationia
 Project Operations sisältää Project Service Automationin mukana toimitetut toiminnot. Näille asiakkaille julkaistaan päivityspolku vuoden 2021 1. julkaisuaallossa.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Olemassa olevat Dynamics 365 Finance-asiakkaat, jotka käyttävät Projektinhallinta ja kirjanpito -moduulia 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Dynamics 365 Finance -asiakkaat käyttävät projektinhallintaa ja kirjanpitoa 
 
 Nykyiset projektin hallinta- ja kirjanpitotoimintoja käyttävät Finance-asiakkaat voivat jatkoa käyttöä entiseen tapaan. Katso [Project Operations varastoitavien/tuotantotilausten skenaarioissa](#pma).
 
@@ -42,7 +42,7 @@ Project Operations tukee useita eri toteutusvaihtoehtoja tarpeidesi mukaan. Olit
 - [Project Operations resurssien ja ei-varastoitavien skenaarioissa](#integrated)
 - [Project Operations varastoitavien/tuotantotilausten skenaarioissa](#pma)
 
-Project Operations tukee varastoitu/tuotantotilaus-skenaarioita ja ei-varastoitavia/resurssipohjaisia skenaarioita samassa ympäristössä yritystason määritysten avulla. Esimerkiksi Contoso voi käyttää varastossa olevaa/tuotantotilaus-ominaisuuksia Yhdysvaltain tuotantolaitoksellaan (Yritys = Contoso Manufacturing United States). Contoso voi käyttää ei-varastoituita tai resurssipohjaisia ominaisuuksia Contoso Robotics Arms -huoltolaitoksellaan Yhdistyneessä kuningaskunnassa (Yritys = Contoso Robotics United Kingdom).
+Project Operations tukee varastoitu/tuotantotilaus-skenaarioita ja ei-varastoitavia/resurssipohjaisia skenaarioita samassa ympäristössä yritystason määritysten avulla. Contoso voi esimerkiksi käyttää Yhdysvaltojen tuotantolaitoksen varasto-/tuotantotilaustoimintoja (Yritys = Contoso Manufacturing United States). Contoso voi käyttää Contoso Robotics Arms huoltotilan ei-varastoitavien/resurssipohjaisten ominaisuuksien käyttöä Isossa-Britanniassa (yritys = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lite-käyttöönotto – kauppa proformalaskutukseen
 

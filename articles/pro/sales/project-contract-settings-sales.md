@@ -2,16 +2,16 @@
 title: Projektin palvelusopimuksen asetukset – lite
 description: Tässä aiheessa on tietoja kentistä, jotka vaikuttavat sopimusriveihin, sekä sopimustietoihin, joista on tehty yhteenveto kaikille rivinimikkeille.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995937"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586386"
 ---
 # <a name="header-details-for-project-contracts"></a>Projektisopimusten otsikkotiedot
 
@@ -32,12 +32,15 @@ Seuraavassa taulukossa on luettelo projektisopimuksen kentistä, jotka ovat yksi
 | Ei-ylitettävä rajoitus | **Yhteenveto**-välilehti | Tämä kenttä tarkoittaa lopullisen arvo neuvoteltua ylärajaa, jonka asiakas on hyväksynyt tässä sopimuksessa. | Ylärajaa arvioidaan suorituksen aikana, ja sitä voi käyttää kaikissa tähän sopimukseen liittyvissä rivinimikkeissä ja projekteissa. |
 | Pyydetty toimituspäivä | **Yhteenveto**-välilehti | Kun projektitarjouksesta luodaan sopimus, tämä kenttä kopioidaan projektitarjouksen vastaavasta kentästä. | Tätä päivämäärää käytetään laskutusaikataulujen luomisen päättymispäivänä. |
 
-Seuraavat suorituskykyilmaisimet ovat käytettävissä projektisopimuksen **sopimuksen suorituskyky** -välilehdessä.
+Seuraavat suorituskykyilmaisimet ovat käytettävissä projektisopimuksen **sopimuksen suorituskyky** -välilehdessä. 
 
-| Field | Sijainti | Kuvaus |
+>[!NOTE]
+>Kaikki **Palvelusopimuksen suorituskyky** -välilehden summat ilmaistaan ympäristön oletusvaluuttana.
+
+| Field | Sijainti | Description |
 | --- | --- | --- |
-| Sopimuksen arvo | Koko palvelusopimus | Projektisopimuksen kokonaisarvo. |
-| Laskutettu summa | Koko palvelusopimus | Kaikkien tähän palvelusopimukseen kuuluvien laskujen summien summa. |
+| Sopimuksen arvo | Koko palvelusopimus | Projektisopimuksen kokonaisarvo.|
+| Laskutettu summa | Koko palvelusopimus | Kaikkien tähän palvelusopimukseen kuuluvien laskujen summien summa.|
 | Aiheutuneet kulut | Koko palvelusopimus | Kaikkiin palvelusopimukseen yhdistetyille projekteille kirjattujen todellisten kustannusten summa. |
 | Käyttökate | Koko palvelusopimus | Laskutettu määrä - kustannukset, jotka ovat syntyneet asti päivä määrä/laskutettu summa |
 | Odotettu kate | Koko palvelusopimus | (Sopimuksen arvo – arvioidut kustannukset)/sopimus valueEstimated costs = kaikkien sopimukseen liitettyjen projektien kaikkien arvioitujen kustannusten summa.|

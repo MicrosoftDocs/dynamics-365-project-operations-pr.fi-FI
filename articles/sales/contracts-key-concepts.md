@@ -4,26 +4,26 @@ description: Tässä aiheessa on tietoja projektisopimusten avainkonsepteista Pr
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986937"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582936"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Projektipohjaisten palvelusopimusten yksilölliset käsitteet
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Tämä aihe sisältää tärkeimmät käsitteet, jotka on otettava huomioon, ennen kuin aloitat projektisopimusten käyttämisen Dynamics 365 Project Operationsissa:
 
 ## <a name="owning-company"></a>Omistava yritys
 
-Omistava yritys on oikeushenkilö Dynamics 365 Financen Project Operationsin **Projektinhallinta ja kirjanpito** -moduulissa. Omistava yritys edustaa yritystä, joka ottaa huolehtii kustannuksista ja tuotosta, jotka kertyvät sopimuksesta.
+Omistava yritys on yritys Project Operationsin **Projektinhallinta ja kirjanpito** -moduulista Dynamics 365 Financesta. Omistava yritys edustaa yritystä, joka ottaa huolehtii kustannuksista ja tuotosta, jotka kertyvät sopimuksesta.
 
 ## <a name="contracting-unit"></a>Sopimusyksikkö
 

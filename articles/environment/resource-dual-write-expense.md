@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986577"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585788"
 ---
 # <a name="expense-management-integration"></a>Kulujen hallintaintegraatio
 
@@ -22,19 +22,19 @@ Tässä aiheessa on tietoja kuluraporttien integroinnista Project Operationsissa
 
 ## <a name="expense-categories"></a>Kululuokat
 
-Täydellisessä kulujen käyttöönotossa kululuokat luodaan ja ylläpidetään Finance and Operations -sovelluksissa. Jos haluat luoda uuden kululuokan, toimi seuraavasti:
+Täydellisessä kulujen käyttökokemuksessa kululuokat luodaan ja ylläpidetään talous- ja toimintosovelluksissa. Jos haluat luoda uuden kululuokan, toimi seuraavasti:
 
-1. Luo **tapahtuma**-luokka Microsoft Dataversessä. Kaksoiskirjoitusintegrointi synkronoi tämän tapahtumaluokan Finance and Operations -sovelluksiin. Lisätietoja on ohjeaiheessa [Projektiluokkien määrittäminen](/dynamics365/project-operations/project-accounting/configure-project-categories) ja [Projektitoimintojen määritysten ja määritystietojen integrointi](resource-dual-write-setup-integration.md). Tämän integroinnin tuloksena järjestelmä luo neljä jaettua luokkatietuetta Finance and Operations -sovelluksiin.
+1. Luo **tapahtuma**-luokka Microsoft Dataversessä. Kaksoiskirjoitusintegrointi synkronoi tämän tapahtumaluokan talous- ja toimintosovelluksiin. Lisätietoja on ohjeaiheessa [Projektiluokkien määrittäminen](/dynamics365/project-operations/project-accounting/configure-project-categories) ja [Projektitoimintojen määritysten ja määritystietojen integrointi](resource-dual-write-setup-integration.md). Tämän integroinnin tuloksena järjestelmä luo neljä jaettua luokkatietuetta talous- ja toimintosovelluksissa.
 2. Siirry Financessa kohtaan **Kulujen hallinta** > **Määritys** > **Jaetut luokat** ja valitse jaettu luokka, jolla on **Kulu**-tapahtumaluokka. Määritä **Voi käyttää kuluissa** -parametrin arvoksi **Tosi** ja määritä käytettävä kulutyyppi.
 3. Luo tämän jaetun luokkatietueen avulla uusi kululuokka menemällä kohtaan **Kulujen hallinta** > **Määritys** > **Kululuokat** ja valitsemalla **Uusi**. Kun tietue tallennetaan, kaksoiskirjoitus käyttää taulukkokarttaa **Project Operationsin integrointiprojektin kululuokkien vientientiteetti (msdyn\_expensecategories)** tämän tietueen synkronoimiseen Dataverseen.
 
   ![Kululuokkien integrointi.](./media/DW6ExpenseCategories.png)
 
-Finance and Operations -sovellusten kululuokat ovat yritys- tai oikeushenkilökohtaisia. Dataversessä on erilliset, vastaavat oikeushenkilökohtaiset tietueet. Kun projektipäällikkö arvioi kuluja, hän ei voi valita kululuokkia, jotka on luotu projektille, jonka omistaa eri yritys kuin se yritys, joka omistaa projektin, jota hän käyttää. 
+Talous- ja toimintosovellusten kululuokat ovat oikeushenkilö- tai yrityskohtaisia. Dataversessä on erilliset, vastaavat oikeushenkilökohtaiset tietueet. Kun projektipäällikkö arvioi kuluja, hän ei voi valita kululuokkia, jotka on luotu projektille, jonka omistaa eri yritys kuin se yritys, joka omistaa projektin, jota hän käyttää. 
 
 ## <a name="expense-reports"></a>Kuluraportit
 
-Kuluraportit luodaan ja hyväksytään Finance and Operations -sovelluksissa. Lisätietoja on kohdassa [Kuluraporttien luominen ja käsitteleminen Dynamics 365 Project Operationsissa](/learn/modules/create-process-expense-reports/). Kun projektipäällikkö on hyväksynyt kuluraportin, se kirjataan pääkirjanpitoon. Project Operationsissa projektiin liittyvät kuluraporttirivit kirjataan käyttämällä erityisiä kirjaussääntöjä:
+Kuluraportit luodaan ja hyväksytään talous- ja toimintosovelluksissa. Lisätietoja on kohdassa [Kuluraporttien luominen ja käsitteleminen Dynamics 365 Project Operationsissa](/learn/modules/create-process-expense-reports/). Kun projektipäällikkö on hyväksynyt kuluraportin, se kirjataan pääkirjanpitoon. Project Operationsissa projektiin liittyvät kuluraporttirivit kirjataan käyttämällä erityisiä kirjaussääntöjä:
 
   - Projektiin liittyvää kustannusta (mukaan lukien ei-palautettavissa oleva vero) ei kirjata heti projektin kustannustilille pääkirjaan, vaan se kirjataan kulujen integrointitilille. Tämä asiakas on määritetty **Projektinhallinta ja kirjanpito** > **Määrittäminen** > **Projektinhallinta- ja kirjanpitoparametrit**, **Project Operations Dynamics 365 Customer engagementissa** -välilehdellä.
   - Kaksoiskirjoitus synkronoi Dataverseen käyttämällä **Project Operations -integrointiprojektin kulujen vientientiteetti (msdyn\_kulujen)** -taulukkokartan kanssa.

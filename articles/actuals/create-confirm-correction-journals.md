@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986712"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582799"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Oikaisukirjauskansioiden luominen ja vahvistaminen
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Silloin tällöin aika- tai kulumerkintä saatetaan syöttää virheellisesti. Esimerkiksi konsultti voi valita väärän päivämäärän luodessaan aikamerkintää tai sekoittaa numerot keskenään syöttäessään kulumerkintää. Jos konsultti ei voi tehdä muutoksia lähetettyihin merkintöihin, järjestelmänvalvoja voi korjata projektin merkinnän suoraan.
-
-Tässä aiheessa kuvattujen toimien suorittaminen edellyttää järjestelmänvalvojan oikeuksia.
+Aika ajoin aika- tai kulumerkintä voidaan lisätä väärin. Konsultti voi esimerkiksi valita väärän päivämäärän, kun hän luo aikamerkinnän, tai hän voi valita väärän projektin, kun hän syöttää kulun. Jos konsultti ei voi päivittää lähetettyjä merkintöjä, taustakäyttäjä voi korjata projektin toteutuneet tiedot suoraan.
 
 ## <a name="correct-approved-time-entries"></a>Hyväksyttyjen aikamerkintöjen korjaaminen     
 
@@ -46,8 +42,8 @@ Noudata seuraavia ohjeita korjataksesi projektin yksittäisen aikamerkinnän tai
 
 6. Valitse **Esikatselu**. Valitse valintaikkunasta **OK**. **Kirjauskansion rivit** -välilehdessä näet luettelon alkuperäisistä todellisista arvoista, jotka liittyvät valittuihin palautettuihin aikamerkintöihin, sekä vastaavat luodut korjatut rivit. Jos sinun tarvitsee tehdä lisää korjauksia, toista vaiheet 5 ja 6. 
 
-> [!NOTE]
-> Kaikilla korjatuilla todellisilla arvoilla on samat arvot kuin jotka valitsit **Aikamerkintöjen uudet arvot** -osiossa.
+    > [!NOTE]
+    > Kaikilla korjatuilla todellisilla arvoilla on samat arvot kuin jotka valitsit **Aikamerkintöjen uudet arvot** -osiossa.
 
 7. Jos korjaukset näkyvät odotetulla tavalla, valitse **Vahvista**. Valitse valintaikkunasta **OK**.
 
@@ -55,12 +51,10 @@ Noudata seuraavia ohjeita korjataksesi projektin yksittäisen aikamerkinnän tai
 
 9. Tarkasta tekemäsi muutokset **Projektit**-sivun **Todelliset arvot** -välilehdestä. 
 
-> [!NOTE]
-> Jos **Todelliset arvot** -välilehti ei ole näkyvissä, valitse **Liittyvät** > **Todelliset arvot**.  
+    > [!NOTE]
+    > Jos **Todelliset arvot** -välilehti ei ole näkyvissä, valitse **Liittyvät** > **Todelliset arvot**.  
 
 10. **Todellisten arvojen liitetty näkymä** -luettelossa näet, että alkuperäiset palautetut aikamerkinnät ovat edelleen luettelossa vastaavien korjattujen aikamerkintöjen kanssa. 
-
-Esimerkiksi seuraavassa kuva on kaksi nimikettä, joiden määrä on 8,00 ja joilla on veloituksia Summa-sarakkeessa. Lisäksi näet kaksi nimikettä, joiden summa on -8,00 ja joilla on hyvitettyjä summia Summa-sarakkeessa. Nämä korjaukset tuovat määrän nollaan.
 
  
 ## <a name="correct-approved-expense-entries"></a>Hyväksyttyjen kulumerkintöjen korjaaminen
@@ -79,14 +73,30 @@ Noudata seuraavia ohjeita korjataksesi yhden tai useamman kulumerkinnän.
 
 6. Jos korjatut arvot ovat oikein, valitse **Vahvista**. Valitse valintaikkunasta **OK**. Jos arvot eivät näy odotetulla tavalla, valitse **Peruuta** palataksesi **Hyväksytyt kulut** -luetteloon. Toista vaiheet 2–5. 
 
-> [!NOTE]
-> Korjatuilla todellisilla arvoilla on samat arvot kuin jotka valitsit **Kulujen uudet arvot** -osiossa.
+7. Kun olet vahvistanut korjauskirjauskansion, palaa projektiin tai projekteihin, jotka päivitit, muutosten tarkastelemista varten.
 
-7. Kun olet tarkastanut oikaisukirjauskansion, siirry takaisin päivittämääsi projektiin tai projekteihin nähdäksesi muutoksesi.  
-
-8. Tarkista **Todelliset arvot** -välilehdestä **Todellisten arvojen liitetty näkymä** . Luettelossa näytetään alkuperäiset ja korjatut merkinnät. Seuraavassa kuvassa näytetään alkuperäisten kulumerkintöjen summat ja niitä vastaavien korjattujen kulumerkintöjen summat. 
+8. Tarkista projektisivun **Toteutuneet**-välilehden **Toteutuneiden liitetty näkymä** -luettelo. Luettelossa näytetään alkuperäiset ja korjatut merkinnät.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Hyväksyttyjen materiaalien käyttölokien korjaaminen
+
+Korjaa yksi tai useampi materiaalin käyttölokikirjaus seuraavien vaiheiden mukaisesti.
+
+1. Valitse **Myynti**-alueen vasemmanpuoleisen siirtymisruudun **Tapahtumat**-kohdasta **Toteutuneet**.
+
+2. Valitse **Toteutuneet**-luettelosta sarakesuodattimien avulla **Materiaali**-tapahtumaluokka niin, että vain materiaalien toteutuneet arvot näytetään. Muiden sarakesuodattimien avulla voit rajata edelleen näkyviä toteutuneita arvoja. Kun olet löytänyt haluamasi toteutuneiden arvojen joukon, valitse toteutuneet ja valitse sitten **Korjaa merkinnät**. Uusi korjauskirjauskansio luodaan automaattisesti ja sille määritetään **Materiaalikorjaus**-tyyppi.
+
+3. Kirjoita **Uusi kirjauskansio** -sivun **Kuvaus**-kenttään korjauksen kuvaus. Valitse sitten **Materiaalikorjaus**-välilehden **Materiaalien uudet arvot** -osassa tietokentät, jotka haluat korjata valituille materiaaliriveille. Voit esimerkiksi delegoida materiaalin toiseen projektiin tai korjata tuotteen, materiaalipäivämäärän tai alihankintasopimuksen.
+
+4. Valitse **Esikatselu**. Valitse sitten valintaikkunassa **OK**.
+
+5. Tarkista korjaukset **Kirjauskansiorivit**-välilehdessä. Voit tarkastella luetteloa alkuperäisistä toteutuneista riveistä, jotka liittyvät palautettuihin valittuihin materiaalikirjauksiin ja luotuihin korjattuihin vastaaviin riveihin.
+
+6. Jos korjatut arvot ovat oikein, valitse **Vahvista**. Valitse sitten valintaikkunassa **OK**. Jos arvot eivät ole odotetusti, palaa **Toteutuneet**-luetteloon valitsemalla **Peruuta**. Toista sitten vaiheet 2 –5.
+
+7. Kun olet vahvistanut korjauskirjauskansion, palaa projektiin tai projekteihin, jotka päivitit, muutosten tarkastelemista varten.
+
+8. Tarkista projektisivun **Toteutuneet**-välilehden **Toteutuneiden liitetty näkymä** -luettelo. Luettelossa näytetään alkuperäiset ja korjatut merkinnät.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
