@@ -4,14 +4,14 @@ description: Tässä aiheessa on tietoja Project Operationsin resursseihin ja ei
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007952"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600370"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Uudet ominaisuudet marraskuussa 2020 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 
@@ -42,7 +42,7 @@ Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja 
 | Ajan ja kulun pikamerkintä | 2059859          | Odottamaton ponnahdusikkuna avautuu kulumerkintää luotaessa.                                                                                                                         |
 | Muusta                        | 2044181          | (Ostotilauksen asennuksen poistaminen) Kun Project Servicen msdyn_ProjectServiceCore_Patch- ja msdyn-perusratkaisuja yritetään poistaa, tapahtuu virhe Tietue ei ole käytettävissä.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Financen projektinhallinta ja kirjanpito
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektinhallinta ja kirjanpito Dynamics 365 Financessa
 
 | Ominaisuusalue        | Viitenumero | Laatupäivitys                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja 
 | Projektin kirjanpito  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Useiden sopimusrivien toiminnon käyttöönottaminen ei ole mahdollista CDS-integrointia.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Säännöstenmukaisuuspäivitykset
-Lisätietoja Finance and Operations -sovellusten säännöstenmukaisuuspäivityksistä on kohdassa [Säännöstenmukaisuuspäivitykset](/dynamics365/finance/localizations/regulatory-updates). Voit myös kirjautua LCS:ään ja tutustua suunniteltuihin säännöstenmukaisuuspäivityksiin käyttämällä versiohakutyökalua. Versiohaussa voit käyttää hakuehtona maata, ominaisuustyyppiä ja versiota.
+Tietoja talous- ja toimintosovellusten säädöspäivityksistä on ohjeaiheessa [Säädöspäivitykset](/dynamics365/finance/localizations/regulatory-updates). Voit myös kirjautua LCS:ään ja tutustua suunniteltuihin säännöstenmukaisuuspäivityksiin käyttämällä versiohakutyökalua. Versiohaussa voit käyttää hakuehtona maata, ominaisuustyyppiä ja versiota.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

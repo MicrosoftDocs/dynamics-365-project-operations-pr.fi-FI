@@ -3,7 +3,7 @@ title: Päivittäminen Project Service Automationista Project Operationsiin
 description: Tässä aiheessa on yleiskatsaus päivittämisestä Microsoft Dynamics 365 Project Service Automationista Dynamics 365 Project Operationsiin.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/05/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9363fd5a06b6b1ba023961b03228e13a53a82002
-ms.sourcegitcommit: 5789766efae1e0cb513ea533e4f9ac1e553158a5
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
+ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952837"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626712"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Päivittäminen Project Service Automationista Project Operationsiin
 
@@ -28,7 +29,7 @@ Olemme iloisia voidessamme julkaista kolme ensimmäistä vaihetta päivittämise
 
 Päivityksen toimitus jakautuu kolmeen vaiheeseen.
 
-| Päivityksen toimitus | Vaihe 1 (tammikuu 2022) | Vaihe 2 (huhtikuun aalto 2022) | Vaihe 3 (huhtikuun aalto 2022) |
+| Päivityksen toimitus | Vaihe 1 (tammikuu 2022) | Vaihe 2 (huhtikuun aalto 2022) | Vaihe 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Ei riippuvuutta projektien työrakenteesta (WBS) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS Project Operationsin tällä hetkellä tuetuissa rajoissa | | :heavy_check_mark: | :heavy_check_mark: |
@@ -38,11 +39,11 @@ Päivityksen toimitus jakautuu kolmeen vaiheeseen.
 
 Osana päivitysprosessia olemme lisänneet sivustokarttaan päivityslokit, jotta järjestelmänvalvojat voivat diagnosoida virheet helpommin. Uuden käyttöliittymän lisäksi lisätään uudet kelpoisuussäännöt, jotta varmistetaan tietojen eheys päivityksen jälkeen. Päivitysprosessiin lisätään seuraavat vahvistukset.
 
-| Vahvistukset | Vaihe 1 (tammikuu 2022) | Vaihe 2 (huhtikuun aalto 2022) | Vaihe 3 (huhtikuun aalto 2022) |
+| Vahvistukset | Vaihe 1 (tammikuu 2022) | Vaihe 2 (huhtikuun aalto 2022) | Vaihe 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | Työrakenne vahvistetaan yleisten tietojen eheysrikkomusten varalta (esimerkiksi resurssivaraukset, jotka on liitetty samaan päätehtävään, mutta joilla on eri pääprojektit). | | :heavy_check_mark: | :heavy_check_mark: |
 | Työrakenne vahvistetaan [Project for the Webin tunnettuja rajoja](/project-for-the-web/project-for-the-web-limits-and-boundaries) vastaan. | | :heavy_check_mark: | :heavy_check_mark: |
-| Työrakenne vahvistetaan Project Desktop Clientin tunnettuja rajoja vastaan. | | :heavy_check_mark: | :heavy_check_mark: |
+| Työrakenne vahvistetaan Project Desktop Clientin tunnettuja rajoja vastaan. | |  | :heavy_check_mark: |
 | Varattavat resurssit ja projektikalenterit arvioidaan yleisten yhteensopimattomien kalenterisääntöjen poikkeusten varalta. | | :heavy_check_mark: | :heavy_check_mark: |
 
 Vaiheessa 2 asiakkaiden, jotka päivittävät Project Operationsiin, aiemmin luodut projektit päivitetään vain luku -muotoon projektisuunnittelua varten. Tässä vain luku -käyttökokemuksessa koko WBS näkyy seurantaruudukossa. Halutessaan muokata WBS:ää projektipäälliköt voivat valita **Muunna** **Projektit**-pääsivulla. Sitten taustaprosessi päivittää projektin niin, että se tukee Project for The Webin uutta projektin aikataulutuskokemusta. Tämä vaihe soveltuu asiakkaille, joilla on projekteja, jotka sopivat [Project for the Webin tunnettuihin rajoihin](/project-for-the-web/project-for-the-web-limits-and-boundaries).
@@ -56,7 +57,7 @@ Jotta asiakas on oikeutettu vaiheen 1 päivitykseen, asiakkaan on täytettävä 
 - Kohdeympäristöllä ei saa olla yhtään tietuetta **msdyn_projecttask**-entiteetissä.
 - Asiakkaan kaikille aktiivisille käyttäjille on määritettävä kelvolliset Project Operations -käyttöoikeudet. 
 - Asiakkaan on vahvistettava päivitysprosessi vähintään yhdessä ei-tuotantoympäristössä, joka sisältää edustavan tietojoukon, joka on tasattu tuotantotietojen kanssa.
-- Kohdeympäristö on päivitettävä Project Service Automation Update Release 38 -versioon tai uudempaan versioon.
+- Kohdeympäristö on päivitettävä Project Service Automation Update Release 41 (3.10.62.162) -versioon tai uudempaan versioon.
 
 Vaiheen 2 ja vaiheen 3 edellytykset päivitetään, kun yleinen saatavuus tulee ajankohtaiseksi.
 
@@ -77,9 +78,9 @@ Seuraavassa on joitakin asioita, joihin on syytä varautua:
 
 Kun olet päivittänyt mukautukset Project Operationsin puhdasta tuontia varten, siirry seuraavaan vaiheisiin.
 
-## <a name="end-to-end-testing-in-lower-environments"></a>Päästä päähän -testaus alemmissa ympäristöissä
+## <a name="end-to-end-testing-in-development-environments"></a>Päästä päähän -testaus kehitysympäristöissä
 
-### <a name="run-the-upgrade-in-production"></a>Päivityksen suorittaminen tuotannossa
+### <a name="initiate-upgrade"></a>Päivityksen aloittaminen 
 
 1. Hae ja valitse ympäristö Power Platform -hallintakeskuksessa. Hae ja valitse sitten sovelluksista **Dynamics 365 Project Operations**.
 2. Aloita päivitys valitsemalla **Asenna**. Power Platform -hallintakeskus esittää tämän asennuksen uutena asennuksena. Project Service Automationin aiempi versio kuitenkin tunnistetaan ja aiemmin luotu asennus päivitetään.
@@ -93,6 +94,10 @@ Kun olet päivittänyt mukautukset Project Operationsin puhdasta tuontia varten,
 4. Siirry kohtaan **Asetukset** \> **Ratkaisut** ja valitse **Project Operationsin vanhentuneet komponentit** -ratkaisun asennuksen poistaminen.
 
     Tämä ratkaisu on tilapäinen ratkaisu, joka sisältää päivityksen aikana olemassa olevat komponentit ja tietomallin. Kun poistat tämän ratkaisun, poistat kaikki kentät ja komponentit, joita ei enää käytetä. Näin voit yksinkertaistaa käyttöliittymää sekä helpottaa integrointia ja laajennuksia.
+    
+### <a name="validate-common-scenarios"></a>Tarkista yleiset tilanteet
+
+Kun tarkistat mukautukset, on suositeltavaa tarkistaa myös sovellusten välillä tuetut liiketoimintaprosessit. Nämä liiketoimintaprosessit sisältävät muun muassa myyntientiteettien, kuten tarjousten ja palvelusopimusten, luomisen sekä projektien luomisen, jotka sisältävät työrakenteet ja toteutuneiden arvojen hyväksynnän.
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Tärkeät muutokset Project Service Automationin ja Project Operationsin välillä
 
@@ -119,7 +124,7 @@ Project Operationsin jatkuvan kehittämisen ansiosta laskutukseen ja hinnoittelu
 | Source                                                 | Target                                                    | Status                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
 | Project Service Automation                             | Project Operationsin käyttöönotto – lite                        | Tuettu               |
-| Dynamics 365 Finance: Projektinhallinta ja kirjanpito | Project Operationsin käyttöönotto – lite                        | Ei tueta tällä hetkellä |
+| Dynamics 365 Financen projektinhallinta ja kirjanpito | Project Operationsin käyttöönotto – lite                        | Ei tueta tällä hetkellä |
 | Projektinhallinta ja kirjanpito Financessa              | Project Operations resurssien ja ei-varastoitavien skenaarioissa     | Ei tueta tällä hetkellä |
 | Projektinhallinta ja kirjanpito Financessa              | Project Operations varastoitavien/tuotantotilausten skenaarioissa | Ei tueta tällä hetkellä |
 | Project Service Automation 3.x                         | Project Operations resurssien ja ei-varastoitavien skenaarioissa     | Ei tueta tällä hetkellä |

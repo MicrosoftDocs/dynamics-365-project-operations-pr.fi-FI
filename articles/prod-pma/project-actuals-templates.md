@@ -1,32 +1,31 @@
 ---
-title: Synkronoi projektin todelliset arvot suoraan Project Service Automationista projekti-integraation kirjauskansioon kirjausta varten Finance and Operationsissa
-description: Tässä aiheessa kuvataan malleja ja sen pohjana olevia tehtäviä, jota käytetään projektin toteutuneita arvoja synkronoimiseen suoraan Microsoft Dynamics 365 Project Service Automationista Finance and Operationsen.
+title: Projektin todellisten tietojen synkronointi Project Service Automationista suoraan projektin integroinnin kirjauskansioon talous- ja toimintosovelluksiin kirjaamista varten
+description: Tässä ohjeaiheessa käsitellään malleja ja taustatehtäviä, joilla projektin todelliset tiedot synkronoidaan suoraan Microsoft Dynamics 365 Project Service Automationista talous- ja toimintosovelluksiin.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988107"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683534"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synkronoi projektin todelliset arvot suoraan Project Service Automationista projekti-integraation kirjauskansioon kirjausta varten Finance and Operationsissa
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Projektin todellisten tietojen synkronointi Project Service Automationista suoraan projektin integroinnin kirjauskansioon talous- ja toimintosovelluksiin kirjaamista varten
 
 [!include[banner](../includes/banner.md)]
 
-Tässä aiheessa kuvataan malleja ja sen pohjana olevia tehtäviä, jota käytetään projektin toteutuneita arvoja synkronoimiseen suoraan Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
+Tässä ohjeaiheessa käsitellään malleja ja taustatehtäviä, joilla projektin todelliset arvot synkronoidaan suoraan Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
 
 Malli synkronoi Project Service Automationin tapahtumat Financen väliaikaiseen taulukkoon. Kun synkronointi on valmis, tiedot **on tuotava** väliaikaisesta taulukosta integrointipäiväkirjaan.
 
@@ -42,7 +41,7 @@ Project Service Automationin integrointiratkaisua Financeen käyttää tietojen 
 
 Seuraavassa kuvassa on esitetty, miten tiedot synkronoidaan Project Service Automationin ja Financen välillä.
 
-[![Työnkulku Project Service Automationin integroinnissa Finance and Operationsiin.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Project Service Automationin ja talous- ja toimintosovellusten välisen integroinnin tiedonkulku.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Projektin toteutuneet arvot Project Service Automationista
 
@@ -75,7 +74,7 @@ Ennen todellisten arvojen synkronointia sinun täytyy määrittää Project Serv
 
 ### <a name="power-query"></a>Power Query
 
-Projektien toteutuneiden arvojen mallissa on käytettävä Microsoft Power Query for Exceliä seuraavien tehtävien suorittamiseen:
+Projektin todellisten arvojen mallissa on käytettävä Microsoft Power Query for Exceliä seuraavien toimintojen päivittämiseen:
 
 - Muunna tapahtumatyyppi Project Service Automationissa Financen oikeaan tapahtumatyyppiin. Tämä muunnos on jo määritetty projektin toteutuneet arvot (PSA to Fin ja OPS) -mallissa.
 - Muunna laskutustyyppi Project Service Automationissa Financen oikeaan laskutustyyppiin. Tämä muunnos on jo määritetty projektin toteutuneet arvot (PSA to Fin ja OPS) -mallissa. Tämän jälkeen laskutustyyppi yhdistetään rivin ominaisuuteen **Project Service Automationin integrointiparametrit** -sivun määritysten perusteella .
@@ -84,9 +83,9 @@ Projektien toteutuneiden arvojen mallissa on käytettävä Microsoft Power Query
 - Jos konsernin aikaa tai konsernin sisäisiä kuluja ei synkronoida Financeen, sinun täytyy poistaa mallista viimeksi lisätty ehdollinen sarake. Muussa tapauksessa voi tapahtua joko integrointivirhe tai virheellisiä toteutuneita tapahtumia voidaan tuoda Financeen.
 
 #### <a name="contract-organizational-unit"></a>Sopimusorganisaatioyksikkö
-Voit päivittää lisätyn ehdollisen sarakkeen mallissa avaamalla yhdistämismäärityksen valitsemalla **Yhdistämismääritys**-nuoli. Valitse **Tarkka kysely ja suodatus** -linkki avataksesi Power Queryn.
+Voit päivittää lisätyn ehdollisen sarakkeen mallissa avaamalla yhdistämismäärityksen valitsemalla **Yhdistämismääritys**-nuoli. Valitse **Kyselyn ja suodatuksen lisäasetukset** avataksesi Power Queryn.
 
-- Jos käytät oletusarvoisten projektien toteutuneiden arvojen (PSA:sta Fin:iin ja Ops:iin) mallia, valitse Power Queryssä ensimmäinen **Lisätty ehto** **Sovelletut vaiheet** -osasta. Korvaa **Toiminto**-kirjauksessa **USSI** sen yrityksen nimellä, jota käytetään integroinnissa. Lisää **Funktio**-merkintään lisäehtoja tarpeen mukaan ja päivitä **Tai**-ehto **USMF**-ohjelmasta oikeaan yritykseen.
+- Jos käytät projektin todellisten arvojen oletusmallia (PSA:sta talous- ja toimintosovelluksiin), Power Queryssä, valitse viimeinen **Lisätty ehto** **Käytetyt vaiheet** -osassa. Korvaa **Toiminto**-kirjauksessa **USSI** sen yrityksen nimellä, jota käytetään integroinnissa. Lisää **Funktio**-merkintään lisäehtoja tarpeen mukaan ja päivitä **Tai**-ehto **USMF**-ohjelmasta oikeaan yritykseen.
 - Jos olet luomassa uutta mallia, sinun täytyy lisätä sarake, joka tukee konsernin sisäistä aikaa ja kuluja. Valitse Power Queryssä **Lisää ehdollinen sarake** ja kirjoita uuden sarakkeen nimi, kuten **Yritys**. Kirjoita sarakkeen ehto, silloin jos **msdyn\_contractorganizationalunitid.msdyn\_name** on \<organizational unit\>, sitten \<enter the legal entity\>; muuten tyhjäarvo
 
 ### <a name="template-mapping-in-data-integration"></a>Mallien yhdistämismääritys tietojen integroinnissa
@@ -126,7 +125,7 @@ Projektin toteutuneita hallitaan Project Service Automationissa, ja ne synkronoi
 
 ### <a name="power-query"></a>Power Query
 
-Projektien toteutuneiden arvojen päivitysmallissa on käytettävä Power Queryä seuraavien tehtävien suorittamiseen:
+Käytä projektin todellisten arvojen päivitysmallissa Power Querya näiden tehtävien suorittamiseen:
 
 - Muunna Financen tapahtumatyyppi oikeaan tapahtumatyyppiin Project Service Automationissa. Tämä muunnos on jo määritetty projektin toteutuneet arvot (PSA to Fin ja OPS) -päivitysmallissa.
 - Muunna laskutustyyppi Financessa Project Service Automationin oikeaan laskutustyyppiin. Tämä muunnos on jo määritetty projektin toteutuneet arvot (PSA to Fin ja OPS) -päivitysmallissa.

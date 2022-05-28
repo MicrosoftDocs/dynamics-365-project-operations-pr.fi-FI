@@ -1,32 +1,31 @@
 ---
-title: Synkronoi projektitehtäviä suoraan Project Service Automationista Finance and Operationsiin
-description: Tässä aiheessa kuvataan malli ja sen pohjana oleva tehtävä, jota käytetään projektitehtävien synkronoimiseen suoraan Microsoft Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
+title: Projektitehtävien synkronointi suoraan Project Service Automationista talous- ja toimintosovelluksiin
+description: Tässä ohjeaiheessa käsitellään malleja ja taustatehtäviä, joilla projektitehtäviä synkronoidaan suoraan Microsoft Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992787"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683146"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronoi projektitehtäviä suoraan Project Service Automationista Finance and Operationsiin
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Projektitehtävien synkronointi suoraan Project Service Automationista talous- ja toimintosovelluksiin
 
 [!include[banner](../includes/banner.md)]
 
-Tässä aiheessa kuvataan malli ja sen pohjana oleva tehtävä, jota käytetään projektitehtävien synkronoimiseen suoraan Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
+Tässä ohjeaiheessa käsitellään malleja ja taustatehtäviä, joilla projektitehtäviä synkronoidaan suoraan Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
 
 > [!NOTE]
 > - Projektitehtävien integrointi, kulutapahtumien luokat, työaika-arviot, kuluarviot ja toimintojen lukitus ovat käytettävissä versiossa 8.0.
@@ -68,11 +67,11 @@ Ennen kuin projektitehtäviä voi synkronoitava, on synkronoitava projektisopimu
 
 ## <a name="power-query"></a>Power Query
 
-Sinun on käytettävä Microsoft Power Query for Excel -isäosaa suodattamaan tietoja, jos seuraava ehto täyttyy:
+Jos seuraavat ehdot toteutuvat, tietojen suodattamiseen on käytettävä Microsoft Power Query for Exceliä:
 
 - Projektitehtävässä on resurssikohtaisia tietueita.
 
-Jos sinun on käytettävä Power Queryä, noudata seuraavaa ohjetta:
+Jos Power Queryä on käytettävä, noudata seuraavaa ohjeistusta:
 
 - Projektitehtävien (PSA:sta Fin:iin ja Ops:iin) on oletussuodatin, joka jättää resurssikohtaiset tietueet pois projektitehtävästä määrittämällä **IsLineTask**-suodattimen arvoksi **Epätosi**. Jos luot oman mallin, tämä suodatin on lisättävä.
 

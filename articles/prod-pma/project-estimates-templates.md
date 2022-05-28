@@ -1,32 +1,31 @@
 ---
-title: Synkronoi projektiarvioita suoraan Project Service Automationista Finance and Operationsiin
-description: Tässä aiheessa kuvataan malleja ja niiden pohjana olevat tehtävät, joita käytetään projektien työaika-arvioiden ja projektien kustannusarvioiden synkronoimiseen suoraan Microsoft Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
+title: Projektiarvioiden synkronointi suoraan Project Service Automationista talous- ja toimintosovelluksiin
+description: Tässä ohjeaiheessa käsitellään malleja ja taustatehtäviä, joilla projektin tunti- ja kuluarviot synkronoidaan suoraan Microsoft Microsoft Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988197"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684592"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synkronoi projektiarvioita suoraan Project Service Automationista Finance and Operationsiin
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Projektiarvioiden synkronointi suoraan Project Service Automationista talous- ja toimintosovelluksiin
 
 [!include[banner](../includes/banner.md)]
 
-Tässä aiheessa kuvataan malleja ja niiden pohjana olevat tehtävät, joita käytetään projektien työaika-arvioiden ja projektien kustannusarvioiden synkronoimiseen suoraan Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
+Tässä ohjeaiheessa käsitellään malleja ja taustatehtäviä, joilla projektin tunti- ja kuluarviot synkronoidaan suoraan Microsoft Dynamics 365 Project Service Automationista Dynamics 365 Financeen.
 
 > [!NOTE]
 > - Projektitehtävien integrointi, kulutapahtumien luokat, työaika-arviot, kuluarviot ja toimintojen lukitus ovat käytettävissä versiossa 8.0.
@@ -70,7 +69,7 @@ Ennen kuin projektien työaika-arvioita voidaan suorittaa, on synkronoitava proj
 
 ### <a name="power-query"></a>Power Query
 
-Projektien työaika-arviomallissa on käytettävä Microsoft Power Query for Exceliä seuraavien tehtävien suorittamiseen:
+Projektin tuntiarvioiden mallissa on käytettävä Microsoft Power Query for Exceliä seuraavien toimintojen päivittämiseen:
 
 - Määritä sen oletusarvoisen ennustemallin tunnus, jota käytetään, kun integrointi luo uusia työaikaennusteita.
 - Suodata kaikki ne tehtävän resurssikohtaiset tietueet, jotka aiheuttavat työaikaennusteisiin integroinnin epäonnistumisen.
@@ -81,7 +80,7 @@ Projektien työaika-arviomallissa on käytettävä Microsoft Power Query for Exc
 Päivitä oletusarvoisen ennustemallin tunnus mallissa avaamalla yhdistämismäärityksen valitsemalla **Yhdistämismääritys**-nuoli. Valitse sitten **Tarkka kysely ja suodatus** -linkki.
 
 - Jos käytät oletusarvoisten projektien työaika-arvioiden (PSA:sta Fin:iin ja Ops:iin) mallia, valitse **Sovelletut vaiheet** -luettelossa **Lisätty ehto**. Korvaa **Toiminto**-kirjauksessa **O\_forecast** sen ennustemallin tunnuksella, jota käytetään integroinnissa. Oletusmallilla on esittelytiedoista peräisin oleva ennustemallin tunnus.
-- Jos olet luomassa uutta mallia, tämä sarake on lisättävä. Valitse Power Queryssä **Lisää ehdollinen sarake** ja kirjoita uuden sarakkeen nimi, Kuten **Mallitunnus**. Kirjoita sarakkeen ehto, silloin jos projektitehtävä ei ole tyhjäarvo, sitten \<enter the forecast model ID\>; muuten tyhjäarvo.
+- Jos olet luomassa uutta mallia, tämä sarake on lisättävä. Valitse Power Queryssä **Lisää ehtosarake** ja anna uudelle sarakkeelle nimi, kuten **Mallin tunnus**. Kirjoita sarakkeen ehto, silloin jos projektitehtävä ei ole tyhjäarvo, sitten \<enter the forecast model ID\>; muuten tyhjäarvo.
 
 #### <a name="filter-out-resource-specific-records"></a>Resurssikohtaisten tietueiden pois suodattaminen
 
@@ -126,7 +125,7 @@ Ennen kuin projektien kuluarvioita voidaan suorittaa, on synkronoitava projektit
 
 ### <a name="power-query"></a>Power Query
 
-Projektien kuluarviomallissa on käytettävä Power Queryä seuraavien tehtävien suorittamiseen:
+Projektin kuluarviomallissa on käytettävä Power Queryfor Exceliä seuraavien toimintojen päivittämiseen:
 
 - Suodatus siten, että mukana on vain kuluarviorivitietueita.
 - Määritä sen oletusarvoisen ennustemallin tunnus, jota käytetään, kun integrointi luo uusia työaikaennusteita.
@@ -141,8 +140,8 @@ Projektin kuluarvioiden (PSA:sta Fin:iin ja Ops:iin) -mallissa on oletussuodatin
 
 Päivitä oletusarvoisen ennustemallin tunnus mallissa valitsemalla **Kuluarviot**-tehtävä ja avaamalla sitten yhdistämismääritys valitsemalla **Yhdistämismääritys**-nuoli. Valitse **Tarkka kysely ja suodatus** -linkki.
 
-- Jos käytät oletusarvoisten projektien kuluarvioiden (PSA:sta Fin:iin ja Ops:iin) mallia, valitse Power Queryssä ensimmäinen **Lisätty ehto** **Sovelletut vaiheet** -osasta. Korvaa **Toiminto**-kirjauksessa **O\_forecast** sen ennustemallin tunnuksella, jota käytetään integroinnissa. Oletusmallilla on esittelytiedoista peräisin oleva ennustemallin tunnus.
-- Jos olet luomassa uutta mallia, tämä sarake on lisättävä. Valitse Power Queryssä **Lisää ehdollinen sarake** ja kirjoita uuden sarakkeen nimi, Kuten **Mallitunnus**. Kirjoita sarakkeen ehto, silloin jos arviorivitunnus ei ole tyhjäarvo, sitten \<enter the forecast model ID\>; muuten tyhjäarvo.
+- Jos käytät projektin kuluarvioiden oletusmallia (PSA:sta Fin and Opsiin), Power Queryssä, valitse ensimmäinen **Lisätty ehto** **Käytetyt vaiheet** -osassa. Korvaa **Toiminto**-kirjauksessa **O\_forecast** sen ennustemallin tunnuksella, jota käytetään integroinnissa. Oletusmallilla on esittelytiedoista peräisin oleva ennustemallin tunnus.
+- Jos olet luomassa uutta mallia, tämä sarake on lisättävä. Valitse Power Queryssä **Lisää ehtosarake** ja anna uudelle sarakkeelle nimi, kuten **Mallin tunnus**. Kirjoita sarakkeen ehto, silloin jos arviorivitunnus ei ole tyhjäarvo, sitten \<enter the forecast model ID\>; muuten tyhjäarvo.
 
 #### <a name="transform-the-billing-types"></a>Laskutustyyppien muuntaminen
 

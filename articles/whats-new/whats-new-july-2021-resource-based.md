@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008042"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600876"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Heinäkuun 2021 uudet ominaisuudet – Project Operations resurri/ei-varastoitavien skenaarioissa
 
@@ -80,7 +80,7 @@ Jos kartan käynnistämisessä on ongelma, noudata kohdan [Puutuvat sarakkeet -o
 | Yhteiset                       | 2253682              | Project Operationsin kaksoiskirjoitusratkaisua ei pitäisi asentaa, kun kaksoiskirjoitusydin asennetaan ympäristöön, jossa ei ole kaksoiskirjoituksen hallintaratkaisua.                                                |
 | Yhteiset                       | 2316420              | Project Servicen ytimen valmistelu epäonnistuu, jos sovelluksen käyttäjän liiketoimintayksikköä muutetaan.                                                                                                                     |
 | Yhteiset                       | 2376405              | Julkaisijan korjaama päivitysongelma (laatupäivitys on saatavana versiossa 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Financen projektinhallinta ja kirjanpito
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektinhallinta ja kirjanpito Dynamics 365 Financessa
 
 | Ominaisuusalue                      | Viitenumero | Laatupäivitys                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

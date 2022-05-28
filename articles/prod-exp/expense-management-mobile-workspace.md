@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001472"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682798"
 ---
 # <a name="expense-management-mobile-workspace"></a>Kulujen hallinnan mobiilityötila
 
@@ -35,7 +34,7 @@ Useat organisaatiot edellyttävät, että työntekijän korvausta varten lähett
 
 **Kulujen hallinta** -mobiilityötilan avulla käyttäjät voivat siis suorittaa seuraavia tehtäviä:
 
-- Ota valokuva kuitista ja lataa se Dynamics 365 Financeen. Voit liittää valokuvan myöhemmin kuluraporttiin.
+- Ota kuva kuitista ja lataa se Dynamics 365 Financeen. Voit liittää valokuvan myöhemmin kuluraporttiin.
 - tiedoston lataaminen siepattuna kuittina. Voit liittää tiedoston myöhemmin kuluraporttiin.
 - Luo uusi kulurivi liitetyn kuitin avulla. Tämän jälkeen voit lisätä rivinimikkeen matkaraporttiin myöhemmin ja lähettää sen hyväksyntää ja korvausta varten.
 
@@ -53,7 +52,7 @@ Voit käyttää myös seuraavia toimintoja:
 ## <a name="prerequisites"></a>Edellytykset
 Edellytykset vaihtelevat organisaatiossa käyttöön otetun version mukaan.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Edellytykset käytettäessä Dynamics 365 Financea 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Financen käytön edellytykset 
 Jos organisaatiossasi on otettu käyttöön Finance, järjestelmänvalvojan on julkaistava **Kulujen hallinta** -mobiilityötila. Katso ohjeet kohdasta [Mobiilityötilojen julkaiseminen](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Edellytykset, jos käytössä on versio 1611 ja Platform Update 3 tai uudempi

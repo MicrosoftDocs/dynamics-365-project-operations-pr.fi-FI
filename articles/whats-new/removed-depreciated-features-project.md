@@ -2,17 +2,17 @@
 title: Poistetut tai vanhentuneet Dynamics 365 Project Operations -ominaisuudet
 description: Tässä aiheessa käsitellään ominaisuuksia, jotka on poistettu tai joiden poistoa suunnitellaan Dynamics 365 Project Operationssta.
 author: sigitac
-ms.date: 12/09/2021
+ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7aa2888b2752641e99087031a85177cb1171363d
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903400"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601566"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Poistetut tai vanhentuneet Dynamics 365 Project Operations -ominaisuudet
 
@@ -26,7 +26,49 @@ Tässä aiheessa käsitellään ominaisuuksia, jotka on poistettu tai joiden poi
 Luettelon tarkoituksena on auttaa sinua tarkastelemaan näitä poistoja ja vanhentumisia, jotta voit suunnitella tulevaa.
 
 > [!NOTE]
-> Seuraavissa raporteissa on tarkempia tietoja Finance and Operations -sovellusten objekteista: [**Teknisten tietojen raportit**](/dynamics/s-e/global/axtechrefrep_61). Voit verrata raporttien eri versioita saadaksesi lisätietoja objekteista, jotka on muutettu tai poistettu kussakin Finance and Operations -sovelluksessa.
+> Seuraavissa raporteissa on tarkempia tietoja taloushallinnon ja toimintojen sovellusten objekteista: [**Tekniset viitetiedot**](/dynamics/s-e/global/axtechrefrep_61). Voit verrata raporttien eri versioita saadaksesi lisätietoja objekteista, jotka on muutettu tai poistettu kussakin taloushallinnon ja toimintojen sovellusten versiossa.
+
+## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Poistetut tai vanhentuneet ominaisuudet Project Operationsin maaliskuun 2022 julkaisussa
+
+### <a name="project-management-and-accounting-always-create-adjustment-transaction-parameter"></a>Projektinhallinnan ja kirjanpidon "Luo aina oikaisutapahtuma" -parametri
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Vanhentumisen/poistamisen syy** | Oikaisutapahtumat ovat pakollisia seurantatarkoituksia varten. Kun poisto on tehty, tämä parametri piilotetaan. Järjestelmä luo aina oikaisutapahtumat, kuten tällä hetkelläkin, kun parametriksi on määritetty **Kyllä**. |
+| **Korvataanko toisella ominaisuudella?** | No |
+| **Vaikutuksenalaiset tuotealueet** | Sovellus |
+| **Käyttöönottovaihtoehto** | Project Operations tuotannon ja varastoitavien skenaarioissa |
+| **Tila** | Vanhentunut: 1. maaliskuuta 2023 mennessä piilotamme parametrin ja muutamme järjestelmän toimintaa niin, että oikaisutapahtumat luodaan aina. |
+
+### <a name="project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter"></a>Projektinhallinnan ja kirjanpidon "Käytä oikaisupäivämäärää uutena projektipäivämääränä" -parametri
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Vanhentumisen/poistamisen syy** | Tätä parametria käytettiin alun perin oikaisujen sallimiseen, kun kirjanpitokausi suljettiin. Se ei kuitenkaan ole enää pakollinen, koska tapahtuman kirjanpitopäiväksi voidaan muuttaa avoimen kauden ensimmäinen päivä, jos se on määritetty. Projektin päivämäärää ei saa muuttaa, koska se edustaa tapahtuman esiintymisen päivämäärää. |
+| **Korvataanko toisella ominaisuudella?** | No |
+| **Vaikutuksenalaiset tuotealueet** | Sovellus |
+| **Käyttöönottovaihtoehto** | Project Operations tuotannon ja varastoitavien skenaarioissa |
+| **Tila** | Vanhentunut: 1. maaliskuuta 2023 mennessä piilotamme parametrin ja muutamme järjestelmän toimintaa niin, että projektin päivämäärää ei koskaan muuteta oikaisuissa. |
+
+### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Resurssipyynnön työnkulku Project Operationsin varastoitavien ja tuotantopohjaisissa skenaarioissa
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Vanhentumisen/poistamisen syy** | Vanhentunut, koska käyttö on vähäistä ja tapahtumien määrän rajoitusten vuoksi. |
+| **Korvataanko toisella ominaisuudella?** | No |
+| **Vaikutuksenalaiset tuotealueet** | Sovellus |
+| **Käyttöönottovaihtoehto** | Project Operations tuotannon ja varastoitavien skenaarioissa |
+| **Tila** | Vanhentunut: 1.3.2023 mennessä käytöstä poistetaan mahdollisuus pyytää resursseja projektia varten työnkulun avulla. |
+
+### <a name="project-invoice-proposal-page-without-header-and-lines-views"></a>Projektilaskuehdotus-sivu ilman Otsikko- ja Rivit-näkymiä
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Vanhentumisen/poistamisen syy** | Vanhentunut, koska sivuun on tehty parannuksia, jotka on tehty yhdessä **Käytä projektilaskuehdotuksen ja laskukirjauskansion lomakkeita Otsikko- ja Rivit-näkymän kanssa** -ominaisuusavaimen kanssa. |
+| **Korvataanko toisella ominaisuudella?** | Kyllä |
+| **Vaikutuksenalaiset tuotealueet** | Sovellus |
+| **Käyttöönottovaihtoehto** | Project Operations tuotanto/varastoitavat -skenaarioille; Project Operations resurssi/ei-varastoitava -skenaarioille |
+| **Tila** | Vanhentunut: 1.3.2023 mennessä aiempi (vanha) sivu poistetaan käytöstä ja otetaan käyttöön **Käytä projektilaskuehdotuksen ja laskukirjauskansion lomakkeita Otsikko- ja Rivit-näkymän kanssa** -ominaisuusavain oletusarvoisesti. |
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Poistetut tai vanhentuneet ominaisuudet Project Operationsin joulukuun 2021 julkaisussa
 
@@ -36,8 +78,8 @@ Luettelon tarkoituksena on auttaa sinua tarkastelemaan näitä poistoja ja vanhe
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Poiston tai vanhentumisen syy** | Vanhentunut vähäisen käytön vuoksi. Asiakkaat, jotka käyttävät Project Operationsia resurssien ja ei-varastoitavien skenaarioita varten, voivat hyödyntää [Office-ryhmien yhteistyötä](../project-management/collaboration-groups.md). |
-| **Onko toinen ominaisuus korvannut?** | No |
+| **Vanhentumisen/poistamisen syy** | Vanhentunut vähäisen käytön vuoksi. Asiakkaat, jotka käyttävät Project Operationsia resurssien ja ei-varastoitavien skenaarioita varten, voivat hyödyntää [Office-ryhmien yhteistyötä](../project-management/collaboration-groups.md). |
+| **Korvataanko toisella ominaisuudella?** | No |
 | **Vaikutuksenalaiset tuotealueet** | Sovellus  |
 | **Käyttöönottovaihtoehto** | Project Operations tuotannon ja varastoitavien skenaarioissa |
 | **Tila** | Vanhentunut: 1. joulukuuta 2022 mennessä, yhteistyötilojen tuen jatkamista ei suunnitella. |

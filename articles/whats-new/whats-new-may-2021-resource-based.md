@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994677"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723764"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Toukokuun 2021 uudet ominaisuudet - Project Operations resursseihin/ei-varastoitaviin perustuvissa skenaarioissa
 
@@ -21,7 +21,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
 
 - Project Operations Dynamics 365 Dataverse -ympäristön versiossa 4.10.0.186
-- Projektinhallinta ja kirjanpito Finance and Operations -sovellusten ympäristöjen versiossa 10.0.18
+- Projektinhallinta ja kirjanpito talous- ja toimintosovellusten ympäristön versiossa 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Tähän julkaisuun sisältyvät ominaisuudet
 
@@ -41,9 +41,9 @@ Seuraavassa luettelossa on esitetty kaksoiskirjoituskarttoja, joita on muokattu 
 | Project Operationsin integrointiprojektin toimittajalaskurivin vientientiteetti (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Laatupäivitykset |
 | Projektit V2 (msdyn\_projects) | 1.0.0.2 | Laatupäivitykset |
 
-Suorita aina kartan uusin versio ympäristössä ja ota käyttöön kaikki asiaan liittyvät taulukkokartat, kun päivität Project Operations Dataverse -ratkaisua ja Finance and Operations -sovellusten ratkaisun versiota. Tietyt ominaisuudet ja toiminnot eivät ehkä toimi oikein, jos kartan uusinta versiota ei ole aktivoitu. Kartan aktiivinen versio näkyy **Kaksoiskirjoitus**-sivun **Versio**-sarakkeessa. Voit aktivoida kartan uuden version valitsemalla **Taulukkokartan versiot**, valitsemalla uusimman version ja tallentamalla sitten valitun version. Jos olet mukauttanut valmiin taulukkokartan, kohdista muutokset uudelleen. Lue lisätietoja kohdasta [Ratkaisun elinkaaren hallinta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md).
+Suorita aina ympäristön kartan uusin versio ja ota käyttöön kaikki taulukkokartat, kun päivität Project Operations Dataverse -ratkaisua ja talous- ja toimintosovellusratkaisun versiota. Tietyt ominaisuudet ja toiminnot eivät ehkä toimi oikein, jos kartan uusinta versiota ei ole aktivoitu. Kartan aktiivinen versio näkyy **Kaksoiskirjoitus**-sivun **Versio**-sarakkeessa. Voit aktivoida kartan uuden version valitsemalla **Taulukkokartan versiot**, valitsemalla uusimman version ja tallentamalla sitten valitun version. Jos olet mukauttanut valmiin taulukkokartan, kohdista muutokset uudelleen. Lue lisätietoja kohdasta [Ratkaisun elinkaaren hallinta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Jos kartan käynnistyksessä ilmenee ongelmia, noudata kaksoiskirjoituksen vianmääritysoppaan ohjeita kohdasta [Karttojen puuttuvat taulukkosarakkeet -ongelma](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps).
+Jos kartan käynnistyksessä ilmenee ongelmia, noudata kaksoiskirjoituksen vianmääritysoppaan ohjeita kohdasta [Karttojen puuttuvat taulukkosarakkeet -ongelma](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
 ## <a name="quality-updates"></a>Laatupäivitykset
 
@@ -67,7 +67,7 @@ Jos kartan käynnistyksessä ilmenee ongelmia, noudata kaksoiskirjoituksen vianm
 | Aikamerkintä | 2202476 | **Aikamerkintä**-sivu käyttää nyt reaktioruudukon ohjausobjektia ja korjaa ongelmia, kuten ruudukon virheellinen tasaus. |
 | Aikamerkintä | 2223377 | Aikamerkintä on piilotettu **Varattavissa oleva resurssi** -sivun **Liittyvä**-osiosta käytettävyyteen liittyvien epäselvyyksien välttämiseksi. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Financen projektinhallinta ja kirjanpito
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektinhallinta ja kirjanpito Dynamics 365 Financessa
 
 | Ominaisuusalue | Viitenumero | Laatupäivitys |
 | --- | --- | --- |

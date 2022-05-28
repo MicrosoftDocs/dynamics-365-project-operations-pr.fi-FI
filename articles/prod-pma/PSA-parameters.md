@@ -1,32 +1,31 @@
 ---
 title: Project Service Automationin integrointiparametrit
-description: Tässä aiheessa kerrotaan, miten voit määrittää, miten oletustiedot määritetään, kun Microsoft Dynamics 365 for Project Service Automation integroidaan Dynamics 365 Financeen.
+description: Tässä ohjeaiheessa kerrotaan, miten oletustiedot kirjataan, kun integroit Microsoft Dynamics 365 for Project Service Automationin Microsoft Dynamics 365 Financen kanssa.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005837"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683672"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automationin integrointiparametrit
 
 [!include[banner](../includes/banner.md)]
 
-**Project Service Automationin integrointiparametrit** -sivulla voit määrittää, miten oletustietoja määritetään, kun Dynamics 365 Project Service Automation integroidaan Dynamics 365 Financeen. Jotta projektit voidaan synkronoida Project Service Automationista Financeen, sinun täytyy määrittää seuraavat kentät.
+Voit määrittää **Project Service Automation -integrointiparametrit** -sivulla, miten oletustiedot lisätään, kun integroit Dynamics 365 Project Service Automationin Dynamics 365 Financen kanssa. Jotta projektit voidaan synkronoida Project Service Automationista Financeen, sinun täytyy määrittää seuraavat kentät.
 
 Avaa **Project Service Automationin integrointiparametrit** -sivu kohdasta **Projektinhallinta ja kirjanpito** \> **Määritys** \> **Dynamics 365 for Project Service Automationin integrointiparametrit**. 
 

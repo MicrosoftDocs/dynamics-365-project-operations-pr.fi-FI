@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679205"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600784"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kesäkuun 2021 uudet ominaisuudet – Project Operations resurssien/ei-varastoitavien skenaarioissa
 
@@ -21,7 +21,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
 
 - Project Operations Dynamics 365 Dataverse -ympäristön versiossa 4.11.0.156 or 4.11.0.164.
-- Projektinhallinta ja kirjanpito Finance and Operations -sovellusten ympäristöjen versiossa 10.0.19.
+- Projektinhallinta ja kirjanpito talous- ja toimintosovellusten ympäristön versiossa 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Tähän julkaisuun sisältyvät ominaisuudet
 
@@ -38,7 +38,7 @@ Tässä versiossa ei ole päivityksiä Project Operationsin kaksoiskirjoituskart
 
 Project Operationsin kaksoiskirjoituskarttojen luettelo ja versiot ovat kohdassa [Project Operationsin kaksi kaksoiskirjoituskarttojen versiot](../environment/resource-dual-write-maps.md).
 
-Suorita aina kartan uusin versio ympäristössä ja ota käyttöön kaikki asiaan liittyvät taulukkokartat, kun päivität Project Operations Dataverse -ratkaisua ja Finance and Operations -sovellusten ratkaisun versiota. Tietyt ominaisuudet ja toiminnot eivät ehkä toimi oikein, jos kartan uusinta versiota ei ole aktivoitu. Kartan aktiivinen versio näkyy **Kaksoiskirjoitus**-sivun **Versio**-sarakkeessa. Aktivoi kartan uusi versio valitsemalla **Taulukkokarttaversiot**, valitsemalla uusin versio ja tallentamalla valittu versio. Jos olet mukauttanut valmiin taulukkokartan, kohdista muutokset uudelleen. Lue lisätietoja kohdasta [Ratkaisun elinkaaren hallinta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Suorita aina ympäristön kartan uusin versio ja ota käyttöön kaikki taulukkokartat, kun päivität Project Operations Dataverse -ratkaisua ja talous- ja toimintosovellusratkaisun versiota. Tietyt ominaisuudet ja toiminnot eivät ehkä toimi oikein, jos kartan uusinta versiota ei ole aktivoitu. Kartan aktiivinen versio näkyy **Kaksoiskirjoitus**-sivun **Versio**-sarakkeessa. Aktivoi kartan uusi versio valitsemalla **Taulukkokarttaversiot**, valitsemalla uusin versio ja tallentamalla valittu versio. Jos olet mukauttanut valmiin taulukkokartan, kohdista muutokset uudelleen. Lue lisätietoja kohdasta [Ratkaisun elinkaaren hallinta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Jos kartan käynnistämisessä on ongelma, noudata kohdan [Puutuvat sarakkeet -ongelma kartoissa](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) ohjeita kaksoiskirjoituksen vianmääritysoppaassa.
 
@@ -62,7 +62,7 @@ Jos kartan käynnistämisessä on ongelma, noudata kohdan [Puutuvat sarakkeet -o
 | Aika ja kulu | 2194431 | **Ajansyöttö**-ruudukon on käytettävä viikon alkua, joka on määritetty **Järjestelmäasetuksissa**. |
 | Aika ja kulu | 2277311 | Kun olet poistanut arvon **Ajansyöttö**-ruudukon solusta, kohdistin säilyy ruudukossa. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Financen projektinhallinta ja kirjanpito
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektinhallinta ja kirjanpito Dynamics 365 Financessa
 
 | Ominaisuusalue | Viitenumero | Laatupäivitys |
 | --- | --- | --- |

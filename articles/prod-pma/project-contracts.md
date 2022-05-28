@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001022"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683488"
 ---
 # <a name="project-contracts"></a>Projektisopimukset
 
@@ -45,7 +44,7 @@ Jotkin projektisopimukset määrittävät, että useat osapuolet jakavat vastuun
 -   Tiehanketta rahoittaa kaksi kuntaa.
 -   Siltaprojektia rahoittaa julkinen avustus ja yksityinen yritys.
 
-Dynamics 365 Financessa voit jakaa yksittäisen tapahtuman tai koko projektin laskutuksen useiden asiakkaiden, apurahojen tai organisaatioiden kesken. 
+Voit jakaa Dynamics 365 Financessa yhden tapahtuman tai koko projektin laskutuksen useiden asiakkaiden, avustusten tai organisaatioiden kesken. 
 
 Projekteissa, joissa on useita rahoittajia, kaikkia edistyneen rahoitusprojektin rahoittamiseen osallistuvia osapuolia kutsutaan rahoituslähteiksi. Kun asiakas, organisaatio tai apuraha on määritetty rahoituslähteeksi, se voidaan delegoida yhteen tai useampaan rahoitussääntöön. Rahoitussäännöt sisältävät ehdot, jotka määrittävät, miten maksut kohdistetaan projektin eri rahoituslähteisiin. 
 

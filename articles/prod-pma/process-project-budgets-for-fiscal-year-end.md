@@ -1,14 +1,13 @@
 ---
 title: Projektibudjettien siirtäminen tilikauden lopussa
-description: Tässä artikkelissa on tietoja siitä, miten jäljellä olevat budjetin summat siirretään tuleville vuosille ja budjettirekisteritiedot luodaan.
+description: Tässä artikkelissa annetaan tietoja jäljellä olevien budjettisummien siirtämisestä tuleville vuosille ja budjettirekisteritietojen luomisesta.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5b4e768cb78d6a6cb76b3c338fd76363d5290ebd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007367"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684040"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Projektibudjettien siirtäminen tilikauden lopussa
 

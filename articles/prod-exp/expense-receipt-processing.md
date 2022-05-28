@@ -1,24 +1,23 @@
 ---
 title: Kulukuittien käsittely
-description: Tässä aiheessa on tietoja kuittien optisesta merkintunnistuksesta (OCR). Tämä ominaisuus on suunniteltu parantamaan Microsoft Dynamics 365 Financessa luotujen kuluraporttien käyttökokemusta.
+description: Tässä aiheessa on tietoja kuittien optisesta merkintunnistuksesta (OCR). Tämä ominaisuus on suunniteltu parantamaan käyttökokemusta, kun luodaan kuluraportteja Microsoft Dynamics 365 Financessa.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001382"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684316"
 ---
 # <a name="expense-receipt-processing"></a>Kulukuittien käsittely
 
@@ -51,7 +50,7 @@ Jos haluat luoda kulun tai määrittää kuitin kulun vastaavuuden, tee seuraava
 
 Tämä ominaisuus toimii yhdessä **uudelleen suunniteltujen kuluraporttien** kanssa, mikä helpottaa kulukokemusta. Tämä ominaisuus on käytettävissä vain Tier 2+-ympäristöissä, jotka ovat eritys- ja tuotantoympäristö.
 
-Jos haluat käyttää kulujen lisäominasuuksia, asenna Microsoft Dynamics 365 Financen kulujen hallintapalvelun apuohjelma ja ota toiminnot käyttöön esiintymässä. Voit käyttää Microsoft Dynamics Lifecycle Services (LCS) -sovelluksen projektin apuohjelmaa.
+Jos haluat käyttää näitä kehittyneitä kuluominaisuuksia, asenna Microsoft Dynamics 365 Financen kulujenhallintapalvelu ja ota ominaisuudet käyttöön esiintymässäsi. Voit käyttää Microsoft Dynamics Lifecycle Services (LCS) -sovelluksen projektin apuohjelmaa.
 
 1. Kirjaudu sisään LCS-sovellukseen ja avaa haluamasi ympäristö.
 2. Siirry kohtaan **Täydelliset tiedot**.

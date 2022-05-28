@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988017"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684960"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client -integraatio
 
 [!include [banner](../includes/banner.md)]
 
-Projektin aikataulun suunnitteleminen ja ylläpitäminen voi olla haastavaa, joten projektipäälliköiden on käytettävä työkaluja, joiden avulla he voivat hallita tätä tehtävää. Microsoft Project Clientiin integrointi tukee projektin työrakenteen avaamista ja hallintaa. Projektipäällikkö voi julkaista muutokset takaisin Dynamics 365 Finance -projektin työrakenteeseen.
+Projektin aikataulun suunnitteleminen ja ylläpitäminen voi olla haastavaa, joten projektipäälliköiden on käytettävä työkaluja, joiden avulla he voivat hallita tätä tehtävää. Microsoft Project Clientiin integrointi tukee projektin työrakenteen avaamista ja hallintaa. Projektipäällikkö voi julkaista muutokset takaisin Dynamics 365 Financen projektityörakenteeseen.
 
 > [!NOTE]
 > Jos käytössä on heinäkuun päivitys (versio 10.0.4), on asennettava tietokannat 4054797 ja 4055884.
@@ -40,7 +39,7 @@ Microsoft Project Clientiin integroinnin käyttöönottoa varten on asennettava 
 •   Valitse **Avaa** ja sitten kehotteesta **Suorita**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Olemassa olevan työrakenneluonnoksen avaaminen ja muokkaus Microsoft Project Clientissä
-Jos Dynamics 365 Financessa olevalle projektille on jo luotu työrakenne, se voidaan avata o luodulle projektille on luotu työn erittely rakenne, työerittely rakenne voidaan avata Microsoft Project Client -sovelluksessa, jos työrakenne on luonnostilassa. Avaa **Projekti**-sivulta valitsemalla **Avaa Microsoft Projectissa** -linkki **Suunnitelma**-välilehdestä. Tämä sivu voidaan avata myös Microsoft Project Client -sovelluksesta valitsemalla **Avaa** **Microsoft Dynamics 365** -välilehdestä. Valitse luettelosta **Oikeushenkilö** ja **Projekti**.
+Jos Dynamics 365 Financen projektiin on jo luotu työrakenne, se voidaan avata Microsoft Project Client -sovelluksessa, jos työrakenne on luonnostilassa. Avaa **Projekti**-sivulta valitsemalla **Avaa Microsoft Projectissa** -linkki **Suunnitelma**-välilehdestä. Tämä sivu voidaan avata myös Microsoft Project Client -sovelluksesta valitsemalla **Avaa** **Microsoft Dynamics 365** -välilehdestä. Valitse luettelosta **Oikeushenkilö** ja **Projekti**.
 
 > [!NOTE]
 > Jos käytät Internet Explorer -selainta, sinun on valittava **Tallenna** avataksesi manuaalisesti tiedoston lataussijainnista. Tai **Tallenna ja avaa** avataksesi tidoston Microsoft Project Clientissa. Älä nimeä tiedostoa uudelleen tallennettaessa.

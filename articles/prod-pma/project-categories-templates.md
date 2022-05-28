@@ -1,32 +1,31 @@
 ---
-title: Synkronoi projektikulujen luokat Finance and Operationsin ja Project Service Automationin välillä
-description: Tässä aiheessa kuvataan malleja ja sen pohjana olevia tehtäviä, jota käytetään projektin kululuokkien synkronoimiseen suoraan Microsoft Dynamics 365 Financen ja Dynamics 365 Project Service Automationin välillä.
+title: Projektin kululuokkien synkronointi talous- ja toimintosovellusten ja Project Service Automationin välillä
+description: Tässä ohjeaiheessa käsitellään malleja ja taustalla olevia tehtäviä, joilla projektin kululuokat synkronoidaan Microsoft Dynamics 365 Financen ja Dynamics 365 Project Service Automationin välillä.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001112"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685466"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synkronoi projektikulujen luokat Finance and Operationsin ja Project Service Automationin välillä
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projektin kululuokkien synkronointi talous- ja toimintosovellusten ja Project Service Automationin välillä
 
 [!include[banner](../includes/banner.md)]
 
-Tässä aiheessa kuvataan malleja ja sen pohjana olevia tehtäviä, jota käytetään projektin kululuokkien synkronoimiseen suoraan Dynamics 365 Financen ja Dynamics 365 Project Service Automationin välillä.
+Tässä ohjeaiheessa käsitellään malleja ja taustalla olevia tehtäviä, joilla projektin kululuokat synkronoidaan Dynamics 365 Financen ja Dynamics 365 Project Service Automationin välillä.
 
 > [!NOTE]
 > - Projektitehtävien integrointi, kulutapahtumien luokat, työaika-arviot, kuluarviot ja toimintojen lukitus ovat käytettävissä versiossa 8.0.
@@ -81,10 +80,10 @@ Projektien kululuokkia hallitaan Financessa ja ne synkronoidaan Project Service 
 
 ### <a name="power-query"></a>Power Query
 
-Kun synkronoit Project Service Automationin, sinun täytyy käyttää Microsoft Power Query for Exceliä, kun haluat määrittää laskutustyypin tapahtumaluokalle. Projektin kulutapahtumaluokat (FIN ja Ops to PSA) -malli sisältää oletussarakkeen ja -yhdistämismäärityksen. Jos luot oman mallin, ehdollinen sarake on lisättävä Power Queryyn. Toimi seuraavasti.
+Tapahtumaluokan laskutustyyppi on määritettävä Microsoft Power Query for Excelillä, kun synkronointi tehdään Project Service Automationiin. Projektin kulutapahtumaluokat (FIN ja Ops to PSA) -malli sisältää oletussarakkeen ja -yhdistämismäärityksen. Jos luot oman mallin, tämä ehtosarake on lisättävä Power Queryyn. Toimi seuraavasti.
 
 1. Napsauttamalla nuolta voit avata projektikululuokat tehtävänyhdistämismäärityksen projektin kulutapahtumaluokissa (FIN ja Ops to PSA) -mallin.
-2. Napsauta **Tarkka kysely ja suodatus** -linkki avataksesi Power Queryn.
+2. Napsauta **Kyselyn ja suodatuksen lisäasetukset** avataksesi Power Queryn.
 2. Valitse **Lisää ehdollinen sarake**.
 3. Syötä uudelle sarakkeelle nimi, kuten **Laskutustyyppi**.
 4. Kirjoita seuraava ehto: **if CATEGORYID not equal to null then 19235001, Otherwise null**.

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323907"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723672"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Uudet ominaisuudet 2021 aalto 2:n ennakkojulkaisussa – Project Operationsin lite-käyttöönotto
 
@@ -26,7 +26,7 @@ Julkaisu otetaan käyttöön vain, jos ympäristö [osallistuu ennakkojulkaisuih
 
 ## <a name="features-included-in-this-release"></a>Tähän julkaisuun sisältyvät ominaisuudet
 
-[Alihankinnan hallinta](../subcontracting/subcontracting_EA_scope.md) – Tämä ominaisuus parantaa näkyvyyttä ja hallintaa projektin kaikissa töissä. Alihankinnan hallinnan esiversio sisältää seuraavat ominaisuudet:
+[Alihankinnan hallinta](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) – Tämä ominaisuus parantaa näkyvyyttä ja hallintaa projektin kaikissa töissä. Alihankinnan hallinnan esiversio sisältää seuraavat ominaisuudet:
 
   - Projektipäällikkö voi luoda alihankinnan toimittajan kanssa. Alihankintasopimuksessa käytetään oletusarvoisesti toimittajatietueeseen liitettyjä hinnastoja. Toimittajatilin suhdetyyppi on **Toimittaja** tai **Alihankkija**.
   - Projektipäällikkö voi määrittää kaikki ostot alihankinnan rivinimikkeiksi. Alihankkijarivit voivat olla ajan, kulujen tai tuotteiden rivejä. Kukin alihankintarivin tapahtumaluokka määrittää rivin.
