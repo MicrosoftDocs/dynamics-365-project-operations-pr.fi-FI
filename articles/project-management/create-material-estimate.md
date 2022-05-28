@@ -4,20 +4,20 @@ description: Tässä aiheessa on tietoja projektipohjaisten materiaalien määri
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992607"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737298"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Projektien materiaalien taloudelliset arviot
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Dynamics 365 Project Operationsissa projektipäälliköt voivat määrittää projektiin perustuvia materiaalikustannuksia kullekin projektille tai tehtävälle. Kukin materiaaliarvio voidaan liittää tiettyyn projektitehtävään. Kulut luokitellaan eri kululuokkiin, jotka on määritetty organisaatiotasolla. Kunkin kululuokan hinnoittelu ja kustannuslaskenta määritetään hinnastossa. 
+Dynamics 365 Project Operationsissa projektipäälliköt voivat määrittää projektiin perustuvia materiaalikustannuksia kullekin projektille tai tehtävälle. Kukin materiaaliarvio voidaan liittää tiettyyn projektitehtävään. Projekteihin käytettävät materiaalit voivat olla tuoteluettelon tuotteita tai käsin lisättyjä tuotteita. Kullekin tuotteen ja yksikön yhdistelmälle voidaan määrittää hinta projektien myynnin ja projektihinnastoissa kustannuksen projektihinnastoissa.  
 
 Tarkastele, lisää tai poista projektimateriaaliarvio seuraavien vaiheiden mukaisesti.
 
