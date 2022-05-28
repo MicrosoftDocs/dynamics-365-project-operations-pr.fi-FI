@@ -4,14 +4,14 @@ description: Tässä aiheessa on tietoja yritysten välisten asiakkaan ja toimit
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005477"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599960"
 ---
 # <a name="create-intercompany-transactions"></a>Yritysten välisten tapahtumien luominen
 
@@ -30,14 +30,14 @@ Kun yritysten välinen tapahtuma hyväksytään, luodaan seuraavat todelliset ta
 
 Kustannukset, resursointiyksikön kustannukset ja organisaatioyksikön myyntitapahtumien hinnoittelu ja valuutta määritetään **organisaatioyksikössä**. Tämä on tärkeää muistaa päätettäessä, miten yritysten ja organisaatioyksiköiden rakenne toteutetaan.
 
-Kun luot mahdollisuus-, tarjous-, projektisopimus- ja projektitietueita, järjestelmä tarkistaa, että hankintayksikön valuutta vastaa hankintayrityksen kirjanpitovaluuttaa. Näitä tietueita ei voi luoda, jos ne eivät ole samat. Organisaatioyksikön valuutta määritetään Dynamics 365 Project Operationsissa siirtymällä kohtaan **Dataverse** > **Asetukset** > **Organisaatioyksiköt**. Yrityksen kirjanpitovaluutta määritetään Dynamics 365 Financessa siirtymällä kohtaan **Pääkirjankirjanpito** > **Tapahtumarekisterin määritys** > **Tapahtumarekisteri**. Valuutta synkronoidaan Dataverse-ympäristöön Ledgers Dual Write Map -toiminnolla.
+Kun luot mahdollisuus-, tarjous-, projektisopimus- ja projektitietueita, järjestelmä tarkistaa, että hankintayksikön valuutta vastaa hankintayrityksen kirjanpitovaluuttaa. Näitä tietueita ei voi luoda, jos ne eivät ole samat. Organisaatioyksikön valuutta määritetään Dynamics 365 Project Operationsissa siirtymällä kohtaan **Dataverse** > **Asetukset** > **Organisaatioyksiköt**. A Yrityksen kirjanpitovaluutta määritetään Dynamics 365 Financessa valitsemalla **Kirjanpito** > **Kirjanpidon asetukset** > **Kirjanpito**. Valuutta synkronoidaan Dataverse-ympäristöön Ledgers Dual Write Map -toiminnolla.
 
 Järjestelmä luo resursointiyksikön kustannukset ja organisaatioksiköiden väliset toteutuneet myynnit seuraavissa tilanteissa:
 
   - Kun resursointiyksikkö eroaa hankintayksiköstä
   - Kun resursointiyritys eroaa hankintayrityksestä
 
-Kuitenkin vain sellaiset tapahtumat, joilla on eri resursointiyritys, siirretään Dynamics 365 Finance -ympäristöön lisäkirjanpitoa varten.
+Lisälaskentaa varten siirretään Dynamics 365 Finance -ympäristöön kuitenkin vain tapahtumat, joissa on eri resursointiyritys kuin sopimusyrityksellä.
 
 Projektin toteutuneiden arvojen kirjanpito kirjataan Project Operationsissa Financen integrointikirjauskansioon. Järjestelmä luo seuraavat kirjauskansion rivit.
 
@@ -60,7 +60,7 @@ Molly Clark, , GBPM:llä työskentelevä kehittäjä, kirjaa 10 tuntia työtä U
     4. Määritä valuutaksi **USD**.
     5. Tallenna tietue.
 3. Siirry kohtaan **Myynti** > **Projektisopimukset** ja luo uusi projektisopimus Adventure Worksille.
-    1. Määritä omistava yritys **USPM**-yksiköiksi ja sopimusyksiköksi **Contoso Robotics US**.
+    1. Määritä omistavaksi yritykseksi **USPM** -ja sopimusyksiköksi **Contoso Robotics US**.
     2. Valitse asiakkaaksi Adventure Works.
     3. Valitse tuotehinnasto ja tallenna tietue.
     4. Luo uusi sopimusripi **Sopimusrivit**-välilehdellä. Määritä mikä tahansa nimi ja valitse laskutustavaksi **Aika ja materiaalit**.

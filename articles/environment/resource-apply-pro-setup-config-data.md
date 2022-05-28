@@ -4,27 +4,27 @@ description: Tässä aiheessa on tietoja määritystietojen määrittämisestä 
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986622"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594712"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Määritystietojen määrittäminen ja käyttäminen Common Data Servicessa 
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Edellytykset
 
 Seuraavien edellytysten on täytyttävä ennen kuin aloitat tietojen määrittämisen Common Data Servicessa (CDS):
 
-1.  Project Operationsia varten valmistellut CDS- ja Dynamics 365 Finance -ympäristöt.
-2.  CDS-ympäristöön jaetut Dynamics 365 Financen yritystiedot. Tämän vuoksi CDS:n **Yhtiö**-entiteetillä on seuraavat yhtiötietueet:
+1.  Valmistele CDS-ympäristö ja Dynamics 365 Finance -ympäristö Project Operationsille.
+2.  Dynamics 365 Financen yritystiedot jaetaan CDS-ympäristöön. Tämän vuoksi CDS:n **Yhtiö**-entiteetillä on seuraavat yhtiötietueet:
   - THPM
   - USPM
   - GBPM
@@ -37,7 +37,7 @@ Seuraavien edellytysten on täytyttävä ennen kuin aloitat tietojen määrittä
 
 ![Määrityksen siirto.](./media/1ConfigurationMigration.png)
 
-4. Valitse ohjatun CMT-toiminnon sivulla 2 **Microsoft 365** **Käyttöönottotyypiksi**.
+4. Valitse ohjatun CMT-toiminnon sivulla 2 **Microsoft 365** **asennustyypiksi**.
 5. Valitse **Näytä käytettävissä olevien organisaatioiden luettelo** ja **Näytä lisäasetukset** -valintaruutu.
 6. Valitse vuokraajan alue, anna tunnistetietosi ja valitse **Kirjaudu**.
 

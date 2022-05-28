@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798036"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596276"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Kuitin sieppaaminen OCR:n avulla
 
@@ -52,7 +52,7 @@ Jos haluat luoda kulun tai määrittää kuitin kulun vastaavuuden, tee seuraava
 
 ## <a name="installation"></a>Asennus
 
-Jos haluat käyttää kulujen lisäominasuuksia, asenna Microsoft Dynamics 365 Financen kulujen hallintapalvelun apuohjelma ja ota toiminnot käyttöön esiintymässä. Voit käyttää Microsoft Dynamics Lifecycle Services (LCS) -sovelluksen projektin apuohjelmaa.
+Jos haluat käyttää näitä kehittyneitä kuluominaisuuksia, asenna Microsoft Dynamics 365 Financen kulujenhallintapalvelu ja ota ominaisuudet käyttöön esiintymässäsi. Voit käyttää Microsoft Dynamics Lifecycle Services (LCS) -sovelluksen projektin apuohjelmaa.
 
 1. Kirjaudu sisään LCS-sovellukseen ja avaa haluamasi ympäristö.
 2. Siirry kohtaan **Täydelliset tiedot**.

@@ -4,14 +4,14 @@ description: Tässä aiheessa on tietoja kustannusmallien luomisesta ja käyttä
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993552"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594206"
 ---
 # <a name="set-up-cost-templates"></a>Kustannusmallien määrittäminen
 
@@ -56,7 +56,7 @@ Kustannusmallin luomiseen liittyvän lähestymistavan määrittäminen voi riipp
 ## <a name="create-cost-templates"></a>Kustannusmallien luominen
 Luo kustannusmalleja suorittamalla seuraavat vaiheet:
 
-1. Siirry kustannusmalleihin Dynamics 365 Finance -ympäristön kohdassa **Projektinhallinta ja kirjanpito** > **Asetukset** > **Arviot** > **Kustannusmalli**.
+1. Jos haluat käyttää kustannusmalleja, siirry Dynamics 365 Finance -ympäristössä kohtaan **Projektinhallinta ja kirjanpito** > **Määritys** > **Arviot** > **Kustannusmalli**.
 2. Valitse **Uusi** luodaksesi kustannusmallin. Syötä nimi ja kuvaus.
 3. Anna kustannusrivin tunnus kullekin tapahtumatyypille.
 4. Valitse oletusvalmistumistapa:

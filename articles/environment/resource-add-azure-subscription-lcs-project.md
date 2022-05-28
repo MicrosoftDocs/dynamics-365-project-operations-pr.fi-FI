@@ -4,14 +4,14 @@ description: Tässä aiheessa on tietoja siitä, miten Azure-tilauksen voi yhdis
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986667"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595908"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure-tilauksen lisääminen LCS-projektiin
 
@@ -65,7 +65,7 @@ Valtuutus on nyt valmis.
 8. Valitse Azure-alue, johon otetaan käyttöön, ja valitse sitten palvelinkeskus, joka on lähellä sijaintia, jossa aiot käyttää tätä järjestelmää.
 9.  Valitse **Yhdistä**.
 
-Olet yhdistänyt Azure-tilauksen onnistuneesti. Voit nyt ottaa käyttöön Dynamics 365 Financen pilvi-isännöidyt ympäristöt.
+Olet yhdistänyt Azure-tilauksen onnistuneesti. Nyt voit ottaa käyttöön Dynamics 365 Financen pilvipalvelussa isännöidyt ympäristöt.
 
 
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501367"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594160"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Elokuun 2021 uudet ominaisuudet – Project Operations resurssien/ei-varastoitavien skenaarioissa
 
@@ -54,7 +54,7 @@ Jos kartan käynnistämisessä on ongelma, noudata kohdan [Puutuvat sarakkeet -o
 | Aika ja kulut | 2336884 | **Kopioi viikko** -aikamerkintäpainikkeen on toimittava laajemmin kuin vain nykyiselle käyttäjälle. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Financen projektinhallinta ja kirjanpito
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektinhallinta ja kirjanpito Dynamics 365 Financessa
 
 | Ominaisuusalue | Viitenumero | Laatupäivitys |
 | --- | --- | --- |

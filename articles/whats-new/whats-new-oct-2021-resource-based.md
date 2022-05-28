@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753288"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598484"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Uudet ominaisuudet, lokakuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 
@@ -49,7 +49,7 @@ Jos kartan käynnistämisen yhteydessä tulee ongelma, seuraa ohjeita [Puuttuvie
 | Laskutus ja hinnoittelu | 2338357 | Materiaalin käyttölokin valuutan oletusarvon on tultava projektin valuutasta, kun projekti valitaan. |
 | Aika ja kulut | 2414777 | Hyväksynnän peruuttamisen on oltava mahdollista, jos kuluun tai aikamerkintään on liitetty enemmän kuin yksi projektihyväksyntä. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Financen projektinhallinta ja kirjanpito
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektinhallinta ja kirjanpito Dynamics 365 Financessa
 
 | Ominaisuusalue | Viitenumero | Laatupäivitys |
 | --- | --- | --- |

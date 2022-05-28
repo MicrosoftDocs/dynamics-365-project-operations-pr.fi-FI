@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928657"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594804"
 ---
 # <a name="provision-a-new-environment"></a>Uuden ympäristön valmisteleminen
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Tässä aiheessa on tietoja uuden Dynamics 365 Project Operations -ympäristön valmistelusta resurssi/ei-varastoitava -pohjaisille skenaarioille.
 
@@ -34,7 +34,7 @@ Käytä seuraavia vaiheita, kun haluat ottaa käyttöön Project Operationsin au
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations -ympäristön tarjoaminen
 
-1. Avaa uusi Dynamics 365 Finance [-esittely-ympäristön](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) tai [eristys-/tuotantoympäristön](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) käyttöönotto. 
+1. Avaa uusi Dynamics 365 Finance [-esittely-ympäristön](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) tai [sandbox-/tuotantoympäristön](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) käyttöönotto. 
 2. Suorita ohjatun **Ympäristön valmistelu** -toiminnon vaiheet. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Sinun täytyy ehkä ottaa käyttöön laatupäivityksiä Finance-ympäristössä
 
     ![Ota ratkaisut käyttöön.](./media/13ApplySolutions.png)
 
-5. Valitse molemmat ratkaisut, **Dynamics 365 Finance and Operations Kaksoiskirjoitusentiteetin yhdistämismääritys** ja **Dynamics 365 Project Operations Kaksoiskirjoitusentiteettien yhdistämismääritykset** ja valitse sitten **Käytä**.
+5. Valitse molemmat ratkaisut, **Dynamics 365:n talous- ja toimintosovellusten kaksoiskirjoituksen entiteettimääritykset** ja **Dynamics 365 Project Operationsin kaksoiskirjoituksen entiteettimääritykset**, ja valitse **Käytä**.
 
     ![Ratkaisujen vahvistaminen.](./media/14ConfirmSolutions.png)
 

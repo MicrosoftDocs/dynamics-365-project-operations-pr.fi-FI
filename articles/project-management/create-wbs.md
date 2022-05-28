@@ -4,14 +4,14 @@ description: Tässä aiheeessa selostetaan, miten luodaan työrakenne (WBS) sis�
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928611"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597794"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Työrakenteen (WBS) luominen
 
@@ -124,7 +124,7 @@ Ota huomioon seuraavat rajoitukset, jos käytät Project Operationsin työrakenn
 |----------------------------------------------------|----------------------|
 | Projektin tehtävien enimmäismäärä                  | 500                  |
 | Projektin keston enimmäismäärä               | 3650 päivää (10 vuotta) |
-| Projektin resurssien enimmäismäärä              | 150                  |
+| Projektin resurssien enimmäismäärä              | 300                  |
 | Projektin linkkien enimmäismäärä (vain seuraaja) | 600                  |
 | Projektin mukautettujen linkkien enimmäismäärä          | 10                   |
 | Tarkistusluettelon kohteiden enimmäismäärä tehtävää kohden                   | 20                   |

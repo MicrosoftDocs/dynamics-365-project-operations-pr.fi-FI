@@ -2,17 +2,17 @@
 title: Tehtäväruudukossa työskentelyn vianmääritys
 description: Tässä aihe sisältää vianmääritystietoja, joita tarvitaan tehtäväruudukossa.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547195"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596414"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Tehtäväruudukossa työskentelyn vianmääritys 
 
@@ -70,6 +70,9 @@ Project Operations edellyttää, että projektiparametri viittaa PEX-päätepist
       | Project Operations                   | laji=2             |
 
 4. Poista kenttä **Projektiparametrit**-sivulta.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Kiertotapa 3: Kirjaudu sisään osoitteessa project.microsoft.com
+Avaa Microsoft Edge -selaimessa uusi välilehti, siirry osoitteeseen project.microsoft.com ja kirjaudu sisään käyttämällä käyttäjäroolia, jolla käytät Project Operationsia.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Ongelma: Projekti ei lataudu ja käyttöliittymä juuttuu hyrräkuvakkeeseen
 
