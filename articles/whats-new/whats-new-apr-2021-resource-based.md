@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008132"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589100"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>uudet ominaisuudet huhtikuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 
@@ -42,13 +42,13 @@ Seuraavassa luettelossa on esitetty kaksoiskirjoituskarttoja, joita on muokattu 
 | **Entiteetin yhdistämismääritys** | **Päivitetty versio** | **Kommentit** |
 | --- | --- | --- |
 | Project Operations -integroinnin todelliset arvot (msdyn\_actuals) | 1.0.0.14 | Kartta on muokattu synkronoimaan materiaaliprojektien toteutuneet kulut. |
-| Project Operations -integrointikohde kuluarvioita varten (msdyn\_estimateslines) | 1.0.0.2 | Lisätty projektisopimusrivin synkronointi Finance and Operations -sovelluksiin tehtäväpohjaisen laskutuksen tuen osalta. |
-| Project Operations -integrointikohde tuntiarvioita varten (msdyn\_resourceassignments) | 1.0.0.5 | Lisätty projektisopimusrivin synkronointi Finance and Operations -sovelluksiin tehtäväpohjaisen laskutuksen tuen osalta. |
-| Project Operationsin materiaaliarvioiden integrointitaulukko (msdyn\_estimatelines) | 1.0.0.0 | Uusi taulukkokartta, joka synkronoi materiaaliarvioita Dataversestä Finance and Operations -sovelluksiin. |
-| Project Operationsin integrointiprojektin toimittajalaskun vientientiteetti (msdyn\_projectvendorinvoices) | 1.0.0.0 | Uusi taulukkokartta, joka synkronoi toimittajalaskujen ylätunnisteita Finance and Operations -sovelluksista Dataverseen. |
-| Project Operationsin integrointiprojektin toimittajalaskurivin vientientiteetti (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Uusi taulukkokartta, joka synkronoi toimittajalaskujen rivejä Finance and Operations -sovelluksista Dataverseen. |
+| Project Operations -integrointikohde kuluarvioita varten (msdyn\_estimateslines) | 1.0.0.2 | Lisätty projektisopimusrivin synkronointi talous- ja toimintosovelluksiin tehtäväpohjaisen laskutuksen tuen osalta. |
+| Project Operations -integrointikohde tuntiarvioita varten (msdyn\_resourceassignments) | 1.0.0.5 | Lisätty projektisopimusrivin synkronointi talous- ja toimintosovelluksiin tehtäväpohjaisen laskutuksen tuen osalta. |
+| Project Operationsin materiaaliarvioiden integrointitaulukko (msdyn\_estimatelines) | 1.0.0.0 | Uusi taulukkokartta, joka synkronoi materiaaliarviot Dataversesta talous- ja toimintosovelluksiin. |
+| Project Operationsin integrointiprojektin toimittajalaskun vientientiteetti (msdyn\_projectvendorinvoices) | 1.0.0.0 | Uusi taulukkokartta, joka synkronoi toimittajan laskun otsikot talous- ja toimintosovelluksista Dataverseen. |
+| Project Operationsin integrointiprojektin toimittajalaskurivin vientientiteetti (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Uusi taulukkokartta, joka synkronoi toimittajan laskun rivit talous- ja toimintosovelluksista Dataverseen. |
 
-Suorita aina ympäristön uusin versio ja ota käyttöön kaikki taulukkokartat, kun päivität Project Operations Dataverse -ratkaisua ja Finance and Operations -ratkaisuversiota. Tietyt ominaisuudet ja toiminnot eivät ehkä toimi oikein, jos kartan uusinta versiota ei ole aktivoitu. Kartan aktiivinen versio näkyy **Kaksoiskirjoitus**-sivun **Versio**-sarakkeessa. Voit aktivoida kartan uuden version valitsemalla **taulukkokartan versiot**, valitsemalla uusimman ja tallentamalla valitun version. Jos olet mukauttanut valmiin taulukkokartan, kohdista muutokset uudelleen. Lue lisätietoja kohdasta [Ratkaisun elinkaaren hallinta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Suorita aina ympäristön kartan uusin versio ja ota käyttöön kaikki taulukkokartat, kun päivität Project Operations Dataverse -ratkaisua ja talous- ja toimintosovellusratkaisun versiota. Tietyt ominaisuudet ja toiminnot eivät ehkä toimi oikein, jos kartan uusinta versiota ei ole aktivoitu. Kartan aktiivinen versio näkyy **Kaksoiskirjoitus**-sivun **Versio**-sarakkeessa. Voit aktivoida kartan uuden version valitsemalla **taulukkokartan versiot**, valitsemalla uusimman ja tallentamalla valitun version. Jos olet mukauttanut valmiin taulukkokartan, kohdista muutokset uudelleen. Lue lisätietoja kohdasta [Ratkaisun elinkaaren hallinta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Jos kartan käynnistykssä ilmenee ongelmia, noudata kaksoiskirjoituksen vianmääritysoppaan ohjeita kohdasta [Karttojen puuttuvat taulukkosarakkeet -ongelma](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps).
 
@@ -79,7 +79,7 @@ Jos kartan käynnistykssä ilmenee ongelmia, noudata kaksoiskirjoituksen vianmä
 | Aika ja kulu | 2204377 | Kopioidut työaikaraportit näkyvät automaattisesti, kun valitaan **Kopioi viikko** aikaa syötettäessä. |
 | Aika ja kulu | 2209059 | **Tila**-kenttää voi muokata Dynamics 365 Field Servicen aikakirjauksia varten. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Financen projektinhallinta ja kirjanpito
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projektinhallinta ja kirjanpito Dynamics 365 Financessa
 
 | **Ominaisuusalue** | **Viitenumero** | **Laatupäivitys** |
 | --- | --- | --- |

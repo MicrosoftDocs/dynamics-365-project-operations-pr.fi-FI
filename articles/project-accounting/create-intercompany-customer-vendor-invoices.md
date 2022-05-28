@@ -4,14 +4,14 @@ description: Tässä aiheessa on tietoja yritysten välisten asiakkaan ja toimit
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989244"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591492"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Yritysten välisten asiakkaan ja toimittajan laskujen luominen
 
@@ -27,7 +27,7 @@ Toimi näin luodaksesi yritysten välisen asiakaslaskun projektin tapahtumille. 
 
 Seuraavat vaiheet on suoritettava lainauksen tekevässä yrityksessä. 
 
-1. Siirry Dynamics 365 Financessa kohtaan **Projektinhallinta ja kirjanpito** > **Proktin laskut** > **Yritysten väliset asiakaslaskut**. Valitse **Yritysten väliset asiakaslaskut** -luettelosivun toimintoruudussa **Uusi.**
+1. Siirry Dynamics 365 Financessa kohtaan **Projektinhallinta ja kirjanpito** > **Projektilaskut** > **Konsernin sisäiset asiakaslaskut**. Valitse **Yritysten väliset asiakaslaskut** -luettelosivun toimintoruudussa **Uusi.**
 2. Valitse **Luo yritysten välinen lasku** -sivun **Yritys**-kentässä lainaa ottava yritys.
 3. Valinnainen: Syötä tietty projektisopimus ja projektinumero.
 4. Rajaa hakua valitsemalla päivämääräväli. Syötä päivämäärät kenttiin **Alkamispäivä** ja **Päättymispäivä**. Vain kyseisellä päivämäärävälillä kirjatut yritysten väliset tapahtumat näkyvät hakutuloksissa.

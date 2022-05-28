@@ -4,14 +4,14 @@ description: Tässä aiheessa kerrotaan, miten Project Operations Dataverse-sove
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986442"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591216"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Project Operations Dataverse -sovelluksen käyttöönotto manuaalisesti kaksoiskirjoituksen tuella
 
@@ -37,7 +37,7 @@ Voit suorittaa tämän menettelyn kirjautumalla sisään järjestelmänvalvojana
 3. Valitse ympäristötyyppi. Jos rekisteröidyit kokeilutarjousta varten, valitse **Kokeilu (tilauspohjainen)**.
 4. Vahvista käyttöönottoalue.
 5. Ota käyttöön **Luo tietokanta tätä ympäristöä varten** -vaihtoehto. 
-6. Vahvista kieli ja vahvista sitten, että valuutta vastaa Finance and Operations -sovellusten valuuttaa.
+6. Vahvista kieli ja vahvista sitten, että valuutta vastaa talous- ja toimintosovellusten valuuttaa.
 7. Ota **Dynamics 365 -sovellukset** -vaihtoehto käyttöön ja vahvista, että **Ota nämä sovellukset käyttöön automaattisesti** -kentän asetus on **Ei mitään**.
 8. Lisää käyttöoikeusryhmä, jos käyttöoikeusryhmä on pakollinen.
 9. Valitse **Tallenna** luodaksesi ympäristön.
@@ -62,4 +62,4 @@ Voit suorittaa tämän menettelyn vain, jos olet suorittanut aiemmat menettelyt 
 
 ## <a name="link-your-environments"></a><a name="link"></a>Linkitä ympäristösi
 
-Kun Dataverse-ympäristö on otettu käyttöön, voit määrittää linkin Finance and Operations -sovelluksissasi. Seuraa ohjeita kohdassa [Käytä kaksoiskirjoituksen opastettua toimintoja ympäristöihisi linkittämistä varten](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Kun Dataverse-ympäristö on otettu käyttöön, voit määrittää linkin talous- ja toimintosovelluksiin. Seuraa ohjeita kohdassa [Käytä kaksoiskirjoituksen opastettua toimintoja ympäristöihisi linkittämistä varten](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

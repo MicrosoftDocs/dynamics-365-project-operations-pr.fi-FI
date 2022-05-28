@@ -4,14 +4,14 @@ description: Tässä aiheessa on tietoja projektipohjaisten sopimusten tarkastel
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64e81593065d97272af6261e17175c76bd8dca7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001832"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590480"
 ---
 # <a name="manage-project-contracts"></a>Projektisopimusten hallinta
 
@@ -31,6 +31,9 @@ Luettelo kaikista projektisopimuksista, jotka näkyvät **Sopimukset**-luettelos
 2. Valitse muita suodatettuja näkyviä valitsemalla **Näkymävalitsin** (näkymän nimen vieressä oleva avattavan luettelon nuoli). Voit luoda omia näkymiä mukautetuilla suodatusehdoilla.
 
 Sopimuksia voidaan luoda tai poistaa tällä luettelosivulla tai tietosivuilla.
+
+> [!NOTE]
+> Palvelusopimuksia, joissa on projekteja, tehtäviä, arvioita, kirjauksia ja/tai toteutuneita arvoja, ei voi poistaa. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

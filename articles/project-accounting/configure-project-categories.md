@@ -4,14 +4,14 @@ description: Tässä aiheessa on tietoja projektiluokkien määrityksestä.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997107"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591538"
 ---
 # <a name="configure-project-categories"></a>Projektiluokkien määrittäminen
 
@@ -27,7 +27,7 @@ Tapahtumaluokat ovat projektitapahtumien perusryhmittely. Kyseisessä ryhmittely
 
 ## <a name="transaction-categories"></a>Tapahtumaluokat
 
-Tapahtumaluokat edustavat projektitapahtumien perusryhmittelyä, eivätkä ne ole yritys- tai tapahtumakohtaisia. Esimerkiksi Contoso Robotics käyttää Design-, Matkustaminen-, Asennus- ja Palvelutapahtuma-luokkia projektitapahtumien ryhmittelemiseen.
+Tapahtumaluokat edustavat projektitapahtumien perusryhmittelyä, eivätkä ne ole yritys- tai tapahtumakohtaisia. Contoso Robotics käyttää esimerkiksi Suunnittelu-, Matka-, Asennus- ja Palvelu -tapahtumaluokkia projektitapahtumien ryhmittelyssä.
 
 Tapahtumaluokat määritetään Project Operations -moduulissa. 
 1. Avaa lomake siirtymällä kohtaan **Asetukset** \>**Tapahtumaluokat**. 
@@ -35,7 +35,7 @@ Tapahtumaluokat määritetään Project Operations -moduulissa.
 
 ## <a name="shared-categories"></a>Jaetut luokat
 
-Dynamics 365 luokittelee kulut eri sovelluksissa, kuten Dynamics 365 Financessa, Dynamics 365 Supply Chainissa ja Dynamics 365 Project Operationsissa, käyttämällä Jaetut luokat -käsitettä. Kullekin luodulle tapahtumaluokalle Project Operations luo automaattisesti neljä toisiinsa liittyvää jaettua luokkaa: Tunnit, Kulut, Maksut ja Nimike. Voit tarkastella ja muokata jaettuja luokkia siirtymällä kohtaan **Projektinhallinta ja kirjanpito** \> **Asetukset** \> **Luokat** \> **Jaetut luokat**.
+Dynamics 365 luokittelee kulut Jaetut luokat -käsitteen avulla eri sovelluksiin, kuten Dynamics 365 Financeen, Dynamics 365 Supply Chain Managementiin ja Dynamics 365 Project Operationsiin. Kullekin luodulle tapahtumaluokalle Project Operations luo automaattisesti neljä toisiinsa liittyvää jaettua luokkaa: Tunnit, Kulut, Maksut ja Nimike. Voit tarkastella ja muokata jaettuja luokkia siirtymällä kohtaan **Projektinhallinta ja kirjanpito** \> **Asetukset** \> **Luokat** \> **Jaetut luokat**.
 
 ## <a name="project-categories"></a>Projektiluokat
 

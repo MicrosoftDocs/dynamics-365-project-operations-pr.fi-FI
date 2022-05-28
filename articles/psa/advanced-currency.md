@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005117"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590158"
 ---
 # <a name="multiple-currency-scenarios"></a>Monivaluuttaskenaariot
 
@@ -70,8 +71,8 @@ Tässä osassa annetaan esimerkki projektista, jonka Contoso UK toimittaa japani
 
 1. GBP ja Japanin jeni (JPY) määritetään kohdassa **Asetukset** \> **Yrityksen hallinta** \> **Valuutat**. 
 2. Asiakastili nimeltään **Fabrikam – Japani** määritetään ja tilin valuutaksi valitaan JPY.
-3. **Contoso UK** -niminen organisaatioyksikkö määritetään ja GBP valitaan sen valuutaksi.
-4. Luodaan projektisopimus, jossa **Contoso UK** määritetään sopimusyksiköksi ja **Fabrikam – Japan** asiakkaaksi.
+3. **Contoso UK** - niminen organisaatioyksikkö määritetään, ja GBP valitaan sen valuutaksi.
+4. Luodaan projektisopimus, jossa **Contoso UK** määritetään sopimusyksiköksi **Fabrikam – Japani** asiakkaaksi.
 5. Projektin eri tapahtumaluokkien laskutusjärjestelyjen, kuten ajasta laskuttamisen ja kuluista laskuttamisen, perusteella luodaan projektisopimuksen rivejä.
 6. Luodaan projekti, jossa **Contoso UK** määritetään sopimusyksiköksi. Tämä projekti luodaan ja yhdistetään projektin sopimusriveihin.
 

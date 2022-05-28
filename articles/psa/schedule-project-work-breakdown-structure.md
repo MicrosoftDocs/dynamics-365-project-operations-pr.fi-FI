@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996792"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587352"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Ajoita projekti työrakenteen (Project Service) kanssa
 
@@ -63,7 +64,7 @@ Projektiaikataulu ilmaisee, mikä työ on suoritettava, mitkä resurssit suoritt
 ## <a name="task-types"></a>Tehtävätyypit  
 Seuraavia tehtävätyyppejä käytetään luotaessa omaa työrakennetta:  
 
-| | | 
+| Tehtävä | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Projektin pääsolmu** | Projektin ylätason yhteenvetotehtävä. Kaikki muut projektitehtävät luodaan sen alaisuuteen. Projektinimi on juuressa olevan tehtävän nimi. Pääsolmun työmäärä, päivämäärä ja kesto perustuvat sen alapuolella hierarkiassa oleviin arvoihin. Et voi muokata pääsolmun ominaisuuksia etkä poistaa pääsolmua. | 
 | **Yhteenvetotehtävät tai säilössä olevat tehtävät** | Yhteenvetotehtävä on tehtävä, jolla on alitehtäviä. Yhteenvetotehtävällä ei ole omaa työmäärää eikä kustannuksia. Sen työmäärä ja kustannukset ovat kooste alitehtävistä. Voit muuttaa yhteenvetotehtävän nimeä, mutta et voi muuttaa työmäärää, päivämääriä tai kestoa, koska ne lasketaan automaattisesti. Yhteenvetotehtävän poistaminen poistaa tehtävän ja kaikki sen alitehtävät.|  
@@ -120,7 +121,7 @@ Seuraavia tehtävätyyppejä käytetään luotaessa omaa työrakennetta:
   
     -   Tehtävän, jolla on edeltäjiä, aloituspäivämäärän oletusarvo on sen edeltäjien myöhäisin lopetuspäivämäärä.  
   
-    -   Työmäärä = Henkilömäärä * kesto * projektikalenterin normaalin työpäivän tuntimäärä  
+    -   Työmäärä = Henkilömäärä *kesto* projektikalenterin normaalin työpäivän tuntimäärä  
   
 -   **Manuaalinen aikataulutus**.   Joissakin tapauksissa haluat ehkä poiketa näistä säännöistä. Näissä tapauksissa voit määrittää tehtävän tehtävätilan manuaalisesti ajoitettavaksi. Tämä estää aikataulutusmoduulia laskemasta muiden ajoitusmääritteiden arvoja. Tehtävien edeltäjien määrittäminen vaikuttaa aina riippuvaisen tehtävän alkamispäivämäärän.  
   

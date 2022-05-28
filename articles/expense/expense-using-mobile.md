@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818179"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588916"
 ---
 # <a name="mobile-expense-app"></a>Kulujen hallintasovellus
 
@@ -47,7 +47,7 @@ Voit käyttää myös seuraavia toimintoja:
 - Lähetä kuluraportti hyväksyntää ja korvausta varten.
 - Hyväksy tai hylkää kuluraportit, joiden hyväksyjäksi sinut on määritetty.
 
-## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Edellytykset käytettäessä Dynamics 365 Financea
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Financen käytön edellytykset
 
 Jos organisaatiossasi on otettu käyttöön Finance, järjestelmänvalvojan on julkaistava **Kulujen hallinta** -mobiilityötila. 
 

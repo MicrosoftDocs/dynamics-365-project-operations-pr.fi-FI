@@ -3,15 +3,15 @@ title: Alihankintasopimusten hallinta Project Operationsissa
 description: Tämä aihe tarjoaa yleiskatsauksen alihankintojen hallintaprosessista, joka on tyypillinen projektipohjaisille organisaatioille.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323592"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593010"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Alihankintasopimusten hallinta Project Operationsissa
 
@@ -46,7 +46,7 @@ Alihankintarivi voi perustua määrään tai töihin.
 
 Kun alihankintarivi on **määräpohjainen**, alihankintarivillä ostettavaa aika-, kustannus tai materiaalimäärää voi käyttää missä tahansa projektissa.
 
-Kun alihankintarivi on **työpohjainen**, alihankintarivi yhdistää työmäärään, jota projektisuunnitelmassa edustaa solmu. Alihankintarivin arvo on summa kaikista niistä komponenteista, jotka tarvitaan työn suorittamiseen. Nämä mallinnetaan alihankintarivin tiedoiksi ja ne voivat olla aika-, kustannus- tai materiaalikokoelmia. Työpohjaisessa alihankintarivissä alihankkijarivi myös kuuluu yhteen projektiin.
+Kun alihankintarivi on **työpohjainen**, alihankintarivi yhdistää työmäärään, jota projektisuunnitelmassa edustaa solmu. Alihankintarivin arvo on summa kaikista niistä komponenteista, jotka tarvitaan työn suorittamiseen. Nämä mallinnetaan alihankintarivin tiedoiksi ja ne voivat olla aika-, kustannus- tai materiaalikokoelmia. Työpohjaisessa alihankintarivissä alihankkijarivi myös kuuluu yhteen projektiin. Project Operations ei tue tämäntyyppisiä alihankintasopimuksia tällä hetkellä.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

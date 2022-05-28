@@ -3,16 +3,15 @@ title: Projektipohjaisten tarjousrivien yleiskatsaus
 description: Tässä aiheessa on tietoja projektipohjaisten tarjousrivien käyttämisestä projektityöhön.
 author: rumant
 ms.date: 03/30/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 2f2d38c7fb3bc3ec26cf64525ef8275adecafd7fc48e97d6daef595d341c045d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0a9661d9b91ffeece4c66b129846632b30ebebc8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001562"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591078"
 ---
 # <a name="project-based-quote-lines-overview"></a>Projektipohjaisten tarjousrivien yleiskatsaus 
 
@@ -33,9 +32,9 @@ Seuraavassa taulukossa on tietoja projektipohjaisen tarjousrivin **Yleiset**-vä
 | **Kenttä** | **Kuvaus** | **Loppupään vaikutus** |
 | --- | --- | --- |
 | Nimi | Sen tarjousrivin nimi, joka auttaa tunnistamaan arvioitavan tarjouksen erillisen osan. | Kopioidaan tästä tarjousrivistä luotuun projektisopimusriviin, kun tarjous on voitettu. |
-| Laskutustapa | Kun mahdollisuudesta luodaan tarjous, tämä arvo kopioidaan mahdollisuusrivin vastaavasta kentästä. Tässä kentässä on kaksi pääasiallista palvelusopimusmallia, joita Dynamics 365 Project Operationsissa tuetaan:</br>– Kiinteä hinta</br>– Aika ja materiaali.| Tämä arvo kopioidaan projektisopimusriville, joka luodaan tältä tarjousriviltä, kun tarjous on voitettu. |
+| Laskutustapa | Kun mahdollisuudesta luodaan tarjous, tämä arvo kopioidaan mahdollisuusrivin vastaavasta kentästä. Tässä kentässä on kaksi pääasiallista palvelusopimusmallia, joita Dynamics 365 Project Operationsissa tuetaan:</br>- Kiinteä hinta</br>- Aika ja materiaali.| Tämä arvo kopioidaan projektisopimusriville, joka luodaan tältä tarjousriviltä, kun tarjous on voitettu. |
 | Project | Tämän valinnaisen kentän avulla voit määrittää projektin, jota käytetään tämän tehtävän töiden toimittamiseen. Kun projekti yhdistetään tarjousriviin, se auttaa määrittämään laskutettavia tehtäviä ja tuomaan projektipohjaisen arvion tarjousriviin tarjousrivin tietoina. Kun projektia ei ole yhdistetty projektipohjaiseen tarjousriviin, arvio tulisi luoda manuaalisesti luomalla kukin tarjousrivin tieto. | Tämä arvo kopioidaan projektisopimusriville, joka luodaan tältä tarjousriviltä, kun tarjous on voitettu.|
-| Sisällytettävät tehtävät | Ilmaisee, käytetäänkö tätä tarjousriviä valitussa projektissa kaikkiin projektitehtäviin vai vain joihinkin niistä. Tällä kentällä on seuraavat mahdolliset arvot:</br>– Kaikki projektitehtävät</br>– Vain valitut projektitehtävät</br>Tässä kentässä oleva tyhjä arvo vastaa **Kaikki projektitehtävät** -vaihtoehtoa. | Kun projektisivulla valitaan **Vain valitut projektitehtävät**, **Tehtävän laskutuksen asetukset** -välilehdessä voidaan valita tiettyjä tehtäviä, jotka liitetään tähän tarjousriviin. Tämä arvo kopioidaan projektisopimusriville, joka luodaan tältä tarjousriviltä, kun tarjous on voitettu. |
+| Sisällytettävät tehtävät | Ilmaisee, käytetäänkö tätä tarjousriviä valitussa projektissa kaikkiin projektitehtäviin vai vain joihinkin niistä. Tällä kentällä on seuraavat mahdolliset arvot:</br>- Kaikki projektitehtävät</br>- Vain valitut projektitehtävät</br>Tässä kentässä oleva tyhjä arvo vastaa **Kaikki projektitehtävät** -vaihtoehtoa. | Kun projektisivulla valitaan **Vain valitut projektitehtävät**, **Tehtävän laskutuksen asetukset** -välilehdessä voidaan valita tiettyjä tehtäviä, jotka liitetään tähän tarjousriviin. Tämä arvo kopioidaan projektisopimusriville, joka luodaan tältä tarjousriviltä, kun tarjous on voitettu. |
 | Sisällytä aika | **Kyllä**/**Ei** -arvo ilmaisee, sisällytetäänkö valitun projektin aikatapahtumat tai työvoimakustannukset arvioon tällä tarjousrivillä. **Ei**-arvo osoittaa, että aikatapahtumia tai työvoimakustannuksia ei sisällytetä tämän tarjousrivin arvioon. **Kyllä**-arvo osoittaa, että aikatapahtumat ja työvoimakustannukset sisällytetään tämän tarjousrivin arvioon. | Tämä arvo kopioidaan projektisopimusriville, joka luodaan tältä tarjousriviltä, kun tarjous on voitettu. |
 | Sisällytä kulu | **Kyllä**/**Ei** -arvo ilmaisee, sisällytetäänkö valitun projektin kulukustannukset arvioon tällä tarjousrivillä. **Ei**-arvo osoittaa, että kulujen kustannuksia ei sisällytetä tämän tarjousrivin arvioon. **Kyllä**-arvo osoittaa, että kulujen kustannukset sisällytetään tämän tarjousrivin arvioon. | Tämä arvo kopioidaan projektisopimusriville, joka luodaan tältä tarjousriviltä, kun tarjous on voitettu. |
 | Sisällytä materiaali | **Kyllä**/**Ei** -arvo ilmaisee, sisällytetäänkö valitun projektin materiaalikustannukset arvioon tällä tarjousrivillä. **Ei**-arvo ilmaisee, että materiaalikustannuksia ei sisällytetä arvioon tällä tarjousrivillä. **Kyllä**-arvo ilmaisee, että materiaalikustannukset sisällytetään arvioon tällä tarjousrivillä. | Tämä arvo kopioidaan projektisopimusriville, joka luodaan tältä tarjousriviltä, kun tarjous on voitettu. |

@@ -4,14 +4,14 @@ description: Tässä aiheessa on tietoja ja esimerkkejä yritysten välisten las
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994047"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591584"
 ---
 # <a name="configure-intercompany-invoicing"></a>Yritysten välisen laskutuksen määrittäminen
 
@@ -21,11 +21,11 @@ Suorita seuraavat vaiheet, kun haluat määrittää yritysten välisen projektie
 
 ## <a name="example-configure-intercompany-invoicing"></a>Esimerkki: Yritysten välisen laskutuksen määrittäminen
 
-Seuraavassa esimerkissä Contoso Robotics USA (USPM) on lainaava yritys ja Contoso Robotics UK (GBPM) on lainauksen tekevä yritys. 
+Seuraavassa esimerkissä Contoso Robotics USA (USPM) on lainaa ottava yritys, ja Contoso Robotics UK (GBPM) on lainaa antava yritys. 
 
 1. **Määritä yritysten välinen kirjanpito yritysten välillä**. Kukin lainaa ottava ja antava yritys on määritettävä Pääkirjanpidon [Yritysten välinen kirjanpito](/dynamics365/finance/general-ledger/intercompany-accounting-setup)-sivulla.
     
-    1. Siirry Dynamics 365 Financessa kohtaan **Pääkirjanpito** > **Kirjausasetukset** > **Yritysten välinen kirjanpito**. Luo tietue, jossa on seuraavat tiedot:
+    1. Siirry Dynamics 365 Financessa kohteeseen **Pääkirja** > **Kirjausasetukset** > **Konsernin sisäinen laskenta**. Luo tietue, jossa on seuraavat tiedot:
 
         - **Alkuperäyritys** = **GBPM**
         - **KOhdeyritys** = **USPM**
@@ -35,13 +35,13 @@ Seuraavassa esimerkissä Contoso Robotics USA (USPM) on lainaava yritys ja Conto
      1. Valitse Rahoituksessa yritys **GBPM**.
      2. Valitse **Myyntireskontra** > **Asiakas** > **Kaikki asiakkaat**. Luo yritykselle uusi tietue, **USPM**.
      3. Laajenna **Nimi**, suodata tietueet **Tyypin** mukaan ja valitse **Yritykset**. 
-     4. Etsi ja valitse asiakastietue kohteelle **Contoso Robotics USA (USPM)**.
+     4. Etsi ja valitse asiakastietue yritykselle **Contoso Robotics USA (USPM)**.
      5. Valitse **Käytä vastaavuutta**. 
      6. Valitse asiakasryhmä **50 – Konsernin asiakkaat** ja tallenna tietue.
      7. Valitse yritys **USPM**.
      8. Siirry kohtaan **Ostoreskontra** > **Toimittajat** > **Kaikki toimittajat**. Luo yritykselle uusi tietue, **GBPM**.
      9. Laajenna **Nimi**, suodata tietueet **Tyypin** mukaan ja valitse **Yritykset**. 
-     10. Etsi ja valitse asiakastietue kohteelle **Contoso Robotics UK (GBPM)**.
+     10. Etsi ja valitse asiakastietue yritykselle **Contoso Robotics UK (USPM)**.
      11. Valitse **Käytä vastaavuutta**, valitse toimittajaryhmä ja tallenna sitten tietue.
      12. Valitse toimittajatietueessa **Yleiset** > **Määritä** > **Yritysten välinen**.
      13. Määritä **Kauppasuhde**-välilehdessä **Aktiivisen** arvoksi **Kyllä**.
@@ -80,23 +80,23 @@ Seuraavassa esimerkissä Contoso Robotics USA (USPM) on lainaava yritys ja Conto
 
 5. **Määritä työn siirtohinnoittelu**. Yritysten välinen siirtohinnoittelu määritetään Project Operationsissa Dataversessa. Määritä [työn siirtohinnoittelu](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) ja [työn laskutushinnoittelu](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) yritysten välistä laskutusta varten. Siirtohinnoittelua ei tueta yritysten välisille kulutapahtumille. Organisaatioiden välinen yksikkömyyntihinta asetetaan aina samaksi arvoksi kuin resursoivan yksikön yksikkökustannushinta.
 
-      Sovelluskehittäjäresurssin kustannus Contoso Robotics UK:lla on 88 GBP tunnissa. Contoso Robotics UK laskuttaa Contoso Robotics USA:ta 120 USD kustakin tunnista, jonka tämä resurssi työskenteli US projekteissa. Contoso Robotics USA laskuttaa asiakasta Adventure Works 200 USD Contoso Robotics UK:n kehittäjäresurssin työstä.
+      Kehitysresurssin kustannukset Contoso Robotics UK:lle ovat 88 GBP tunnissa. Contoso Robotics UK laskuttaa Contoso Robotics USA:lta 120 USD:a jokaista tuntia kohden, jotka tämä resurssi työskenteli Yhdysvaltain projekteissa. Contoso Robotics USA laskuttaa asiakkaalta Adventure Works 200 USD:a Contoso Robotics UK:n kehittäjäresurssin tekemästä työstä.
 
-      1. Siirry Project Operationsissa Dataversessa kohtaan **Myynti** > **Hinnastot**. Luo uusi kustannushinnasto, nimeltään **Contoso Robotics UK -kustannushinnat.** 
+      1. Siirry Project Operationsissa Dataversessa kohtaan **Myynti** > **Hinnastot**. Luo uusi kustannushinnasto, jonka nimi on **Contoso Robotics UK kustannushinnat.** 
       2. Luo kustannushinnastossa tietue, jossa on seuraavat tiedot:
          - **Rooli** = **Kehittäjä**
          - **Kustannus** = **88 GBP**
-      3. Siirry Kohtaan **Asetukset** > **organisaatioyksiköt** ja liitä tämä kustannushinnasto **Contoso Robotics UK:n** organisaatioyksikköön.
-      4. Siirry kohtaan **Myynti** > **Hinnastot**. Luo kustannushinnasto, nimeltään **Contoso Robotics USA -kustannushinnat**. 
+      3. Siirry kohtaan **Asetukset** > **Organisaatioyksiköt** ja liitä tämä kustannushinnasto **Contoso Robotics UK** -organisaatioyksikköön.
+      4. Siirry kohtaan **Myynti** > **Hinnastot**. Luo uusi kustannushinnasto, jonka nimi on **Contoso Robotics USA kustannushinnat**. 
       5. Luo kustannushinnastossa tietue, jossa on seuraavat tiedot:
           - **Rooli** = **Kehittäjä**
-          - **Resursseja tarjoava yritys** = **Contoso Robotics UK**
+          - **Resurssointiyritys** = **Contoso Robotics UK**
           - **Kustannus** = **120 USD**
-      6. Siirry Kohtaan **Asetukset** > **organisaatioyksiköt** ja liitä **Contoso Robotics USA:n kustannushinnat** -kustannushinnasto **Contoso Robotics USA:n** organisaatioyksikköön.
+      6. Siirry kohtaan **Asetukset** > **Organisaatioyksiköt** ja liitä **Contoso Robotics USA kustannushinnat** -kustannushinnasto **Contoso Robotics USA** -organisaatioyksikköön.
       7. Siirry kohtaan **Myynti** > **Hinnastot**. Luo myyntihinnasto, jonka nimi on **Adventure Works laskutushinnasto**. 
       8. Luo myyntihinnastossa tietue, jossa on seuraavat tiedot:
           - **Rooli** = **Kehittäjä**
-          - **Resursseja tarjoava yritys** = **Contoso Robotics UK**
+          - **Resurssointiyritys** = **Contoso Robotics UK**
           - **Laskutushinta** = **200 USD**
       9. Siirry kohtaan **Myynti** > **Projektisopimukset** ja liitä **Adventure Works laskutushinnasto** -hinnasto Adventure Works -projektin hinnastoon projektisopimuksessa.
 

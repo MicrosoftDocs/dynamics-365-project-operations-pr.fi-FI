@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986532"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586892"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operationsin määritysten ja määritystietojen integrointi
 
@@ -22,34 +22,34 @@ Tässä aiheessa on tietoja Project Operationsin asetuksen ja määritysentiteet
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projektisopimukset, projektisopimusrivit ja projektit
 
-Projektisopimukset, sopimusrivit ja projektit luodaan Dataversessä ja synkronoidaan Finance and Operations -sovelluksiin lisälaskentaa varten. Entiteettien tietueita voi luoda ja poistaa vain Dataversessä. Finance and Operations -sovellusten näihin tietueisiin voidaan kuitenkin lisätä kirjanpitomääritteitä, kuten arvonlisäveroryhmän oletusarvoja ja taloushallinnon dimensioita.
+Projektisopimukset, sopimusrivit ja projektit luodaan Dataversessa ja synkronoidaan talous- ja toimintosovelluksiin lisälaskentaa varten. Entiteettien tietueita voi luoda ja poistaa vain Dataversessä. Näihin tietueisiin voidaan kuitenkin lisätä kirjanpitomääritteitä, kuten myyntiveroryhmän oletusarvoja ja taloushallinnon dimensioita, talous- ja toimintosovelluksissa.
 
   ![Projektisopimuksen integrointikäsitteet.](./media/1ProjectContract.jpg)
 
-Myyntiaktiviteettien liidejä, mahdollisuuksia ja tarjouksia seurataanDataversessä eikä niitä synkronoida Finance and Operations -sovelluksille, koska tähän aktiviteettiin ei liity kirjanpitoa.
+Myyntiaktiviteettien liidejä , mahdollisuuksia ja tarjouksia seurataan Dataversessa eikä niitä synkronoida talous- ja toimintosovelluksiin, koska tähän aktiviteettiin ei liity kirjanpitoa.
 
-Dataversen projektisopimustoiminto luo Finance and Operations -sovelluksiin projektisopimustietueen **Projektisopimusotsikoiden (salesorders)** taulukkokartan avulla. Kun projektisopimus tallennetaan Dataversessä, ohjelma luo myös projektisopimusasiakasentiteettitietueen. Tämä tietue synkronoidaan Finance and Operations -sovelluksiin käyttämällä **Projektin rahoituslähde (msdyn\_projectcontractssplitbillingrules)** -taulukkokarttaa. Tämä kartta synkronoi myös projektisopimuksen asiakaslisäykset, päivitykset ja poistot. Projektisopimusasiakkaille jaetut laskutusprosentit hallitaan vain Dataversessä, eikä niitä synkronoida Finance and Operations -sovelluksiin.
+Projektisopimustoiminto Dataversessa luo projektisopimustietueen talous- ja toimintosovelluksissa **Projektisopimusotsikot (salesorders)** -taulukkokartan avulla. Kun projektisopimus tallennetaan Dataversessä, ohjelma luo myös projektisopimusasiakasentiteettitietueen. Tämä tietue synkronoidaan talous- ja toimintosovelluksiin käyttämällä **Projektin rahoituslähde (msdyn\_projectcontractssplitbillingrules)** -taulukkokarttaa. Tämä kartta synkronoi myös projektisopimuksen asiakaslisäykset, päivitykset ja poistot. Projektisopimusasiakkaiden väliset jaetut laskutusprosentit hallitaan vain Dataversessa, eikä niitä synkronoida talous- ja toimintosovelluksiin.
 
-Kun projektisopimus on luotu Dataversessä, projektin kirjanpitäjä voi päivittää tämän projektisopimuksen kirjanpitomääritteet Finance and Operations -sovelluksissa valitsemalla **Projektinhallinta- ja kirjanpito** > **Projektisopimukset** > **Määritä** > **Näytä oletuskirjanpito**. Kirjanpitäjä voi tarkastella projektisopimusmääritteitä, kuten pyydettyä toimituspäivää ja palvelusopimuksen summaa, valitsemalla projektisopimuksen tunnuksen Finance and Operations -sovelluksissa, jotka avaavat liittyvän projektisopimustietueen Dataversestä.
+Kun projektisopimus on luotu Dataversessa, projektin kirjanpitäjä voi päivittää tämän projektisopimuksen kirjanpitomääritteet talous- ja toimintosovelluksissa kohdassa **Projektinhallinta ja kirjanpito** > **Projektisopimukset** > **Määritys** > **Näytä oletuskirjanpito**. Kirjanpitäjä voi tarkastella operatiivisia projektisopimusmääritteitä, kuten pyydettyä toimituspäivää ja sopimussummaa, valitsemalla projektisopimuksen tunnuksen talous- ja toimintosovelluksissa, jotka avaavat liittyvän projektisopimustietueen Dataversessa.
 
-Projektientiteetti synkronoidaan Finance and Operations -sovelluksiin käyttämällä **Projektit V2 (msdyn\_projektit)** -taulukkokarttaa. Projektin kirjanpitäjä voi:
+Projektientiteetti synkronoidaan talous- ja toimintosovelluksiin käyttämällä **Projektit V2 (msdyn\_projects)** -taulukkokarttaa. Projektin kirjanpitäjä voi:
 
-  - Tarkistaa Finance and Operations -sovellusten projektit valitsemalla **Projektinhallinta ja kirjanpito** > **Kaikki projektit**. 
-  - Päivitä projektin kirjanpitomääritteet Finance and Operations -sovelluksissa valitsemalla **Projektinhallinta ja kirjanpito** > **Kaikki projektit** > **Määritä** > **Näytä oletuskirjanpito**.  
-  - Voit tarkastella projektin toiminnallisia määritteitä, kuten arvioituja alkamis- ja päättymispäivämääritteitä, valitsemalla niiden Finance and Operations -sovellusten projektitunnuksen, jotka avaavat liittyvän projektitietueen Dataversessä.
+  - Voit tarkastella talous- ja toimintosovellusten projekteja kohdassa **Projektinhallinta ja kirjanpito** > **Kaikki projektit** . 
+  - Päivitä projektin kirjanpitomääritteet talous- ja toimintosovelluksissa valitsemalla **Projektinhallinta ja kirjanpito** > **Kaikki projektit** > **Määritys** >  **Näytä oletuskirjanpito**.  
+  - Voit tarkastella projektin toiminnallisia määritteitä, kuten arvioituja alkamis- ja päättymispäivämääriä, valitsemalla projektin tunnuksen talous- ja toimintosovelluksissa, jotka avaavat liittyvän projektitietueen Dataversessa.
 
 Projekti liittyy projektisopimukseen **Projektisopimusrivi**-kohteen kautta.
 
-Dataversen projektisopimusrivit luovat Finance and Operations -sovelluksiin projektisopimuslaskutussäännön **Projektisopimusrivien (salesorderdetails)** taulukkokartan avulla. Laskutustapa määrittää projektisopimuksen laskutussäännön tyypin Finance and Operations -sovelluksissa:
+Projektisopimusrivit Dataversessa luovat projektisopimuksen laskutussäännön talous- ja toimintosovelluksissa **Projektisopimusrivit (salesorderdetails)** -taulukkokartan avulla. Laskutustapa määrittää projektisopimuksen laskutussäännön tyypin talous- ja toimintosovelluksissa:
 
   - Projektisopimusriveillä, joilla on ajan ja materiaalin laskutustapa, luodaan ajan ja materiaalityypin laskutussääntö.
   - Kiinteähintaisten hintojen laskutustavan sopimusriveillä luodaan välitavoitteen laskutussääntö.
 
-Projektin sopimusrivejä voi tarkistaa Finance and Operations -sovellusten projektinpitäjän valitsemalla **Projektinhallinta- ja kirjanpito** > **Projektisopimukset** > **Määritä** > **Näytä oletuskirjanpito** ja tarkistamalla **Sopimusrivit**-välilehden tiedot. Kirjanpitäjä voi myös määrittää tämän välilehden kiinteähintaisen laskutustavan sopimusriveille taloushallinnon oletusdimensiot.
+Projektin sopimusrivejä voi tarkastella projektin kirjanpitäjä talous- ja toimintosovelluksissa kohdassa **Projektinhallinta ja kirjanpito** > **Projektisopimukset** > **Määritys** > **Näytä oletuskirjanpito** ja tarkistamalla tiedot **Sopimusrivit**-välilehdessä. Kirjanpitäjä voi myös määrittää taloushallinnon oletusdimensiot kiinteän hinnan laskutustavan sopimusriveille tässä välilehdessä.
 
 ## <a name="billing-milestones"></a>Laskutuksen välitavoitteet
 
-Kiinteähintaista laskutustapaa käyttävät projektisopimusrivit laskutetaan laskutuksen välitavoitteiden kautta. Laskutuksen välitavoitteet synkronoidaan Finance and Operations -sovellusten projektien tilitapahtumiin käyttämällä **Project Operationsin integrointisopimusrivin välitavoitteet (msdyn\_contractlinescheduleofvalues)** -taulukkokarttaa.
+Kiinteähintaista laskutustapaa käyttävät projektisopimusrivit laskutetaan laskutuksen välitavoitteiden kautta. Laskutuksen välitavoitteet synkronoidaan projektin ennakkotapahtumiin talous- ja toimintosovelluksissa käyttämällä **Project Operations -integraation sopimusrivin välitavoitteet (msdyn\_contractlinescheduleofvalues)** -taulukkokarttaa.
 
   ![Laskutuksen välitavoitteiden integrointi.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Kun luot laskutuksen välitavoitteen ensimmäiseksi projektisopimusriville, jär
 
 ### <a name="project-tasks"></a>Projektitehtävät
 
-Projektitehtävät synkronoidaan Finance and Operations -sovelluksiin **projektitehtävien (msdyn\_projektien)** taulukkokartan kautta vain viitteeksi. Luonti-, päivitys- ja poistotoimintoja ei tueta Finance and Operations -sovellusten avulla.
+Projektitehtävät synkronoidaan talous- ja toimintosovelluksiin **Projektitehtävät (msdyn\_projecttasks)** -taulukkokartan kautta vain viitteeksi. Talous- ja toimintosovellukset eivät tue luomista, päivittämistä ja poistamista.
 
   ![Projektitehtävien integrointi.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projektien resurssit
 
-**Projektiresurssiroolit**-kohde synkronoidaan Finance and Operations -sovelluksiin käyttämällä **Kaikkien yritysten projektiresurssiroolit (bookableresourcecategories)** -taulukkokarttaa vain tiedoksi. Koska resurssiroolit Dataversessä eivät ole yrityskohtaisia, järjestelmä luo automaattisesti sovelluksiin vastaavat yrityskohtaiset resurssiroolitietueet Finance and Operations -sovelluksissa automaattisesti kaikille kaksoiskirjoitusintegroinnin vaikutusalueeseen sisällytetyille juridisille entiteeteille.
+**Projektiresurssiroolit**-kohde synkronoidaan talous- ja toimintosovelluksiin-sovelluksiin käyttämällä **Kaikkien yritysten projektiresurssiroolit (bookableresourcecategories)** -taulukkokarttaa vain viitteeksi. Koska resurssiroolit Dataversessa eivät ole yrityskohtaisia, järjestelmä luo automaattisesti vastaavat yrityskohtaiset resurssiroolitietueet talous- ja toimintosovelluksissa automaattisesti kaikille kaksoiskirjoituksen integroinnin vaikutusalueeseen sisällytetyille yrityksille.
 
 ![Resurssiroolien integrointi.](./media/5Resources.jpg)
 
-Project Operationsin projektiresursseja ylläpidetään Dataversessä ja niitä ei synkronoida Finance and Operations -sovelluksiin.
+Project Operationsin projektiresursseja ylläpidetään Dataversessa ja niitä ei synkronoida talous- ja toimintosovelluksiin.
 
 ### <a name="transaction-categories"></a>Tapahtumaluokat
 
-Tapahtumaluokkia ylläpidetään Dataversessä ja synkronoidaan Finance and Operations -sovelluksiin käyttämällä **projektitapahtumien luokkien (msdyn\_transactioncategories)** taulukkokarttaa. Kun tapahtumaluokkatietue on synkronoitu, järjestelmä luo automaattisesti neljä jaettua luokkatietuetta. Jokainen tietue vastaa sovellusten tapahtumatyyppiä Finance and Operationsissa ja linkittää ne tapahtumaluokkatietueeseen.
+Tapahtumaluokkia ylläpidetään Dataversessa ja synkronoidaan talous- ja toimintosovelluksiin käyttämällä **Projektitapahtumien luokat (msdyn\_transactioncategories)** -taulukkokarttaa. Kun tapahtumaluokkatietue on synkronoitu, järjestelmä luo automaattisesti neljä jaettua luokkatietuetta. Kukin tietue vastaa talous- ja toimintosovellusten tapahtumatyyppiä ja linkittää ne tapahtumaluokkatietueeseen.
 
 ![Tapahtumaluokkien integrointi.](./media/4TransactionCategories.jpg)
 
