@@ -1,6 +1,6 @@
 ---
-title: Viikoittaisen ajan syöttämisen mukauttaminen
-description: Tässä aiheessa on tietoja yrityksen käytäntöjä tukevien mukautettujen liiketoimintasääntöjen toteuttamisesta.
+title: Viikoittaisen aikamerkinnän mukauttaminen
+description: Tässä artikkelissa on tietoja yrityksen käytäntöjä tukevien mukautettujen liiketoimintasääntöjen toteuttamisesta.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918952"
 ---
 # <a name="customize-weekly-time-entry"></a>Viikoittaisen aikamerkinnän mukauttaminen 
 
@@ -46,9 +46,9 @@ Uusi viikoittainen ajansyöttöruudukko on mukautettu ohjausobjekti, jolla on ty
 - Tyyppi
 - Merkinnän tila
 
-**Dimensiot** -osa ei salli tekstiin sidottua muokkausta. Tätä osaa tukee näkymä, jonka avulla mukautetut kentät voidaan lisätä viikoittaiseen ajansyöttöruudukkoon. Lisätietoja mukautettujen kenttien lisäämisestä on jäljempänä tässä aihe kohdassa "Laajennettavuus".
+**Dimensiot** -osa ei salli tekstiin sidottua muokkausta. Tätä osaa tukee näkymä, jonka avulla mukautetut kentät voidaan lisätä viikoittaiseen ajansyöttöruudukkoon. Lisätietoja mukautettujen kenttien lisäämisestä on jäljempänä tässä artikkelissa kohdassa Laajennettavuus.
 
-### <a name="duration"></a>Kesto
+### <a name="duration"></a>Duration
 Kesto-osassa näkyvät viikonpäivät sarakeotsikoina. Tässä osassa voi muokata tekstiin sidotusti. Kun ajansyöttörivi on luotu ja siinä on tarvittavat dimensiot, käyttäjät voivat nopeasti syöttää tekstiin sidotusti, sen aikamäärän, jonka he käyttivät näihin dimensioihin.
 
 ## <a name="create-a-new-time-entry"></a>Uuden aikamerkinnän luominen

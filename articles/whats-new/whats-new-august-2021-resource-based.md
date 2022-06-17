@@ -1,24 +1,24 @@
 ---
 title: Elokuun 2021 uudet ominaisuudet – Project Operations resurssien/ei-varastoitavien skenaarioissa
-description: Tässä aiheessa on tietoja laatupäivityksistä, jotka ovat käytettävissä Project Operationsin elokuussa 2021 julkaistussa versiossa resurssi- tai ei-varastopohjaisiin skenaarioihin.
+description: Tässä artikkelissa on tietoja Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa elokuun 2021 julkaisussa saatavilla olevista laatupäivityksistä.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bd91f7f6b3a6f78161f8900aa06c810a58609b53
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912282"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Elokuun 2021 uudet ominaisuudet – Project Operations resurssien/ei-varastoitavien skenaarioissa
 
 *Käytetään: Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa*
 
-Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
+Tämä artikkeli koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
 
    - Project Operations Microsoft Dataversessä ympäristöversio 4.13.0.152.
    - Projektinhallinta ja kirjanpito Dynamics 365 Finance -ympäristön versiossa 10.0.20.

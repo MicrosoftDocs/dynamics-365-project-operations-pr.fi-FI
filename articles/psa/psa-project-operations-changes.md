@@ -1,6 +1,6 @@
 ---
 title: Ominaisuuksien muutokset Project Service Automationista Project Operationsiin
-description: Tässä aihe on yleiskatsaus ominaisuuksien muutoksista Project Service Automationista Dynamics 365 Project Operationsiin.
+description: Tässä artikkelissa on yleiskatsaus ominaisuuksien muutoksista Project Service Automationista Dynamics 365 Project Operationsiin.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925346"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Ominaisuuksien muutokset Project Service Automationista Project Operationsiin
 
-Päivitys Dynamics 365 Project Service Automationista Dynamics 365 Project Operations Liteen toimitetaan kolmessa vaiheessa. Tässä aiheessa on tietoja tärkeimmistä muutoksista, jotka päivityksen valmistuessa ovat odotettavissa.
+Päivitys Dynamics 365 Project Service Automationista Dynamics 365 Project Operations Liteen toimitetaan kolmessa vaiheessa. Tässä artikkelissa on tietoja tärkeimmistä muutoksista, jotka päivityksen valmistuessa ovat odotettavissa.
 
 | Päivityksen toimitus | Vaihe 1 <br>(Tammikuu 2022) | Vaihe 2 <br>(Huhtikuun aalto 2022) | Vaihe 3  |
 |------------------|------------------------|---------------------------|---------------------------|

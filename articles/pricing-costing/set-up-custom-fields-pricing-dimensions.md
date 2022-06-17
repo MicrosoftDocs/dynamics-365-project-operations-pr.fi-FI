@@ -1,6 +1,6 @@
 ---
 title: Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi
-description: Tässä aiheessa on tietoja hinnoitteludimensioiden määrittämisestä mukautettujen kenttien avulla.
+description: Tässä artikkelissa on tietoja hinnoitteludimensioiden määrittämisestä mukautettujen kenttien avulla.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599404"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917572"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Ennen aloittamista aihe olettaa, että olet suorittanut toimintosarjat aiheissa [Luo mukautettuja kenttiä ja entiteettejä](create-custom-fields-entities-pricing-dimensions.md) ja [Lisää vaadittuja mukautettuja kenttiä hintojen määrittelyyn ja tapahtumaentiteetteihin](add-custom-fields-price-setup-transactional-entities.md). Jos et ole suorittanut näitä toimintosarjoja loppuun, palaa niihin ja suorita ne, ja palaa sen jälkeen tähän aiheeseen. 
+Ennen aloittamista on huomattava, että artikkelissa oletetaan seuraavien artikkeleiden toimenpiteiden olevan suoritettuja: [Mukautettujen kenttien ja entiteettien luominen](create-custom-fields-entities-pricing-dimensions.md) ja [Pakollisten mukautettujen kenttien lisääminen hintojen määrittelyyn ja tapahtumaentiteetteihin](add-custom-fields-price-setup-transactional-entities.md). Jos et ole suorittanut näitä toimintosarjoja loppuun, palaa niihin, suorita ne ja palaa sitten tähän artikkeliin. 
 
-Tässä aiheessa on tietoja mukautettujen hinnoitteludimensioiden määrittämisestä. **Parameterit**-sivun **Summaperusteiset hinnoitteludimensiot** -välilehdessä ovat hinnoitteludimensioentiteettien tietueet. Tämän välilehden ruudukossa on oletusarvoisesti seuraavat kaksi riviä:
+Tässä artikkelissa on tietoja mukautettujen hinnoitteludimensioiden määrittämisestä. **Parameterit**-sivun **Summaperusteiset hinnoitteludimensiot** -välilehdessä ovat hinnoitteludimensioentiteettien tietueet. Tämän välilehden ruudukossa on oletusarvoisesti seuraavat kaksi riviä:
 
 - **msdyn_resourcecategory** (Rooli)
 - **msdyn_OrganizationalUnit** (Organisaatioyksikkö)

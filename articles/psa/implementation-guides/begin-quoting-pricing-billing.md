@@ -1,6 +1,6 @@
 ---
 title: Tarjousten tekemisen, hinnoittelun ja laskutuksen perusopas
-description: Tämä aihe sisältää linkkejä tietoihin perustason tarjousten tekemisestä, hinnoittelusta ja laskutuksesta Project Service Automationissa.
+description: Tässä artikkelissa on linkkejä tietoihin perustason tarjousten tekemisestä, hinnoittelusta ja laskutuksesta Project Service Automationissa.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592228"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910794"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Perusopas tarjousten tekemiseen, hinnoitteluun ja laskutukseen
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592228"
 
 Kyky löytää oikeat resurssit oikeaan aikaan, varata resurssit projekteihin ja pitää ne käytössä, auttaa organisaatioita täyttämään tulotavoitteet ja asiakastyytyväisyystavoitteet. 
 
-Tässä aiheessa aiemmin ollut PDF-linkki on poistettu ja tiedoston sisältö on siirretty seuraaviin aiheisiin:
+Tässä artikkelissa aiemmin ollut PDF-linkki on poistettu ja tiedoston sisältö on siirretty seuraaviin artikkeleihin:
 
 - [Tarjoukset, hinnoittelu ja laskutus](../quote-bill-price.md)
 - [Myyntiprosessit](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Tässä aiheessa aiemmin ollut PDF-linkki on poistettu ja tiedoston sisältö on
 - [Todellisten arvojen kirjaaminen](../advanced-actuals.md)
 
 > [!NOTE]
-> Tämä aihe poistetaan myöhemmässä dokumentaatiopäivityksessä. 
+> Tämä artikkeli poistetaan myöhemmässä dokumentaatiopäivityksessä. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

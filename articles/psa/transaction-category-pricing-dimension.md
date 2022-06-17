@@ -1,6 +1,6 @@
 ---
 title: Käytä tapahtumaluokkaa hinnoitteludimensiona
-description: Tässä aiheessa on tietoja tapahtumaluokan käyttämisestä hinnoitteludimensiona.
+description: Tässä artikkelissa on tietoja tapahtumaluokan käyttämisestä hinnoitteludimensiona.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915732"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Käytä tapahtumaluokkaa hinnoitteludimensiona
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Tässä aiheessa kerrotaan tapahtumaluokan käyttämisestä hinnoitteludimensiona. Ennen kuin aloitat, jos et ole vielä luonut hinnoitteludimensioratkaisua, sinun on luotava uusi. Jos sinulla on jo hinnoitteludimensioratkaisu, voit tehdä siihen muutoksia. Jos et ole luonut organisaatiolle uutta hinnoitteludimensioratkaisua, suorita toimintosarjat aiheessa [Luo mukautettuja kenttiä ja entiteettejä](create-custom-fields-entities.md).
+Tässä artikkelissa käsitellään tapahtumaluokan käyttämisestä hinnoitteludimensiona. Ennen kuin aloitat, jos et ole vielä luonut hinnoitteludimensioratkaisua, sinun on luotava uusi. Jos sinulla on jo hinnoitteludimensioratkaisu, voit tehdä siihen muutoksia. Jos et ole luonut organisaatiolle uutta hinnoitteludimensioratkaisua, suorita artikkelin [Mukautettujen kenttien ja entiteettien luominen](create-custom-fields-entities.md) toimintosarjat.
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Lisää tapahtumaluokka lomakkeisiin ja näkymiin
 Jos haluat tehdä tapahtumaluokasta näkyvän hinnoitteludimensioratkaisun käyttöliittymässä, sinun täytyy käydä läpi kaikki lomakkeet ja näkymät avainentiteeteissä ja lisätä nämä kentät lomakkeisiin ja näkymiin kyseisissä entiteeteissä.

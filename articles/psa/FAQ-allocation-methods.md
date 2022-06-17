@@ -1,6 +1,6 @@
 ---
 title: Varausmenetelmien varaaminen Project Service Automationissa
-description: Tässä aiheessa on tietoja eri tavoista kohdistaa varauksia.
+description: Tässä artikkelissa on tietoja varausten erilaisista kohdistustavoista.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929164"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Varausmenetelmien varaaminen Project Service Automationissa
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Voit käyttää muutamaa erilaista varausten kohdistustapaa, kun lisäät ryhmän jäsenen suoraan projektiin **Ryhmä**-välilehdessä tai varaat resurssin projektille tai tarpeelle aikataulutaulukossa. Tässä aiheessa kerrotaan, miten kukin tapa toimii ja mitkä tavat voivat johtaa resurssien ylivaraukseen.
+Voit käyttää muutamaa erilaista varausten kohdistustapaa, kun lisäät ryhmän jäsenen suoraan projektiin **Ryhmä**-välilehdessä tai varaat resurssin projektille tai tarpeelle aikataulutaulukossa. Tässä artikkelissa käsitellään sitä, miten kukin tapa toimii ja mitkä tavat voivat johtaa resurssien ylivaraukseen.
 
 ## <a name="full-capacity"></a>Täysi kapasiteetti 
 Täysi kapasiteetti -menetelmä varaa resurssin täyden kapasiteetin tietyn alku- ja loppupäivämäärän välille. Jos resurssin kalenteriin on määritetty esimerkiksi kahdeksan tunnin työpäivä viitenä päivänä viikossa, viisi työpäivää kattavan alku- ja loppupäivämäärän määrittäminen varaa resurssin 40 tunniksi. Varaus on tehty ilman, että resurssin jäljellä olevaa kapasiteettia otetaan huomioon. Jos resurssi on jo varattu muille projekteille tuona aikana, 40 tuntia varataan lisätunteina. Tämä voi aiheuttaa ylivarauksia.

@@ -1,17 +1,17 @@
 ---
 title: Varausten ja delegointien vertailu
-description: Tässä aiheessa on tietoja resurssivarausten ja resurssien delegointien välisistä eroista.
+description: Tässä artikkelissa on tietoja resurssivarausten ja resurssien delegointien välisistä eroista.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: b06555ec48e50f88c11872336539ca88c5cef34a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3410a45ce8401905dc162db66b0975e4aa3350dc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918584"
 ---
 # <a name="bookings-vs-assignments"></a>Varausten ja delegointien vertailu
 

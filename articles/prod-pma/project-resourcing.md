@@ -1,6 +1,6 @@
 ---
 title: Projektin resursoinnin kotisivu
-description: Tässä aiheessa on tietoja projektin resursoinnista.
+description: Tässä artikkelissa on tietoja projektin resursoinnista.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924012"
 ---
 # <a name="project-resourcing-home-page"></a>Projektin resursoinnin kotisivu
 
 [!include [banner](../includes/banner.md)]
 
-Tässä aiheessa on tietoja projektin resursoinnista.
+Tässä artikkelissa on tietoja projektin resursoinnista.
 
 Yksi projektipäälliköiden ja resurssipäälliköiden haasteista projektin suunnitteluvaiheessa on resurssien varaaminen, jossa heidän on määritettävä ja varattava projektin suorittajaksi oikea resurssi. Dynamics 365 Financessa voi määrittää projektien resursointitoiminnoilla roolit, joita käsitellään väliaikaisina resursseina, joita voidaan varata tiettyyn sitoumukseen tai sitoumuksen osaksi. Tällaisen resursoinnin avulla projekti- ja resurssipäälliköt voivat suorittaa seuraavat tehtävät:
 
@@ -41,7 +41,7 @@ Yksi projektipäälliköiden ja resurssipäälliköiden haasteista projektin suu
 
 Kun projektin suunnittelu etenee, suunnitellut resurssit voidaan korvata henkilöresursseilla. Projektipäällikkö voi myös palata päivittämään resursointivaraukset missä tahansa projektin vaiheessa.
 
-Seuraavissa ohjeaiheissa on tietoja tehtävistä, jotka on suoritettava, kun työskentelet resursointiprojekteissa.
+Seuraavissa artikkeleissa on tietoja tehtävistä, jotka on suoritettava resursointiprojekteissa.
 
 - [Projektin resurssien määrittäminen](set-up-project-resources.md)
 - [Resurssien pätevyyksien hallinta](manage-resource-competencies.md)

@@ -1,6 +1,6 @@
 ---
 title: Huomioitavaa päivityksistä – Microsoft Dynamics 365 Project Service Automationin versiosta 2.x tai 1.x versioon 3
-description: Tässä aiheessa on tietoja asioista, jotka on otettava huomioon päivitettäessä Project Service Automation -versiosta 2.x tai 1.x versioon 3.
+description: Tässä artikkelissa on tietoja asioista, jotka on otettava huomioon päivitettäessä Project Service Automation -versiosta 2.x tai 1.x versioon 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918906"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Päivitykseen liittyviä huomioita - PSA:n versio 2.x tai 1.x versioon 3
 
@@ -40,7 +40,7 @@ Project Service Automation -versiossa 2 ja versiossa 1 tehtävien kohdennukset t
 
 Project Service Automation -versiossa 3 sen pohjana oleva rakenne varattavien resurssien kohdentamiseksi tehtäviin on muuttunut. Rivitehtävä on vanhentunut, ja **Tehtäväentiteetin** tehtävän ja **Resurssin kohdennuksen** entiteetin ryhmän jäsenen välillä on suora 1:1 suhde. Projektiryhmän jäsenelle kohdennetut tehtävät tallennetaan nyt suoraan Resurssin kohdennus -entiteettiin.  
 
-Nämä muutokset vaikuttavat sellaisten aiemmin luotujen projektien päivittämiseen, joilla on resurssien kohdennuksia projektiryhmän nimetyille varattaville resursseille ja yleisille resursseille. Tämä aihe sisältää seikkoja, jotka sinun on otettava huomioon projekteissasi, kun päivität versioon 3. 
+Nämä muutokset vaikuttavat sellaisten aiemmin luotujen projektien päivittämiseen, joilla on resurssien kohdennuksia projektiryhmän nimetyille varattaville resursseille ja yleisille resursseille. Tämä artikkeli sisältää seikkoja, jotka on otettava huomioon projekteissa, kun päivitetään versioon 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Tehtävät kohdennettuina nimetyille resursseille
 Käyttämällä pohjana olevaa tehtäväentiteettiä, tehtävät versiossa 2 ja versiossa 1 sallivat ryhmän jäsenten ottaa muun kuin oletuksena määritetyn roolinsa. Esimerkiksi Karita Repo, joka on oletusarvoisesti kohdennettu ohjelmapäällikön rooliin, voitiin kohdentaa tehtävään, jonka rooli oli Kehittäjä. Versiossa 3 nimetyn ryhmän jäsenen rooli on aina oletus, joten mikä tahansa tehtävä, johon Karita Repo on delegoitu, käyttää Karitan ohjelmapäällikön oletusroolia.

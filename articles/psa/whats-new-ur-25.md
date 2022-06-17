@@ -1,6 +1,6 @@
 ---
 title: Uutuudet ja muutokset Project Service Automation -päivitysjulkaisussa 25, V3
-description: Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat käytettävissä Project Service Automation -päivitysjulkaisussa 25, V3.
+description: Tässä artikkelissa on luettelo ominaisuuksista ja korjauksista Project Service Automationin päivitysjulkaisussa 25, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/26/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d24403b1bf6a06cc138de3f0158f675f6d3b6ec
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2330c7dc5d2dfb148d5c7fb9a5ce643fded84dde
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922540"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Uutuudet ja muutokset Project Service Automation -päivitysjulkaisussa 25, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8581510"
 
 Meillä on ilo julkistaa Dynamics 365:n Project Service Automation-sovelluksen uusin päivitys. Tämä julkaisu sisältää joitakin tärkeitä parannuksia laatuun, tehokkuuteen ja käytettävyyteen. Tämä versio on yhteensopiva Dynamics 365 -versioiden 9.x kanssa. Jos haluat päivittää tämän julkaisun, avaa Dynamics 365 online -hallintakeskuksen Ratkaisut-sivu ja asenna päivitys. Lisätietoja: [Ensisijaisen ratkaisun asentaminen, päivittäminen tai poistaminen](/power-platform/admin/install-remove-preferred-solution).
 
-Tässä ohjeaiheessa on luettelo Project Service Automation V3, päivitysversion 25 uusista tai muuttuneista ominaisuuksista ja korjauksista. Tämän version koontiversion numero on 3.10.43.76 ja se on yleisesti saatavana omana päivityksenä lokakuussa 2020.
+Tässä artikkelissa on luettelo Project Service Automation V3, päivitysversion 25 uusista tai muuttuneista ominaisuuksista ja korjauksista. Tämän version koontiversion numero on 3.10.43.76 ja se on yleisesti saatavana omana päivityksenä lokakuussa 2020.
 
 ## <a name="update-release-25"></a>Päivitysjulkaisu 25
 

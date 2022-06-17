@@ -1,6 +1,6 @@
 ---
 title: Yksiköt ja yksikköryhmät
-description: Tässä aiheessa on tietoja yksikköjen ja yksikköryhmien luomisesta Dynamics 365 Project Operationsissa.
+description: Tässä artikkelissa on tietoja yksikköjen ja yksikköryhmien luomisesta Dynamics 365 Project Operationsissa.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578428"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921436"
 ---
 # <a name="units-and-unit-groups"></a>Yksiköt ja yksikköryhmät
 
@@ -28,7 +28,7 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 Yksiköt ovat määriä tai mittayksiköitä, joissa tuotteita tai palveluja myydään. Jos esimerkiksi myyt puutarhatarvikkeita, siemenien myyntiyksikkönä voi olla paketti, laatikko tai kuormalava. Yksikköryhmä on näiden yksiköiden kokoelma.
 
-Jos haluat viimeistellä tämän aiheen vaiheet, varmista, että sinulle on annettu järjestelmänvalvojan tai Sales Professionalin esimiehen rooli tai vastaavat käyttöoikeudet.
+Jos haluat viimeistellä tämän artikkelin vaiheet, varmista, että sinulle on annettu järjestelmänvalvojan tai Sales Professionalin esimiehen rooli tai vastaavat käyttöoikeudet.
 
 ## <a name="create-a-unit-group"></a>Yksikköryhmän luominen
 

@@ -1,17 +1,17 @@
 ---
 title: Tapahtumaluokan käyttäminen hinnoitteludimensiona
-description: Tässä aiheessa on tietoja tapahtumaluokan käyttämisestä hinnoitteludimensiona.
+description: Tässä artikkelissa on tietoja tapahtumaluokan käyttämisestä hinnoitteludimensiona.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911690"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Tapahtumaluokan käyttäminen hinnoitteludimensiona
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591124"
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
 
-Tässä aiheessa kerrotaan **Tapahtumaluokka**-kentän käyttämisestä hinnoitteludimensiona. 
+Tässä artikkelissa käsitellään **Tapahtumaluokka**-kentän käyttämistä hinnoitteludimensiona. 
 
-## <a name="prerequisites"></a>Edellytykset
-Ennen kuin suoritat tämän aiheen kuvailemat toimintosarjat, organisaatiolla on oltava uusi hinnoitteludimensioratkaisu. Jos et ole vielä luonut sellaista, katso kohtaa [Mukautettujen kenttien ja entiteettien luominen hinnoitteludimensioina](create-custom-fields-entities-pricing-dimensions.md).
+## <a name="prerequisites"></a>edellytykset
+Organisaatiolla on oltava uusi hinnoitteludimensioratkaisu, ennen tässä artikkelissa käsiteltyjen toimintosarjojen suorittamista. Jos et ole vielä luonut sellaista, katso kohtaa [Mukautettujen kenttien ja entiteettien luominen hinnoitteludimensioina](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Lisää tapahtumaluokka-kenttä lomakkeisiin ja näkymiin
 Jotta **Tapahtumaluokka**-kenttä näkyisi hinnoitteludimensioratkaisussa, kenttä on lisättävä kaikkiin lomakkeisiin ja näkymiin entiteettinä.

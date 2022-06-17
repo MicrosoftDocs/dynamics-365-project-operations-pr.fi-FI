@@ -1,17 +1,17 @@
 ---
 title: Aikataulutustilat
-description: Tässä aiheessa on tietoja aikataulutustiloista.
+description: Tässä artikkelissa on tietoja aikataulutustiloista.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923644"
 ---
 # <a name="scheduling-modes"></a>Aikataulutustilat
 
@@ -38,7 +38,7 @@ Kun määrität projektin aikataulutustilan, määrität yhden näistä arvoista
 | Kiinteän työmäärän tehtävä    | Kesto lasketaan uudelleen. | Yksiköt lasketaan uudelleen.    | Kesto lasketaan uudelleen. |
 | Kiinteän keston tehtävä  | Työmäärä lasketaan uudelleen.   | Työmäärä lasketaan uudelleen.    | Yksiköt lasketaan uudelleen.   |
 
-Lisätietoja tietyn tilan vaikutuksista on ohjeaiheessa [Tehtävätyypin muuttaminen tarkempaa aikataulutusta varten](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Aiheessa **Työ**-termiä käytetään **Työmäärä**-termin sijaan.
+Lisätietoja tietyn tilan vaikutuksista on ohjeaiheessa [Tehtävätyypin muuttaminen tarkempaa aikataulutusta varten](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Artikkelissa käytetään **Työ**-termiä eikä **Työmäärä**-termiä.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Organisaation aikataulutustilan muuttaminen
 

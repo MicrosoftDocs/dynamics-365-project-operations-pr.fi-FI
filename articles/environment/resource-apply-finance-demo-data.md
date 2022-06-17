@@ -1,24 +1,24 @@
 ---
 title: Esittelytietojen käyttäminen Finance-pilvipalveluympäristössä
-description: Tässä aiheessa selostetaan, miten Project Operations -esittelytietoja voi käyttää Dynamics 365 Financen pilvipalveluympäristössä.
+description: Tässä artikkelissa käsitellään Project Operationsin esittelytietojen käyttämistä Dynamics 365 Financen pilvipalveluympäristössä.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924656"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Esittelytietojen käyttäminen Finance-pilvipalveluympäristössä
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
 > [!IMPORTANT]
-> Tämä aihe on voimassa vain Microsoft Dynamics 365 Finance -versiolle 10.0.13, ja se voidaan suorittaa vain pilvipalvelussa isännöidyssä ympäristössä. Suorita tämän aiheen vaiheet, **ENNEN** kuin otat käyttöön ympäristön laatupäivitykset.
+> Tämä artikkeli koskee vain Microsoft Dynamics 365 Financen versiota 10.0.13, ja se voidaan suorittaa vain pilvipalveluympäristössä. Suorita tämän artikkelin vaiheet **ENNEN** ympäristön laatupäivitysten ottamista käyttöön.
 
 1. Avaa LCS-projektissa **Ympäristön tiedot** -sivu. Huomaa, että se sisältää tiedot, joita tarvitaan yhteyden muodostamiseen ympäristöön etätyöpöytäprotokollan (RDP) avulla.
 

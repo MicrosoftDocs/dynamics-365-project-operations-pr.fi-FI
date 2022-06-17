@@ -1,6 +1,6 @@
 ---
 title: Uutuudet ja muutokset Project Service Automation -versiossa 3
-description: Tässä aiheessa on tietoja Project Service Automation -version 3 uusista ja muuttuneista ominaisuuksista.
+description: Tässä artikkelissa on tietoja Project Service Automation -version 3 uusista ja muuttuneista ominaisuuksista.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926588"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Uutuudet ja muutokset Project Service Automation -versiossa 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581648"
 
 
 
-Tässä aiheessa on tietoja Project Service Automation -sovelluksen käyttöliittymän, toiminnallisuuden ja terminologian muutoksista version 2 tai version 1 ja 3 välillä.
+Tässä artikkelissa on tietoja Project Service Automationin (PSA) käyttöliittymän, toimintojen ja terminologian muutoksista version 2 tai version 1 ja 3 välillä.
 
 ## <a name="project-scheduling"></a>Projektien aikatauluttaminen
 Projektinaikataulu, joka tunnettiin aiempien versioiden WBS (Work Breakdown Structure) -rakenteena, on nimetty uudelleen Aikatauluksi, ja sitä käytetään valitsemalla **Aikataulu** -välilehti. 
@@ -150,7 +150,7 @@ Tilanteissa, joissa resurssille on kohdennuksia mutta ei varauksia (varauspula),
 Tässä osassa on tietoja Project Service Automationin version 3 ajan, kulun ja hyväksynnän muutoksista. Osana Dynamics 365 Project Service Automation -ratkaisua **Ajan syöttö** - toiminto on päivitetty Unified Interface -kehyksen käyttöönottoa varten. Tämä mahdollistaa yhdenmukaisen ja yhtenäisen käyttöliittymän tarjoamisen, joka noudattaa joustavia suunnitteluperiaatteita, jotka takaavat optimaalisen katselun missä tahansa näytön koossa tai laitteessa. 
 
 ### <a name="landing-page"></a>Saapumissivu
-Ei-laajennettava mukautettu ajansyöttökokemus on vanhentunut versiossa 3. Sen tilalla on nyt laajennettava ja käytettävissä oleva luonnollinen ruudukkokokemus. Voit käyttää ajan syötön toimintoja vasemmalla olevan sivustokartan avulla. Tämän muutoksen ansiosta et voi enää syöttää aikaa yhdelle viikolle kerrallaan. Sen sijaan jokaiselle ruudukon päivälle on luotava aikamerkintä. Muutaman merkinnän luomisen jälkeen käyttäjät voivat luoda useita aikamerkintöjä kerralla **Kopiointi**-toiminnon avulla, josta kerrotaan myöhemmin lisää tässä aiheessa. 
+Ei-laajennettava mukautettu ajansyöttökokemus on vanhentunut versiossa 3. Sen tilalla on nyt laajennettava ja käytettävissä oleva luonnollinen ruudukkokokemus. Voit käyttää ajan syötön toimintoja vasemmalla olevan sivustokartan avulla. Tämän muutoksen ansiosta et voi enää syöttää aikaa yhdelle viikolle kerrallaan. Sen sijaan jokaiselle ruudukon päivälle on luotava aikamerkintä. Muutaman aikamerkinnän luomisen jälkeen käyttäjät voivat luoda useita aikamerkintöjä kerralla **Kopiointi**-toiminnolla, jota käsitellään myöhemmin tässä artikkelissa. 
 
 ![Ajan syötön saapumissivu.](media/time-entry-landing-page-07.png)
  

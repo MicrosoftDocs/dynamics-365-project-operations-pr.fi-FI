@@ -1,6 +1,6 @@
 ---
 title: Hinnoittelu- ja kustannusdimensioiden aloitussivu
-description: Tämä aihe sisältää yleiskatsauksen hinnoitteludimensioihin.
+description: Tässä artikkelissa on hinnoitteludimensioiden yleiskatsaus.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925438"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Hinnoittelu- ja kustannusdimensioiden aloitussivu
 
@@ -47,7 +47,7 @@ PSA sisältää oletusjoukon hinnoitteludimensioita. Niitä voi tarkastella siir
 > [!IMPORTANT]
 > Jos olet käyttänyt valmiita roolin ja organisaatioyksikön kenttiä hinnoitteludimensioina ennen PSA;n versiota 3, muutoksia ei ole havaittavissa. Voit jatkaa Project Servicen käyttöä tavalliseen tapaan. 
 
-Jos sinun on määritettävä resurssiesi hintoja tai kustannuksia lisämääritteitä käyttäen, voit luoda mukautettuja kenttiä, entiteettejä ja dimensioita. Lisätietoja saat seuraavista aiheista, mutta ota huomioon, että sinun on suoritettava toimenpidesarja alla näkyvässä järjestyksessä:
+Jos sinun on määritettävä resurssiesi hintoja tai kustannuksia lisämääritteitä käyttäen, voit luoda mukautettuja kenttiä, entiteettejä ja dimensioita. Lisätietoja on seuraavissa artikkeleissa. Toimenpiteet on kuitenkin suoritettava alla näkyvässä järjestyksessä:
 
 - [Mukautettujen kenttien ja entiteettien luominen](create-custom-fields-entities.md)
 - [Mukautettujen kenttien lisääminen hinta- ja tapahtumaentiteetteihin](field-references.md)

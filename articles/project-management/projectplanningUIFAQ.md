@@ -1,25 +1,25 @@
 ---
 title: Tehtäväruudukossa työskentelyn vianmääritys
-description: Tässä aihe sisältää vianmääritystietoja, joita tarvitaan tehtäväruudukossa.
+description: Tässä artikkelissa on vianmääritystietoja, joita tarvitaan tehtäväruudukossa.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911040"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Tehtäväruudukossa työskentelyn vianmääritys 
 
 
 _**Koskee seuraavaa:** Project Operations resursseihin/ei-varastoitaviin perustuville skenaarioille, lite-käyttöönotto - tarjouksesta proformalaskutukseen, Project for the web_
 
-Tehtäväruudukko Dynamics 365 Project Operationsissa on isännöity iFrame Microsoft Dataversessa. Tämän käytön vuoksi tiettyjen vaatimusten on täytyttävä, jotta todentaminen ja valtuutus toimivat oikein. Tässä aihessa kuvataan seikkoja, jotka voivat vaikuttaa ruudukon hahmontamiseen tai tehtävien hallintaan työrakenteessa (work breakdown structure, WBS).
+Tehtäväruudukko Dynamics 365 Project Operationsissa on isännöity iFrame Microsoft Dataversessa. Tämän käytön vuoksi tiettyjen vaatimusten on täytyttävä, jotta todentaminen ja valtuutus toimivat oikein. Tässä artikkelissa käsitellään seikkoja, jotka voivat vaikuttaa ruudukon hahmontamiseen tai tehtävien hallintaan työrakenteessa (WBS).
 
 Joitakin yleisiä ongelmia:
 

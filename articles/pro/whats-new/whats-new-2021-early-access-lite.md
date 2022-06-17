@@ -1,24 +1,24 @@
 ---
 title: Uudet ominaisuudet 2021 aalto 2:n ennakkojulkaisussa – Project Operationsin lite-käyttöönotto
-description: Tässä aiheessa on tietoja ominaisuuksista, jotka ovat käytettävissä Project Operationsin lite-käytöönoton 2021 aalto 2 -ennakkojulkaisussa.
+description: Tässä artikkelissa on tietoja ominaisuuksista, jotka ovat käytettävissä Project Operationsin lite-käyttöönoton vuoden 2021 2. aallon ennakkojulkaisussa.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723672"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924104"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Uudet ominaisuudet 2021 aalto 2:n ennakkojulkaisussa – Project Operationsin lite-käyttöönotto
 
 _Käytetään: Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
+Tämä artikkeli koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
 
   - Project Operations Dataverse-ympäristön versiossa 4.23.0.4
 

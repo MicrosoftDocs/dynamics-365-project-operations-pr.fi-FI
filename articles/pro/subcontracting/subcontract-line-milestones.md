@@ -1,17 +1,17 @@
 ---
 title: Alihankintarivin välitavoitteet
-description: Tässä aiheessa selitetään, miten luodaan ja ylläpidetaan välitavoitteeseen perustuvaa laskuaikataulua toimittajan kanssa tehdyssä alihankinnassa.
+description: Tässä artikkelissa käsitellään välitavoitteeseen perustuvan laskuaikataulun luontia ja ylläpitoa toimittajan kanssa tehdyssä alihankinnassa.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d1c30f48e0d43aa55e2c1650637f7f102fb200de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b146bf0becff5d0fa0da59f50c0d04aafaf5115f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579118"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927600"
 ---
 # <a name="subcontract-line-milestones"></a>Alihankintarivin välitavoitteet
 

@@ -1,24 +1,24 @@
 ---
 title: Poistetut tai vanhentuneet Dynamics 365 Project Operations -ominaisuudet
-description: Tässä aiheessa käsitellään ominaisuuksia, jotka on poistettu tai joiden poistoa suunnitellaan Dynamics 365 Project Operationssta.
+description: Tässä artikkelissa käsitellään ominaisuuksia, jotka on poistettu tai joiden poistoa Dynamics 365 Project Operationsista suunnitellaan.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921482"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Poistetut tai vanhentuneet Dynamics 365 Project Operations -ominaisuudet
 
 _**Koskee:** Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa, Lite-käyttöönotto – kauppa proformalaskutukseen ja Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa_
 
-Tässä aiheessa käsitellään ominaisuuksia, jotka on poistettu tai joiden poistoa suunnitellaan Dynamics 365 Project Operationssta.
+Tässä artikkelissa käsitellään ominaisuuksia, jotka on poistettu tai joiden poistoa Dynamics 365 Project Operationsista suunnitellaan.
 
 - *Poistettu* toiminto ei ole enää käytettävissä tuotteessa.
 - *Vanhentunut* toiminto ei ole aktiivisessa kehityksessä, ja se voidaan poistaa tulevassa päivityksessä.

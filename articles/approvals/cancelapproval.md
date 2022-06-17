@@ -1,17 +1,17 @@
 ---
 title: Aiemmin hyväksyttyjen merkintöjen hyväksynnän peruuttaminen
-description: Tässä aiheessa kerrotaan, miten projektipäällikkö voi peruuttaa aiemmin hyväksyttyjen ajan-, kulu- tai materiaalikäytön merkintöjen hyväksynnän.
+description: Tässä artikkelissa käsitellään sitä, miten projektipäällikkö voi peruuttaa aiemmin hyväksyttyjen ajan-, kulu- tai materiaalikäytön merkintöjen hyväksynnän.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 03d4511e85e9fc8d596b269274c4a7e10016244c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 08c2248a5fcfc9b7569871a76bc09234ffd172c7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930452"
 ---
 # <a name="cancel-the-approval-of-previously-approved-entries"></a>Aiemmin hyväksyttyjen merkintöjen hyväksynnän peruuttaminen
 

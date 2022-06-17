@@ -1,6 +1,6 @@
 ---
 title: Uutuudet ja muutokset Project Service Automation -päivitysjulkaisussa 14, V3
-description: Tässä aiheessa on tietoja Project Service Automation -päivitysversion 14, V3:n uusista ominaisuuksista.
+description: Tässä artikkelissa on tietoja Project Service Automationin V3:n päivitysversion 14 uusista ominaisuuksista.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926542"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation -päivitysjulkaisu 14, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8594299"
 
 Olemme iloisia voidessamme julkistaa uusimman Dynamics 365 Project Service Automation (PSA) -sovelluksen päivityksen. Tämä julkaisu sisältää joitakin tärkeitä parannuksia laatuun, tehokkuuteen ja käytettävyyteen. Tämä versio on yhteensopiva Dynamics 365 -versioiden 9.x kanssa. Jos haluat päivittää tämän julkaisun, käy Dynamics 365 online -hallintakeskuksessa ja asenna päivitys siirtymällä Ratkaisut-sivulle. Lisätietoja: [Ensisijaisen ratkaisun asentaminen, päivittäminen tai poistaminen](/power-platform/admin/install-remove-preferred-solution).
 
-Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia tai muuttuneita PSA V3 -päivitysjulkaisussa 14. Tällä versiolla on koontinumero V3.10.4.21 ja se on saatavilla seuraavan aikataulun mukaan:
+Tässä artikkelissa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia tai muuttuneita PSA V3:n päivitysjulkaisussa 14. Tällä versiolla on koontinumero V3.10.4.21 ja se on saatavilla seuraavan aikataulun mukaan:
 
 - **Yleinen saatavuus (itsepäivitys):** tammikuu 2020
 - **Automaattinen päivitys:** 2020 helmikuu

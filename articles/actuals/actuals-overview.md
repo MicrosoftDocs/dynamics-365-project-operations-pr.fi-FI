@@ -1,6 +1,6 @@
 ---
 title: Todelliset arvot
-description: Tässä aiheessa on tietoja Microsoft Dynamics 365 Project Operationsin todellisten arvojen käsittelystä.
+description: Tässä artikkelissa on tietoja Microsoft Dynamics 365 Project Operationsin todellisten arvojen käsittelystä.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924794"
 ---
 # <a name="actuals"></a>Todelliset arvot
 
@@ -33,7 +33,7 @@ Toteutuneet arvot edustavat projektin arvioitua ja hyväksyttyä taloudellista j
 
 Project Operations kirjaa toteutuneina arvoina taloushallinnon tapahtumat, jotka tapahtuvat projektitapahtuman elinkaaren aikana. Toteutuneiden arvojen luominen elinkaaren eri tapahtumissa vaihtelee sen mukaan, käyttääkö projektitapahtuma ajan ja materiaalien laskutusmallia vai kiinteähintaista laskutusmallia sekä sen mukaan, onko kyseessä vaihe ennen myyntiä vai onko kyseessä sisäinen projekti.
 
-Seuraavissa aiheissa selitetään eri variaatioiden vaikutus Toteutuneet-taulukkoon:
+Seuraavissa artikkeleissa käsitellään eri variaatioiden vaikutusta Toteutuneet-taulukkoon:
 
 - [Toteutuneiden arvojen vaikutus aika- ja materiaaliaktiviteetissa](ActualsonTM.md)
 - [Toteutuneiden arvojen vaikutus kiinteähintaisessa aktiviteetissa](ActualonFP.md)

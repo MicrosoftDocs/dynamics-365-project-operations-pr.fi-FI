@@ -1,21 +1,21 @@
 ---
 title: Useiden asiakkaiden hallinta projektisopimuksissa
-description: Tässä aiheessa on tietoja useiden asiakkaiden hallinnasta projektisopimuksessa.
+description: Tässä artikkelissa on tietoja useiden asiakkaiden hallinnasta projektisopimuksessa.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591308"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928336"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Useiden asiakkaiden hallinta projektisopimuksissa
 
-Tässä aiheessa on tietoja useiden asiakkaiden hallinnasta projektisopimuksessa. Voit käyttää projektisopimusta, kun useita asiakkaita sisältävä sopimus tarvitaan sopimuksen rahoittamiseen. **Projektisopimus**-sivun **Yhteenveto** -välilehdessä on tietoja sopimuksen ensisijaisesta asiakkaasta. Muut asiakkaat, jotka osallistuvat sopimukseen, voidaan lisätä **Asiakkaat** -välilehteen.
+Tässä artikkelissa on tietoja useiden asiakkaiden hallinnasta projektisopimuksessa. Voit käyttää projektisopimusta, kun useita asiakkaita sisältävä sopimus tarvitaan sopimuksen rahoittamiseen. **Projektisopimus**-sivun **Yhteenveto** -välilehdessä on tietoja sopimuksen ensisijaisesta asiakkaasta. Muut asiakkaat, jotka osallistuvat sopimukseen, voidaan lisätä **Asiakkaat** -välilehteen.
 
 Kaikki projektisopimuksen **Asiakkaat**-välilehden asiakkaat ovat oletusarvoisesti sopimusrivin asiakkaita projektiin perustuvilla uusilla sopimusriveillä. Mahdollisesti aiemmin luodut projektipohjaiset sopimusrivit eivät peri uusia sopimusasiakastietueita, jotka luodaan myöhemmin.
 

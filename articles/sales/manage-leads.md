@@ -1,17 +1,17 @@
 ---
 title: Liidien hallinta
-description: Tässä aiheessa on tietoja projektipohjaisten liidien hallinnasta.
+description: Tässä artikkelissa on tietoja projektipohjaisten liidien hallinnasta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4fc5bcab39d4f83010d43fe5cc8b40f208ce0d62
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920194"
 ---
 # <a name="manage-leads"></a>Liidien hallinta
 

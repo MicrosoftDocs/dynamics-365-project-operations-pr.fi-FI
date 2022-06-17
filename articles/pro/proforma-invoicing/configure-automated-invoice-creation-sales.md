@@ -1,17 +1,17 @@
 ---
 title: Automaattisen laskun luonnin määrittäminen
-description: Tässä aiheessa on tietoja proformalaskujen automaattisen luomisen määrittämisestä.
+description: Tässä artikkelissa on tietoja proformalaskujen automaattisen luomisen määrittämisestä.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 027cc711d53c7dd8512e6ef416b54e320357dd26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c5160b22bd0d8a738c31a5105d83bd15cf136fab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911717"
 ---
 # <a name="set-up-automatic-invoice-creation"></a>Automaattisen laskun luonnin määrittäminen 
  

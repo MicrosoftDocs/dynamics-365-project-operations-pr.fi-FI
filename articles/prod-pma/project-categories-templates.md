@@ -1,6 +1,6 @@
 ---
 title: Projektin kululuokkien synkronointi talous- ja toimintosovellusten ja Project Service Automationin välillä
-description: Tässä ohjeaiheessa käsitellään malleja ja taustalla olevia tehtäviä, joilla projektin kululuokat synkronoidaan Microsoft Dynamics 365 Financen ja Dynamics 365 Project Service Automationin välillä.
+description: Tässä artikkelissa käsitellään malleja ja taustalla olevia tehtäviä, joilla projektin kululuokat synkronoidaan Microsoft Dynamics 365 Financen ja Dynamics 365 Project Service Automationin välillä.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685466"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927232"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projektin kululuokkien synkronointi talous- ja toimintosovellusten ja Project Service Automationin välillä
 
 [!include[banner](../includes/banner.md)]
 
-Tässä ohjeaiheessa käsitellään malleja ja taustalla olevia tehtäviä, joilla projektin kululuokat synkronoidaan Dynamics 365 Financen ja Dynamics 365 Project Service Automationin välillä.
+Tässä artikkelissa käsitellään malleja ja taustalla olevia tehtäviä, joilla projektin kululuokat synkronoidaan Dynamics 365 Financen ja Dynamics 365 Project Service Automationin välillä.
 
 > [!NOTE]
 > - Projektitehtävien integrointi, kulutapahtumien luokat, työaika-arviot, kuluarviot ja toimintojen lukitus ovat käytettävissä versiossa 8.0.

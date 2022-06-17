@@ -1,17 +1,17 @@
 ---
 title: Projektilaskuehdotusten luonnoksen kirjanpidon oikaisu
-description: Tässä aiheessa selostetaan, miten laskuluonnokseen liittyviä kirjanpitoon liittyviä tietoja oikaistaan.
+description: Tässä artikkelissa käsitellään sitä, miten laskuluonnokseen liittyviä kirjanpitoon liittyviä tietoja oikaistaan.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575070"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921206"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Projektilaskuehdotusten luonnoksen kirjanpidon oikaisu
 
@@ -19,7 +19,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 Projektipäällikkö ylläpitää projektilaskujen *Toiminnallisia tietoja* proformalaskussa. Näitä tietoja ovat esimerkiksi tunteja, kuluja, materiaaleja tai välitavoitteita koskeva päätös, joka on laskutettava, hinnat sekä ennakkomaksujen ja maksuennakoiden käyttö. Kun olet vahvistanut alkuperäisen proformalaskun, voit oikaista toimintatietoja luomalla ja vahvistamalla [korjaavan proformalaskun](../proforma-invoicing/corrective-invoices.md).
 
-Projektilaskujen *kirjanpitotietoja* ylläpidetään asiakaspuolen laskuasiakirjassa. Näitä tietoja ovat arvonlisäveron laskenta ja laskuun liittyvät taloushallinnon dimensiot. Tässä aiheessa on tietoja siitä, miten näitä kirjanpitotietoja voi muuttaa projektilaskuluonnoksen perusteella.
+Projektilaskujen *kirjanpitotietoja* ylläpidetään asiakaspuolen laskuasiakirjassa. Näitä tietoja ovat arvonlisäveron laskenta ja laskuun liittyvät taloushallinnon dimensiot. Tässä artikkelissa on tietoja siitä, miten näitä kirjanpitotietoja voidaan muuttaa projektilaskuluonnoksen perusteella.
 
 ## <a name="adjust-sales-tax"></a>Arvonlisäveron korjaus
 

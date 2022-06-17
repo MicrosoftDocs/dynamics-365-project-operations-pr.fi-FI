@@ -1,23 +1,23 @@
 ---
 title: Valmistumiskustannusten menetelmät
-description: Tässä aiheessa on tietoja menetelmistä, joita käytetään projektin valmistumiskustannusten laskemiseen.
+description: Tässä artikkelissa on tietoja menetelmistä, joita käytetään projektin valmistumiskustannusten laskemiseen.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920286"
 ---
 # <a name="cost-to-complete-methods"></a>Valmistumiskustannusten menetelmät
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Tässä aiheessa on tietoja menetelmistä, joita käytetään projektin valmistumiskustannusten laskemiseen. Projektin valmistumiskustannusten laskentaan on olemassa useita tapoja. 
+Tässä artikkelissa on tietoja menetelmistä, joita käytetään projektin valmistumiskustannusten laskemiseen. Projektin valmistumiskustannusten laskentaan on olemassa useita tapoja. 
 
 Kun luot arvion projektia varten, voit valita **Luo arvio** -sivun **Valmistumiskustannusten menetelmä** -kentässä yhden seuraavista valmistumiskustannusten menetelmistä.
 

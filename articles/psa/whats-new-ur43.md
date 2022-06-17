@@ -1,6 +1,6 @@
 ---
 title: Uutuudet ja muutokset Project Service Automation -päivitysjulkaisussa 43, V3
-description: Tässä aiheessa on lueteltu ominaisuudet ja korjaukset, jotka ovat saatavissa Microsoft Dynamics 365 Project Service Automation -päivityksessä 43, V3.
+description: Tässä artikkelissa on lueteltu ominaisuudet ja korjaukset, jotka ovat saatavissa Microsoft Dynamics 365 Project Service Automation -päivitysjulkaisussa 43, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/04/2022
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: fcf18a24b3bc354a16a415368063133743e79696
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: b12cfda08f1ea1fc441782003130be445a437f7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915309"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-43-v3"></a>Uutuudet ja muutokset Project Service Automation -päivitysjulkaisussa 43, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8710001"
 
 Meillä on ilo esitellä Microsoft Dynamics 365 Project Service Automation -sovelluksen uusin päivitys. Tämä julkaisu sisältää joitakin tärkeitä parannuksia laatuun, tehokkuuteen ja käytettävyyteen. Se on yhteensopiva Dynamics 365 9.x:n kanssa. Päivitä tähän versioon asentamalla päivitys Dynamics 365 -hallintakeskuksen online-ratkaisujen sivulta. Lisätietoja: [Ensisijaisen ratkaisun asentaminen, päivittäminen tai poistaminen](/power-platform/admin/install-remove-preferred-solution).
 
-Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia tai muuttuneita Project Service Automationin Päivitysjulkaisussa 43, V3. Tämän version koontiversion numero on V3.10.74.200, ja se on yleisesti saatavana itsepäivittyvänä toukokuussa 2022.
+Tässä artikkelissa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia tai muuttuneita Project Service Automationin päivitysjulkaisussa 43, V3. Tämän version koontiversion numero on V3.10.74.200, ja se on yleisesti saatavana itsepäivittyvänä toukokuussa 2022.
 
 ## <a name="update-release-43"></a>Päivitysjulkaisu 43
 

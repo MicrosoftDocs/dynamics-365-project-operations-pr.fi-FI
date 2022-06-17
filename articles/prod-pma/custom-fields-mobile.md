@@ -1,6 +1,6 @@
 ---
 title: Ota Microsoft Dynamics 365 Project Timesheet -mobiilisovelluksen mukautetut kentät käyttöön iOS:ssä ja Androidissa
-description: Tässä aiheessa on yleisiä ohjeita, joiden avulla voit käyttää laajennuksia mukautettujen kenttien toteuttamiseen.
+description: Tässä artikkelissa on yleisiä ohjeita, joiden avulla voit käyttää laajennuksia mukautettujen kenttien toteuttamiseen.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913708"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Ota Microsoft Dynamics 365 Project Timesheet -mobiilisovelluksen mukautetut kentät käyttöön iOS:ssä ja Androidissa
 
 [!include [banner](../includes/banner.md)]
 
-Tässä aiheessa on yleisiä ohjeita, joiden avulla voit käyttää laajennuksia mukautettujen kenttien toteuttamiseen. Käsiteltäviä aiheita ovat seuraavat:
+Tässä artikkelissa on yleisiä ohjeita, joiden avulla voit käyttää laajennuksia mukautettujen kenttien toteuttamiseen. Käsiteltävät artikkelit:
 
 - Tietolajit, joita mukautettu kenttäkehys tukee
 - Miten näyttää vain luku- tai muokkauskentät työaikaraportin merkinnöissä ja tallentaa käyttäjän antamat arvot tietokantaan
@@ -35,7 +35,7 @@ Tässä aiheessa on yleisiä ohjeita, joiden avulla voit käyttää laajennuksia
 
 ## <a name="audience"></a>Yleisö
 
-Tämä aihe on tarkoitettu sovelluskehittäjille, jotka integroivat mukautettuja kenttiä Microsoft Dynamics 365 Project Timesheet -mobiilisovellukseen, joka on saatavilla Apple iOS- ja Google Android -sovelluksiin. Oletuksena on, että lukijat tuntevat X++-kehitystyön ja projektin työaikaraportin toiminnot.
+Tämä artikkeli on tarkoitettu sovelluskehittäjille, jotka integroivat mukautettuja kenttiä Microsoft Dynamics 365 Project Timesheet -mobiilisovellukseen, joka on saatavilla Apple iOS- ja Google Android -sovelluksiin. Oletuksena on, että lukijat tuntevat X++-kehitystyön ja projektin työaikaraportin toiminnot.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Tietosopimus – TSTimesheetCustomField X++-luokka
 
@@ -64,7 +64,7 @@ Tämä aihe on tarkoitettu sovelluskehittäjille, jotka integroivat mukautettuja
 
 - Jos **TSTimesheetCustomField**-objektissa on **stringOptions**-ominaisuus, nämä luetteloelementit ovat ainoat arvot, joita käyttäjät voivat valita valintanappien avulla.
 
-    Tässä tapauksessa merkkijonokenttä voi toimia luettelointi-arvona käyttäjämerkintää varten. Jos haluat tallentaa arvon tietokantaan valintaluettelolla, yhdistä se manuaalisesti uudelleen luettelointiarvoon, ennen kuin tallennat tietokantaan komentoketjulla (lisätietoja on kohdassa "käytä komentoa TSTimesheetEntryService-luokassa, kun haluat tallentaa tuntilomakemerkinnän sovelluksesta uudelleen tietokantaan"-osaan jäljempänä tässä aiheessa).
+    Tässä tapauksessa merkkijonokenttä voi toimia luettelointi-arvona käyttäjämerkintää varten. Jos haluat tallentaa arvon tietokantaan valintaluettelolla, yhdistä se manuaalisesti uudelleen luettelointiarvoon, ennen kuin tallennat tietokantaan komentoketjulla. (Esimerkki on myöhemmin tässä artikkelissa kohdassa Komentoketjun käyttäminen TSTimesheetEntryService-luokassa tallentamaan tuntilomakemerkintä sovelluksesta takaisin tietokantaan.)
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Tämä ominaisuus määrittää otsikon, joka näkyy sovelluksen kentän vieress
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (Merkkijonoluettelo)
 
-Tämä ominaisuus on käytettävissä vain, jos **fieldBaseType**-arvoksi on määritetty **merkkijono**. Jos **stringOptions** on määritetty, valintanappien kautta valittavissa olevat merkkijonoarvot (radiopainikkeet) määritetään luettelon merkkijonojen avulla. Jos merkkijonoja ei ole, vapaatekstimuotoinen merkintä merkkijonokentässä sallitaan (lisätietoja on kohdassa "Käyttöketjun hallinta TSTimesheetEntryService-luokassa, kun tuntilomakemerkintä tallennetaan sovelluksesta uudelleen tietokantaan" -osaan jäljempänä tässä aiheessa).
+Tämä ominaisuus on käytettävissä vain, jos **fieldBaseType**-arvoksi on määritetty **merkkijono**. Jos **stringOptions** on määritetty, valintanappien kautta valittavissa olevat merkkijonoarvot (radiopainikkeet) määritetään luettelon merkkijonojen avulla. Jos merkkijonoja ei ole, vapaatekstimuotoinen merkintä merkkijonokentässä sallitaan. (Esimerkki on myöhemmin tässä artikkelissa kohdassa Komentoketjun käyttäminen TSTimesheetEntryService-luokassa tallentamaan tuntilomakemerkintä sovelluksesta takaisin tietokantaan.)
 
 ### <a name="stringlength-int"></a>strinLength (kokonaisluku)
 

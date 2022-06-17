@@ -1,24 +1,24 @@
 ---
 title: Uudet ominaisuudet, lokakuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
-description: Tässä aiheessa on tietoja Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa -palvelun lokakuussa 2021 julkaistussa versiossa saatavilla olevista laatupäivityksistä.
+description: Tässä artikkelissa on tietoja Project Operationsin resursseihin/ei-varastoitaviin perustuvien skenaarioiden lokakuun 2021 version päivityksessä olevista laatupäivityksistä.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4dc5cc9a5842a02338b99c7c8d707bc0b81c74a1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598484"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914633"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Uudet ominaisuudet, lokakuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 
 *Käytetään: Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa*
 
-Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
+Tämä artikkeli koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
 
    - Project Operations Microsoft Dataversessä ympäristöversio 4.25.0.91
    - Projektinhallinta ja kirjanpito Dynamics 365 Finance -ympäristön versiossa 10.0.21

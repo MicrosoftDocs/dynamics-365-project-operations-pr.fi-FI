@@ -1,17 +1,17 @@
 ---
 title: Toimittaja- ja ostohinnastojen hallinta Project Operationsissa
-description: Tässä aiheessa on tietoja, joiden avulla voit luoda ja ylläpitää toimittajatietoja sekä ostohintaluetteloita alihankkijoita varten.
+description: Tässä artikkelissa on tietoja, joiden avulla voidaan luoda ja ylläpitää toimittajatietoja sekä ostohintaluetteloita alihankkijoita varten.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 9c76d5ca45e03167f0ccfd2c1c7013f91fef0f86
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6840ffcbc510fe6385dd3fdaf881e9700c4fdd18
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914122"
 ---
 # <a name="vendor-and-purchase-price-list-management-in-project-operations"></a>Toimittaja- ja ostohinnastojen hallinta Project Operationsissa
 

@@ -1,17 +1,17 @@
 ---
 title: Projektin palvelusopimukset – keskeiset käsitteet
-description: Tässä aiheessa on tietoja projektisopimusten avainkonsepteista Project Operationsissa.
+description: Tässä artikkelissa on tietoja projektisopimusten avainkonsepteista Project Operationsissa.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926220"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Projektipohjaisten palvelusopimusten yksilölliset käsitteet
 
@@ -19,7 +19,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 
 
-Tämä aihe sisältää tärkeimmät käsitteet, jotka on otettava huomioon, ennen kuin aloitat projektisopimusten käyttämisen Dynamics 365 Project Operationsissa:
+Tässä artikkelissa käsitellään tärkeimmät käsitteet, jotka on otettava huomioon, ennen kuin projektisopimusten käyttäminen aloitetaan Dynamics 365 Project Operationsissa:
 
 ## <a name="owning-company"></a>Omistava yritys
 

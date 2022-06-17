@@ -1,6 +1,6 @@
 ---
 title: Resurssinhallinnan kotisivu
-description: Tässä aiheessa on tietoja resurssien hallinnasta.
+description: Tässä artikkelissa on tietoja resurssien hallinnasta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913248"
 ---
 # <a name="resource-management-home-page"></a>Resurssinhallinnan kotisivu
 
@@ -31,9 +31,9 @@ ms.locfileid: "8578750"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Resurssit ovat palvelupohjaisen organisaation tärkeimpiä varoja. Mahdollisuus löytää ja varata oikeat resurssit oikeaan aikaan, kun niitä tarvitaan, ja pitää ne käytössä, auttaa organisaatiota täyttämään tulotavoitteen ja asiakastyytyväisyystavoitteet. Seuraavat ohjeaiheet keskittyvät Dynamics 365 Project Service Automationin resurssiehallintatoimintoihin:
+Resurssit ovat palvelupohjaisen organisaation tärkeimpiä varoja. Mahdollisuus löytää ja varata oikeat resurssit oikeaan aikaan, kun niitä tarvitaan, ja pitää ne käytössä, auttaa organisaatiota täyttämään tulotavoitteen ja asiakastyytyväisyystavoitteet. Seuraavat artikkelit keskittyvät Dynamics 365 Project Service Automationin resurssienhallintatoimintoihin:
 
-- [Hallitse resursseja](manage-resources.md)
+- [Resurssien hallinta](manage-resources.md)
 - [Keskeiset käsitteet](reports-key-concepts.md)
 - [Resurssipyyntöjen täyttäminen](resource-management-fulfill-requests.md)
 - [Resurssien ehdottaminen](resource-management-propose-resources.md)

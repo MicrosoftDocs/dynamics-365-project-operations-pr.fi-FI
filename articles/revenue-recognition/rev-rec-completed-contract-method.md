@@ -1,23 +1,23 @@
 ---
 title: Myyntituottoarvioiden hallinta
-description: Tässä aiheessa on tietoja myyntituottoarvioiden määrittämisestä projekteille.
+description: Tässä artikkelissa on tietoja myyntituottoarvioiden määrittämisestä projekteille.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928474"
 ---
 # <a name="manage-revenue-estimates"></a>Myyntituottoarvioiden hallinta
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Voit luoda, laskea, kirjata, peruuttaa tai eliminoida tuottoarvioita. Voit tehdä tämän joko manuaalisesti tai kausittaisen prosessin avulla. Tässä aiheessa on tietoja myyntituottoarvioiden määrittämisestä projekteille.
+Voit luoda, laskea, kirjata, peruuttaa tai eliminoida tuottoarvioita. Voit tehdä tämän joko manuaalisesti tai kausittaisen prosessin avulla. Tässä artikkelissa on tietoja myyntituottoarvioiden määrittämisestä projekteille.
 
 ### <a name="manage-revenue-estimates-manually"></a>Myyntituottoarvioiden manuaalinen hallinta
 

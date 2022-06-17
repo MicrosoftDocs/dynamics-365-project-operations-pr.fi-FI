@@ -1,6 +1,6 @@
 ---
 title: Varattavissa olevan resurssin käyttäminen hinnoitteludimensiona
-description: Tässä aiheessa on tietoja varattavissa olevan resurssin käyttämisestä hinnoitteludimensiona.
+description: Tässä artikkelissa on tietoja varattavissa olevan resurssin käyttämisestä hinnoitteludimensiona.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576404"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916100"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Varattavissa olevan resurssin käyttäminen hinnoitteludimensiona
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Tässä aiheessa on tietoja varattavissa olevan resurssin käyttämisestä hinnoitteludimensiona. Ennen kuin aloitat, jos et ole vielä luonut hinnoitteludimensioratkaisua, sinun on luotava uusi. Jos sinulla on jo hinnoitteludimensioratkaisu, voit tehdä siihen muutoksia. Jos et ole luonut organisaatiolle uutta hinnoitteludimensioratkaisua, suorita toimintosarjat aiheessa [Luo mukautettuja kenttiä ja entiteettejä](create-custom-fields-entities.md).
+Tässä artikkelissa on tietoja varattavissa olevan resurssin käyttämisestä hinnoitteludimensiona. Ennen kuin aloitat, jos et ole vielä luonut hinnoitteludimensioratkaisua, sinun on luotava uusi. Jos sinulla on jo hinnoitteludimensioratkaisu, voit tehdä siihen muutoksia. Jos et ole luonut organisaatiolle uutta hinnoitteludimensioratkaisua, suorita artikkelin [Mukautettujen kenttien ja entiteettien luominen](create-custom-fields-entities.md) toimintosarjat.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Varattavissa olevan resurssin lisääminen lomakkeisiin ja näkymiin
 Jos haluat tehdä kentistä näkyvän hinnoitteludimensioratkaisun käyttöliittymässä, sinun täytyy käydä läpi kaikki lomakkeet ja näkymät keskeisissä Project Service -entiteeteissä ja lisätä nämä kentät lomakkeisiin ja näkymiin kyseisissä entiteeteissä.

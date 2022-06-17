@@ -1,6 +1,6 @@
 ---
 title: Tarjoukset - keskeiset käsitteet
-description: Tässä aiheessa on tietoja Project Operations -sovelluksen projekti- ja myyntitarjouksista.
+description: Tässä artikkelissa on tietoja Project Operations -sovelluksen projekti- ja myyntitarjouksista.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912512"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Projektipohjaisten tarjousten yksilölliset käsitteet
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operationsissa on kahdenlaisia tarjouksia: projekti- ja myy
 - **Kentät ja käsitteet**: Myyntitarjous ei sisällä kaikkia projektitarjouksen kenttiä ja käsitteitä. Kenttiä ovat esimerkiksi **Sopimusyksikkö**, **Asiakaspäällikkö** ja **Laskutusyhteyshenkilön nimi**.  
 - **Tyyppi**: Myynti- ja projektitarjouksille määritetään myös asetusjoukkoperusteinen kenttä, jonka nimi on **Tyyppi**. Myyntitarjouksessa tällä kentällä on arvo **Nimikepohjainen**. Projektitarjouksessa sen arvo on **Työpohjainen**.
 
-Tässä aiheessa keskitytään projektitarjousten tietoihin.
+Tässä artikkelissa keskitytään projektitarjousten tietoihin.
 
 Project Operations -sovelluksessa projektitarjouksella voi olla useita rivinimikkeitä tai tarjousrivejä. Itse asiassa projektitarjouksella on kaksi ruudukkoa. Yksi ruudukko on yksityiskohtaiset arviot mahdollistavia projektiperusteisia kenttiä varten. Toinen ruudukko on sellaisia tuoteperusteisia rivejä varten, jossa käytetään yksinkertaista yksikköhintaa ja määräperusteista lähestymistapaa.
 

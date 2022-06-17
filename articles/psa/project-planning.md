@@ -1,6 +1,6 @@
 ---
 title: Projektin suunnittelun kotisivu
-description: Tässä aiheessa on tietoja projektin suunnittelusta.
+description: Tässä artikkelissa on tietoja projektin suunnittelusta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919090"
 ---
 # <a name="project-planning-home-page"></a>Projektin suunnittelun kotisivu
 
@@ -43,7 +43,7 @@ PSA-projektinhallintatyökalujen avulla voit helposti suorittaa projekteja. Valm
 - Resurssivaatimusten ennustaminen tuleville projekteille.
 - Projektien toimittaminen menestyksekkäästi seuraamalla edistymistä ja toteutuneita kustannuksia.
 
-Seuraavissa aiheissa on tietoja, joiden avulla projektipäälliköt voivat arvioida työtä, arvioida projektin kustannuksia ja ennustaa resurssitarpeita käyttämällä PSA:n tukemia työkaluja:
+Seuraavissa artikkeleissa on tietoja, joiden avulla projektipäälliköt voivat arvioida työtä, arvioida projektin kustannuksia ja ennustaa resurssitarpeita käyttämällä PSA:n tukemia työkaluja:
 
 - [Aikataulun luominen](project-creating.md)
 - [Projektin kustannusten ja tuottojen arviointi](project-estimating.md)

@@ -1,6 +1,6 @@
 ---
 title: Työrakenteen päivitykseen liittyvät seikat
-description: Tässä aihe on tietoja työrakenteen päivittämisestä Project Service Automation 2.x:n ja 3.x:n välillä.
+description: Tässä artikkelissa on tietoja työrakenteen päivittämisestä Project Service Automation 2.x:stä 3.x:een.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913110"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Työrakenteen päivitykseen liittyvät seikat
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Tässä aihe on tietoja työrakenteen päivittämisestä Project Service Automation 2.x:n ja 3.x:n välillä. Tämä aihe määrittää project Service Automation (PSA) -projektin terveen tilan, jota päivityksen onnistuminen edellyttää. Siinä on myös tietoja yleisistä estoehdoista, jotka aiheuttavat päivityksen epäonnistumisen. Lisätietoja projektitehtävien ja niiden toimintojen määrittämisestä projektiaikataulussa on aiheessa [Projektiaikataulut](project-creating.md).
+Tässä artikkelissa on tietoja työrakenteen päivittämisestä Project Service Automation 2.x:stä 3.x:een. Tämä artikkeli määrittää Project Service Automation (PSA) -projektin terveen tilan, jota päivityksen onnistuminen edellyttää. Siinä on myös tietoja yleisistä estoehdoista, jotka aiheuttavat päivityksen epäonnistumisen. Lisätietoja projektitehtävien ja niiden toimintojen määrittämisestä projektiaikataulussa on aiheessa [Projektiaikataulut](project-creating.md).
 
 ## <a name="key-entities"></a>Avainentiteetit
 Seuraavat entiteetit vaaditaan tarkkaa työrakennetta varten, jossa on jo resursseja:

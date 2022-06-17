@@ -1,24 +1,24 @@
 ---
 title: Kustannusmallien määrittäminen
-description: Tässä aiheessa on tietoja kustannusmallien luomisesta ja käyttämisestä Project Operationsissa.
+description: Tässä artikkelissa on tietoja kustannusmallien luomisesta ja käyttämisestä Project Operationsissa.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918400"
 ---
 # <a name="set-up-cost-templates"></a>Kustannusmallien määrittäminen
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
 
-Tässä aiheessa on tietoja kustannusmallien luomisesta ja käyttämisestä Project Operationsissa. Kustannusmalli määrittää seuraavat asiat:
+Tässä artikkelissa on tietoja kustannusmallien luomisesta ja käyttämisestä Project Operationsissa. Kustannusmalli määrittää seuraavat asiat:
 
 - Projektiluokat ennusteiden ja todellisten arvojen tapahtumille, jotka sisällytetään projektin valmistumisasteprosentin laskelmiin. Valmistumisprosentin arvoa käytetään sen jälkeen sen laskemiseen, kuinka paljon tuottoa kirjataan.
 - Voidaanko valmistumisprosenttia muokata, jos se lasketaan automaattisesti.

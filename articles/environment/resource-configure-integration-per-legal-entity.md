@@ -1,23 +1,23 @@
 ---
 title: Project Operations -integroinnin määrittäminen oikeushenkilöä kohden
-description: Tämä aihe sisältää tietoja integroinnin määrittämisestä yrityksen mukaan Project Operationsissa.
+description: Tässä artikkelissa on tietoja integroinnin määrittämisestä yrityksen mukaan Project Operationsissa.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914674"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Project Operations -integroinnin määrittäminen oikeushenkilöä kohden 
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Tässä aiheessa kuvaillaan Dynamics 365 Project Operationsin yrityskohtaisen määrittämisen vaiheita.
+Tässä artikkelissa käsitellään Dynamics 365 Project Operationsin yrityskohtaisen määrittämisen vaiheita.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Toimintonäppäinten ottaminen käyttöön Dynamics 365 Financessa
 

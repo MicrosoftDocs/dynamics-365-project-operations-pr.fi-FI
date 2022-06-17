@@ -1,24 +1,24 @@
 ---
 title: Heinäkuun 2021 Project Operations lite-käyttöönoton uudet ominaisuudet
-description: Tässä aiheessa on tietoja laatupäivityksistä, jotka ovat käytettävissä Project Operationsin lite-käytöönoton heinäkuussa 2021 julkaistussa versiossa .
+description: Tässä artikkelissa on tietoja Project Operations Lite -käyttöönoton heinäkuussa 2021 julkaistussa versiossa saatavilla olevista laatupäivityksistä.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 475ceea3a6c6db9fe63e3950eaca5d9074faa766
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7964f38c1bc7a8e0440e2e922ff153fd9bede131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913984"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Heinäkuun 2021 Project Operations lite-käyttöönoton uudet ominaisuudet
 
 _Käytetään: Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
+Tämä artikkeli koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
 
   - Project Operations Dataversessä ympäristöversio 4.12.0.148 tai 4.12.0.152.
 

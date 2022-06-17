@@ -1,6 +1,6 @@
 ---
 title: Uutuudet ja muutokset Project Service Automation -päivitysjulkaisussa 19, V3
-description: Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat käytettävissä Project Service Automation -päivitysjulkaisussa 19, V3.
+description: Tässä artikkelissa on luettelo ominaisuuksista ja korjauksista Project Service Automationin päivitysjulkaisussa 19, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 96229a6c656cd88b7314b4692ae5d53897b4e6c5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a17275220eec726107e8ce5f82bdf5cdd403033e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915502"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation -päivitysjulkaisu 19, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8596108"
 
 Meillä on ilo julkistaa Dynamics 365:n Project Service Automation-sovelluksen uusin päivitys. Tämä julkaisu sisältää joitakin tärkeitä parannuksia laatuun, tehokkuuteen ja käytettävyyteen. Tämä versio on yhteensopiva Dynamics 365 -versioiden 9.x kanssa. Jos haluat päivittää tämän julkaisun, avaa Dynamics 365 online -hallintakeskuksen Ratkaisut-sivu ja asenna päivitys. Lisätietoja: [Ensisijaisen ratkaisun asentaminen, päivittäminen tai poistaminen](/power-platform/admin/install-remove-preferred-solution).
 
-Tässä aiheessa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia tai muuttuneita PSA V3 -päivitysjulkaisussa 19. Tämän version koontiversion numero on V3.10.30.41, ja se on yleisesti saatavana itsepäivittyvänä toukokuussa 2020.
+Tässä artikkelissa on luettelo ominaisuuksista ja korjauksista, jotka ovat uusia tai muuttuneita PSA V3:n päivitysjulkaisussa 19. Tämän version koontiversion numero on V3.10.30.41, ja se on yleisesti saatavana itsepäivittyvänä toukokuussa 2020.
 
 ## <a name="update-release-19"></a>Päivitysjulkaisu 19
 

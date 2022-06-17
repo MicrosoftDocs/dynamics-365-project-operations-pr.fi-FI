@@ -1,18 +1,18 @@
 ---
 title: Hinnoitteludimensioiden yleiskatsaus
-description: Tässä aiheessa on tietoja hinnoitteludimensioista Dynamics 365 Project Operationsissa.
+description: Tässä artikkelissa on tietoja Dynamics 365 Project Operationsin hinnoitteludimensioista.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918032"
 ---
 # <a name="pricing-dimensions-overview"></a>Hinnoitteludimensioiden yleiskatsaus
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operationsin kanssa toimitetaan hinnoitteludimensioiden ole
 
 ![Näyttökuva Project Service -parametreista, joissa Sovelletaan myyntiin on korostettu.](media/PS-OOB-parameters.png)
 
-Jos sinun on määritettävä resurssiesi hintoja tai kustannuksia lisämääritteitä käyttäen, voit luoda mukautettuja kenttiä, entiteettejä ja dimensioita. Lisätietoja on seuraavissa aiheissa. 
+Jos sinun on määritettävä resurssiesi hintoja tai kustannuksia lisämääritteitä käyttäen, voit luoda mukautettuja kenttiä, entiteettejä ja dimensioita. Lisätietoja on seuraavissa artikkeleissa. 
   
   > [!NOTE]
   > Toimintosarjat on suoritettava siinä järjestyksessä, jossa ne on lueteltu.

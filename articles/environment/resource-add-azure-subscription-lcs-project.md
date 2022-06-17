@@ -1,23 +1,23 @@
 ---
 title: Azure-tilauksen lisääminen LCS-projektiin
-description: Tässä aiheessa on tietoja siitä, miten Azure-tilauksen voi yhdistää LCS-projektiin.
+description: Tässä artikkelissa on tietoja siitä, miten Azure-tilauksen voi yhdistää LCS-projektiin.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595908"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912144"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure-tilauksen lisääminen LCS-projektiin
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Pilvipalvelussa isännöidyt ympäristöt on otettava käyttöön aiemmin luodun Azure-tilauksen avulla. Tässä aiheessa on tietoja siitä, miten olemassa olevan Azure-tilauksen voi yhdistää LCS-projektiin. 
+Pilvipalvelussa isännöidyt ympäristöt on otettava käyttöön aiemmin luodun Azure-tilauksen avulla. Tässä artikkelissa on tietoja siitä, miten olemassa olevan Azure-tilauksen voi yhdistää LCS-projektiin. 
 
 ## <a name="grant-admin-consent"></a>Myönnä järjestelmänvalvojan suostumus
 
@@ -59,7 +59,7 @@ Valtuutus on nyt valmis.
 2. Anna Azure-tilaustunnuksesi. Voit etsiä Azure-tilaustunnuksen [Azure-portaalista](https://ms.portal.azure.com/) näytön vasemmassa alakulmassa olevasta **Asetukset**-kohdasta.
 3. Valitse **Määritä käyttämään Azure Resource Manageria** -kentässä **Kyllä**.
 4. Varmista, että Azuren tilauksen AAD-vuokraajan toimialue vastaa käytettyä toimialueen omistavan Azure-tilausksen toimialuetta ja valitse **Seuraava**.
-5. Vahvista valitsemalla **Microsoft Azure -määritys** -näytössä **Seuraava**. Jos näyttöön tulee virhe tässä näytössä, palaa tämän aiheen osaan [Dynamics Deployment Services -käyttöoikeuksien antaminen Azure-tilaukselle](#provide) javarmista, että olet suorittanut kaikki vaiheet.
+5. Vahvista valitsemalla **Microsoft Azure -määritys** -näytössä **Seuraava**. Jos näyttöön tulee virhe tässä näytössä, palaa tämän artikkelin kohtaan [Dynamics-käyttöottopalvelujen käyttäminen Azure-tilauksessa](#provide) ja varmista, että olet suorittanut kaikki vaiheet.
 6. Lataa Azure-hallintavarmenne tietokoneesi paikalliseen kansioon. Pyydä Azure-tilausjärjestelmänvalvoja lataamaan varmenne Azure-hallintaportaaliin valitsemalla tilaus ja valitsemalla **Asetukset** > **Hallinnan varmenteet**. Tämän varmenteen avulla LCS voi olla yhteydessä Azureen puolestasi. Voit ohittaa tämän vaiheen, jos käyttäjälläsi on tilauksen käyttöoikeus.
 7. Valitse **Seuraava**.
 8. Valitse Azure-alue, johon otetaan käyttöön, ja valitse sitten palvelinkeskus, joka on lähellä sijaintia, jossa aiot käyttää tätä järjestelmää.

@@ -1,23 +1,23 @@
 ---
 title: Projektin palvelusopimuksen asetukset
-description: Tässä aiheessa on tietoja kentistä, jotka vaikuttavat sopimusriveihin, sekä sopimustietoihin, joista on tehty yhteenveto kaikille rivinimikkeille.
+description: Tässä artikkelissa on tietoja kentistä, jotka vaikuttavat sopimusriveihin, sekä sopimustiedoista, joista on tehty yhteenveto kaikille rivinimikkeille.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921574"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Projektipohjaisten sopimusten otsikkotiedot
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Tässä aiheessa on tietoja koko projektisopimusta koskevista kentistä, mukaan lukien asetukset, jotka vaikuttavat kaikkiin sopimusriveihin. Mukana on myös tietoja palvelusopimuksesta, joka on koottu kaikkiin rivikohteisiin projektisopimuksen suorituskykyilmaisimien mukaan.
+Tässä artikkelissa on tietoja koko projektisopimusta koskevista kentistä, mukaan lukien asetuksista, jotka vaikuttavat kaikkiin sopimusriveihin. Mukana on myös tietoja palvelusopimuksesta, joka on koottu kaikkiin rivikohteisiin projektisopimuksen suorituskykyilmaisimien mukaan.
 
 Seuraavassa taulukossa on luettelo projektisopimuksen kentistä, jotka ovat yksilöllisiä Dynamics 365 Project Operationsissa tai joiden myyntitilausten toimintatavoissa on tärkeitä muutoksia Dynamics 365 Salesissa.
 

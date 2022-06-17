@@ -1,33 +1,33 @@
 ---
 title: Uusien hinnoitteludimensioiden päivittäminen laajennusmääritteisiin
-description: Tässä aiheessa on tietoja laajennusmääritteiden päivittämisestä hinnoitteludimensioille.
+description: Tässä artikkelissa on tietoja hinnoitteludimensioiden laajennusmääritteiden päivittämisestä.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920010"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Uusien hinnoitteludimensioiden päivittäminen laajennusmääritteisiin
 
-Tässä aiheessa on tietoja laajennusmääritteiden päivittämisestä hinnoitteludimensioille.
+Tässä artikkelissa on tietoja hinnoitteludimensioiden laajennusmääritteiden päivittämisestä.
 
 > [!NOTE]
-> Tämä aihe koskee vain tarjous- ja sopimusominaisuuksia Dynamics 365 Project Operationsissa.
+> Tämä artikkeli koskee vain tarjous- ja sopimusominaisuuksia Dynamics 365 Project Operationsissa.
 
-## <a name="prerequisites"></a>Edellytykset
-Ennen kuin suoritat tässä aiheessa kuvatut vaiheet, seuravissa aiheissa kuvattujen toimintosarjojen on oltava suoritettuina:
+## <a name="prerequisites"></a>edellytykset
+Ennen kuin suoritat tässä artikkelissa käsitellyt vaiheet, seuraavissa artikkeleissa käsiteltyjen toimintosarjojen on oltava suoritettuina:
 
   - [Mukautettujen kenttien ja entiteettien luominen](create-custom-fields-entities-pricing-dimensions.md) 
   - [Mukautettujen kenttien lisääminen hintamääritys- ja tapahtumaentiteetteihin ](add-custom-fields-price-setup-transactional-entities.md)
   - [Mukautettujen kenttien määrittäminen hinnoitteludimensioiksi](set-up-custom-fields-pricing-dimensions.md). 
   
-Jos et ole suorittanut näitä toimintosarjoja loppuun, suorita ne ja palaa sen jälkeen tähän aiheeseen.
+Jos et ole suorittanut näitä toimintosarjoja loppuun, suorita ne ja palaa sen jälkeen tähän artikkeliin.
 
 ## <a name="register-a-plug-in"></a>Laajennuksen rekisteröiminen
 Kun tarjousrivin tieto luodaan **Tarjousrivi**-sivulla projektin tarjouriville, järjestelmä luo kaksi arvioriviä. Yksi rivi on arvion kustannuspuolelle, ja toinen rivi on myyntipuolelle. Tämä on sama projektin sopimusriveille.

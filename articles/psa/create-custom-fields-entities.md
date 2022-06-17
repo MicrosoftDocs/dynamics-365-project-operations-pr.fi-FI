@@ -1,6 +1,6 @@
 ---
 title: Mukautettujen kenttien ja entiteettien luominen
-description: Tässä aiheessa selitetään, miten Power Apps-ympäristön omassa ratkaisussasi luodaan asetusjoukkoja ja entiteettejä.
+description: Tässä artikkelissa käsitellään sitä, miten Power Apps-ympäristön omassa ratkaisussa luodaan asetusjoukkoja ja entiteettejä.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926910"
 ---
 # <a name="create-custom-fields-and-entities"></a>Mukautettujen kenttien ja entiteettien luominen 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Toimi seuraavasti aina, kun haluat luoda mukautetun asetusjoukon tai entiteetin Power Apps-ympäristössä.  
-Tämän aiheen toimintojoukot on tarkoitus suorittaa Project Service Automationin (PSA) verkkoliittymän avulla.
+Tämän artikkelin toimintosarjat tarkoitus suorittaa Project Service Automationin (PSA) verkkoliittymässä.
 
 > [!IMPORTANT]
 > Suosittelemme kaikkien mukautettujen hinnoitteludimensioiden muutokset erillisessä ratkaisussa. Tämä tärkeä paras käytäntö varmistaa, että muutoksia voidaan myöhemmin päivittää tai poistaa tarpeen mukaan, auttaa työn uudelleenkäytössä ja helpottaa näiden muutosten siirtämistä toiseen esiintymään. Kun olet tehnyt kaikki tarvittavat muutokset, vie tämä ratkaisu muodossa **Hallittu ratkaisu** ja tuo se muihin esiintymiin, jotta voit käyttää hinnoittelumäärityksiäsi uudelleen.

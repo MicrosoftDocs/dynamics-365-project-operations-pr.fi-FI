@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920654"
 ---
 # <a name="work-breakdown-structures-overview"></a>Työrakenteiden yleiskatsaus
 
@@ -35,7 +35,7 @@ Työrakenteen yksityiskohtaisuus riippuu arvioissa tarvitusta tarkkuustasosta se
 
 Sen sijaan projektit median ja markkinoinnin, ohjelmistojen ja IT-infrastruktuurin kaltaisilla toimialoilla ovet yleensä ainutkertaisia, ja tuottavuus riippuu tehtävän suorittavan henkilön kokemuksesta ja pätevyydestä. Siksi näillä toimialoilla käytetään työrakennetta arvion saamiseksi projektin koosta eikä kyseisen projektin edistymisen yksityiskohtaiseen seurantaan. 
 
-Työrakenteen luominen on intensiivinen prosessi, joka yleensä toteutetaan pitkän ajan kuluessa ja edellyttää yhteistyötä ja tietoja monenlaisilta henkilöiltä. Tässä aiheessa kerrotaan, miten voit käyttää työrakenteen parannuksia täyttämään arvioita ja seurantaa koskevat tarpeesi.
+Työrakenteen luominen on intensiivinen prosessi, joka yleensä toteutetaan pitkän ajan kuluessa ja edellyttää yhteistyötä ja tietoja monenlaisilta henkilöiltä. Tässä artikkelissa käsitellään sitä, miten työrakenteen parannusten avulla voidaan käyttää arvioita ja seurantaa koskevat tarpeet.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Työrakenteen luomisen edellytykset
 Työrakenteen luomista varten sinun on voitava luoda työaikataulu ja arvioitava työkustannukset.
@@ -166,7 +166,7 @@ Financessa on kolme näkymää projektin työrakenteelle: Suunnittelunäkymä, T
 
 ### <a name="planning-view"></a>Suunnittelunäkymä
 
-Suunnittelunäkymässä näkyy aikataulu- ja kustannustietojen suunniteltu tai perustason arvio. Vaikka projektin työrakenteen version ja perustason seuraamiseen ei ole toimintoja, tämän näkymän arvot on tarkoitettu edustamaan perusversiota. Tämän aiheen osissa Aikatauluarvio ja Kustannusarvio kuvataan tätä näkymää ja sitä, miten sitä käytetään työrakenteen luomiseen.
+Suunnittelunäkymässä näkyy aikataulu- ja kustannustietojen suunniteltu tai perustason arvio. Vaikka projektin työrakenteen version ja perustason seuraamiseen ei ole toimintoja, tämän näkymän arvot on tarkoitettu edustamaan perusversiota. Tämän artikkelin osissa Aikatauluarvio ja Kustannusarvio kuvataan tätä näkymää ja sitä, miten sitä käytetään työrakenteen luomiseen.
 
 ### <a name="effort-tracking-view"></a>Työmäärän seurantanäkymä
 

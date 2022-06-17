@@ -1,6 +1,6 @@
 ---
 title: Päivitä laajennusmääritteet sisältämään uudet hinnoitteludimensiot
-description: Tässä aiheessa on tietoja laajennusmääritteiden päivittämisestä hinnoitteludimensioille.
+description: Tässä artikkelissa on tietoja hinnoitteludimensioiden laajennusmääritteiden päivittämisestä.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913202"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Päivitä laajennusmääritteet sisältämään uudet hinnoitteludimensiot
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Jos et käytä Project Service Automationin (PSA) tarjous- ja sopimusominaisuuksia, voit ohittaa tämän aiheen.
+> Jos Project Service Automationin (PSA) tarjous- ja sopimusominaisuuksia ei käytetä, tämä artikkeli voidaan ohittaa.
 
-Aihe olettaa, että olet suorittanut toimintosarjat aiheissa [Luo mukautettuja kenttiä ja entiteettejä](create-custom-fields-entities.md), [Lisää mukautettuja kenttiä hintojen määrittelyyn ja tapahtumaentiteetteihin](field-references.md) ja [Lisää mukautettuja kenttiä hintadimensioiksi](set-up-pricing-dimensions.md). Jos et ole suorittanut näitä toimintosarjoja loppuun, palaa niihin ja suorita ne, ja palaa sen jälkeen tähän aiheeseen.
+Artikkelissa oletetaan, että artikkelien [Mukautettujen kenttien ja entiteettien luominen](create-custom-fields-entities.md), [Mukautettujen kenttien lisääminen hintojen määrittelyyn ja tapahtumaentiteetteihin](field-references.md) ja [Mukautettujen kenttien lisääminen hintadimensioiksi](set-up-pricing-dimensions.md) toimintosarjat on suoritettu. Jos et ole suorittanut näitä toimintosarjoja loppuun, palaa niihin, suorita ne ja palaa sitten tähän artikkeliin.
 
 Kun tarjousrivin tiedot luodaan **Tarjousrivi**-sivulla projektin tarjousriville, järjestelmä luo kaksi arvioriviä taustalle -- yhden rivin arvion kulupuolelle ja toisen myyntipuolelle. Tämä on sama projektin sopimusriveille.
 

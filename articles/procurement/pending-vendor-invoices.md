@@ -1,18 +1,18 @@
 ---
 title: Ei-varastoivien materiaalien tai hankintaluokkien ostaminen odottavan toimittajan laskun avulla
-description: Tässä aihe, miten odottavat toimittajan laskut tallennetaan.
+description: Tässä artikkelissa käsitellään odottavien toimittajan laskujen kirjaamista.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612653"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921988"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Ei-varastoivien materiaalien tai hankintaluokkien ostaminen odottavan toimittajan laskun avulla
 
@@ -23,7 +23,7 @@ Kun yritys hankkii ei-varastoituja materiaaleja tai hankintaluokkia projektille,
 Esimerkiksi Contoso Robotics US tekee välineiden uusimisprojektin ja tarvitsee ohjelmistojen käyttöoikeuksia. Nämä käyttöoikeudet hankitaan ulkopuoliselta toimittajalta.  Dynamics 365 Financen avulla ostoreskontran kirjanpitäjä kirjaa odottavan toimittajan laskuasiakirjan ja määrittää käyttöoikeuskustannukset suoraan välineiden uusimisprojektiin. 
 
 > [!IMPORTANT]
-> Ennen kuin käytät tässä aiheessa kuvattuja toimintoja, tarkista ja ota käyttöön tarvittavat määritykset. For Lisätietoja on ohjeaiheessa [Ei-varastoitujen materiaalien ja odottavien toimittajan laskujen käyttöönotto](configure-materials-nonstocked.md) ja [Hankintaluokkien käyttö projektin ostotilauksissa ja odottavissa toimittajan laskuissa](configure-procurement-categories.md)
+> Ennen kuin tässä artikkelissa kuvattuja toimintojen käytetään, pakolliset määritykset on tarkistettava ja niitä on käytettävä: For Lisätietoja on ohjeaiheessa [Ei-varastoitujen materiaalien ja odottavien toimittajan laskujen käyttöönotto](configure-materials-nonstocked.md) ja [Hankintaluokkien käyttö projektin ostotilauksissa ja odottavissa toimittajan laskuissa](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Projektiin liittyvän odottavan toimittajan laskun kirjaaminen 
 

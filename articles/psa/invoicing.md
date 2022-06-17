@@ -1,6 +1,6 @@
 ---
 title: Laskutus Project Service Automationissa
-description: Tässä aiheessa on tietoja laskutuksesta.
+description: Tässä artikkelissa on tietoja laskutuksesta.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579302"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926818"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Laskutus Project Service Automationissa
 
@@ -94,7 +94,7 @@ Kun **ProcessRunner** on valmis, se kutsuu työnkulun **ProcessRunCaller**, anta
 Laskujen luomisen erätyö on toistuva työ. Jos tämä erätyö suoritetaan useita kertoja, siitä luodaan useita esiintymiä, mikä voi aiheuttaa virheitä. Siksi erätyö kannatta käynnistää vain kerran ja käynnistää uudelleen vain, jos se pysähtyy.
 
 > [!NOTE]
-> Project Service Automationin erälaskutus suoritetaan vain laskutusaikataulujen määrittämillä projektisopimusriveillä. Jos sopimusrivillä on kiinteähintainen laskutusmenetelmä, sillä on oltava määritettyinä välitavoitteet. Jos projektisopimusrivillä on aika- ja materiaalipohjainen laskutusmenetelmä, sille on määritettävä päivämäärään perustuva laskutusaikataulu. Tietoja laskutustiheyksien määrittämisestä tarjousriviin perustuvassa projektissa on kohdassa [Tarjoukset ja tarjousrivit](basic-quote-lines.md#invoice-schedule). Sama koskee myös projektipohjaista sopimusriviä.      
+> Project Service Automationin erälaskutus suoritetaan vain laskutusaikataulujen määrittämillä projektisopimusriveillä. Jos sopimusrivillä on kiinteähintainen laskutusmenetelmä, sillä on oltava määritettyinä välitavoitteet. Jos projektisopimusrivillä on aika- ja materiaalipohjainen laskutusmenetelmä, sille on määritettävä päivämäärään perustuva laskutusaikataulu. Tietoja laskutustiheyksien määrittämisestä tarjousriviin perustuvassa projektissa on artikkelissa [Tarjoukset ja tarjousrivit](basic-quote-lines.md#invoice-schedule). Sama koskee myös projektipohjaista sopimusriviä.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>PSA-laskun luonnoksen muokkaaminen
 

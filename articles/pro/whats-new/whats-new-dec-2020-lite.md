@@ -1,24 +1,24 @@
 ---
 title: Joulukuun 2020 Project Operations Lite -käyttöönoton uudet ominaisuudet – kaupasta proformalaskutukseen
-description: Tässä aiheessa on tietoja Project Operations Lite -käyttöönoton – kaupasta proformalaskutukseen joulukuun 2020 version päivityksessä olevista laatupäivityksistä.
+description: Tässä artikkelissa on tietoja Project Operations Lite -käyttöönoton – kaupasta proformalaskutukseen joulukuun 2020 version päivityksessä olevista laatupäivityksistä.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924058"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Joulukuun 2020 Project Operations Lite -käyttöönoton uudet ominaisuudet – kaupasta proformalaskutukseen
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
+Tämä artikkeli koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
 
   - Project Operations Dataverse-ympäristön versiossa 4.5.0.134 
 

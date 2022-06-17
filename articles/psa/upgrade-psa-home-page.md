@@ -1,6 +1,6 @@
 ---
 title: Päivityksen kotisivu
-description: Tässä aiheessa kerrotaan, mistä löytää tärkeitä tietoja Dynamics 365 Project Service Automationin uusista ja muuttuneista ominaisuuksista, ja uuteen versioon päivittämisen prosessista.
+description: Tässä artikkelissa käsitellään, missä on tärkeitä tietoja Dynamics 365 Project Service Automationin uusista ja muuttuneista ominaisuuksista sekä uuteen versioon päivittämisestä.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926634"
 ---
 # <a name="upgrade-home-page"></a>Päivityksen kotisivu
 
@@ -48,14 +48,14 @@ Aiemmin asiakkaiden, joilla on esiintymä PSA:n versiosta 2.x, ja joiden tuli p�
 Suosittelemme, että suoritat seuraavat tehtävät ennen päivitysprosessin aloittamista:
 
 - Tarkista, ovatko sekä Dynamics 365 Field Service että Project Service Automation asennettu tunnistettuun esiintymään. Jos molemmat ratkaisut on asennettu, sinun on päivitettävä molemmat, ennen kuin voit jatkaa esiintymän säännöllistä käyttöä.
-- Tutustu seuraaviin aiheisiin huolellisesti. Versioiden välisten muutosten tiedostaminen ja ymmärtäminen auttaa päivitysprosessissa. Nämä aiheet sisältävät tietoja PSA:N merkittävistä muutoksista sekä huomioista ja suosituksista, jotka koskevat päivityksen suunnittelua versioon 3. x.
+- Tutustu huolellisesti seuraaviin artikkeleihin. Versioiden välisten muutosten tiedostaminen ja ymmärtäminen auttaa päivitysprosessissa. Nämä artikkelit sisältävät tietoja PSA:n merkittävistä muutoksista sekä huomioista ja suosituksista, jotka koskevat päivityksen suunnittelua versioon 3. x.
 
     - [Uutuudet ja muutokset Project Service Automation -versiossa 3](whats-new-changed-v3.md)
     - [Päivitykseen liittyviä huomioita - Project Service Automation versio 2.x tai 1.x versioon 3](upgrade-v3.md)
 
 - Päivitä Sandbox-esiintymä arvioidaksesi muutoksia toteutukseesi ennen kuin päivität tuotantoesiintymän.
 
-Kun olet tarkistanut aiemmin mainitut aiheet ja olet valmis päivittämään PSA-versioon 3. x tai UCI-pohjaiseen versioon, lähetä pyyntö Microsoftin tuelle, jotta päivitys voidaan asettaa saataville hallintakeskuksesta. Anna pyynnössäsi esiintymäsi tiedot.
+Kun olet perehtynyt aiemmin mainittuihin artikkeleihin ja olet valmis päivittämään PSA-versioon 3. x tai UCI-pohjaiseen versioon, lähetä pyyntö Microsoftin tuelle, jotta päivitys voidaan asettaa saataville hallintakeskuksesta. Anna pyynnössäsi esiintymäsi tiedot.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Vanhemmat PSA:n versiot (PSA versio 2.x) äskettäin luodussa esiintymässä
 

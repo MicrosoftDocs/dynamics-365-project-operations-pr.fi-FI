@@ -1,6 +1,6 @@
 ---
 title: Entiteettien, ohjausobjektien ja käyttöliittymän muutokset (Project Service Automation 3. x)
-description: Tässä aiheessa kuvataan ratkaisumuutokset versiossa Microsoft Dynamics Project Service Automation 3.x.
+description: Tässä artikkelissa käsitellään Microsoft Dynamics Project Service Automation 3.x -version ratkaisumuutoksia.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926864"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Entiteettien, ohjausobjektien ja käyttöliittymän muutokset (Project Service Automation 3. x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Version Microsoft Dynamics Project Service Automation (PSA) 3.x julkaisun myötä entiteetteihin, ohjausobjekteihin, näkymiin ja käyttöliittymään on tehty monia muutoksia. Tässä aiheessa annetaan tietoja näistä tärkeistä muutoksista.
+Version Microsoft Dynamics Project Service Automation (PSA) 3.x julkaisun myötä entiteetteihin, ohjausobjekteihin, näkymiin ja käyttöliittymään on tehty monia muutoksia. Tässä artikkelissa on tietoja näistä tärkeistä muutoksista.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Ylä- ja alatason suhteet entiteeteille myyntiasiakirja, myyntiasiakirjan rivi ja myyntiasiakirjan rivin tiedot
 Ennen versiota 3.0 julkaistuissa Dynamics 365 Project Service Automationin (PSA:n) versioissa osa myyntiasiakirjojen, myyntiasiakirjojen rivien ja myyntiasiakirjojen rivien tietojen välisistä suhteista toteutettiin merkkijonokentillä, jotka sisälsivät niihin liittyvien entiteettien GUID-tunnuksen merkkijonomuodossa. Tämä johtui ympäristörajoituksista, jotka edellyttivät merkittävää mukautetun koodin määrää ratkaisun palvelin- ja asiakaspuolella, jotta kyseiset suhteet toimisivat samankaltaisesti kuin tyypilliset Dynamics CRM -entiteettien suhteet ja jotta merkkijonokentät toimisivat valintakenttien tavoin.

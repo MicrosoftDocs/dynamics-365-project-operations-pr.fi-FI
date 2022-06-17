@@ -1,17 +1,17 @@
 ---
 title: Taidot ja sertifioinnit
-description: Tässä aiheessa on tietoja osaamisalueiden ja sertifiointien ominaisuuksien lisäämisestä resursseisin.
+description: Tässä artikkelissa on tietoja osaamisalueiden ja sertifiointien ominaisuuksien lisäämisestä resursseihin.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 12871964fec536849c55888f0704725b439dd2af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918355"
 ---
 # <a name="skills-and-certifications"></a>Taidot ja sertifioinnit
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_

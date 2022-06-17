@@ -1,26 +1,26 @@
 ---
 title: Varattavissa olevan resurssin käyttäminen hinnoitteludimensiona
-description: Tässä aiheessa on tietoja varattavissa olevan resurssin käyttämisestä hinnoitteludimensiona.
+description: Tässä artikkelissa on tietoja varattavissa olevan resurssin käyttämisestä hinnoitteludimensiona.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914812"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Varattavissa olevan resurssin käyttäminen hinnoitteludimensiona
 
  _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_ 
 
-Tässä aiheessa on tietoja varattavissa olevan resurssin käyttämisestä hinnoitteludimensiona. Jos hinnoittelustrategiasi on määritetty siten, että kullakin varattavissa olevalla resurssilla on oltava tiettyhinta tai kustannushinta, käytä varattavissa olevaa resurssia hinnoitteludimensiona.
+Tässä artikkelissa on tietoja varattavissa olevan resurssin käyttämisestä hinnoitteludimensiona. Jos hinnoittelustrategiasi on määritetty siten, että kullakin varattavissa olevalla resurssilla on oltava tiettyhinta tai kustannushinta, käytä varattavissa olevaa resurssia hinnoitteludimensiona.
 
-## <a name="prerequisites"></a>Edellytykset
-Ennen kuin suoritat tämän aiheen kuvailemat toimintosarjat, organisaatiolla on oltava uusi hinnoitteludimensioratkaisu. Jos et ole vielä luonut sellaista, katso kohtaa [Mukautettujen kenttien ja entiteettien luominen](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+## <a name="prerequisites"></a>edellytykset
+Organisaatiolla on oltava uusi hinnoitteludimensioratkaisu, ennen tässä artikkelissa käsiteltyjen toimintosarjojen suorittamista. Jos et ole vielä luonut sellaista, katso kohtaa [Mukautettujen kenttien ja entiteettien luominen](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Varattavissa olevan resurssin kentän lisääminen lomakkeisiin ja näkymiin
 Jotta **Varattavissa oleva resurssi** -kenttä näkyisi hinnoitteludimensioratkaisussa, kenttä on lisättävä kaikkiin lomakkeisiin ja näkymiin entiteettinä.

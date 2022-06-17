@@ -1,17 +1,17 @@
 ---
 title: Resurssien hallintatilojen yleiskatsaus
-description: Tässä aiheessa on tietoja resurssienhallinnan toiminnosta Dynamics 365 Project Operationsissa.
+description: Tässä artikkelissa on tietoja Dynamics 365 Project Operationsin resurssinhallintatoiminnosta.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928428"
 ---
 # <a name="resource-management-modes-overview"></a>Resurssien hallintatilojen yleiskatsaus
 
@@ -38,7 +38,7 @@ Organisaatioille, jotka tarvitsevat resurssien kohdentamisen joustavuutta, hybri
 
 ![Hybriditila.](./media/resource-management-hybrid.png)
 
-Tuetun keskitetyn tilan prosessin lisäksi voit hallita kaikkia muita tuettuja varaustyönkulkuja hybriditilassa seuraavien aiheiden ohjeiden mukaisesti:
+Tuetun keskitetyn tilan prosessin lisäksi voit hallita kaikkia muita tuettuja varaustyönkulkuja hybriditilassa seuraavien artikkelien ohjeiden mukaisesti:
 
 Resurssin varaaminen suoraan projektiin:
 - [Nimettyjen varattavissa olevien resurssien varaaminen projektiryhmälle ja tehtävien kohdennus](/dynamics365/project-service/assign-named-bookable-resource)

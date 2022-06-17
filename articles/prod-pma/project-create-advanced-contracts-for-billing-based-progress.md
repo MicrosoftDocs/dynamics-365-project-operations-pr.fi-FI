@@ -1,6 +1,6 @@
 ---
 title: Etenemiseen perustuvien edistyksellisten hinnoittelusopimusten luominen
-description: Tässä aiheessa kerrotaan, miten projektisopimuksia luodaan, jotta asiakkaille voidaan luoda laskuja valmiin työn prosenttimäärän perusteella.
+description: Tässä artikkelissa käsitellään sitä, miten projektisopimuksia luodaan, jotta asiakkaille voidaan luoda laskuja valmiin työn prosenttimäärän perusteella.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683159"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913662"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Etenemiseen perustuvien edistyksellisten hinnoittelusopimusten luominen
 [!include [banner](../includes/banner.md)]
 
-Tässä aiheessa kerrotaan, miten projektisopimuksia luodaan, jotta asiakkaille voidaan luoda laskuja valmiin työn prosenttimäärän perusteella. Laskun summat lasketaan automaattisesti projektille määritettyjen budjettiluokkien mukaan. Laskun ajoitus määritetään, kun neuvotellaan projektisopimuksesta asiakkaan kanssa.
+Tässä artikkelissa käsitellään sitä, miten projektisopimuksia luodaan, jotta asiakkaille voidaan luoda laskuja valmiin työn prosenttimäärän perusteella. Laskun summat lasketaan automaattisesti projektille määritettyjen budjettiluokkien mukaan. Laskun ajoitus määritetään, kun neuvotellaan projektisopimuksesta asiakkaan kanssa.
 
-Tämän aiheen ohjeiden avulla voit määrittää palvelusopimuksen, siihen liittyvän projektin ja laskutussäännöt, jotka laskevat projektin budjettiluokkien laskujen summat.
+Tämän artikkelin ohjeiden avulla voidaan määrittää palvelusopimus, siihen liittyvä projekti ja laskutussäännöt, jotka laskevat projektin budjettiluokkien laskujen summat.
 
 Kun olet luonut palvelusopimuksen ja projektin, voit määrittää projektin tiedot. Voit esimerkiksi määrittää aktiviteetteja ja delegoida työntekijöitä projektiin.
 

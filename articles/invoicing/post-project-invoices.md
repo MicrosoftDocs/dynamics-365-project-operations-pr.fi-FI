@@ -1,17 +1,17 @@
 ---
 title: Laskutusprosessin yleiskatsaus
-description: Tässä aiheessa on tietoja laskutuksesta Project Operationsissa resurssi-/ei-varastoitavissa skenaarioissa.
+description: Tässä artikkelissa on tietoja laskutuksesta Project Operationsissa resurssi-/ei-varastoitavissa skenaarioissa.
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b285a88be14a5972e9a4604713d7d35a3a442b6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582706"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923092"
 ---
 # <a name="invoicing-process-overview"></a>Laskutusprosessin yleiskatsaus
 

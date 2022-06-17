@@ -1,23 +1,23 @@
 ---
 title: Projektin palvelusopimuksen asetukset – lite
-description: Tässä aiheessa on tietoja kentistä, jotka vaikuttavat sopimusriveihin, sekä sopimustietoihin, joista on tehty yhteenveto kaikille rivinimikkeille.
+description: Tässä artikkelissa on tietoja kentistä, jotka vaikuttavat sopimusriveihin, sekä sopimustietoihin, joista on tehty yhteenveto kaikille rivinimikkeille.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586386"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917066"
 ---
 # <a name="header-details-for-project-contracts"></a>Projektisopimusten otsikkotiedot
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Tässä aiheessa on tietoja koko projektisopimusta koskevista kentistä, mukaan lukien asetukset, jotka vaikuttavat kaikkiin sopimusriveihin. Mukana on myös tietoja palvelusopimuksesta, joka on koottu kaikkiin rivikohteisiin projektisopimuksen suorituskykyilmaisimien mukaan.
+Tässä artikkelissa on tietoja koko projektisopimusta koskevista kentistä, mukaan lukien asetuksista, jotka vaikuttavat kaikkiin sopimusriveihin. Mukana on myös tietoja palvelusopimuksesta, joka on koottu kaikkiin rivikohteisiin projektisopimuksen suorituskykyilmaisimien mukaan.
 
 Seuraavassa taulukossa on luettelo projektisopimuksen kentistä, jotka ovat yksilöllisiä Dynamics 365 Project Operationsissa tai joiden myyntitilausten toimintatavoissa on tärkeitä muutoksia Dynamics 365 Salesissa.
 

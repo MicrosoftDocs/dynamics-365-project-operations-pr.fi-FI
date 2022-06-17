@@ -1,23 +1,23 @@
 ---
 title: Uudet ominaisuudet marraskuussa 2020 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
-description: Tässä aiheessa on tietoja Project Operationsin resursseihin ja ei-varastoitaviin perustuvien skenaarioiden marraskuun 2020 version päivityksissä olevia laatupäivityksiä.
+description: Tässä artikkelissa on tietoja Project Operationsin resursseihin/ei-varastoitaviin perustuvien skenaarioiden marraskuun 2020 version päivityksessä olevista laatupäivityksistä.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600370"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923414"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Uudet ominaisuudet marraskuussa 2020 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
+Tämä artikkeli koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
 
 - Project Operations CDS-ympäristön versiossa 4.4.0.70
 - Projektinhallinta ja kirjanpito Dynamics 365 Finance -ympäristön versiossa 10.0.14

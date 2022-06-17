@@ -1,17 +1,17 @@
 ---
 title: Rekisteröi resurssien/ei-varastoitavien skenaarioiden Project Operations -esiversiotilaus
-description: Tässä aiheessa on tietoja siitä, miten tilataan ja otetaan käyttöön Project Operations resurssien/ei-varastoitavien skenaarioille.
+description: Tässä artikkelissa on tietoja siitä, miten Project Operations tilataan ja otetaan käyttöön resurssien ja ei-varastoitavien skenaarioissa.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920102"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Rekisteröi resurssien/ei-varastoitavien skenaarioiden Project Operations -esiversiotilaus
 
@@ -19,7 +19,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 
 
-Tässä aiheessa kerrotaan, miten kokeilutarjouksen tilaaminen ja Project Operations -ympäristön käyttöönotto resurssi- tai ei-varastopohjaisissa skenaarioissa suoritetaan.
+Tässä artikkelissa käsitellään kokeilutarjouksen tilaamista ja Project Operations -ympäristön käyttöönottoa resurssi- tai ei-varastopohjaisissa skenaarioissa.
 
 ## <a name="prerequisites"></a>Edellytykset
 - Esiversion käyttöön ottavalla käyttäjällä on oltava Azure-vuokraajaan yleisen järjestelmänvalvojan oikeudet. Voit luoda vuokraajan ensimmäisen tarjouksen aikana. 
@@ -60,19 +60,19 @@ Siirry [Dynamics 365 for Finance Preview -kokeiluversioon](https://aka.ms/trypoc
 
 ## <a name="start-a-new-project-in-lcs"></a>Aloita uusi projekti LCS:ssä
 
-Luo uusi LCS-projekti aiheessa [Aloita uusi projekti LCS:ssä](create-lcs-project.md) kuvatulla tavalla
+Uusi LCS-projekti luodaan artikkelissa [Uuden projektin aloittaminen LCS:ssä](create-lcs-project.md) kuvatulla tavalla
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Azure-tilauksen lisääminen LCS-projektiin
 
-Voit suorittaa tämän tehtävän noudattamalla ohjeitaaiheessa [Lisää Azure-tilaus LCS-projektiin](resource-add-azure-subscription-lcs-project.md).
+Tämän tehtävä suoritetaan artikkelin [Azure-tilauksen lisääminen LCS-projektiin](resource-add-azure-subscription-lcs-project.md) ohjeiden mukaisesti.
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Finance-esittely-ympäristön käyttöönotto Project Operationsin resurssien/ei-varastoitavien skenaarioille
 
-Noudata ohjeita aiheessa [Uuden ympäristön valmistelu](resource-provision-new-environment.md) vimeistelläksesi käyttöönoton. Käytä [esittely-ympäristö](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) -käyttöönottotyyppiä esiversiossa. 
+Käyttöönotto viimeistellään artikkelin [Uuden ympäristön valmistelu](resource-provision-new-environment.md) ohjeiden mukaisesti. Käytä [esittely-ympäristö](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) -käyttöönottotyyppiä esiversiossa. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Asenna CDS:n määritys- ja konfiguraatiotiedot
 
-Asenna CDS:n määritys- ja konfiguraatiotiedot aiheessa [Konfiguraatiotietojen määritys ja käyttöönotto Common Data Servicessa](resource-apply-pro-setup-config-data.md) kuvatulla tavalla.
+CDS:n asetukset ja määritystiedot asennetaan artikkelin [Määritystietojen asentaminen ja käyttäminen Common Data Servicessa](resource-apply-pro-setup-config-data.md) ohjeiden mukaisesti.
 Suorita tämä vaihe vasta, kun Finance-esittely-ympäristö on otettu käyttöön ja esittelytiedot ovat käyttövalmiita.
 
 

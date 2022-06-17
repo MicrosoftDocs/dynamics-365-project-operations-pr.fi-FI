@@ -1,6 +1,6 @@
 ---
 title: Päivittäminen Project Service Automationista Project Operationsiin
-description: Tässä aiheessa on yleiskatsaus päivittämisestä Microsoft Dynamics 365 Project Service Automationista Dynamics 365 Project Operationsiin.
+description: Tässä artikkelissa on yleiskatsaus Microsoft Dynamics 365 Project Service Automationin päivittämisestä Dynamics 365 Project Operationsiin.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626712"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912972"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Päivittäminen Project Service Automationista Project Operationsiin
 
-Olemme iloisia voidessamme julkaista kolme ensimmäistä vaihetta päivittämisessä Microsoft Dynamics 365 Project Service Automationista Dynamics 365 Project Operationsiin. Tässä aiheessa on yleiskatsaus asiakkaille, jotka ovat lähdössä tälle jännittävälle matkalle. Tulevissa aiheissa käsitellään kehittäjiä koskevia seikkoja ja ominaisuuksien parannuksia. Niissä tulee olemaan ohjeita, joiden avulla voit valmistautua päivittämiseen Project Operationsiin. Lisäksi selitetään, mitä voit odottaa päivityksen valmistuttua.
+Olemme iloisia voidessamme julkaista kolme ensimmäistä vaihetta päivittämisessä Microsoft Dynamics 365 Project Service Automationista Dynamics 365 Project Operationsiin. Tässä artikkelissa on yleiskatsaus asiakkaille, jotka ovat lähdössä tälle jännittävälle matkalle. Tulevissa artikkelissa käsitellään kehittäjiä koskevia seikkoja ja ominaisuuksien parannuksia. Niissä tulee olemaan ohjeita, joiden avulla voit valmistautua päivittämiseen Project Operationsiin. Lisäksi selitetään, mitä voit odottaa päivityksen valmistuttua.
 
 Päivityksen toimitus jakautuu kolmeen vaiheeseen.
 
@@ -90,7 +90,7 @@ Kun olet päivittänyt mukautukset Project Operationsin puhdasta tuontia varten,
     > [!NOTE]
     > Päivitys voi kestää useita tunteja sen mukaan, miten paljon tietoja ympäristössä on. Päivitystä hallinnoivan ydinryhmän on suunniteltava päivitys asiaankuuluvasti ja suoritettava päivitys työajan ulkopuolella. Jos tietomäärä on suuri, päivitys tulee joissakin tapauksissa suorittaa viikonloppuna. Aikataulutusta koskevan päätöksen tulisi perustua alempien ympäristöjen testaustuloksiin.
 
-3. Päivitä mukautetut ratkaisut tarpeen mukaan. Ota tässä vaiheessa käyttöön muutokset, jotka teit mukautuksiin tämän aiheen osassa [Mukautusten testaaminen ja optimointi](#testing-and-refactoring-customizations).
+3. Päivitä mukautetut ratkaisut tarpeen mukaan. Ota tässä vaiheessa käyttöön muutokset, jotka teit mukautuksiin tämän artikkelin kohdassa [Mukautusten testaaminen ja optimointi](#testing-and-refactoring-customizations).
 4. Siirry kohtaan **Asetukset** \> **Ratkaisut** ja valitse **Project Operationsin vanhentuneet komponentit** -ratkaisun asennuksen poistaminen.
 
     Tämä ratkaisu on tilapäinen ratkaisu, joka sisältää päivityksen aikana olemassa olevat komponentit ja tietomallin. Kun poistat tämän ratkaisun, poistat kaikki kentät ja komponentit, joita ei enää käytetä. Näin voit yksinkertaistaa käyttöliittymää sekä helpottaa integrointia ja laajennuksia.
@@ -126,7 +126,6 @@ Project Operationsin jatkuvan kehittämisen ansiosta laskutukseen ja hinnoittelu
 | Project Service Automation                             | Project Operationsin käyttöönotto – lite                        | Tuettu               |
 | Dynamics 365 Financen projektinhallinta ja kirjanpito | Project Operationsin käyttöönotto – lite                        | Ei tueta tällä hetkellä |
 | Projektinhallinta ja kirjanpito Financessa              | Project Operations resurssien ja ei-varastoitavien skenaarioissa     | Ei tueta tällä hetkellä |
-| Projektinhallinta ja kirjanpito Financessa              | Project Operations varastoitavien/tuotantotilausten skenaarioissa | Ei tueta tällä hetkellä |
 | Project Service Automation 3.x                         | Project Operations resurssien ja ei-varastoitavien skenaarioissa     | Ei tueta tällä hetkellä |
 | Project for the Web (erillinen ympäristö)            | Project Operationsin käyttöönotto – lite                        | Ei tueta tällä hetkellä |
 

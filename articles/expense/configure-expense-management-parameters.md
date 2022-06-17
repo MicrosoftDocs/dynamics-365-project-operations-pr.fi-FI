@@ -1,23 +1,23 @@
 ---
 title: Kulujen hallintaparametrien määrittäminen
-description: Tässä aiheessa kuvataan parametreja, joilla hallitaan yleistä toimintaa kulujen hallinnassa.
+description: Tässä artikkelissa käsitellään parametreja, joilla hallitaan yleistä toimintaa kulujen hallinnassa.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: bbaabd34d8f4af5dbcaff507fbb9f8de79355aa4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6432e119f38071b028c013561bab99820778a11d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931464"
 ---
 # <a name="configure-expense-management-parameters"></a>Kulujen hallintaparametrien määrittäminen
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Tässä aiheessa kuvataan parametreja, joilla hallitaan yleistä toimintaa kulujen hallinnassa.
+Tässä artikkelissa käsitellään parametreja, joilla hallitaan yleistä toimintaa kulujen hallinnassa.
 
 ## <a name="general"></a>Yleistiedot
 

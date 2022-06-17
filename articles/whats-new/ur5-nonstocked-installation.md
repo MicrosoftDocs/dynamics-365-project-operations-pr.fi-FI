@@ -1,25 +1,25 @@
 ---
 title: Project Operationsin päivittäminen Finance-ympäristössä
-description: Tässä aiheessa on tietoja Project Operationsin päivittämisestä Dynamics 365 Finance -ympäristössä.
+description: Tässä artikkelissa on tietoja Project Operationsin päivittämisestä Dynamics 365 Finance -ympäristössä.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912466"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Project Operationsin päivittäminen Finance-ympäristössä
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
 
-Tässä aiheessa on tietoja Dynamics 365 Project Operationsin päivittämisestä Dynamics 365 Finance -ympäristössä. Project Operationsin päivittäminen päivitysversioon 5 (UR5) edellyttää kolmea toimenpidettä:
+Tässä artikkelissa on tietoja Dynamics 365 Project Operationsin päivittämisestä Dynamics 365 Finance -ympäristössä. Project Operationsin päivittäminen päivitysversioon 5 (UR5) edellyttää kolmea toimenpidettä:
 
 - [Paketin tuominen esiversioprojektiin](#import)
 - [Asenna päivitys](#apply)

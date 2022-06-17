@@ -1,28 +1,28 @@
 ---
 title: Projektiaikataulun ohjelmointirajapinnan suorituskyky
-description: Tässä aiheessa on tietoja projektiaikataulun ohjelmointirajapintojen suorituskykyilmaisimista ja käytännöistä, jotka liittyvät tehostamiseen.
+description: Tässä artikkelissa on tietoja projektiaikataulun ohjelmointirajapintojen suorituskykyilmaisimista ja käytännöistä, jotka liittyvät tehostamiseen.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593838"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911178"
 ---
 # <a name="project-schedule-api-performance"></a>Projektiaikataulun ohjelmointirajapinnan suorituskyky
 
 _**Koskee seuraavaa:** Project Operations resursseihin/ei-varastoitaviin perustuville skenaarioille, lite-käyttöönotto - tarjouksesta proformalaskutukseen, Project for the web_
 
-Tässä aiheessa on tietoja projektiaikataulun ohjelmointirajapintojen suorituskykyilmaisimista (API:en) ja käytännöistä, jotka liittyvät käytön tehostamiseen.
+Tässä artikkelissa on tietoja projektiaikataulun ohjelmointirajapintojen suorituskykyilmaisimista ja käytännöistä, jotka liittyvät käytön tehostamiseen.
 
 ## <a name="project-scheduling-service"></a>Projektin aikataulutuspalvelu
 Projektin aikataulutuspalvelu on usean vuokraajan palvelu, joka suoritetaan Microsoft Azure -palvelussa. Se on suunniteltu parantamaan vuorovaikutusta tarjoamalla nopean ja sujuvan kokemuksen, kun käyttäjät työskentelevät projekteissa. Tämä parannus saavutetaan hyväksymällä muutospyynnöt, käsittelemällä ne ja palauttamalla tulos välittömästi. Palvelu säilyy asynkronisesti Dataversen kanssa eikä estä käyttäjiä suorittamasta muita toimintoja.
 
-Projektin aikataulutuksen ohjelmointirajapinnat käyttävät projektin aikataulutuspalvelua pyyntöjen suorittamiseen, jotka on kuvattu tarkemmin tämän aiheen myöhemmissä osissa.
+Projektin aikataulutuksen ohjelmointirajapinnat käyttävät projektin aikataulutuspalvelua pyyntöjen suorittamiseen, jotka on kuvattu tarkemmin tämän artikkelin myöhemmissä osissa.
 
 Projektiaikataulun ohjelmointirajapinnat on suunniteltu siten, että niiden avulla voi käyttää seuraavia työrakenteen (WBS) entiteettejä:
 

@@ -1,18 +1,18 @@
 ---
 title: Toimittajalaskutuksen integrointi
-description: Tässä aiheessa on tietoja toimittajalaskujen integroinnista Project Operationsissa.
+description: Tässä artikkelissa on tietoja toimittajalaskujen integroinnista Project Operationsissa.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591171"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912052"
 ---
 # <a name="vendor-invoice-integration"></a>Toimittajalaskutuksen integrointi
 
@@ -21,7 +21,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 Projektiin liittyvät alennukset Dynamics 365 Project Operationsissa voidaan kirjata valitsemalla **Ostoreskontralaskut** > **Laskut** > **Odottavat toimittajan laskut** ja käyttämällä odottavaa toimittajan laskuasiakirjaa. Lisätietoja on ohjeaiheessa [Ei-varastoivien materiaalien ostaminen odottavien toimittajan laskun avulla](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Ennen kuin käytät tässä aiheessa kuvattuja toimintoja, tarkista ja ota käyttöön tarvittavat määritykset. Lisätietoja on ohjeaiheessa [Ei-varastoivien materiaalien ja odottavien toimittajan laskujen ottaminen käyttöön](../procurement/configure-materials-nonstocked.md).
+> Ennen kuin tässä artikkelissa kuvattuja toimintojen käytetään, pakolliset määritykset on tarkistettava ja niitä on käytettävä: Lisätietoja on ohjeaiheessa [Ei-varastoivien materiaalien ja odottavien toimittajan laskujen ottaminen käyttöön](../procurement/configure-materials-nonstocked.md).
 
 Project Operationsissa projektiin liittyvät toimittajalaskut kirjataan käyttämällä erityisiä kirjaussääntöjä:
 

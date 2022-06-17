@@ -1,6 +1,6 @@
 ---
 title: Resurssien hallinnan muutokset (Project Service Automation 3.x)
-description: Tässä aiheessa on tietoja resurssien hallinnan muutoksista.
+description: Tässä artikkelissa on tietoja resurssien hallinta-alueen muutoksista.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,18 +15,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d19b8b453c544bb4c6fd11a8b9f750cb08e0c168
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cac11606811632bdc48f462eb3a09a163ba1620d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595494"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916008"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Resurssien hallinnan muutokset (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Tämän aiheen osissa on tietoja muutoksista, joita on tehty resurssien hallinnan alueelle Dynamics 365 Project Service Automation versiossa 3. x.
+Tämän artikkelin osissa on tietoja muutoksista, joita on tehty resurssien hallinta-alueelle Dynamics 365 Project Service Automationin versiossa 3.x.
 
 ## <a name="project-estimates"></a>Projektin arviot
 

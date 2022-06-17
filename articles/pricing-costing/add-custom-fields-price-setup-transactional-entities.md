@@ -1,6 +1,6 @@
 ---
 title: Pakollisten mukautettujen kenttien lisääminen hintamääritys- ja tapahtumaentiteetteihin
-description: Tässä aihessa on tietoja pakollisten mukautettujen kenttien viittausten lisäämisestä entiteettiin sekä lomakkeisiin ja näkymiin.
+description: Tässä artikkelissa on tietoja pakollisten mukautettujen kenttien viittausten lisäämisestä entiteettiin sekä lomakkeisiin ja näkymiin.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926036"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Pakollisten mukautettujen kenttien lisääminen hintamääritys- ja tapahtumaentiteetteihin
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Tässä aiheessa oletetaan, että olet suorittanut aiheen [Mukautettujen kenttien ja entiteettien luominen hinnoitteludimensioita varten](create-custom-fields-entities-pricing-dimensions.md) vaiheet. Jos et ole suorittanut näitä toimintosarjoja loppuun, palaa niihin ja suorita ne, ja palaa sen jälkeen tähän aiheeseen. 
+Tässä artikkelissa oletetaan, että artikkelin [Mukautettujen kenttien ja entiteettien luominen hinnoitteludimensioita varten](create-custom-fields-entities-pricing-dimensions.md) vaiheet on suoritettu. Jos et ole suorittanut näitä toimintosarjoja loppuun, palaa niihin, suorita ne ja palaa sitten tähän artikkeliin. 
 
-Tämän aiheen vaiheet näyttävät, miten vaadittavat mukautettujen kenttien viitteet lisätään entiteetteihin ja käyttöliittymän (UI) elementteihin, kuten lomakkeisiin ja näkymiin.
+Tämän artikkelin työvaiheet näyttävät, miten vaadittavat mukautettujen kenttien viitteet lisätään entiteetteihin ja käyttöliittymän elementteihin, kuten lomakkeisiin ja näkymiin.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Mukautettujen hintadimensiokenttien lisääminen 
 Kun mukautettuja kenttiä ja entiteettejä on luotu, seuraavana vaiheena on päivittää hinnanmäärittely- ja tapahtumaentiteetit ottamaan huomioon mukautetut entiteetit tai asetusjoukot luomalla viitekenttiä. Riippuen siitä, sisältääkö hinnoitteludimensioiden luettelo asetusjoukkodimensioita vai entiteettidimensioita vai molempia, noudata tilanteen mukaan vain kohdan **Asetusjoukkoperusteiset mukautetut hinnoitteludimensiot** tai kohdan **Entiteettiperusteiset mukautetut hinnoitteludimensiot** tai niiden molempien ohjeita.

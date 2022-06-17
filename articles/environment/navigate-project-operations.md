@@ -1,17 +1,17 @@
 ---
 title: Project Operationsissa siirtyminen
-description: Tässä aiheessa on tietoja Project Operationsin käyttämisestä Lifecycle Servicesessa.
+description: Tässä artikkelissa on tietoja Project Operationsin käyttämisestä Lifecycle Servicesessa.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d8573b65373fe88c5b0617be585e2d3c77f1ca6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931648"
 ---
 # <a name="navigate-project-operations"></a>Project Operationsissa siirtyminen
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations resurssi-/ei-varastoitaville skenaarioille sisä
  - **Common Data Service (CDS) -ympäristön Project Operations**: tämä komponentti sisältää ominaisuuksia ja prosesseja mahdollisuudesta proformalaskutukseen. 
  - **Projektinhallinta ja kirjanpito Dynamics 365 Finance -ympäristössä**: Tämä komponentti kattaa kulujen hallinnan toiminnot, projektilaskennan ja tuottojen kirjaamisen. 
 
-Kun Project Operations on valmisteltu tässä aiheessa kuvatulla tavalla, Project Operationsin molempia komponentteja on helppo käyttää Lifecycle Servicesin (LCS) **Ympäristön tiedot** -sivulta.  
+Kun Project Operations on valmisteltu tässä artikkelissa kuvatulla tavalla, Project Operationsin molempia komponentteja on helppo käyttää Lifecycle Servicesin (LCS) **Ympäristön tiedot** -sivulta.  
 
 Siirry Project Operationsiin CDS-ympäristössä käyttämällä ympäristön nimeä kohdassa **Common Data Servicen ympäristön nimi**. 
 

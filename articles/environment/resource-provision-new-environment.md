@@ -1,18 +1,18 @@
 ---
 title: Uuden ympäristön valmisteleminen
-description: Tässä aiheessa on tietoja siitä, miten uuden Project Operations -ympäristön voi valmistella.
+description: Tässä artikkelissa on tietoja siitä, miten uuden Project Operations -ympäristön voi valmistella.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931602"
 ---
 # <a name="provision-a-new-environment"></a>Uuden ympäristön valmisteleminen
 
@@ -20,7 +20,7 @@ _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perust
 
 
 
-Tässä aiheessa on tietoja uuden Dynamics 365 Project Operations -ympäristön valmistelusta resurssi/ei-varastoitava -pohjaisille skenaarioille.
+Tässä artikkelissa on tietoja uuden Dynamics 365 Project Operations -ympäristön valmistelusta resurssiin tai ei-varastoitaviin perustuville skenaarioille.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Project Operationsin automaattisen valmistelun käyttöönotto LCS-projektissa
 

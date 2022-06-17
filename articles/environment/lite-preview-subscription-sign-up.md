@@ -1,21 +1,21 @@
 ---
 title: Rekisteröityminen esiversion tilaajaksi – lite
-description: Tässä aiheessa on tietoja siitä, miten voit tilata ja ottaa käyttöön Project Operationsin lite – kauppa proformalaskutukseen -käyttöönoton.
+description: Tässä artikkelissa on tietoja siitä, miten voit tilata ja ottaa käyttöön Project Operations Lite -käyttöönotto – kauppa proformalaskutukseen.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921252"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Rekisteröityminen esiversion tilaajaksi – lite 
 
-Tässä aiheessa selostetaan kokeilutarjouksen tilaamista ja Dynamics 365 Project Operations -lite-käyttöönottoa kaupasta proformalaskutukseen.
+Tässä artikkelissa käsitellään kokeilutarjouksen tilaamista ja otetaan käyttöön Dynamics 365 Project Operations Lite -käyttöönottoa – kauppa proformalaskutukseen.
 
 > [!NOTE]
 > Tämä prosessi muuttuu Project Operationsin tulevissa versioissa.
@@ -50,7 +50,7 @@ Ennen kuin aloitat, varmista, että olet kirjautunut selaimeen, jossa on käytt�
 
 ## <a name="create-a-new-dataverse-environment"></a>Uuden Dataverse -ympäristön luominen
 
-1. Valmistele uusi Project Operations Dataverse -käyttöönottoympäristö noudattamalla aiheen [Dataverse-käyttöönoton malli](lite-deployment.md) -ohjeita. Kun valitset ympäristötyypin, varmista, että käytät **kokeiluversiota (tilaukseen perustuva)**.
+1. Valmistele uusi Project Operations Dataverse -käyttöönottoympäristö noudattamalla ohjeita artikkelissa [Dataverse-käyttöönottomalli](lite-deployment.md). Kun valitset ympäristötyypin, varmista, että käytät **kokeiluversiota (tilaukseen perustuva)**.
 
   ![Uusi ympäristö.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Ennen kuin aloitat, varmista, että olet kirjautunut selaimeen, jossa on käytt�
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Asenna CDS-määritys ja määritä esittelytiedot
 
-Asenna CDS-määritykset ja määritä esittelytiedot noudattamalla ohjeita aiheessa [Ota käyttöön esittelyn määritystiedot](lite-apply-demo-setup-config-data.md).
+Asenna CDS-määritykset ja määritä esittelytiedot noudattamalla ohjeita artikkelissa [Esittelyn asetus- ja määritystietojen käyttäminen](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

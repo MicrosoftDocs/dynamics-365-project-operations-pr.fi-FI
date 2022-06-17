@@ -1,24 +1,24 @@
 ---
 title: uudet ominaisuudet huhtikuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
-description: Tässä aiheessa on tietoja Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa huhtikuun 2021 julkaisussa saatavilla olevista laatupäivityksistä.
+description: Tässä artikkelissa on tietoja Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa huhtikuun 2021 julkaisussa saatavilla olevista laatupäivityksistä.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589100"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912420"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>uudet ominaisuudet huhtikuu 2021 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
+Tämä artikkeli koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
 
 - Project Operations Dataverse-ympäristön versiossa 4.9.0.221
 - Projektinhallinta ja kirjanpito Dynamics 365 Finance -ympäristön versiossa 10.0.17

@@ -1,6 +1,6 @@
 ---
 title: Uusien mukautettujen entiteettilomakkeiden lisääminen (Project Service Automation 2. x)
-description: Tämä aihe sisältää tietoja mukautettujen entiteettilomakkeiden lisäämisestä mahdollisuuksille, tarjouksille tai laskuille Dynamics 365 Project Service Automationin versiossa 2.x.
+description: Tässä artikkelissa on tietoja mukautettujen entiteettilomakkeiden lisäämisestä mahdollisuuksille, tarjouksille tai laskuille Dynamics 365 Project Service Automationin versiossa 2.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ffc702bbe9cedb2a0cc8da8d8f58e48005950127
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b7e5cbefd9d9705e0bafcb2551e1ce56457a187e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922724"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Uusien mukautettujen entiteettilomakkeiden lisääminen (Project Service Automation 2. x)
 

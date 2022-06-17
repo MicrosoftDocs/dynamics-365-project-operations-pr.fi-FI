@@ -1,17 +1,17 @@
 ---
 title: Projektisopimusrivin laskutettavien komponenttien määrittäminen
-description: Tässä ohjeaiheessa on tietoja sisällytetyistä, laskutettavista ja ei-laskutettavista komponenteista sopimusriveillä.
+description: Tässä artikkelissa on tietoja sisällytetyistä, laskutettavista ja ei-laskutettavista komponenteista sopimusriveillä.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bd419e189cd063f1cb2a1f0ecd3cd6450de0996b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 175b25dbcc43a5954fbbf2d54efdd73e19395907
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586616"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928290"
 ---
 # <a name="configure-chargeable-components-of-a-project-contract-line"></a>Projektisopimusrivin laskutettavien komponenttien määrittäminen
 

@@ -1,24 +1,24 @@
 ---
 title: Helmikuun 2022 Project Operations Lite -käyttöönoton uudet ominaisuudet
-description: Tässä aiheessa on tietoja Project Operationsin lite-käyttöönoton helmikuussa 2022 julkaistussa versiossa saatavilla olevista laatupäivityksistä.
+description: Tässä artikkelissa on tietoja Project Operationsin lite-käyttöönoton helmikuussa 2022 julkaistussa versiossa saatavilla olevista laatupäivityksistä.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922816"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>Helmikuun 2022 Project Operations Lite -käyttöönoton uudet ominaisuudet
 
 _Käytetään: Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Tämä aihe koskee seuraavia Microsoft Dynamics 365 Project Operationsin osia ja versioita:
+Tämä artikkeli koskee seuraavia Microsoft Dynamics 365 Project Operationsin osia ja versioita:
 
 - Project Operations Dataversessa ympäristöversio 4.28.0.120
 

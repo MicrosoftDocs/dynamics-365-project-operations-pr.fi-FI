@@ -1,6 +1,6 @@
 ---
-title: Raportoinnin kotisivu
-description: Tässä aiheessa on tietoja raportoinnista sovelluksessa Dynamics 365 Project Service Automation.
+title: Raportoinnin aloitussivu
+description: Tässä artikkelissa on tietoja Dynamics 365 Project Service Automationin raportoinnista.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921666"
 ---
 # <a name="reporting-home-page"></a>Raportoinnin aloitussivu
 
@@ -47,7 +47,7 @@ Yhdessä Microsoft Power BI ja Dynamics 365 antavat sinulle tehokkaan tavan käs
 
 
 ## <a name="additional-resources"></a>Lisäresurssit
-Katso lisätietoja raportoinnista PSA:ssa seuraavista aiheista:
+Lisätietoja PSA:n raportoinnista on seuraavissa artikkeleissa:
 
 - [Project Service -tietomallin käsitteleminen](reports-working-project-service-data-model.md)
 - [Koontinäytöt](reports-dashboards.md)

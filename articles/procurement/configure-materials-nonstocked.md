@@ -1,18 +1,18 @@
 ---
 title: Ei-varastoivien materiaalien ja odottavien toimittajan laskujen määrittäminen
-description: Tässä aihe, miten varastoimattomia materiaaleja ja odottavia toimittajan laskuja voi ottaa käyttöön.
+description: Tässä artikkelissa käsitellään sitä, miten varastoimattomia materiaaleja ja odottavia toimittajan laskuja voidaan ottaa käyttöön.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913754"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Ei-varastoivien materiaalien ja odottavien toimittajan laskujen määrittäminen
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Suorita kaksoiskirjoituskarttoja ei-varastoiduille materiaaleille ja toimittajalaskujen integroinnille
 
-Tässä osassa on tietoja ei-varastoituitujen materiaalien ja toimittajalaskujen edellyttämistä kartoista. Tarkista, että [Valmistele uusi ympäristö](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) -aiheessa luetellut tarvittavat kartat ovat käytössä ympäristössä.
+Tässä osassa on tietoja ei-varastoituitujen materiaalien ja toimittajalaskujen edellyttämistä kartoista. Tarkista, että [Uuden ympäristön valmistelu](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) -artikkelissa luetellut tarvittavat kartat ovat käytössä ympäristössä.
 
 1. Siirry Lifecycle Services (LCS) -sivulle, siirry LCS-projektiin ja siirry **Ympäristön tiedot** -sivulle.
 2. Valitse **Common Data Service -ympäristön tiedot** -osassa **Linkitä CDS for Appsiin**. Kun olet valinnut linkin, sinut ohjataan yhdistämismääritysten entiteettiluetteloon.

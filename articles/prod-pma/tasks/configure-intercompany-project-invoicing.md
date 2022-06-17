@@ -1,6 +1,6 @@
 ---
 title: Konsernin sisäisen projektilaskutuksen määrittäminen
-description: Tämä aihe osoittaa, miten projektilaskutus määritetään kahden yrityksen välille organisaatiossa.
+description: Tässä artikkelissa käsitellään projektilaskutuksen määrittämistä kahden yrityksen välille organisaatiossa.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683271"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916606"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Konsernin sisäisen projektilaskutuksen määrittäminen
 
 [!include [banner](../../includes/banner.md)]
 
-Tämä aihe osoittaa, miten projektilaskutus määritetään kahden yrityksen välille organisaatiossa. Tämä tehtävä käyttää USSI-tietojoukkoa.
+Tässä artikkelissa käsitellään projektilaskutuksen määrittämistä kahden yrityksen välille organisaatiossa. Tämä tehtävä käyttää USSI-tietojoukkoa.
 
 1. Siirry siirtymisruudussa kohtaan **Moduulit > Ostoreskontra > Toimittajat > Kaikki toimittajat**.
 2. Etsi ja valitse **Kaikki toimittajat** -luettelosta haluamasi tietue.

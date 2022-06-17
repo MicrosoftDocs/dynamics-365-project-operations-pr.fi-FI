@@ -1,25 +1,25 @@
 ---
 title: Projektiaikataulun ohjelmointirajapintojen käyttäminen Power Automaten kanssa
-description: Tämä aihe tarjoaa näytetyönkulun, joka käyttää projektiaikataulun ohjelmointirajapintoja.
+description: Tässä artikkelissa on näytetyönkulku, joka käyttää projektiaikataulun ohjelmointirajapintoja.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916330"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Projektiaikataulun ohjelmointirajapintojen käyttäminen Power Automaten kanssa
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Tässä aihe kuvaa esimerkkityönkulkua, joka näyttää, miten täydellinen projektisuunnitelma luodaan käyttämällä Microsoft Power Automatea, miten toimintojoukko luodaan ja miten entiteetti päivitetään. Tässä esimerkissä näytetään, miten luodaan projekti, projektiryhmän jäsen, toimintojoukot, projektitehtävät ja resurssimääritykset. Tässä aiheessa on myös tietoja entiteetin päivittämisestä ja toimintojoukon suorittamisesta.
+Tässä artikkelissa käsitellään esimerkkityönkulkua, joka näyttää, miten täydellinen projektisuunnitelma luodaan käyttämällä Microsoft Power Automatea, miten toimintojoukko luodaan ja miten entiteetti päivitetään. Tässä esimerkissä näytetään, miten luodaan projekti, projektiryhmän jäsen, toimintojoukot, projektitehtävät ja resurssimääritykset. Tässä artikkelissa on myös tietoja entiteetin päivittämisestä ja toimintojoukon suorittamisesta.
 
-Seuraavassa on täydellinen luettelo vaiheista, jotka on dokumentoitu tämän aiheen esimerkkityönkulussa:
+Seuraavassa on täydellinen luettelo vaiheista, jotka on dokumentoitu tämän artikkelin esimerkkityönkulussa:
 
 1. [PowerApps-käynnistimen luominen](#1)
 2. [Luo projekti](#2)
@@ -40,11 +40,11 @@ Seuraavassa on täydellinen luettelo vaiheista, jotka on dokumentoitu tämän ai
 
 ## <a name="assumptions"></a>Oletustiedot
 
-Tässä aihe oletetaan, että sinulla on perustiedot Dataverse-alustasta, pilvivirroista ja Project Schedule Application Programming Interface (API) -liittymästä. Lisätietoja on myöhemmin tässä aiheessa kohdassa [Viitteet](#references).
+Tässä artikkelissa oletetaan, että käytössä on perustiedot Dataverse-alustasta, pilvityönkuluista ja projektiaikataulun ohjelmointirajapinnasta. Lisätietoja on myöhemmin tässä artikkelissa kohdassa [Viitteet](#references).
 
 ## <a name="create-a-flow"></a>Luo työnkulku
 
-### <a name="select-an-environment"></a>Valitse ympäristö
+### <a name="select-an-environment"></a>Ympäristön valinta
 
 Voit luoda Power Automate -työnkulun ympäristössäsi.
 
@@ -65,7 +65,7 @@ Voit luoda [ratkaisun huomioon ottavan työnkulun](/power-automate/overview-solu
 1. Valitse **Ratkaisut**-sivulla luomasi ratkaisu ja valitse sitten **Uusi**.
 2. Valitse vasemmanpuoleisesta ruudusta **Pilvityönkulut** \> **Automaatio** \> **Pilvityönkulku** \> **Välitön**.
 3. Kirjoita **Työnkulun nimi** -kenttään **Schedule API Demo Flow**.
-4. Valitse **Valitse , miten työnkulku käynnistyy** -luettelossa **Power Apps**. Kun luot Power Apps -käynnistimen, logiikka on tekijän vastuulla. Jätä tässä aiheessa syöteparametrit tyhjäksi testausta varten.
+4. Valitse **Valitse , miten työnkulku käynnistyy** -luettelossa **Power Apps**. Kun luot Power Apps -käynnistimen, logiikka on tekijän vastuulla. Tässä artikkelissa syöteparametrit jätetään tyhjäksi testausta varten.
 5. Valitse **Luo**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Vaihe 2: Luo projekti

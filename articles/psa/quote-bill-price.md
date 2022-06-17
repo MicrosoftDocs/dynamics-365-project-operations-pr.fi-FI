@@ -1,6 +1,6 @@
 ---
 title: Tarjousten, hinnoittelun ja laskutuksen kotisivu
-description: Tässä aiheessa on tietoja tarjouksista, hinnoittelusta ja laskutuksesta.
+description: Tässä artikkelissa on tietoja tarjouksista, hinnoittelusta ja laskutuksesta.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926726"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Tarjousten, hinnoittelun ja laskutuksen kotisivu
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581096"
 
 Tarjoukset, hinnoittelu ja laskutus ovat ominaisuuksia, joita sekä pienet että suuret organisaatiot käyttävät. Ymmärtämällä miten nämä ominaisuudet toimivat sovelluksessa, organisaatiot voivat mukauttaa määrityksiä helpommin.
 
-Seuraavissa aiheissa on lisätietoja tarjousten, hinnoittelun ja laskutuksen toiminnoista PSA:ssa:
+Seuraavissa artikkeleissa on lisätietoja tarjousten, hinnoittelun ja laskutuksen toiminnoista PSA:ssa:
 
 - [Myyntiprosessi](basic-sales-process.md)
 - [Tarjousrivit](basic-quote-lines.md)

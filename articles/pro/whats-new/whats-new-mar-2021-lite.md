@@ -1,25 +1,25 @@
 ---
 title: Maaliskuun 2021 Project Operations Lite -käyttöönoton uudet ominaisuudet
-description: Tässä aiheessa on tietoja Project Operations Lite -käyttöönoton maaliskuun 2021 version päivityksessä olevista laatupäivityksistä.
+description: Tässä artikkelissa on tietoja Project Operations lite -käyttöönoton maaliskuussa 2021 julkaistussa versiossa saatavilla olevista laatupäivityksistä.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd9c3b5fc4eb30aaf385ba67a8d54875048e40cd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8ab045af503e9944fbc013b4e75ce45446786912
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583856"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913892"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>Maaliskuun 2021 Project Operations Lite -käyttöönoton uudet ominaisuudet
 
 _Käytetään: Lite-käyttöönotto – kauppa proformalaskutukseen_
 
 
-Tämä aihe koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
+Tämä artikkeli koskee seuraavia Dynamics 365 Project Operationsin komponentteja ja versioita:
 
 - Project Operations Dataverse-ympäristön versiossa 4.8.0.91 
 
