@@ -1,24 +1,24 @@
 ---
 title: Project Operationsin lokakuun 2021 uudet tai muuttuneet ominaisuudet varastoitavissa ja tuotantopohjaisissa skenaarioissa
-description: Tässä aiheessa on tietoja Project Operationsin varastoitavissa ja tuotantopohjaisissa skenaarioissa -palvelun marraskuussa 2021 julkaistussa versiossa saatavilla olevista laatupäivityksistä.
+description: Tässä artikkelissa on tietoja Project Operationsin varastoitavissa ja tuotantopohjaisissa skenaarioissa -palvelun marraskuussa 2021 julkaistussa versiossa saatavilla olevista laatupäivityksistä.
 author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933672"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Project Operationsin lokakuun 2021 uudet tai muuttuneet ominaisuudet varastoitavissa ja tuotantopohjaisissa skenaarioissa
 
 _**Koskee:** Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa_
 
-Tämä aihe koskee seuraavia Microsoft Dynamics 365 Project Operationsin osia ja versioita:
+Tämä artikkeli koskee seuraavia Microsoft Dynamics 365 Project Operationsin osia ja versioita:
 
 - Projektinhallinta ja kirjanpito Dynamics 365 Finance -ympäristön versiossa 10.0.22
  

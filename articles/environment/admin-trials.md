@@ -1,17 +1,17 @@
 ---
 title: Hanki Project Operationsin kokeiluversio
-description: Tässä aiheessa on tietoja Dynamics 365 Project Operations -kokeiluversion käyttöönotosta.
+description: Tässä artikkelissa on tietoja Dynamics 365 Project Operations -kokeiluversion käyttöönotosta.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584270"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959429"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Hanki Project Operationsin kokeiluversio 
 
@@ -19,9 +19,9 @@ _**Koskee:** Project Operations resursseihin ja ei-varastoitaviin perustuvissa s
 
 
 
-Tässä aiheessa selostetaan, miten kumppanin ennakkotarjous tilataan ja miten Dynamics 365 Project Operations -ympäristö otetaan käyttöön.
+Tässä artikkelissa käsitellään kumppanin esiversiotarjouksen tilaamista ja Dynamics 365 Project Operations -ympäristön ottamista käyttöön.
 
-Uuden Project Operations -kokeiluversion avulla voit ottaa käyttöön minkä tahansa kolmesta tuetusta käyttöönottoskenaariosta automaattisesti täyttämällä kyselyn, jossa suositellaan parasta käyttöönottotapaa. Tässä aiheessa on tietoja siitä, miten:
+Uuden Project Operations -kokeiluversion avulla voit ottaa käyttöön minkä tahansa kolmesta tuetusta käyttöönottoskenaariosta automaattisesti täyttämällä kyselyn, jossa suositellaan parasta käyttöönottotapaa. Tässä artikkelissa kerrotaan, miten
 
 - Kokeiluversion tarjous lunastetaan.
 - Valmistelu aloitetaan.
@@ -89,7 +89,8 @@ Kirjaudu ennen aloittamista selaimeen käyttäjän työtilillä vuokraajassa, jo
 4.  Tarkista käyttöönotto valitsemalla vastaava Microsoft Dataversen URL-osoite ja talous- ja toimintosovellusten URL-osoitteet.
 
 ## <a name="configuring-dual-write"></a>Kaksoiskirjoituksen määrittäminen
-- Jos haluat määrittää kaksoiskirjoituksen käyttöoikeusroolit, katso kohta [Project Operationsin tietoturva-asetusten päivittäminen Dataversessa](resource-provision-new-environment.md).
+- Jos haluat määrittää kaksoiskirjoituksen käyttöoikeusroolit, katso kohta [Project Operationsin tietoturva-asetusten päivittäminen Dataversessa](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Kaksoiskirjoitusmääritystä voidaan käyttää siirtymällä talous- ja toimintosovellusesiintymään ja valitsemalla sitten **Tiedonhallinta** > **Kaksoiskirjoitus**.
 - Jos haluat tehdä kaksoiskirjoituksen yhdistämismääritykset, katso kohta [Project Operationsin kaksoiskirjoituksen yhdistämismääritysten suorittaminen](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Käyttöoikeuksien määrittäminen

@@ -1,17 +1,17 @@
 ---
 title: Moderneihin hyväksyntöihin liittyviä näkökohtia päivittämistä varten
-description: Tämä aihe kattaa seikat, jotka järjestelmänvalvojien on otettava huomioon, kun he mahdollistivat modernien hyväksyntöjen toiminnan.
+description: Tässä artikkelissa käsitellään asioita, jotka järjestelmänvalvojien on otettava huomioon, kun he mahdollistivat modernien hyväksyntöjen toiminnan.
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: a3757f057a801318feccde9be3e49c7b40fa8fcb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 44a933c92d4ef8dff40f20200d74c4bbdf8caa76
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578382"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931740"
 ---
 # <a name="upgrade-considerations-for-modern-approvals"></a>Moderneihin hyväksyntöihin liittyviä näkökohtia päivittämistä varten 
 

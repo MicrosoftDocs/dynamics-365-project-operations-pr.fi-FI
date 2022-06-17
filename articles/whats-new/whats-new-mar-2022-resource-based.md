@@ -1,24 +1,24 @@
 ---
 title: Maaliskuun 2022 uudet ominaisuudet Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
-description: Tässä aiheessa on tietoja Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa -palvelun maaliskuussa 2022 julkaistussa versiossa saatavilla olevista laatupäivityksistä.
+description: Tässä artikkelissa on tietoja Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa maaliskuussa 2022 julkaistussa versiossa saatavilla olevista laatupäivityksistä.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910902"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Maaliskuun 2022 uudet ominaisuudet Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 
 *Käytetään: Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa*
 
-Tämä aihe koskee seuraavia Microsoft Dynamics 365 Project Operationsin osia ja versioita:
+Tämä artikkeli koskee seuraavia Microsoft Dynamics 365 Project Operationsin osia ja versioita:
 
 - Project Operations Dataversessa ympäristöversio 4.30.0.99
 - Projektinhallinta ja kirjanpito Dynamics 365 Finance -ympäristön versiossa 10.0.25
@@ -91,11 +91,11 @@ Jos kartan käynnistämisen yhteydessä tulee ongelma, seuraa ohjeita [Puuttuvie
 
 ## <a name="removed-and-deprecated-features"></a>Poistetut ja vanhentuneet ominaisuudet
 
-[Project Operationsin poistetut tai vanhentuneet ominaisuudet](removed-depreciated-features-project.md) -aiheessa on kuvattu ominaisuuksia, jotka on poistettu tai vanhentuneet Dynamics 365 Project Operationsissa.
+Artikkelissa [Project Operationsin poistetut tai vanhentuneet ominaisuudet](removed-depreciated-features-project.md) käsitellään ominaisuuksia, jotka on poistettu tai vanhentuneet Dynamics 365 Project Operationsissa.
 
 - Poistettu toiminto ei ole enää käytettävissä tuotteessa.
 - Vanhentunutta ominaisuutta ei enää kehitetä aktiivisesti ja se voidaan poistaa tulevassa päivityksessä.
 
-Vanhentumisilmoitus näkyy [Project Operationsin poistetut tai vanhentuneet toiminnot](removed-depreciated-features-project.md) -ohjeaiheessa 12 kuukautta ennen ominaisuuden poistoa tuotteesta.
+Vanhentumisilmoitus näkyy artikkelissa [Project Operationsin poistetut tai vanhentuneet toiminnot](removed-depreciated-features-project.md) 12 kuukautta ennen ominaisuuden poistoa tuotteesta.
 
 Jos muutokset vaikuttavat vain käännösaikaan, mutta ne ovat binaarisesti yhteensopivia Sandbox- ja tuotantoympäristön kanssa, vanhentumisaika on lyhyempi kuin 12 kuukautta. Yleensä nämä muutokset ovat toiminnallisia päivityksiä, jotka on tehtävä kääntäjään.

@@ -1,6 +1,6 @@
 ---
 title: Yksikköryhmät ja yksiköt
-description: Tässä aiheessa on tietoja yksikköryhmistä ja yksiköistä.
+description: Tässä artikkelissa on tietoja yksikköryhmistä ja yksiköistä.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06490148d0f245ac49d5599e0e23bc1a59976204
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ed413cc927901308a111263dbad1a59af8fce620
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933396"
 ---
 # <a name="unit-groups-and-units"></a>Yksikköryhmät ja yksiköt
 

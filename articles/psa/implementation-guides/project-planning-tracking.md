@@ -1,6 +1,6 @@
 ---
 title: Projektin suunnittelu ja seuranta
-description: Tämä aihe tarjoaa linkin Project Service Automationin suunnitteluun ja seurantaan.
+description: Tässä artikkelissa on linkki Project Service Automationin suunnitteluun ja seurantaan.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933258"
 ---
 # <a name="project-planning-and-tracking"></a>Projektin suunnittelu ja seuranta
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589882"
 
 Project Service-sovelluksen avulla palveluorganisaatiot voivat tunnistaa mahdollisuuksia, lähettää tarjouksia, tehdä sopimuksia, hallita resursseja, seurata aikaa ja kuluja, laskuttaa asiakkaita sekä toimittaa projekteja ajallaan ja budjetin rajoissa. 
 
-Tässä aiheessa aiemmin ollut PDF-linkki on poistettu ja tiedoston sisältö on siirretty seuraaviin aiheisiin:
+Tässä artikkelissa aiemmin ollut PDF-linkki on poistettu ja tiedoston sisältö on siirretty seuraaviin artikkeleihin:
 
 - [Projektiaikataulut](../project-creating.md)
 - [Projektin kustannukset ja tuotto](../project-estimating.md)
@@ -43,7 +43,7 @@ Tässä aiheessa aiemmin ollut PDF-linkki on poistettu ja tiedoston sisältö on
 - [Projektin asetukset](../project-settings.md)
 
 > [!NOTE]
-> Tämä aihe poistetaan myöhemmässä dokumentaatiopäivityksessä. 
+> Tämä artikkeli poistetaan myöhemmässä dokumentaatiopäivityksessä. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

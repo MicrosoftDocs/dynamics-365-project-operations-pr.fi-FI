@@ -1,18 +1,18 @@
 ---
 title: Project Operationsin päivitykset
-description: Tässä aiheessa on tietoja Dynamics 365 Project Operationsin julkaistuista versioista.
+description: Tässä artikkelissa on tietoja Dynamics 365 Project Operationsin julkaistuista versioista.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732927"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959436"
 ---
 # <a name="project-operations-updates"></a>Project Operationsin päivitykset
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations koostuu kahdesta komponentista:
 
 | Project Operations Dataverse-ympäristössä | Projektinhallinta ja kirjanpito talous- ja toimintosovellusten ympäristöissä | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 Project Operationsin resurssi-/ei-varastoidussa skenaariossa on suositeltavaa käyttää kaksoiskirjoituksen orkestroinnin versiota 2.3.1.15 tai uudempaa versiota.
 
@@ -47,24 +47,24 @@ Dataverse-ympäristön Project Operationsin päivitykset ovat saatavana kuukausi
 | Asema | Alue | Nykyinen versionumero | Lite-käyttöönoton automaattiset päivitykset | Resurssin/ei-varastoitavan käyttöönoton automaattiset päivitykset | Seuraava versionumero | Seuraava yleisesti saatavilla oleva versio |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Asema 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ensimmäinen julkaisu         |  4.42.0.70      | Suorita loppuun           | Suorita loppuun            | TBD                 | 27. toukokuuta 2022        |
+|   &nbsp;  | Ensimmäinen julkaisu         |  4.43.0.77      | Suorita loppuun           | Suorita loppuun            | TBD                 | 01. heinäkuuta 2022       |
 | Asema 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Etelä-Amerikka         |  4.42.0.70      | Suorita loppuun           | Suorita loppuun            | TBD                 | 27. toukokuuta 2022        |
-|   &nbsp;  | Kanada                |  4.42.0.70      | Suorita loppuun           | Suorita loppuun            | TBD                 | 27. toukokuuta 2022        |
-|   &nbsp;  | Intia                 |  4.42.0.70      | Suorita loppuun           | Suorita loppuun            | TBD                 | 27. toukokuuta 2022        |
-|   &nbsp;  | Ranska                |  4.42.0.70      | Suorita loppuun           | Suorita loppuun            | TBD                 | 27. toukokuuta 2022        |
-|   &nbsp;  | Etelä-Afrikka          |  4.42.0.70      | Suorita loppuun           | Suorita loppuun            | TBD                 | 27. toukokuuta 2022        |
-|   &nbsp;  | Sveitsi           |  4.42.0.70      | Suorita loppuun           | Suorita loppuun            | TBD                 | 27. toukokuuta 2022        |
+|   &nbsp;  | Etelä-Amerikka         |  4.43.0.77      | Suorita loppuun           | Suorita loppuun            | TBD                 | 01. heinäkuuta 2022       |
+|   &nbsp;  | Kanada                |  4.43.0.77      | Suorita loppuun           | Suorita loppuun            | TBD                 | 01. heinäkuuta 2022       |
+|   &nbsp;  | Intia                 |  4.43.0.77      | Suorita loppuun           | Suorita loppuun            | TBD                 | 01. heinäkuuta 2022       |
+|   &nbsp;  | Ranska                |  4.43.0.77      | Suorita loppuun           | Suorita loppuun            | TBD                 | 01. heinäkuuta 2022       |
+|   &nbsp;  | Etelä-Afrikka          |  4.43.0.77      | Suorita loppuun           | Suorita loppuun            | TBD                 | 01. heinäkuuta 2022       |
+|   &nbsp;  | Sveitsi           |  4.43.0.77      | Suorita loppuun           | Suorita loppuun            | TBD                 | 01. heinäkuuta 2022       |
 | Asema 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japani                 |  4.42.0.70      | 13. toukokuuta 2022       | 13. toukokuuta 2022        | TBD                 | 03. kesäkuuta 2022       |
-|   &nbsp;  | Tyynenmeren Aasia          |  4.42.0.70      | 13. toukokuuta 2022       | 13. toukokuuta 2022        | TBD                 | 03. kesäkuuta 2022       |
-|   &nbsp;  | Yhdistynyt kuningaskunta         |  4.42.0.70      | 13. toukokuuta 2022       | 13. toukokuuta 2022        | TBD                 | 03. kesäkuuta 2022       |
-|   &nbsp;  | Oseania               |  4.42.0.70      | 13. toukokuuta 2022       | 13. toukokuuta 2022        | TBD                 | 03. kesäkuuta 2022       |
-|   &nbsp;  | Arabiemiirikunnat  |  4.42.0.70      | 13. toukokuuta 2022       | 13. toukokuuta 2022        | TBD                 | 03. kesäkuuta 2022       |
+|   &nbsp;  | Japani                 |  4.43.0.77      | 03. kesäkuuta 2022      | 03. kesäkuuta 2022       | TBD                 | 08. heinäkuuta 2022       |
+|   &nbsp;  | Tyynenmeren Aasia          |  4.43.0.77      | 03. kesäkuuta 2022      | 03. kesäkuuta 2022       | TBD                 | 08. heinäkuuta 2022       |
+|   &nbsp;  | Yhdistynyt kuningaskunta         |  4.43.0.77      | 03. kesäkuuta 2022      | 03. kesäkuuta 2022       | TBD                 | 08. heinäkuuta 2022       |
+|   &nbsp;  | Oseania               |  4.43.0.77      | 03. kesäkuuta 2022      | 03. kesäkuuta 2022       | TBD                 | 08. heinäkuuta 2022       |
+|   &nbsp;  | Arabiemiirikunnat  |  4.43.0.77      | 03. kesäkuuta 2022      | 03. kesäkuuta 2022       | TBD                 | 08. heinäkuuta 2022       |
 | Asema 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eurooppa                |  4.41.0.45      | Suorita loppuun           | Suorita loppuun            | 4.42.0.70           | 13. toukokuuta 2022        |
+|   &nbsp;  | Eurooppa                |  4.42.0.70      | Suorita loppuun           | Suorita loppuun            | 4.43.0.77           | 10. kesäkuuta 2022       |
 | Asema 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pohjois-Amerikka         |  4.41.0.45      | Suorita loppuun           | Suorita loppuun            | 4.42.0.70           | 20. toukokuuta 2022        |
+|   &nbsp;  | Pohjois-Amerikka         |  4.42.0.70      | Suorita loppuun           | Suorita loppuun            | 4.43.0.77           | 17. kesäkuuta 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Julkaisuaikataulu: Projektinhallinta ja kirjanpito talous- ja toimintosovellusten ympäristössä
 

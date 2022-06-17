@@ -1,24 +1,24 @@
 ---
 title: Maaliskuun 2022 Project Operations Lite -käyttöönoton uudet ominaisuudet
-description: Tässä aiheessa on tietoja Project Operationsin Lite-käyttöönoton maaliskuussa 2022 julkaistussa versiossa saatavilla olevista laatupäivityksistä.
+description: Tässä artikkelissa on tietoja Project Operations Lite -käyttöönoton maaliskuussa 2022 julkaistussa versiossa saatavilla olevista laatupäivityksistä.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583746"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934224"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Maaliskuun 2022 Project Operations Lite -käyttöönoton uudet ominaisuudet
 
 _Käytetään: Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Tämä aihe koskee seuraavia Microsoft Dynamics 365 Project Operationsin osia ja versioita:
+Tämä artikkeli koskee seuraavia Microsoft Dynamics 365 Project Operationsin osia ja versioita:
 
 - Project Operations Dataversessa ympäristöversio 4.30.0.99
 
@@ -51,9 +51,9 @@ Tämä aihe koskee seuraavia Microsoft Dynamics 365 Project Operationsin osia ja
 
 ## <a name="removed-and-deprecated-features"></a>Poistetut ja vanhentuneet ominaisuudet
 
-[Project Operationsin poistetut tai vanhentuneet ominaisuudet](../../whats-new/removed-depreciated-features-project.md) -aiheessa on kuvattu ominaisuuksia, jotka on poistettu tai vanhentuneet Dynamics 365 Project Operationsissa.
+Artikkelissa [Project Operationsin poistetut tai vanhentuneet ominaisuudet](../../whats-new/removed-depreciated-features-project.md) käsitellään ominaisuuksia, jotka on poistettu tai vanhentuneet Dynamics 365 Project Operationsissa.
 
 - Poistettu toiminto ei ole enää käytettävissä tuotteessa.
 - Vanhentunutta ominaisuutta ei enää kehitetä aktiivisesti ja se voidaan poistaa tulevassa päivityksessä.
 
-Vanhentumisilmoitus näkyy [Project Operationsin poistetut tai vanhentuneet toiminnot](../../whats-new/removed-depreciated-features-project.md) -ohjeaiheessa 12 kuukautta ennen ominaisuuden poistoa tuotteesta.
+Vanhentumisilmoitus näkyy artikkelissa [Project Operationsin poistetut tai vanhentuneet toiminnot](../../whats-new/removed-depreciated-features-project.md) 12 kuukautta ennen ominaisuuden poistoa tuotteesta.

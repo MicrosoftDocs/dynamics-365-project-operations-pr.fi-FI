@@ -1,6 +1,6 @@
 ---
 title: Tarjoukset ja tarjousrivit
-description: Tässä aiheessa on tietoja tarjouksista ja tarjousriveistä.
+description: Tässä artikkelissa on tietoja tarjouksista ja tarjousriveistä.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933350"
 ---
 # <a name="quotes-and-quote-lines"></a>Tarjoukset ja tarjousrivit
 
@@ -39,7 +39,7 @@ Dynamics 365 Project Service Automationissa on kahdenlaisia tarjouksia: projekti
 - Myyntitarjous ei sisällä kaikkia projektitarjouksessa olevia kenttiä ja konsepteja. Kenttiä ovat esimerkiksi **Sopimusyksikkö**, **Asiakaspäällikkö** ja **Laskutusyhteyshenkilön nimi**.  
 - Myyntitarjouksille ja projektitarjouksille määritetään myös asetusjoukkoperusteinen kenttä nimeltään **Tyyppi**. Myyntitarjouksessa tällä kentällä on arvo **Nimikepohjainen**. Projektitarjouksessa sen arvo on **Työpohjainen**.
 
-Tässä aiheessa keskitytään projektitarjousten tietoihin.
+Tässä artikkelissa keskitytään projektitarjousten tietoihin.
 
 PSA:ssa projektitarjouksella voi olla useita rivinimikkeitä tai tarjousrivejä. Itse asiassa projektitarjouksella on kaksi ruudukkoa. Yksi ruudukko on yksityiskohtaiset arviot mahdollistavia projektiperusteisia kenttiä varten. Toinen ruudukko on sellaisia tuoteperusteisia rivejä varten, jossa käytetään yksinkertaista yksikköhintaa ja määräperusteista lähestymistapaa.
 

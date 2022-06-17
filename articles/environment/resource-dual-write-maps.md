@@ -1,17 +1,17 @@
 ---
 title: Project Operations -kaksoiskirjoituksen karttaversiot
-description: Tässä aiheessa on luettelo kaksoiskirjoituskartoista, joita tarvitaan Dynamics 365 Project Operationsissa.
+description: Tässä artikkelissa on luettelo kaksoiskirjoituskartoista, joita tarvitaan Dynamics 365 Project Operationsissa.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612746"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959410"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations -kaksoiskirjoituksen karttaversiot
 
@@ -54,7 +54,7 @@ Project Operations -ratkaisun edellytyksenä ovat seuraavat kartat. Kaksoiskirjo
 | Project Operations -integrointikohde tuntiarvioita varten (msdyn_resourceassignments) | 1.0.0.5 | Ei vaadita valmistelua varten. ||
 | Project Operations -integroinnin projektikululuokkien vientientiteetti (msdyn_expensecategories) | 1.0.0.1 | Ei vaadita valmistelua varten. ||
 | Project Operations -integroinnin projektikulujen vientientiteetti (msdyn_expenses) | 1.0.0.3 | Ei vaadita valmistelua varten. ||
-| Project Operationsin integrointiprojektin toimittajalaskun vientientiteetti (msdyn_projectvendorinvoices) | 1.0.0.0 | Ei vaadita valmistelua varten. ||
+| Project Operationsin integrointiprojektin toimittajalaskun vientientiteetti (msdyn_projectvendorinvoices) | 1.0.0.1 | Ei vaadita valmistelua varten. |10.0.26 tai uudempi|
 | Project Operationsin integrointiprojektin toimittajalaskurivin vientientiteetti (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Ei vaadita valmistelua varten. | 10.0.26 tai uudempi |
 | Kaikkien yritysten projektiresurssiroolit (bookableresourcecategories) | 1.0.0.1 | Edellyttää taulukon kartan ensimmäistä synkronointia, jotta Dynamics 365 Dataverse -ympäristössä valmistelun aikana täytetään Projektipäällikkö- ja Ryhmän jäsen -resurssiroolit. Dataverse on ensimmäisen synkronoinnin päälähde. ||
 | Projektitehtävät (msdyn_projecttasks) | 1.0.0.4 | Ei vaadita valmistelua varten. ||

@@ -1,17 +1,17 @@
 ---
 title: Projektipohjaisten mahdollisuuksien hallinta
-description: Tässä aiheessa on tietoja projekteihin liittyvien mahdollisuuksien käyttämisestä.
+description: Tässä artikkelissa on tietoja projekteihin liittyvien mahdollisuuksien käyttämisestä.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933212"
 ---
 # <a name="manage-project-based-opportunities"></a>Projektipohjaisten mahdollisuuksien hallinta
 
@@ -19,7 +19,7 @@ _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia
 
 Projektipohjaisten yritysten toimitustoiminnot on yleensä jaettu useisiin maihin ja maantieteellisille alueille. Projektin toteutuksen ja toimituksen kustannukset voivat vaihdella sen mukaan, mikä paikkatieto tai divisioona hallitsee toimitusta. Tämä puolestaan voi vaikuttaa kaupan marginaaliin. Projektiin perustuvien palvelujen toimittamiseen liittyy yleensä suuria määriä henkilöresurssien aikaa, huomattavia matkakuluja, materiaalikustannuksia ja muita kuluja.
 
-Dynamics 365 Project Operationsin projektipohjaiset mahdollisuudet on suunniteltu sisältämään Dynamics 365 Salesin laajennuksia. Aihe sisältää tietoja projektipohjaisten yritysten tarvitsemista lisätoiminnoista eri kentissä ja liiketoimintalogiikasta, joilla hallitaan projektipohjaisia mahdollisuuksia.
+Dynamics 365 Project Operationsin projektipohjaiset mahdollisuudet on suunniteltu sisältämään Dynamics 365 Salesin laajennuksia. Artikkeli sisältää tietoja projektipohjaisten yritysten tarvitsemista lisätoiminnoista eri kentissä ja liiketoimintalogiikasta, joilla hallitaan projektipohjaisia mahdollisuuksia.
 
 ## <a name="view-all-project-based-opportunities"></a>Näytä kaikki projektipohjaiset mahdollisuudet
 
