@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2d773603abef7ab45d4d1c298e5553e57893294d
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 8313288ecf7ff1350cd82c62d3d0c291d8a3ded4
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959407"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031189"
 ---
 # <a name="whats-new-june-2022---project-operations-lite-deployment"></a>Kesäkuun 2022 Project Operations lite-käyttöönoton uudet ominaisuudet
 
@@ -20,7 +20,7 @@ _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
 Tämä artikkeli koskee seuraavia Microsoft Dynamics 365 Project Operationsin osia ja versioita:
 
-- Project Operations Dataversessa ympäristöversio 4.43.0.77
+- Project Operations Dataversessa ympäristöversio 4.43.0.77 tai 4.43.0.119
 
 ## <a name="quality-updates"></a>Laatupäivitykset
 
