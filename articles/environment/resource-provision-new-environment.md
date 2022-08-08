@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931602"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028493"
 ---
 # <a name="provision-a-new-environment"></a>Uuden ympäristön valmisteleminen
 
@@ -117,7 +117,7 @@ Sinun täytyy ehkä ottaa käyttöön laatupäivityksiä Finance-ympäristössä
 
     ![Ota ratkaisut käyttöön.](./media/13ApplySolutions.png)
 
-5. Valitse molemmat ratkaisut, **Dynamics 365:n talous- ja toimintosovellusten kaksoiskirjoituksen entiteettimääritykset** ja **Dynamics 365 Project Operationsin kaksoiskirjoituksen entiteettimääritykset**, ja valitse **Käytä**.
+5. Valitse molemmat ratkaisut, **Dynamics 365 Financen kaksoiskirjoituksen entiteettimääritykset** ja **Dynamics 365 Project Operationsin kaksoiskirjoituksen entiteettimääritykset**, ja valitse **Käytä**.
 
     ![Ratkaisujen vahvistaminen.](./media/14ConfirmSolutions.png)
 

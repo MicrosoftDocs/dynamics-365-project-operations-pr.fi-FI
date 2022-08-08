@@ -6,12 +6,12 @@ ms.date: 10/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 583524ccf33f2dc42ee6beba7e00cc5fd74819d4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e09d92de310dbe09e53ae134e5bb195fd64178f
+ms.sourcegitcommit: 341192e1e45eb42d6b18a8370ac2e1100c4a4ca4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598668"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9137176"
 ---
 # <a name="submit-a-resource-request"></a>Resurssipyynnön lähettäminen
 
@@ -24,7 +24,11 @@ Voit lähettää luodun resurssivaatimuksen resurssipyyntönä. Pyyntö lähetet
 
 Yleisen ryhmän jäsenen pyynnön tila muuttuu tilaksi **Lähetetty**.
 
-Kun pyyntö on täytetty, yleinen resurssi korvataan nimetyllä resurssilla, jos resurssipäällikkö täyttää pyynnön nimetyn resurssin varauksella. Muussa tapauksessa yleinen resurssi säilyy ryhmässä ja pyynnön tilaksi muuttuu **Vaatii tarkistusta**, jos resurssipäällikkö on ehdottanut nimettyä resurssia.
+Resurssin vastaanottaja voi täyttää resurssipyynnön osittain käyttämällä vähintään yhtä resurssia tai täyttää resurssipyyntö kokonaan.
+
+Kun pyyntö on täytetty, projektiin lisätään vähintään yksi nimetty resurssi projektiryhmän jäsenenä. Jos resurssitarve täyttyy yhden resurssin avulla, resurssipyyntöön liittyvän yleisen ryhmän jäsen poistetaan. 
+
+Kun resurssipyynnön vastaanottaja on ehdottanut resursseja ja projektipäällikkö voi tarkistaa ehdotetut resurssit, resurssipyynnön tilaksi tulee **Tarkistettava**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: dc8f65aec6f2328ccef5f9591a0f4d9c792b0d8f
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914582"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029076"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Projektiarvioiden ja toteutuneiden kustannusten integrointi
 
@@ -28,7 +28,7 @@ Arvioiden luominen edellyttää projektille kelvollista kirjanpitomääritystä.
 
 ## <a name="labor-estimates"></a>Työvoima-arviot
 
-Projektipäällikkö tai henkilöstöpäällikkö luo työvoima-arviot, ja he myös delegoivat projektitehtävälle yleisen tai nimetyn resurssin. Resurssin määritystietueita voi tarkastella **Resurssimääritykset**-välilehden **Projektin tiedot** -sivulla Dataversessä. Resurssin määritystietueet Dataversessa luovat tuntiennustetietueita talous- ja toimintosovelluksissa käyttämällä kohdetta **Project Operationsin integraatioentiteetti tuntiarvioille (msdyn\_resourceassignments)**.
+Projektipäällikkö tai henkilöstöpäällikkö luo työvoima-arviot, ja he myös delegoivat projektitehtävälle yleisen tai nimetyn resurssin. Resurssin määritystietueita voi tarkastella **Resurssimääritykset**-välilehden **Projektin tiedot** -sivulla Dataversessä. Resurssin määritystietueet Dataversessa luovat tuntiennustetietueita talous- ja toimintosovelluksissa käyttämällä kohtaa **Project Operationsin integraatioentiteetti tuntiarvioille (msdyn\_resourceassignments)**.
 
    ![Työvoima-arvioiden integrointi.](./Media/DW4LaborEstimates.png)
 

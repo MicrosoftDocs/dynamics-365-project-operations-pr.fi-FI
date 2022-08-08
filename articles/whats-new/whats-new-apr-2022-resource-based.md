@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912374"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110880"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>uudet ominaisuudet huhtikuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 
@@ -25,7 +25,7 @@ Tämä artikkeli koskee seuraavia Microsoft Dynamics 365 Project Operationsin os
 
 ## <a name="features-included-in-this-release"></a>Tähän julkaisuun sisältyvät ominaisuudet
 
-Hankintaluokkia voidaan käyttää projektin ostotilauksissa ja odottavissa toimittajan laskuissa. Lisätietoja: [Hankintaluokkien käyttö projektin ostotilauksissa ja odottavissa toimittajan laskuissa](configure-procurement-categories.md).
+Hankintaluokkia voidaan käyttää projektin ostotilauksissa ja odottavissa toimittajan laskuissa. Lisätietoja: [Hankintaluokkien käyttö projektin ostotilauksissa ja odottavissa toimittajan laskuissa](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operationsin kaksoiskirjoituskarttojen päivitys
 

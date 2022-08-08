@@ -4,7 +4,7 @@ description: Projektimallin luominen (Project Service)
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598990"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177421"
 ---
 # <a name="create-a-project-template-project-service"></a>Luo projektimalli (Project Service)
 
@@ -40,7 +40,14 @@ Projektimallit säästävät aikaa, jos yritys tekee säännöllisesti samankalt
 - **Projektiarviot**: Projektiarviot toimivat projektimallissa samoin kuin projekteissa, paitsi että oletusarvoiset kustannus- ja myyntihinnat sisältävät hinnastot ovat aina [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] -parametreissa määritetyt oletuskustannus- ja myyntihinnastot. Loput toiminnallisuudet ovat samoja, kuin projektissa.  
   
 - **Projektiryhmän muodostuminen**: kun muodostat projektiryhmää projektimallille et voi varata nimettyä resurssia mallissa. Voit käyttää **Luo projektiryhmä** -valintaa työrakenteessa yleisten resurssijoukkojen luomiseksi. Voit myös määrittää tarvittavat taidot ja ammattitaidot yleisiä resursseja varten. Ei voi korvata yleistä resurssia varattavalla resurssilla projektimalleissa.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Uuden projektimallin luominen aiemmin luodun projektin pohjalta
+Voit luoda projektimallin projektista seuraavilla tavoilla:
+
+- **Työrakenne**: Projektista johdetun mallin työrakenne kopioidaan kaikkiin tehtäviin ja riippuvuuksiin. Luodut määritykset perustuvat yleisen ryhmän jäseniin, jotka lisätään projektiryhmään projektimallin luomisen yhteydessä.
+- **Projektin arviot**: Kun projektimalli luodaan olemassa olevasta projektista, lähdeprojektin arviot kopioidaan projektimalliin.
+- **Projektiryhmän jäsenet**: Kun malli luodaan olemassa olevasta projektista, kaikki nimetyt ryhmän jäsenet korvataan organisaation yleisellä resurssilla. Kaikkia toimien nimiä ja rooleja ylläpidetään.
+
 ## <a name="create-a-project-from-a-template"></a>Luo projekti mallista  
  Voit luoda projektin mallista seuraavilla tavoilla:  
   

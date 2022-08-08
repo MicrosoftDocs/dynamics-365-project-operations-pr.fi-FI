@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931188"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028469"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Useiden rahoituslähteiden projektisopimusten nimikevaatimukset
 
@@ -33,7 +33,7 @@ Contoso on voittanut välineiden uusimissopimuksen kahdelle asiakkaalleen: Adatu
 
 ### <a name="prerequisites"></a>edellytykset
 
-- Microsoft Dynamics 365 rahoitus- ja toimintosovellusten **versio 10.0.27** tai uudempi on pakollinen, jotta voidaan käyttää nimikevaatimuksia, joissa on useita laskutilejä.
+- Microsoft Dynamics 365 Financen **versio 10.0.27** tai uudempi on pakollinen, jotta voidaan käyttää nimikevaatimuksia, joissa on useita laskutilejä.
 - Järjestelmän on otettava käyttöön **Salli nimikevaatimukset ja useita rahoituslähteitä Project Operationsin varasto-/tuotantopohjaisiin skenaarioihin** -ominaisuus **Ominaisuuksien hallinta** -työtilassa.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Laskutustilin oletussääntöjen määritys

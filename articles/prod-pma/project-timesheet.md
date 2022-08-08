@@ -2,7 +2,7 @@
 title: Project Timesheet -mobiilisovellus
 description: Tässä artikkelissa on tietoja Microsoft Dynamics 365 Project Timesheet -mobiilisovelluksesta. Project Timesheet -mobiilisovelluksen avulla käyttäjät voivat lähettää ja hyväksyä projektien aikaraportteja mobiililaitteillaan.
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923966"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110971"
 ---
 # <a name="project-timesheet-mobile-application"></a>Project Timesheet -mobiilisovellus
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Yleiskatsaus
+## <a name="overview"></a>Yleiskuvaus
 
-Microsoft Dynamics 365 Project Timesheet -mobiilisovelluksen avulla käyttäjät voivat lähettää ja hyväksyä projektien aikaraportteja mobiililaitteillaan (iPhone tai Android). Tämä mobiilisovellus näyttää Dynamics 365 Financen projektinhallinnan ja kirjanpidon alueen aikaraporttitoiminnot parantaen käyttäjien tuottavuutta ja tehokkuutta sekä mahdollistamalla projektin aikaraporttien nopean syöttämisen ja hyväksynnän.
+Microsoft Dynamics 365 Project Timesheet -mobiilisovelluksen avulla käyttäjät voivat lähettää ja hyväksyä projektien aikaraportteja mobiililaitteillaan (iPhone tai Android). Tämä mobiilisovellus näyttää Dynamics 365 Financen projektinhallinnan ja kirjanpidon alueen aikaraporttitoiminnot. Se auttaa parantamaan käyttäjien tuottavuutta ja tehokkuutta sekä ottaa käyttöön projektien aikaraporttien oikea-aikaisen kirjaamisen ja hyväksymisen.
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiilisovelluksen lataaminen ja asennus
 
@@ -38,6 +38,19 @@ Lataa ja asenna Microsoft Dynamics 365 Project Timesheet -mobiilisovellus Androi
 
 Project Timesheet -mobiilisovelluksen on oltava käytössä Financessa. Jos haluat ottaa toiminnon käyttöön, siirry kohtaan **Projektinhallinnan ja kirjanpidon parametrit\> Aikaraportti** ja valitse parametri **Ota Microsoft Dynamics 365 Project Timesheet käyttöön**.
 
+### <a name="resolve-sign-in-issues"></a>Sisäänkirjausongelmien ratkaiseminen
+
+**Ongelma:** Projektin aikataulukkomobiilisovelluksen sisäänkirjauksen aikana käyttäjät saavat virhesanoma, jossa kerrotaan, että "sovellusta 2bc50526-cdc3-4e36-a970-c284c34cbd6e ei voi käyttää kyseisessä vuokraajassa".
+
+**Issue:** Projektin aikataulukkomobiilisovelluksen sisäänkirjauksen aikana käyttäjät vastaanottavat virheen, joka muistuttaa jotain seuraavista esimerkeistä:
+
+- "AADSTS50020: Käyttäjätili [käyttäjänimi] tunnistetietojen toimittajalta https://sts.windows.net/[sovelluksen tunnus] ei ole vuokraajassa [vuokraajan tunnus], eikä se voi käyttää kyseisen vuokraajan sovellusta [sovelluksen tunnus]."
+- "Valittua käyttäjätiliä ei ole vuokraajassa [vuokraajan tunnus] eikä tili voi käyttää vuokraajan sovellusta [sovelluksen tunnus]."
+
+**Selitys:** Nämä ongelmat aiheutuvat Azure Active Directoryiin (Azure AD) vuoden 2022 toukokuussa tehdystä muutoksesta, joka liittyy ulkoisiin käyttäjiin. Koska tätä muutosta ei tehty talous- ja toimintosovelluksiin, se voi vaikuttaa asiakkaisiin missä tahansa ympäristön tai sovelluksen versiossa.
+
+**Korjaus:** Kaikki ulkoiset käyttäjät on kutsuttava vuokraajaan Azure AD:n kautta. Lisätietoja on kohdassa [Käyttäjien kutsuminen Azure Active Directoryn yritysten välisen yhteistyön avulla](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+
 ## <a name="sign-in-to-the-app"></a>Kirjaudu sovellukseen
 
 1.  Käynnistä sovellus mobiililaitteessa.
@@ -46,7 +59,7 @@ Project Timesheet -mobiilisovelluksen on oltava käytössä Financessa. Jos halu
 
 3.  Kun kirjaudut sisään ensimmäisen kerran, sinulta kysytään käyttäjätunnusta ja salasanaa. Anna tunnistetiedot.
 
-4.  Sinut kirjataan oletusyritykseesi.
+4. Sinut kirjataan oletusyritykseesi.
 
 ## <a name="submit-a-project-timesheet"></a>Projektin työaikaraportin lähettäminen
 
@@ -84,7 +97,7 @@ Projektipäälliköt voivat tarkastella sisäisiä kommentteja. Asiakkaiden komm
 
 Jos haluat tallentaa rivin suosikiksi, valitse valintaruutu ja valitse sitten **Tallenna suosikiksi**.
 
-Financialin dimensio- ja liitetukea ei tarjota mobiilisovelluksessa.
+Taloushallinnon dimensio- ja liitetukea ei tarjota mobiilisovelluksessa.
 
 Saata aikaraporttisi valmiiksi jatkamalla projektirivien lisäämistä tarpeen mukaan.
 

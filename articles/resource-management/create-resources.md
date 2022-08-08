@@ -6,18 +6,25 @@ ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: bcd460c489d428238d27f87968e9afb62fde0cb1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e5df0bad9d2bcab54ad0fc1c917cfdb5aeaff927
+ms.sourcegitcommit: 422d8839c7ea4648d5adb20c40640ac8eb02ecdf
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912604"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125196"
 ---
 # <a name="create-resources"></a>Resurssien luominen
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
 Voit käyttää Dynamics 365 Field Serviceä luodaksesi varattavissa olevia resursseja, joita voidaan käyttää Dynamics 365 Project Operations -ympäristössä. Lisätietoja näiden resurssien luomisesta on kohdassa [Varattavissa olevien resurssien luominen](/dynamics365/field-service/set-up-bookable-resources).
+
+Project Operations tukee seuraavia resurssityyppejä:
+- Account
+- Ota yhteyttä
+- User
+- Välineet
+- Yleinen
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

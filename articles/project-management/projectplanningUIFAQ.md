@@ -2,24 +2,24 @@
 title: Tehtäväruudukossa työskentelyn vianmääritys
 description: Tässä artikkelissa on vianmääritystietoja, joita tarvitaan tehtäväruudukossa.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911040"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188227"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Tehtäväruudukossa työskentelyn vianmääritys 
 
 
 _**Koskee seuraavaa:** Project Operations resursseihin/ei-varastoitaviin perustuville skenaarioille, lite-käyttöönotto - tarjouksesta proformalaskutukseen, Project for the web_
 
-Tehtäväruudukko Dynamics 365 Project Operationsissa on isännöity iFrame Microsoft Dataversessa. Tämän käytön vuoksi tiettyjen vaatimusten on täytyttävä, jotta todentaminen ja valtuutus toimivat oikein. Tässä artikkelissa käsitellään seikkoja, jotka voivat vaikuttaa ruudukon hahmontamiseen tai tehtävien hallintaan työrakenteessa (WBS).
+Dynamics 365 Project Operationsin käyttämää tehtäväruudukkoa isännöidään iFrame Microsoft Dataversessa. Tämän käytön vuoksi tiettyjen vaatimusten on täytyttävä, jotta todentaminen ja valtuutus toimivat oikein. Tässä artikkelissa käsitellään seikkoja, jotka voivat vaikuttaa ruudukon hahmontamiseen tai tehtävien hallintaan työrakenteessa (WBS).
 
 Joitakin yleisiä ongelmia:
 
@@ -72,7 +72,10 @@ Project Operations edellyttää, että projektiparametri viittaa PEX-päätepist
 4. Poista kenttä **Projektiparametrit**-sivulta.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Kiertotapa 3: Kirjaudu sisään osoitteessa project.microsoft.com
-Avaa Microsoft Edge -selaimessa uusi välilehti, siirry osoitteeseen project.microsoft.com ja kirjaudu sisään käyttämällä käyttäjäroolia, jolla käytät Project Operationsia.
+
+Avaa selaimessa uusi välilehti, siirry osoitteeseen project.microsoft.com ja kirjaudu sisään käyttämällä käyttäjäroolia, jolla käytät Project Operationsia. On tärkeää, että vain yksi käyttäjä on kirjautuneena sisään selaimella Microsoft-tuotteeseen. Virhesanoma "Yhdistäminen osoitteeseen login.microsoftonline.com ei onnistu" ilmaantuu useimmiten silloin, kun sisäänkirjautuneena on useita käyttäjiä seuraavan kuvan mukaisesti.
+
+![Valitse tilin sisäänkirjaussivu, jossa näkyy kaksi sisäänkirjautunutta käyttäjää.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Ongelma: Projekti ei lataudu ja käyttöliittymä juuttuu hyrräkuvakkeeseen
 

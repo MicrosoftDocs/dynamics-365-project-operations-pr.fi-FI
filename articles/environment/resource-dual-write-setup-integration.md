@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d03393de893c39ceb53c06a3031395f765a26f55
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914536"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029148"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operationsin määritysten ja määritystietojen integrointi
 
@@ -26,7 +26,7 @@ Projektisopimukset, sopimusrivit ja projektit luodaan Dataversessa ja synkronoid
 
   ![Projektisopimuksen integrointikäsitteet.](./media/1ProjectContract.jpg)
 
-Myyntiaktiviteettien liidejä , mahdollisuuksia ja tarjouksia seurataan Dataversessa eikä niitä synkronoida talous- ja toimintosovelluksiin, koska tähän aktiviteettiin ei liity kirjanpitoa.
+Myyntiaktiviteettien liidejä, mahdollisuuksia ja tarjouksia seurataan Dataversessa eikä niitä synkronoida talous- ja toimintosovelluksiin, koska tähän aktiviteettiin ei liity kirjanpitoa.
 
 Projektisopimustoiminto Dataversessa luo projektisopimustietueen talous- ja toimintosovelluksissa **Projektisopimusotsikot (salesorders)** -taulukkokartan avulla. Kun projektisopimus tallennetaan Dataversessä, ohjelma luo myös projektisopimusasiakasentiteettitietueen. Tämä tietue synkronoidaan talous- ja toimintosovelluksiin käyttämällä **Projektin rahoituslähde (msdyn\_projectcontractssplitbillingrules)** -taulukkokarttaa. Tämä kartta synkronoi myös projektisopimuksen asiakaslisäykset, päivitykset ja poistot. Projektisopimusasiakkaiden väliset jaetut laskutusprosentit hallitaan vain Dataversessa, eikä niitä synkronoida talous- ja toimintosovelluksiin.
 
@@ -34,8 +34,8 @@ Kun projektisopimus on luotu Dataversessa, projektin kirjanpitäjä voi päivitt
 
 Projektientiteetti synkronoidaan talous- ja toimintosovelluksiin käyttämällä **Projektit V2 (msdyn\_projects)** -taulukkokarttaa. Projektin kirjanpitäjä voi:
 
-  - Voit tarkastella talous- ja toimintosovellusten projekteja kohdassa **Projektinhallinta ja kirjanpito** > **Kaikki projektit** . 
-  - Päivitä projektin kirjanpitomääritteet talous- ja toimintosovelluksissa valitsemalla **Projektinhallinta ja kirjanpito** > **Kaikki projektit** > **Määritys** >  **Näytä oletuskirjanpito**.  
+  - Voit tarkastella talous- ja toimintosovellusten projekteja kohdassa **Projektinhallinta ja kirjanpito** > **Kaikki projektit**. 
+  - Päivitä projektin kirjanpitomääritteet talous- ja toimintosovelluksissa valitsemalla **Projektinhallinta ja kirjanpito** > **Kaikki projektit** > **Määritys** > **Näytä oletuskirjanpito**.  
   - Voit tarkastella projektin toiminnallisia määritteitä, kuten arvioituja alkamis- ja päättymispäivämääriä, valitsemalla projektin tunnuksen talous- ja toimintosovelluksissa, jotka avaavat liittyvän projektitietueen Dataversessa.
 
 Projekti liittyy projektisopimukseen **Projektisopimusrivi**-kohteen kautta.
@@ -65,7 +65,7 @@ Projektitehtävät synkronoidaan talous- ja toimintosovelluksiin **Projektiteht�
 
 ## <a name="project-resources"></a>Projektien resurssit
 
-**Projektiresurssiroolit**-kohde synkronoidaan talous- ja toimintosovelluksiin-sovelluksiin käyttämällä **Kaikkien yritysten projektiresurssiroolit (bookableresourcecategories)** -taulukkokarttaa vain viitteeksi. Koska resurssiroolit Dataversessa eivät ole yrityskohtaisia, järjestelmä luo automaattisesti vastaavat yrityskohtaiset resurssiroolitietueet talous- ja toimintosovelluksissa automaattisesti kaikille kaksoiskirjoituksen integroinnin vaikutusalueeseen sisällytetyille yrityksille.
+**Projektiresurssiroolit**-entiteetti synkronoidaan talous- ja toimintosovelluksiin käyttämällä **Kaikkien yritysten projektiresurssiroolit (bookableresourcecategories)** -taulukkokarttaa vain viitteenä. Koska resurssiroolit Dataversessa eivät ole yrityskohtaisia, järjestelmä luo automaattisesti vastaavat yrityskohtaiset resurssiroolitietueet talous- ja toimintosovelluksissa automaattisesti kaikille kaksoiskirjoituksen integroinnin vaikutusalueeseen sisällytetyille yrityksille.
 
 ![Resurssiroolien integrointi.](./media/5Resources.jpg)
 

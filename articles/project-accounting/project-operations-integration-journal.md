@@ -2,22 +2,22 @@
 title: Project Operationsin integroinnin kirjauskansio
 description: Tässä artikkelissa on tietoja integroinnin kirjauskansioiden käyttämisestä Project Operationsissa.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923874"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106271"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operationsin integroinnin kirjauskansio
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Aika- ja kulumerkinnät luovat **todellisia** tapahtumia, ja nämä tapahtumat ovat operatiivinen näkymä projektin perusteella suoritetusta työstä. Dynamics 365 Project Operationsin avulla kirjanpitäjät saavat työkalun, jolla he voivat tarkistaa tapahtumia ja oikaista kirjanpitomääritteitä tarvittaessa. Kun tarkistus ja oikaisut on tehty, tapahtumat kirjataan projektin alakirjanpitoon ja pääkirjanpitoon. Kirjanpitäjä voi suorittaa näitä aktiviteetteja käyttämällä **Project Operationsin integraatio** -kirjauskansiota (**Dynamics 365 Finance** > **Projektinhallinta ja kirjanpito** > **Kirjauskansiot** > **Project Operations -integraatio** -kirjauskansio.
+Aika-, kulu-, maksu- ja materiaalimerkinnät luovat **todellisia** tapahtumia, ja nämä tapahtumat ovat operatiivinen näkymä projektin perusteella suoritetusta työstä. Dynamics 365 Project Operationsin avulla kirjanpitäjät saavat työkalun, jolla he voivat tarkistaa tapahtumia ja oikaista kirjanpitomääritteitä tarvittaessa. Kun tarkistus ja oikaisut on tehty, tapahtumat kirjataan projektin alakirjanpitoon ja pääkirjanpitoon. Kirjanpitäjä voi suorittaa näitä aktiviteetteja käyttämällä **Project Operationsin integraatio** -kirjauskansiota (**Dynamics 365 Finance** > **Projektinhallinta ja kirjanpito** > **Kirjauskansiot** > **Project Operations -integraatio** -kirjauskansio.
 
 ![Työnkulku integroinnin kirjauskansiossa.](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ Project Operationsin integroinnin kirjauskansion riveillä voidaan päivittää 
 - **Laskutuksen arvonlisäveroryhmä** ja **Laskutusnimikkeen arvonlisäveroryhmä**
 - **Taloushallinnon dimensiot** (**Jaa summat** -toimintoa käytettäessä)
 
-Vaikka integroinnin kirjauskansion rivejä voi poistaa, kirjaamattomat rivit lisätään kuitenkin kirjauskansioon uudelleen, kun kausittainen **Tuo valmistelusta** -prosessi suoritetaan uudelleen.
+Integrointikirjauskansion rivejä voi poistaa. Vaikka integrointikirjauskansion rivejä voi poistaa, kirjaamattomat rivit lisätään kuitenkin kirjauskansioon uudelleen, kun kausittainen **Tuo valmistelusta** -prosessi suoritetaan uudelleen.
+
+### <a name="post-the-project-operations-integration-journal"></a>Project Operations -sovelluksen integrointikirjauskansion kirjaaminen
 
 Kun integroinnin kirjauskansio kirjataan, projektin alakirjanpito- ja kirjanpitotapahtumat luodaan. Niitä käytetään myöhemmin asiakkaan laskutuksessa, tuloutuksessa ja taloushallinnon raportoinnissa.
 
+Valittu Project Operationsin integrointikirjauskansio voidaan kirjata käyttämällä Project Operationsin integrointikirjauskansion sivun **Kirjaa**-kohtaa. Kaikki kirjauskansiot voidaan kirjata automaattisesti suorittamalla prosessi kohdassa **Jaksoittaiset** > **Project Operationsin integrointi** > **Kirjaa Project Operationsin integrointikirjauskansio**.
+
+Kirjaus voidaan tehdä vuorovaikutteisesti tai eränä. Huomaa, että kaikki kirjauskansiot, joissa on yli 100 riviä, kirjataan automaattisesti eränä. Jos useita rivejä sisältävät kirjauskansiot on kirjattu eränä hyvän suorituskyvyn takaamiseksi, ota käyttöön **Kirjaa Project Operationsin integrointikirjauskansio käyttämällä useita erätehtäviä** -ominaisuus **Ominaisuuksien hallinta** -kohdassa. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Kaikkien kirjausvirheitä sisältävien rivien siirto uuteen kirjauskansioon
+
+> [!NOTE]
+> Jos haluat käyttää tätä ominaisuutta, ota käyttöön **Siirrä kaikki kirjausvirheitä sisältävät rivit uuteen Project Operationsin integrointikirjauskansioon** -ominaisuutta **Ominaisuuksien hallinta** -työtilassa.
+
+Kun Project Operationsin integrointikirjauskansioon kirjataan, järjestelmä tarkistaa kirjauskansion jokaisen rivin. Järjestelmä kirjaa kaikki virheettömät rivit ja luo uuden kirjauskansion kaikille riveille, joissa on kirjausvirheitä. Jos haluat tarkastella kirjauskansioita, joissa on kirjausvirheitä sisältäviä rivejä, siirry kohtaan **Projektinhallinta ja kirjanpito** > **Kirjauskansiot** > **Project Operationsin integrointikirjauskansio** ja suodata kirjauskansiot käyttämällä **Alkuperäinen kirjauskansio** -kenttää.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
