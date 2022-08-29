@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Uudet ominaisuudet
       items:
-        - name: Heinäkuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Elokuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Arkisto
           items:
+            - name: Heinäkuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Kesäkuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Toukokuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
@@ -384,6 +386,42 @@
           items:
             - name: Resurssin käytön yleiskatsaus
               href: resource-management/resource-utilization-overview.md
+    - name: Alihankinnan hallinta
+      items:
+        - name: Alihankintasopimusten hallinta Project Operationsissa
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Alihankinnan keskeiset käsitteet
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Toimittajien ja projektihinnastojen hallinta
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Alihankkijat varattavissa olevina resursseina
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Alihankkijasopimusten otsikkotiedot
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Alihankinnan aikarivit
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Alihankinnan kululuokkien rivit
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Alihankinnan tuoterivit
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Alihankintarivien resurssit
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Alihankintarivien välitavoitteet
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Alihankintaprojektiryhmän jäsenet
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Projektiryhmän jäsenten alihankintavaihtoehdot
+          href: pro/subcontracting/subcon-options.md
+        - name: Alihankittujen resurssimääritysten kustannusarvio
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Määritä aikataulutaulukko näyttämään sopimustyöntekijät ja alihankittu kapasiteetti
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Projektin henkilöstön määrittäminen sopimustyöntekijöillä ja alihankitulla kapasiteetilla
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Alihankittujen komponenttien ajan, kulujen ja materiaalin käytön kirjaaminen'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Alihankinnan tilan siirtymät
+          href: pro/subcontracting/subcon-states.md
     - name: Aika
       items:
         - name: Ajan yleiskatsaus
@@ -580,6 +618,8 @@
       items:
         - name: Täysin laskutettujen laskutuksen välitavoitteiden siirtäminen valmistelusiirron aikana
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Projektien tilan synkronoiminen suljettujen projektien merkinnän estämiseksi
+          href: advanced-configuration/sync-project-status.md
     - name: Päivitys
       items:
         - name: Modernien hyväksyntien päivityksessä huomioitavat asiat
@@ -610,13 +650,15 @@
           href: environment/security-model.md
     - name: Uudet ominaisuudet
       items:
-        - name: Heinäkuun 2022 Lite-käyttöönoton uudet ominaisuudet
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Elokuun 2022 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Arkisto
           items:
+            - name: Heinäkuun 2022 Lite-käyttöönoton uudet ominaisuudet
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Kesäkuun 2022 Lite-käyttöönoton uudet ominaisuudet
               href: pro/whats-new/whats-new-june-2022-lite.md
-            - name: 'Uudet ominaisuudet 2021, aalto 2, early access – lite-käyttöönotto'
+            - name: Lite-käyttöönoton uudet ominaisuudet vuoden 2021 aallon 2 ennakkojulkaisussa
               href: pro/whats-new/whats-new-2021-early-access-lite.md
             - name: Toukokuun 2022 Lite-käyttöönoton uudet ominaisuudet
               href: pro/whats-new/whats-new-may-2022-lite.md
