@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929210"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230311"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projektiaikataulun ohjelmointirajapintojen käyttö toimintojen suorittamiseen aikataulutusentiteeteillä
 
@@ -45,9 +45,9 @@ Seuraavassa on luettelo nykyisistä Projektiaikataulun ohjelmointirajapinnoista.
 - **msdyn_CreateProjectV1**: Tämän ohjelmointirajapinnan avulla voidaan luoda projekti. Projekti ja oletusprojektisäilö luodaan heti.
 - **msdyn_CreateTeamMemberV1**: Tämän ohjelmointirajapinnan avulla voidaan luoda projektiryhmän jäsen. Ryhmän jäsentietue luodaan heti.
 - **msdyn_CreateOperationSetV1**: Tämän ohjelmointirajapinnan avulla voidaan aikatauluttaa useita pyyntöjä, jotka on suoritettava tapahtumassa.
-- **msdyn_PSSCreateV1**: Tämän ohjelmointirajapinnan avulla voidaan luoda entiteetti. Entiteetti voi olla mikä tahansa luontitoimintoa tukeva projektin aikataulutusentiteetti.
-- **msdyn_PSSUpdateV1**: Tämän ohjelmointirajapinnan avulla voidaan päivittää entiteetti. Entiteetti voi olla mikä tahansa päivitystoimintoa tukeva projektin aikataulutusentiteetti.
-- **msdyn_PSSDeleteV1**: Tämän ohjelmointirajapinnan avulla voidaan poistaa entiteetti. Entiteetti voi olla mikä tahansa poistotoimintoa tukeva projektin aikataulutusentiteetti.
+- **msdyn_PssCreateV1**: Tämän ohjelmointirajapinnan avulla voidaan luoda entiteetti. Entiteetti voi olla mikä tahansa luontitoimintoa tukeva projektin aikataulutusentiteetti.
+- **msdyn_PssUpdateV1**: Tämän ohjelmointirajapinnan avulla voidaan päivittää entiteetti. Entiteetti voi olla mikä tahansa päivitystoimintoa tukeva projektin aikataulutusentiteetti.
+- **msdyn_PssDeleteV1**: Tämän ohjelmointirajapinnan avulla voidaan poistaa entiteetti. Entiteetti voi olla mikä tahansa poistotoimintoa tukeva projektin aikataulutusentiteetti.
 - **msdyn_ExecuteOperationSetV1**: Tämän ohjelmointirajapinnan avulla suoritetaan kaikki toiminnot tietyn toimintojoukon sisällä.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Projektiaikataulun ohjelmointirajapintojen käyttäminen OperationSetin kanssa
