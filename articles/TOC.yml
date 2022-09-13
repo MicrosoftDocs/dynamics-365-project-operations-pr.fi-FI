@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Projektitarjousten kopioiminen
               href: sales/lose-quote.md
+            - name: Projektitarjouksen aktivoiminen ja korjaaminen
+              href: sales/activation-and-revision.md
             - name: Projektitarjousten sulkeminen
               href: sales/win-quote.md
         - name: Projektisopimusten hallinta
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Laskutusaikataulujen luominen projektipohjaisilla sopimusriveillä
                   href: sales/invoice-schedules-contract-line.md
+            - name: Projektipohjaisten sopimusten kopioiminen
+              href: sales/copy-project-based-contracts-sales.md
             - name: Projektisopimuksen vahvistaminen
               href: pro/sales/confirm-contract-sales.md
             - name: Ennakot ja ennakkomaksut
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projektin myyntihinnastojen ohittaminen
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Arvioiden ja toteutuneiden kustannushintojen selvittäminen
+            - name: Arvioiden ja todellisten arvojen kustannushintojen määrittäminen
               href: pricing-costing/cost-price-resolution.md
-            - name: Arvioiden ja toteutuneiden myyntihintojen selvittäminen
+            - name: Arvioiden ja todellisten arvojen myyntihintojen määrittäminen
               href: pricing-costing/sales-price-resolution.md
             - name: Hinnastojen kopioiminen
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Projektipohjaisten tarjousten kopioiminen
               href: sales/lose-quote.md
+            - name: Projektitarjouksen aktivoiminen ja korjaaminen
+              href: sales/activation-and-revision.md
             - name: Projektipohjaisten tarjousten sulkeminen
               href: pro/sales/win-quote-sales.md
         - name: Projektipohjaisten sopimusten hallinta
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projektin myyntihinnastojen ohittaminen
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Projektin arvioitujen ja toteutuneiden kustannushintojen selvittäminen
+            - name: Projektin arvioitujen ja toteutuneiden kustannushintojen määrittäminen
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Projektin arvioiden ja toteutuneiden myyntihintojen selvittäminen
+            - name: Projektin arvioiden ja toteutuneiden myyntihintojen määrittäminen
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Hinnastojen kopioiminen
               href: pricing-costing/copy-price-lists.md

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183890"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403947"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Heinäkuun 2022 uudet ominaisuudet – Project Operations resurri/ei-varastoitavien skenaarioissa
 
@@ -45,6 +45,12 @@ Jos kartan käynnistämisen yhteydessä tulee ongelma, seuraa ohjeita [Puuttuvie
 | Laskutus ja hinnoittelu | 2675880 | Estä projektin linkitys sopimusriviin, joka ei perustu työhön. |
 | Laskutus ja hinnoittelu | 2664396 | Jos tarjoushinnasto tallennetaan ilman tarjousta, järjestelmässä on oltava virhe, jossa kerrotaan, että tarjous ei voi olla tyhjä. |
 | Laskutus ja hinnoittelu | 2184019 | **Tehtäväpohjainen laskutus** -välilehteä ei näytetä projekteissa, joilla ei ole taustasopimusta tai -tarjousta. |
+| Aika ja kulu | 2754459 | Kun toistuva aikataulutuksen pilvityönkulku on passiivinen, näytä palkki ja ohita asynkroninen käsittely. |
+| Laskutus ja hinnoittelu | 2724391 | Väärä poikkeus heitetään, kun projektisopimuksen jaa laskutus -säännöstä puuttuu asiakasarvo. |
+| Laskutus ja hinnoittelu | 2708638 | Tietuetta ei löytynyt haettaessa ruudukkohaulla materiaalikäytöistä ja materiaalikäytön hyväksynnöistä.|
+| Laskutus ja hinnoittelu | 2686977 | Estä laskurivin tarkistus laskun luonnin aikana. |
+| Laskutus ja hinnoittelu | 2683032 | Laskutettavissa olevia rooleja ja luokkia ei voi kopioida enempää kuin 5 000 tietuetta.|
+| Laskutus ja hinnoittelu | 2673363 | Projektin kustannuskulutus-% vioittuu, kun projektissa on sekä työn että kulujen arviot ja toteutuneet arvot. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektinhallinta ja kirjanpito Financessa
 

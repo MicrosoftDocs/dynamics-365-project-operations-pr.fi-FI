@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348007"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403852"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Elokuun 2022 uudet ominaisuudet – Project Operations resurssien/ei-varastoitavien skenaarioissa
 
@@ -38,6 +38,11 @@ Jos kartan käynnistämisen yhteydessä tulee ongelma, seuraa ohjeita [Puuttuvie
 | Ominaisuusalue | Viitenumero | Laatupäivitys |
 | --- | --- | --- |
 |   Mahdollisuuksien hallinta | 2762089 | Virheiden käsittely, kun sopimus suljetaan hävittynä, jos automaattinen tallennus on poistettu organisaatiossa käytöstä.|
+|Projektin suunnittelu ja seuranta | 2767841 | Telemetria päivittää projektientiteetin luonti- tai päivitysskenaariot.|
+|Laskutus ja hinnoittelu | 2771072 | Tyhjäarvoinen viittauspoikkeuksen käsittely tarjousta voittaessa.|
+|Laskutus ja hinnoittelu | 2844181 |Korrelaatiotunnuksen saaminen ja laskun luonnin estämisen epäonnistuminen.|
+|Laskutus ja hinnoittelu | 2852836 | Konsernin toteutuneet arvot puuttuvat CE:ssä luoduista ja hyväksytyistä konsernin kuluista.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektinhallinta ja kirjanpito Financessa
 
