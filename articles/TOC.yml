@@ -226,12 +226,14 @@
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
             - name: Materiaalien kustannus- ja myyntihintojen määrittäminen
               href: pricing-costing/set-up-cost-sales-rates-materials.md
-        - name: Oletukset ja ohittamiset
+        - name: Oletukset ja ohitukset
           items:
             - name: Oletushinnastot
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projektin myyntihinnastojen ohittaminen
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Päivämääräperusteisten ohitusten määrittäminen hinnaston tietyille hinnoille
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Arvioiden ja todellisten arvojen kustannushintojen määrittäminen
               href: pricing-costing/cost-price-resolution.md
             - name: Arvioiden ja todellisten arvojen myyntihintojen määrittäminen
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Tavaroiden ja palvelujen tilaaminen projekteille käyttämällä projektien ostotilauksia
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Toimittajien laskut alihankinnoille Dataversessä
+          items:
+            - name: Toimittajalaskujen luominen
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Hyväksyttyjä todellisia arvoja sisältävien toimittajalaskujen tarkistus
+              href: pro/subcontracting/VI-Verification.md
+            - name: Projektin toimittajalaskujen vahvistaminen
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Toimittajan säilytys
           items:
             - name: Toimittajan säilytyksen yleiskatsaus
@@ -838,12 +848,14 @@
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
             - name: Materiaalien kustannus- ja myyntihintojen määrittäminen
               href: pricing-costing/set-up-cost-sales-rates-materials.md
-        - name: Oletukset ja ohittamiset
+        - name: Oletukset ja ohitukset
           items:
             - name: Oletushinnastot
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Projektin myyntihinnastojen ohittaminen
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Päivämääräperusteisten ohitusten määrittäminen hinnaston tietyille hinnoille
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Projektin arvioitujen ja toteutuneiden kustannushintojen määrittäminen
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Projektin arvioiden ja toteutuneiden myyntihintojen määrittäminen
