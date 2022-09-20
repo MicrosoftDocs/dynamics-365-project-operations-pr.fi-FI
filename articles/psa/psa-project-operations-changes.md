@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925346"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459922"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Ominaisuuksien muutokset Project Service Automationista Project Operationsiin
 
 Päivitys Dynamics 365 Project Service Automationista Dynamics 365 Project Operations Liteen toimitetaan kolmessa vaiheessa. Tässä artikkelissa on tietoja tärkeimmistä muutoksista, jotka päivityksen valmistuessa ovat odotettavissa.
 
-| Päivityksen toimitus | Vaihe 1 <br>(Tammikuu 2022) | Vaihe 2 <br>(Huhtikuun aalto 2022) | Vaihe 3  |
+| Päivityksen toimitus | Vaihe 1 <br>(Tammikuu 2022) | Vaihe 2 <br>(Marraskuu 2022) | Vaihe 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Ei riippuvuutta projektien työrakenteesta (WBS). | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS sisältyy Project Operationsin tällä hetkellä tuettuihin rajoihin. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |

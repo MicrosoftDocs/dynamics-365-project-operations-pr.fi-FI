@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230225"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446031"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Päivittäminen Project Service Automationista Project Operationsiin
 
@@ -29,7 +29,7 @@ Olemme iloisia voidessamme julkaista kolme ensimmäistä vaihetta päivittämise
 
 Päivityksen toimitus jakautuu kolmeen vaiheeseen.
 
-| Päivityksen toimitus | Vaihe 1 (tammikuu 2022) | Vaihe 2 (huhtikuun aalto 2022) | Vaihe 3  |
+| Päivityksen toimitus | Vaihe 1 (tammikuu 2022) | Vaihe 2 (marraskuu 2022) | Vaihe 3 (huhtikuun aalto 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Ei riippuvuutta projektien työrakenteesta (WBS) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS Project Operationsin tällä hetkellä tuetuissa rajoissa | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Päivityksen toimitus jakautuu kolmeen vaiheeseen.
 
 Osana päivitysprosessia olemme lisänneet sivustokarttaan päivityslokit, jotta järjestelmänvalvojat voivat diagnosoida virheet helpommin. Uuden käyttöliittymän lisäksi lisätään uudet kelpoisuussäännöt, jotta varmistetaan tietojen eheys päivityksen jälkeen. Päivitysprosessiin lisätään seuraavat vahvistukset.
 
-| Vahvistukset | Vaihe 1 (tammikuu 2022) | Vaihe 2 (huhtikuun aalto 2022) | Vaihe 3  |
+| Vahvistukset | Vaihe 1 (tammikuu 2022) | Vaihe 2 (marraskuu 2022) | Vaihe 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | Työrakenne vahvistetaan yleisten tietojen eheysrikkomusten varalta (esimerkiksi resurssivaraukset, jotka on liitetty samaan päätehtävään, mutta joilla on eri pääprojektit). | | :heavy_check_mark: | :heavy_check_mark: |
 | Työrakenne vahvistetaan [Project for the Webin tunnettuja rajoja](/project-for-the-web/project-for-the-web-limits-and-boundaries) vastaan. | | :heavy_check_mark: | :heavy_check_mark: |

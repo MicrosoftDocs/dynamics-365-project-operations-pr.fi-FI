@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410114"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475180"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Myyntihintojen määrittäminen projektin arvioille ja toteutuneille arvoille
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Kun arvioiden ja todellisten arvojen myyntihinnat määritetään Microsoft Dynamics 365 Project Operationsissa, järjestelmä käyttää ensin saapuvan arvioiden ja todellisten arvojen kontekstin valuuttaa myyntihinnan määrittämiseksi. Erityisesti todellisten arvojen kontekstissa järjestelmä määrittää **Tapahtumapäivä**-kentän avulla, mitä hinnastoa käytetään. Kun myyntihinnasto on määritetty, järjestelmä määrittää myynnin tai laskun hinnan.
+Kun arvioiden ja todellisten arvojen myyntihinnat määritetään Microsoft Dynamics 365 Project Operationsissa, järjestelmä käyttää ensin saapuvan arvioiden ja todellisten arvojen kontekstin valuuttaa myyntihinnan määrittämiseksi. Erityisesti todellisten arvojen kontekstissa järjestelmä määrittää **Tapahtumapäivä**-kentän avulla, mitä hinnastoa käytetään. Saapuvan arvion tai toteutuneiden arvojen **Tapahtumapäivämäärä**-arvoa verrataan hinnastossa **Voimassaolon alkamispäivä (aikavyöhykkeestä riippumaton)**- ja **Voimassaolon päättymispäivä (aikavyöhykkeestä riippumaton)** -arvoihin. Kun myyntihinnasto on määritetty, järjestelmä määrittää myynnin tai laskun hinnan.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Todellisten ja arvioitujen aikarivien kustannushintojen määrittäminen
 

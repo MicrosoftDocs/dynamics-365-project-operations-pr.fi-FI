@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410145"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475227"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Projektiarvioiden ja toteutuneiden arvojen kustannusten määrittäminen
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Jos haluat määrittää kustannushinnat ja kustannushinnaston arvioita ja todellisia arvoja varten, järjestelmä käyttää liittyvän projektin **päivämäärä**-, **valuutta**- ja **hankintayksikkö**-kenttien tietoja.
+Kun arvioiden ja todellisten arvojen kustannushinnat määritetään Microsoft Dynamics 365 Project Operationsissa, järjestelmä käyttää ensin saapuvan arvioiden ja todellisten arvojen kontekstin valuuttaa kustannushinnaston määrittämiseksi. Erityisesti todellisten arvojen kontekstissa järjestelmä määrittää **Tapahtumapäivä**-kentän avulla, mitä hinnastoa käytetään. Saapuvan arvion tai toteutuneiden arvojen **Tapahtumapäivämäärä**-arvoa verrataan hinnastossa **Voimassaolon alkamispäivä (aikavyöhykkeestä riippumaton)**- ja **Voimassaolon päättymispäivä (aikavyöhykkeestä riippumaton)** -arvoihin. Kun kustannushinnasto on määritetty, järjestelmä määrittää kustannushinnan. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Arvioitujen ja todellisten arvojen kustannushintojen selvittäminen ajalle
 
@@ -33,7 +33,7 @@ Todellisten arvojen **Aika**-konteksti viittaa seuraavaan:
 - Merkintä- ja korjauskirjauskansiorivit kohteelle **Aika**.
 - Kirjauskansiorivit, jotka luodaan, kun aikamerkintä lähetetään.
 
-Kun kustannushinnasto on määritetty, järjestelmä suorittaa oletuskustannushinnan syöttämisen seuraavasti:
+Kun kustannushinnasto on määritetty, järjestelmä suorittaa oletuskustannushinnan syöttämisen seuraavasti.
 
 1. Järjestelmä täsmäyttää **roolin** ja **resursointiyksikön** kenttien yhdistelmän arvioitujen tai todellisten arvojen kontekstissa kohteelle **Aika**, jotta se vastaisi hinnaston roolien hintarivejä hinnastoissa. Tässä täsmäytyksessä oletetaan, että käytät työn kustannushintojen vakiohinnoitteludimensioita. Jos olet määrittänyt järjestelmän vastaamaan kenttiä **roolin** ja **resurssiyksikön** sijaan tai sen lisäksi, käytetään toista yhdistelmää, jolla haetaan vastaava roolihintarivi.
 1. Jos järjestelmä havaitsee roolien hintarivin, jolla on kustannushinta **roolin** ja **resurssiyksikön** yhdistelmälle, tätä kustannushintaa käytetään oletuskustannushintana.
@@ -55,7 +55,7 @@ Todellisten arvojen **Kulu**-konteksti viittaa seuraavaan:
 - Merkintä- ja korjauskirjauskansiorivit kohteelle **Kulu**.
 - Kirjauskansiorivit, jotka luodaan, kun kulumerkintä lähetetään.
 
-Kun kustannushinnasto on määritetty, järjestelmä suorittaa oletuskustannushinnan syöttämisen seuraavasti:
+Kun kustannushinnasto on määritetty, järjestelmä suorittaa oletuskustannushinnan syöttämisen seuraavasti.
 
 1. Järjestelmä täsmäyttää **Luokka**- ja **Yksikkö**-kenttien yhdistelmän arvioitujen tai todellisten arvojen kontekstissa kohteelle **Kulu**, jotta se vastaisi hinnaston luokkien hintarivejä hinnastoissa.
 1. Jos järjestelmä löytää luokan hintarivin, jonka kustannushinta on **luokka**- ja **yksikkö**-kenttäyhdistelmässä, tätä kustannushintaa käytetään oletuskustannushintana.
@@ -75,7 +75,7 @@ Todellisten arvojen **Materiaali**-konteksti viittaa seuraavaan:
 - Merkintä- ja korjauskirjauskansiorivit kohteelle **Materiaali**.
 - Kirjauskansiorivit, jotka luodaan, kun Materiaalin käyttö -loki lähetetään.
 
-Kun kustannushinnasto on määritetty, järjestelmä suorittaa oletuskustannushinnan syöttämisen seuraavasti:
+Kun kustannushinnasto on määritetty, järjestelmä suorittaa oletuskustannushinnan syöttämisen seuraavasti.
 
 1. Järjestelmä käyttää **Tuote**- ja **Yksikkö**-kenttien yhdistelmän arvioitujen tai todellisten arvojen kontekstissa kohteelle **Materiaali**, jotta se vastaisi hinnaston nimikerivejä hinnastoissa.
 1. Jos järjestelmä löytää hinnaston nimikerivin, jonka kustannushinta on **Tuote**- ja **yksikkö**-kenttäyhdistelmässä, tätä kustannushintaa käytetään oletuskustannushintana.

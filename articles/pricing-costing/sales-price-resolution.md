@@ -1,68 +1,95 @@
 ---
-title: Arvioiden ja todellisten arvojen myyntihintojen selvittäminen
-description: Tässä artikkelissa on tietoja myyntihintojen ratkaisemisesta arvioiden ja todellisuuden mukaan.
+title: Projektipohjaisten arvioiden ja toteutuneiden myyntihintojen määrittäminen
+description: Tässä artikkelissa on tietoja myyntihintojen määrittämisestä projektipohjaisissa arvioissa ja toteutuneissa arvoissa.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0b95c651983230cbf340f2c06089a287b2c8a10
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911822"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475365"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Arvioiden ja todellisten arvojen myyntihintojen selvittäminen
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Projektipohjaisten arvioiden ja toteutuneiden myyntihintojen määrittäminen
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Kun arvioiden ja todellisten arvojen myyntihinnat ratkaistaan Dynamics 365 Project Operationsissa, järjestelmä käyttää ensin liittyvän projektitarjouksen tai -sopimuksen päivämäärää ja valuuttaa myyntihinnan ratkaisemiseksi. Kun myyntihinnasto on ratkaistu, järjestelmä ratkaisee myynnin tai laskun hinnan.
+Kun arvioiden ja todellisten arvojen myyntihinnat määritetään Microsoft Dynamics 365 Project Operationsissa, järjestelmä käyttää ensin saapuvan arvioiden ja todellisten arvojen kontekstin valuuttaa myyntihinnan määrittämiseksi. Erityisesti todellisten arvojen kontekstissa järjestelmä määrittää **Tapahtumapäivä**-kentän avulla, mitä hinnastoa käytetään. Saapuvan arvion tai toteutuneiden arvojen **Tapahtumapäivämäärä**-arvoa verrataan hinnastossa **Voimassaolon alkamispäivä (aikavyöhykkeestä riippumaton)**- ja **Voimassaolon päättymispäivä (aikavyöhykkeestä riippumaton)** -arvoihin. Kun myyntihinnasto on määritetty, järjestelmä määrittää myynnin tai laskun hinnan.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Todellisten ja arvioitujen aikarivien kustannushintojen selvittäminen
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Todellisten ja arvioitujen aikarivien kustannushintojen määrittäminen
 
-Project Operationsissa arviorivien avulla voidaan osoittaa tarjousrivin ja sopimusrivin tiedot sekä projektin resurssivaraukset.
+**Aika**-arviokonteksti viittaa seuraavaan:
 
-Kun myyntihinnasto on ratkaistu, järjestelmä suorittaa laskun hinnan oletusarvon seuraavasti:
+- Tarjousrivin tiedot kohteelle **Aika**.
+- Sopimusrivin tiedot kohteelle **Aika**.
+- Resurssimääritykset projektissa.
 
-1. Järjestelmä käyttää arviorivillä olevaa **roolin**, **resurssiyrityksen** ja **resursointiyksikön** kenttiä, jotta se vastaisi hinnaston roolien hintarivejä ratkaistuissa hinnastoissa. Tämä vastaavuus olettaa, että laskuhintojen hinnoittelun ulottuvuuksia käytetään. Jos olet määrittänyt hinnoittelun mihin tahansa muuhun kenttään **roolin**, **resurssiyrityksen** ja **resurssiyksikön** sijaan tai sen lisäksi, sitä yhdistelmää käytetään vastaavan roolihintarivin noutamiseen.
-2. Jos järjestelmä havaitsee roolien hintarivin, jolla on laskutushinta **rooli**-, **resurssiyritys**- ja **resurssiyksikkö** -kentän yhdistelmälle, tämä laskutushinta on oletuskustannushinta.
-3. Jos järjestelmä ei pysty vastaamaan **roolien**, **resursointiyrityksen** ja **resursointiyksikön** kenttäarvojen vastaavuutta, se hakee roolikohtaiset hintarivit, joilla on vastaava osa, mutta **resurssiyksikön** tyhjäarvo. Kun järjestelmä on löytänyt vastaavan roolien hintatietueen, se määrittää kyseisen tietueen laskun hinnan oletusarvoksi. Tämä hakutoiminto olettaa, että myyntihinnoittelu dimensiona on **roolin** vs. **resurssiyksikön** suhteellinen prioriteetti.
+Todellisten arvojen **Aika**-konteksti viittaa seuraavaan:
+
+- Merkintä- ja korjauskirjauskansiorivit kohteelle **Aika**.
+- Kirjauskansiorivit, jotka luodaan, kun aikamerkintä lähetetään.
+- Laskurivin tiedot kohteelle **Aika**. 
+
+Kun myyntihinnasto on määritetty, järjestelmä syöttää laskun oletushinnan seuraavasti.
+
+1. Järjestelmä täsmäyttää **roolin**, **resursointiyrityksen** ja **resursointiyksikön** kenttien yhdistelmän arvioitujen tai todellisten arvojen kontekstissa kohteelle **Aika**, jotta se vastaisi hinnaston roolien hintarivejä hinnastoissa. Tämä vastaavuus olettaa, että laskuhintojen käyttövalmiita hinnoitteludimensioita käytetään. Jos olet määrittänyt hinnoittelun mihin tahansa muuhun kenttään **roolin**, **resurssiyrityksen** ja **resurssiyksikön** sijaan tai sen lisäksi, sitä kenttien yhdistelmää käytetään vastaavan roolihintarivin noutamiseen.
+1. Jos järjestelmä havaitsee roolien hintarivin, jolla on laskutushinta **rooli**-, **resurssiyritys**- ja **resurssiyksikkö** -kentän yhdistelmälle, tämä laskutushinta on oletuslaskutushinta.
 
 > [!NOTE]
-> Jos olet määrittänyt erilaisen priorisoinnin **roolille**, **resursointiyritykselle** ja **resursointiyksikölle** tai jos sinulla on muita suurempia dimensioita, tämä toiminta muuttuu vastaavasti. Järjestelmä hakee roolille hintatietueet, joiden arvot vastaavat kutakin hinnoitteludimension arvoa prioriteettijärjestyksessä ja rivit, joilla on tyhjäarvoja, kun kyseiset dimensiot tulevat viimeiseksi.
+> Jos määritetään erilainen **rooli**-, **resursointiyritys**- ja **resursointiyksikkö**-kenttien priorisointi tai jos sinulla on muita suuremman prioriteetin dimensioita, edeltävä toiminta muuttuu vastaavasti. Järjestelmä noutaa roolin hintatietueet, joissa on arvoja, jotka vastaavat jokaista hinnoitteludimension arvoa prioriteettijärjestyksessä. Rivit, joilla on tyhjäarvot kyseisille dimensioille, tulevat viimeisenä.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Todellisten ja arvioitujen kulurivien kustannushintojen selvittäminen
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Todellisten ja arvioitujen kulurivien kuluhintojen määrittäminen
 
-Project Operationsissa kustannusarvioita käytetään osoittamaan tarjous- ja sopimusrivin yksityiskohdat sekä projektin kustannusarviorivit.
+**Kulu**-arviokonteksti viittaa seuraavaan:
 
-Kun myyntihinnasto on ratkaistu, järjestelmä suorittaa yksikkömyyntihinnan oletusarvon seuraavasti:
+- Tarjousrivin tiedot kohteelle **Kulu**.
+- Sopimusrivin tiedot kohteelle **Kulu**.
+- Projektin kuluarviorivit.
 
-1. Järjestelmä käyttää arviorivillä **Luokka**- ja **Yksikkö**-kenttäyhdistelmää kustannusten sovittamiseksi ratkaistun hinnaston luokan hintariveihin.
-2. Jos järjestelmä löytää luokan hintarivin, jonka myyntihinta on **luokka**- ja **yksikkö**-kenttäyhdistelmässä, tämä myyntihinta on oletusarvo.
-3. Jos järjestelmä löytää vastaavan luokan hintarivin, myyntihinnan oletusarvona voidaan käyttää hinnoittelutapaa. Seuraavassa taulukossa on esitetty kuluhinnan oletuskäyttäytyminen Project Operationsissa.
+Todellisten arvojen **Kulu**-konteksti viittaa seuraavaan:
+
+- Merkintä- ja korjauskirjauskansiorivit kohteelle **Kulu**.
+- Kirjauskansiorivit, jotka luodaan, kun kulumerkintä lähetetään.
+- Laskurivin tiedot kohteelle **Kulu**. 
+
+Kun myyntihinnasto on määritetty, järjestelmä syöttää oletusyksikkömyyntihinnan seuraavasti.
+
+1. Järjestelmä käyttää arviorivillä **Luokka**- ja **Yksikkö**-kenttäyhdistelmää **Kulu**-arviorivin täsmäyttämiseksi hinnaston luokan hintariveihin.
+1. Jos järjestelmä löytää luokan hintarivin, jonka myyntihinta on **luokka**- ja **yksikkö**-kenttäyhdistelmässä, tätä myyntihintaa käytetään oletusarvona.
+1. Jos järjestelmä löytää vastaavan luokan hintarivin, oletusmyyntihinnan syöttämiseen voidaan käyttää hinnoittelutapaa. Seuraavassa taulukossa on esitetty kuluhintojen oletuskäyttäytyminen Project Operationsissa.
 
     | Konteksti | Hinnoittelutapa | Oletushinta |
     | --- | --- | --- |
-    | Arvio | Yksikköhinta | Luokan hintarivin perusteella |
-    | &nbsp; | Kustannusten mukaan | 0.00 |
-    | &nbsp; | Hinnankorotus | 0.00 |
-    | Todellinen | Yksikköhinta | Luokan hintarivin perusteella |
-    | &nbsp; | Kustannusten mukaan | Perustuu liittyviin todellisiin kustannuksiin |
-    | &nbsp; | Hinnankorotus | Käyttämällä luokan hintarivillä määritettyä merkintää, joka liittyy liittyvän kustannuksen todelliseen yksikkökustannushintaan |
+    | Arvio | Yksikköhinta | Luokan hintarivin perusteella. |
+    |        | Kustannusten mukaan | 0.00 |
+    |        | Hinnankorotus | 0.00 |
+    | Todellinen | Yksikköhinta | Luokan hintarivin perusteella. |
+    |        | Kustannusten mukaan | Perustuu liittyviin todellisiin kustannuksiin. |
+    |        | Hinnankorotus | Käytetään luokan hintarivillä määritettyä merkintää, joka liittyy liittyvän kustannuksen todellisen arvon yksikkökustannushintaan. |
 
-4. Jos järjestelmä ei pysty vastaamaan **luokan** ja **yksikön** kenttien arvoja, myyntihinnan oletusarvona on nolla (0).
+1. Jos järjestelmä ei pysty yhdistämään **Luokka**- ja **Yksikkö**-arvoja, myyntihinta saa oletusarvon **0** (nolla).
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Myynnin arvojen selvittäminen materiaalin toteutuneiden arvojen ja arvioiden riveillä
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Myynnin arvojen määrittäminen materiaalin toteutuneiden arvojen ja arvioiden riveillä
 
-Project Operationsin materiaalin arviorivejä käytetään tarjousrivin ja sopimusrivin tietojen kirjaamiseen materiaaleille ja materiaalin arvioiriveille projektissa.
+**Materiaali**-arviokonteksti viittaa seuraavaan:
 
-Kun myyntihinnasto on ratkaistu, järjestelmä suorittaa yksikkömyyntihinnan oletusarvon seuraavasti:
+- Tarjousrivin tiedot kohteelle **Materiaali**.
+- Sopimusrivin tiedot kohteelle **Materiaali**.
+- Projektin materiaaliarviorivit.
 
-1. Järjestelmä käyttää arviointirivin **Tuote**- ja **Yksikkö**-kenttäyhdistelmiä yhdistämään materiaali hinnaston nimikkeiden riveihin ratkaistussa hinnastossa.
-2. Jos järjestelmä löytää hinnaston nimikerivin, jolla on myyntihinta **Tuote**- ja **Yksikkö**-kentän yhdistelmälle ja hinnoittelutapa on **Valuuttasumma**, käytetään hinnastorivillä määritettyä myyntihintaa.
-3. Jos **Tuote**- ja **Yksikkö**-arvot eivät täsmää, myyntihinta saa oletusarvon nolla.
+Todellisten arvojen **Materiaali**-konteksti viittaa seuraavaan:
 
+- Merkintä- ja korjauskirjauskansiorivit kohteelle **Materiaali**.
+- Kirjauskansiorivit, jotka luodaan, kun Materiaalin käyttö -loki lähetetään.
+- Laskurivin tiedot kohteelle **Materiaali**. 
 
+Kun myyntihinnasto on määritetty, järjestelmä syöttää oletusyksikkömyyntihinnan seuraavasti.
+
+1. Järjestelmä käyttää **Materiaali**-arviointirivin **Tuote**- ja **Yksikkö**-kenttäyhdistelmiä täsmäytykseen hinnaston nimikerivien kanssa.
+1. Jos järjestelmä löytää hinnaston nimikerivin, jolla on myyntihinta **Tuote**- ja **Yksikkö**-kentän yhdistelmälle ja jos hinnoittelutapa on **Valuuttasumma**, käytetään hinnastorivillä määritettyä myyntihintaa. 
+1. Jos **Tuote**- ja **Yksikkö**-kentän arvot eivät vastaa toisiaan tai hinnoittelutapa on jokin muu kuin **Valuuttasumma**, myyntihinnaksi määritetään oletusarvon mukaan **0** (nolla). Näin käy, koska Project Operations tukee vain projektissa käytettyä materiaalien **Valuuttasumma**-hinnoittelutapaa.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
