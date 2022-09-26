@@ -506,8 +506,10 @@
           href: approvals/approval-sets.md
         - name: Aiemmin hyväksyttyjen tapahtumien hyväksynnän peruuttaminen
           href: approvals/cancelapproval.md
-        - name: Aiemmin hyväksyttyjen tapahtumien palauttaminen
+        - name: Aiemmin hyväksyttyjen merkintöjen palauttaminen
           href: approvals/recall-cancel.md
+        - name: Suojaus ja hyväksynnät
+          href: approvals/approvals-security.md
         - name: Kehittäjän huomautukset
           items:
             - name: Hyväksyntöjä koskevat kehittäjän huomautukset
@@ -554,15 +556,17 @@
               href: pro/subcontracting/VI-Verification.md
             - name: Projektin toimittajalaskujen vahvistaminen
               href: procurement/Confirm-a-project-vendor-invoice.md
-        - name: Toimittajan säilytys
+        - name: Toimittajien säilytys
           items:
-            - name: Toimittajan säilytyksen yleiskatsaus
+            - name: Toimittajien säilytyksen yleiskatsaus
               href: procurement/vendor-retention-overview.md
-            - name: Toimittajan säilytyksen määrittäminen
+            - name: Toimittajien säilytyksen määrittäminen
               href: procurement/set-up-vendor-retention.md
+            - name: 'Maksa, kun maksettu'
+              href: procurement/Pay-when-paid.md
     - name: Laskutus
       items:
-        - name: Laskujen käsittelyn yleiskatsaus
+        - name: Laskutusprosessin yleiskatsaus
           href: invoicing/post-project-invoices.md
         - name: Proformalaskutus
           items:
@@ -1100,8 +1104,10 @@
           href: approvals/approval-sets.md
         - name: Aiemmin hyväksyttyjen tapahtumien hyväksynnän peruuttaminen
           href: approvals/cancelapproval.md
-        - name: Aiemmin hyväksyttyjen tapahtumien palauttaminen
+        - name: Aiemmin hyväksyttyjen merkintöjen palauttaminen
           href: approvals/recall-cancel.md
+        - name: Suojaus ja hyväksynnät
+          href: approvals/approvals-security.md
         - name: Kehittäjän huomautukset
           items:
             - name: Hyväksyntöjä koskevat kehittäjän huomautukset
