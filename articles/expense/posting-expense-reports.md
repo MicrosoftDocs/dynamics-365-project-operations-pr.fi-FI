@@ -1,8 +1,8 @@
 ---
 title: Matkalaskujen kirjaaminen
 description: Tässä artikkelissa käsitellään kuluraporttien kirjaamista.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934500"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524865"
 ---
 # <a name="post-expense-reports"></a>Matkalaskujen kirjaaminen
 
@@ -30,5 +30,15 @@ Voit kirjata kuluraportin valitsemalla **Hyväksytyt kuluraportit** -sivulla kul
 
 Voit myös kirjata kaikki luettelon kuluraportit samalla kertaa. Valitse kaikki kuluraportit ja valitse sitten **Kirjaa**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Ota käyttöön toiminto kulujen velan kirjaamiseksi toimittajan valuuttana käteismaksutavan ominaisuutta varten
+
+**Mahdollisuus kirjata kuluvelka toimittajan valuuttana käteismaksutavan** -ominaisuuden avulla kuluraportit voidaan kirjata toimittajan valuuttana käteismaksutapaa varten.
+
+Tällä hetkellä kun lähetät kassakuluja, kuluraportit kirjataan kirjanpitovaluuttana. Summan muuntamisen vuoksi tapahtumavaluutan, kirjanpitovaluutan ja toimittajan valuutan välillä toimittajalle maksetaan virheellinen summa, jos kulun tapahtumapäivämäärällä ja todellisella maksupäivällä on eri vaihtokurssit.
+
+Tämä ominaisuus varmistaa, että toimittajan saldo kirjataan toimittajan valuuttana, kun kuluraportti kirjataan.
+
+1. Siirry kohtaan **Työtilat** \> **Ominaisuuksien hallinta**.
+2. Etsi ja valitse luettelosta **Mahdollisuus kirjata kuluvelka toimittajan valuuttana** käteismaksumenetelmää varten ja valitse sitten **Ota käyttöön nyt**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

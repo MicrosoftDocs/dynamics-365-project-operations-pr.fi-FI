@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230311"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541120"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Projektiaikataulun ohjelmointirajapintojen käyttö toimintojen suorittamiseen aikataulutusentiteeteillä
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
 
-
-## <a name="scheduling-entities"></a>Aikataulutusentiteetit
+**Aikataulutusentiteetit**
 
 Projektiaikataulun ohjelmointirajapintojen avulla voi luoda, päivittää ja poistaa toimintoja **aikataulutusentiteettien** avulla. Näitä entiteettejä hallitaan verkkopohjaisessa Projectissa aikataulutusytimen kautta. Luonti-, päivitys- ja poisto-operaatioita **Aikataulutusentiteettien avulla** rajoitettiin aiemmissa Dynamics 365 Project Operations -julkaisuissa.
 
 Seuraavassa taulukossa on täydellinen luettelo Projektiaikataulu -entiteeteistä.
 
-| Entiteetin nimi  | Entiteetin looginen nimi |
-| --- | --- |
-| Project | msdyn_project |
-| Projektin tehtävä  | msdyn_projecttask  |
-| Projektitehtävän riippuvuus  | msdyn_projecttaskdependency  |
-| Resurssien delegointi | msdyn_resourceassignment |
-| Projektin joukko  | msdyn_projectbucket |
-| Projektiryhmän jäsen | msdyn_projectteam |
+| **Entiteetin nimi**         | **Entiteetin looginen nimi**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Projektin tehtävä            | msdyn_projecttask           |
+| Projektitehtävän riippuvuus | msdyn_projecttaskdependency |
+| Resurssien delegointi     | msdyn_resourceassignment    |
+| Projektin joukko          | msdyn_projectbucket         |
+| Projektiryhmän jäsen     | msdyn_projectteam           |
+| Projektin tarkistusluettelot      | msdyn_projectchecklist      |
+| Projektin selite           | msdyn_projectlabel          |
+| Projektitehtävä, jolle annetaan selite   | msdyn_projecttasktolabel    |
+| Projektisprintti          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet on työyksikkörakenne, jota voidaan käyttää, kun useita aikatauluihin vaikuttavia pyyntöjä on käsiteltävä tapahtumassa.
 
-## <a name="project-schedule-apis"></a>Projektiaikataulujen ohjelmointirajapinnat
+**Projektiaikataulujen ohjelmointirajapinnat**
 
 Seuraavassa on luettelo nykyisistä Projektiaikataulun ohjelmointirajapinnoista.
 
-- **msdyn_CreateProjectV1**: Tämän ohjelmointirajapinnan avulla voidaan luoda projekti. Projekti ja oletusprojektisäilö luodaan heti.
-- **msdyn_CreateTeamMemberV1**: Tämän ohjelmointirajapinnan avulla voidaan luoda projektiryhmän jäsen. Ryhmän jäsentietue luodaan heti.
-- **msdyn_CreateOperationSetV1**: Tämän ohjelmointirajapinnan avulla voidaan aikatauluttaa useita pyyntöjä, jotka on suoritettava tapahtumassa.
-- **msdyn_PssCreateV1**: Tämän ohjelmointirajapinnan avulla voidaan luoda entiteetti. Entiteetti voi olla mikä tahansa luontitoimintoa tukeva projektin aikataulutusentiteetti.
-- **msdyn_PssUpdateV1**: Tämän ohjelmointirajapinnan avulla voidaan päivittää entiteetti. Entiteetti voi olla mikä tahansa päivitystoimintoa tukeva projektin aikataulutusentiteetti.
-- **msdyn_PssDeleteV1**: Tämän ohjelmointirajapinnan avulla voidaan poistaa entiteetti. Entiteetti voi olla mikä tahansa poistotoimintoa tukeva projektin aikataulutusentiteetti.
-- **msdyn_ExecuteOperationSetV1**: Tämän ohjelmointirajapinnan avulla suoritetaan kaikki toiminnot tietyn toimintojoukon sisällä.
+| **Ohjelmointirajapinta**                                 | Description                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | Tätä ohjelmointirajapintaa käytetään projektin luomiseen. Projekti ja oletusprojektisäilö luodaan heti.                         |
+| **msdyn_CreateTeamMemberV1**            | Tätä ohjelmointirajapintaa käytetään projektin ryhmän jäsenen luomiseen. Ryhmän jäsentietue luodaan heti.                                  |
+| **msdyn_CreateOperationSetV1**          | Tämän ohjelmointirajapinnan avulla voidaan aikatauluttaa useita pyyntöjä, jotka on suoritettava tapahtumassa.                                        |
+| **msdyn_PssCreateV1**                   | Tätä ohjelmointirajapintaa käytetään entiteetin luomiseen. Entiteetti voi olla mikä tahansa luontitoimintoa tukeva projektin aikataulutusentiteetti. |
+| **msdyn_PssUpdateV1**                   | Tätä ohjelmointirajapintaa käytetään entiteetin päivittämiseen. Entiteetti voi olla mikä tahansa päivitystoimintoa tukeva projektin aikataulutusentiteetti  |
+| **msdyn_PssDeleteV1**                   | Tätä ohjelmointirajapintaa käytetään entiteetin poistamiseen. Entiteetti voi olla mikä tahansa poistotoimintoa tukeva projektin aikataulutusentiteetti. |
+| **msdyn_ExecuteOperationSetV1**         | Tämän ohjelmointirajapinnan avulla suoritetaan kaikki toiminnot tietyn toimintojoukon sisällä.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Tätä ohjelmointirajapintaa käytetään päivittämään resurssin määrityksen suunnitellut työt.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>Projektiaikataulun ohjelmointirajapintojen käyttäminen OperationSetin kanssa
+
+
+**Projektiaikataulun ohjelmointirajapintojen käyttäminen OperationSetin kanssa**
 
 Koska tietueet, joissa on sekä **CreateProjectV1** että **CreateTeamMemberV1** luodaan välittömästi, näitä ohjelmointirajapintoja ei voida käyttää suoraan **OperationSet** issä. Ohjelmointirajapinnan avulla voit kuitenkin luoda tarvittavat tietueet, luoda **OperationSet** in, ja käyttää sitten näitä aiemmin luotuja tietueita **OperationSet** issä.
 
-## <a name="supported-operations"></a>Tuetut toiminnot
+**Tuetut toiminnot**
 
-| Aikataulutusentiteetti | Luo | Update | Delete | Tärkeitä huomioon otettavia seikkoja |
-| --- | --- | --- | --- | --- |
-Projektitehtävä | Kyllä | Kyllä | Kyllä | **Progress**-, **EffortCompleted**- ja **EffortRemaining**-kenttiä voi muokata Project for the Webissä, mutta niitä ei voi muokata Project Operationsissa.  |
-| Projektitehtävän riippuvuus | Kyllä |  | Kyllä | Projektitehtävän riippuvuustietueita ei päivitetä. Sen sijaan voidaan poistaa vanha tietue ja luoda uusi tietue. |
-| Resurssien delegointi | Kyllä | Kyllä | | Toimintoja, joilla on seuraavat kentät, ei tueta: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** ja **PlannedWork**. Resurssien määritystietueita ei päivitetä. Sen sijaan voidaan poistaa vanha tietue ja luoda uusi tietue. |
-| Projektin säilö | Kyllä | Kyllä | Kyllä | Oletussäilö luodaan **CreateProjectV1**-ohjelmointirajapinnan avulla. Update Release 16 -versiossa lisättiin projektisäilöjen luonti- ja poistotuki. |
-| Projektiryhmän jäsen | Kyllä | Kyllä | Kyllä | Käytä luontioperaatiolle **CreateTeamMemberV1** -ohjelmointirajapintaa. |
-| Project | Kyllä | Kyllä |  | Toimintoja, joilla on seuraavat kentät, ei tueta **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** ja **Duration**. |
+| **Aikataulutusentiteetti**   | **Luo** | **Update** | **Delete** | **Tärkeitä huomioon otettavia seikkoja**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Projektitehtävä            | Kyllä        | Kyllä        | Kyllä        | **Progress**-, **EffortCompleted**- ja **EffortRemaining**-kenttiä voi muokata Project for the Webissä, mutta niitä ei voi muokata Project Operationsissa.                                                                                                                                                                                             |
+| Projektitehtävän riippuvuus | Kyllä        | No         | Kyllä        | Projektitehtävän riippuvuustietueita ei päivitetä. Sen sijaan voidaan poistaa vanha tietue ja luoda uusi tietue.                                                                                                                                                                                                                                 |
+| Resurssien delegointi     | Kyllä        | Kyllä\*      | Kyllä        | Toimintoja, joilla on seuraavat kentät, ei tueta: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** ja **PlannedWork**. Resurssien määritystietueita ei päivitetä. Sen sijaan voidaan poistaa vanha tietue ja luoda uusi tietue. Erillinen ohjelmointirajapinta on annettu resurssin määritysten päivittämiseen. |
+| Projektin säilö          | Kyllä        | Kyllä        | Kyllä        | Oletussäilö luodaan **CreateProjectV1**-ohjelmointirajapinnan avulla. Update Release 16 -versiossa lisättiin projektisäilöjen luonti- ja poistotuki.                                                                                                                                                                                                   |
+| Projektiryhmän jäsen     | Kyllä        | Kyllä        | Kyllä        | Käytä luontioperaatiolle **CreateTeamMemberV1** -ohjelmointirajapintaa.                                                                                                                                                                                                                                                                                           |
+| Project                 | Kyllä        | Kyllä        |            | Toimintoja, joilla on seuraavat kentät, ei tueta **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** ja **Duration**.                                                                                       |
+| Projektin tarkistusluettelot      | Kyllä        | Kyllä        | Kyllä        |                                                                                                                                                                                                                                                                                                                                                         |
+| Projektin selite           | No         | Kyllä        | No         | Selitteiden nimiä voi muuttaa. Tämä toiminto on käytettävissä vain Project for the Webissä                                                                                                                                                                                                                                                                      |
+| Projektitehtävä, jolle annetaan selite   | Kyllä        | No         | Kyllä        | Tämä toiminto on käytettävissä vain Project for the Webissä                                                                                                                                                                                                                                                                                                  |
+| Projektisprintti          | Kyllä        | Kyllä        | Kyllä        | **Aloitus**-kentässä on oltava **Päättymispäivä**-kenttää vanhempi päivämäärä. Saman projektin sprintit eivät voi olla päällekkäisiä toistensa kanssa. Tämä toiminto on käytettävissä vain Project for the Webissä                                                                                                                                                                    |
 
-Näitä ohjelmointirajapintoja voidaan kutsua entiteettiobjekteilla, jotka sisältävät mukautettuja kenttiä.
+
+
 
 Tunnusominaisuus on valinnainen. Jos se on annettu, järjestelmä yrittää käyttää sitä ja antaa poikkeuksen, jos sitä ei voi käyttää. Jos sitä ei ole annettu, järjestelmä luo sen.
 
-## <a name="restricted-fields"></a>Rajoitetut kentät
+**Rajoitukset ja tunnetut ongelmat**
 
-Seuraavissa taulukoissa määritetään kentät, joita ei voi **luoda** ja **muokata**.
-
-### <a name="project-task"></a>Projektitehtävä
-
-| Looginen nimi                           | Voidaan luoda     | Voidaan muokata         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | No             | No               |
-| msdyn_actualcost_base                  | No             | No               |
-| msdyn_actualend                        | No             | No               |
-| msdyn_actualsales                      | No             | No               |
-| msdyn_actualsales_base                 | No             | No               |
-| msdyn_actualstart                      | No             | No               |
-| msdyn_costatcompleteestimate           | No             | No               |
-| msdyn_costatcompleteestimate_base      | No             | No               |
-| msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Ei (kyllä projektille)             | Ei (kyllä projektille)               |
-| msdyn_effortremaining                  | Ei (kyllä projektille)              | Ei (kyllä projektille)                |
-| msdyn_effortestimateatcomplete         | No             | No               |
-| msdyn_iscritical                       | No             | No               |
-| msdyn_iscriticalname                   | No             | No               |
-| msdyn_ismanual                         | No             | No               |
-| msdyn_ismanualname                     | No             | No               |
-| msdyn_ismilestone                      | No             | No               |
-| msdyn_ismilestonename                  | No             | No               |
-| msdyn_LinkStatus                       | No             | No               |
-| msdyn_linkstatusname                   | No             | No               |
-| msdyn_msprojectclientid                | No             | No               |
-| msdyn_plannedcost                      | No             | No               |
-| msdyn_plannedcost_base                 | No             | No               |
-| msdyn_plannedsales                     | No             | No               |
-| msdyn_plannedsales_base                | No             | No               |
-| msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Ei (kyllä projektille)             | Ei (kyllä projektille) |
-| msdyn_remainingcost                    | No             | No               |
-| msdyn_remainingcost_base               | No             | No               |
-| msdyn_remainingsales                   | No             | No               |
-| msdyn_remainingsales_base              | No             | No               |
-| msdyn_requestedhours                   | No             | No               |
-| msdyn_resourcecategory                 | No             | No               |
-| msdyn_resourcecategoryname             | No             | No               |
-| msdyn_resourceorganizationalunitid     | No             | No               |
-| msdyn_resourceorganizationalunitidname | No             | No               |
-| msdyn_salesconsumptionpercentage       | No             | No               |
-| msdyn_salesestimateatcomplete          | No             | No               |
-| msdyn_salesestimateatcomplete_base     | No             | No               |
-| msdyn_salesvariance                    | No             | No               |
-| msdyn_salesvariance_base               | No             | No               |
-| msdyn_scheduleddurationminutes         | No             | No               |
-| msdyn_scheduledend                     | No             | No               |
-| msdyn_scheduledstart                   | No             | No               |
-| msdyn_schedulevariance                 | No             | No               |
-| msdyn_skipupdateestimateline           | No             | No               |
-| msdyn_skipupdateestimatelinename       | No             | No               |
-| msdyn_summary                          | No             | No               |
-| msdyn_varianceofcost                   | No             | No               |
-| msdyn_varianceofcost_base              | No             | No               |
-
-### <a name="project-task-dependency"></a>Projektitehtävän riippuvuus
-
-| Looginen nimi                  | Voidaan luoda     | Voidaan muokata     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | No             | No           |
-| msdyn_linktypename            | No             | No           |
-| msdyn_predecessortask         | Kyllä            | No           |
-| msdyn_predecessortaskname     | Kyllä            | No           |
-| msdyn_project                 | Kyllä            | No           |
-| msdyn_projectname             | Kyllä            | No           |
-| msdyn_projecttaskdependencyid | Kyllä            | No           |
-| msdyn_successortask           | Kyllä            | No           |
-| msdyn_successortaskname       | Kyllä            | No           |
-
-### <a name="resource-assignment"></a>Resurssien delegointi
-
-| Looginen nimi                 | Voidaan luoda     | Voidaan muokata     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Kyllä            | No           |
-| msdyn_bookableresourceidname | Kyllä            | No           |
-| msdyn_bookingstatusid        | No             | No           |
-| msdyn_bookingstatusidname    | No             | No           |
-| msdyn_committype             | No             | No           |
-| msdyn_committypename         | No             | No           |
-| msdyn_effort                 | No             | No           |
-| msdyn_effortcompleted        | No             | No           |
-| msdyn_effortremaining        | No             | No           |
-| msdyn_finish                 | No             | No           |
-| msdyn_plannedcost            | No             | No           |
-| msdyn_plannedcost_base       | No             | No           |
-| msdyn_plannedcostcontour     | No             | No           |
-| msdyn_plannedsales           | No             | No           |
-| msdyn_plannedsales_base      | No             | No           |
-| msdyn_plannedsalescontour    | No             | No           |
-| msdyn_plannedwork            | No             | No           |
-| msdyn_projectid              | Kyllä            | No           |
-| msdyn_projectidname          | No             | No           |
-| msdyn_projectteamid          | No             | No           |
-| msdyn_projectteamidname      | No             | No           |
-| msdyn_start                  | No             | No           |
-| msdyn_taskid                 | No             | No           |
-| msdyn_taskidname             | No             | No           |
-| msdyn_userresourceid         | No             | No           |
-
-### <a name="project-team-member"></a>Projektiryhmän jäsen
-
-| Looginen nimi                                     | Voidaan luoda     | Voidaan muokata     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | No             | No           |
-| msdyn_creategenericteammemberwithrequirementname | No             | No           |
-| msdyn_deletestatus                               | No             | No           |
-| msdyn_deletestatusname                           | No             | No           |
-| msdyn_effort                                     | No             | No           |
-| msdyn_effortcompleted                            | No             | No           |
-| msdyn_effortremaining                            | No             | No           |
-| msdyn_finish                                     | No             | No           |
-| msdyn_hardbookedhours                            | No             | No           |
-| msdyn_hours                                      | No             | No           |
-| msdyn_markedfordeletiontimer                     | No             | No           |
-| msdyn_markedfordeletiontimestamp                 | No             | No           |
-| msdyn_msprojectclientid                          | No             | No           |
-| msdyn_percentage                                 | No             | No           |
-| msdyn_requiredhours                              | No             | No           |
-| msdyn_softbookedhours                            | No             | No           |
-| msdyn_start                                      | No             | No           |
-
-### <a name="project"></a>Project
-
-| Looginen nimi                           | Voidaan luoda     | Voidaan muokata     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | No             | No           |
-| msdyn_actualexpensecost_base           | No             | No           |
-| msdyn_actuallaborcost                  | No             | No           |
-| msdyn_actuallaborcost_base             | No             | No           |
-| msdyn_actualsales                      | No             | No           |
-| msdyn_actualsales_base                 | No             | No           |
-| msdyn_contractlineproject              | Kyllä            | No           |
-| msdyn_contractorganizationalunitid     | Kyllä            | No           |
-| msdyn_contractorganizationalunitidname | Kyllä            | No           |
-| msdyn_costconsumption                  | No             | No           |
-| msdyn_costestimateatcomplete           | No             | No           |
-| msdyn_costestimateatcomplete_base      | No             | No           |
-| msdyn_costvariance                     | No             | No           |
-| msdyn_costvariance_base                | No             | No           |
-| msdyn_duration                         | No             | No           |
-| msdyn_effort                           | No             | No           |
-| msdyn_effortcompleted                  | No             | No           |
-| msdyn_effortestimateatcompleteeac      | No             | No           |
-| msdyn_effortremaining                  | No             | No           |
-| msdyn_finish                           | Kyllä            | Kyllä          |
-| msdyn_globalrevisiontoken              | No             | No           |
-| msdyn_islinkedtomsprojectclient        | No             | No           |
-| msdyn_islinkedtomsprojectclientname    | No             | No           |
-| msdyn_linkeddocumenturl                | No             | No           |
-| msdyn_msprojectdocument                | No             | No           |
-| msdyn_msprojectdocumentname            | No             | No           |
-| msdyn_plannedexpensecost               | No             | No           |
-| msdyn_plannedexpensecost_base          | No             | No           |
-| msdyn_plannedlaborcost                 | No             | No           |
-| msdyn_plannedlaborcost_base            | No             | No           |
-| msdyn_plannedsales                     | No             | No           |
-| msdyn_plannedsales_base                | No             | No           |
-| msdyn_progress                         | No             | No           |
-| msdyn_remainingcost                    | No             | No           |
-| msdyn_remainingcost_base               | No             | No           |
-| msdyn_remainingsales                   | No             | No           |
-| msdyn_remainingsales_base              | No             | No           |
-| msdyn_replaylogheader                  | No             | No           |
-| msdyn_salesconsumption                 | No             | No           |
-| msdyn_salesestimateatcompleteeac       | No             | No           |
-| msdyn_salesestimateatcompleteeac_base  | No             | No           |
-| msdyn_salesvariance                    | No             | No           |
-| msdyn_salesvariance_base               | No             | No           |
-| msdyn_scheduleperformance              | No             | No           |
-| msdyn_scheduleperformancename          | No             | No           |
-| msdyn_schedulevariance                 | No             | No           |
-| msdyn_taskearlieststart                | No             | No           |
-| msdyn_teamsize                         | No             | No           |
-| msdyn_teamsize_date                    | No             | No           |
-| msdyn_teamsize_state                   | No             | No           |
-| msdyn_totalactualcost                  | No             | No           |
-| msdyn_totalactualcost_base             | No             | No           |
-| msdyn_totalplannedcost                 | No             | No           |
-| msdyn_totalplannedcost_base            | No             | No           |
-
-### <a name="project-bucket"></a>Projektin säilö
-
-| Looginen nimi          | Voidaan luoda      | Voidaan muokata     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Kyllä             | No           |
-| msdyn_name            | Kyllä             | Kyllä          |
-| msdyn_project         | Kyllä             | No           |
-| msdyn_projectbucketid | Kyllä             | No           |
-
-## <a name="limitations-and-known-issues"></a>Rajoitukset ja tunnetut ongelmat
 Seuraavassa on luettelo rajoituksista ja tunnetuista ongelmista:
 
-- Projektiaikataulun ohjelmointirajapintoja voivat käyttää vain **käyttäjät, joilla on Microsoft Project -lisenssi**. Niitä eivät voi käyttää:
+-   Projektiaikataulun ohjelmointirajapintoja voivat käyttää vain **käyttäjät, joilla on Microsoft Project -lisenssi**. Niitä eivät voi käyttää:
+    -   Sovelluksen käyttäjät
+    -   Järjestelmäkäyttäjät
+    -   Integrointikäyttäjät
+    -   Muut käyttäjät, joilla ei ole tarvittavaa lisenssiä
+-   Kussakin **OperationSet** issä voi olla enintään 100 toimintoa.
+-   Kullakin käyttäjällä voi olla enintään 10 avointa **OperationSet** iä.
+-   Project Operations tukee tällä hetkellä projektissa enintään 500 tehtävää.
+-   Kukin päivitysresurssien määritystoiminto lasketaan yhdeksi toiminnoksi.
+-   Kussakin päivitetyssä luettelossa voi olla enintään 100 aikaviipaletta.
+-   **OperationSet**-virheen tila- ja virhelokit eivät ole tällä hetkellä käytettävissä.
+-   Projektissa voi olla enintään 400 sprinttiä.
+-   [Projektien ja tehtävien rajoitukset ja rajat](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Selitteet ovat käytettävissä vain Project for the Webissä.
 
-    - Sovelluksen käyttäjät
-    - Järjestelmäkäyttäjät
-    - Integrointikäyttäjät
-    - Muut käyttäjät, joilla ei ole tarvittavaa lisenssiä
+**Virheen käsittely**
 
-- Kussakin **OperationSet** issä voi olla enintään 100 toimintoa.
-- Kullakin käyttäjällä voi olla enintään 10 avointa **OperationSet** iä.
-- Project Operations tukee tällä hetkellä projektissa enintään 500 tehtävää.
-- **OperationSet**-virheen tila- ja virhelokit eivät ole tällä hetkellä käytettävissä.
-- [Projektien ja tehtävien rajoitukset ja rajat](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Voit tarkastella toimintojoukoista luotuja virheitä kohdassa **Asetukset** \> **Aikatauluta integrointi** \> **Toimintojoukot**.
+-   Voit tarkastella Projektin aikataulupalvelussa luotuja virheitä valitsemalla **Asetukset** \> **Aikataulun integrointi** \> **PSS-virhelokit**.
 
-## <a name="error-handling"></a>Virheen käsittely
+**Resurssien määrityksen jaksotuksen muokkaaminen**
 
-- Voit tarkastella toimintojoukoista luotuja virheitä kohdassa **Asetukset** \> **Aikatauluta integrointi** \> **Toimintojoukot**.
-- Voit tarkastella Projektin aikataulupalvelussa luotuja virheitä valitsemalla **Asetukset** \> **Aikataulun integrointi** \> **PSS-virhelokit**.
+Toisin kuin kaikki muut entiteettiä päivittävät projektin aikataulutuksen ohjelmointirajapinnat, resurssin määrityksen ohjelmointirajapinta vastaa yksin yhteen kenttään tehtävistä päivityksistä, msdyn_plannedwork, yksittäisessä entiteetissä, msydn_resourceassignment.
 
-## <a name="sample-scenario"></a>Näyteskenaario
+Annettu aikataulutila on:
+
+-   **kiinteät yksiköt**
+-   Projektikalenteri on 9–5p on 9–5pst, ma, ti, to, perjantai (EI TÖITÄ KESKIVIIKKOISIN)
+-   ja resurssikalenteri on 9–1p PST ma–pe
+
+Tämä tehtävä on yhdelle viikolle, neljä tuntia päivässä. Tämä johtuu siitä, että resurssikalenteri on 9–1 PST tai neljä tuntia päivässä.
+
+| &nbsp;     | Tehtävä | Aloituspäivämäärä | Päättymispäivämäärä  | Määrä | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1-työntekijä |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Jos esimerkiksi haluat, että työntekijä työskentelee vain kolme tuntia joka päivä tällä viikolla ja sallitaan tunti muita tehtäviä varten.
+
+#### <a name="updatedcontours-sample-payload"></a>UpdatedContours-näytehyötykuorma:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Tämä on tehtävä Päivitä aikataulu -ohjelmointirajapinnan suorituksen jälkeen.
+
+| &nbsp;     | Tehtävä | Aloituspäivämäärä | Päättymispäivämäärä  | Määrä | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1-työntekijä | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**Näyteskenaario**
 
 Tässä skenaariossa luodaan projekti, ryhmän jäsen, neljä tehtävää ja kaksi resurssivarausta. Seuraavaksi päivität yhden tehtävän, päivität projektin, poistat yhden tehtävän, poistat yhden resurssin määrityksen ja luot riippuvuuden.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>Muita näytteitä
+** Muita näytteitä
 
 ```csharp
 #region Call actions --- Sample code ----

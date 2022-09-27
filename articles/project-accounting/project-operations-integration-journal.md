@@ -2,16 +2,16 @@
 title: Project Operationsin integroinnin kirjauskansio
 description: Tässä artikkelissa on tietoja integroinnin kirjauskansioiden käyttämisestä Project Operationsissa.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106271"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541073"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operationsin integroinnin kirjauskansio
 
@@ -65,6 +65,12 @@ Kirjaus voidaan tehdä vuorovaikutteisesti tai eränä. Huomaa, että kaikki kir
 > [!NOTE]
 > Jos haluat käyttää tätä ominaisuutta, ota käyttöön **Siirrä kaikki kirjausvirheitä sisältävät rivit uuteen Project Operationsin integrointikirjauskansioon** -ominaisuutta **Ominaisuuksien hallinta** -työtilassa.
 
-Kun Project Operationsin integrointikirjauskansioon kirjataan, järjestelmä tarkistaa kirjauskansion jokaisen rivin. Järjestelmä kirjaa kaikki virheettömät rivit ja luo uuden kirjauskansion kaikille riveille, joissa on kirjausvirheitä. Jos haluat tarkastella kirjauskansioita, joissa on kirjausvirheitä sisältäviä rivejä, siirry kohtaan **Projektinhallinta ja kirjanpito** > **Kirjauskansiot** > **Project Operationsin integrointikirjauskansio** ja suodata kirjauskansiot käyttämällä **Alkuperäinen kirjauskansio** -kenttää.
+Tämä ominaisuus auttaa parantamaan Project operations -integrointikirjauskansion käyttökokemusta. Kun kaksoiskirjaus on käytössä, kaksoiskirjaamisen ajoitusongelmat ja määritysongelmat eivät enää estä kelvollisia kirjauksia. Kun Project Operationsin integrointikirjauskansioon kirjataan, järjestelmä tarkistaa kirjauskansion jokaisen rivin. Se kirjaa kaikki rivit, joissa ei ole virheitä, ja luo uuden kirjauksen kaikille riveille, joissa on kirjausvirheitä.
+
+Voit tarkastella kirjauksia, joissa on virherivejä valitsemalla **Projektinhallinta ja kirjanpito** \> **Kirjauskansiot** \> **Project Operations -integrointikirjauskansio** ja suodattamalla kirjauskansioluettelo **Alkuperäinen kirjauskansio** -kentän avulla. Seuraavassa kuvassa näkyy esimerkki, jossa **Project operations -integrointikirjauskansio** -sivun kirjaukset on suodatettu tällä tavalla.
+
+![Project Operations -integrointikirjauskansio -sivulla näytettävä alkuperäinen kirjauskansio.](./media/transferLines-originalJournal.png)
+
+Jos kausittainen erätyö on määritetty kirjaamaan integrointikirjauskansioon, kirjausta yritetään uudelleen ja kirjauskansiot kirjataan, jos ajoitusongelma on korjattu. Mahdolliset muut kirjaukset on tutkittava manuaalisesti tarkistamalla lokit ja ottamalla tarvittavat toimet huomioon.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

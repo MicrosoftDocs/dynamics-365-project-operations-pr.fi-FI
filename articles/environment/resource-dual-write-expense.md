@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029205"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527983"
 ---
 # <a name="expense-management-integration"></a>Kulujen hallintaintegraatio
 
@@ -34,7 +34,7 @@ Talous- ja toimintosovellusten kululuokat ovat oikeushenkilö- tai yrityskohtais
 
 ## <a name="expense-reports"></a>Kuluraportit
 
-Kuluraportit luodaan ja hyväksytään talous- ja toimintosovelluksissa. Lisätietoja on kohdassa [Kuluraporttien luominen ja käsitteleminen Dynamics 365 Project Operationsissa](/learn/modules/create-process-expense-reports/). Kun projektipäällikkö on hyväksynyt kuluraportin, se kirjataan pääkirjanpitoon. Project Operationsissa projektiin liittyvät kuluraporttirivit kirjataan käyttämällä erityisiä kirjaussääntöjä:
+Kuluraportit luodaan ja hyväksytään talous- ja toimintosovelluksissa. Lisätietoja on kohdassa [Kuluraporttien luominen ja käsitteleminen Dynamics 365 Project Operationsissa](/training/modules/create-process-expense-reports/). Kun projektipäällikkö on hyväksynyt kuluraportin, se kirjataan pääkirjanpitoon. Project Operationsissa projektiin liittyvät kuluraporttirivit kirjataan käyttämällä erityisiä kirjaussääntöjä:
 
   - Projektiin liittyvää kustannusta (mukaan lukien ei-palautettavissa oleva vero) ei kirjata heti projektin kustannustilille pääkirjaan, vaan se kirjataan kulujen integrointitilille. Tämä asiakas on määritetty **Projektinhallinta ja kirjanpito** > **Määrittäminen** > **Projektinhallinta- ja kirjanpitoparametrit**, **Project Operations Dynamics 365 Customer engagementissa** -välilehdellä.
   - Kaksoiskirjoitus synkronoi Dataverseen käyttämällä **Project Operations -integrointiprojektin kulujen vientientiteetti (msdyn\_kulujen)** -taulukkokartan kanssa.

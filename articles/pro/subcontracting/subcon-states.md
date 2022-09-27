@@ -2,20 +2,20 @@
 title: Alihankinnan tilan siirtymät
 description: Tässä artikkelissa käsitellään alihankinnan tilan siirtymiä Microsoft Dynamics 365 Project Operationsissa, kun alihankinta luodaan, suoritetaan ja suljetaan.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261189"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522886"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Alihankinnan tilan siirtymät 
 
-_**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
+_**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
 Tässä artikkelissa käsitellään alihankinnan tilan siirtymiä Microsoft Dynamics 365 Project Operationsissa. Tila on joko luonnos, vahvistettu, suljettu tai peruutettu. Seuraava kuva edustaa tilan siirtymiä.
 

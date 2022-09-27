@@ -2,20 +2,20 @@
 title: Projektin henkilöstön määrittäminen sopimustyöntekijöillä ja alihankitulla kapasiteetilla
 description: Tässä artikkelissa käsitellään projektin henkilöstö täytetään sopimustyöntekijöillä ja alihankitulla kapasiteetilla Microsoft Dynamics 365 Project Operationsissa.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261250"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522431"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Projektin henkilöstön määrittäminen sopimustyöntekijöillä ja alihankitulla kapasiteetilla
 
-_**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
+_**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
 Yleiset projektiryhmän jäsenet voi määrittää työntekijöillä tai sopimustyöntekijöillä. Kun määrität projektin henkilöstöä sopimustyöntekijöillä, voit rajoittaa määritysvaihtoehtoja tiettyihin sopimustyöntekijöihin, jotka on määritetty alihankintariville. 
 

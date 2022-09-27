@@ -2,21 +2,21 @@
 title: Alihankinnan keskeiset käsitteet
 description: Tässä artikkelissa on joitakin tärkeitä käsitteitä, joita käytetään Microsoft Dynamics 365 Project Operationsin alihankintasopimuksissa.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262165"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522744"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Alihankinnan keskeiset käsitteet
 
 
-_**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
+_**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
 Artikkelissa käsitellään joitakin tärkeitä käsitteitä, jotka on syytä tietää, ennen kuin Microsoft Dynamics 365 Project Operationsin alihankkijatoimintojen käyttö aloitetaan.
 
