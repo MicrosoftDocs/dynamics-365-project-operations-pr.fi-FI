@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409931"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622006"
 ---
 # <a name="project-operations-updates"></a>Project Operationsin päivitykset
 
@@ -47,24 +47,24 @@ Dataverse-ympäristön Project Operationsin päivitykset ovat saatavana kuukausi
 | Asema | Alue | Nykyinen versionumero | Lite-käyttöönoton automaattiset päivitykset | Resurssin/ei-varastoitavan käyttöönoton automaattiset päivitykset | Seuraava versionumero | Seuraava yleisesti saatavilla oleva versio |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Asema 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Ensimmäinen julkaisu         |  4.45.0.53      | Suorita loppuun           | Suorita loppuun            | TBD                 | 09. syyskuuta 2022      |
+|   &nbsp;  | Ensimmäinen julkaisu         |  4.46.0.60      | Suorita loppuun           | Suorita loppuun            | TBD                 | 7. lokakuuta 2022      |
 | Asema 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Etelä-Amerikka         |  4.45.0.53      | Suorita loppuun           | Suorita loppuun            | TBD                 | 09. syyskuuta 2022       |
-|   &nbsp;  | Kanada                |  4.45.0.53      | Suorita loppuun           | Suorita loppuun            | TBD                 | 09. syyskuuta 2022       |
-|   &nbsp;  | Intia                 |  4.45.0.53      | Suorita loppuun           | Suorita loppuun            | TBD                 | 09. syyskuuta 2022       |
-|   &nbsp;  | Ranska                |  4.45.0.53      | Suorita loppuun           | Suorita loppuun            | TBD                 | 09. syyskuuta 2022       |
-|   &nbsp;  | Etelä-Afrikka          |  4.45.0.53      | Suorita loppuun           | Suorita loppuun            | TBD                 | 09. syyskuuta 2022       |
-|   &nbsp;  | Sveitsi           |  4.45.0.53      | Suorita loppuun           | Suorita loppuun            | TBD                 | 09. syyskuuta 2022       |
+|   &nbsp;  | Etelä-Amerikka         |  4.46.0.60      | Suorita loppuun           | Suorita loppuun            | TBD                 | 14. lokakuuta 2022       |
+|   &nbsp;  | Kanada                |  4.46.0.60      | Suorita loppuun           | Suorita loppuun            | TBD                 | 14. lokakuuta 2022       |
+|   &nbsp;  | Intia                 |  4.46.0.60      | Suorita loppuun           | Suorita loppuun            | TBD                 | 14. lokakuuta 2022       |
+|   &nbsp;  | Ranska                |  4.46.0.60      | Suorita loppuun           | Suorita loppuun            | TBD                 | 14. lokakuuta 2022       |
+|   &nbsp;  | Etelä-Afrikka          |  4.46.0.60      | Suorita loppuun           | Suorita loppuun            | TBD                 | 14. lokakuuta 2022       |
+|   &nbsp;  | Sveitsi           |  4.46.0.60      | Suorita loppuun           | Suorita loppuun            | TBD                 | 14. lokakuuta 2022       |
 | Asema 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japani                 |  4.45.0.53      | Suorita loppuun      | Suorita loppuun       | TBD                 | 09. syyskuuta 2022       |
-|   &nbsp;  | Tyynenmeren Aasia          |  4.45.0.53      | Suorita loppuun      | Suorita loppuun       | TBD                 | 09. syyskuuta 2022       |
-|   &nbsp;  | Yhdistynyt kuningaskunta         |  4.45.0.53      | Suorita loppuun      | Suorita loppuun       | TBD                 | 09. syyskuuta 2022       |
-|   &nbsp;  | Oseania               |  4.45.0.53      | Suorita loppuun      | Suorita loppuun       | TBD                 | 09. syyskuuta 2022       |
-|   &nbsp;  | Arabiemiirikunnat  |  4.45.0.53      | Suorita loppuun      | Suorita loppuun       | TBD                 | 09. syyskuuta 2022       |
+|   &nbsp;  | Japani                 |  4.46.0.60      | Suorita loppuun      | Suorita loppuun       | TBD                 | 21. lokakuuta 2022       |
+|   &nbsp;  | Tyynenmeren Aasia          |  4.46.0.60      | Suorita loppuun      | Suorita loppuun       | TBD                 | 21. lokakuuta 2022       |
+|   &nbsp;  | Yhdistynyt kuningaskunta         |  4.46.0.60      | Suorita loppuun      | Suorita loppuun       | TBD                 | 21. lokakuuta 2022       |
+|   &nbsp;  | Oseania               |  4.46.0.60      | Suorita loppuun      | Suorita loppuun       | TBD                 | 21. lokakuuta 2022       |
+|   &nbsp;  | Arabiemiirikunnat  |  4.46.0.60      | Suorita loppuun      | Suorita loppuun       | TBD                 | 21. lokakuuta 2022       |
 | Asema 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eurooppa                |  4.45.0.53      | Suorita loppuun           | Suorita loppuun            | TBD           | 16. syyskuuta 2022       |
+|   &nbsp;  | Eurooppa                |  4.46.0.60      | Suorita loppuun           | Suorita loppuun            | TBD           | 28. lokakuuta 2022       |
 | Asema 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Pohjois-Amerikka         |  4.45.0.53      | Suorita loppuun           | Suorita loppuun            | TBD           | 16. syyskuuta 2022       |
+|   &nbsp;  | Pohjois-Amerikka         |  4.46.0.60      | Suorita loppuun           | Suorita loppuun            | TBD           | 04. marraskuuta 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Julkaisuaikataulu: Projektinhallinta ja kirjanpito talous- ja toimintosovellusten ympäristössä
 

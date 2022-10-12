@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: 359fcc2d31d4d90339870b93560685d77cb03fc8
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295827"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621937"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x -päivitysjulkaisujen aikataulu
 
@@ -37,7 +37,7 @@ ms.locfileid: "9295827"
 
 | Ratkaisu  | Viimeisin versio |
 |-------|----|
-| Project Service Automation    | 3.10.76.168 |
+| Project Service Automation    | 3.10.78.8 |
 | Project Service Automation -työpöytälaajennus                | 3.60          |
 
 Tietoja Project Servicen päivityksistä saat siirtymällä sivulle [Dynamics 365:n julkaisusuunnitelmat](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Tietoja Project Servicen päivityksistä saat siirtymällä sivulle [Dynamics 36
 | Asema  | Alue | Nykyinen versio | Seuraava versio |  Aikataulutettu päivämäärä
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Asema 1</strong> | |  |  | |
-| | <i>Ensimmäinen julkaisu</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 26. elokuuta 2022
+| | <i>Ensimmäinen julkaisu</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | 7. lokakuuta 2022
 |<strong>Asema 2</strong> | |  |  | |
-| | <i>Etelä-Amerikka</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. syyskuuta 2022
-| | <i>Kanada</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. syyskuuta 2022
-| | <i>Intia</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. syyskuuta 2022
-| | <i>Ranska</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. syyskuuta 2022
-| | <i>Etelä-Afrikka</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. syyskuuta 2022
-| | <i>saksa</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. syyskuuta 2022
-| | <i>Sveitsi</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. syyskuuta 2022
-| | <i>Etelä-Korea</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. syyskuuta 2022
-| | <i>Norja</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. syyskuuta 2022
+| | <i>Etelä-Amerikka</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. lokakuuta 2022
+| | <i>Kanada</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. lokakuuta 2022
+| | <i>Intia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. lokakuuta 2022
+| | <i>Ranska</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. lokakuuta 2022
+| | <i>Etelä-Afrikka</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. lokakuuta 2022
+| | <i>saksa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. lokakuuta 2022
+| | <i>Sveitsi</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. lokakuuta 2022
+| | <i>Etelä-Korea</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. lokakuuta 2022
+| | <i>Norja</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. lokakuuta 2022
 |<strong>Asema 3</strong> | |  |  | |
-| | <i>Japani</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. syyskuuta 2022
-| | <i>Aasian Tyynenmeren alue</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. syyskuuta 2022
-| | <i>Iso-Britannia</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. syyskuuta 2022
-| | <i>Oseania</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. syyskuuta 2022
-| | <i>Arabiemiirikunnat</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. syyskuuta 2022
+| | <i>Japani</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. lokakuuta 2022
+| | <i>Aasian Tyynenmeren alue</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. lokakuuta 2022
+| | <i>Iso-Britannia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. lokakuuta 2022
+| | <i>Oseania</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. lokakuuta 2022
+| | <i>Arabiemiirikunnat</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. lokakuuta 2022
 |<strong>Asema 4</strong> | |  |  | |
-| | <i>Eurooppa</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 16. syyskuuta 2022
+| | <i>Eurooppa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. lokakuuta 2022
 |<strong>Asema 5</strong> | |  |  | |
-| | <i>Pohjois-Amerikka</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 23. syyskuuta 2022
+| | <i>Pohjois-Amerikka</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 4. marraskuuta 2022
 |<strong>Asema 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 21. syyskuuta 2022
-| | <i>Varatut skaalausryhmät</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 30. syyskuuta 2022
+| | <i>Government Community Cloud</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 02. marraskuuta 2022
+| | <i>Varatut skaalausryhmät</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 11. marraskuuta 2022
 
 
 
