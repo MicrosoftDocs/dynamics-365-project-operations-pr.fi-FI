@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Project Service Automation -version 3 uudet tai muuttuneet ominaisuudet
           href: psa/whats-new-changed-v3.md
+    - name: Project Service Automation -päivitys (Project Operations -sovelluksen lite-versio 4.x)
+      items:
+        - name: Project Service Automationista päivittäminen Project Operationsiin
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Ominaisuuksien muutokset Project Service Automationista Project Operationsiin siirryttäessä
+          href: psa/psa-project-operations-changes.md
+        - name: Project Service Automationista Project Operationsiin siirtymisen projektin ajoittamisen muuntoprosessi
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Toteutuksen suunnitteleminen (sovelluksen versio 3.x)
       items:
         - name: Näytetietojen asennus
