@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621251"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634848"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Syyskuun 2022 uudet toiminnot – Project Operationsin lite-käyttöönotto
 
@@ -30,6 +30,7 @@ Tämä artikkeli koskee seuraavia Microsoft Dynamics 365 Project Operationsin os
 | Laskutus ja hinnoittelu | **Aikavyöhykkeestä riippumaton hinnan oletusarvo**<br>Project Operations ottanut käyttöön aikavyöhykkeestä riippumattoman päivämäärä kaikissa projektin todellisissa arvoissa. Uusi **Tapahtuman päivä** -kenttä on nyt käytettävissä kirjauskansion riveillä ja todellisissa arvoissa. Sen avulla voidaan tallentaa päivämäärä, jolloin tapahtuma tapahtui, ilman kyseisen päivämäärän muuttamista UCT-aikaan. Tätä päivämäärää käytetään alaspäin suuntautuvissa prosesseissa, kuten hinnan oletusarvossa ja laskun luonnissa. | <p>[Projektipohjaisten arvioiden ja toteutuneiden arvojen kustannusten määrittäminen](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Projektipohjaisten arvioiden ja toteutuneiden myyntihintojen määrittäminen](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Laskutus ja hinnoittelu | **Päivämääräperusteiset hinnan ohitukset Project Operationsissa**<br>Päivämääräperusteiset hinnan ohitukset antavat tavan korvata tai muuttaa hinnastossa tiettyjä hintoja. | [Päivämääräperusteiset hinnan ohitukset](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Aika ja kulu | **Yleinen hyväksyjä**<br>Tämä ominaisuus ottaa käyttöön ISV-toimittajien ja keskitetyn hyväksynnän riippumatta siitä, mikä on projektin tai tiimin jäsenen tila projektissa. | [Suojaus ja hyväksynnät](/dynamics365/project-operations/approvals/approvals-security) |
+|Projektin suunnittelu ja seuranta|**Projektiaikataulun ohjelmointirajapintojen käyttö toimintojen suorittamiseen aikataulutusentiteeteillä** </br> </br>Resurssien delegoinnin jaksottumisen muokkausrajapinnan avulla sovelluskehittäjät määrittävät ohjelmoimalla tehtävän vastuullisen henkilön työt kaikilla tuetuilla päivämääräväleillä tarkempaa aikavaiheistetun työmäärän suunnittelua varten.|[Projektiaikataulun ohjelmointirajapintojen käyttö toimintojen suorittamiseen aikataulutusentiteeteillä](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Laatupäivitykset
 

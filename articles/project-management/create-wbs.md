@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932062"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655184"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Työrakenteen (WBS) luominen
 
@@ -112,6 +112,18 @@ Kenttiä **Rooli**, **Resursointiyksikkö** ja **Toimen nimi** käytetään teht
 Voit käyttää Project Operationsin aikataulua luodaksesi edeltäjäsuhteita tehtävien välille. **Edeltäjä**-kentällä on vähintään yksi arvo kuvastamaan tehtäviä, joista toinen tehtävä on riippuvainen. Kun tehtävälle määritetään edeltäjäarvoja, tehtävä voi alkaa vasta, kun kaikki edeltäjätehtävät on suoritettu. Riippuvuuden vuoksi tehtävän suunniteltu alkamispäivä määritetään uudelleen siksi päiväksi, jona edeltäjätehtävät on suoritettu loppuun.
 
 Tämä tehtävätila ei vaikuta edeltävien/riippuvaisten tehtävien alkamis- ja päättymispäiviin tehtäviin päivityksiin.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Tietoja keston, resurssikalenterien ja projektikalenterien vaikutuksista tehtäviin
+Tehtävän kestoksi määritetään tehtävän alkamispäivän alkamisajan ja lopetuspäivän lopetusajan välisen työajan määrä.   Project for the Web määrittää keston mittayksiköt seuraavasti:
+
+| **Keston mitta** | **Määrä**|
+|----------------------------------------------------|----------------------|
+| Tunteja päivässä | 8 |
+| Tunteja viikossa |  40 |
+| Päiviä kuukaudessa |  20 |
+
+Delegoimattomat tehtävät aikataulutetaan projektin kalenterin avulla. Kun resurssi on alustavasti määritetty, tehtävän aikataulutus päivittyy siten, että se noudattaa resurssin kalenteria. Tehtävään myöhemmin tehtäviä muutoksia hallitaan projektin [aikataulutustilassa](scheduling-modes.md). Lisätietoja kalenterien vaikutuksesta tehtäviin on ohjeaiheissa [Project for the Web -resurssikalenterit](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) ja [Tehtävien aloitusajat ja projektit](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Helppokäyttötoiminnot ja pikanäppäimet
 

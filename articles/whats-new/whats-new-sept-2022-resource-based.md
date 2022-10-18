@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621250"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634801"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Uudet ominaisuudet, syyskuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
 
@@ -35,6 +35,7 @@ Tämä artikkeli koskee seuraavia Microsoft Dynamics 365 Project Operationsin os
 | Kulujen hallinta | **Mahdollisuus kirjata kuluvelka toimittajan valuuttana**<br>Tämä ominaisuus ottaa käyttöön käteismaksutavan toimittajan valuuttana kirjattavat kuluraportit. | [Mahdollisuus kirjata kuluvelka toimittajan valuuttana](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Projektin hankinta | **Toimittajan maksa kun maksettu -maksut**<br>Tämä ominaisuus antaa mahdollisuuden käyttää Maksa kun maksettu (PWP) -ominaisuutta Project Operationsin ei-varastoitavien ympäristöissä. Sen avulla toimittajan maksut voidaan estää tai pidättää pidätysehtojen mukaisesti siihen saakka, että maksu vastaanotetaan asiakkaalta. | [Toimittajan maksa kun maksettu -maksut](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Projektin hankinta | **Projektin ostoehdotukset**<br>Tämä ominaisuus antaa käyttäjille mahdollisuuden luoda projektiin liittyviä ostotilauksissa niissä yrityksissä, joissa Project Operationsin Dynamics 365 Customer Engagement -integrointi on otettu käyttöön. Projekti ostotilauksia voidaan käyttää kirjaamaan ei-varastoitavat materiaalihankinnat projektiin hankintaosaston henkilötyypin perusteella. Projektin ostotilauksia ei synkronoida Dataverseen. Virtuaalientiteetin avulla projektin ostotilausrivit voidaan kuitenkin näyttää Dataversessä projektipäällikön tiedoissa. Projektiin liittyvän toimittajan laskun kustannus integroidaan Dataversen Projektin todelliset arvot -entiteettiin. Projektikustannus kirjataan projektin alareskontraan käyttämällä Project Operationsin integrointikirjauskansiota. | |
+|Projektin suunnittelu ja seuranta|**Projektiaikataulun ohjelmointirajapintojen käyttö toimintojen suorittamiseen aikataulutusentiteeteillä** </br> </br>Resurssien delegoinnin jaksottumisen muokkausrajapinnan avulla sovelluskehittäjät määrittävät ohjelmoimalla tehtävän vastuullisen henkilön työt kaikilla tuetuilla päivämääräväleillä tarkempaa aikavaiheistetun työmäärän suunnittelua varten.|[Projektiaikataulun ohjelmointirajapintojen käyttö toimintojen suorittamiseen aikataulutusentiteeteillä](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operationsin kaksoiskirjoituskarttojen päivitys
 
