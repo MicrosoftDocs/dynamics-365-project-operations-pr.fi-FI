@@ -3,7 +3,7 @@ title: Päivittäminen Project Service Automationista Project Operationsiin
 description: Tässä artikkelissa on yleiskatsaus Microsoft Dynamics 365 Project Service Automationin päivittämisestä Dynamics 365 Project Operationsiin.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/13/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
-ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
+ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
+ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9446031"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9686971"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Päivittäminen Project Service Automationista Project Operationsiin
 
-Olemme iloisia voidessamme julkaista kolme ensimmäistä vaihetta päivittämisessä Microsoft Dynamics 365 Project Service Automationista Dynamics 365 Project Operationsiin. Tässä artikkelissa on yleiskatsaus asiakkaille, jotka ovat lähdössä tälle jännittävälle matkalle. Tulevissa artikkelissa käsitellään kehittäjiä koskevia seikkoja ja ominaisuuksien parannuksia. Niissä tulee olemaan ohjeita, joiden avulla voit valmistautua päivittämiseen Project Operationsiin. Lisäksi selitetään, mitä voit odottaa päivityksen valmistuttua.
+Olemme iloisia voidessamme julkaista toisen kolmesta päivitysvaiheesta Microsoft Dynamics 365 Project Service Automationista Microsoft Dynamics 365 Project Operationsiin. Tässä artikkelissa on yleiskatsaus asiakkaille, jotka ovat lähdössä tälle jännittävälle matkalle. 
 
 Päivityksen toimitus jakautuu kolmeen vaiheeseen.
 
@@ -46,7 +46,7 @@ Osana päivitysprosessia olemme lisänneet sivustokarttaan päivityslokit, jotta
 | Työrakenne vahvistetaan Project Desktop Clientin tunnettuja rajoja vastaan. | |  | :heavy_check_mark: |
 | Varattavat resurssit ja projektikalenterit arvioidaan yleisten yhteensopimattomien kalenterisääntöjen poikkeusten varalta. | | :heavy_check_mark: | :heavy_check_mark: |
 
-Vaiheessa 2 asiakkaiden, jotka päivittävät Project Operationsiin, aiemmin luodut projektit päivitetään vain luku -muotoon projektisuunnittelua varten. Tässä vain luku -käyttökokemuksessa koko WBS näkyy seurantaruudukossa. Halutessaan muokata WBS:ää projektipäälliköt voivat valita **Muunna** **Projektit**-pääsivulla. Sitten taustaprosessi päivittää projektin niin, että se tukee Project for The Webin uutta projektin aikataulutuskokemusta. Tämä vaihe soveltuu asiakkaille, joilla on projekteja, jotka sopivat [Project for the Webin tunnettuihin rajoihin](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+Vaiheessa 2 asiakkaiden, jotka päivittävät Project Operationsiin, aiemmin luodut projektit päivitetään vain luku -muotoon projektisuunnittelua varten. Tässä vain luku -käyttökokemuksessa koko WBS näkyy seurantaruudukossa. Halutessaan muokata WBS:ää projektipäälliköt voivat valita [**Muunna**](/PSA-Upgrade-Project-Conversion.md) projektin pääsivulla. Sitten taustaprosessi päivittää projektin niin, että se tukee Project for The Webin uutta projektin aikataulutuskokemusta. Tämä vaihe soveltuu asiakkaille, joilla on projekteja, jotka sopivat [Project for the Webin tunnettuihin rajoihin](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
 Vaiheessa 3 lisätään Project Desktop Client -tuki. Se hyödyttää asiakkaita, jotka haluavat jatkaa projektiensa muokkaamista kyseisestä sovelluksesta. Jos aiemmin luodut projektit muunnetaan uuteen Project for the Web -kokemukseen, pääsy apuohjelmaan otetaan pois käytöstä jokaisen muunnetun projektin osalta.
 
@@ -55,15 +55,22 @@ Vaiheessa 3 lisätään Project Desktop Client -tuki. Se hyödyttää asiakkaita
 Jotta asiakas on oikeutettu vaiheen 1 päivitykseen, asiakkaan on täytettävä seuraavat ehdot:
 
 - Kohdeympäristöllä ei saa olla yhtään tietuetta **msdyn_projecttask**-entiteetissä.
-- Asiakkaan kaikille aktiivisille käyttäjille on määritettävä kelvolliset Project Operations -käyttöoikeudet. 
-- Asiakkaan on vahvistettava päivitysprosessi vähintään yhdessä ei-tuotantoympäristössä, joka sisältää edustavan tietojoukon, joka on tasattu tuotantotietojen kanssa.
-- Kohdeympäristö on päivitettävä Project Service Automation Update Release 41 (3.10.62.162) -versioon tai uudempaan versioon.
+- Kaikille aktiivisille käyttäjille on määritettävä kelvolliset Project Operations -käyttöoikeudet. 
+- Sinun on vahvistettava päivitysprosessi vähintään yhdessä ei-tuotantoympäristössä, joka sisältää edustavan tietojoukon, joka on linjassa tuotantotietojen kanssa.
+- Kohdeympäristö on päivitettävä Project Service Automation -päivitysversioon 37 (V3.10.58.120) tai sitä uudempaan.
 
-Vaiheen 2 ja vaiheen 3 edellytykset päivitetään, kun yleinen saatavuus tulee ajankohtaiseksi.
+Ollaksesi oikeutettu vaiheen 2 päivitykseen, sinun on täytettävä seuraavat ehdot:
+
+- Kaikille aktiivisille käyttäjille on määritettävä kelvolliset Project Operations -käyttöoikeudet. 
+- Sinun on vahvistettava päivitysprosessi vähintään yhdessä ei-tuotantoympäristössä, joka sisältää edustavan tietojoukon, joka on linjassa tuotantotietojen kanssa.
+- Kohdeympäristö on päivitettävä Project Service Automation -päivitysversioon 37 (V3.10.58.120) tai sitä uudempaan.
+- Tehtäviä (msdyn_projecttask) sisältäviä ympäristöjä tuetaan vain, jos tehtävien kokonaismäärä projektia kohden on enintään 500.
+
+Vaiheen 3 edellytykset päivitetään, kun yleinen saatavuus tulee ajankohtaiseksi.
 
 ## <a name="licensing"></a>Käyttöoikeudet
 
-Jos sinulla on voimassa olevat Project Service Automation -käyttöoikeudet, voit asentaa Project Operationsin ja käyttää sitä. Project Operations sisältää Project Service Automationin kaikki ominaisuudet ja enemmänkin. Näin ollen voit testata Project Operationsin ominaisuuksia samalla, kun jatkat Project Service Automationin käyttämistä tuotannossa. Kun Project Service Automation -käyttöoikeudet vanhenevat, sinun täytyy siirtyä Project Operationsiin. Kun suunnittelet tätä siirtymistä, ota huomioon, että Project Operations -käyttöoikeuteen ei sisälly Project Service Automation -käyttöoikeutta.
+Jos sinulla on voimassa olevat Project Service Automation -käyttöoikeudet, voit asentaa Project Operationsin ja käyttää sitä. Project Operations sisältää Project Service Automationin kaikki ominaisuudet ja enemmänkin. Näin ollen voit testata Project Operationsin ominaisuuksia erillisessä ympäristössä samalla, kun jatkat Project Service Automationin käyttämistä tuotannossa. Kun Project Service Automation -käyttöoikeudet vanhenevat, sinun täytyy siirtyä Project Operationsiin. Kun suunnittelet tätä siirtymistä, ota huomioon, että Project Operations -käyttöoikeuteen ei sisälly Project Service Automation -käyttöoikeutta.
 
 ## <a name="testing-and-refactoring-customizations"></a>Mukautusten testaaminen ja optimointi
 
@@ -87,14 +94,23 @@ Kun olet päivittänyt mukautukset Project Operationsin puhdasta tuontia varten,
 
     Kun päivitys on valmis, ympäristön on osoitettava, että Project Operations on asennettu ja että Project Service Automationia ei ole asennettu.
 
-    > [!NOTE]
-    > Päivitys voi kestää useita tunteja sen mukaan, miten paljon tietoja ympäristössä on. Päivitystä hallinnoivan ydinryhmän on suunniteltava päivitys asiaankuuluvasti ja suoritettava päivitys työajan ulkopuolella. Jos tietomäärä on suuri, päivitys tulee joissakin tapauksissa suorittaa viikonloppuna. Aikataulutusta koskevan päätöksen tulisi perustua alempien ympäristöjen testaustuloksiin.
+    Päivitys voi kestää useita tunteja sen mukaan, miten paljon tietoja ympäristössä on. Päivitystä hallinnoivan ydinryhmän on suunniteltava päivitys asiaankuuluvasti ja suoritettava päivitys työajan ulkopuolella. Jos tietomäärä on suuri, päivitys tulee joissakin tapauksissa suorittaa viikonloppuna. Aikataulutusta koskevan päätöksen tulisi perustua alempien ympäristöjen testaustuloksiin.
 
 3. Päivitä mukautetut ratkaisut tarpeen mukaan. Ota tässä vaiheessa käyttöön muutokset, jotka teit mukautuksiin tämän artikkelin kohdassa [Mukautusten testaaminen ja optimointi](#testing-and-refactoring-customizations).
 4. Siirry kohtaan **Asetukset** \> **Ratkaisut** ja valitse **Project Operationsin vanhentuneet komponentit** -ratkaisun asennuksen poistaminen.
 
     Tämä ratkaisu on tilapäinen ratkaisu, joka sisältää päivityksen aikana olemassa olevat komponentit ja tietomallin. Kun poistat tämän ratkaisun, poistat kaikki kentät ja komponentit, joita ei enää käytetä. Näin voit yksinkertaistaa käyttöliittymää sekä helpottaa integrointia ja laajennuksia.
     
+### <a name="upgrade-to-project-operations-lite"></a>Project Operations Liteen päivittäminen
+
+Seuraavissa vaiheissa kuvataan päivitysprosessi ja siihen liittyvä virheloki:
+
+1. **PSA-version tarkistus:** Project Operationsin asennusta varten sinulla on oltava V3.10.58.120  tai uudempi versio.
+1. **Esitarkistus:** kun järjestelmänvalvoja käynnistää päivityksen, järjestelmä suorittaa esitarkistustoiminnon jokaiselle Project Operations -ratkaisun ydinentiteetille. Tässä vaiheessa varmistetaan, että kaikki entiteettiviittaukset ovat kelvollisia, ja se varmistaa, että WBS-kohteeseen liittyvät tiedot ovat Project for the Webin julkaistuissa rajoissa.
+1. **Metatietojen päivitys:** Kun esitarkistus on onnistunut, järjestelmä käynnistää rakenteen muutokset ja luo vanhentuneen komponenttiratkaisun. Voit poistaa tämän vanhentuneen ratkaisun, kun olet suorittanut kaikki tarvittavat mukautusten uudelleenmääritykset. Tämä vaihe on pisin päivitysprosessin osa, ja sen valmistuminen voi kestää neljä tuntia.
+1. **Tietojen päivitys:** Kun metatietojen päivitysvaiheessa on tehty kaikki tarvittavat rakennemuutokset, tiedot siirretään uuteen rakenteeseen ja tarvittavat oletusarvot ja uudelleenlaskenta tiedot tehdään.
+1. **Projektin aikataulumoduulin päivitys:** Kun tietojen päivittäminen on onnistunut,pääsivun **Aikataulu**-välilehti nimetään uudelleen nimelle **Tehtävät**. Kun käyttäjä valitsee tämän välilehden päivityksen jälkeen, hänet ohjataan siirtymään seurantaruudukkoon, jotta hän voi tarkastella WBS:n vain luku -versiota. Jos haluat muokata WBS-tietoja, niiden on käynnistettävä aikataulun [muuntoprosessi](/PSA-Upgrade-Project-Conversion.md). Kaikki projektit, joilla ei ole aiemmin luotua WBS-osaa, voivat käyttää uutta aikataulutuskokemusta suoraan muuntamatta.
+ 
 ### <a name="validate-common-scenarios"></a>Tarkista yleiset tilanteet
 
 Kun tarkistat mukautukset, on suositeltavaa tarkistaa myös sovellusten välillä tuetut liiketoimintaprosessit. Nämä liiketoimintaprosessit sisältävät muun muassa myyntientiteettien, kuten tarjousten ja palvelusopimusten, luomisen sekä projektien luomisen, jotka sisältävät työrakenteet ja toteutuneiden arvojen hyväksynnän.
@@ -107,7 +123,7 @@ Tässä osassa on yhteenveto Project Service Automationin ja Project Operationsi
 
 Project Operationsin projektin suunnitteluominaisuudet eivät enää perustu asiakaspään logiikkaan ja palvelinpään logiikkaan. Project Operations käyttää sen sijaan Project for the Webiä aikataulutusmoduulina. Tämä aikataulutusmuutos mahdollistaa useita uusia ominaisuuksia kuten Board- ja Gantt-näkymät, resurssipohjaisen suunnittelun, [tehtävien tarkistusluettelon kohteet](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) ja projektin aikataulutustilat. Uusia aikataulutusominaisuuksia tukee myös monipuolinen joukko uusia [ohjelmointirajapintoja (API)](../project-management/schedule-api-preview.md). Näiden ohjelmointirajapintojen tarkoituksena on varmistaa, ettei mikään WBS-entiteetin luontia, päivittämistä tai poistamista varten ohjelmoitu toiminto vioita aikataulun laskennallisia kenttiä.
 
-## <a name="billing-and-pricing"></a>Laskutus ja hinnoittelu
+### <a name="billing-and-pricing"></a>Laskutus ja hinnoittelu
 
 Project Operationsin jatkuvan kehittämisen ansiosta laskutukseen ja hinnoitteluun on käytettävissä useita uusia ominaisuuksia. Seuraavassa on joitakin esimerkkejä.
 
@@ -116,6 +132,10 @@ Project Operationsin jatkuvan kehittämisen ansiosta laskutukseen ja hinnoittelu
 - [Ennakkomaksut ja ennakkomaksuun perustuvat palvelusopimukset](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Sopimuksen ei-ylitettävä tila ja vahvistus](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Tehtäväpohjainen laskutus
+
+### <a name="resource-management"></a>Resurssien hallinta
+
+Project Operations tarjoaa valinnaisen tuen Universal Resource Scheduling (URS)-taululle ja aikataulutusavustajalle. Tämä uusi kokemus tulee pakolliseksi huhtikuun 2023 julkaisuaallossa.
 
 ## <a name="frequently-asked-questions"></a>Usein kysyttyjä kysymyksiä
 
@@ -136,5 +156,4 @@ Project Operationsin asentamiseen ennen päivitystyökalujen saatavilla oloa on 
 - Valmistele uusi ympäristö.
 - Ota Project Operations erillisesti käyttöön myyntiorganisaatioissa, joissa ei ole Project Service Automationia.
 
-> [!NOTE]
-> Jos Project Service Automation on asennettu organisaatioon, mutta sitä ei ole käytetty, sen voi poistaa. Kun olet poistanut Project Service Automationin kokonaan, Project Operations voidaan asentaa samaan organisaatioon.
+Jos Project Service Automation on asennettu organisaatioon, mutta sitä ei ole käytetty, sen voi poistaa. Kun olet poistanut Project Service Automationin kokonaan, Project Operations voidaan asentaa samaan organisaatioon.
