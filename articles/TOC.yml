@@ -1750,10 +1750,8 @@
               href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
             - name: Miten resurssit varataan alustavasti (sovelluksen versio 2.x)?
               href: psa/FAQ-soft-book-in-web-app.md
-            - name: Miten Projektin vaiheet -liiketoimintaprosessi mukautetaan?
+            - name: Miten Projektin vaiheet -liiketoimintaprosessia mukautetaan?
               href: psa/FAQ-customize-bpf.md
-            - name: Työrakenteen päivitykseen liittyvät seikat
-              href: psa/upgrade-considerations-tasks.md
         - name: Tekniset raportit
           href: psa/white-papers.md
         - name: Järjestelmänvalvojan opas
