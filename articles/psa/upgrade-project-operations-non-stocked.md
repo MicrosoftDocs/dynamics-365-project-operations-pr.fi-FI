@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686971"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709440"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Päivittäminen Project Service Automationista Project Operationsiin
 
@@ -70,7 +70,7 @@ Vaiheen 3 edellytykset päivitetään, kun yleinen saatavuus tulee ajankohtaisek
 
 ## <a name="licensing"></a>Käyttöoikeudet
 
-Jos sinulla on voimassa olevat Project Service Automation -käyttöoikeudet, voit asentaa Project Operationsin ja käyttää sitä. Project Operations sisältää Project Service Automationin kaikki ominaisuudet ja enemmänkin. Näin ollen voit testata Project Operationsin ominaisuuksia erillisessä ympäristössä samalla, kun jatkat Project Service Automationin käyttämistä tuotannossa. Kun Project Service Automation -käyttöoikeudet vanhenevat, sinun täytyy siirtyä Project Operationsiin. Kun suunnittelet tätä siirtymistä, ota huomioon, että Project Operations -käyttöoikeuteen ei sisälly Project Service Automation -käyttöoikeutta.
+Jos sinulla on voimassa olevat Project Service Automation -käyttöoikeudet, voit asentaa Project Operationsin ja käyttää sitä. Project Operations sisältää Project Service Automationin kaikki ominaisuudet ja enemmänkin. Näin ollen voit testata Project Operationsin ominaisuuksia samalla, kun jatkat Project Service Automationin käyttämistä tuotannossa. Kun Project Service Automation -käyttöoikeudet vanhenevat, sinun täytyy siirtyä Project Operationsiin. Kun suunnittelet tätä siirtymistä, ota huomioon, että Project Operations -käyttöoikeuteen ei sisälly Project Service Automation -käyttöoikeutta. Asiakkaat, joilla on skenaarioita, joissa Project Service Automation on otettu käyttöön ja joiden on jatkettava tai lisättävä PSA-käyttöoikeuksia Project Operationsiin siirtyessään, voivat pyytää tilapäisiä PSA-käyttöoikeuksia Project Operationsin ostettujen käyttöoikeuksien perusteella. Yksi Project Service Automation -käyttöoikeus myönnetään yhdelle Project Operations -lisenssille. Tilapäisiä PSA-käyttöoikeuksia voidaan pyytää käyttämällä seuraavaa linkkiä: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Mukautusten testaaminen ja optimointi
 

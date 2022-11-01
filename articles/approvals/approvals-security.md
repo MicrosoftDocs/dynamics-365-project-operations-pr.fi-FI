@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525358"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709393"
 ---
 # <a name="security-and-approvals"></a>Suojaus ja hyväksynnät
 
@@ -33,6 +33,6 @@ Jos haluat hyväksyä muita kuin projektimerkintöjä, sinun on oltava lähettä
 > [!NOTE]
 > [Hyväksyntäjoukot](approval-sets.md)-ominaisuus on otettava käyttöön, ennen kuin voit käyttää projektin hyväksyjän hallintatoimintoa.
 
-**Projektin hyväksyjän järjestelmänvalvojan** käyttöoikeusrooli käyttäjät voivat ohittaa käytäntöjä ja hyväksyä kaikkien projektien merkintöjä. Tämän roolin määrittäminen ohittaa tarkistuslogiikan, joka edellyttää ryhmän jäsenyyttä ja hyväksyjäksi merkitsemistä. Sinulla on oltava myös liittyvien entiteettien, kuten **Projekti**-entiteettien, käyttöoikeus. Käyttöoikeuden voi määrittää joku, jolla on **projektipäällikkö**-rooli.
+**Projektin hyväksyjän järjestelmänvalvojan** käyttöoikeusrooli käyttäjät voivat ohittaa käytäntöjä ja hyväksyä kaikkien projektien merkintöjä. Tämän roolin määrittäminen ohittaa tarkistuslogiikan, joka edellyttää ryhmän jäsenyyttä ja hyväksyjäksi merkitsemistä. Sinulle määritettyjen käyttöoikeusroolien avulla sinulla on oltava tarvittavien liittyvien taulukoiden – kuten **Projekti** – käyttöoikeus.
 
 JÄRJESTELMÄN käyttäjän konteksti ohittaa vahvistukset samalla tavalla kuin projektin hyväksyjän käyttöoikeusrooli.
