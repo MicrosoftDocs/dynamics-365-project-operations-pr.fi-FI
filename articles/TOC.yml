@@ -286,6 +286,8 @@
           href: project-management/define-project-calendars.md
         - name: Aikataulutustilat
           href: project-management/scheduling-modes.md
+        - name: Ulkoinen aikataulutus
+          href: project-management/external-scheduling.md
         - name: Projektin päivittäminen
           href: project-management/update-project.md
         - name: Projektin kopioiminen
@@ -914,6 +916,8 @@
           href: project-management/define-project-calendars.md
         - name: Aikataulutustilat
           hreF: project-management/scheduling-modes.md
+        - name: Ulkoinen aikataulutus
+          href: project-management/external-scheduling.md
         - name: Projektin päivittäminen
           href: project-management/update-project.md
         - name: Projektin kopioiminen
