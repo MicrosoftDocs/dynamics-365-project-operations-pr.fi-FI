@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709440"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736662"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Päivittäminen Project Service Automationista Project Operationsiin
 
@@ -97,7 +97,7 @@ Kun olet päivittänyt mukautukset Project Operationsin puhdasta tuontia varten,
     Päivitys voi kestää useita tunteja sen mukaan, miten paljon tietoja ympäristössä on. Päivitystä hallinnoivan ydinryhmän on suunniteltava päivitys asiaankuuluvasti ja suoritettava päivitys työajan ulkopuolella. Jos tietomäärä on suuri, päivitys tulee joissakin tapauksissa suorittaa viikonloppuna. Aikataulutusta koskevan päätöksen tulisi perustua alempien ympäristöjen testaustuloksiin.
 
 3. Päivitä mukautetut ratkaisut tarpeen mukaan. Ota tässä vaiheessa käyttöön muutokset, jotka teit mukautuksiin tämän artikkelin kohdassa [Mukautusten testaaminen ja optimointi](#testing-and-refactoring-customizations).
-4. Siirry kohtaan **Asetukset** \> **Ratkaisut** ja valitse **Project Operationsin vanhentuneet komponentit** -ratkaisun asennuksen poistaminen.
+4. Siirry osoitteeseen **make.powerapps.com**, valitse ympäristö portaalin oikeassa yläkulmassa olevasta avattavasta luettelosta, valitse vasemmanpuoleisessa valikossa **Ratkaisut**, valitse **Project Operationsin vanhentuneet komponentit** -ratkaisu ja **Poista asennus**.
 
     Tämä ratkaisu on tilapäinen ratkaisu, joka sisältää päivityksen aikana olemassa olevat komponentit ja tietomallin. Kun poistat tämän ratkaisun, poistat kaikki kentät ja komponentit, joita ei enää käytetä. Näin voit yksinkertaistaa käyttöliittymää sekä helpottaa integrointia ja laajennuksia.
     
