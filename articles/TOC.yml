@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Uudet ominaisuudet
       items:
-        - name: Syyskuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: Marraskuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Arkisto
           items:
+            - name: Lokakuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: Syyskuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: Elokuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Heinäkuu 2022 – Project Operations resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: Organisaatioyksiköt
               href: sales/OrgUnits.md
-        - name: Projektin liidien hallinta
+        - name: Projektipohjaisten liidien hallinta
           href: sales/manage-leads.md
-        - name: Projektimahdollisuuksien hallinta
+        - name: Projektipohjaisten mahdollisuuksien hallinta
           items:
             - name: Projektimahdollisuuksien hallinnan yleiskatsaus
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: Projektipohjaisen mahdollisuuden rivit
               href: sales/project-based-lines.md
-            - name: Projektitarjousten luominen mahdollisuuksista
+            - name: Tarjousten luominen projektimahdollisuuksista
               href: sales/link-quotes-opportunities.md
-            - name: Projektipohjaisten mahdollisuuksien kopioiminen
+            - name: Projektimahdollisuuksien kopioiminen
               href: sales/copy-project-based-opportunity.md
             - name: Projektimahdollisuuden sulkeminen
               href: sales/close-opportunity.md
-        - name: Projektitarjousten hallinta
+        - name: Projektipohjaisten tarjousten hallinta
           items:
             - name: Projektitarjousten hallinnan yleiskatsaus
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: Projektipohjaisten tarjousten otsikkotiedot
               href: sales/quote-values-budget-limits-contract.md
-            - name: Useiden asiakkaiden hallinta projektitarjouksessa
+            - name: Useiden asiakkaiden hallinta projektipohjaisella tarjouksella
               href: sales/manage-multiple-customers-quote.md
-            - name: Projektihinnastojen hallinta tarjouksessa
+            - name: Projektihinnastot projektitarjouksissa
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Projektipohjaiset tarjousrivit
               items:
-                - name: Projektipohjaisten tarjousrivien yleiskatsaus
+                - name: Projektin tarjousrivien yleiskatsaus
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Useiden asiakkaiden hallinta projektipohjaisilla tarjousriveillä
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Projektien ja tehtävien yhdistäminen projektipohjaisille tarjousriveille
+                - name: Projektien ja tehtävien yhdistäminen projektin tarjousriveille
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Projektipohjaisten tarjousrivien laskutettavien komponenttien määrittäminen
+                - name: Projektin tarjousrivien laskutettavien komponenttien määrittäminen
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Projektin tarjousrivin laskutettavan komponentin määrittäminen
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Projektin tarjousrivin arviointi
-                  href: sales/create-estimate-quote-line.md
-                - name: Arvioiden tuominen projektista projektipohjaiselle tarjousriville
-                  href: sales/import-estimate-quote-line.md
-                - name: Projektipohjaisten tarjousrivien laskutusaikataulut
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Arvioiden tuonti projektista projektin tarjousriville
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Projektin tarjousrivien laskutusaikataulut
                   href: sales/invoice-schedule-quote-line.md
             - name: Projektitarjousten kopioiminen
               href: sales/lose-quote.md
             - name: Projektitarjouksen aktivoiminen ja korjaaminen
               href: sales/activation-and-revision.md
-            - name: Projektitarjousten sulkeminen
+            - name: Projektipohjaisten tarjousten sulkeminen
               href: sales/win-quote.md
-        - name: Projektisopimusten hallinta
+        - name: Projektipohjaisten sopimusten hallinta
           items:
-            - name: Projektisopimusten hallinnan yleiskatsaus
+            - name: Projektisopimusten hallinta
               href: pro/sales/manage-contracts-sales.md
             - name: Projektipohjaisten sopimusten yksilölliset käsitteet
               href: sales/contracts-key-concepts.md
             - name: Projektipohjaisten sopimusten otsikkotiedot
               href: sales/project-contract-settings.md
-            - name: Projektihinnastojen hallinta projektisopimuksissa
+            - name: Projektihinnastojen hallinta projektipohjaisissa sopimuksissa
               href: sales/contracts-manage-project-price-lists.md
-            - name: Useiden asiakkaiden hallinta projektisopimuksissa
+            - name: Useiden asiakkaiden hallinta projektipohjaisissa sopimuksissa
               href: sales/manage-multiple-customers-contract.md
             - name: Projektipohjaiset sopimusrivit
               items:
-                - name: Projektipohjaisten sopimusrivien yleiskatsaus
+                - name: Projektisopimusrivien yleiskatsaus
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Useiden asiakkaiden hallinta projektipohjaisilla sopimusriveillä
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Projektien ja tehtävien yhdistäminen projektisopimusrivillä
+                - name: Projektien ja tehtävien yhdistäminen projektisopimusriville
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Veloitettavien komponenttien määrittäminen projektisopimusriville
+                - name: Projektisopimusrivin veloitettavien komponenttien määrittäminen
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Projektin sopimusrivin arviointi
+                - name: Projektipohjaisen sopimusrivin arviointi
                   href: sales/create-estimate-contract-line.md
-                - name: Arvioiden tuominen projektista projektipohjaiselle sopimusriville
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Laskutusaikataulujen luominen projektipohjaisilla sopimusriveillä
+                - name: Arvioiden tuonti projektista projektisopimusriville
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Laskutusaikataulujen luominen projektipohjaisella sopimusrivillä
                   href: sales/invoice-schedules-contract-line.md
             - name: Projektipohjaisten sopimusten kopioiminen
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Ennakot ja ennakkomaksut
               items:
-                - name: Ennakot ja ennakkomaksuun perustuvat sopimukset
+                - name: Ennakkomaksut ja ennakkomaksuun perustuvat projektisopimukset
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Ennakkomaksuaikataulun määrittäminen
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Tilapäisen ennakon luominen sopimuksessa
+                - name: Tilapäisen ennakon luominen projektisopimuksessa
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Hinnoittelu ja kustannuslaskenta
       items:
@@ -642,7 +644,9 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Projektien tilan synkronoiminen suljettujen projektien merkinnän estämiseksi
           href: advanced-configuration/sync-project-status.md
-    - name: Päivitys
+        - name: Valuuttamuunnoksen määrittäminen myyntihintojen laskemiseksi kustannushinnoista
+          href: advanced-configuration/currencyconversion.md
+    - name: Päivittäminen
       items:
         - name: Modernien hyväksyntien päivityksessä huomioitavat asiat
           href: upgrade/upgrade-considerations-modern-approvals.md
@@ -672,10 +676,14 @@
           href: environment/security-model.md
     - name: Uudet ominaisuudet
       items:
-        - name: Syyskuun 2022 Lite-käyttöönoton uudet ominaisuudet
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Marraskuun 2022 Lite-käyttöönoton uudet ominaisuudet
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Arkisto
           items:
+            - name: Lokakuun 2022 Lite-käyttöönoton uudet ominaisuudet
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Syyskuun 2022 Lite-käyttöönoton uudet ominaisuudet
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: Elokuun 2022 Lite-käyttöönoton uudet ominaisuudet
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Heinäkuun 2022 Lite-käyttöönoton uudet ominaisuudet
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Tarjousten luominen projektimahdollisuuksista
               href: sales/link-quotes-opportunities.md
-            - name: Projektipohjaisten mahdollisuuksien kopioiminen
+            - name: Projektimahdollisuuksien kopioiminen
               href: sales/copy-project-based-opportunity.md
             - name: Projektimahdollisuuden sulkeminen
               href: sales/close-opportunity.md
-        - name: Projektipohjaisten tarjousten hallinta
+        - name: Projektitarjousten hallinta
           items:
-            - name: Projektipohjaisten tarjousten yleiskatsaus
+            - name: Projektitarjousten yleiskatsaus
               href: pro/sales/manage-quotes-sales.md
             - name: Projektitarjousten yksilölliset käsitteet
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Projektitarjousten otsikkotiedot
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Useita asiakkaita projektitarjouksissa
+            - name: Useiden asiakkaiden hallinta projektitarjouksissa
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Projektihinnastot projektitarjouksissa
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Tuotepohjaisten tarjousrivien monitasoisten yksiköiden hallinta
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Projektipohjaiset tarjousrivit
+            - name: Projektin tarjousrivit
               items:
-                - name: Projektipohjaisten tarjousrivien yleiskatsaus
+                - name: Projektin tarjousrivien yleiskatsaus
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Useiden asiakkaiden hallinta
+                - name: Useiden asiakkaiden hallinta projektin tarjousriveillä
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Projektien ja tehtävien yhdistäminen
+                - name: Projektien ja tehtävien yhdistäminen projektin tarjousriveille
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Veloitettavien komponenttien määrittäminen
+                - name: Projektin tarjousrivien laskutettavien komponenttien määrittäminen
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Projektipohjaisen tarjousrivin arviointi
+                - name: Projektin tarjousrivin arviointi
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Arvion tuominen projektista
+                - name: Arvioiden tuonti projektista projektin tarjousriville
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Laskutusaikataulujen hallinta
+                - name: Projektin tarjousrivien laskutusaikataulut
                   href: sales/invoice-schedule-quote-line.md
-            - name: Projektipohjaisten tarjousten kopioiminen
+            - name: Projektitarjousten kopioiminen
               href: sales/lose-quote.md
             - name: Projektitarjouksen aktivoiminen ja korjaaminen
               href: sales/activation-and-revision.md
-            - name: Projektipohjaisten tarjousten sulkeminen
+            - name: Projektitarjousten sulkeminen
               href: pro/sales/win-quote-sales.md
-        - name: Projektipohjaisten sopimusten hallinta
+        - name: Projektisopimusten hallinta
           items:
-            - name: Projektipohjaisten sopimusten yleiskatsaus
+            - name: Projektisopimusten yleiskatsaus
               href: pro/sales/manage-contracts-sales.md
             - name: Projektisopimusten yksilölliset käsitteet
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Projektisopimusten otsikkotiedot
               href: pro/sales/project-contract-settings-sales.md
-            - name: Useita asiakkaita projektisopimuksissa
+            - name: Useiden asiakkaiden hallinta projektisopimuksissa
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Projektihinnastot projektisopimuksissa
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Tuotepohjaisten sopimusrivien monitasoisten yksiköiden hallinta
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Projektipohjaiset sopimusrivit
+            - name: Projektisopimusrivit
               items:
-                - name: Projektipohjaisten sopimusrivien yleiskatsaus
+                - name: Projektisopimusrivien yleiskatsaus
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Palvelusopimuksen useiden asiakkaiden hallinta
+                - name: Useiden asiakkaiden hallinta projektisopimuksissa
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: Projektien ja tehtävien yhdistäminen projektisopimusriville
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: Veloitettavien komponenttien määrittäminen projektisopimusrivillä
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Projektipohjaisen sopimusrivin arviointi
+                - name: Projektisopimusrivin arviointi
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: Arvioiden tuonti projektista projektisopimusriville
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Laskutusaikataulujen hallinta projektisopimusrivillä
+                - name: Laskutusaikataulujen luonti projektisopimusrivillä
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Projektisopimusten kopioiminen
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Ennakot ja ennakkomaksut
               items:
-                - name: Ennakot ja ennakkomaksuun perustuvat palvelusopimukset – lite
+                - name: Ennakot ja ennakkomaksuun perustuvat sopimukset
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Ennakkomaksujen aikataulun määrittäminen – lite
+                - name: Ennakkomaksuaikataulun määrittäminenEnnakkomaksuaikataulun määrittäminen
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Tilapäisen ennakon luominen sopimuksessa – lite
+                - name: Tilapäisen ennakon luominen projektisopimuksessa
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Hinnoittelu ja kustannuslaskenta
       items:
@@ -1154,7 +1162,7 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Laskuautomaation määrittäminen
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Päivitys
+    - name: Päivittäminen
       items:
         - name: Modernien hyväksyntien päivityksessä huomioitavat asiat
           href: upgrade/upgrade-considerations-modern-approvals.md
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Uudet ominaisuudet
       items:
-        - name: Syyskuun 2022 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Lokakuun 2022 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Arkisto
           items:
+            - name: Syyskuun 2022 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: Heinäkuun 2022 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Kesäkuun 2022 uudet ominaisuudet – Project Operations varastoitavien ja tuotantopohjaisten skenaarioissa
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Project Operationsin varastoitavien ja tuotantopohjaisten skenaarioiden käyttöönoton yleiskatsaus
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Projektinhallinnan ja kirjanpidon yleiskatsaus
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Projektin kirjanpito
+      items:
+        - name: Projektinhallinnan ja kirjanpidon yleiskatsaus
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Projektin muutokset
+          href: project-accounting/project-adjustments.md
     - name: Projektin myyntiprosessi
       items:
         - name: Projektitarjoukset
