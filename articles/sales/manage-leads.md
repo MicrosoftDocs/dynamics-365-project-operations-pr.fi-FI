@@ -1,31 +1,29 @@
 ---
-title: Liidien hallinta
+title: Projektipohjaisten liidien hallinta
 description: Tässä artikkelissa on tietoja projektipohjaisten liidien hallinnasta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920194"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825795"
 ---
-# <a name="manage-leads"></a>Liidien hallinta
+# <a name="manage-project-based-leads"></a>Projektipohjaisten liidien hallinta
 
 _**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
 Projektipohjaisia liidejä voi hallita ja hyväksyä Project Operationsissa. Liidienhallintaprosessi sisältää työpohjaisten liidien luonnin ja liidien hyväksymisen. 
 
-## <a name="project-sales-leads"></a>Projektimyyntiliidit
-
 Avaa **Myynti**-osan vasemmanpuoleisen siirtymisruudun **Liidit**-luettelosivu, jossa voit tarkastella järjestelmän kaikkien liiditietueiden luetteloa. Näkyvissä olevassa liidien luettelossa on työpohjaisia ja muuntyyppisiä liidejä, jotka voidaan luoda, jos käytössäsi on myös Dynamics 365 Sales- tai Dynamics 365 Field Service -sovellus.
 
 Voit luoda suodatetun näkymän, jos haluat nähdä vain projektipohjaiset liidit luomalla suodattimen **Tyyppi**-arvolle. Voit esimerkiksi valita, näytetäänkö vain työpohjaiset liidit.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Uuden liidin luominen projektipohjaiselle sopimukselle
+## <a name="create-a-new-project-based-lead"></a>Uuden projektipohjaisen liidin luominen 
 
 Kun projektipohjainen liidi hyväksytään, luodaan mahdollisuus ja asiakkuus. Projektipohjainen mahdollisuus on myyntiaktiviteettien aloituskohta mahdollisuusvaiheessa. Projektipohjaisilla mahdollisuuksilla on yksilölliset ominaisuudet, joita tarvitaan projektityön myymiseen. Näitä ominaisuuksia ovat seuraavat:
 

@@ -1,8 +1,8 @@
 ---
-title: Tarjoukset - keskeiset käsitteet
-description: Tässä artikkelissa on tietoja Project Operations -sovelluksen projekti- ja myyntitarjouksista.
+title: Projektipohjaisten tarjousten yksilölliset käsitteet
+description: Tässä artikkelissa on tietoja projektitarjouksista Microsoft Dynamics 365 Project Operationsissa.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912512"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824323"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Projektipohjaisten tarjousten yksilölliset käsitteet
 
-_**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
+_**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Dynamics 365 Project Operationsissa on kahdenlaisia tarjouksia: projekti- ja myyntitarjouksia. Nämä kaksi tarjoustyyppiä eroavat toisistaan seuraavasti:
+Seuraavat ovat tärkeimmät käsitteet, jotka on otettava huomioon, ennen kuin aloitat projektitarjousten käyttämisen Microsoft Dynamics 365 Project Operationsissa.
 
-- **Rivinimikkeiden ruudukot**: Myyntitarjouksessa rivinimikkeille on vain yksi ruudukko. Projektitarjouksessa rivinimikkeille on kaksi ruudukkoa. Yksi ruudukko on projektiriveille ja toinen tuoteriveille.
-- **Aktivointi ja muokkaukset**: Myyntitarjoukset tukevat aktivointia ja muokkauksia. Projektitarjous ei tue näitä prosesseja.
-- **Liitetyt tarjoukset**: Myyntitarjoukseen voi liittää useita tilauksia. Projektitarjoukseen voi liittää vain yhden projektisopimuksen.
-- **Tarjouksen voittaminen**: Kun voitat myyntitarjouksen, siihen liittyvä mahdollisuus voi säilyä avoimena. Kun projektitarjous on voitettu, siihen liittyvä mahdollisuus suljetaan.
-- **Kentät ja käsitteet**: Myyntitarjous ei sisällä kaikkia projektitarjouksen kenttiä ja käsitteitä. Kenttiä ovat esimerkiksi **Sopimusyksikkö**, **Asiakaspäällikkö** ja **Laskutusyhteyshenkilön nimi**.  
-- **Tyyppi**: Myynti- ja projektitarjouksille määritetään myös asetusjoukkoperusteinen kenttä, jonka nimi on **Tyyppi**. Myyntitarjouksessa tällä kentällä on arvo **Nimikepohjainen**. Projektitarjouksessa sen arvo on **Työpohjainen**.
+## <a name="owning-company"></a>Omistava yritys
 
-Tässä artikkelissa keskitytään projektitarjousten tietoihin.
+Omistava yritys kuvaa yritystä, joka omistaa projektin toimituksen. Tarjouksen asiakkaan on oltava kelvollinen asiakas tässä yrityksessä rahoitus- ja toimintosovelluksissa. Omistavan yrityksen valuutan ja projektipohjaisesta tarjouksesta valitun sopimusyksikön valuutan on vastattava toisiaan.
 
-Project Operations -sovelluksessa projektitarjouksella voi olla useita rivinimikkeitä tai tarjousrivejä. Itse asiassa projektitarjouksella on kaksi ruudukkoa. Yksi ruudukko on yksityiskohtaiset arviot mahdollistavia projektiperusteisia kenttiä varten. Toinen ruudukko on sellaisia tuoteperusteisia rivejä varten, jossa käytetään yksinkertaista yksikköhintaa ja määräperusteista lähestymistapaa.
+## <a name="contracting-unit"></a>Sopimusyksikkö
 
-- **Projektipohjainen**: Summa-arvo määritetään, kun olet arvioinut vaadittavan työmäärän. Voit arvioida työn korkealla tasolla, suoraan kunkin tarjousrivin alapuolella, tai käyttämällä projektia ja projektisuunnitelmaa alhaalta ylöspäin. Projektipohjaisia tarjousrivejä esiintyy vain projektipohjaisissa tarjouksissa, jotka luodaan Project Operations -sovelluksen avulla. Tällainen tarjousrivi on muokattu Microsoft Dynamics 365:n myynneissä käytettävissä olevien käsin lisättävien tarjousrivien muoto.
+Sopimusyksikkö tarkoittaa divisioonaa tai käytäntöä, joka omistaa projektitoimituksen. Voit määrittää resurssikustannuksia kullekin sopimusyksikölle. Kun resurssille määritetään resurssikustannukset sopimusyksikössä, voit myös määrittää eri kustannushinnat resursseille, joista tämä sopimusyksikkö lainaa, tai muille yrityksen divisioonille tai käytännöille. Näitä kustannushintoja kutsutaan siirtohinnoiksi, resurssilainoiksi tai vaihtohinnoiksi. Kun määrität muiden osastojen resurssien lainaamisen kustannukset, voit myös määrittää nämä kustannushinnat lainaavan divisioonan valuuttana.
 
-- **Tuotepohjainen**: Summa-arvo määritetään myytyjen yksiköiden määrän ja tuotteen yksikkömyyntihinnan perusteella. Tuotepohjaisen rivin tuote voi olla peräisin myynnin tuoteluettelosta tai voit määrittää tuotteen itse. Tällainen tarjousrivi on käytettävissä myös Project Operations -sovelluksella luotavissa projektipohjaisissa tarjouksissa.
+## <a name="cost-currency"></a>Kustannuksen valuutta
 
-Tarjouksen summa lasketaan kaikista tuotepohjaisista ja projektipohjaisista riveistä.
+Kustannusvaluutta Project Operationsissa on se valuutta, jossa kustannukset raportoidaan. Tämä valuutta johdetaan tarjouksen, palvelusopimuksen ja projektin **Sopimusyksikkö**-kenttään liitetystä valuutasta. Kustannukset voidaan kirjata mihin tahansa valuuttaan projektissa. Valuutan muunnon valuuttakustannukset on kuitenkin kirjattu projektin kustannusvaluuttaan.
 
-> [!NOTE]
-> Project Operations -sovelluksessa ei tarvita tarjouksia ja tarjousrivejä. Voit aloittaa projektiprosessin projektisopimuksella (myyty projekti). Mahdollisuus on kuitenkin aina pakollinen riippumatta siitä, aloitetaanko tarjouksella vai projektisopimuksella.
+Koska Dataverse-ympäristön valuuttakurssit eivät voi olla ajan tasalla, kustannusten näyttösummat voivat muuttua ajan mittaan, jos päivität valuutan vaihtokursseja. Tietokantaan kirjatut kustannukset säilyvät kuitenkin ennallaan, koska summat on tallennettu valuuttana, jossa ne ovat syntyneet.
 
-## <a name="project-based-quote-lines"></a>Projektipohjaiset tarjousrivit
+## <a name="sales-currency"></a>Myynnin valuutta
 
-Project Operations -sovelluksen projektipohjaisella tarjousrivillä on seuraavat laskutusmenetelmät:
+Project Operationsin myyntivaluutta on valuutta, jossa arvioidut ja toteutuneet myyntisummat tallennetaan ja näytetään. Se on myös valuutta, jossa asiakasta laskutetaan sopimuksesta. Projektitarjouksessa myyntivaluutan oletusarvona on asiakas- tai tilitietue, ja sitä voi muuttaa, kun tarjous luodaan. Kun tarjous on tallennettu, myyntivaluuttaa ei voi muuttaa. Oletusarvoiset uote- ja projektihinnastot perustuvat tarjouksen myyntivaluuttaan.
 
-- Aika ja materiaalit
-- Kiinteähintainen
+Toisin kuin kustannukset, myyntiarvot voidaan kirjata **vain** myyntivaluuttana.
 
-### <a name="time-and-material"></a>Aika ja materiaalit
+## <a name="billing-method"></a>Laskutustapa
 
-Aika ja materiaalit -laskutusmenetelmä perustuu käyttöön. Kun valitset tämän laskutusmenetelmän, asiakasta laskutetaan, kun projektista aiheutuu kustannuksia. Laskuja luodaan päivämääräperusteisin väliajoin. Myyntiprosessin aikana aika ja materiaalit -komponentin tarjoushinta on vain arvio lopullisista kustannuksista asiakkaalle. Toimittaja ei sitoudu suorittamaan projektia loppuun tarkalla tarjoushinnalla. Aika ja materiaalit -komponentit lisäävät asiakkaan riskiä. Asiakkaat voivat haluta neuvotella ylimääräisistä ylärajalausekkeista minimoidakseen riskinsä. Project Operations ei tue ylärajalausekkeiden asettamista.
+Projekteissa on yleensä kiinteät maksut ja kulutussopimusmallit. Project Operationsissa projektin sopimusmallia edustaa laskutustapa. Laskutustavalla on kaksi arvoa: Aika ja materiaali tai Kiinteä hinta.
 
-### <a name="fixed-price"></a>Kiinteähintainen
+- **Aika ja materiaali** - Kulutukseen perustuva sopimusmalli, jossa kunkin kustannuksen tukena on vastaava myyntituotto. Kun arvioit tai kerrytät kustannuksia, myös vastaava arvioitu ja toteutunut myynti lisääntyy. Voit määrittää ei-ylittämättömät rajat tarjousriveille, joilla on tämä laskutustapa. Näin voit tallentaa myös todellisen tuoton. Arvioituun myyntituottoon eivät vaikuta ei-ylittämättömät rajat.
+- **Kiinteä hinta** - Kiinteän maksun sopimusmalli, joka ilmaisee, että myyntiarvot ovat aiheutuneista kustannuksista riippumattomia. Myyntiarvo on kiinteä eikä muutu, kun arvioit tai kerrytät lisää kustannuksia.
 
-Kiinteähintaisessa laskutusmenetelmässä toimittaja sitoutuu toimittamaan projektin asiakkaalle kiinteillä kustannuksilla. Asiakkaalta laskutetaan kiinteähintaisen tuoterivin tarjoushinta riippumatta kustannuksista, jotka toimittajalle aiheutuvat kyseisen tarjousrivin toimittamisesta. Kiinteähintaisen tarjousrivin arvo laskutetaan jollakin seuraavista tavoista: 
+## <a name="project-price-lists"></a>Projektihinnastot
 
-- Kertasummana projektin alussa tai lopussa tai kun projektin välitavoite on saavutettu. 
-- Päivämääräperusteisin väliajoin maksettavina tasasuurina tarjousrivin kiinteää arvoa vastaavina erinä. Näitä maksueriä kutsutaan jaksoittaisiksi välitavoitteiksi.
-- Maksuerinä, joiden rahallinen arvo vastaa työn edistymistä tai tiettyjä projektissa saavutettavia välitavoitteita. Tässä tapauksessa maksuerien suuruudet voivat vaihdella, mutta niiden on yhdessä vastattava tarjousrivin kiinteää arvoa.
+Projektihinnastot ovat hinnastoja, joita käytetään ajan, kulujen ja muihin projektiin liittyvien komponenttien oletushintojen syöttämiseen, ei kustannushintoihin. Hinnastoja voi olla useita, ja kullakin hinnastolla voi olla omat voimassaoloajat kunkin projektitarjouksen osalta. Project Operations ei tue projektin hinnastojen päivämäärien päällekkäisyyttä.
 
-Project Operations tukee kaikkia kolmea laskutussuunnitelmatyyppiä kiinteähintaisissa tarjousriveissä.
+## <a name="product-price-lists"></a>Tuotehinnastot
 
-## <a name="transaction-classification"></a>Tapahtuman luokittelu
+Tuotehinnastot ovat hinnastoja, joita käytetään tarjouksen tuotepohjaisten rivien oletushintojen syöttämiseen, ei kustannushintoihin. Tarjouksessa on vain yksi tuotehinnasto.
 
-Asiantuntijapalveluja myyvät organisaatiot tekevät asiakkailleen tarjouksia ja laskuttavat niitä yleensä tapahtuman luokittelun perusteella. Kustannuksia edustavat seuraavat tapahtumaluokat:
+## <a name="transaction-classes"></a>Tapahtumaluokat
 
-- **Aika**: Tämä luokka edustaa työn tai henkilöresurssien ajan kustannuksia projektissa.
-- **Kulu**: Tämä luokka edustaa kaikkia muita projektin kuluja. Koska kuluja voidaan luokitella laajasti, useimmat organisaatiot luovat alaluokkia, kuten matka-, autonvuokraus-, hotelli- tai toimistotarvikekulut.
-- **Maksu**: Tämä luokka edustaa erilaisia yleiskuluja, sakkoja ja muita asioita, jotka veloitetaan asiakkaalta. 
-- **Vero**: Tämä luokka edustaa veromääriä, jotka käyttäjät lisäävät syöttäessään kuluja.
-- **Materiaalitapahtuma**: Tämä luokka edustaa vahvistetun projektilaskun tuoterivien todellisia arvoja.
-- **Välitavoite**: Tätä luokkaa käytetään kiinteähintaisessa laskutuslogiikassa.
+Project Operations tukee neljää tapahtumaluokan tyyppiä:
 
-Kullekin tarjousriville voidaan kohdentaa yksi tai useampi tällainen tapahtumaluokka. Kun tarjous on voitettu, tapahtumaluokan ja tarjousrivin välinen yhdistämismääritys siirretään sopimusriville.
-  
-Tarjous voi sisältää esimerkiksi seuraavat kaksi tarjousriviä: 
+- Aika
+- Kulu
+- Materiaali
+- Maksu
 
-- Konsultointityö, jossa käytetään aika ja materiaalit -laskutusmenetelmää, jossa voidaan soveltaa tapahtumaluokkia Aika ja Maksu. Esimerkiksi kaikki esimerkkiprojektin **Dynamics AX:n käyttöönotto** aika- ja maksutapahtumat laskutetaan asiakkaalta käytetyn ajan ja käytettyjen materiaalien perusteella. 
-- Tähän liittyvät matkakulut, joissa käytetään kiinteähintaisen laskutuksen menetelmää. Esimerkiksi kaikki esimerkkiprojektin **Dynamics AX:n käyttöönotto** matkakulut laskutetaan kiinteänä rahasummana.
+Kustannusten ja myynnin arvot voidaan arvioida ja ne voidaan kerryttää **Aika**-, **Kulu**- ja **Materiaali**-tapahtumaluokissa. **Maksu** on vain myyntituoton tapahtumaluokka.
 
-> [!NOTE]
-> Tarjous- tai sopimusriviin kohdennetun projektin ja tapahtumaluokkien **Aika**, **Kulu** ja **Maksu** yhdistelmän on oltava yksilöllinen. Jos sama projektin ja tapahtumaluokkien yhdistelmä kohdennetaan useammalle sopimus- tai tarjousriville, Project Operations ei toimi oikein.
+## <a name="work-entities-and-billing-entities"></a>Työkohteet ja laskutuskohteet
 
-## <a name="billing-types"></a>Laskutustyypit
+Projektit ja tehtävät ovat työtä edustavia entiteettejä. Tarjousrivit ja sopimusrivit ovat laskutusta edustavia entiteettejä. Voit linkittää erilaisia työkohteita laskutusasetuksiin liittämällä ne tarjous- tai sopimusriveihin.
 
-**Laskutustyyppi**-kenttä määrittää veloitettavuuskonseptin. Se on asetusjoukko, jolla on seuraavat mahdolliset arvot:
+## <a name="multi-customer-deals"></a>Monen asiakkaan tarjoukset
 
-- **Veloitettava**: Tämän roolin/luokan kulut ovat suoria kuluja, jotka edistävät projektin toteutusta, ja asiakas maksaa kyseisestä työstä. Maksu voi olla aika- ja materiaaliperusteinen tai kiinteähintainen. Kyseisen ajan käyttävä työntekijä saa kuitenkin vastaavan saldon laskutettavaan käytettyyn aikaansa.
-- **Ei-veloitettava**: Tämän roolin/luokan kulut katsotaan suoriksi kuluiksi, jotka edistävät projektin toteutusta, vaikka asiakas ei tätä tunnusta eikä maksa kyseisestä työstä. Kyseisen ajan käyttävä työntekijä ei saa laskutettavaa käytettyä aikaa.
-- **Ilmainen**: Tämän roolin/luokan kulut katsotaan suoriksi kuluiksi, jotka edistävät projektin toteutusta, ja asiakas tunnustaa tämän. Kyseisen ajan käyttävä työntekijä saa laskutettavaa käytettyä aikaa. Näitä kuluja ei kuitenkaan veloiteta asiakkaalta.
-- **Ei käytettävissä**: Tällä vaihtoehdolla seurataan sellaisista sisäisistä projekteista aiheutuvia kuluja, jotka eivät edellytä tuottojen seurantaa.
+Monen asiakkaan tarjouksia tapahtuu silloin, kun laskutettavana on useampi kuin yksi asiakas laskua kohti. Seuraavassa on joitakin tyypillisiä esimerkkejä:
 
-## <a name="invoice-schedule"></a>Laskutusaikataulu
+- **Alkuperäiset laitteiden valmistajayritykset (OEM) ja niiden kumppanit** – Kumppanit ja jälleenmyyjät myyvät tuotteen, joka sisältää lisäarvoa tuottavia palveluita. Asiakkaan kaupan aikana OEM rahoittaa tavallisesti osan projektista.
+- **Julkisen sektorin projektit** - Useat paikallishallinnon osastot suostuvat rahoittamaan hanketta, ja niitä laskutetaan aiemmin sovitun jaon mukaisesti. Esimerkiksi koulupiiri ja kaupungin tai paikallishallinnon osasto sopivat rahoittavansa uima-altaan rakentamista.
 
-Laskutusaikataulu on sarja projektin laskutuksen päivämääriä. Voit luoda laskutusaikataulun tarjousriville. Kullakin tarjousrivillä voi olla oma laskutusaikataulunsa. Laskutusaikataulun luonnissa on annettava seuraavat määritearvot:
+## <a name="invoice-schedules"></a>Laskutusaikataulut
 
-- Laskutuksen aloituspäivä 
-- Toimituspäivä, joka edustaa projektin laskutuksen päättymispäivää
-- Laskutustiheys
+Kullakin tarjousrivillä on oma laskutusaikataulu ja se on myös valinnainen. Laskutusaikatauluja luodaan tiettyjen alkamis- ja päättymispäivien sekä laskutustiheyden perusteella. Niitä käytetään sopimusvaiheessa, kun automaattinen laskun luontiprosessi määritetään. Tarjousvaiheessa aikataulut ovat valinnaisia. Kun laskutussuunnitelmat luodaan tarjousvaiheessa, ne kopioidaan projektisopimukseen, joka luodaan, kun projektitarjous on voitettu.
 
-Näitä kolmea määritearvoa käytetään luotaessa alustava päivämääräjoukko laskutuksen muodostamista varten.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Erot Dynamics 365 Sales -tarjouksiin
 
-## <a name="invoice-frequency"></a>Laskutustiheys
+Project Operationsin tarjoukset perustuvat Dynamics 365 Sales -tarjouksiin. Toiminnossa on kuitenkin joitakin tärkeitä eroja, jotka kannattaa tietää:
 
-Laskutustiheys on entiteetti, joka tallentaa laskujen luonnin tiheyden ilmaisemisessa auttavia määritearvoja. Seuraavat määritteet ilmaisevat tai määrittävät laskutustiheyden entiteettiä:
+- Project Operationsin tarjouksilla on kaksi erityyppistä riviä: yksi projekteille ja toinen tuotteille.
+- Project Operations -tarjouksilla on omat sivunsa ja lomake- ja käyttöliittymäelementtinsa, liiketoimintasäännöt, laajennusten liiketoimintalogiikka ja asiakaspuolen komentosarjat, jotka tekevät niistä erilaisia kuin Sales-tarjouksista.
+- Voit liittää Salesissa useita tilauksia yhteen myyntitarjoukseen. Project Operationsissa projektitarjoukseen voi liittää vain yhden projektisopimuksen.
+- Kun voitat myyntitarjouksen, siihen liittyvä mahdollisuus voi säilyä avoimena. Kun projektitarjous on voitettu, siihen liittyvä mahdollisuus suljetaan.
+- Myyntitarjous ei sisällä kaikkia projektitarjouksessa olevia kenttiä ja konsepteja. Kenttiä ovat esimerkiksi **Sopimusyksikkö**, **Asiakaspäällikkö** ja **Laskutusyhteyshenkilön nimi**.
+- Myynti- ja projektitarjouksille määritetään myös asetusjoukkoperusteinen kenttä **Tyyppi**. Myyntitarjouksessa tällä kentällä on arvo **Nimikepohjainen**. Projektitarjouksessa sen arvo on **Työpohjainen**.
 
-- **Jakso**: Kahden viikon ja viikon jaksoja tuetaan. 
-- **Suorituksia jaksossa**: Viikon ja kahden viikon jaksoille voi määrittää vain yhden suorituksen jaksoa kohden. Kuukauden jaksoille voidaan määrittää 1–4 suoritusta jaksossa. 
-- **Suorituspäivät**: Päivät, joina laskutus suoritetaan. Tämä määrite voidaan määrittää kahdella tavalla:
-  - **Arkipäivät**: Voit esimerkiksi määrittää, että laskutus suoritetaan joka maanantai tai joka toinen maanantai. Asiakkaat, joiden on määritettävä laskutus suoritettavaksi arkipäivänä, saattavat suosia tällaista määritystä. 
-  - **Kalenteripäivät**: Voit esimerkiksi määrittää, että laskutus suoritetaan jokaisen kuukauden 7. ja 21. päivänä. Jotkut organisaatiot saattavat suosia tällaista määritystä, koska se auttaa takaamaan, että laskutus suoritetaan kiinteällä aikataululla jokaisena kuukautena.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Kiinteähintaisen tarjousrivin laskutusaikataulu
-
-Kiinteähintaisessa tarjousrivissä voit käyttää **Laskutusaikataulu**-ruudukkoa luodaksesi laskutuksen välitavoitteita, jotka vastaavat tarjousrivin arvoa.
-
-- Voit luoda tasan jaettuja laskutuksen välitavoitteita valitsemalla laskutusvälin, antamalla laskutuksen aloituspäivän tarjousrivissä ja valitsemalla tarjoukselle arvon **Pyydetty suorituspäivä** tarjousotsikon **Yhteenveto**-osassa. Valitse sitten **Luo jaksoittaiset välitavoitteet** luodaksesi tasaisesti jaettuja välitavoitteita valitun laskutusvälin perusteella. 
-- Voit luoda kertasummaisen laskutuksen välitavoitteen luomalla välitavoitteen ja määrittämällä tarjousrivin aroksi välitavoitteen summan.
-- Voit luoda tiettyihin projektisuunnitelman tehtäviin perustuvia laskutuksen välitavoitteita luomalla välitavoitteen ja yhdistämällä sen projektiaikataulun elementtiin laskutuksen välitavoitteen käyttöliittymässä.
-
+Näiden erojen vuoksi emme suosittele käyttämään Salesin ja Project Operationsin tarjouksia toistensa vaihtoehtoina.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

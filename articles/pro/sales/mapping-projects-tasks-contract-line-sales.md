@@ -1,23 +1,23 @@
 ---
-title: Projektien ja tehtävien yhdistäminen projektipohjaiselle sopimusriville – lite
+title: Projektien ja tehtävien yhdistäminen projektisopimusriville
 description: Tässä artikkelissa on tietoja projektien ja tehtävien lisäämisestä sopimusriville ja niiden poistamisesta sopimusriviltä.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932522"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825054"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Projektien ja tehtävien yhdistäminen projektipohjaiselle sopimusriville 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Projektien ja tehtävien yhdistäminen projektisopimusriville 
 
 _**Koskee:** Lite-käyttöönotto - kaupasta proformalaskutukseen, Project Operationsin resurssiin/ei-varastointiin perustuvia skenaarioita_
 
-Projektipohjaisilla sopimusriveillä tietyt projektin tehtävät yhdistetään projektin sopimusriville.
+Projektin sopimusriveillä tietyt projektin tehtävät yhdistetään projektin sopimusriville.
 
 Kun tietyt tehtävät yhdistetään sopimusriville, laskutustapa, veloitettavuusvaihtoehdot, ei-ylitettävät rajoitukset ja sopimusriville määritetyt asiakkaat koskevat vain kyseisiä tehtäviä.
 
@@ -25,7 +25,7 @@ Jos käytössä on skenaario, jossa projektin yhdessä vaiheessa, esimerkiksi pr
 
 Kaikki muut projektin työrakenteen vaiheet voidaan liittää aika- ja materiaalipohjaiselle sopimusriville.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Tehtävien liittäminen projektipohjaisille sopimusriveille
+## <a name="associate-tasks-to-project-contract-lines"></a>Tehtävien liittäminen projektin sopimusriveille
 
 Tehtäviä voidaan liittää sopimusriveille **Sopimusrivi**-sivun **Veloitettavat tehtävät** -välilehdestä tai **Projekti**-sivun **Tehtävän laskutus** -välilehdestä.
 

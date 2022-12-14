@@ -1,17 +1,17 @@
 ---
-title: Tarjouksen keskeiset käsitteet – lite
+title: Projektitarjousten yksilölliset käsitteet
 description: Tässä artikkelissa on tietoja projektitarjousten sulkemisesta Project Operationsissa.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916974"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825889"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Projektitarjousten yksilölliset käsitteet
 
@@ -82,9 +82,13 @@ Kullakin tarjousrivillä on oma laskutusaikataulu ja se on myös valinnainen. La
 
 Project Operationsin tarjoukset perustuvat Dynamics 365 Sales -tarjouksiin. Toiminnossa on kuitenkin joitakin tärkeitä eroja, jotka kannattaa tietää:
 
-- **Muokkaa**- tai **Aktivoi**-toimintoja ei tueta.
+
 - Project Operations -tarjouksilla on kaksi erityyppistä riviä. Yksi on projekteille ja toinen tuotteille.
 - Project Operations -tarjouksilla on omat lomake- ja käyttöliittymäelementit, liiketoimintasäännöt, laajennusten liiketoimintalogiikka ja asiakaspuolen komentosarjat, jotka tekevät niistä erilaisia kuin Sales-tarjouksista.
+- Myyntitarjoukseen voi liittää useita tilauksia myyntitarjousten avulla. Project Operationsissa projektitarjoukseen voi liittää vain yhden projektisopimuksen.
+- Kun voitat myyntitarjouksen, siihen liittyvä mahdollisuus voi säilyä avoimena. Kun projektitarjous on voitettu, siihen liittyvä mahdollisuus suljetaan.
+- Myyntitarjous ei sisällä kaikkia projektitarjouksessa olevia kenttiä ja konsepteja. Kenttiä ovat esimerkiksi **Sopimusyksikkö**, **Asiakaspäällikkö** ja **Laskutusyhteyshenkilön nimi**.  
+- **Tyyppi**: Myynti- ja projektitarjouksille määritetään myös asetusjoukkoperusteinen kenttä, jonka nimi on **Tyyppi**. Myyntitarjouksessa tällä kentällä on arvo **Nimikepohjainen**. Projektitarjouksessa sen arvo on **Työpohjainen**.
 
 Näistä syistä ei ole suositeltavaa käyttää Sales-tarjousta ja Project Operations -tarjousta yhtäläisinä.
 

@@ -1,5 +1,5 @@
 ---
-title: Tarjouksen sulkeminen – lite
+title: Projektitarjousten sulkeminen
 description: Tässä artikkelissa on tietoja tarjouksen sulkemisesta Project Operationsissa.
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916928"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826171"
 ---
-# <a name="close-a-quote---lite"></a>Tarjouksen sulkeminen – lite
+# <a name="close-project-quotes"></a>Projektitarjousten sulkeminen
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
@@ -30,7 +30,7 @@ Jos tarjous liitetään mahdollisuuteen, kaikki muut mahdollisuuteen liittyvät 
 
 Jos projektissa on vielä toteutuneita aikatietoja, jotka on vielä liitetty tarjousluonnokseen, vain ajan tai kulujen kustannukset tallennetaan. Kun tarjous on suljettu voitettuna, sovellus määrittää kustannukset uudelleen peruuttaen vanhat toteutuneet kustannukset ja luoden uudelleen uudet toteutuneet kustannukset. Sovellus käsittelee nämä toteutuneet kustannukset liitetyn projektisopimusrivin laskutusmenetelmän mukaan. Jos toteutuneet kustannukset liittyvät ajan ja materiaalin sopimusriviin, vastaavat laskuttamattomat toteutuneet myynnit luodaan, kun tarjous suljetaan ja projektisopimus luodaan. Jos toteutuneet kustannukset liittyvät kiinteän hinnan sopimusriviin, sovellus lopettaa sellaisten toteutuneiden kustannusten uudelleenkäsittelyn, jotka perustuvat projektisopimusasiakkaita koskevien jaetun laskutuksen sääntöihin.
 
-## <a name="closing-a-quote-as-lost"></a>Tarjouksen sulkeminen hävittynä:
+## <a name="closing-a-quote-as-lost"></a>Tarjouksen sulkeminen hävittynä
 
 Kun suljet projektitarjouksen hävittynä, sen tilaksi tulee Suljettu ja tilan syy on Hävitty. Kun tarjous suljetaan, projektitarjous siirtyy vain luku -tilaan. Koska suljettua tarjousta ei voi avata uudelleen, ennen kuin suljet tarjouksen, vahvistusikkuna vahvistaa tekemäsi muutokset.
 

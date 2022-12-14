@@ -1,21 +1,21 @@
 ---
-title: Arvion tuonti projektipohjaiselle sopimusriville – lite
+title: Arvioiden tuonti projektista projektisopimusriville
 description: Tässä artikkelissa on tietoja siitä, miten projektin rahoitusarviot tuodaan sopimusriville.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924196"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824670"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Arvion tuonti projektipohjaiselle sopimusriville – lite
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Arvioiden tuonti projektista projektisopimusriville
 
-_**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
+_**Koskee:** Lite-käyttöönotto - kaupasta proformalaskutukseen, Project Operationsin resurssiin/ ei-varastoitaviin perustuvat skenaariot_
 
 Voit tuoda arvioita projektista projektipohjaiselle sopimusriville Dynamics 365 Project Operations -sovelluksessa.
 

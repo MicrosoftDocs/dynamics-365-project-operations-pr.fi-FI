@@ -1,23 +1,23 @@
 ---
-title: Useiden asiakkaiden hallinta projektitarjouksessa
+title: Useiden asiakkaiden hallinta projektipohjaisessa tarjouksessa
 description: Tässä artikkelissa on tietoja siitä, miten käsitellään tarjouksia, joissa käsitellään useita projektia rahoittavia asiakkaita.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928198"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825144"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Useiden asiakkaiden hallinta projektitarjouksessa
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Useiden asiakkaiden hallinta projektipohjaisessa tarjouksessa
 
-_**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
+_**Käytetään:** Project Operationsin resursseihin ja ei-varastoitaviin perustuvissa skenaarioissa_
 
-Projektitarjoukset tukevat skenaariota, joissa ehdotukseen liittyy useita asiakkaita, jotka rahoittavat sopimuksen. Tarjouksen **Yhteenveto**-välilehdessä on **Mahdollinen asiakas** -kenttä, joka määrittää kaupan ensisijaisen asiakkaan. Sopimuksen muut asiakkaat voidaan määrittää projektitarjouksen **Asiakkaat**-välilehdessä.
+Projektipohjaiset tarjoukset tukevat skenaariota, joissa ehdotukseen liittyy useita asiakkaita, jotka rahoittavat sopimuksen. Tarjouksen **Yhteenveto**-välilehdessä on **Mahdollinen asiakas** -kenttä, joka määrittää kaupan ensisijaisen asiakkaan. Sopimuksen muut asiakkaat voidaan määrittää projektitarjouksen **Asiakkaat**-välilehdessä.
 
 Kaikki tarjouksen asiakkaat projektitarjouksen **Asiakkaat**-välilehdessä ovat projektitarjouksen rivin oletusarvona tarjousta varten luoduille **uusille** projektipohjaisille tarjousriveille. Aiemmin luodut projektipohjaiset tarjousrivit eivät peri uusia tarjouksen asiakastietueita, jotka on luotu niiden jälkeen.
 

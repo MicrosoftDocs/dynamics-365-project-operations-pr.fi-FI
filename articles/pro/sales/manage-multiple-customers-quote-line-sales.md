@@ -1,23 +1,23 @@
 ---
-title: Useiden asiakkaiden hallinta projektipohjaisilla tarjousriveillä – lite
-description: Tässä artikkelissa käsitellään useiden asiakkaiden hallintaa projektipohjaisten tarjousrivien avulla.
+title: Useiden asiakkaiden hallinta projektin tarjousriveillä
+description: Tässä artikkelissa käsitellään useiden asiakkaiden hallintaa projektin tarjousriveillä.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927784"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824434"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Useiden asiakkaiden hallinta projektipohjaisilla tarjousriveillä – lite
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Useiden asiakkaiden hallinta projektin tarjousriveillä
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Projektipohjaiset tarjousrivit tukevat skenaarioita, joissa kullakin tarjousrivillä on luettelo asiakkaista, jotka maksavat sen. Tämä projektipohjaisen tarjousrivin asiakasluettelo voi olla sama kuin tarjouksen asiakkaiden luettelo. Voit myös muuttaa asiakasluettelon toiseksi. Kun projektitarjous on voitettu, projektipohjaisen tarjousrivin asiakasluettelo kopioidaan vastaavaan projektipohjaiseen sopimusriviin, luodaksesi lopullisen projektisopimuksen. Projektipohjaisen tarjouksen asiakkaat kopioidaan projektisopimukseen.
+Projektin tarjousrivit tukevat skenaarioita, joissa kullakin tarjousrivillä on luettelo asiakkaista, jotka maksavat sen. Tämä projektipohjaisen tarjousrivin asiakasluettelo voi olla sama kuin tarjouksen asiakkaiden luettelo. Voit myös muuttaa asiakasluettelon toiseksi. Kun projektitarjous on voitettu, projektipohjaisen tarjousrivin asiakasluettelo kopioidaan vastaavaan projektipohjaiseen sopimusriviin, luodaksesi lopullisen projektisopimuksen. Projektipohjaisen tarjouksen asiakkaat kopioidaan projektisopimukseen.
 
 Kun laskutat lopullista projektisopimusta, projektipohjaisen sopimusrivin asiakasluettelo on etusijalla projektisopimuksessa olevaan luetteloon nähden. Projektisopimuksen asiakasluetteloa käytetään vain uusien projektisopimusrivien oletusarvona.
 

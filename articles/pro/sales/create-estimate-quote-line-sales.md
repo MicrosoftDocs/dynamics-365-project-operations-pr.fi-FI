@@ -1,21 +1,21 @@
 ---
-title: Projektipohjaisen tarjousrivin arviointi
-description: Tässä artikkelissa on tietoja siitä, miten projektipohjaiselle tarjousriville luodaan arvio.
+title: Projektin tarjousrivin arviointi
+description: Tässä artikkelissa on tietoja arvion luomisesta projektin tarjousrivillä.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914352"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825983"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Projektipohjaisen tarjousrivin arviointi
+# <a name="estimate-a-project-quote-line"></a>Projektin tarjousrivin arviointi
 
-_**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
+_**Koskee:** Lite-käyttöönotto - kaupasta proformalaskutukseen, Project Operationsin resurssiin/ei-varastointiin perustuvia skenaarioita_
 
 Projektipohjaisella tarjousrivillä on tietoja, joiden avulla voidaan arvioida tarjousrivin toimittamiseen liittyvän työn kustannuksia ja mahdollista tuottoa.
 
@@ -24,7 +24,7 @@ Jos haluat arvioida projektipohjaisen tarjousrivin, valitse projektipohjaisellat
 - Luo arvio manuaalisesti suoraan tarjousriville tarjousrivin tietojen avulla. 
 - Luo projekti ja projektisuunnitelma ja liitä sitten projekti ja tehtävät projektiin tarjousriville. Prosessi, jossa projektisuunnitelman arviot tuodaan tarjousriville antamiesi tietojen perusteella, otetaan käyttöön.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Arvioiden luonti suoraan projektipohjaiselle tarjousriville
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Arvioiden luonti suoraan projektin tarjousriville
 
 Jos haluat luoda arvion projektipohjaiselle tarjousriville, valitse **Tarjousrivin tiedot** -välilehti. Tässä välilehdessä luotavaan rivinimikkeeseen tulee yhteenveto tämän tarjousrivin tarjotusta arvosta. 
 
@@ -68,8 +68,7 @@ Tarjousrivin tietojen valuutta kustannukselle tulee oletuksena tarjouksen sopimu
 
 Kannattavuuslaskelmat muuntavat tarjousrivin tiedot kustannukselle ja myynnille ympäristön perusvaluuttaan ja ilmoittavat tarjouksen yleisen arvioidun katteen.
 
-> [!HUOMAUTUS
-> > Valuutan pyöristysvirheitä ja muuttuneita katteita voi esiintyä, koska vaihtokurssien voimassaolopäivä puuttuu. Näitä laskelmia voi käyttää vain projektisopimuksissa, koska ne ovat pyöristyksiä, ja ne eivät ole varsinaisia lakimääräistä tai muuta raportointia, joka edellyttää valuuttakurssien pyöristystarkkuutta ja päivämäärävaikuttavuuden tuntemusta.
+> [!HUOMAUTUS Valuutan pyöristysvirheitä ja muuttuneita katteita voi esiintyä, koska vaihtokurssien voimassaolopäivä puuttuu. Näitä laskelmia voi käyttää vain projektisopimuksissa, koska ne ovat pyöristyksiä, ja ne eivät ole varsinaisia lakimääräistä tai muuta raportointia, joka edellyttää valuuttakurssien pyöristystarkkuutta ja päivämäärävaikuttavuuden tuntemusta.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,29 +1,29 @@
 ---
-title: Projektipohjaiset mahdollisuusrivit – lite
+title: Projektin mahdollisuusrivit
 description: Tässä artikkelissa on tietoja projektipohjaisista mahdollisuusriveistä. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e4f67bd9b7d51559e2942e9005b8f5f9187b1f78
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914260"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824951"
 ---
-# <a name="project-based-opportunity-lines---lite"></a>Projektipohjaiset mahdollisuusrivit – lite
+# <a name="project-opportunity-lines"></a>Projektin mahdollisuusrivit 
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
-Projektipohjaiset mahdollisuusivit ovat käytettävissä vain projektipohjaisissa mahdollisuuksissa. Projektipohjaisissa mahdollisuustietueissa on **Tyyppi**-kentän arvoksi on määritetty **Työperusteinen**.
+Projektin mahdollisuusivit ovat käytettävissä vain projektipohjaisissa mahdollisuuksissa. Projektipohjaisissa mahdollisuustietueissa on **Tyyppi**-kentän arvoksi on määritetty **Työperusteinen**.
 
-Projektipohjaiset mahdollisuusrivit ovat riviimikkeitä, jotka toimitetaan asiakkaalle käyttämällä projektia. Projektia ei voi kuitenkaan sitoa projektipohjaiseen mahdollisuusriviin. Projektit voidaan sitoa rivinimikkeisiin **Tarjous**-vaiheesta eteenpäin, koska mahdollisuus on yleensä jo varhaisessa vaiheessa kaupan elinkaaren aikana. Sen määrittäminen, kuinka monta projektia asiakkaan työn toimittamiseen käytetään, on päätös, joka tehdään myöhemmin myyntivaiheessa. Voit käyttää mahdollisuusvaihetta asiakkaan erillisten toimituskomponenttien määrittämiseen. Näiden komponenttien toimittamiseen käytettävien projektien todellista määrää koskevat päätökset voidaan siirtää eteenpäin, kunnes itse työstä tiedetään enemmän.
+Projektipn mahdollisuusrivit ovat riviimikkeitä, jotka toimitetaan asiakkaalle käyttämällä projektia. Projektia ei voi kuitenkaan sitoa projektipohjaiseen mahdollisuusriviin. Projektit voidaan sitoa rivinimikkeisiin **Tarjous**-vaiheesta eteenpäin, koska mahdollisuus on yleensä jo varhaisessa vaiheessa kaupan elinkaaren aikana. Sen määrittäminen, kuinka monta projektia asiakkaan työn toimittamiseen käytetään, on päätös, joka tehdään myöhemmin myyntivaiheessa. Voit käyttää mahdollisuusvaihetta asiakkaan erillisten toimituskomponenttien määrittämiseen. Näiden komponenttien toimittamiseen käytettävien projektien todellista määrää koskevat päätökset voidaan siirtää eteenpäin, kunnes itse työstä tiedetään enemmän.
 
-Alla on projektipohjaisen mahdollisuusrivin kentät:
+Alla ovat projektipohjaisen mahdollisuusrivin kentät:
 
-| **Kenttä** | **Sijainti** | **Kuvaus** | **Loppupään vaikutus** |
+| **Field** | **Location** | **Description** | **Loppupään vaikutus** |
 | --- | --- | --- | --- |
 | Tuotetyyppi | Yleiset-välilehti (piilotettu) | Voit valita jonkin seuraavista vaihtoehdoista:</br>- Projektipohjainen palvelu (käytettävissä vain kun Dynamics 365 Project Operations on asennettu)</br>- Tuotepohjainen (käytettävissä vain, kun Project Operations ja Dynamics 365 Sales on asennettu) | Tämän kentän arvoksi määritetään **Projektipohjainen palvelu**, kun luot projektipohjaisen mahdollisuusrivin mahdollisuuden projektipohjaisten rivien ruudukosta. <br> Jos muutat tai korvaat tämän arvon, projektin toimintoja ei voi ottaa käyttöön projektipohjaisissa rivinimikkeissä. |
 | Mahdollisuus | Yleiset-välilehti | Tämä kenttä on vain luku -tilassa, ja se viittaa ylätason mahdollisuustietueeseen, johon tämä rivinimike kuuluu. | Tämä kenttä ei vaikuta loppupään prosessiin. |

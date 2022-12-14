@@ -1,32 +1,32 @@
 ---
-title: Projektipohjaisen sopimusrivin arviointi – lite
+title: Projektin sopimusrivin arvioiminen
 description: Tässä artikkelissa on tietoja projektipohjaisen sopimusrivin arvioinnista.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914398"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824763"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Projektipohjaisen sopimusrivin arviointi – lite
+# <a name="estimate-a-project-contract-line"></a>Projektin sopimusrivin arvioiminen
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 
 Dynamics 365 Project Operationsin projektipohjaisella sopimusrivillä on tietoja, joiden avulla voi arvioida sopimusrivin toimittamiseen liittyvän työn kustannuksia ja potentiaalista tuottoa.
 
-Projektipohjaisen sopimusrivin voi arvioida siirtymällä projektipohjaisella **sopimusrivillä** **Sopimusrivin tiedot** -välilehteen.  Arvion voi luoda projektipohjaisella sopimusrivillä kahdella tavalla:
+Projektipohjaisen sopimusrivin voi arvioida siirtymällä **Sopimusrivin tiedot** -välilehteen projektipohjaisella **Sopimusrivillä**.  Arvion voi luoda projektipohjaisella sopimusrivillä kahdella tavalla:
 
    - Luo arvio suoraan sopimusrivillä lisäämällä sopimusrivin tiedot manuaalisesti.
    - Luo projekti ja projektisuunnitelma ja liitä sitten projekti ja tehtävät projektin sopimusriville. Tällä tavoin otetaan käyttöön prosessi, jolla voit tuoda projektisuunnitelman arvion sopimusriville sopimusriviin sisältyvien komponenttien perusteella.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Arvioinnin luominen suoraan projektipohjaisella sopimusrivillä
 
-Arvion luonti suoraan projektipohjaisella sopimusrivillä tapahtuu seuraavia vaiheita seuraamalla:
+Arvion luonti suoraan projektin sopimusrivillä tapahtuu seuraavia vaiheita seuraamalla:
 
 1. Siirry sopimusriville ja valitse **Sopimusrivin tiedot** -välilehti. Tässä välilehdessä luotavat rivit lasketaan yhteen, ja ne näkyvät tämän **sopimusrivin** **sopimuksen arvona**. 
 2. Valitse **Sopimusrivin tiedot** -alaruudukossa **Uusi sopimusrivin tieto**. Pikaluonnin liukusäädin avautuu. Seuraavat kentät ovat käytettävissä **Sopimusrivin tiedot** -sivulla.

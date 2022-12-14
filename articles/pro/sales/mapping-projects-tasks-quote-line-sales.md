@@ -1,23 +1,23 @@
 ---
-title: Projektien ja tehtävien yhdistäminen projektipohjaiselle tarjousriville
-description: Tässä artikkelissa on tietoja siitä, miten projektit ja tehtävät yhdistetään projektipohjaiseen tehtäväriviin.
+title: Projektien ja tehtävien yhdistäminen projektin tarjousriveille
+description: Tässä artikkelissa on tietoja siitä, miten projektit ja tehtävät yhdistetään projektin tehtäväriveihin.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917158"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824260"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Projektien ja tehtävien yhdistäminen projektipohjaiselle tarjousriville
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Projektien ja tehtävien yhdistäminen projektin tarjousriveille
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 
-Projektipohjaisilla tarjousriveillä voit yhdistää tiettyihin tehtäviin projektissa, joka on jo liitetty tarjousriviin.
+Projektin tarjousriveillä voit yhdistää tiettyihin tehtäviin projektissa, joka on jo liitetty tarjousriviin.
 
 Kun yhdistät tehtäviä tarjousriviin, seuraavat tarjousrivillä määritetyt kohteet koskevat vain kyseisiä tehtäviä:
 

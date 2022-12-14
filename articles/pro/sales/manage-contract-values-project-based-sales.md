@@ -1,19 +1,19 @@
 ---
-title: Projektipohjaisten sopimusrivien yleiskatsaus
-description: Tässä artikkelissa on tietoja projektipohjaisten sopimusrivien käyttämisestä.
+title: Projektin sopimusrivien yleiskatsaus
+description: Tässä artikkelissa on tietoja projektin sopimusrivien käsittelemisestä Project Operationsissa.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d32edac6537a4b0f51e9d2f72cb4a7342606d2c5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f5a529233692a39b0674417cd4ea225e40243086
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931418"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824622"
 ---
-# <a name="project-based-contract-lines-overview"></a>Projektipohjaisten sopimusrivien yleiskatsaus
+# <a name="project-contract-lines-overview"></a>Projektin sopimusrivien yleiskatsaus
 
 _**Koskee:** Project Operationsin resurssiin / muuhun kuin resurssiin perustuvia skenaarioita, Lite-käyttöönotto-kaupasta proformalaskutukseen_
 

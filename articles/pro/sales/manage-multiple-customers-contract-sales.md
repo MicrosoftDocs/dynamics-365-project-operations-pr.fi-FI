@@ -1,19 +1,19 @@
 ---
-title: Useiden asiakkaiden hallinta projektisopimuksissa – lite
+title: Useiden asiakkaiden hallinta projektisopimuksissa
 description: Tässä artikkelissa on tietoja useiden asiakkaiden hallinnasta projektisopimuksissa.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17cd464bad81a01f5f334524a542104d6f25717b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 001c3c822a5d1cef6bd85164ef5e63e81719dafb
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917201"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824528"
 ---
-# <a name="manage-multiple-customers-on-project-contracts---lite"></a>Useiden asiakkaiden hallinta projektisopimuksissa – lite
+# <a name="manage-multiple-customers-on-project-contracts"></a>Useiden asiakkaiden hallinta projektisopimuksissa
 
 _**Käytetään:** Lite-käyttöönotto – kauppa proformalaskutukseen_
 

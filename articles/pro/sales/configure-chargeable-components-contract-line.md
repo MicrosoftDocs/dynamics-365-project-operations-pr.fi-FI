@@ -1,23 +1,23 @@
 ---
-title: Projektipohjaisen sopimusrivin veloitettavien komponenttien määrittäminen
+title: Projektisopimusrivin laskutettavien komponenttien määrittäminen
 description: Tässä artikkelissa on tietoja laskutettavan osan lisäämisestä Project Operationsin sopimusriveille.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0e4118e8e56d45ef75f53d828e267a8a9c1c903a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 33296c93964cc88499e7a98d499b99463e59d62a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922954"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825560"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Projektipohjaisen sopimusrivin veloitettavien komponenttien määrittäminen
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Projektisopimusrivin laskutettavien komponenttien määrittäminen
 
 _**Koskee:** Lite-käyttöönotto - kaupasta proformalaskutukseen, Project Operationsin resurssiin/ei-varastointiin perustuvia skenaarioita_
 
-Projektipohjaiseen sopimusriviin on *sisällytetty* komponentteja ja *laskutettavia* osia.
+Projektin sopimusriviin on *sisällytetty* komponentteja ja *laskutettavia* osia.
 
 Sisältyvät komponentit ovat komponentteja, joihin liittyy:
 

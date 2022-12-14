@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911638"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826077"
 ---
 # <a name="manage-project-quotes"></a>Projektitarjousten hallinta
 
@@ -23,7 +23,7 @@ Dynamics 365 Project Operationsin projektitarjoukset on suunniteltu auttamaan pr
   - Tarjousrivin tiedot, jotka määrittävät ja arvioivat kunkin ylätason komponentin tai tarjousrivin työn. Työn aikataulu- tai päivämääräarviot ja taloudelliset seikat on sidottu kyseiseen tarjousriviin.
   - Sopimusmallit ja veloitettavat komponentit määritetään kullekin tarjousriville. Tämä määritys auttaa arvioimaan kunkin tarjousrivin ja koko tarjouksen tuottojen, kulutuksen ja kannattavuuden jakautumisen.
 
-## <a name="view-all-project-based-quotes"></a>Kaikkien projektipohjaisten tarjousten näyttäminen
+## <a name="view-all-project-quotes"></a>Kaikkien projektin tarjousten näyttäminen
 
 Luettelo kaikista projektitarjouksista, jotka näkyvät **Tarjoukset**-luettelosivulla. 
 
