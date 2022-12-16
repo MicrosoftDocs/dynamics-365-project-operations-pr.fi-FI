@@ -846,7 +846,7 @@
               items:
                 - name: Ennakot ja ennakkomaksuun perustuvat sopimukset
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Ennakkomaksuaikataulun määrittäminenEnnakkomaksuaikataulun määrittäminen
+                - name: Ennakkomaksuaikataulun määrittäminen
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Tilapäisen ennakon luominen projektisopimuksessa
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -1162,7 +1162,7 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Laskuautomaation määrittäminen
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Päivittäminen
+    - name: Päivitys
       items:
         - name: Modernien hyväksyntien päivityksessä huomioitavat asiat
           href: upgrade/upgrade-considerations-modern-approvals.md
